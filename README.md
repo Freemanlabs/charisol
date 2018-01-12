@@ -20,7 +20,7 @@ Install [nodejs][1] and [npm][2] on your system. Also have gulp globally install
 
 The required packages are in the `package.json` file. 
 
-After cloning the repo, Change directory in to the _root_  directory (*server*)
+After cloning the repo, Change directory in to the _root_  directory.
 Use `npm install` to install all dependencies.
 
 ## Running the application
