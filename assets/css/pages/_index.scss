@@ -1,0 +1,72 @@
+@mixin text-content($margin-top){
+  .text-content{
+    margin-top: $margin-top;
+    padding: 0 50px;
+  }
+}
+
+.index{
+  .top-wrapper{
+    background: url(/assets/img/bg_left_semi.svg) no-repeat top left;
+    background-size: 60%;
+    padding: 20px;
+  }
+  .intro{
+    @include text-content(150px);
+    background: white;
+
+    .six.columns:first-child{
+      padding: 20px 0 20px 20px;
+    }
+    p{
+      color: $lightGray;
+    }
+  }
+  .top-img{
+    background: url(/assets/img/bg_top.png) no-repeat center center;
+    background-size: cover;
+    height: calc(100vh - 50px);
+  }
+  .scale{
+    @include text-content(50px);
+    margin-top: 150px;
+    position: relative;
+    z-index: 2;
+  }
+  .simple{
+    @include text-content(150px);
+    color: white;
+    position: relative;
+    z-index: 1;
+    
+    .row{
+      background: url(/assets/img/bg_left_shape.svg) no-repeat top left;
+      background-size: 70%;
+      position: relative;
+      z-index: 1;
+    }
+    .six.columns:nth-child(2) img{
+      height: 550px;
+      margin-top: 150px;
+    }
+    .purple-bg{
+      background: transparentize($purple, 0.9);
+      height: 200px;
+      position: absolute;
+      top: 507px;
+      z-index: 0;
+      display: block;
+      width: 100%;
+    }
+  }
+  .benefits{
+    padding: 50px 0;
+    display: block;
+    width: 100%;
+    background: transparentize($purple, 0.9);
+
+    .content{
+      padding: 0 100px;
+    }
+  }
+}
