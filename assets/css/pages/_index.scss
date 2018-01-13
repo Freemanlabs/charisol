@@ -7,7 +7,7 @@
 
 .index{
   .top-wrapper{
-    background: url(/assets/img/bg_left_semi.svg) no-repeat top left;
+    background: url(../img/bg_left_semi.svg) no-repeat top left;
     background-size: 60%;
     padding: 20px;
   }
@@ -23,7 +23,7 @@
     }
   }
   .top-img{
-    background: url(/assets/img/bg_top.png) no-repeat center center;
+    background: url(../img/bg_top.png) no-repeat center center;
     background-size: cover;
     height: calc(100vh - 50px);
   }
@@ -40,7 +40,7 @@
     z-index: 1;
     
     .row{
-      background: url(/assets/img/bg_left_shape.svg) no-repeat top left;
+      background: url(../img/bg_left_shape.svg) no-repeat top left;
       background-size: 70%;
       position: relative;
       z-index: 1;
