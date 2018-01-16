@@ -1,0 +1,51 @@
+.team{
+  background: white;
+
+  .core, .community{
+    @include text-content(50px);
+    background: url(../img/bg_team_right.svg) no-repeat top right;
+    background-size: 32%;
+    position: relative;
+    z-index: 2;
+    padding: 50px 20px;
+  }
+  .community{
+    background: url(../img/bg_team_left.svg) no-repeat top left;
+    padding: 100px 20px;
+
+    .six:first-child {
+      padding: 0 50px;
+    }
+  }
+  .people-wrapper{
+    .purple-bg{
+      background: transparentize($purple, 0.9);
+      height: 100px;
+      position: absolute;
+      top: 478px;
+      z-index: 0;
+      display: block;
+      width: 100%;
+    }
+  }
+  .avatar{
+    height: 200px;
+    margin-bottom: 10px;
+  }
+  .people{
+    background: transparentize($purple, 0.9);
+    padding: 50px 70px;
+
+    p.light{
+      margin-bottom: 10px;
+      min-height: 50px;
+    }
+    h5{
+      font-size: 1.5em;
+      margin-bottom: 5px;
+    }
+    .text-wrap{
+      padding: 0 10px;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.contact{
+  @include text-content(50px);
+  min-height: calc(100vh - 400px);
+  background: white;
+
+  img{
+    height: calc(100vh - 200px);
+  }
+  h6{
+    color: $purple;
+    margin-bottom: 5px;
+  }
+  .content{
+    padding: 50px 50px 0 50px;
+  }
+  .text-content{
+    padding-left: 0;
+  }
+}

@@ -35,12 +35,12 @@ $lightGray: #A3A3A3;
     padding: 0 50px;
   }
 }
-
+@mixin shadow($a, $b, $c, $d) {
+  box-shadow: $a $b $c $d rgba(0,0,0,0.1);
+}
 %aBlock{
-  @include a(white);
   display: block;
   width: 100%;
-  height: 100%;
 }
 %navLeftAndHamburger{
   .nav-desktop-left{
@@ -111,6 +111,7 @@ button{
 }
 footer{
   padding: 20px 50px 70px 50px;
+  background: white;
   
   .nav-desktop-left{
     float: left;
@@ -210,7 +211,7 @@ footer{
   @extend %trans;
   color: white;
   border: 1px solid white;
-  border-radius: 5px;
+  border-radius: 3px;
   background: transparent;
   padding: 5px 25px;
 
@@ -219,20 +220,20 @@ footer{
     background: white;
   }
 }
+.btn-block-white{
+  @include shadow(-1px, 1px, 1px, 1px);
+  @extend .btn-trans-white;
+  @extend %aBlock;
+  color: $purple;
+  background: white;
+
+  &:hover{
+    color: white;
+    background: $purple;
+  }
+}
 .text-center{
   text-align: center;
-}
-.cancel{
-  // @extend %btn-clear;
-}
-.delete{
-  background: crimson;
-}
-.right{
-  float: right;
-}
-.left{
-  float: left;
 }
 .content-cover{
   display: none;
@@ -241,5 +242,50 @@ footer{
   right: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0,0,0, 0.5);
+  background: rgba(0,0,0, 0.6);
+}
+#profile{
+  width: 360px;
+  padding: 20px;
+  
+  h5{
+    margin-bottom: 0;
+  }
+  .head{
+    border-bottom: 1px solid $lightGray;
+    padding-bottom: 6px;
+    margin-bottom: 30px;
+
+    h5{
+      display: inline-block;
+    }
+    span{
+      float: right;
+      margin-right: 20px;
+      color: crimson;
+      cursor: pointer;
+    }
+  }
+  .blue-badge{
+    background: $purple;
+    font-size: 0.8em;
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: white;
+  }
+  .circle{
+    background: white;
+    padding: 5px;
+    border-radius: 50%;
+    margin-right: 10px;
+    display: inline-block;
+  }
+  .top-info{
+    img{
+      height: 130px
+    }
+    p{
+      margin-bottom: 10px;
+    }
+  }
 }
