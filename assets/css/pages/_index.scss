@@ -1,11 +1,6 @@
-@mixin text-content($margin-top){
-  .text-content{
-    margin-top: $margin-top;
-    padding: 0 50px;
-  }
-}
-
 .index{
+  background: white;
+
   .top-wrapper{
     background: url(../img/bg_left_semi.svg) no-repeat top left;
     background-size: 60%;
@@ -28,7 +23,7 @@
     height: calc(100vh - 50px);
   }
   .scale{
-    @include text-content(50px);
+    @include text-content(0px);
     margin-top: 150px;
     position: relative;
     z-index: 2;

@@ -1,40 +1,7 @@
-%navLeftAndHamburger{
-  .nav-desktop-left{
-    float: left;
-
-    .logo{
-      @extend %a;
-      font-size: 1.3em;
-
-      img{
-        max-height: 15px;
-        position: relative;
-        top: -5px;
-      }
-    }
-  }
-  .hamburger {
-    float: right;
-    cursor: pointer;
-    width: 40px;
-    padding: 10px;
-  
-    span {
-      display: block;
-      margin-bottom: 4px;
-      border: 1px solid black;
-    }
-    .last-child {
-      margin-bottom: 0;
-    }
-  }
-}
-
 .nav-desktop{
   @extend %navLeftAndHamburger;
 
   font-size: 1em;
-  // height: 50px;
   left: 0;
   padding: 15px 30px;
   position: absolute;
@@ -77,7 +44,40 @@
     }
   }
 }
-
 .nav-index{
   @extend %navLeftAndHamburger;
+}
+.menu{
+  width: 380px;
+  padding: 60px;
+  background: #2b2b2b;
+  text-align: right;
+
+  .close{
+    cursor: pointer;
+    color: white;
+    font-size: 0.6em;
+  }
+  ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  li{
+    font-size: 2em;
+    margin-bottom: 20px;
+
+    &.active img{
+      height: 10px;
+      margin-right: 20px;
+      position: relative;
+      top: -5px;
+    }
+  }
+  a{
+    @include a(white);
+  }
+  p{
+    font-size: 0.6em;
+  }
 }
