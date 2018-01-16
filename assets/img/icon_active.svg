@@ -1,0 +1,17 @@
+<svg width="65" height="65" viewBox="0 0 65 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>icon_active</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-3587 1197)">
+<g id="icon_active">
+<use xlink:href="#path0_fill" transform="translate(3587 -1197)" fill="url(#paint0_linear)"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(96.1458 46.2879 -46.2879 813.664 13.3262 -394.029)">
+<stop offset="0" stop-color="#B721FF"/>
+<stop offset="0.390098" stop-color="#9B43FF"/>
+<stop offset="1" stop-color="#21D4FD"/>
+</linearGradient>
+<path id="path0_fill" d="M 65 32.5C 65 50.4493 50.4493 65 32.5 65C 14.5507 65 0 50.4493 0 32.5C 0 14.5507 14.5507 0 32.5 0C 50.4493 0 65 14.5507 65 32.5Z"/>
+</defs>
+</svg>
