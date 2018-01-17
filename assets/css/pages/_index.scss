@@ -40,15 +40,18 @@
       position: relative;
       z-index: 1;
     }
+    p{
+      padding-right: 30px;
+    }
     .six.columns:nth-child(2) img{
-      height: 550px;
-      margin-top: 150px;
+      height: 600px;
+      margin-top: 70px;
     }
     .purple-bg{
       background: transparentize($purple, 0.9);
       height: 200px;
       position: absolute;
-      top: 507px;
+      top: 477px;
       z-index: 0;
       display: block;
       width: 100%;

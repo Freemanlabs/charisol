@@ -6,7 +6,7 @@ gulp.task('css', function(){
   gulp.src('assets/css/app.scss')
       .pipe(plumber())
       .pipe(sass({
-        outputStyle : 'compressed'
+        // outputStyle : 'compressed'
       }))
       .pipe(gulp.dest('assets/css/'))
 })
