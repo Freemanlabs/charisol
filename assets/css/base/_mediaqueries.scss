@@ -16,6 +16,21 @@
       background-size: 60%;
     }
   }
+  .pricing{
+    .text-content{
+      padding-top: 50px
+    }
+    .content{
+      padding: 50px 50px 0 50px;
+    }
+    footer{
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      padding: 20px 50px;
+      box-sizing: border-box;
+    }
+  }
 }
 @media screen and (max-width: 1280px){
 
@@ -55,6 +70,36 @@
         display: none;
       }
     } 
+  }
+  .team{
+    .core, .community{
+      .text-content{
+        margin-top: 0;
+      }
+      img{
+        height: 300px;
+      }
+    }
+    .people-wrapper .purple-bg{
+      display: none;
+    }
+    .avatar {
+      height: 150px;
+    }
+    .people .text-wrap {
+      padding: 0;
+    }
+    .community .text-content {
+      margin-top: 0;
+    }
+  }
+  .pricing{
+    h2 {
+      font-size: 3rem;
+    }
+    h5 {
+      font-size: 1em;
+    }
   }
 }
 @media screen and (max-width: 768px){
@@ -114,6 +159,77 @@
       }
     }
   }
+  
+  .team{
+    .core img, .community img{
+      display: none
+    }
+    .core .six:first-child, .community .six:nth-child(2){
+      width: 100%;
+
+      .text-content{
+        margin-top: 0;
+      }
+    }
+    .community .six:nth-child(2){
+      margin: 0;
+    }
+    .people{
+      .three.columns {
+        width: 50%;
+        margin-left: 0;
+      }
+      .tile{
+        padding: 20px 40px;
+      }
+      .avatar{
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+      div.m-b-md {
+        margin-bottom: 10px;
+      }
+      div.m-b-md p{
+        margin-bottom: 0;
+      }
+    } 
+  }
+  .pricing{
+    .three:first-child{
+      width: 100%;
+
+      .text-content{
+        padding-top: 20px;
+        margin-bottom: 50px;
+      }
+    }
+    .nine{
+      margin-left: 0;
+      width: 100%;
+      padding: 20px;
+
+      .three{
+        width: 50%;
+        margin-left: 0;
+      }
+    }
+  }
+  .contact{
+    .content {
+      padding: 50px 30px;
+    }
+    .text-content{
+      margin-top: 0;
+      padding-right: 0;
+    }
+    .six:first-child{
+      display: none;
+    }
+    .six:nth-child(2){
+      width: 100%;
+    }
+  }
 }
 @media screen and (max-width: 425px){
   .index{
@@ -169,6 +285,30 @@
         padding: 0 20px;
       }
     }
+  }
+  .team{
+    .core .text-content, .community .text-content {
+      padding: 0 20px;
+    }
+    .people{
+      padding: 50px 20px;
+  
+      .three.columns {
+        width: 100%;
+      }
+    }
+  }
+  .pricing{
+    .content{
+      padding: 20px 30px;
+    }
+    .nine .three{
+      width: 100%;
+      margin-left: 0;
+    }
+  }
+  .nav-top{
+    padding: 20px 20px 40px 20px;
   }
 }
 @media screen and (max-width: 375px){
