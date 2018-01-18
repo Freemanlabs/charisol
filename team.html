@@ -4,44 +4,25 @@
   <title>Team | Challaris.tech</title>
   <link rel="shortcut icon" href="/favicon.ico">
 	<meta charset="utf-8">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="theme-color" content="#ffffff">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="description" content="Charisol">
 	<link href="assets/css/app.css" rel="stylesheet">
   <script src="assets/js/jquery.min.js" type="text/javascript"></script>
-  <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="assets/js/jquery.modal.min.js" type="text/javascript"></script>
   <script src="assets/js/slideout.min.js" type="text/javascript"></script>
   <script src="assets/js/app.js" type="text/javascript"></script>
 </head>
 
 <body>
 
-  <nav id="menu-desktop" class="menu">
-    <ul>
-      <li><span class="close">X</span></li>
-      <li>
-        <a href="./index.html">Home</a>
-      </li>
-      <li class="active">
-        <img src="assets/img/icon_active.svg" alt="active">
-        <a href="./team.html">Team &amp; Community</a>
-      </li>
-      <li>
-        <a href="./pricing.html">Pricing</a>
-      </li>
-      <li>
-        <a href="./contact.html">Contact</a>
-      </li>
-      <li>
-        <button class="btn-trans-white">Start a project</button>
-      </li>
-      <li class="m-t-lg">
-        <p>© Charisol 2018</p>
-      </li>
-    </ul>
-  </nav>
-
-  <nav id="profile">
+  <nav id="profile" class="profile">
     <div class="head">
       <h5 class="light">Profile Details</h5>
       <span class="close">X</span>
@@ -58,7 +39,7 @@
         </div>
       </div>
     </div>
-    <div class="text-center m-t-md m-b-md">
+    <div class="m-t-md m-b-md">
       <p>
         Charisol’s core team is made up of oluptas in diam nunc adipiscing, qui in nunc proin suspendisse fringilla.
       </p>
@@ -96,10 +77,35 @@
       </p>
     </div>
     
-    <button class="btn-clear-purple m-b-xl">
+    <a class="btn-clear-purple m-b-xl" href="#ex1" rel="modal:open">
       Start a project
       <img src="assets/img/icon_right_purple.svg" alt="right">
-    </button>
+    </a>
+  </nav>
+
+  <nav id="menu-desktop" class="menu">
+    <ul>
+      <li><span class="close">X</span></li>
+      <li>
+        <a href="./index.html">Home</a>
+      </li>
+      <li class="active">
+        <img src="assets/img/icon_active.svg" alt="active">
+        <a href="./team.html">Team &amp; Community</a>
+      </li>
+      <li>
+        <a href="./pricing.html">Pricing</a>
+      </li>
+      <li>
+        <a href="./contact.html">Contact</a>
+      </li>
+      <li>
+        <a class="btn-trans-white" href="#ex1" rel="modal:open">Start a project</a>
+      </li>
+      <li class="m-t-lg">
+        <p>© Charisol 2018</p>
+      </li>
+    </ul>
   </nav>
   
 	<section class="team" id="panel">
@@ -107,7 +113,7 @@
     
     <nav class="nav-index nav-top">
       <div class="nav-desktop-left">
-        <a class="logo" href="#">
+        <a class="logo" href="./index.html">
           <img src="assets/img/challaris_tech_logo.svg" alt="Charisol">
         </a>
       </div>
@@ -324,27 +330,75 @@
         </div>
       </div>
     </div>
+    <div id="ex1" class="modal">
+      <h2>Start a project</h2>
+      <form action="https://formspree.io/dave170e71@gmail.com" method="POST">
+        <div class="div">
+          <label for="name">Name</label>
+          <input class="u-full-width" type="text" id="name" name="name" required>
+          <p class="light"><em>Tip: Could be your fullname or company name.</em></p>
+        </div>
+        <div class="div">
+          <label for="email">Email</label>
+          <input class="u-full-width" type="email" id="email" name="email" required>
+          <p class="light"><em>Tip: Could be your personal email address or company email address.</em></p>
+        </div>
+        <div class="div">
+          <label for="tel">Tel</label>
+          <input class="u-full-width" type="number" id="tel" name="tel" required>
+          <p class="light"><em>Tip: Could be your personal telephone number or company  telephone number.</em></p>
+        </div>
+        <div>
+          <label for="project_description">Project Description</label>
+          <textarea class="u-full-width" id="message" rows="10" name="project_description" required></textarea>
+          <p class="light"><em>Tip: This could as well be the job description. Please be as explicit as possible.</em></p>
+        </div>
+        <div>
+          <label for="personal">Personal Needed</label>
+          <textarea class="u-full-width" id="personal" rows="5" name="personal" required></textarea>
+          <p class="light"><em>Tip: This could be a mix of frontend / backend engineers, UI/UX designers, project managers, etc.</em></p>
+        </div>
+        <div class="div">
+          <label for="budget">Budget</label>
+          <input class="u-full-width" type="number" id="budget" name="budget" required>
+          <p class="light"><em>Tip: This amount is USD ($).</em></p>
+        </div>
+        <div class="div">
+          <label for="billing">Billing</label>
+          <select class="u-full-width" id="billing"  name="billing" required>
+            <option value="hourly">Hourly - $35</option>
+            <option value="weekly">Weekly - $1300</option>
+            <option value="monthly">Monthly - $4800</option>
+            <option value="onDemand">On demand - Varies</option>
+          </select>
+          <p class="light"><em>Tip: Your billing preference</em></p>
+        </div>
+        <div class="div">
+          <label for="date">Date</label>
+          <input class="u-full-width" type="date" id="date" name="start_date" required>
+          <p class="light"><em>Tip: This is the proposed start date of the project.</em></p>
+        </div>
+        <input class="m-t-lg btn-block-purple" type="submit" value="Submit">
+      </form>
+    </div>
 
   </section>
   <footer>
     <div class="nav-desktop-left">
-      <a class="logo" href="#">
+      <a class="logo" href="./index.html">
         <img src="assets/img/challaris_tech_logo.svg" alt="Charisol">
       </a>
     </div>
     <div class="links">
       <ul>
         <li>
-          <a href="#">Team</a>
+          <a href="./team.html">Team</a>
         </li>
         <li>
-          <a href="#">Pricing</a>
+          <a href="./pricing.html">Pricing</a>
         </li>
         <li>
-          <a href="#">Team</a>
-        </li>
-        <li>
-          <a href="#">Contact</a>
+          <a href="./contact.html">Contact</a>
         </li>
         <li>
           <a href="#">

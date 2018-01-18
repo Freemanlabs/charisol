@@ -1,14 +1,1 @@
-<svg width="17" height="12" viewBox="0 0 17 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<title>icon_right_purple</title>
-<desc>Created using Figma</desc>
-<g id="Canvas" transform="translate(-3382 -1186)">
-<g id="icon_right_purple">
-<g id="Vector">
-<use xlink:href="#path0_fill" transform="translate(3382 1186)" fill="#8064FF"/>
-</g>
-</g>
-</g>
-<defs>
-<path id="path0_fill" d="M 11.4476 0.180471C 11.216 -0.0601572 10.8305 -0.0601572 10.5909 0.180471C 10.3593 0.412971 10.3593 0.799928 10.5909 1.03189L 14.9351 5.39301L 0.599778 5.39301C 0.265608 5.39355 0 5.66019 0 5.99566C 0 6.33114 0.265608 6.60645 0.599778 6.60645L 14.9351 6.60645L 10.5909 10.9594C 10.3593 11.2001 10.3593 11.5876 10.5909 11.8195C 10.8305 12.0602 11.2165 12.0602 11.4476 11.8195L 16.8202 6.42598C 17.0599 6.19348 17.0599 5.80652 16.8202 5.57456L 11.4476 0.180471Z"/>
-</defs>
-</svg>
+<svg width="17" height="12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><use xlink:href="#path0_fill" fill="#8064FF"/><defs><path id="path0_fill" d="M11.448.18a.599.599 0 0 0-.857 0 .609.609 0 0 0 0 .852l4.344 4.361H.6c-.334 0-.6.267-.6.603 0 .335.266.61.6.61h14.335l-4.344 4.353a.62.62 0 0 0 0 .86c.24.241.626.241.857 0l5.372-5.393a.594.594 0 0 0 0-.851L11.448.18z"/></defs></svg>

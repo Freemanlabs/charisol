@@ -1,5 +1,7 @@
 .team{
   background: white;
+  position: relative;
+  z-index: 2;
 
   .core, .community{
     @include text-content(50px);

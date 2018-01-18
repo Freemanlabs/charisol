@@ -4,7 +4,7 @@
   "description": "Charisol website",
   "main": "index.js",
   "scripts": {
-    "start": "npm-run-all --parallel lint:watch gulp lite",
+    "start": "npm-run-all --parallel gulp lite",
     "lint": "node_modules/.bin/esw assets/js/app.js",
     "lint:watch": "npm run lint --watch",
     "lite": "lite-server –port 3000",
@@ -13,16 +13,21 @@
   "author": "Ekpo David <dave170e71@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-plumber": "^1.1.0",
-    "gulp-plumber-notifier": "0.0.3",
-    "gulp-sass": "^3.0.0",
-    "lite-server": "^2.3.0",
-    "npm-run-all": "1.8.0",
     "eslint": "2.9.0",
     "eslint-plugin-import": "1.6.1",
     "eslint-watch": "2.1.11",
-    "notifier": "^0.1.7"
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-plumber-notifier": "0.0.3",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.0.0",
+    "gulp-uglify": "^3.0.0",
+    "lite-server": "^2.3.0",
+    "notifier": "^0.1.7",
+    "npm-run-all": "1.8.0"
   },
   "dependencies": {}
 }
