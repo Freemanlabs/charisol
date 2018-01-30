@@ -1,4 +1,4 @@
-# Challaris.tech Website
+# Charisol.tech Website
 
 ## Introduction
 This is where the test for BrightCore's Frontend Design Team Project sits. 

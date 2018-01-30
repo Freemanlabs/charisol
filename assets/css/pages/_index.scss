@@ -7,7 +7,7 @@
     padding: 20px;
   }
   .intro{
-    @include text-content(150px);
+    @include text-content(100px);
     background: white;
 
     .six.columns:first-child{
@@ -29,7 +29,7 @@
     z-index: 2;
   }
   .simple{
-    @include text-content(150px);
+    @include text-content(100px);
     color: white;
     position: relative;
     z-index: 1;
@@ -42,6 +42,10 @@
     }
     p{
       padding-right: 30px;
+    }
+    .sub-title{
+      font-size: 1.5em;
+      margin-bottom: 10px;
     }
     .six.columns:nth-child(2) img{
       height: 600px;

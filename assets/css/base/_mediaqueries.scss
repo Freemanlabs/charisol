@@ -4,6 +4,11 @@
     margin: auto;
   }
 }
+@media screen and (min-width: 1366px){
+  .index .simple .row {
+    background-size: 60%;
+  }
+}
 @media screen and (min-width: 1280px){
   .index{
     .top-img {
@@ -33,7 +38,6 @@
   }
 }
 @media screen and (max-width: 1280px){
-
 }
 @media screen and (max-width: 1024px){
   .index{
