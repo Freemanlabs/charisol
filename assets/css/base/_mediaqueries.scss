@@ -6,7 +6,7 @@
 }
 @media screen and (min-width: 1366px){
   .index .simple .row {
-    background-size: 60%;
+    background-size: 62%;
   }
 }
 @media screen and (min-width: 1280px){
@@ -16,9 +16,6 @@
     }
     .top-wrapper {
       background-size: 55%;
-    }
-    .simple .row {
-      background-size: 60%;
     }
   }
   .pricing{
@@ -45,7 +42,7 @@
       height: 600px;
     }
     .top-wrapper {
-      background-size: 65%;
+      background-size: 70%;
     }
     .scale h1, .simple h1, .benefits h2{
       font-size: 3.0rem;
@@ -61,11 +58,15 @@
       }
     }
     .simple{
-      .six:nth-child(2) img{
-        height: 500px !important;
+      .seven{
+        width: 74%;
+      }
+      .five:nth-child(2){
+        display: none;
       }
       .row {
-        background-size: 70%;
+        background-size: 87%;
+        padding-bottom: 150px;
       }
       .text-content{
         margin-top: 130px;
@@ -134,17 +135,14 @@
     }
     .simple{
       .row {
-        background-size: 95%;
+        background-size: 125%;
         padding-bottom: 100px;
       }
       .text-content{
         padding-right: 100px;
       }
-      .six:first-child{
+      .seven{
         width: 100%;
-      }
-      .six:nth-child(2){
-        display: none;
       }
       .purple-bg{
         display: none;
@@ -163,7 +161,6 @@
       }
     }
   }
-  
   .team{
     .core img, .community img{
       display: none
@@ -244,6 +241,7 @@
       }
       .text-content{
         margin-top: 70px;
+        margin-bottom: 20px;
       }
       .six.columns:first-child {
         padding: 20px;
@@ -251,7 +249,7 @@
     }
     .top-wrapper{
       background: url(../img/bg_left_rect.svg) no-repeat top left;
-      background-size: contain;
+      background-size: 117%;
     }
     .top-img {
       display: none;;
@@ -314,16 +312,32 @@
   .nav-top{
     padding: 20px 20px 40px 20px;
   }
+  .faq, .start{
+    h1{
+      font-size: 3.0rem;
+    }
+    .content {
+      padding: 30px;
+    }
+  }
 }
 @media screen and (max-width: 375px){
   .index{
     .top-wrapper{
-      background-size: 120%;
+      background-size: 140%;
     }
   }
   footer .links li {
     padding: 0 15px;
   }
 }
+@media screen and (max-width: 360px){
+  .index .top-wrapper{
+    background-size: 155%;
+  }
+}
 @media screen and (max-width: 320px){
+  .index .top-wrapper {
+    background-size: 193%;
+  }
 }
