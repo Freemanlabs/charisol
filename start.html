@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Start a Project | Charisol</title>
+  <link rel="shortcut icon" href="/favicon.ico">
+	<meta charset="utf-8">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="theme-color" content="#ffffff">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="description" content="Charisol">
+	<link href="assets/css/app.css" rel="stylesheet">
+  <script src="assets/js/jquery.min.js" type="text/javascript"></script>
+  <script src="assets/js/slideout.min.js" type="text/javascript"></script>
+  <script src="assets/js/app.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+  <nav id="menu-desktop" class="menu">
+    <ul>
+      <li><span class="close">X</span></li>
+      <li>
+        <a href="./index.html">Home</a>
+      </li>
+      <li>
+        <a href="./team.html">Team &amp; Community</a>
+      </li>
+      <li>
+        <a href="./pricing.html">Pricing</a>
+      </li>
+      <li>
+        <a href="./contact.html">Contact</a>
+      </li>
+      <li>
+        <a href="./faq.html">FAQ</a>
+      </li>
+      <li>
+        <a class="btn-trans-white" href="./start.html">Start a project</a>
+      </li>
+      <li class="m-t-lg">
+        <p>© Charisol 2018</p>
+      </li>
+    </ul>
+  </nav>
+  <div id="panel">
+    <section class="start">
+      <nav class="nav-index nav-top">
+        <div class="nav-desktop-left">
+          <a class="logo" href="./index.html">
+            <img src="assets/img/charisol_logo.svg" alt="Charisol">
+          </a>
+        </div>
+        <div class="hamburger">
+          <span class="first-child"></span>
+          <span></span>
+          <span class="last-child"></span>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="content">
+          <div class="text-content">
+            <h1>
+              Start a Project
+            </h1>
+            <div>
+              <form action="https://formspree.io/dave170e71@gmail.com" method="POST">
+                <div class="row">
+                  <div class="six columns">
+                    <div class="div">
+                      <label for="name">Name</label>
+                      <input class="u-full-width" type="text" id="name" name="name" required>
+                      <p class="light"><em>Tip: Could be your fullname or company name.</em></p>
+                    </div>
+                  </div>
+                  <div class="six columns">
+                    <div class="div">
+                      <label for="email">Email</label>
+                      <input class="u-full-width" type="email" id="email" name="email" required>
+                      <p class="light"><em>Tip: Could be your personal email address or company email address.</em></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="six columns">
+                    <div class="div">
+                      <label for="tel">Tel</label>
+                      <input class="u-full-width" type="number" id="tel" name="tel" required>
+                      <p class="light"><em>Tip: Could be your personal telephone number or company  telephone number.</em></p>
+                    </div>
+                  </div>
+                  <div class="six columns">
+                    <div class="div">
+                      <label for="date">Start Date</label>
+                      <input class="u-full-width date" type="date" id="date" name="start_date" required>
+                      <p class="light"><em>Tip: This is the proposed start date of the project.</em></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="six columns">
+                    <div class="div">
+                      <label for="billing">Billing</label>
+                      <select class="u-full-width" id="billing"  name="billing" required>
+                        <option value="hourly">Hourly - $35</option>
+                        <option value="weekly">Weekly - $1300</option>
+                        <option value="monthly">Monthly - $4800</option>
+                        <option value="onDemand">On demand - Varies</option>
+                      </select>
+                      <p class="light"><em>Tip: Your billing preference</em></p>
+                    </div>
+                  </div>
+                  <div class="six columns">
+                    <div class="div">
+                      <label for="budget">Budget</label>
+                      <input class="u-full-width" type="number" id="budget" name="budget" required>
+                      <p class="light"><em>Tip: This amount is in USD ($).</em></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="div">
+                  <label for="project_description">Project Description (If your website had a job, what would it be?)</label>
+                  <textarea class="u-full-width" id="message" rows="8" name="project_description" required></textarea>
+                  <p class="light"><em>Tip: This helps you identify what type of website you are creating. Is it for lead gen? Is it informational? Is it a straight sales vehicle (SaaS, product sales, etc)? What *exactly* is the website supposed to do?</em></p>
+                </div>
+                <div>
+                  <label for="personal">Personal Needed</label>
+                  <textarea class="u-full-width" id="personal" rows="8" name="personal" required></textarea>
+                  <p class="light"><em>Tip: This could be a mix of frontend / backend engineers, UI/UX designers, project managers, etc.</em></p>
+                </div>
+                <input class="m-t-lg btn-curve-purple full" type="submit" value="Submit">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="nav-desktop-left">
+        <a class="logo" href="./index.html">
+          <img src="assets/img/charisol_logo.svg" alt="Charisol">
+        </a>
+      </div>
+      <div class="links">
+        <ul>
+          <li>
+            <a href="./team.html">Team</a>
+          </li>
+          <li>
+            <a href="./pricing.html">Pricing</a>
+          </li>
+          <li>
+            <a href="./contact.html">Contact</a>
+          </li>
+          <li>
+            <a href="./faq.html">FAQ</a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="assets/img/icon_linkedin.svg" alt="facebook">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="assets/img/icon_facebook.svg" alt="facebook">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="assets/img/icon_twitter.svg" alt="facebook">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
