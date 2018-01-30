@@ -38,6 +38,15 @@ $lightGray: #A3A3A3;
 @mixin shadow($a, $b, $c, $d) {
   box-shadow: $a $b $c $d rgba(0,0,0,0.1);
 }
+@mixin btn-clear ($color) {
+  @extend %btn-clear;
+  color: $color;
+
+  &:hover{
+    color: $color;
+  }
+}
+
 %aBlock{
   display: block;
   width: 100%;
@@ -200,60 +209,49 @@ footer{
 
 // Utility classes
 .btn-clear-purple{
-  @extend %btn-clear;
-  color: $purple;
-
-  &:hover{
-    color: $purple;
-  }
+  @include btn-clear ($purple);
+}
+.btn-clear-white{
+  @include btn-clear (white);
 }
 
-.btn-clear-white{
-  @extend %btn-clear;
-  color: white;
-  
+@mixin btn-trans ($color, $bg, $borderColor, $borderRadius, $padding, $hoverColor, $hoverBg) {
+  @extend %trans;
+  color: $color;
+  border: 1px solid $borderColor;
+  border-radius: $borderRadius;
+  background: $bg;
+  padding: $padding;
+
   &:hover{
-    color: white;
+    color: $hoverColor !important;
+    background: $hoverBg;
   }
 }
 .btn-trans-white{
-  @extend %trans;
-  color: white;
-  border: 1px solid white;
-  border-radius: 3px;
-  background: transparent;
-  padding: 5px 25px;
-
-  &:hover{
-    color: $black !important;
-    background: white;
-  }
+  @include btn-trans(white, transparent, white, 40px, 10px 25px, $black, white);
 }
 .btn-block-white{
   @include shadow(-1px, 1px, 1px, 1px);
-  @extend .btn-trans-white;
+  @include btn-trans($purple, transparent, white, 3px, 5px 25px, white, $purple);
   @extend %aBlock;
-  color: $purple;
-  background: white;
-
-  &:hover{
-    color: white;
-    background: $purple;
-  }
 }
 .btn-block-purple{
-  @extend .btn-trans-white;
-  width: 100%;
-  padding: 15px;
-
-  color: white;
-  background: $purple;
-
-  &:hover{
-    color: white;
-    background: $purple;
-  }
+  @include btn-trans(white, $purple, transparent, 3px, 15px, white, $purple);
+  @extend %aBlock;
 }
+.btn-curve-purple img, .btn-curve-white img{
+  margin-left: 10px;
+}
+.btn-curve-purple{
+  @include btn-trans(white, $purple, transparent, 40px, 10px 15px, white, $purple);
+  text-decoration: none;
+}
+.btn-curve-white{
+  @include btn-trans($purple, white, transparent, 40px, 10px 15px, $purple, white);
+  text-decoration: none;
+}
+
 .text-center{
   text-align: center;
 }
@@ -279,4 +277,8 @@ footer{
 }
 .blocker {
   z-index: 11;
+}
+.full{
+  display: block;
+  width: 100%;
 }

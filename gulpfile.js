@@ -11,7 +11,7 @@ gulp.task('imageMin', () =>
   gulp.src('assets/img/*')
       .pipe(plumber())
       .pipe(imagemin())
-      .pipe(gulp.dest('assets/dist/'))
+      .pipe(gulp.dest('assets/img/'))
 );
 
 gulp.task('css', function(){
