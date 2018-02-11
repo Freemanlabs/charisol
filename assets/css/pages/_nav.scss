@@ -150,4 +150,38 @@
       margin-bottom: 10px;
     }
   }
+  .skills-heading{
+    font-size: 13px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+  }
+  .skill-text{
+    margin-top: 0px;
+  }
+  .experience-heading{
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+  .experience-website{
+    color: $purple;
+    font-size: 12px;
+    display: block;
+    margin-bottom: 15px;
+  }
+  .experience-role{
+    margin-top: 0px;
+    margin-bottom: 2px;
+  }
+  .experience-period{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 12px;
+  }
+  .experience-role-ul{
+    list-style-position: outside;
+    padding-left: 20px;
+    li{
+      margin-bottom: 20px;
+    }
+  }
 }
