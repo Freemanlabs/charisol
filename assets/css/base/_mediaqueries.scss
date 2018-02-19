@@ -1,9 +1,9 @@
-@media screen and (min-width: 2000px){
-  .index{
-    max-width: 1440px;
-    margin: auto;
-  }
-}
+// @media screen and (min-width: 2000px){
+//   .index{
+//     max-width: 1440px;
+//     margin: auto;
+//   }
+// }
 @media screen and (min-width: 1366px){
   .index .simple .row {
     background-size: 62%;
@@ -15,7 +15,7 @@
       height: 650px;
     }
     .top-wrapper {
-      background-size: 55%;
+      background-size: contain;
     }
   }
   .pricing{

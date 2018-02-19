@@ -5,16 +5,53 @@
     background: url(../img/bg_left_semi.svg) no-repeat top left;
     background-size: 60%;
     padding: 20px;
+    min-height: 95vh;
+    position: relative;
+    z-index: 5;
   }
   .intro{
     @include text-content(100px);
     background: white;
-
+    width: 100%;
+    min-height: inherit;
     .six.columns:first-child{
       padding: 20px 0 20px 20px;
     }
     p{
       color: $lightGray;
+    }
+    .intro-content-wrapper{
+      min-height: inherit;
+      .left-pane{
+        min-height: inherit;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        .text-content{
+          flex: 2;
+          justify-content: center;
+          display: flex;
+          flex-direction: column;
+          padding-bottom: 60px;
+          margin-top: 0px;
+          .btn-curve-purple{
+            display: block;
+            width: 200px;
+            padding: 15px 20px;
+            text-align: center;
+            transition: transform 0.4s;
+          }
+          .btn-curve-purple:hover{
+            transform: scale(0.9);
+          }
+        }
+      }
+      .right-pane{
+        min-height: inherit;
+        .top-img{
+          min-height: inherit
+        }
+      }
     }
   }
   .top-img{
@@ -24,7 +61,8 @@
   }
   .scale{
     @include text-content(0px);
-    margin-top: 150px;
+    margin-top: 200px;
+    margin-bottom: 200px;
     position: relative;
     z-index: 2;
   }
@@ -99,10 +137,6 @@
       .start-project-btn{
         padding: 15px 40px;
         color: #333333;
-        text-transform: uppercase;
-        font-weight: 800;
-        font-size: 10px;
-        letter-spacing: 1.2px;
       }
       .start-project-btn:hover{
         color: #333333 !important;
