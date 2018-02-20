@@ -1,14 +1,23 @@
 @font-face {
-  font-family: 'proxima-nova-regular';
-  src: url('../fonts/proxima-nova/Alt-Regular-webfont.ttf') format('truetype')
+  font-family: 'vollkorn-regular';
+  src: url('../fonts/vollkorn/Vollkorn-Regular.ttf') format('truetype')
 }
 @font-face {
-  font-family: 'proxima-nova-light';
-  src: url('../fonts/proxima-nova/Thin-webfont.ttf') format('truetype')
+  font-family: 'vollkorn-bold';
+  src: url('../fonts/vollkorn/Vollkorn-Bold.ttf') format('truetype')
 }
 @font-face {
-  font-family: 'proxima-nova-semi-bold';
-  src: url('../fonts/proxima-nova/Semibold-webfont.ttf') format('truetype')
+  font-family: 'vollkorn-black';
+  src: url('../fonts/vollkorn/Vollkorn-Black.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: 'OpenSans-regular';
+  src: url('../fonts/open-sans/OpenSans-Regular.ttf') format('truetype')
+}
+@font-face {
+  font-family: 'OpenSand-bold';
+  src: url('../fonts/open-sans/Volkron-Bold.ttf') format('truetype')
 }
 
 $purple : #8064FF;
@@ -109,7 +118,7 @@ html, body{
   height: 100%;
 }
 body{
-  font-family: 'proxima-nova-regular', sans-serif;
+  font-family: 'OpenSans-regular', sans-serif;
   color: $black;
 }
 button{
@@ -171,12 +180,15 @@ footer{
 
 // Font sizes
 .bold{
-  font-family: 'proxima-nova-semi-bold', sans-serif;
+  font-family: 'OpenSans-Bold', sans-serif;
 }
 .light{
   font-family: 'proxima-nova-light', sans-serif;
 }
-
+.heading{
+  font-family: 'vollkorn-bold', 'serif';
+  font-size: 44px;
+}
 // Margins
 .m-b-sm{
   margin-bottom: 10px;
@@ -218,14 +230,19 @@ footer{
 @mixin btn-trans ($color, $bg, $borderColor, $borderRadius, $padding, $hoverColor, $hoverBg) {
   @extend %trans;
   color: $color;
+  display: block;
+  width: 180px;
   border: 1px solid $borderColor;
   border-radius: $borderRadius;
   background: $bg;
+  text-align: center;
   padding: $padding;
+  transition: transform 0.4s;
 
   &:hover{
     color: $hoverColor !important;
     background: $hoverBg;
+    transform: scale(0.9);
   }
 }
 .btn-trans-white{
@@ -244,11 +261,11 @@ footer{
   margin-left: 10px;
 }
 .btn-curve-purple{
-  @include btn-trans(white, $purple, transparent, 40px, 10px 15px, white, $purple);
+  @include btn-trans(white, $purple, transparent, 40px, 20px 15px, white, $purple);
   text-decoration: none;
 }
 .btn-curve-white{
-  @include btn-trans($purple, white, transparent, 40px, 10px 15px, $purple, white);
+  @include btn-trans($purple, white, transparent, 40px, 15px 15px, $purple, white);
   text-decoration: none;
 }
 

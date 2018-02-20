@@ -5,16 +5,53 @@
     background: url(../img/bg_left_semi.svg) no-repeat top left;
     background-size: 60%;
     padding: 20px;
+    min-height: 95vh;
+    position: relative;
+    z-index: 5;
   }
   .intro{
     @include text-content(100px);
     background: white;
-
+    width: 100%;
+    min-height: inherit;
     .six.columns:first-child{
       padding: 20px 0 20px 20px;
     }
     p{
       color: $lightGray;
+    }
+    .intro-content-wrapper{
+      min-height: inherit;
+      .left-pane{
+        min-height: inherit;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        .text-content{
+          flex: 2;
+          justify-content: center;
+          display: flex;
+          flex-direction: column;
+          padding-bottom: 60px;
+          margin-top: 0px;
+          .btn-curve-purple{
+            display: block;
+            width: 200px;
+            padding: 15px 20px;
+            text-align: center;
+            transition: transform 0.4s;
+          }
+          .btn-curve-purple:hover{
+            transform: scale(0.9);
+          }
+        }
+      }
+      .right-pane{
+        min-height: inherit;
+        .top-img{
+          min-height: inherit
+        }
+      }
     }
   }
   .top-img{
@@ -24,7 +61,8 @@
   }
   .scale{
     @include text-content(0px);
-    margin-top: 150px;
+    margin-top: 200px;
+    margin-bottom: 200px;
     position: relative;
     z-index: 2;
   }
@@ -63,12 +101,46 @@
   }
   .benefits{
     padding: 50px 0;
+    padding-bottom: 200px;
     display: block;
     width: 100%;
     background: transparentize($purple, 0.9);
-
     .content{
       padding: 0 100px;
+    }
+  }
+  .bottom-banner-wrapper{
+    min-height: 100px;
+    width: 100%;
+    transform: translateY(-120px);
+    .img-wrapper{
+      width: 65%;
+      min-height: 400px;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      border-radius: 10px;
+      margin: 0 auto;
+      background-image: url('../img/banner-img.jpg');
+      background-position: center;
+      background-size: cover;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .banner-text{
+        font-size: 24px;
+        display: block;
+        width: 65%;
+        text-align: center;
+      }
+      .start-project-btn{
+        padding: 15px 40px;
+        color: #333333;
+      }
+      .start-project-btn:hover{
+        color: #333333 !important;
+      }
     }
   }
 }
