@@ -6,15 +6,17 @@
             "id": "1",
             "name": "Adedolapo Olisa",
             "position": "Founder",
-            "img_src": "dolapo.jpg",
+            "img_src": "assets/img/dolapo.jpg",
             "description": "Dynamic, passionate and committed Software Engineer with 4 years experiences in various software development roles including Quality Analysis, Release Engineering & Software Development; developing robust code while executing multiple projects from concepts to delivery . I have strong critical thinking, problem solving, value adding skills and possess the mindset of continuous improvement in processes, infrastructure and tooling. ",
-            "skills": "HTML and XML, Javascript, Web-based software engineering, C#, TeamCity, Powershell, Jenkins, Visual Studio, MVC, Agile, Azure/AWS, SQL, Iaas/Paas, Bootstrap, JSON, ASP.NET, .NET, Git/Hg",
+            "skills": {
+                "Core Skills": ["HTML and XML, Javascript, Web-based software engineering, C#, TeamCity, Powershell, Jenkins, Visual Studio, MVC, Agile, Azure/AWS, SQL, Iaas/Paas, Bootstrap, JSON, ASP.NET, .NET, Git/Hg"]
+            }
         },
         {
             "id": "2",
             "name": "Toyosi Akeju",
             "position": "Product / Project Management",
-            "img_src": "toyosi.jpg",
+            "img_src": "assets/img/toyosi.jpg",
             "description": "Toyosi Akeju has a B.Sc. in Mass Communication with experience in broadcast, digital media and Software development industries. She currently is the Product/Project Management at Charisol. She is experienced and skilled in Corporate Communications; Digital Communications/Marketing; Broadcast Presentation; Advertising/Public Relations, Copy writing, Content Creation, Aggregation and Promotion; Market Research Analysis; Social Media Management. She adapts rapidly to the latest trends in creating technology solutions across various sectors. She is well read and interested in areas such as Product Development, Global Digital Strategies, Business Management, Analytics and Research, Strategic Communications, Corporate Communications, Media Planning and Branding.",
             "skills": ""
         },
@@ -22,7 +24,7 @@
             "id": "3",
             "name": "Yewande Akerele",
             "position": "Customer Support",
-            "img_src": "",
+            "img_src": "assets/img/noimg.jpg",
             "description": "Customer Support Hero with 2 years+ experience providing technical support via support channels (Live Chat, Tickets, Social Media, Playstore and Disqus) at a fast paced online VOD Startup. I am a Course Volunteer on Acumen+ where help manage the online community and onboard new Students. I am an excellent written & verbal communicator with the ability to build relationships while using my technical knowledge to creatively solve problems.",
             "skills": ""
         },
@@ -30,6 +32,7 @@
             "id": "4",
             "name": "Aiyetigbo Mary Damilola",
             "position": "QA Tester",
+            "img_src": "assets/img/mary.jpeg",
             "description": "A skilled software tester with over two years of technical experience having worked on different domains such as Core Banking Applications (e.g. Finacle), CRM, DWH, Business Intelligence and Payment Systems. I have good understanding of product development life cycle and Software testing life cycle with expertise in developing test documentation and creating and executing test cases. I have a practical experience testing software applications developed in various technologies like Python, PHP, Java and Android/iPhone for Mobile Apps. I also extensive knowledge in API testing as well as automation testing using Selenium.",
             "skills": ""
         },
@@ -37,6 +40,7 @@
              "id": "5",
              "name": "Babs Craig",
              "position": "Fullstack Developer and UI/UX Designer",
+             "img_src": "assets/img/babs.jpg",
              "description": "Full Stack Javascript with 2 years+ strong background in programming languages and frameworks, utilizing a wide range of software development & design tools in structuring, developing and implementing interactive client-focused websites while collaborating with engineers, product managers and business analysts in a remote team environment.",
              "skills": {
                  "Programming Languages": [
@@ -59,6 +63,7 @@
             "id": "6",
             "name": "David Ekpo",
             "position": "Software Developer, UI/UX Designer",
+            "img_src": "assets/img/david.png",
             "description": "Full Stack Developer and UX/UI Designer with 3 years+ strong background in Web programming languages, Frameworks, Product Management( Agile and Waterfall settings) utilizing a wide range of software development and design tools ranging from UI/UX design, React & VueJS, JavaScript, Ionic 1 & 2 and others.",
             "skills": {
                 "Programming Languages": [
