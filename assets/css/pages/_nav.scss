@@ -47,6 +47,9 @@
 }
 .nav-index{
   @extend %navLeftAndHamburger;
+  .hamburger{
+    margin-top: 25px;
+  }
 }
 .nav-top{
   @include shadow(-1px, 1px, 3px, 3px);
