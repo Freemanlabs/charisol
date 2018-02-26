@@ -125,6 +125,7 @@ html, body{
 body{
   font-family: 'OpenSans-regular', sans-serif;
   color: $black;
+  overflow-x: hidden;
 }
 button{
   background: transparent;
@@ -322,7 +323,7 @@ footer{
   margin-left: 10px;
 }
 .btn-curve-purple{
-  @include btn-trans(white, $purple, transparent, 40px, 20px 15px, white, $purple);
+  @include btn-trans(white, $purple, transparent, 40px, 15px 15px, white, $purple);
   text-decoration: none;
 }
 .btn-curve-white{

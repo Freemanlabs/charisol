@@ -17,12 +17,13 @@
   <script src="assets/js/jquery.min.js" type="text/javascript"></script>
   <script src="assets/js/slideout.min.js" type="text/javascript"></script>
   <script src="assets/js/app.js" type="text/javascript"></script>
+  <script src="assets/js/visibility.checker.js" type="text/javascript"></script>
 </head>
 
 <body>
   <nav id="menu-desktop" class="menu">
     <ul>
-      <li><span class="close">X</span></li>
+      <li><span class="close"></span></li>
       <li>
         <a href="./index.html">Home</a>
       </li>
@@ -63,21 +64,27 @@
       </nav>
       <div class="content">
         <div class="row">
-          <div class="three columns">
+          <div class="pricing-text-wrapper">
             <div class="text-content">
-              <h1>
-                Pricing
-              </h1>
-              <p>
-                We understand the intricacies of building 
-                aesthetically appealing products with high end functionality 
-                and are dedicated 24/7 to meeting the needs and demands of all our clients. 
-              </p>
-              <p>
-                To get started, select the required skill sets and the bulk hour payment plan that 
-                suits your project timeline and we will provide all the technical support needed to 
-                make your project a success.
-              </p>
+              <span class="heading-wrapper">
+                  <h1 class="heading no-reveal">
+                    Pricing
+                  </h1>
+              </span>
+              <span class="sub-text-wrapper">
+                <p class="sub-text no-reveal">
+                  We understand the intricacies of building 
+                  aesthetically appealing products with high end functionality 
+                  and are dedicated 24/7 to meeting the needs and demands of all our clients. 
+                </p>
+              </span>
+              <span class="sub-text-wrapper">
+                <p class="sub-text no-reveal">
+                  To get started, select the required skill sets and the bulk hour payment plan that 
+                  suits your project timeline and we will provide all the technical support needed to 
+                  make your project a success.
+                </p>
+              </span>
               </p>
               <a class="btn-curve-purple m-t-md" href="./start.html">
                 Start a project
@@ -85,17 +92,42 @@
               </a>
             </div>
           </div>
-          <div class="nine columns">
-            <div class="row">
-              <div class="three columns">
-                <div class="text-center tile">
-                  <img src="assets/img/icon_hour.svg" alt="hourly">
-                  <h5>Hourly Pricing</h5>
-                  <h2 class="bold">$35</h2>
-                  <div class="m-t-md">
-                    <p>
-                      Best suited for simple projects with short timelines and flexible deliverables.
-                    </p>
+          <div class="pricing-wrapper columns">
+            <div class="row pricing-wrapper-container">
+              <div class="columns">
+                <div class="text-center tile pricing-tile">
+                  <div class="icon-container" style="background-image: url('assets/img/icon_hour.svg')"></div>
+                  <div class="text-wrapper">
+                      <h5>Hourly Pricing</h5>
+                      <h2 class="bold">$35</h2>
+                      <div class="m-t-md">
+                        <p>
+                          Best suited for simple projects with short timelines and flexible deliverables.
+                        </p>
+                      </div>
+                  </div>
+                  <div class="btn-container">
+                      <a class="btn btn-curve-purple m-t-md" href="./start.html">
+                        Start a project
+                        <img src="assets/img/icon_right_white.svg" alt="right">
+                      </a>
+                  </div>
+                </div>
+              </div>
+              <div class="columns">
+                <div class="text-center tile pricing-tile">
+                  <div class="icon-container" style="background-image: url('assets/img/icon_week.svg')"></div>
+                  <div class="text-wrapper">
+                      <h5>Weekly Pricing</h5>
+                      <h2 class="bold">$1300/hour</h2>
+                      <span class="pricing-title-span">40 total hours of requested resources</span>
+                      <div class="m-t-md">
+                        <p>
+                          Ideal for intensive projects with moderate timelines and deliverables
+                        </p>
+                      </div>
+                  </div>
+                  <div class="btn-container">
                     <a class="btn-curve-purple m-t-md" href="./start.html">
                       Start a project
                       <img src="assets/img/icon_right_white.svg" alt="right">
@@ -103,16 +135,20 @@
                   </div>
                 </div>
               </div>
-              <div class="three columns">
-                <div class="text-center tile">
-                  <img src="assets/img/icon_week.svg" alt="weekly">
-                  <h5>Weekly Pricing</h5>
-                  <h2 class="bold">$1300/hour</h2>
-                  <span class="pricing-title-span">40 total hours of requested resources</span>
-                  <div class="m-t-md">
-                    <p>
-                      Ideal for intensive projects with moderate timelines and deliverables
-                    </p>
+              <div class="columns">
+                <div class="text-center tile pricing-tile active">
+                  <div class="icon-container" style="background-image: url('assets/img/icon_month.svg')"></div>
+                  <div class="text-wrapper">
+                      <h5>Monthly Pricing</h5>
+                      <h2 class="bold">$4800/hour</h2>
+                      <span class="pricing-title-span">160 total hours of requested resources</span>
+                      <div class="m-t-md">
+                        <p>
+                          Best suited for complex projects with lengthy timelines and fixed deliverables
+                        </p>
+                        </div>
+                  </div>
+                  <div class="btn-container">
                     <a class="btn-curve-purple m-t-md" href="./start.html">
                       Start a project
                       <img src="assets/img/icon_right_white.svg" alt="right">
@@ -120,32 +156,19 @@
                   </div>
                 </div>
               </div>
-              <div class="three columns active">
-                <div class="text-center tile">
-                  <img src="assets/img/icon_month.svg" alt="monthly">
-                  <h5>Monthly Pricing</h5>
-                  <h2 class="bold">$4800/hour</h2>
-                  <span class="pricing-title-span">160 total hours of requested resources</span>
-                  <div class="m-t-md">
-                    <p>
-                      Best suited for complex projects with lengthy timelines and fixed deliverables
-                    </p>
-                    <a class="btn-curve-purple m-t-md" href="./start.html">
-                      Start a project
-                      <img src="assets/img/icon_right_white.svg" alt="right">
-                    </a>
+              <div class="columns">
+                <div class="text-center tile pricing-tile">
+                  <div class="icon-container" style="background-image: url('assets/img/icon_demand.svg')"></div>
+                  <div class="text-wrapper">
+                      <h5>On Demand</h5>
+                      <h2 class="bold">Varies</h2>
+                      <div class="m-t-md">
+                        <p>
+                            Chat with us to create a custom plan for your project. We are just a click away! 
+                        </p>
+                      </div>                  
                   </div>
-                </div>
-              </div>
-              <div class="three columns">
-                <div class="text-center tile">
-                  <img src="assets/img/icon_demand.svg" alt="on demand">
-                  <h5>On Demand</h5>
-                  <h2 class="bold">Varies</h2>
-                  <div class="m-t-md">
-                    <p>
-                        Chat with us to create a custom plan for your project. We are just a click away! 
-                    </p>
+                  <div class="btn-container">
                     <a class="btn-curve-purple m-t-md" href="./start.html">
                       Start a project
                       <img src="assets/img/icon_right_white.svg" alt="right">

@@ -85,4 +85,9 @@ $(function () {
     $("#profile .close").on("click", function () {
         $(".content-cover").fadeOut(), $("#profile").toggleClass("show"), n.close()
     }), $(document).height() < $(window).height() && $("#panel").css("height", "100vh")
+
+    $(".pricing-tile").hover(function(){
+        $(".pricing-tile").removeClass('active');
+        $(this).addClass('active')
+    })
 });
