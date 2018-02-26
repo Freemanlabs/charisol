@@ -81,6 +81,7 @@
         padding-bottom: 150px;
       }
       .text-content{
+        padding-right: 60px !important;
         margin-top: 130px;
       }
       .purple-bg{
@@ -167,7 +168,7 @@
     }
   }
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 816px){
   .index{
     .top-img {
       height: 500px;
@@ -363,6 +364,7 @@
     .top-wrapper{
       background: url(../img/bg_left_rect.svg) no-repeat top left;
       background-size: 117%;
+      min-height: 70vh;
     }
     .scale{
       .section-2-wrapper{
