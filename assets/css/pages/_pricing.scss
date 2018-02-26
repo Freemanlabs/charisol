@@ -1,0 +1,111 @@
+.pricing{
+  min-height: calc(100vh - 400px);
+  background: white;
+  .pricing-text-wrapper{
+    width: 70%;
+    margin: 0 auto;
+    text-align: left;
+    a{
+      margin-top: 55px;
+    }
+  }
+  .nine{
+    background: transparentize($purple, 0.9);
+    margin-top: 50px;
+  }
+  .pricing-wrapper{
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 200px;
+    .pricing-wrapper-container{
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 50px;
+      .columns{
+        width: 25%;
+        padding: 15px;
+        margin-left: 0px;
+        .tile{
+          background: transparentize($purple, 0.9);
+          height: 100%;
+          padding: 25px;
+          min-height: 100px;
+          display: flex;
+          flex-direction: column;
+          transition: all 0.35s ease-out;
+          border-radius: 8px;
+          .icon-container{
+            height: 70px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            margin-bottom: 40px;
+            margin-top: 10px;
+            }
+          .text-wrapper{
+            flex: 2;
+            h2{
+              font-size: 3.1rem;
+              margin-bottom: 15px;
+              display: block;
+            }
+          }
+          .btn-container{
+            display: block;
+            .btn-curve-purple{
+              margin: 0 auto;
+              width: 85%;
+              padding: 15px 0px;
+            }
+          }
+        }
+        .tile.active{
+          box-shadow: 0px 0px 20px rgba(128, 100, 255, 0.15);
+          transform: scale(1.05, 1.08);
+          padding-bottom: 30px;
+        }
+      }
+    }
+  }
+  .text-content{
+    padding-top: 70px;
+  }
+  .three.active{
+    @include shadow(-1px, 1px, 5px, 5px);
+    background: white;
+    img{
+      border: 1px solid transparentize($purple, 0.5);
+      border-radius: 50%;
+    }
+    .btn-block-white{
+      color: white;
+      background: $purple;
+      box-shadow: none;
+      &:hover{
+        color: white;
+        background: $purple;
+      }
+    }
+  }
+  .tile{
+    padding: 20px;
+  }
+  h5{
+    font-size: 1.5em;
+    margin-bottom: 5px;
+  }
+  h2{
+    margin: 0;
+  }
+  .content{
+    padding: 20px 50px;
+  }
+  .text-content{
+    padding-left: 0;
+  }
+  .pricing-title-span{
+    font-weight: bold;
+    line-height: 18px;
+    display: block;
+  }
+}

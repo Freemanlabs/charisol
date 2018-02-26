@@ -1,0 +1,493 @@
+// @media screen and (min-width: 2000px){
+//   .index{
+//     max-width: 1440px;
+//     margin: auto;
+//   }
+// }
+@media screen and (min-width: 1366px){
+  .index .simple .row {
+    background-size: 62%;
+  }
+}
+@media screen and (min-width: 1280px){
+  .index{
+    .top-img {
+      height: 650px;
+    }
+    .top-wrapper {
+      background-size: contain;
+    }
+  }
+  .pricing{
+    .text-content{
+      padding-top: 50px
+    }
+    .content{
+      padding: 50px 50px 0 50px;
+    }
+    footer{
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      padding: 20px 50px;
+      box-sizing: border-box;
+    }
+  }
+}
+@media screen and (max-width: 1280px){
+  body{
+    font-size: 1.3em;
+  }
+  .heading{
+    font-size: 34px;
+  }
+  .btn-curve-purple{
+    width: 150px !important;
+    font-size: 12px !important;
+  }
+}
+@media screen and (max-width: 1024px){
+  .index{
+    .top-img {
+      height: 600px;
+    }
+    .top-wrapper {
+      background-size: 70%;
+    }
+    .scale h1, .simple h1, .benefits h2{
+      font-size: 3.0rem;
+    }
+    .scale{
+      margin-top: 100px;
+      
+      .six:first-child img{
+        height: 300px;
+      }
+      .text-content{
+        padding: 0 30px;
+      }
+    }
+    .simple{
+      .seven{
+        width: 85%;
+        margin: 0 auto;
+        float: none;
+      }
+      .five:nth-child(2){
+        display: none;
+      }
+      .row {
+        background-size: 87%;
+        padding-bottom: 150px;
+      }
+      .text-content{
+        padding-right: 60px !important;
+        margin-top: 130px;
+      }
+      .purple-bg{
+        display: none;
+      }
+    } 
+    .bottom-banner-wrapper{
+      .img-wrapper{
+        width: 75%;
+      }
+      .banner-text{
+        font-size: 20px !important;
+        line-height: 28px;
+      }
+      .start-project-btn{
+        padding: 13px 18px !important;
+        font-size: 12px;
+      }
+    }
+  }
+  .team{
+    .people{
+      padding: 100px 30px;
+      #people-wrapper{
+        width: 98%;
+      }
+      .tile{
+        width: 30.3333333333333%;
+        padding: 50px 1.5%;
+      }
+    }
+    .core, .community{
+      .text-content{
+        margin-top: 150px;
+      }
+      img{
+        height: 300px;
+      }
+    }
+    .image-wrapper-container{
+      padding: 10px 40px;
+    }
+    
+    .people-wrapper .purple-bg{
+      display: none;
+    }
+    .avatar {
+      height: 150px;
+    }
+    .people .text-wrap {
+      padding: 0;
+    }
+    .community .text-content {
+      margin-top: 0;
+    }
+  }
+  .pricing{
+    .pricing-text-wrapper{
+      margin-left: 20px;
+    }
+    .pricing-wrapper-container{
+      .columns{
+        width: 50% !important;
+        margin-bottom: 50px;
+        .tile{
+          .btn-container{
+            width: 80%;
+            margin: 0 auto;
+            .btn-curve-purple{
+              width: 100% !important;
+            }
+          }
+        }
+        .tile.active{
+          transform: scale(1) !important;
+        }
+      }
+    }
+    h2 {
+      font-size: 3rem;
+    }
+    h5 {
+      font-size: 1em;
+    }
+  }
+}
+@media screen and (max-width: 816px){
+  .index{
+    .top-img {
+      height: 500px;
+    }
+    .top-wrapper {
+      background-size: 75%;
+    }
+    .intro h1{
+      font-size: 2.7rem;
+    }
+    .intro .text-content {
+      margin-top: 100px !important;
+      padding: 0 30px;
+    }
+    .scale{
+      margin-top: 0px;
+      margin-bottom: 20px;
+      .text-wrapper{
+        margin-top: 30px !important;
+      }
+      .six:first-child{
+        display: none;
+      }
+      .six:nth-child(2){
+        width: 100%;
+        margin-left: 0;
+      }
+    }
+    .simple{
+      .row {
+        background-size: 125%;
+        padding-bottom: 100px;
+      }
+      .text-content{
+        margin-top: 70px;
+        padding-right: 100px;
+      }
+      .seven{
+        width: 100%;
+      }
+      .purple-bg{
+        display: none;
+      }
+    }
+    .benefits{
+      .content {
+        padding: 0 50px;
+      }
+      img{
+        height: 50px;
+      }
+      .nine h5{
+        font-size: 1.2em;
+        margin-bottom: 10px;
+      }
+    }
+  }
+  .team{
+    .core{
+      .img-col{
+        display: none;
+      }
+    }
+    .core img, .community img{
+      display: none
+    }
+    .core .six:first-child, .community .six:nth-child(2){
+      width: 100%;
+
+      .text-content{
+        margin-top: 0;
+      }
+    }
+    .community .six:nth-child(2){
+      margin: 0;
+    }
+    .people{
+      padding: 50px 20px;
+      .three.columns {
+        width: 50%;
+        margin-left: 0;
+      }
+      .tile{
+        width: 46%;
+        padding: 50px 1.5%;
+      }
+      .avatar{
+        display: block;
+        width: 100%;
+      }
+      div.m-b-md {
+        margin-bottom: 10px;
+      }
+      div.m-b-md p{
+        margin-bottom: 0;
+      }
+    } 
+  }
+  .pricing{
+    .three:first-child{
+      width: 100%;
+
+      .text-content{
+        padding-top: 20px;
+        margin-bottom: 50px;
+      }
+    }
+    .nine{
+      margin-left: 0;
+      width: 100%;
+      padding: 20px;
+
+      .three{
+        width: 50%;
+        margin-left: 0;
+      }
+    }
+  }
+  .contact{
+    .content {
+      padding: 50px 30px;
+    }
+    .text-content{
+      margin-top: 0;
+      padding-right: 0;
+    }
+    .six:first-child{
+      display: none;
+    }
+    .six:nth-child(2){
+      width: 100%;
+    }
+  }
+}
+@media screen and (max-width: 675px){
+  .index{
+    .intro{
+      .columns{
+        width: 100%;
+        padding: 20px !important;
+      }
+      .columns.right-pane{
+        margin-left: 0px;
+        min-height: auto;
+      }
+    }
+    .top-img{
+      height: 350px !important;
+    }
+  }
+  .pricing{
+    .content{
+      padding: 20px;
+    }
+  }
+}
+@media screen and (max-width: 509px){
+  .pricing{
+    .pricing-wrapper-container{
+      .columns{
+        width: 100% !important;
+      }
+    }
+  }
+  .team{
+    .people{
+      .tile{
+        width: 96%;
+        padding: 30px 1.5%;
+      }
+    }
+  }
+}
+@media screen and (max-width: 425px){
+  .btn-curve-white{
+    padding: 12px;
+    width: 150px;
+  }
+  .index{
+    .intro {
+      .hamburger{
+        position: relative;
+        top: -10px;
+      }
+      .text-content{
+        margin-top: 70px;
+        margin-bottom: 20px;
+      }
+      .six.columns:first-child {
+        padding: 20px;
+      }
+    }
+    .top-wrapper{
+      background: url(../img/bg_left_rect.svg) no-repeat top left;
+      background-size: 117%;
+      min-height: 70vh;
+    }
+    .scale{
+      .section-2-wrapper{
+        padding-top: 0px;
+      }
+    }
+    .top-img {
+      display: none;
+    }
+    .simple{
+      background-image: url(../img/bg_left_shape.svg);
+      background-size: 450%;
+      .row {
+        background-size: cover
+      }
+      .text-content{
+        padding-right: 50px;
+      }
+      p {
+        padding-right: 0;
+      }
+    }
+    .benefits{
+      .row{
+        margin-top: 0;
+        text-align: center;
+      }
+      .heading{
+        padding: 0px 20px;
+      }
+      .columns{
+        padding-bottom: 30px;
+      }
+    }
+    .bottom-banner-wrapper{
+      .img-wrapper{
+        .banner-text{
+          font-size: 18px !important;
+          line-height: 24px !important;
+        }
+        .start-project-btn{
+          width: 130px;
+        }
+      }
+    }
+  }
+  footer{
+    padding: 20px;
+    
+    .nav-desktop-left .logo img {
+      top: 0
+    }
+    .nav-desktop-left, .links{
+      float: none;
+    }
+    .links{
+      margin-top: 10px;
+      li {
+        padding: 0 20px;
+      }
+    }
+  }
+  .team{
+    .core .text-content, .community .text-content {
+      padding: 0 20px;
+    }
+    .people{
+      padding: 50px 20px;
+  
+      .three.columns {
+        width: 100%;
+      }
+    }
+  }
+  .pricing{
+    .content{
+      padding: 20px 30px;
+    }
+    .nine .three{
+      width: 100%;
+      margin-left: 0;
+    }
+  }
+  .nav-top{
+    padding: 20px 20px 40px 20px;
+  }
+  .faq, .start{
+    h1{
+      font-size: 3.0rem;
+    }
+    .content {
+      padding: 30px;
+    }
+  }
+}
+@media screen and (max-width: 375px){
+  .index{
+    .top-wrapper{
+      background-size: 140%;
+    }
+  }
+  footer .links li {
+    padding: 0 15px;
+  }
+}
+@media screen and (max-width: 360px){
+  .index .top-wrapper{
+    background-size: 155%;
+  }
+  .index{
+    .simple{
+      background-image: url(../img/bg_left_shape.svg);
+      background-size: 850%;
+    }
+  }
+  .pricing{
+    .content{
+      padding: 15px 10px;
+    }
+  }
+}
+@media screen and (max-width: 320px){
+  .index .top-wrapper {
+    background-size: 193%;
+  }
+}
