@@ -10,8 +10,6 @@
   top: 0;
   z-index: 10;
   background: $purple;
-
-  
   .icon{
     margin-right: 5px;
     height: 12px;
@@ -47,8 +45,11 @@
 }
 .nav-index{
   @extend %navLeftAndHamburger;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   .hamburger{
-    margin-top: 25px;
+    margin-left: auto;
   }
 }
 .nav-top{

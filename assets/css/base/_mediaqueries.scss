@@ -349,9 +349,13 @@
   }
   .index{
     .intro {
+      
+      .logo{
+        height: 65px;
+        width: 100px;
+      }    
       .hamburger{
         position: relative;
-        top: -10px;
       }
       .text-content{
         margin-top: 70px;
