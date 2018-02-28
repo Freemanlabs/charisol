@@ -1,10 +1,7 @@
 $(function(){
-    console.log('team page loaded')
-    
     $.getJSON('./team-content.json',{
         format: 'json'
     }).done(function(data){
-        console.log(data.data)
         $.map(data.data, function(data){
             var person_synopsis = "<div class='tile'>"+
                                 "<div class='avatar-wrapper no-reveal'>"+
@@ -26,7 +23,5 @@ $(function(){
             $('#people-wrapper').append(person_synopsis);
         })
                               
-    }).fail(function(error){
-        console.log(error)
-    })
+    }).fail(function(error){})
 })

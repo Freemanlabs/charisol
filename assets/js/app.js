@@ -14,7 +14,8 @@ $(function () {
             menu: document.getElementById("profile"),
             padding: e,
             side: "left",
-            tolerance: 70
+            tolerance: 70,
+            touch: false
         });
     }
     $(".hamburger").on("click", function () {
@@ -30,7 +31,6 @@ $(function () {
         $.getJSON('./team-content.json',{
             format: 'json'
         }).done(function(data){
-            console.log(personID)
             var data_response = data.data
             var person_obj = data_response[personID]
             var profile_info =  "<div class='top-info'>"+
@@ -61,21 +61,17 @@ $(function () {
                             "<p class='bold skills-heading'>"+skill+"</p>"+
                             "<p class='m-t-md skill-text'>"+
                                 ($.each(skill_value, function(key, skill_val){
-                                    console.log(key)
                                    return skill_val +","
                                 })) +
                             "</p>"
                             )
                     })
-                    console.log(skill_string)
                     return skill_string
                 }
             }
             $('#profile-wrapper').html(profile_info + skills_info());
             $(".content-cover").fadeIn(), $("#profile").toggleClass("show"), n.toggle()
-        }).fail(function(error){
-            console.log(error)
-        })
+        }).fail(function(error){})
     }),
 
     $("#menu-desktop .close").on("click", function () {

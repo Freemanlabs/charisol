@@ -17,7 +17,6 @@ $.fn.isInViewport = function () {
 $.fn.reveal = function () {
     $(this).each(function (i) {
         if ($(this).isInViewport()) {
-            console.log('Time to reveal...')
             $(this).removeClass('no-reveal').addClass('reveal');
         }
     })
