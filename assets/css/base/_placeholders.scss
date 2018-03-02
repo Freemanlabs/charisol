@@ -152,6 +152,13 @@ footer{
     .logo{
       text-decoration: none;
       font-size: 1.3em;
+      display: block;
+      height: 85px;
+      width: 120px;
+      background-image: url('../img/charisol-logo_purple.svg');
+      background-position: left;
+      background-size: contain;
+      background-repeat: no-repeat;
 
       img{
         max-height: 15px;
