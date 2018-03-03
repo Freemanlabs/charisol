@@ -1,6 +1,8 @@
 .start{
   @extend .faq;
-
+  #start-form{
+    transition: all 0.5s ease-out;
+  }
   .date{
     height: 38px;
     padding: 6px 10px;
@@ -15,5 +17,16 @@
   }
   textarea{
     height: auto;
+  }
+  .response-msg-toast{
+    width: 400px;
+    height: 250px;
+    border: 1px solid;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: #00cc00;
+    z-index: 1;
+    border-radius: 3px;
   }
 }

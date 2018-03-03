@@ -86,4 +86,37 @@ $(function () {
         $(".pricing-tile").removeClass('active');
         $(this).addClass('active')
     })
+
+    $("#start-form").submit(function(e){
+        e.preventDefault();
+
+        var form = $(this);
+
+        var inputs = form.find("input, select, textarea");
+        console.log(inputs)
+        var serializedData = form.serialize();
+        inputs.prop('disabled', true);
+        form.css({opacity: '0.4'})
+
+        var request = $.ajax({
+            url: './mailer.php',
+            type: 'post',
+            data: serializedData
+        });
+
+        request.done(function (response){
+            toastr.success('Request Sent Successfully');
+            console.log(response);
+        })
+        request.fail(function(response){
+            console.log('failure')
+            toastr.error('An error Occured. Couldnt send request"');
+            console.log(response)
+        })
+        request.always(function(){
+            inputs.prop('disabled', false);
+            inputs.val("");
+            form.css({opacity: '1'});
+        })
+    })
 });
