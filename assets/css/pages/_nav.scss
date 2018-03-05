@@ -1,3 +1,4 @@
+
 .nav-desktop{
   @extend %navLeftAndHamburger;
 
@@ -9,8 +10,6 @@
   top: 0;
   z-index: 10;
   background: $purple;
-
-  
   .icon{
     margin-right: 5px;
     height: 12px;
@@ -46,12 +45,19 @@
 }
 .nav-index{
   @extend %navLeftAndHamburger;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .hamburger{
+    margin-left: auto;
+  }
 }
 .nav-top{
   @include shadow(-1px, 1px, 3px, 3px);
-  padding: 20px 40px 40px 40px;
-
+  padding: 0px 40px 0px 40px;
+  height: 75px;
   .hamburger{
+    margin-top: 25px;
     padding-top: 5px;
   }
 }
@@ -91,6 +97,11 @@
   }
   p{
     font-size: 0.6em;
+  }
+  .btn-trans-white{
+    margin: 0 auto;
+    font-size: 17px;
+    margin-top: 80px;
   }
 }
 .show{

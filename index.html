@@ -17,13 +17,23 @@
   <script src="assets/js/jquery.min.js" type="text/javascript"></script>
   <script src="assets/js/slideout.min.js" type="text/javascript"></script>
   <script src="assets/js/app.js" type="text/javascript"></script>
+  <script src="assets/js/smooth.scroll.js" type="text/javascript"></script>
+  <script src="assets/js/visibility.checker.js" type="text/javascript"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115010352-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-115010352-1');
+  </script>
 </head>
 
 <body>
 
   <nav id="menu-desktop" class="menu">
     <ul>
-      <li><span class="close">X</span></li>
+      <li><span class="close close-white"></span></li>
       <li class="active">
         <img src="assets/img/icon_active.svg" alt="active">
         <a href="./index.html">Home</a>
@@ -49,7 +59,7 @@
     </ul>
   </nav>
   
-	<section class="index" id="panel">
+	<section class="index" id="panel" data-slideout-ignore>
     <div class="top-wrapper">
       <div class="intro">
           <div class="row intro-content-wrapper">
@@ -62,17 +72,21 @@
                 </div>
                 <div class="hamburger">
                   <span class="first-child"></span>
-                  <span></span>
+                  <span class="mid-child"></span>
                   <span class="last-child"></span>
                 </div>
               </nav>
               <div class="text-content">
-                <h1 class="heading">
-                  Changing the game of Software Development, One Code at a time.
-                </h1>
-                <p class="m-b-lg" >
-                  Charisol is a software development agency that connects remote friendly companies with a community of talented software developers.
-                </p>
+                <span class="heading-wrapper">
+                    <h1 class="heading no-reveal">
+                        Changing the game of Software Development, One Code at a time.
+                    </h1>
+                </span>
+                <span class="sub-text-wrapper">
+                  <p class="sub-text no-reveal" >
+                      Charisol is a software development agency that connects remote friendly companies with a community of talented software developers.
+                    </p>
+                </span>
                 <a class="btn-curve-purple m-t-md" href="./start.html">
                   Start a project
                   <img src="assets/img/icon_right_white.svg" alt="right">
@@ -80,27 +94,47 @@
               </div>
             </div>
             <div class="six columns right-pane">
-                <div class="top-img"></div>
+              <div class="top-img-wrapper no-reveal">
+                  <div class="top-img"></div>
+              </div>
             </div>
           </div>
       </div>
     </div>
     <div class="scale">
-      <div class="row">
-        <div class="six columns">
-          <img src="assets/img/bg_scale.png" alt="Scaling software development teams.">
+      <div class="section-2-wrapper row">
+        <div class="six columns image-wrapper-container no-reveal">
+            <div class="clear-div-container">
+              <div class="clear-div">
+                  <div class="image-wrapper"
+                      alt="Scaling software Development teams" 
+                      style= background-image:url('assets/img/remote-work-img.jpg')>
+                  </div>
+                </div>
+            </div>
         </div>
-        <div class="six columns">
+        <div class="six columns text-wrapper">
           <div class="text-content">
-            <h1 class="heading">
-              The Future is Remote Work.
-            </h1>
-            <p>
-              We live in a global world where talent is largely decentralized. This is why we strongly believe in the future of remote work.
-            </p>
-            <p class="m-b-md">
-              Our experience in this field (successes and failures) has opened our minds and taught us how to work only with best practices. Thanks to apps like Trello, Skype, Zoom, Toptal, Google Apps, Github and others, our software developers are reachable round the clock.
-            </p>
+            <span class="heading-wrapper">
+                <h1 class="heading no-reveal">
+                  The Future is Remote Work.
+                </h1>
+            </span>
+            <span class="sub-text-wrapper">
+                <p class="sub-text no-reveal">
+                  We live in a global world where talent is largely decentralized. This is why we strongly believe in the future of remote work.
+                </p>
+            </span>
+            <span class="sub-text-wrapper">
+              <p class="sub-text no-reveal">
+                We live in a global world where talent is largely decentralized. This is why we strongly believe in the future of remote work.
+              </p>
+            </span>
+            <span class="sub-text-wrapper">
+                <p class="m-b-md sub-text no-reveal">
+                  Our experience in this field (successes and failures) has opened our minds and taught us how to work only with best practices. Thanks to apps like Trello, Skype, Zoom, Toptal, Google Apps, Github and others, our software developers are reachable round the clock.
+                </p>
+            </span>
           </div>
         </div>
       </div>
@@ -109,17 +143,23 @@
       <div class="row">
         <div class="seven columns">
           <div class="text-content">
-            <h1 class="heading m-b-md">
-              Our Services
-            </h1>
+            <span class="heading-wrapper">
+              <h1 class="heading no-reveal m-b-md">
+                Our Services
+              </h1>
+            </span>
             <p class="sub-title">Web Application</p>
-            <p class="m-b-lg">
-              Our web application development team works with NodeJs, AngularJs, Golang, Ruby on Rails, PHP, Java (and a long list of many other languages) to ensure highly scalable and optimally engineered solutions are delivered based on your project requirements.  
-            </p>
+            <span class="sub-text-wrapper">
+              <p class="sub-text no-reveal m-b-lg">
+                Our web application development team works with NodeJs, AngularJs, Golang, Ruby on Rails, PHP, Java (and a long list of many other languages) to ensure highly scalable and optimally engineered solutions are delivered based on your project requirements.  
+              </p>
+            </span>
             <p class="sub-title">Mobile App Development </p>
-            <p class="m-b-lg">
-              There are billions of users worldwide using mobile phones - it’s a no brainer why you need to build an Android or iOS app. Charisol’s mobile app development team has the right expertise and experience in not just building but also scaling your app.
-            </p>
+            <span class="sub-text-wrapper">
+              <p class="sub-text no-reveal m-b-lg">
+                There are billions of users worldwide using mobile phones - it’s a no brainer why you need to build an Android or iOS app. Charisol’s mobile app development team has the right expertise and experience in not just building but also scaling your app.
+              </p>
+            </span>
             <a class="btn-curve-white m-t-md" href="./start.html">
               Start a project
               <img src="assets/img/icon_right_purple.svg" alt="right">
@@ -133,7 +173,9 @@
       <div class="purple-bg"></div>
     </div>
     <div class="benefits">
-      <h2 class="heading text-center m-b-xl">Hire Dedicated Professionals</h2>
+      <span class="heading-wrapper">
+        <h2 class="heading no-reveal text-center m-b-xl">Hire Dedicated Professionals</h2>
+      </span>
       <div class="content m-t-lg">
         <div class="m-t-lg row">
           <div class="six columns">
@@ -143,9 +185,11 @@
               </div>
               <div class="nine columns">
                 <h5>Tested and Proven</h5>
-                <p>
-                  Our expertise ranges from developing offline web-based systems to highly scalable enterprise SAAS products. We have a proven record of delivering high quality deliverables to our clients.
-                </p>
+                <span class="sub-text-wrapper">
+                    <p class="sub-text no-reveal">
+                      Our expertise ranges from developing offline web-based systems to highly scalable enterprise SAAS products. We have a proven record of delivering high quality deliverables to our clients.
+                    </p>
+                </span>
               </div>
             </div>
           </div>
@@ -156,9 +200,11 @@
               </div>
               <div class="nine columns">
                 <h5>Dedicated Professionals</h5>
-                <p>
-                  We are available round the clock to get all your questions answered. Just call us or send us an email and we will get back to you as soon as we can. We are just one click away!
-                </p>
+                <span class="sub-text-wrapper">
+                    <p class="sub-text no-reveal">
+                      We are available round the clock to get all your questions answered. Just call us or send us an email and we will get back to you as soon as we can. We are just one click away!
+                    </p>
+                </span>
               </div>
             </div>
           </div>
@@ -171,9 +217,11 @@
               </div>
               <div class="nine columns">
                 <h5>Unparalleled Support </h5>
-                <p>
-                  We are available round the clock to get all your questions answered. Just call us or send us an email and we will get back to you as soon as we can. We are just one click away!
-                </p>
+                <span class="sub-text-wrapper">
+                    <p class="sub-text no-reveal">
+                      We are available round the clock to get all your questions answered. Just call us or send us an email and we will get back to you as soon as we can. We are just one click away!
+                    </p>
+                </span>
               </div>
             </div>
           </div>
@@ -184,9 +232,11 @@
               </div>
               <div class="nine columns">
                 <h5>Budget friendly</h5>
-                <p>
-                  Get proactive with your growth strategy with our development plan that suits your budget. All our plans have been cherry picked to make sure our clients get maximum return on investment.
-                </p>
+                <span class="sub-text-wrapper">
+                    <p class="sub-text no-reveal">
+                      Get proactive with your growth strategy with our development plan that suits your budget. All our plans have been cherry picked to make sure our clients get maximum return on investment.
+                    </p>
+                </span>
               </div>
             </div>
           </div>
@@ -195,20 +245,19 @@
     </div>
     <div class="bottom-banner-wrapper">
       <div class="img-wrapper">
-        <h2 class="banner-text">
+        <h2 class="banner-text no-reveal">
           Tap into a world of skilled software developers who are not only passionate about coding but also abide by the best professional practices.
         </h2>
         <a class="btn-curve-white start-project-btn m-t-md" href="./start.html">
           Start a project!
           <img src="assets/img/icon_right_black.svg" alt="right">
         </a>
-      </div>
+      </div>  
     </div>
   </section>
   <footer>
     <div class="nav-desktop-left">
       <a class="logo" href="./index.html">
-        <img src="assets/img/charisol_logo.svg" alt="Charisol">
       </a>
     </div>
     <div class="links">
