@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+
+<url>
+  <loc>http://www.charisol.io/index.html</loc>
+  <lastmod>2018-03-05T17:00:02+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://www.charisol.io/team.html</loc>
+  <lastmod>2018-03-05T17:00:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.charisol.io/about.html</loc>
+  <lastmod>2018-03-05T17:00:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.charisol.io/pricing.html</loc>
+  <lastmod>2018-03-05T17:00:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.charisol.io/contact.html</loc>
+  <lastmod>2018-03-05T17:00:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.charisol.io/faq.html</loc>
+  <lastmod>2018-03-05T17:00:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.charisol.io/start.html</loc>
+  <lastmod>2018-03-05T17:00:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
