@@ -43,7 +43,7 @@
         $message_body .= "Description: ".$project_description."\n";
         $message_body .= "Personal: ".$personal;
 
-        $reciever_address = "codingeek@trouvise.com";
+        $reciever_address = "info@charisol.io";
 
         if(mail($reciever_address, $message_subject, $message_body, 'From: '.$sender_email)){
             $message_data = [
