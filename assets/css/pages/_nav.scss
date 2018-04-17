@@ -93,7 +93,10 @@
     }
   }
   a{
-    @include a(white);
+    @include a(#FFFFFF);
+  }
+  a:hover{
+    @include a(#c038e0);
   }
   p{
     font-size: 0.6em;
