@@ -97,6 +97,7 @@ $(function () {
         var serializedData = form.serialize();
         inputs.prop('disabled', true);
         form.css({opacity: '0.4'})
+     
 
         var request = $.ajax({
             url: './mailer.php',
