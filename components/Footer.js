@@ -1,4 +1,4 @@
-const Footer = () => (
+export default (props) => (
   <div>
       <footer>
         <div className="nav-desktop-left">
@@ -52,7 +52,4 @@ const Footer = () => (
       </div>
     </footer>
   </div>
-  
 )
-          
-  export default Footer

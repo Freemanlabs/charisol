@@ -1,7 +1,7 @@
 import Head from 'next/head'
-export default () => (
+export default (props) => (
   <Head>
-    <title>Start a Project | Charisol</title>
+    <title>{props.title}</title>
     <link rel="shortcut icon" href="/favicon.ico" />
       <meta charset="utf-8" />     
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />

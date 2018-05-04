@@ -1,9 +1,9 @@
 import Link from 'next/link';
 import Layout from '../components/Layout';
-import stylesheet from '../styles/index.scss'
+import stylesheet from '../styles/index.scss';
 
 const Index = (props) => (
-  <Layout>  
+  <Layout title="A software development agency for remote companies | Charisol">  
     <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
     <section className="index" id="panel" data-slideout-ignore>
       <div className="top-wrapper">
@@ -31,7 +31,7 @@ const Index = (props) => (
                   <span className="sub-text-wrapper">
                     <p className="sub-text" >
                         Charisol is a software development agency that connects remote friendly companies with a community of talented software developers.
-                      </p>
+                    </p>
                   </span>
                   <a className="btn-curve-purple m-t-md" href="./start.html">
                     Start a project
