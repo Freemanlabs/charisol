@@ -1,0 +1,12 @@
+import Head from 'next/head'
+export default () => (
+  <Head>
+    <title>Start a Project | Charisol</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+      <meta charset="utf-8" />     
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+            <meta name="description" content="Charisol" />
+            <script src={`assets/js/jquery.min.js`} type="text/javascript"></script>
+  </Head>
+)
