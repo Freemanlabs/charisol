@@ -1,17 +1,22 @@
+import Link from 'next/link';
+
 export default (props) => (
   <div>
       <footer>
         <div className="nav-desktop-left">
-          <a className="logo" href="./index.html">
-          </a>
+          <Link href="/"><a className="logo" href="./index.html"></a></Link>
         </div>
         <div className="links">
           <ul>
             <li>
-              <a href="./about.html">About Us</a>
+              <Link href="/about">
+               <a>About Us</a>
+              </Link>
             </li>
             <li>
-              <a href="./team.html">Team</a>
+             <Link href="/team">
+              <a>Team</a>
+             </Link>    
             </li>
             <li>
               <a href="http://blog.charisol.io" target="no_blank">Blog</a>
@@ -23,7 +28,9 @@ export default (props) => (
               <a href="./testimonials.html">Testimonials</a>
             </li>
             <li>
-              <a href="./contact.html">Contact</a>
+              <Link href="/contact">
+                <a>Contact</a>
+              </Link>  
             </li>
             <li>
               <a href="./faq.html">FAQ</a>
