@@ -14,7 +14,9 @@ export default (props) => (
               </Link>
             </li>
             <li>
-              <a href="./team.html">Team</a>
+             <Link href="/team">
+              <a>Team</a>
+             </Link>    
             </li>
             <li>
               <a href="http://blog.charisol.io" target="no_blank">Blog</a>

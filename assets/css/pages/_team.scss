@@ -5,14 +5,14 @@
 
   .core, .community{
     @include text-content(200px);
-    background: url(../img/bg_team_right.svg) no-repeat top right;
+    background: url(http://res.cloudinary.com/sportbay-co/image/upload/v1525702594/bg_team_right_apemol.svg) no-repeat top right;
     background-size: 32%;
     position: relative;
     z-index: 2;
     padding: 50px 20px;
   }
   .community{
-    background: url(../img/bg_team_left.svg) no-repeat top left;
+    background: url(http://res.cloudinary.com/sportbay-co/image/upload/v1525702594/bg_team_right_apemol.svg) no-repeat top left;
     padding: 100px 20px;
 
     .six:first-child {
