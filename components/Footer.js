@@ -1,14 +1,17 @@
+import Link from 'next/link';
+
 export default (props) => (
   <div>
       <footer>
         <div className="nav-desktop-left">
-          <a className="logo" href="./index.html">
-          </a>
+          <Link href="/"><a className="logo" href="./index.html"></a></Link>
         </div>
         <div className="links">
           <ul>
             <li>
-              <a href="./about.html">About Us</a>
+              <Link href="/about">
+               <a>About Us</a>
+              </Link>
             </li>
             <li>
               <a href="./team.html">Team</a>
