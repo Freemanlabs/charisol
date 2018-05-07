@@ -26,7 +26,9 @@ export default (props) => (
               <a href="./testimonials.html">Testimonials</a>
             </li>
             <li>
-              <a href="./contact.html">Contact</a>
+              <Link href="/contact">
+                <a>Contact</a>
+              </Link>  
             </li>
             <li>
               <a href="./faq.html">FAQ</a>

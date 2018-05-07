@@ -1,8 +1,15 @@
 module.exports =
 
-        __NEXT_REGISTER_PAGE('/about', function() {
+        __NEXT_REGISTER_PAGE('/contact', function() {
           var comp = 
-      webpackJsonp([5],{
+      webpackJsonp([6],{
+
+/***/ "./assets/img/bg_contact.png":
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/bg_contact-2dc646f88e7c442fc95405748ae52057.png";
+
+/***/ }),
 
 /***/ "./assets/img/icon_facebook.svg":
 /***/ (function(module, exports) {
@@ -22,13 +29,6 @@ module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGlu
 /***/ (function(module, exports) {
 
 module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjEwMjkgLTcxMSAxOTgyIDE5ODIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMTAyOSAtNzExIDE5ODIgMTk4MjsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLnN0MHtmaWxsOiMxQTE5MTg7fQoJLnN0MXtmaWxsOiNGRkZGRkY7fQo8L3N0eWxlPgo8Y2lyY2xlIGNsYXNzPSJzdDAiIGN4PSIyMDIwIiBjeT0iMjg2IiByPSI5ODQiLz4KPHBhdGggY2xhc3M9InN0MSIgZD0iTTI0NDMuNyw2Mi4yaC0zMy41Yy0xMi40LDAtMzAsMTgtMzAsMjkuNHY0MTYuNWMwLDExLjUsMTcuNiwyNy4yLDMwLDI3LjJoMzMuNXY5OC45aC0zMDMuN3YtOTguOWg2My42Vjk3LjUKCWgtMy4xbC0xNDguNCw1MzYuN2gtMTE0LjlMMTc5MC43LDk3LjVoLTMuN3Y0MzcuOGg2My42djk4LjloLTI1NC4ydi05OC45aDMyLjZjMTMuNCwwLDMxLTE1LjcsMzEtMjcuMlY5MS42CgljMC0xMS41LTE3LjYtMjkuNC0zMS0yOS40aC0zMi42di05OC45aDMxNy45bDEwNC40LDM4OC40aDIuOWwxMDUuMy0zODguNGgzMTYuOVY2Mi4yIi8+Cjwvc3ZnPgo="
-
-/***/ }),
-
-/***/ "./assets/img/icon_right_white.svg":
-/***/ (function(module, exports) {
-
-module.exports = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTciIGhlaWdodD0iMTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjx1c2UgeGxpbms6aHJlZj0iI3BhdGgwX2ZpbGwiIGZpbGw9IiNGRkYiLz48ZGVmcz48cGF0aCBpZD0icGF0aDBfZmlsbCIgZD0iTTExLjQ0OC4xOGEuNTk5LjU5OSAwIDAgMC0uODU3IDAgLjYwOS42MDkgMCAwIDAgMCAuODUybDQuMzQ0IDQuMzYxSC42Yy0uMzM0IDAtLjYuMjY3LS42LjYwMyAwIC4zMzUuMjY2LjYxLjYuNjFoMTQuMzM1bC00LjM0NCA0LjM1M2EuNjIuNjIgMCAwIDAgMCAuODZjLjI0LjI0MS42MjYuMjQxLjg1NyAwbDUuMzcyLTUuMzkzYS41OTQuNTk0IDAgMCAwIDAtLjg1MUwxMS40NDguMTh6Ii8+PC9kZWZzPjwvc3ZnPg=="
 
 /***/ }),
 
@@ -1466,7 +1466,7 @@ module.exports = function(originalModule) {
 
 /***/ }),
 
-/***/ "./pages/about.js":
+/***/ "./pages/contact.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1477,7 +1477,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_Navbar__ = __webpack_require__("./components/Navbar.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__styles_about_scss__ = __webpack_require__("./styles/about.scss");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__styles_about_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__styles_about_scss__);
-var _jsxFileName = "/Users/macbook/workspace/charisol/challaris-tech-website/pages/about.js";
+var _jsxFileName = "/Users/macbook/workspace/charisol/challaris-tech-website/pages/contact.js";
 
 
 (function () {
@@ -1490,9 +1490,9 @@ var _jsxFileName = "/Users/macbook/workspace/charisol/challaris-tech-website/pag
 
 
 
-var About = function About(props) {
+var Contact = function Contact(props) {
   return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__components_Layout__["a" /* default */], {
-    title: "About Us | Charisol",
+    title: "Contact Us | Charisol",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
@@ -1510,109 +1510,234 @@ var About = function About(props) {
     "data-slideout-ignore": true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 8
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("section", {
     className: "pricing",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 9
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__components_Navbar__["a" /* default */], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 10
     }
   }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "content",
+    "class": "content",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    "class": "row",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "row",
+    "class": "six columns",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "pricing-text-wrapper",
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
+    src: __webpack_require__("./assets/img/bg_contact.png"),
+    alt: "Scaling software development teams.",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "text-content",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
-    className: "heading-wrapper",
+  })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    "class": "six columns",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h1", {
-    className: "heading",
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    "class": "text-content",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 17
     }
-  }, "About Charisol")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
-    className: "sub-text-wrapper",
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
+    "class": "heading-wrapper",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 18
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h1", {
+    "class": "heading",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    }
+  }, "Get in Touch.")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
+    "class": "sub-text-wrapper",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    className: "sub-text",
+    "class": "sub-text",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 24
     }
-  }, "Back in 2012, I was approached to build a simple coupon site application. With great excitement, I jumped at the opportunity to help a friend who had extensive experience working in a coupon company and hoped to own one, achieve a long term goal. See, at best I was a full stack backend engineer but that would even be stretching the truth. I found a template and wired up the front end to show live data and thought I was done. I discovered the small iterations took me longer than I would have spent wiring up the whole backend. It dawned on me, if I could not build a great looking coupon site from ground up, I cannot solve the numerous ideas I have painstakingly written down over the years. I knew I needed a team to journey alongside me with an open mind to interact with the problems within our sphere of imagination. This thought led me on the journey of putting together a capable, well rounded rockstar team with diverse skills that mesh into a coherent whole, my avengers! Our heartbeats to the melody of solutions that make music in the veins of those whose problems we partner with to solve. The vision of the company and by extension this team is to be a physical extension of a Graceful God. This vision is enshrined in the name of the company (Charisol - Charis Solutions), the logo, and the processes, products and people. Our culture is being crafted to pass through those who pass through us.")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
-    className: "sub-text-wrapper",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    className: "sub-text",
+  }, "Let\u2019s help you figure out your software engineering and design needs. We are super excited to get to chat with you and eager to work with you to bring your next project to life. Drop us a line or two and we will get in touch with you.")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    "class": "m-b-md",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 29
     }
-  }, "So what do we do? How do we translate our call? We seek to do this in the following ways: Building a strong network of highly skilled individuals with skillsets that span the full spectrum involved in researching a problem through designing, engineering, marketing and analysing the solution for optimization. Our community consists of young minds we equip and encourage take part of software engineering projects by connecting them to our network. Providing them opportunities to get hands on experience designing, building and marketing solutions to problems around us. Seeking opportunities to make a difference by focusing on creating impact, by so doing solving problems over monetary gains. Ensuring the long term health of the company is taken care of by providing expertise to help Companies solve problems in their industries."))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    className: "btn-curve-purple m-t-md",
-    href: "./start.html",
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h6", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    }
+  }, "Email: ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+    href: "mailto:info@charisol.io?subject=From Charisol Website",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    }
+  }, "info@charisol.io"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("form", {
+    id: "start-form",
+    action: "mailer.php",
+    method: "POST",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    "class": "row",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    "class": "six columns",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    "class": "div",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("label", {
+    "for": "name",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    }
+  }, "Name"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("input", {
+    "class": "u-full-width",
+    type: "text",
+    id: "name",
+    name: "name",
+    required: true,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37
+    }
+  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+    "class": "light",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 38
     }
-  }, "Start a project", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
-    src: __webpack_require__("./assets/img/icon_right_white.svg"),
-    alt: "right",
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("em", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40
+      lineNumber: 38
     }
-  })))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "pricing-wrapper columns",
+  }, "Tip: Could be your fullname or company name.")))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    "class": "six columns",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    "class": "div",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("label", {
+    "for": "email",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43
+    }
+  }, "Email"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("input", {
+    "class": "u-full-width",
+    type: "email",
+    id: "email",
+    name: "email",
+    required: true,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 44
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "row pricing-wrapper-container",
+  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+    "class": "light",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 45
     }
-  }))))));
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("em", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45
+    }
+  }, "Tip: Could be your personal email address or company email address."))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    "class": "div",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("label", {
+    "for": "project_description",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50
+    }
+  }, "Message"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("textarea", {
+    "class": "u-full-width",
+    id: "message",
+    rows: "8",
+    name: "project_description",
+    required: true,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51
+    }
+  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+    "class": "light",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("em", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52
+    }
+  }, "Tip: Could be a project brief, a partnership enquiry or asking about vacancies"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("button", {
+    "class": "m-t-lg btn-curve-purple full",
+    type: "submit",
+    value: "Submit",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54
+    }
+  }, "Submit")))))))));
 };
 
-var _default = About;
+var _default = Contact;
 /* harmony default export */ __webpack_exports__["default"] = (_default);
 ;
 
@@ -1625,8 +1750,8 @@ var _default = About;
     return;
   }
 
-  reactHotLoader.register(About, "About", "/Users/macbook/workspace/charisol/challaris-tech-website/pages/about.js");
-  reactHotLoader.register(_default, "default", "/Users/macbook/workspace/charisol/challaris-tech-website/pages/about.js");
+  reactHotLoader.register(Contact, "Contact", "/Users/macbook/workspace/charisol/challaris-tech-website/pages/contact.js");
+  reactHotLoader.register(_default, "default", "/Users/macbook/workspace/charisol/challaris-tech-website/pages/contact.js");
   leaveModule(module);
 })();
 
@@ -1647,7 +1772,7 @@ var _default = About;
           next.router.update(r, Component)
         }
       }
-    })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/about")
+    })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/contact")
   
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__("./node_modules/webpack/buildin/harmony-module.js")(module)))
 
@@ -1660,16 +1785,16 @@ module.exports = "@charset \"UTF-8\";\n/*! normalize.css v3.0.2 | MIT License | 
 
 /***/ }),
 
-/***/ 4:
+/***/ 5:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__("./pages/about.js");
+module.exports = __webpack_require__("./pages/contact.js");
 
 
 /***/ })
 
-},[4])
+},[5])
           return { page: comp.default }
         })
       ;
-//# sourceMappingURL=about.js.map
+//# sourceMappingURL=contact.js.map

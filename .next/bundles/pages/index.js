@@ -235,98 +235,103 @@ var _default = function _default(props) {
       fileName: _jsxFileName,
       lineNumber: 28
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    href: "./contact.html",
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
+    href: "/contact",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 29
     }
-  }, "Contact")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 30
+    }
+  }, "Contact"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
     href: "./faq.html",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 34
     }
   }, "FAQ")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 36
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
     target: "_blank",
     href: "https://www.instagram.com/charisoltech/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 37
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
     src: __webpack_require__("./assets/img/icon_instagram.svg"),
     alt: "Charisol LinkedIn",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 38
     }
   }))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 41
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
     target: "_blank",
     href: "http://facebook.com/charisoltech",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40
+      lineNumber: 42
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
     src: __webpack_require__("./assets/img/icon_facebook.svg"),
     alt: "Charisol Facebook",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 43
     }
   }))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 46
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
     target: "_blank",
     href: "https://twitter.com/CharisolTech",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 47
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
     src: __webpack_require__("./assets/img/icon_twitter.svg"),
     alt: "Charisol Twitter",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 48
     }
   }))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 51
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
     target: "_blank",
     href: "http://blog.charisol.io",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 52
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
     src: __webpack_require__("./assets/img/icon_medium.svg"),
     alt: "Charisol blog",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51
+      lineNumber: 53
     }
   })))))));
 };
