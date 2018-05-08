@@ -1746,7 +1746,7 @@ module.exports = "@charset \"UTF-8\";\n/*! normalize.css v3.0.2 | MIT License | 
 
 /***/ }),
 
-/***/ 6:
+/***/ 4:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__("./pages/team.js");
@@ -1754,7 +1754,7 @@ module.exports = __webpack_require__("./pages/team.js");
 
 /***/ })
 
-},[6])
+},[4])
           return { page: comp.default }
         })
       ;
