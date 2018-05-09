@@ -90,7 +90,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "d14810932444544d6f6e"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "b923c931f691a748c52d"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -755,7 +755,7 @@
 /******/ 		if (__webpack_require__.nc) {
 /******/ 			script.setAttribute("nonce", __webpack_require__.nc);
 /******/ 		}
-/******/ 		script.src = __webpack_require__.p + "" + ({"0":"main.js","1":"bundles/pages/_error.js","2":"bundles/pages/_app.js","4":"bundles/pages/index.js","5":"bundles/pages/about.js"}[chunkId]||chunkId) + "-" + {"0":"be51edac8d42cbfa0331","1":"9b03ff85b27d0d91c43b","2":"3fcab8123ce0e120769c","4":"ee19757ab905c72ec1c4","5":"efbea644b1da658463cd"}[chunkId] + ".js";
+/******/ 		script.src = __webpack_require__.p + "" + ({"0":"main.js","1":"bundles\\pages\\_error.js","2":"bundles\\pages\\_app.js","4":"bundles\\pages\\index.js","5":"bundles\\pages\\faq-page.js"}[chunkId]||chunkId) + "-" + {"0":"be51edac8d42cbfa0331","1":"03948520cf8fa9fb98fb","2":"fb09cfbde0cb0e69490e","4":"fb7f9451ffad7e156958","5":"22c9fa4c9afc5b8190f3"}[chunkId] + ".js";
 /******/ 		var timeout = setTimeout(onScriptComplete, 120000);
 /******/ 		script.onerror = script.onload = onScriptComplete;
 /******/ 		function onScriptComplete() {

@@ -1,15 +1,8 @@
 module.exports =
 
-        __NEXT_REGISTER_PAGE('/', function() {
+        __NEXT_REGISTER_PAGE('/faq-page', function() {
           var comp = 
-      webpackJsonp([4],{
-
-/***/ "./assets/img/alexonozor.jpg":
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/alexonozor-982ba23270a4a2fc9740894e54d97d48.jpg";
-
-/***/ }),
+      webpackJsonp([5],{
 
 /***/ "./assets/img/charisol_logo.svg":
 /***/ (function(module, exports) {
@@ -18,31 +11,10 @@ module.exports = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOTQiIGhlaWdodD0iMTki
 
 /***/ }),
 
-/***/ "./assets/img/david.png":
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/david-2503246d328f2d6b310356358e3503d7.png";
-
-/***/ }),
-
-/***/ "./assets/img/icon_chart.svg":
-/***/ (function(module, exports) {
-
-module.exports = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNzgiIGhlaWdodD0iNzgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjx1c2UgeGxpbms6aHJlZj0iI3BhdGgwX2ZpbGwiIGZpbGw9IiNGRkYiLz48dXNlIHhsaW5rOmhyZWY9IiNwYXRoMV9maWxsIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzMC41MSAyOC41NikiIGZpbGw9InVybCgjcGFpbnQxX2xpbmVhcikiLz48dXNlIHhsaW5rOmhyZWY9IiNwYXRoMl9maWxsIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxOC43OCAyMS42NykiIGZpbGw9InVybCgjcGFpbnQyX2xpbmVhcikiLz48dXNlIHhsaW5rOmhyZWY9IiNwYXRoM19maWxsIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzMi42NSA1Mi4yNSkiIGZpbGw9InVybCgjcGFpbnQzX2xpbmVhcikiLz48dXNlIHhsaW5rOmhyZWY9IiNwYXRoNF9maWxsIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyOS43NiAyNy43OSkiIGZpbGw9InVybCgjcGFpbnQ0X2xpbmVhcikiLz48dXNlIHhsaW5rOmhyZWY9IiNwYXRoNV9maWxsIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg0MS4zNyAyNi4wMSkiIGZpbGw9InVybCgjcGFpbnQ1X2xpbmVhcikiLz48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9InBhaW50MV9saW5lYXIiIHgyPSIxIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgxNi4xODI3IDEwLjQ1MjMgLTcuNzkwODkgMTgzLjczNCA3LjQ2OSAtNzguOTY2KSI+PHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjQjcyMUZGIi8+PHN0b3Agb2Zmc2V0PSIuNDciIHN0b3AtY29sb3I9IiNDODUwQzAiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNGRkNDNzAiLz48L2xpbmVhckdyYWRpZW50PjxsaW5lYXJHcmFkaWVudCBpZD0icGFpbnQyX2xpbmVhciIgeDI9IjEiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KDQwLjY3MjQgMTcuOTc4IC0xOS41ODExIDMxNi4wMjMgMTguNzcxIC0xMzUuODIxKSI+PHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjQjcyMUZGIi8+PHN0b3Agb2Zmc2V0PSIuNDciIHN0b3AtY29sb3I9IiNDODUwQzAiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNGRkNDNzAiLz48L2xpbmVhckdyYWRpZW50PjxsaW5lYXJHcmFkaWVudCBpZD0icGFpbnQzX2xpbmVhciIgeDI9IjEiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KDEzLjcwNTUgNy4wODA3NyAtNi41OTgyOCAxMjQuNDY4IDYuMzI1IC01My40OTQpIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNCNzIxRkYiLz48c3RvcCBvZmZzZXQ9Ii40NyIgc3RvcC1jb2xvcj0iI0M4NTBDMCIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI0ZGQ0M3MCIvPjwvbGluZWFyR3JhZGllbnQ+PGxpbmVhckdyYWRpZW50IGlkPSJwYWludDRfbGluZWFyIiB4Mj0iMSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIGdyYWRpZW50VHJhbnNmb3JtPSJtYXRyaXgoMTcuNjkzMSAxMS40Mjc5IC04LjUxODA0IDIwMC44ODMgOC4xNjYgLTg2LjMzNikiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI0I3MjFGRiIvPjxzdG9wIG9mZnNldD0iLjQ3IiBzdG9wLWNvbG9yPSIjQzg1MEMwIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjRkZDQzcwIi8+PC9saW5lYXJHcmFkaWVudD48bGluZWFyR3JhZGllbnQgaWQ9InBhaW50NV9saW5lYXIiIHgyPSIxIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCg3Ljg1ODk3IDUuMDcwNzEgLTMuNzgzNTggODkuMTM0NiAzLjYyNyAtMzguMzA5KSI+PHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjQjcyMUZGIi8+PHN0b3Agb2Zmc2V0PSIuNDciIHN0b3AtY29sb3I9IiNDODUwQzAiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNGRkNDNzAiLz48L2xpbmVhckdyYWRpZW50PjxwYXRoIGlkPSJwYXRoMF9maWxsIiBkPSJNNzggMzljMCAyMS41NC0xNy40NiAzOS0zOSAzOVMwIDYwLjU0IDAgMzkgMTcuNDYgMCAzOSAwczM5IDE3LjQ2IDM5IDM5eiIvPjxwYXRoIGlkPSJwYXRoMV9maWxsIiBkPSJNMTYuMDkyIDguMzQ0SDguMDQ2VjBDMy42MDYgMCAwIDMuNzMxIDAgOC4zNDRjMCA0LjYxMiAzLjU5OCA4LjM0MyA4LjA0NiA4LjM0MyA0LjQ0OCAwIDguMDQ2LTMuNzMxIDguMDQ2LTguMzQzeiIvPjxwYXRoIGlkPSJwYXRoMl9maWxsIiBkPSJNMzkuNjg1IDBILjc1MUMuMzM4IDAgMCAuMzUgMCAuNzc5YzAgLjQyOC4zMzguNzc4Ljc1MS43NzhoMS40NDR2MjQuOTQ2YzAgMS4yMTUuOTUgMi4xOTkgMi4xMiAyLjE5OWgzMS45N2MxLjE3MiAwIDIuMTIxLS45ODQgMi4xMjEtMi4yVjEuNTVoMS4yODhjLjQxMiAwIC43NS0uMzUuNzUtLjc3OWEuNzY3Ljc2NyAwIDAgMC0uNzU5LS43N3ptLTIuNzggMjYuNTAzYS42My42MyAwIDAgMS0uNjIuNjQxSDQuMzA4YS42My42MyAwIDAgMS0uNjItLjY0MVYxLjU0OWgzMy4yMTZ2MjQuOTU0eiIvPjxwYXRoIGlkPSJwYXRoM19maWxsIiBkPSJNLjIxNyA5Ljk3OGEuOC44IDAgMCAwIDAgMS4wOTUuNzMyLjczMiAwIDAgMCAuNTI4LjIzMWMuMTkgMCAuMzgtLjA3Ny41MjgtLjIzbDQuODAzLTQuOTgxdjQuNDMzYzAgLjQyOC4zMzguNzc4Ljc1Ljc3OC40MTMgMCAuNzUyLS4zNS43NTItLjc3OFY2LjA5M2w0Ljc3OCA0Ljk1NWEuNzMyLjczMiAwIDAgMCAuNTI4LjIzYy4xOSAwIC4zOC0uMDc2LjUyOC0uMjNhLjguOCAwIDAgMCAwLTEuMDk2bC01LjgzNC02LjA1VjEuNTU3aDIuOTYyYy40MTMgMCAuNzUxLS4zNS43NTEtLjc3OCAwLS40MjgtLjMzOC0uNzc5LS43NS0uNzc5SDMuMDA1Yy0uNDEzIDAtLjc1MS4zNS0uNzUxLjc3OSAwIC40MjguMzM4Ljc3OC43NS43NzhoMy4wNzl2Mi4zNDVMLjIxNyA5Ljk3OHoiLz48cGF0aCBpZD0icGF0aDRfZmlsbCIgZD0iTTguNzk3IDE4LjI0NWM0Ljg1MiAwIDguNzk3LTQuMDkgOC43OTctOS4xMjMgMC0uNDI4LS4zMzgtLjc3OC0uNzUxLS43NzhIOS41NDhWLjc3OUM5LjU0OC4zNSA5LjIxIDAgOC43OTcgMCAzLjk0NSAwIDAgNC4wOSAwIDkuMTIyczMuOTQ1IDkuMTIzIDguNzk3IDkuMTIzek04LjA0NiAxLjU5MnY3LjUzYzAgLjQyOC4zMzguNzc5Ljc1Ljc3OWg3LjI2M2MtLjM4IDMuODA4LTMuNDkgNi43OTUtNy4yNjIgNi43OTUtNC4wMjcgMC03LjI5NS0zLjM5OC03LjI5NS03LjU2NSAwLTMuOTIgMi44NzItNy4xNDYgNi41NDQtNy41NHoiLz48cGF0aCBpZD0icGF0aDVfZmlsbCIgZD0iTS43NTEgOC4wOTVoNi4zMTNjLjQxMyAwIC43NS0uMzUuNzUtLjc3OEE3LjUgNy41IDAgMCAwIDYuMDUgMi40NjVDNC43MDQuODk5IDIuNzczIDAgLjc1IDAgLjMzOCAwIDAgLjM1IDAgLjc3OXY2LjU0NmMwIC40MjguMzMuNzcuNzUxLjc3ek0xLjQ5NCAxLjZhNS41NDYgNS41NDYgMCAwIDEgMy40MjQgMS45IDUuODM4IDUuODM4IDAgMCAxIDEuMzQ1IDMuMDQ2aC00Ljc3VjEuNnoiLz48L2RlZnM+PC9zdmc+"
-
-/***/ }),
-
 /***/ "./assets/img/icon_facebook.svg":
 /***/ (function(module, exports) {
 
 module.exports = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMTIuMTk2IDExMi4xOTYiPjxjaXJjbGUgY3g9IjU2LjA5OCIgY3k9IjU2LjA5OCIgcj0iNTYuMDk4IiBmaWxsPSIjM0I1OTk4Ii8+PHBhdGggZD0iTTcwLjIwMSA1OC4yOTRoLTEwLjAxdjM2LjY3Mkg0NS4wMjVWNTguMjk0aC03LjIxM1Y0NS40MDZoNy4yMTN2LTguMzRjMC01Ljk2NCAyLjgzMy0xNS4zMDMgMTUuMzAxLTE1LjMwM2wxMS4yMzQuMDQ3djEyLjUxaC04LjE1MWMtMS4zMzcgMC0zLjIxNy42NjgtMy4yMTcgMy41MTN2Ny41ODVoMTEuMzM0bC0xLjMyNSAxMi44NzZ6IiBmaWxsPSIjRkZGIi8+PC9zdmc+"
-
-/***/ }),
-
-/***/ "./assets/img/icon_gears.svg":
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/icon_gears-6e7f3a0c3a7878207920934c62d72412.svg";
 
 /***/ }),
 
@@ -60,52 +32,10 @@ module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGlu
 
 /***/ }),
 
-/***/ "./assets/img/icon_money.svg":
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/icon_money-c24efba7695bcd7417f41474b1894bb3.svg";
-
-/***/ }),
-
-/***/ "./assets/img/icon_right_black.svg":
-/***/ (function(module, exports) {
-
-module.exports = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTciIGhlaWdodD0iMTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjx1c2UgeGxpbms6aHJlZj0iI3BhdGgwX2ZpbGwiIGZpbGw9IiMzMzMiLz48ZGVmcz48cGF0aCBpZD0icGF0aDBfZmlsbCIgZD0iTTExLjQ0OC4xOGEuNTk5LjU5OSAwIDAgMC0uODU3IDAgLjYwOS42MDkgMCAwIDAgMCAuODUybDQuMzQ0IDQuMzYxSC42Yy0uMzM0IDAtLjYuMjY3LS42LjYwMyAwIC4zMzUuMjY2LjYxLjYuNjFoMTQuMzM1bC00LjM0NCA0LjM1M2EuNjIuNjIgMCAwIDAgMCAuODZjLjI0LjI0MS42MjYuMjQxLjg1NyAwbDUuMzcyLTUuMzkzYS41OTQuNTk0IDAgMCAwIDAtLjg1MUwxMS40NDguMTh6Ii8+PC9kZWZzPjwvc3ZnPg=="
-
-/***/ }),
-
-/***/ "./assets/img/icon_right_purple.svg":
-/***/ (function(module, exports) {
-
-module.exports = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTciIGhlaWdodD0iMTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjx1c2UgeGxpbms6aHJlZj0iI3BhdGgwX2ZpbGwiIGZpbGw9IiM4MDY0RkYiLz48ZGVmcz48cGF0aCBpZD0icGF0aDBfZmlsbCIgZD0iTTExLjQ0OC4xOGEuNTk5LjU5OSAwIDAgMC0uODU3IDAgLjYwOS42MDkgMCAwIDAgMCAuODUybDQuMzQ0IDQuMzYxSC42Yy0uMzM0IDAtLjYuMjY3LS42LjYwMyAwIC4zMzUuMjY2LjYxLjYuNjFoMTQuMzM1bC00LjM0NCA0LjM1M2EuNjIuNjIgMCAwIDAgMCAuODZjLjI0LjI0MS42MjYuMjQxLjg1NyAwbDUuMzcyLTUuMzkzYS41OTQuNTk0IDAgMCAwIDAtLjg1MUwxMS40NDguMTh6Ii8+PC9kZWZzPjwvc3ZnPg=="
-
-/***/ }),
-
-/***/ "./assets/img/icon_right_white.svg":
-/***/ (function(module, exports) {
-
-module.exports = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTciIGhlaWdodD0iMTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjx1c2UgeGxpbms6aHJlZj0iI3BhdGgwX2ZpbGwiIGZpbGw9IiNGRkYiLz48ZGVmcz48cGF0aCBpZD0icGF0aDBfZmlsbCIgZD0iTTExLjQ0OC4xOGEuNTk5LjU5OSAwIDAgMC0uODU3IDAgLjYwOS42MDkgMCAwIDAgMCAuODUybDQuMzQ0IDQuMzYxSC42Yy0uMzM0IDAtLjYuMjY3LS42LjYwMyAwIC4zMzUuMjY2LjYxLjYuNjFoMTQuMzM1bC00LjM0NCA0LjM1M2EuNjIuNjIgMCAwIDAgMCAuODZjLjI0LjI0MS42MjYuMjQxLjg1NyAwbDUuMzcyLTUuMzkzYS41OTQuNTk0IDAgMCAwIDAtLjg1MUwxMS40NDguMTh6Ii8+PC9kZWZzPjwvc3ZnPg=="
-
-/***/ }),
-
-/***/ "./assets/img/icon_search.svg":
-/***/ (function(module, exports) {
-
-module.exports = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNzgiIGhlaWdodD0iNzgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjx1c2UgeGxpbms6aHJlZj0iI3BhdGgwX2ZpbGwiIGZpbGw9IiNGRkYiLz48dXNlIHhsaW5rOmhyZWY9IiNwYXRoMV9maWxsIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyOC40MyAyOC40MykiIGZpbGw9InVybCgjcGFpbnQxX2xpbmVhcikiLz48dXNlIHhsaW5rOmhyZWY9IiNwYXRoMl9maWxsIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyNS4xNSAyNS4xNSkiIGZpbGw9InVybCgjcGFpbnQyX2xpbmVhcikiLz48dXNlIHhsaW5rOmhyZWY9IiNwYXRoM19maWxsIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyOC44OSAyOS41MSkiIGZpbGw9InVybCgjcGFpbnQzX2xpbmVhcikiLz48dXNlIHhsaW5rOmhyZWY9IiNwYXRoNF9maWxsIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyMS4wNCAzNC4xOCkiIGZpbGw9InVybCgjcGFpbnQ0X2xpbmVhcikiLz48dXNlIHhsaW5rOmhyZWY9IiNwYXRoNV9maWxsIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzMS43MiAzMi41NCkiIGZpbGw9InVybCgjcGFpbnQ1X2xpbmVhcikiLz48dXNlIHhsaW5rOmhyZWY9IiNwYXRoNl9maWxsIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg1My44OSAzNC4xOCkiIGZpbGw9InVybCgjcGFpbnQ2X2xpbmVhcikiLz48dXNlIHhsaW5rOmhyZWY9IiNwYXRoN19maWxsIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzNC4xOCA0Mi4zOSkiIGZpbGw9InVybCgjcGFpbnQ3X2xpbmVhcikiLz48dXNlIHhsaW5rOmhyZWY9IiNwYXRoOF9maWxsIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg1My44OSA0NC4wMykiIGZpbGw9InVybCgjcGFpbnQ4X2xpbmVhcikiLz48dXNlIHhsaW5rOmhyZWY9IiNwYXRoOV9maWxsIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyMC4yMiA1NC43MSkiIGZpbGw9InVybCgjcGFpbnQ5X2xpbmVhcikiLz48dXNlIHhsaW5rOmhyZWY9IiNwYXRoMTBfZmlsbCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNDUuNjcgMjAuMjIpIiBmaWxsPSJ1cmwoI3BhaW50MTBfbGluZWFyKSIvPjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0icGFpbnQxX2xpbmVhciIgeDI9IjEiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KDIyLjYxMzQgMTQuMTQyNyAtMTAuODg2OSAyNDguNjA2IDEwLjQzNyAtMTA2Ljg0NikiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI0I3MjFGRiIvPjxzdG9wIG9mZnNldD0iLjQ3IiBzdG9wLWNvbG9yPSIjQzg1MEMwIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjRkZDQzcwIi8+PC9saW5lYXJHcmFkaWVudD48bGluZWFyR3JhZGllbnQgaWQ9InBhaW50Ml9saW5lYXIiIHgyPSIxIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgzNC4wOTg0IDIxLjIzOTMgLTE2LjQxNjEgMzczLjM1MiAxNS43MzcgLTE2MC40NjEpIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNCNzIxRkYiLz48c3RvcCBvZmZzZXQ9Ii40NyIgc3RvcC1jb2xvcj0iI0M4NTBDMCIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI0ZGQ0M3MCIvPjwvbGluZWFyR3JhZGllbnQ+PGxpbmVhckdyYWRpZW50IGlkPSJwYWludDNfbGluZWFyIiB4Mj0iMSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIGdyYWRpZW50VHJhbnNmb3JtPSJtYXRyaXgoMjAuOTE3MyAxMy4xMzI1IC0xMC4wNzAzIDIzMC44NDggOS42NTQgLTk5LjIxNSkiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI0I3MjFGRiIvPjxzdG9wIG9mZnNldD0iLjQ3IiBzdG9wLWNvbG9yPSIjQzg1MEMwIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjRkZDQzcwIi8+PC9saW5lYXJHcmFkaWVudD48bGluZWFyR3JhZGllbnQgaWQ9InBhaW50NF9saW5lYXIiIHgyPSIxIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCg0LjU0MTIzIC43NzE0IC0yLjE4NjMgMTMuNTYgMi4wOTYgLTUuODI4KSI+PHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjQjcyMUZGIi8+PHN0b3Agb2Zmc2V0PSIuNDciIHN0b3AtY29sb3I9IiNDODUwQzAiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNGRkNDNzAiLz48L2xpbmVhckdyYWRpZW50PjxsaW5lYXJHcmFkaWVudCBpZD0icGFpbnQ1X2xpbmVhciIgeDI9IjEiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KDE2LjEwMDcgMi44Mjg1NSAtNy43NTE0NSA0OS43MjEyIDcuNDMgLTIxLjM3KSI+PHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjQjcyMUZGIi8+PHN0b3Agb2Zmc2V0PSIuNDciIHN0b3AtY29sb3I9IiNDODUwQzAiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNGRkNDNzAiLz48L2xpbmVhckdyYWRpZW50PjxsaW5lYXJHcmFkaWVudCBpZD0icGFpbnQ2X2xpbmVhciIgeDI9IjEiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KDMuNzE1NTUgLjc3MTQgLTEuNzg4NzkgMTMuNTYgMS43MTUgLTUuODI4KSI+PHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjQjcyMUZGIi8+PHN0b3Agb2Zmc2V0PSIuNDciIHN0b3AtY29sb3I9IiNDODUwQzAiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNGRkNDNzAiLz48L2xpbmVhckdyYWRpZW50PjxsaW5lYXJHcmFkaWVudCBpZD0icGFpbnQ3X2xpbmVhciIgeDI9IjEiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KDEzLjYyMzYgMi44Mjg1NSAtNi41NTg4NyA0OS43MjEyIDYuMjg4IC0yMS4zNykiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI0I3MjFGRiIvPjxzdG9wIG9mZnNldD0iLjQ3IiBzdG9wLWNvbG9yPSIjQzg1MEMwIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjRkZDQzcwIi8+PC9saW5lYXJHcmFkaWVudD48bGluZWFyR3JhZGllbnQgaWQ9InBhaW50OF9saW5lYXIiIHgyPSIxIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgyLjg4OTg2IC43NzE0IC0xLjM5MTI4IDEzLjU2IDEuMzM0IC01LjgyOCkiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI0I3MjFGRiIvPjxzdG9wIG9mZnNldD0iLjQ3IiBzdG9wLWNvbG9yPSIjQzg1MEMwIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjRkZDQzcwIi8+PC9saW5lYXJHcmFkaWVudD48bGluZWFyR3JhZGllbnQgaWQ9InBhaW50OV9saW5lYXIiIHgyPSIxIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgxNS4yNzUxIDIuODI4NTUgLTcuMzUzOTcgNDkuNzIxMiA3LjA1IC0yMS4zNykiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI0I3MjFGRiIvPjxzdG9wIG9mZnNldD0iLjQ3IiBzdG9wLWNvbG9yPSIjQzg1MEMwIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjRkZDQzcwIi8+PC9saW5lYXJHcmFkaWVudD48bGluZWFyR3JhZGllbnQgaWQ9InBhaW50MTBfbGluZWFyIiB4Mj0iMSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIGdyYWRpZW50VHJhbnNmb3JtPSJtYXRyaXgoMTMuNjIzNyAzLjg1NzEyIC02LjU1ODkxIDY3LjgwMTcgNi4yODggLTI5LjE0KSI+PHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjQjcyMUZGIi8+PHN0b3Agb2Zmc2V0PSIuNDciIHN0b3AtY29sb3I9IiNDODUwQzAiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNGRkNDNzAiLz48L2xpbmVhckdyYWRpZW50PjxwYXRoIGlkPSJwYXRoMF9maWxsIiBkPSJNNzggMzljMCAyMS41NC0xNy40NiAzOS0zOSAzOVMwIDYwLjU0IDAgMzkgMTcuNDYgMCAzOSAwczM5IDE3LjQ2IDM5IDM5eiIvPjxwYXRoIGlkPSJwYXRoMV9maWxsIiBkPSJNMjEuODQ0IDEyLjI3aC0uMDAxYS42MTQuNjE0IDAgMCAwLS42MDguNTJjLS43MzYgNC45MDEtNS4wMjIgOC42NTYtMTAuMTQ3IDguNTU1LTUuMjk4LS4xMDQtOS42NDMtNC4zNjMtOS44NDktOS42NTdDMS4wMTcgNS45NiA1LjYxMSAxLjIzIDExLjI5IDEuMjNjNS4xIDAgOS4zMjQgMy44MTQgOS45NzIgOC43NGEuNjE1LjYxNSAwIDEgMCAxLjIyLS4xNjNDMjEuNzUgNC4yNSAxNi45NjEtLjA0NiAxMS4xOTggMCA0Ljk3LjA1LS4wNzYgNS4yMDIuMDAxIDExLjQzLjA3NyAxNy41OTIgNS4xMSAyMi41OCAxMS4yOSAyMi41OGM1LjY1NCAwIDEwLjM1LTQuMTc4IDExLjE2My05LjYwOWEuNjE0LjYxNCAwIDAgMC0uNjEtLjd6Ii8+PHBhdGggaWQ9InBhdGgyX2ZpbGwiIGQ9Ik0zMy4wMDcgMjguNjUybC02LjE4Ny02LjE4NmExNC40ODkgMTQuNDg5IDAgMCAwIDIuMzI3LTcuODkyQzI5LjE0NyA2LjUzOCAyMi42MSAwIDE0LjU3NCAwIDYuNTM4IDAgMCA2LjUzOCAwIDE0LjU3NHM2LjUzOCAxNC41NzMgMTQuNTc0IDE0LjU3M2MyLjkwNiAwIDUuNjE2LS44NTUgNy44OTItMi4zMjdsNi4xODYgNi4xODdhMy4wNTkgMy4wNTkgMCAwIDAgMi4xNzguOTAyYy44MjIgMCAxLjU5NS0uMzIgMi4xNzctLjkwMiAxLjItMS4yIDEuMi0zLjE1NCAwLTQuMzU0em0tMTguNDMzLS43MzZjLTcuMzU3IDAtMTMuMzQyLTUuOTg2LTEzLjM0Mi0xMy4zNDIgMC03LjM1NyA1Ljk4NS0xMy4zNDMgMTMuMzQyLTEzLjM0M3MxMy4zNDIgNS45ODYgMTMuMzQyIDEzLjM0M2MwIDcuMzU2LTUuOTg1IDEzLjM0Mi0xMy4zNDIgMTMuMzQyem0xNy41NjIgNC4yMmExLjgzNSAxLjgzNSAwIDAgMS0xLjMwNi41NDFjLS40OTQgMC0uOTU4LS4xOTItMS4zMDYtLjU0MWwtNi4wNC02LjAzOWExNC43IDE0LjcgMCAwIDAgMi42MTMtMi42MTJsNi4wNCA2LjAzOGMuNzIuNzIuNzIgMS44OTMtLjAwMSAyLjYxM3oiLz48cGF0aCBpZD0icGF0aDNfZmlsbCIgZD0iTTEwLjQgMjAuOTY2YzUuNzQ0IDAgMTAuNC00LjY5MyAxMC40LTEwLjQ4M0MyMC44IDQuNjkzIDE2LjE0NCAwIDEwLjQgMCA0LjY1NiAwIDAgNC42OTMgMCAxMC40ODNjMCA1Ljc5IDQuNjU2IDEwLjQ4MyAxMC40IDEwLjQ4M3oiLz48cGF0aCBpZD0icGF0aDRfZmlsbCIgZD0iTTMuOSAwSC42MTZhLjYxNi42MTYgMCAwIDAgMCAxLjIzMkgzLjlBLjYxNi42MTYgMCAwIDAgMy45IDB6Ii8+PHBhdGggaWQ9InBhdGg1X2ZpbGwiIGQ9Ik0xNS4zOTUgMS42NDJoLTMuNTc2QTIuMjYyIDIuMjYyIDAgMCAwIDkuNjQ3IDBhMi4yNjIgMi4yNjIgMCAwIDAtMi4xNzEgMS42NDJILjYxNmEuNjE2LjYxNiAwIDAgMCAwIDEuMjMyaDYuODZhMi4yNjIgMi4yNjIgMCAwIDAgMi4xNzEgMS42NDIgMi4yNjEgMi4yNjEgMCAwIDAgMi4xNzItMS42NDJoMy41NzZhLjYxNi42MTYgMCAwIDAgMC0xLjIzMnpNOS42NDcgMy4yODRhMS4wMjcgMS4wMjcgMCAwIDEgMC0yLjA1MiAxLjAyNyAxLjAyNyAwIDAgMSAwIDIuMDUyeiIvPjxwYXRoIGlkPSJwYXRoNl9maWxsIiBkPSJNMy4wNzkgMEguNjE2YS42MTYuNjE2IDAgMCAwIDAgMS4yMzJoMi40NjNhLjYxNi42MTYgMCAwIDAgMC0xLjIzMnoiLz48cGF0aCBpZD0icGF0aDdfZmlsbCIgZD0iTTEyLjkzMSAxLjY0Mkg0LjQzQTIuMjYyIDIuMjYyIDAgMCAwIDIuMjU4IDAgMi4yNiAyLjI2IDAgMCAwIDAgMi4yNThhMi4yNiAyLjI2IDAgMCAwIDIuMjU4IDIuMjU4QTIuMjYxIDIuMjYxIDAgMCAwIDQuNDMgMi44NzRoOC41MDJhLjYxNi42MTYgMCAwIDAgMC0xLjIzMnpNMi4yNTggMy4yODRhMS4wMjcgMS4wMjcgMCAwIDEgMC0yLjA1MiAxLjAyNyAxLjAyNyAwIDAgMSAwIDIuMDUyeiIvPjxwYXRoIGlkPSJwYXRoOF9maWxsIiBkPSJNMi4yNTggMEguNjE2YS42MTYuNjE2IDAgMCAwIDAgMS4yMzJoMS42NDJhLjYxNi42MTYgMCAwIDAgMC0xLjIzMnoiLz48cGF0aCBpZD0icGF0aDlfZmlsbCIgZD0iTTE0LjU3NCAxLjY0Mkg0LjQzQTIuMjYyIDIuMjYyIDAgMCAwIDIuMjU4IDAgMi4yNiAyLjI2IDAgMCAwIDAgMi4yNThhMi4yNiAyLjI2IDAgMCAwIDIuMjU4IDIuMjU4QTIuMjYyIDIuMjYyIDAgMCAwIDQuNDMgMi44NzRoMTAuMTQ0YS42MTYuNjE2IDAgMCAwIDAtMS4yMzJ6TTIuMjU4IDMuMjg0YTEuMDI3IDEuMDI3IDAgMCAxIDAtMi4wNTIgMS4wMjcgMS4wMjcgMCAwIDEgMCAyLjA1MnoiLz48cGF0aCBpZD0icGF0aDEwX2ZpbGwiIGQ9Ik0xMC40NjggMGEzLjA4NCAzLjA4NCAwIDAgMC0zLjAxNyAyLjQ2M0guNjE2YS42MTYuNjE2IDAgMCAwIDAgMS4yMzJINy40NWEzLjA4NCAzLjA4NCAwIDAgMCAzLjAxNyAyLjQ2MyAzLjA4MiAzLjA4MiAwIDAgMCAzLjA4LTMuMDhBMy4wODIgMy4wODIgMCAwIDAgMTAuNDY3IDB6bTAgNC45MjZBMS44NSAxLjg1IDAgMCAxIDguNjIxIDMuMDhhMS44NSAxLjg1IDAgMCAxIDEuODQ3LTEuODQ3IDEuODUgMS44NSAwIDAgMSAxLjg0OCAxLjg0NyAxLjg1IDEuODUgMCAwIDEtMS44NDggMS44NDd6Ii8+PC9kZWZzPjwvc3ZnPg=="
-
-/***/ }),
-
 /***/ "./assets/img/icon_twitter.svg":
 /***/ (function(module, exports) {
 
 module.exports = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMTIuMTk3IDExMi4xOTciPjxjaXJjbGUgY3g9IjU2LjA5OSIgY3k9IjU2LjA5OCIgcj0iNTYuMDk4IiBmaWxsPSIjNTVBQ0VFIi8+PHBhdGggZD0iTTkwLjQ2MSA0MC4zMTZhMjYuNzUzIDI2Ljc1MyAwIDAgMS03LjcwMiAyLjEwOSAxMy40NDUgMTMuNDQ1IDAgMCAwIDUuODk3LTcuNDE3IDI2Ljg0MyAyNi44NDMgMCAwIDEtOC41MTUgMy4yNTMgMTMuMzk2IDEzLjM5NiAwIDAgMC05Ljc5LTQuMjMzYy03LjQwNCAwLTEzLjQwOSA2LjAwNS0xMy40MDkgMTMuNDA5IDAgMS4wNTEuMTE5IDIuMDc0LjM0OSAzLjA1Ni0xMS4xNDQtLjU1OS0yMS4wMjUtNS44OTctMjcuNjM5LTE0LjAxMmExMy4zNTEgMTMuMzUxIDAgMCAwLTEuODE2IDYuNzQyYzAgNC42NTEgMi4zNjkgOC43NTcgNS45NjUgMTEuMTYxYTEzLjMxNCAxMy4zMTQgMCAwIDEtNi4wNzMtMS42NzlsLS4wMDEuMTdjMCA2LjQ5NyA0LjYyNCAxMS45MTYgMTAuNzU3IDEzLjE0N2ExMy4zNjIgMTMuMzYyIDAgMCAxLTMuNTMyLjQ3MWMtLjg2NiAwLTEuNzA1LS4wODMtMi41MjMtLjIzOSAxLjcwNiA1LjMyNiA2LjY1NyA5LjIwMyAxMi41MjYgOS4zMTJhMjYuOTA0IDI2LjkwNCAwIDAgMS0xNi42NTUgNS43NGMtMS4wOCAwLTIuMTUtLjA2My0zLjE5Ny0uMTg4YTM3LjkyOSAzNy45MjkgMCAwIDAgMjAuNTUzIDYuMDI1YzI0LjY2NCAwIDM4LjE1Mi0yMC40MzIgMzguMTUyLTM4LjE1MyAwLS41ODEtLjAxMy0xLjE2LS4wMzktMS43MzRhMjcuMTkyIDI3LjE5MiAwIDAgMCA2LjY5Mi02Ljk0eiIgZmlsbD0iI0YxRjJGMiIvPjwvc3ZnPg=="
-
-/***/ }),
-
-/***/ "./assets/img/iphone_x.png":
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/iphone_x-1701b848927bb13382bbf5a68e8fcd80.png";
 
 /***/ }),
 
@@ -1418,7 +1348,7 @@ module.exports = function(originalModule) {
 
 /***/ }),
 
-/***/ "./pages/index.js":
+/***/ "./pages/faq-page.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1430,7 +1360,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_Layout__ = __webpack_require__("./components/Layout.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__styles_index_scss__ = __webpack_require__("./styles/index.scss");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__styles_index_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__styles_index_scss__);
-var _jsxFileName = "C:\\Users\\PREVIS ADMIN\\challaris-tech-website\\pages\\index.js";
+var _jsxFileName = "C:\\Users\\PREVIS ADMIN\\challaris-tech-website\\pages\\faq-page.js";
 
 
 (function () {
@@ -1467,778 +1397,238 @@ var Index = function Index(props) {
       lineNumber: 8
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "top-wrapper",
+    className: "faq",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "intro",
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("nav", {
+    className: "nav-index nav-top",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "row intro-content-wrapper",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "six columns left-pane",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("nav", {
-    className: "nav-index",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
     className: "nav-desktop-left",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 11
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
     className: "logo",
     href: "./index.html",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 12
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
     src: __webpack_require__("./assets/img/charisol_logo.svg"),
     alt: "Charisol Logo",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 13
     }
   }))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "hamburger",
+    className: "harmburger",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 16
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
     className: "first-child",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 17
     }
   }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
-    className: "mid-child",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 19
     }
   }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
     className: "last-child",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 20
     }
   }))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "text-content",
+    className: "Container",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    className: "content",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 25
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
-    className: "heading-wrapper",
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    className: "text-content",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 26
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h1", {
-    className: "heading",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 27
     }
-  }, "Changing the game of Software Development, One Code at a time.")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
-    className: "sub-text-wrapper",
+  }, " Frequently Asked Questions (FAQ) ")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    className: "m-b-lg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h5", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    }
+  }, "Q: How do I hire a developer on Charisol?"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 31
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    className: "sub-text",
+  }, "1. Send us a brief about your project Let us know what type of developers you are looking for. The more you share, the faster we can help you find suitable candidates."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 35
     }
-  }, "Charisol is a software development agency that connects remote friendly companies with a community of talented software developers.")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    className: "btn-curve-purple m-t-md",
-    href: "./start.html",
+  }, "2. Interview developers We will arrange interviews between you and the shortlisted developers. You will get to learn more about their technical qualifications and soft skills before making a hiring decision."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 39
     }
-  }, "Start a project", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
-    src: __webpack_require__("./assets/img/icon_right_white.svg"),
-    alt: "right",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 38
-    }
-  })))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "six columns right-pane",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "top-img-wrapper",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "top-img",
+  }, "3. Hire effortlessly Once the hiring decision is made, you can start working with the developer directly. We will assign you an engagement manager to take care of all the paperwork and payment processing.")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    className: "m-b-lg",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 44
     }
-  })))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "scale",
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h5", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45
+    }
+  }, "Q: How long does it take to receive a shortlist of candidates? "), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46
+    }
+  }, "It typically takes only 24 - 72 hours for our clients to receive a shortlist of top candidates. However, if the request is complex or for niche technologies, it might take slightly longer.")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    className: "m-b-lg",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 50
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "section-2-wrapper row",
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h5", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 51
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "six columns image-wrapper-container",
+  }, "Q: Can I hire Charisol developers as full-time employees?  "), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 52
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "clear-div-container",
+  }, "Definitely! A fair contract-to-hire fee will apply. To learn more please send us a message with further details.")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    className: "m-b-lg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53
+      lineNumber: 56
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "clear-div",
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h5", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54
+      lineNumber: 57
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "image-wrapper",
-    alt: "Scaling software Development teams",
-    style: {
-      backgroundImage: "url(http://res.cloudinary.com/sportbay-co/image/upload/v1525427315/macbook_scj1zc.jpg)"
-    },
+  }, "Q: Where are your freelance developers based?  "), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55
+      lineNumber: 58
     }
-  })))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "six columns text-wrapper",
+  }, "Charisol developers are based all across the globe, with most of them located in Africa. You can find web and mobile app developers based in Nigeria as well as other cities around the world.")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    className: "m-b-lg",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 62
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "text-content",
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h5", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 63
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
-    className: "heading-wrapper",
+  }, "Q: Do I get to work with the developer directly?  "), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 64
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h1", {
-    className: "heading",
+  }, "Absolutely! You will work with the developer directly once the engagement starts.")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    className: "m-b-lg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65
+      lineNumber: 68
     }
-  }, "The Future is Remote Work.")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
-    className: "sub-text-wrapper",
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h5", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 69
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    className: "sub-text",
+  }, "Q: What is your developer vetting process?  "), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 70
     }
-  }, "We live in a global world where talent is largely decentralized. This is why we strongly believe in the future of remote work.")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
-    className: "sub-text-wrapper",
+  }, "Charisol has a very strict vetting process. Freelance developers are tested on their technical skills, communication skills, and project management skills. This vetting process is designed to make sure that the developers we offer are truly the best in their domains.")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    className: "m-b-lg",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 74
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    className: "m-b-md sub-text",
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h5", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 75
     }
-  }, "Our experience in this field (successes and failures) has opened our minds and taught us how to work only with best practices. Thanks to apps like Trello, Skype, Zoom, Toptal, Google Apps, Github and others, our software developers are reachable round the clock.")))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "simple",
+  }, "Q: What if I am not satisfied with a Charisol developer?  "), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 83
+      lineNumber: 76
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "row",
+  }, "If you are not satisfied with a Charisol developer, please let us know immediately, and we will try our best to resolve the issue.")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    className: "m-b-lg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 84
+      lineNumber: 80
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "seven columns",
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h5", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 85
+      lineNumber: 81
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "text-content",
+  }, "Q: Is my engagement\u2019s confidentiality protected? "), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 82
+    }
+  }, "Yes, we provide an NDA to protect the confidentiality of your request. All Charisol developers are also covered under the agreement.")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    className: "m-b-lg",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 86
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
-    className: "heading-wrapper",
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h5", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 87
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h1", {
-    className: "heading  m-b-md",
+  }, "Q: Who will own the intellectual property? "), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 88
     }
-  }, "Our Services")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    className: "sub-title",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 92
-    }
-  }, "Web Application"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
-    className: "sub-text-wrapper",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 93
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    className: "sub-text  m-b-lg",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 94
-    }
-  }, "Our web application development team works with NodeJs, AngularJs, Golang, Ruby on Rails, PHP, Java (and a long list of many other languages) to ensure highly scalable and optimally engineered solutions are delivered based on your project requirements.")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    className: "sub-title",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 98
-    }
-  }, "Mobile App Development "), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
-    className: "sub-text-wrapper",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 99
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    className: "sub-text  m-b-lg",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 100
-    }
-  }, "There are billions of users worldwide using mobile phones - it\u2019s a no brainer why you need to build an Android or iOS app. Charisol\u2019s mobile app development team has the right expertise and experience in not just building but also scaling your app.")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    className: "btn-curve-white m-t-md",
-    href: "./start.html",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 104
-    }
-  }, "Start a project", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
-    src: __webpack_require__("./assets/img/icon_right_purple.svg"),
-    alt: "right",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 106
-    }
-  })))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "five columns",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 110
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
-    src: __webpack_require__("./assets/img/iphone_x.png"),
-    alt: "Scaling software development teams.",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 111
-    }
-  }))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "purple-bg",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 114
-    }
-  })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "benefits",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 116
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
-    className: "heading-wrapper",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 117
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
-    className: "heading text-center m-b-xl",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 118
-    }
-  }, "Hire Dedicated Professionals")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "content m-t-lg",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 120
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "m-t-lg row",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 121
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "six columns",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 122
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "row",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 123
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "three columns",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 124
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
-    src: __webpack_require__("./assets/img/icon_chart.svg"),
-    alt: "Charisol | A software agency for remote friendly companies",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 125
-    }
-  })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "nine columns",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 127
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h5", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 128
-    }
-  }, "Tested and Proven"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
-    className: "sub-text-wrapper",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 129
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    className: "sub-text",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 130
-    }
-  }, "Our expertise ranges from developing offline web-based systems to highly scalable enterprise SAAS products. We have a proven record of delivering high quality deliverables to our clients."))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "six columns",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 137
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "row",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 138
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "three columns",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 139
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
-    src: __webpack_require__("./assets/img/icon_gears.svg"),
-    alt: "Charisol | A software agency for remote friendly companies",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 140
-    }
-  })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "nine columns",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 142
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h5", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 143
-    }
-  }, "Dedicated Professionals"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
-    className: "sub-text-wrapper",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 144
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    className: "sub-text",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 145
-    }
-  }, "Our dedicated professionals have expert experience and high performance and are ready to bring your ideas to life and achieve exceptional results in the shortest possible time.")))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "m-t-xl row",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 153
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "six columns",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 154
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "row",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 155
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "three columns",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 156
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
-    src: __webpack_require__("./assets/img/icon_search.svg"),
-    alt: "Charisol | A software agency for remote friendly companies",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 157
-    }
-  })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "nine columns",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 159
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h5", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 160
-    }
-  }, "Unparalleled Support "), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
-    className: "sub-text-wrapper",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 161
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    className: "sub-text",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 162
-    }
-  }, "We are available round the clock to get all your questions answered. Just call us or send us an email and we will get back to you as soon as we can. We are just one click away!"))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "six columns",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 169
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "row",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 170
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "three columns",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 171
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
-    src: __webpack_require__("./assets/img/icon_money.svg"),
-    alt: "Charisol | A software agency for remote friendly companies",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 172
-    }
-  })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "nine columns",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 174
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h5", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 175
-    }
-  }, "Budget friendly"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
-    className: "sub-text-wrapper",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 176
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    className: "sub-text",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 177
-    }
-  }, "Get proactive with your growth strategy with our development plan that suits your budget. All our plans have been cherry picked to make sure our clients get maximum return on investment."))))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "cd-testimonials-wrapper cd-container",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 186
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("ul", {
-    className: "cd-testimonials",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 187
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 188
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "recommendee-developer",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 189
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
-    src: __webpack_require__("./assets/img/david.png"),
-    alt: "David",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 190
-    }
-  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 191
-    }
-  }, "David Ekpo")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 193
-    }
-  }, "It has been a pleasure having David on the team. He always delivers better than expected results, while remaining forward thinking. What really has caught my eye was the level of research he puts into a project or initiative - This really helps bring everything together."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "cd-author",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 194
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
-    src: "https://media.licdn.com/dms/image/C5603AQFIM41eT2HUsg/profile-displayphoto-shrink_800_800/0?e=1529161200&v=beta&t=_eU8NkKNZ6wtvbMOMT9ibfpoBRy61rDEv9Qnc1G16xs",
-    alt: "David",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 195
-    }
-  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("ul", {
-    className: "cd-author-info",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 196
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 197
-    }
-  }, "Hunter Stevens"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 198
-    }
-  }, "Director of Client Care, TRIBUS")))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 204
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "recommendee-developer",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 205
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
-    src: __webpack_require__("./assets/img/alexonozor.jpg"),
-    alt: "Alex Onozor",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 206
-    }
-  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 207
-    }
-  }, "Alex Onozor")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 209
-    }
-  }, "I met Alex during his time at Andela where he worked as a software engineer. He was one of the most talented and knowledgeable people when it came to Ruby, Rails, and Javascript development. I was thoroughly impressed by his hard work, work-ethic, and attitude towards others and I expect him to accomplish great things in the Rails community and his career. I consider him not only to be a talented Rails developer and employee, but also my friend."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "cd-author",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 210
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
-    src: "https://media.licdn.com/dms/image/C4D03AQF1Iy6l4mHmcQ/profile-displayphoto-shrink_100_100/0?e=1529164800&v=beta&t=p0a8gG2e1S-jPxcUT076OmZuCQ7aPwafheoe1wxxL-g",
-    alt: "Alex Onozor",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 211
-    }
-  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("ul", {
-    className: "cd-author-info",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 212
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 213
-    }
-  }, "Jeffrey Wan"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 214
-    }
-  }, "Software Developer at Blue Apron")))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 219
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "recommendee-developer",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 220
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
-    src: "https://media.licdn.com/dms/image/C4E03AQFKvPRfqii8TQ/profile-displayphoto-shrink_800_800/0?e=1529164800&v=beta&t=gC03DGjPAvyI7VwUXG8sAhSiEy_8xIe66TUd3Zk4KWc",
-    alt: "Oluwatobi Akindunjoye",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 221
-    }
-  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 222
-    }
-  }, "Oluwatobi Akindunjoye")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 224
-    }
-  }, "Tobi and I worked together at WildFusion. I am always very impressed with his high quality work and attention to details. His ability to convert client ideas and needs into understandable design concepts is remarkable. He has also mastered the art of Designer\u2014Developer hands off. I highly recommend Tobi."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "cd-author",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 225
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
-    src: "https://media.licdn.com/dms/image/C4E03AQGX9r_hfS9WIg/profile-displayphoto-shrink_800_800/0?e=1529740800&v=beta&t=AmtPK5q-7m8OdOo40z5WVjiZa4A1dzEPp_ls4vmuZns",
-    alt: "Somide Olaoye Anthony",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 226
-    }
-  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("ul", {
-    className: "cd-author-info",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 227
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 228
-    }
-  }, "Somide Olaoye Anthony"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 229
-    }
-  }, "Geo-Database Manager / GIS Developer - United Nations"))))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "bottom-banner-wrapper",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 238
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "img-wrapper",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 239
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
-    className: "banner-text",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 240
-    }
-  }, "Tap into a world of skilled software developers who are not only passionate about coding but also abide by the best professional practices."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    className: "btn-curve-white start-project-btn m-t-md",
-    href: "./start.html",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 243
-    }
-  }, "Start a project!", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
-    src: __webpack_require__("./assets/img/icon_right_black.svg"),
-    alt: "right",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 245
-    }
-  }))))));
+  }, "As a client, you will own the intellectual property of all paid-for work.")))))));
 };
 
 var _default = Index;
@@ -2254,8 +1644,8 @@ var _default = Index;
     return;
   }
 
-  reactHotLoader.register(Index, "Index", "C:\\Users\\PREVIS ADMIN\\challaris-tech-website\\pages\\index.js");
-  reactHotLoader.register(_default, "default", "C:\\Users\\PREVIS ADMIN\\challaris-tech-website\\pages\\index.js");
+  reactHotLoader.register(Index, "Index", "C:\\Users\\PREVIS ADMIN\\challaris-tech-website\\pages\\faq-page.js");
+  reactHotLoader.register(_default, "default", "C:\\Users\\PREVIS ADMIN\\challaris-tech-website\\pages\\faq-page.js");
   leaveModule(module);
 })();
 
@@ -2276,7 +1666,7 @@ var _default = Index;
           next.router.update(r, Component)
         }
       }
-    })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/")
+    })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/faq-page")
   
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__("./node_modules/webpack/buildin/harmony-module.js")(module)))
 
@@ -2289,16 +1679,16 @@ module.exports = "@charset \"UTF-8\";\n/*! normalize.css v3.0.2 | MIT License | 
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__("./pages/index.js");
+module.exports = __webpack_require__("./pages/faq-page.js");
 
 
 /***/ })
 
-},[3])
+},[4])
           return { page: comp.default }
         })
       ;
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=faq-page.js.map

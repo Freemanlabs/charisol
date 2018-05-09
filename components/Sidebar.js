@@ -17,7 +17,7 @@ const Sidebar = () => (
           <a href="http://blog.charisol.io" target="no_blank">Blog</a>
         </li>
         <li>
-          <a href="./pricing.html">Pricing</a>
+          <a href="./pricing-page">Pricing</a>
         </li>
         <li>
           <a href="./testimonials.html">Testimonials</a>
@@ -26,7 +26,7 @@ const Sidebar = () => (
           <a href="./contact.html">Contact</a>
         </li>
         <li>
-          <a href="./faq.html">FAQ</a>
+          <a href="./faq-page">FAQ</a>
         </li>
         <li>
           <a class="btn-trans-white" href="./start.html">Start a project</a>
