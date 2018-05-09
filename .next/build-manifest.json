@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"pages":{},"css":[],"main.js":["static/commons/main.js"],"bundles\\pages\\_error.js":["bundles\\pages\\_error.js"],"bundles\\pages\\_app.js":["bundles\\pages\\_app.js"],"manifest.js":["static/commons/manifest.js"],"bundles\\pages\\index.js":["bundles\\pages\\index.js"],"bundles\\pages\\faq-page.js":["bundles\\pages\\faq-page.js"]}
+=======
+{"pages":{},"css":[],"main.js":["static/commons/main.js"],"bundles/pages/_error.js":["bundles/pages/_error.js"],"bundles/pages/_app.js":["bundles/pages/_app.js"],"manifest.js":["static/commons/manifest.js"],"bundles/pages/index.js":["bundles/pages/index.js"],"bundles/pages/team.js":["bundles/pages/team.js"],"bundles/pages/about.js":["bundles/pages/about.js"],"bundles/pages/contact.js":["bundles/pages/contact.js"]}
+>>>>>>> aece532bb1dac73f5314aaa5f5b0ab4672015bea
