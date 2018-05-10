@@ -26,7 +26,7 @@ const Sidebar = () => (
           <a href="./contact.html">Contact</a>
         </li>
         <li>
-          <a href="./faq.html">FAQ</a>
+          <a href="./faq.html">FAQoooooooooooooo</a>
         </li>
         <li>
           <a class="btn-trans-white" href="./start.html">Start a project</a>

@@ -1,8 +1,9 @@
 import Layout from '../components/Layout';
 import Navbar from '../components/Navbar';
 import stylesheet from '../styles/about.scss';
+import fetch from 'isomorphic-unfetch'
 
-const Team = () => (
+const Team = (props) => (
   <Layout  title="Team | Charisol">
   <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
   <section className="team" id="panel" data-slideout-ignore>
@@ -33,7 +34,7 @@ const Team = () => (
         <div className="six columns img-col">
           <div className="image-wrapper-container">
             <div className="image-wrapper">
-              <div className="image" style={{backgroundImage: "url('assets/img/bg_team_1.png')"}} ></div>
+              <div className="image team-image"></div>
             </div>
           </div>
         </div>
@@ -41,26 +42,38 @@ const Team = () => (
       <div className="people-wrapper">
        
             <div id="people" className="row people">
-              <div id="people-wrapper">
-                <div className="tile">
+              <div id="people-wrapper" >
+              {props.teams.map((team, i) => (
+                
+                <div className="tile" key={i}>
                   <div className="avatar-wrapper">
-                    <div class="avatar" alt="team member" style={{backgroundImage: "url('../assets/img/dolapo.jpg')"}}></div>
+                    <div className="avatar" alt="team member" style={{backgroundImage: 'url('+team.image_url+')'}}></div>
                   </div>
                   <div className="text-wrap">
                     <div className="sub-text-wrapper">
-                      <h5 className="bold sub-text">Adedolapo Olisa</h5>
+                      <h5 className="bold sub-text">{team.firstName} {team.lastName}</h5>
                     </div>
                     <div className="sub-text-wrapper">
-                      <p className="light sub-text">Founder</p>
+                      <p className="light sub-text">{team.position}</p>
                     </div>
                   </div>
                   <button className="team-profile-btn btn-clear-purple" data-person-id="1">View Profile<img src={require('../assets/img/icon_right_purple.svg')} alt="right" /></button>
                 </div>
+              ))}
               </div>
         </div>
       </div>
     </section>
   </Layout>
 )
+
+Team.getInitialProps = async function() {
+  const res = await fetch('http://localhost:3000/api/get-teams')
+  const data = await res.json();
+  console.log(data)
+  return {
+    teams: data
+  }
+}
 
 export default Team
