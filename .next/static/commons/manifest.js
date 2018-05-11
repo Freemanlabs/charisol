@@ -91,10 +91,14 @@
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
 <<<<<<< HEAD
+<<<<<<< HEAD
 /******/ 	var hotCurrentHash = "b923c931f691a748c52d"; // eslint-disable-line no-unused-vars
 =======
 /******/ 	var hotCurrentHash = "9fa87833fb3168c5b6dd"; // eslint-disable-line no-unused-vars
 >>>>>>> aece532bb1dac73f5314aaa5f5b0ab4672015bea
+=======
+/******/ 	var hotCurrentHash = "a6840fd69cfe417ede85"; // eslint-disable-line no-unused-vars
+>>>>>>> 0d8183f1840d394031a4f268a25c9e73cb4bfb5b
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -760,10 +764,14 @@
 /******/ 			script.setAttribute("nonce", __webpack_require__.nc);
 /******/ 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 /******/ 		script.src = __webpack_require__.p + "" + ({"0":"main.js","1":"bundles\\pages\\_error.js","2":"bundles\\pages\\_app.js","4":"bundles\\pages\\index.js","5":"bundles\\pages\\faq-page.js"}[chunkId]||chunkId) + "-" + {"0":"be51edac8d42cbfa0331","1":"03948520cf8fa9fb98fb","2":"fb09cfbde0cb0e69490e","4":"fb7f9451ffad7e156958","5":"22c9fa4c9afc5b8190f3"}[chunkId] + ".js";
 =======
 /******/ 		script.src = __webpack_require__.p + "" + ({"0":"main.js","1":"bundles/pages/_error.js","2":"bundles/pages/_app.js","4":"bundles/pages/index.js","5":"bundles/pages/team.js","6":"bundles/pages/about.js","7":"bundles/pages/contact.js"}[chunkId]||chunkId) + "-" + {"0":"be51edac8d42cbfa0331","1":"9b03ff85b27d0d91c43b","2":"3fcab8123ce0e120769c","4":"9d18acbbba1be4b5e3db","5":"3e7708fea6b37e70d22b","6":"da5319ebea66571a5c50","7":"96a0229f7ad2bc553213"}[chunkId] + ".js";
 >>>>>>> aece532bb1dac73f5314aaa5f5b0ab4672015bea
+=======
+/******/ 		script.src = __webpack_require__.p + "" + ({"0":"main.js","1":"bundles/pages/_error.js","2":"bundles/pages/_app.js","6":"bundles/pages/index.js","7":"bundles/pages/contact.js"}[chunkId]||chunkId) + "-" + {"0":"be51edac8d42cbfa0331","1":"9b03ff85b27d0d91c43b","2":"3fcab8123ce0e120769c","6":"954745f3c3cbf9a980ba","7":"b1fe80534cb6498814e4"}[chunkId] + ".js";
+>>>>>>> 0d8183f1840d394031a4f268a25c9e73cb4bfb5b
 /******/ 		var timeout = setTimeout(onScriptComplete, 120000);
 /******/ 		script.onerror = script.onload = onScriptComplete;
 /******/ 		function onScriptComplete() {
