@@ -25,12 +25,14 @@ export default () => (
           <a href="http://blog.charisol.io" target="no_blank">Blog</a>
         </li>
         <li>
+
           <Link href="/pricing"><a>Pricing</a></Link>
         </li>
       <li>
           <Link href="/contact"><a>Contact</a></Link>
        </li>
         <li>
+
         <Link href="/faq"><a>FAQ</a></Link>
         </li>
         <li>
