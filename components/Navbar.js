@@ -5,7 +5,7 @@ export default (props) => (
         <div className="nav-desktop-left">
         <Link href="/">
           <a className="logo">
-            <img src="assets/img/charisol_logo.svg" alt="Charisol" />
+           <img src={require('../assets/img/charisol_logo.svg')} alt="Charisol" />
           </a>
         </Link>  
         </div>

@@ -5,6 +5,7 @@ import stylesheet from '../styles/index.scss';
 const Index = (props) => (
   <Layout title="A software development agency for remote companies | Charisol">  
     <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
+    
     <section className="index" id="panel" data-slideout-ignore>
       <div className="top-wrapper">
         <div className="intro">

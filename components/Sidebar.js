@@ -1,42 +1,45 @@
-const Sidebar = () => (
+import Link from 'next/link';
+
+export default () => (
   <div>
-    <nav id="menu-desktop" class="menu">
+    <nav id="menu-desktop" className="menu">
       <ul>
-        <li><span class="close close-white"></span></li>
-        <li class="active">
-          <img src="assets/img/icon_active.svg" alt="active" />
-          <a href="./index.html">Home</a>
+        <li><span className="close close-white"></span></li>
+        <li className="active">
+          <Link href="/">
+           
+            <a>Home</a>
+          </Link>
         </li>
         <li>
-          <a href="./about.html">About Us</a>
+          <Link href="/about">
+            <a>About Us</a>
+          </Link>
         </li>
         <li>
-          <a href="./team.html">Team &amp; Community</a>
+        <Link href="/team"> 
+          <a>Team &amp; Community</a>
+        </Link>
         </li>
         <li>
           <a href="http://blog.charisol.io" target="no_blank">Blog</a>
         </li>
         <li>
-          <a href="./pricing.html">Pricing</a>
+          <Link href="/pricing"><a>Pricing</a></Link>
         </li>
-        <li>
-          <a href="./testimonials.html">Testimonials</a>
-        </li> -->
       <li>
-          <a href="./contact.html">Contact</a>
+          <Link href="/contact"><a>Contact</a></Link>
+       </li>
+        <li>
+        <Link href="/faq"><a>FAQ</a></Link>
         </li>
         <li>
-          <a href="./faq.html">FAQoooooooooooooo</a>
+        <Link href="/start"><a className="btn-trans-white" href="./start.html">Start a project</a></Link>
         </li>
-        <li>
-          <a class="btn-trans-white" href="./start.html">Start a project</a>
-        </li>
-        <li class="m-t-lg">
+        <li className="m-t-lg">
           <p>© Charisol 2018</p>
         </li>
       </ul>
     </nav>
   </div>
 )
-
-export default Sidebar

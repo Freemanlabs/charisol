@@ -1,23 +1,23 @@
 @font-face {
   font-family: 'vollkorn-regular';
-  src: url('../fonts/vollkorn/Vollkorn-Regular.ttf') format('truetype')
+  src: url('../../static/fonts/vollkorn/Vollkorn-Regular.ttf') format('truetype')
 }
 @font-face {
   font-family: 'vollkorn-bold';
-  src: url('../fonts/vollkorn/Vollkorn-Bold.ttf') format('truetype')
+  src: url('../../static/fonts/vollkorn/Vollkorn-Bold.ttf') format('truetype')
 }
 @font-face {
   font-family: 'vollkorn-black';
-  src: url('../fonts/vollkorn/Vollkorn-Black.ttf') format('truetype')
+  src: url('../../static/fonts/vollkorn/Vollkorn-Black.ttf') format('truetype')
 }
 
 @font-face {
   font-family: 'OpenSans-regular';
-  src: url('../fonts/open-sans/OpenSans-Regular.ttf') format('truetype')
+  src: url('../../static/fonts/open-sans/OpenSans-Regular.ttf') format('truetype')
 }
 @font-face {
   font-family: 'OpenSand-bold';
-  src: url('../fonts/open-sans/Volkron-Bold.ttf') format('truetype')
+  src: url('../../static/fonts/open-sans/Volkron-Bold.ttf') format('truetype')
 }
 
 $purple : #B721FF;
@@ -211,10 +211,10 @@ footer{
   margin-bottom: 40px;
 }
 .close-white{
-  background-image: url('../img/close-white.svg')
+  background-image: url('http://res.cloudinary.com/sportbay-co/image/upload/v1525969277/close-white_vgyzjt.svg')
 }
 .close-red{
-  background-image: url('../img/close-red.svg');
+  background-image: url('../../static/img/close-red.svg');
   width: 18px;
   height: 18px;
 }

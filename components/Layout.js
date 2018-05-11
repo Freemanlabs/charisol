@@ -1,8 +1,10 @@
 import Header from './Header';
 import Footer from './Footer';
+import Sidebar from './Sidebar';
 const Layout = (props) => (
     <div>
-      <Header title={props.title}/>
+      <Sidebar />
+       <Header title={props.title}/>
        {props.children}
       <Footer />
     </div>

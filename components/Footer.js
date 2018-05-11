@@ -29,9 +29,7 @@ export default (props) => (
                 <a>Contact</a>
               </Link>  
             </li>
-            <Link href="/team">
-              <a></a>
-             </Link>
+            
             <li>
               <a target="_blank" href="https://www.instagram.com/charisoltech/">
                 <img src={require('../assets/img/icon_instagram.svg')}  alt="Charisol LinkedIn" />
