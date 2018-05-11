@@ -65,8 +65,7 @@ const Index = (props) => (
                             <div className="btn-container">
                                 <a className="btn btn-curve-purple m-t-md" href="./start.html">
                                     Start a project
-                                    <img src={require('../assets/img/icon_right_white.svg')}  alt="right" />
-                                </a>
+                                    </a>
                             </div>
                             </div>
                         </div>
@@ -86,7 +85,6 @@ const Index = (props) => (
                             <div className="btn-container">
                                 <a className="btn-curve-purple m-t-md" href="./start.html">
                                 Start a project
-                                <img src={require('../assets/img/icon_right_white.svg')}  alt="right" />
                                 </a>
                             </div>
                             </div>
@@ -107,7 +105,6 @@ const Index = (props) => (
                             <div className="btn-container">
                                 <a className="btn-curve-purple m-t-md" href="./start.html">
                                 Start a project
-                                <img src={require('../assets/img/icon_right_white.svg')}  alt="right" />
                                 </a>
                             </div>
                             </div>
@@ -127,7 +124,6 @@ const Index = (props) => (
                             <div className="btn-container">
                                 <a className="btn-curve-purple m-t-md" href="./start.html">
                                 Start a project
-                                <img src={require('../assets/img/icon_right_white.svg')}  alt="right" />
                                 </a>
                             </div>
                             </div>

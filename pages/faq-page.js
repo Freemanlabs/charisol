@@ -3,9 +3,9 @@ import Layout from '../components/Layout';
 import stylesheet from '../styles/index.scss';
 
 const Index = (props) => (
+    <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
     <Layout title="A software development agency for remote companies | Charisol">  
-      <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
-      <section className="index" id="panel" data-slideout-ignore>
+      <section className="index" id="panel" data-slideout-ignore="true">
         <div className="faq">
             <nav className="nav-index nav-top">
                 <div className="nav-desktop-left">
