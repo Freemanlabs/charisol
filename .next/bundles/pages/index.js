@@ -2277,214 +2277,226 @@ var Index = function Index(props) {
       fileName: _jsxFileName,
       lineNumber: 187
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("ul", {
-    className: "cd-testimonials",
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
+    className: "heading-wrapper",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 188
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
+    className: "heading text-center m-b-xl",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 189
+    }
+  }, "What Clients Say About Our Developers")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("ul", {
+    className: "cd-testimonials",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 191
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 192
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
     className: "recommendee-developer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 190
+      lineNumber: 193
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
     src: __webpack_require__("./assets/img/david.png"),
     alt: "David",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 191
+      lineNumber: 194
     }
   }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 192
+      lineNumber: 195
     }
   }, "David Ekpo")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 194
+      lineNumber: 197
     }
   }, "It has been a pleasure having David on the team. He always delivers better than expected results, while remaining forward thinking. What really has caught my eye was the level of research he puts into a project or initiative - This really helps bring everything together."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
     className: "cd-author",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 195
+      lineNumber: 198
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
     src: "https://media.licdn.com/dms/image/C5603AQFIM41eT2HUsg/profile-displayphoto-shrink_800_800/0?e=1529161200&v=beta&t=_eU8NkKNZ6wtvbMOMT9ibfpoBRy61rDEv9Qnc1G16xs",
     alt: "David",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 196
+      lineNumber: 199
     }
   }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("ul", {
     className: "cd-author-info",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 197
+      lineNumber: 200
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 198
+      lineNumber: 201
     }
   }, "Hunter Stevens"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 199
+      lineNumber: 202
     }
   }, "Director of Client Care, TRIBUS")))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 205
+      lineNumber: 208
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
     className: "recommendee-developer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 206
+      lineNumber: 209
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
     src: __webpack_require__("./assets/img/alexonozor.jpg"),
     alt: "Alex Onozor",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 207
+      lineNumber: 210
     }
   }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 208
+      lineNumber: 211
     }
   }, "Alex Onozor")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 210
+      lineNumber: 213
     }
   }, "I met Alex during his time at Andela where he worked as a software engineer. He was one of the most talented and knowledgeable people when it came to Ruby, Rails, and Javascript development. I was thoroughly impressed by his hard work, work-ethic, and attitude towards others and I expect him to accomplish great things in the Rails community and his career. I consider him not only to be a talented Rails developer and employee, but also my friend."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
     className: "cd-author",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 211
+      lineNumber: 214
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
     src: "https://media.licdn.com/dms/image/C4D03AQF1Iy6l4mHmcQ/profile-displayphoto-shrink_100_100/0?e=1529164800&v=beta&t=p0a8gG2e1S-jPxcUT076OmZuCQ7aPwafheoe1wxxL-g",
     alt: "Alex Onozor",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 212
+      lineNumber: 215
     }
   }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("ul", {
     className: "cd-author-info",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 213
+      lineNumber: 216
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 214
+      lineNumber: 217
     }
   }, "Jeffrey Wan"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 215
+      lineNumber: 218
     }
   }, "Software Developer at Blue Apron")))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 220
+      lineNumber: 223
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
     className: "recommendee-developer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 221
+      lineNumber: 224
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
     src: "https://media.licdn.com/dms/image/C4E03AQFKvPRfqii8TQ/profile-displayphoto-shrink_800_800/0?e=1529164800&v=beta&t=gC03DGjPAvyI7VwUXG8sAhSiEy_8xIe66TUd3Zk4KWc",
     alt: "Oluwatobi Akindunjoye",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 222
+      lineNumber: 225
     }
   }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 223
+      lineNumber: 226
     }
   }, "Oluwatobi Akindunjoye")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 225
+      lineNumber: 228
     }
   }, "Tobi and I worked together at WildFusion. I am always very impressed with his high quality work and attention to details. His ability to convert client ideas and needs into understandable design concepts is remarkable. He has also mastered the art of Designer\u2014Developer hands off. I highly recommend Tobi."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
     className: "cd-author",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 226
+      lineNumber: 229
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
     src: "https://media.licdn.com/dms/image/C4E03AQGX9r_hfS9WIg/profile-displayphoto-shrink_800_800/0?e=1529740800&v=beta&t=AmtPK5q-7m8OdOo40z5WVjiZa4A1dzEPp_ls4vmuZns",
     alt: "Somide Olaoye Anthony",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 227
+      lineNumber: 230
     }
   }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("ul", {
     className: "cd-author-info",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 228
+      lineNumber: 231
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 229
+      lineNumber: 232
     }
   }, "Somide Olaoye Anthony"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 230
+      lineNumber: 233
     }
   }, "Geo-Database Manager / GIS Developer - United Nations"))))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
     className: "bottom-banner-wrapper",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 239
+      lineNumber: 242
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
     className: "img-wrapper",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 240
+      lineNumber: 243
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
     className: "banner-text",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 241
+      lineNumber: 244
     }
   }, "Tap into a world of skilled software developers who are not only passionate about coding but also abide by the best professional practices."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
     className: "btn-curve-white start-project-btn m-t-md",
     href: "./start.html",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 244
+      lineNumber: 247
     }
   }, "Start a project!", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
     src: __webpack_require__("./assets/img/icon_right_black.svg"),
     alt: "right",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 246
+      lineNumber: 249
     }
   }))))));
 };

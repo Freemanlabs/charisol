@@ -4,6 +4,13 @@ module.exports =
           var comp = 
       webpackJsonp([5],{
 
+/***/ "./assets/img/bg_team_1.png":
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/bg_team_1-2858fe07d7fb338097d790305baccc35.png";
+
+/***/ }),
+
 /***/ "./assets/img/charisol_logo.svg":
 /***/ (function(module, exports) {
 
@@ -1851,6 +1858,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_isomorphic_unfetch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_isomorphic_unfetch__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_react__ = __webpack_require__("./node_modules/react/cjs/react.development.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__assets_img_bg_team_1_png__ = __webpack_require__("./assets/img/bg_team_1.png");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__assets_img_bg_team_1_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__assets_img_bg_team_1_png__);
 var _jsxFileName = "C:\\Users\\PREVIS ADMIN\\challaris-tech-website\\pages\\team.js";
 
 (function () {
@@ -1872,6 +1881,7 @@ function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) ===
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
 
 
 
@@ -1928,7 +1938,7 @@ function (_Component) {
         title: "Team | Charisol",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 32
+          lineNumber: 33
         }
       }, __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement("style", {
         dangerouslySetInnerHTML: {
@@ -1936,55 +1946,55 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 33
+          lineNumber: 34
         }
       }), __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement("nav", {
         id: "profile",
         className: "profile",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 34
+          lineNumber: 35
         }
       }, __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement("div", {
         className: "head",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 35
+          lineNumber: 36
         }
       }, __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement("h5", {
         className: "light",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 36
+          lineNumber: 37
         }
       }, "Profile Details"), __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement("span", {
         className: "close close-red",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 37
+          lineNumber: 38
         }
       })), __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement("div", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 39
-        }
-      }, __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement("div", {
-        classNameName: "top-info",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 40
         }
       }, __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement("div", {
-        className: "row",
+        classNameName: "top-info",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 41
         }
       }, __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement("div", {
-        className: "six columns",
+        className: "row",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 42
+        }
+      }, __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement("div", {
+        className: "six columns",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 43
         }
       }, __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement("img", {
         src: this.state.user.image_url,
@@ -1995,61 +2005,61 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 43
+          lineNumber: 44
         }
       })), __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement("div", {
         className: "six columns",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 45
+          lineNumber: 46
         }
       }, __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement("h5", {
         className: "bold",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 46
+          lineNumber: 47
         }
       }, this.state.user.firstName, " ", this.state.user.lastName), __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 47
+          lineNumber: 48
         }
       }, this.state.user.position), __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement("span", {
         className: "blue-badge",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 48
+          lineNumber: 49
         }
       }, __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement("span", {
         className: "circle",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 49
+          lineNumber: 50
         }
       }), "Core team")))), __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement("div", {
         className: "m-t-md m-b-md",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 53
+          lineNumber: 54
         }
       }, __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 54
+          lineNumber: 55
         }
       }, this.state.user.description))), __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement("a", {
         className: "btn-curve-purple m-t-md",
         href: "./start.html",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 57
+          lineNumber: 58
         }
       }, "Start a project", __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement("img", {
         src: "../static/img/icon_right_white.svg",
         alt: "right",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 59
+          lineNumber: 60
         }
       }))), __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement("section", {
         className: "team",
@@ -2057,115 +2067,119 @@ function (_Component) {
         "data-slideout-ignore": true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 64
-        }
-      }, __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__components_Navbar__["a" /* default */], {
-        __source: {
-          fileName: _jsxFileName,
           lineNumber: 65
         }
-      }), __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement("div", {
-        className: "content-cover",
+      }, __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__components_Navbar__["a" /* default */], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 66
         }
       }), __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement("div", {
-        className: "row core",
+        className: "content-cover",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 67
         }
-      }, __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement("div", {
-        className: "six columns",
+      }), __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement("div", {
+        className: "row core",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 68
         }
       }, __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement("div", {
-        className: "text-content",
+        className: "six columns",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 69
+        }
+      }, __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement("div", {
+        className: "text-content",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 70
         }
       }, __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement("span", {
         className: "heading-wrapper",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 70
+          lineNumber: 71
         }
       }, __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement("h1", {
         className: "heading",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 71
+          lineNumber: 72
         }
       }, "Core team.")), __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement("span", {
         className: "sub-text-wrapper",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 75
+          lineNumber: 76
         }
       }, __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement("p", {
         className: "sub-text",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 76
+          lineNumber: 77
         }
       }, "We are a team of young and vibrant techies filled with loads of passion for what we do. We are proud workaholics who drink a little too much coffee and believe in power naps.")), __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement("span", {
         className: "sub-text-wrapper",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 81
+          lineNumber: 82
         }
       }, __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement("p", {
         className: "sub-text",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 82
+          lineNumber: 83
         }
       }, "Our mutual desire to change the world through cutting edge programming techniques is what keeps us together. Occasionally we try to listen to our mothers and know when to pull an all nighter and when to catch 40 winks.")))), __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement("div", {
         className: "six columns img-col",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 89
+          lineNumber: 90
         }
       }, __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement("div", {
         className: "image-wrapper-container",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 90
+          lineNumber: 91
         }
       }, __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement("div", {
         className: "image-wrapper",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 91
+          lineNumber: 92
         }
       }, __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement("div", {
         className: "image team-image",
+        alt: "team",
+        style: {
+          backgroundImage: 'url(' + __WEBPACK_IMPORTED_MODULE_6__assets_img_bg_team_1_png___default.a + ')'
+        },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 92
+          lineNumber: 93
         }
       }))))), __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement("div", {
         className: "people-wrapper",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 97
+          lineNumber: 99
         }
       }, __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement("div", {
         id: "people",
         className: "row people",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 99
+          lineNumber: 101
         }
       }, __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement("div", {
         id: "people-wrapper",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 100
+          lineNumber: 102
         }
       }, this.state.teams.map(function (team, i) {
         return __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement("div", {
@@ -2173,13 +2187,13 @@ function (_Component) {
           key: i,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 103
+            lineNumber: 105
           }
         }, __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement("div", {
           className: "avatar-wrapper",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 104
+            lineNumber: 106
           }
         }, __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement("div", {
           className: "avatar",
@@ -2189,37 +2203,37 @@ function (_Component) {
           },
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 105
+            lineNumber: 107
           }
         })), __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement("div", {
           className: "text-wrap",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 107
+            lineNumber: 109
           }
         }, __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement("div", {
           className: "sub-text-wrapper",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 108
+            lineNumber: 110
           }
         }, __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement("h5", {
           className: "bold sub-text",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 109
+            lineNumber: 111
           }
         }, team.firstName, " ", team.lastName)), __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement("div", {
           className: "sub-text-wrapper",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 111
+            lineNumber: 113
           }
         }, __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement("p", {
           className: "light sub-text",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 112
+            lineNumber: 114
           }
         }, team.position))), __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement("button", {
           className: "team-profile-btn btn-clear-purple",
@@ -2229,14 +2243,14 @@ function (_Component) {
           "data-person-id": team._id,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 115
+            lineNumber: 117
           }
         }, "View Profile", __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement("img", {
           src: __webpack_require__("./assets/img/icon_right_purple.svg"),
           alt: "right",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 115
+            lineNumber: 117
           }
         })));
       }))))));
