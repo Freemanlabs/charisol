@@ -4,6 +4,7 @@ import ProfileInfo from '../components/ProfileInfo';
 import stylesheet from '../styles/about.scss';
 import fetch from 'isomorphic-unfetch'
 import React, { Component } from 'react'
+import Background from '../assets/img/bg_team_1.png';
 
 class Team extends Component {
   constructor(props) {
@@ -89,7 +90,8 @@ class Team extends Component {
             <div className="six columns img-col">
               <div className="image-wrapper-container">
                 <div className="image-wrapper">
-                  <div className="image team-image"></div>
+                  <div className="image team-image" alt="team" style={{ backgroundImage: 'url(' + Background + ')' }}>
+                  </div>
                 </div>
               </div>
             </div>

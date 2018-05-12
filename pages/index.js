@@ -185,6 +185,9 @@ const Index = (props) => (
           </div>
         </div>
         <div className="cd-testimonials-wrapper cd-container" >
+        <span className="heading-wrapper">
+          <h2 className="heading text-center m-b-xl">What Clients Say About Our Developers</h2>
+        </span>
             <ul className="cd-testimonials">
               <li>
                 <div className="recommendee-developer">
