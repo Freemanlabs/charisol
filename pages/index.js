@@ -5,6 +5,7 @@ import stylesheet from '../styles/index.scss';
 const Index = (props) => (
   <Layout title="A software development agency for remote companies | Charisol">  
     <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
+    
     <section className="index" id="panel" data-slideout-ignore>
       <div className="top-wrapper">
         <div className="intro">
@@ -12,7 +13,7 @@ const Index = (props) => (
               <div className="six columns left-pane">
                 <nav className="nav-index">
                   <div className="nav-desktop-left">
-                    <a className="logo" href="./index.html">
+                    <a className="logo" href="/">
                       <img src={require('../assets/img/charisol_logo.svg')}  alt="Charisol Logo" />
                     </a>
                   </div>
@@ -33,10 +34,12 @@ const Index = (props) => (
                         Charisol is a software development agency that connects remote friendly companies with a community of talented software developers.
                     </p>
                   </span>
-                  <a className="btn-curve-purple m-t-md" href="./start.html">
+                  <Link  href="/start">
+                   <a className="btn-curve-purple m-t-md">
                     Start a project
                     <img src={require('../assets/img/icon_right_white.svg')}  alt="right" />
-                  </a>
+                    </a>
+                  </Link>
                 </div>
               </div>
               <div className="six columns right-pane">
@@ -101,10 +104,13 @@ const Index = (props) => (
                   There are billions of users worldwide using mobile phones - it’s a no brainer why you need to build an Android or iOS app. Charisol’s mobile app development team has the right expertise and experience in not just building but also scaling your app.
                 </p>
               </span>
-              <a className="btn-curve-white m-t-md" href="./start.html">
+                <Link href="/start">
+                 <a className="btn-curve-white m-t-md">
+                
                 Start a project
                 <img src={require('../assets/img/icon_right_purple.svg')} alt="right" />
               </a>
+              </Link>
             </div>
           </div>
           <div className="five columns">
@@ -184,6 +190,9 @@ const Index = (props) => (
           </div>
         </div>
         <div className="cd-testimonials-wrapper cd-container" >
+        <span className="heading-wrapper">
+          <h2 className="heading text-center m-b-xl">What Clients Say About Our Developers</h2>
+        </span>
             <ul className="cd-testimonials">
               <li>
                 <div className="recommendee-developer">
@@ -240,10 +249,12 @@ const Index = (props) => (
           <h2 className="banner-text">
             Tap into a world of skilled software developers who are not only passionate about coding but also abide by the best professional practices.
           </h2>
-          <a className="btn-curve-white start-project-btn m-t-md" href="./start.html">
+          <Link href="/start">
+          <a className="btn-curve-white start-project-btn m-t-md" >
             Start a project!
             <img src={require('../assets/img/icon_right_black.svg')}  alt="right" />
           </a>
+          </Link>
         </div>  
       </div>
     </section>

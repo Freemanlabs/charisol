@@ -22,19 +22,16 @@ export default (props) => (
               <a href="http://blog.charisol.io" target="no_blank">Blog</a>
             </li>
             <li>
-              <a href="./pricing.html">Pricing</a>
-            </li>
-            <li>
-              <a href="./testimonials.html">Testimonials</a>
+            <Link href="/pricing">
+               <a>Pricing</a>
+             </Link>
             </li>
             <li>
               <Link href="/contact">
                 <a>Contact</a>
               </Link>  
             </li>
-            <li>
-              <a href="./faq.html">FAQ</a>
-            </li>
+            
             <li>
               <a target="_blank" href="https://www.instagram.com/charisoltech/">
                 <img src={require('../assets/img/icon_instagram.svg')}  alt="Charisol LinkedIn" />

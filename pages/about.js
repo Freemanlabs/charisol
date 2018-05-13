@@ -1,6 +1,8 @@
 import Layout from '../components/Layout';
 import Navbar from '../components/Navbar';
 import stylesheet from '../styles/about.scss';
+import Link from 'next/link';
+
 
  const About = (props) => (
    <Layout  title="About Us | Charisol"> 
@@ -35,10 +37,12 @@ import stylesheet from '../styles/about.scss';
                   </p>
                 </span>
                 </div>
-                <a className="btn-curve-purple m-t-md" href="./start.html">
+                <Link href="/start">
+                <a className="btn-curve-purple m-t-md">
                   Start a project
                   <img src={require('../assets/img/icon_right_white.svg')}  alt="right" />
                 </a>
+                </Link>
               </div>
             </div>
             <div className="pricing-wrapper columns">
