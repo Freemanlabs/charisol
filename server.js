@@ -8,7 +8,7 @@ const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 require('dotenv').config({ path: 'variables.env' });
 
-//mongodb://Alexonozor:onozorgheneho@ds050539.mlab.com:50539/trouvise
+
 
 //conneting to mongoose
 mongoose.connect(process.env.DATABASE)

@@ -1,6 +1,5 @@
 import Layout from '../components/Layout';
 import Navbar from '../components/Navbar';
-import ProfileInfo from '../components/ProfileInfo';
 import stylesheet from '../styles/about.scss';
 import fetch from 'isomorphic-unfetch'
 import React, { Component } from 'react'
@@ -17,7 +16,8 @@ class Team extends Component {
   }
 
   componentDidMount() {
-    fetch('http://localhost:3000/api/get-teams')
+    console.log(process)
+    fetch(`/api/get-teams`)
     .then((res) => res.json())
     .then((data) => this.setState({teams: data}))
   }
@@ -38,7 +38,7 @@ class Team extends Component {
             <span className="close close-red"></span>
           </div>
           <div>
-            <div classNameName='top-info'>
+            <div className='top-info'>
               <div className='row'>
                 <div className='six columns'>
                   <img src={this.state.user.image_url} alt='team member' className='avatar' style={{with: '54%'}} />
