@@ -12,5 +12,6 @@ export default (props) => (
             <script src='../static/app.js' type='text/javascript' />
             <script src='../static/slider.min.js' type="text/javascript" />
             <script src='../static/myscript.js' type="text/javascript" />
+            <script src="../static/visibility.checker.js" type="text/javascript"></script>
   </Head>
 )

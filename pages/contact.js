@@ -75,12 +75,12 @@ class Contact extends Component {
                 <div className="six columns">
                   <div className="text-content">
                     <span className="heading-wrapper">
-                      <h1 className="heading">
+                      <h1 className="heading no-reveal">
                         Get in Touch.
                    </h1>
                     </span>
                     <span className="sub-text-wrapper">
-                      <p className="sub-text">
+                      <p className="sub-text no-reveal">
                         Let’s help you figure out your software engineering and design needs.
                         We are super excited to get to chat with you and eager to work with you to bring your next project to life. Drop us a line or two and we will get in touch with you.
                       </p>

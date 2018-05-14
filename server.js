@@ -6,9 +6,12 @@ const app = next({ dev })
 const handle = app.getRequestHandler()
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
+require('dotenv').config({ path: 'variables.env' });
+
+
 
 //conneting to mongoose
-mongoose.connect('mongodb://localhost:27017/charisol')
+mongoose.connect(process.env.DATABASE)
 mongoose.connection.on('connected', function () {
   console.log('Mongoose default connection');
 });

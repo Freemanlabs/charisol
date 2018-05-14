@@ -36,7 +36,7 @@ export default () => (
         <Link href="/faq"><a>FAQ</a></Link>
         </li>
         <li>
-        <Link href="/start"><a className="btn-trans-white" href="./start.html">Start a project</a></Link>
+        <Link href="/start"><a className="btn-trans-white" href="/start">Start a project</a></Link>
         </li>
         <li className="m-t-lg">
           <p>© Charisol 2018</p>

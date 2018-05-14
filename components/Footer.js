@@ -22,11 +22,19 @@ export default (props) => (
               <a href="http://blog.charisol.io" target="no_blank">Blog</a>
             </li>
             <li>
-              <a href="./pricing-page">Pricing</a>
+            <Link href="/pricing">
+               <a>Pricing</a>
+             </Link>
             </li>
             <li>
               <Link href="/contact">
                 <a>Contact</a>
+              </Link>  
+            </li>
+
+            <li>
+              <Link href="/faq">
+                <a>FAQ</a>
               </Link>  
             </li>
             

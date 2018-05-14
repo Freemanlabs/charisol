@@ -1,6 +1,5 @@
 import Layout from '../components/Layout';
 import Navbar from '../components/Navbar';
-import ProfileInfo from '../components/ProfileInfo';
 import stylesheet from '../styles/about.scss';
 import fetch from 'isomorphic-unfetch'
 import React, { Component } from 'react'
@@ -17,7 +16,8 @@ class Team extends Component {
   }
 
   componentDidMount() {
-    fetch('http://localhost:3000/api/get-teams')
+    console.log(process)
+    fetch(`/api/get-teams`)
     .then((res) => res.json())
     .then((data) => this.setState({teams: data}))
   }
@@ -38,7 +38,7 @@ class Team extends Component {
             <span className="close close-red"></span>
           </div>
           <div>
-            <div classNameName='top-info'>
+            <div className='top-info'>
               <div className='row'>
                 <div className='six columns'>
                   <img src={this.state.user.image_url} alt='team member' className='avatar' style={{with: '54%'}} />
@@ -69,18 +69,18 @@ class Team extends Component {
             <div className="six columns">
               <div className="text-content">
                 <span className="heading-wrapper">
-                  <h1 className="heading">
+                  <h1 className="heading no-reveal">
                     Core team.
                       </h1>
                 </span>
                 <span className="sub-text-wrapper">
-                  <p className="sub-text">
+                  <p className="sub-text no-reveal">
                     We are a team of young and vibrant techies filled with loads of passion for what we do. We are proud workaholics who drink
                     a little too much coffee and believe in power naps.
                     </p>
                 </span>
                 <span className="sub-text-wrapper">
-                  <p className="sub-text">
+                  <p className="sub-text no-reveal">
                     Our mutual desire to change the world through cutting edge programming techniques is what keeps us together. Occasionally
                     we try to listen to our mothers and know when to pull an all nighter and when to catch 40 winks.
                     </p>
@@ -89,7 +89,7 @@ class Team extends Component {
             </div>
             <div className="six columns img-col">
               <div className="image-wrapper-container">
-                <div className="image-wrapper">
+                <div className="image-wrapper no-reveal">
                   <div className="image team-image" alt="team" style={{ backgroundImage: 'url(' + Background + ')' }}>
                   </div>
                 </div>
@@ -103,7 +103,7 @@ class Team extends Component {
                 {this.state.teams.map((team, i) => (
 
                   <div className="tile" key={i}>
-                    <div className="avatar-wrapper">
+                    <div className="avatar-wrapper no-reveal">
                       <div className="avatar" alt="team member" style={{ backgroundImage: 'url(' + team.image_url + ')' }}></div>
                     </div>
                     <div className="text-wrap">
