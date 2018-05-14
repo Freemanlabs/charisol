@@ -34,12 +34,10 @@ const Index = (props) => (
                         Charisol is a software development agency that connects remote friendly companies with a community of talented software developers.
                     </p>
                   </span>
-                  <Link  href="/start">
-                   <a className="btn-curve-purple m-t-md">
+                   <a href="/start" className="btn-curve-purple m-t-md">
                     Start a project
                     <img src={require('../assets/img/icon_right_white.svg')}  alt="right" />
                     </a>
-                  </Link>
                 </div>
               </div>
               <div className="six columns right-pane">

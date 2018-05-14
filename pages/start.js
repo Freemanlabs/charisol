@@ -1,6 +1,5 @@
 import Layout from '../components/Layout';
 import Navbar from '../components/Navbar';
-import ProfileInfo from '../components/ProfileInfo';
 import stylesheet from '../styles/about.scss';
 import fetch from 'isomorphic-unfetch'
 import React, { Component } from 'react'

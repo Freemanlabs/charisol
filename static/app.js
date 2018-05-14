@@ -27,52 +27,7 @@ $(function () {
     }),
 
     $(document).on("click", ".team-profile-btn", function () {
-      // var personID = ($(this).data('personId'));
-      // $.getJSON(`http://localhost:3000/api/teams/${personID}`, {
-      //   format: 'json'
-      // }).done(function (data) {
-      //   var data_response = data
-      //   var person_obj = data_response
-      //   var profile_info = `<div class='top-info'>
-      //     <div class='row'>
-      //     <div class='six columns'>
-      //     <img src='${person_obj.image_url}' alt='team member' class='avatar'>
-      //     </div>
-      //     <div class='six columns'>
-      //     <h5 class='bold'>${person_obj.firstName} ${person_obj.lastName}</h5>
-      //     <p>${person_obj.position}</p>
-      //     <span class='blue-badge'>
-      //     <span class='circle'></span>Core team</span>
-      //     </div>
-      //      </div>
-      //      </div>
-      //      <div class='m-t-md m-b-md'>
-      //      <p>${person_obj.description}</p>
-      //      </div>`;
-     
-        // var skills_info = function () {
-        //   person_obj['skills'] = ''
-        //   if (person_obj.skills && person_obj.skills === "") {
-        //     return ""
-        //   } else {
-        //     var skill_string = []
-
-        //     $.each(person_obj.skills, function (skill, skill_value) {
-        //       skill_string = skill_string + (
-        //         "<p class='bold skills-heading'>" + skill + "</p>" +
-        //         "<p class='m-t-md skill-text'>" +
-        //         ($.each(skill_value, function (key, skill_val) {
-        //           return skill_val + ","
-        //         })) +
-        //         "</p>"
-        //       )
-        //     })
-        //     return skill_string
-        //   }
-        // }
-        // $('#profile-wrapper').html(profile_info + skills_info());
         $(".content-cover").fadeIn(), $("#profile").toggleClass("show"), n.toggle()
-      // })
     }),
 
     $("#menu-desktop .close").on("click", function () {
