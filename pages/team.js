@@ -16,7 +16,6 @@ class Team extends Component {
   }
 
   componentDidMount() {
-    console.log(process)
     fetch(`/api/get-teams`)
     .then((res) => res.json())
     .then((data) => this.setState({teams: data}))

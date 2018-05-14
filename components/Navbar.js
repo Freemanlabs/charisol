@@ -3,11 +3,10 @@ import Link from 'next/link';
 export default (props) => (
     <nav className="nav-index nav-top">
         <div className="nav-desktop-left">
-        <Link href="/">
-          <a className="logo">
+
+        <a href="/" className="logo">
            <img src={require('../assets/img/charisol_logo.svg')} alt="Charisol" />
-          </a>
-        </Link>  
+        </a>  
         </div>
         <div className="hamburger">
           <span className="first-child"></span>
