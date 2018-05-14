@@ -6,37 +6,28 @@ export default () => (
       <ul>
         <li><span className="close close-white"></span></li>
         <li className="active">
-          <Link href="/">
-           
-            <a>Home</a>
-          </Link>
+          <a href="/">Home</a>
         </li>
         <li>
-          <Link href="/about">
-            <a>About Us</a>
-          </Link>
+          <a href="/about">About Us</a>
         </li>
         <li>
-        <Link href="/team"> 
-          <a>Team &amp; Community</a>
-        </Link>
+        <a href="/team">Team &amp; Community</a>
         </li>
         <li>
           <a href="http://blog.charisol.io" target="no_blank">Blog</a>
         </li>
         <li>
-
-          <Link href="/pricing"><a>Pricing</a></Link>
-        </li>
-      <li>
-          <Link href="/contact"><a>Contact</a></Link>
-       </li>
-        <li>
-
-        <Link href="/faq"><a>FAQ</a></Link>
+          <a href="/pricing">Pricing</a>
         </li>
         <li>
-        <Link href="/start"><a className="btn-trans-white" href="/start">Start a project</a></Link>
+          <a href="/contact">Contact</a>
+        </li>
+        <li>
+          <a href="/faq">FAQ</a>
+        </li>
+        <li>
+          <a className="btn-trans-white" href="/start">Start a project</a>
         </li>
         <li className="m-t-lg">
           <p>© Charisol 2018</p>

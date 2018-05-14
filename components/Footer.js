@@ -4,44 +4,36 @@ export default (props) => (
   <div>
       <footer>
         <div className="nav-desktop-left">
-          <Link href="/"><a className="logo" href="./index.html"></a></Link>
+          <a href="/" className="logo" ></a>
         </div>
         <div className="links">
           <ul>
             <li>
-              <Link href="/about">
-               <a>About Us</a>
-              </Link>
+              <a href="/about">
+                About Us
+              </a>
             </li>
             <li>
-             <Link href="/team">
-              <a>Team</a>
-             </Link>    
+             <a href="/team">Team</a>    
             </li>
             <li>
               <a href="http://blog.charisol.io" target="no_blank">Blog</a>
             </li>
             <li>
-            <Link href="/pricing">
-               <a>Pricing</a>
-             </Link>
+             <a href="/pricing">Pricing</a>
             </li>
             <li>
-              <Link href="/contact">
-                <a>Contact</a>
-              </Link>  
+              <a href="/contact">Contact</a>  
             </li>
 
             <li>
-              <Link href="/faq">
-                <a>FAQ</a>
-              </Link>  
+              <a href="/faq">FAQ</a>  
             </li>
             
             <li>
               <a target="_blank" href="https://www.instagram.com/charisoltech/">
                 <img src={require('../assets/img/icon_instagram.svg')}  alt="Charisol LinkedIn" />
-            </a>
+             </a>
           </li>
               <li>
                 <a target="_blank" href="http://facebook.com/charisoltech" >
