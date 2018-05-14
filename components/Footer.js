@@ -31,6 +31,12 @@ export default (props) => (
                 <a>Contact</a>
               </Link>  
             </li>
+
+            <li>
+              <Link href="/faq">
+                <a>FAQ</a>
+              </Link>  
+            </li>
             
             <li>
               <a target="_blank" href="https://www.instagram.com/charisoltech/">

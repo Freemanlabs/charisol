@@ -25,12 +25,12 @@ const Index = (props) => (
                 </nav>
                 <div className="text-content">
                   <span className="heading-wrapper">
-                      <h1 className="heading">
+                      <h1 className="heading no-reveal">
                           Changing the game of Software Development, One Code at a time.
                       </h1>
                   </span>
                   <span className="sub-text-wrapper">
-                    <p className="sub-text" >
+                    <p className="sub-text no-reveal" >
                         Charisol is a software development agency that connects remote friendly companies with a community of talented software developers.
                     </p>
                   </span>
@@ -43,7 +43,7 @@ const Index = (props) => (
                 </div>
               </div>
               <div className="six columns right-pane">
-                <div className="top-img-wrapper">
+                <div className="top-img-wrapper no-reveal">
                     <div className="top-img"></div>
                 </div>
               </div>
@@ -52,7 +52,7 @@ const Index = (props) => (
       </div>
       <div className="scale">
         <div className="section-2-wrapper row">
-          <div className="six columns image-wrapper-container">
+          <div className="six columns image-wrapper-container no-reveal">
               <div className="clear-div-container">
                 <div className="clear-div">
                     <div className="image-wrapper"
@@ -65,17 +65,17 @@ const Index = (props) => (
           <div className="six columns text-wrapper">
             <div className="text-content">
               <span className="heading-wrapper">
-                  <h1 className="heading">
+                  <h1 className="heading no-reveal">
                     The Future is Remote Work.
                   </h1>
               </span>
               <span className="sub-text-wrapper">
-                <p className="sub-text">
+                <p className="sub-text no-reveal">
                   We live in a global world where talent is largely decentralized. This is why we strongly believe in the future of remote work.
                 </p>
               </span>
               <span className="sub-text-wrapper">
-                  <p className="m-b-md sub-text">
+                  <p className="m-b-md sub-text no-reveal">
                     Our experience in this field (successes and failures) has opened our minds and taught us how to work only with best practices. Thanks to apps like Trello, Skype, Zoom, Toptal, Google Apps, Github and others, our software developers are reachable round the clock.
                   </p>
               </span>
@@ -88,19 +88,19 @@ const Index = (props) => (
           <div className="seven columns">
             <div className="text-content">
               <span className="heading-wrapper">
-                <h1 className="heading  m-b-md">
+                <h1 className="heading no-reveal m-b-md">
                   Our Services
                 </h1>
               </span>
               <p className="sub-title">Web Application</p>
               <span className="sub-text-wrapper">
-                <p className="sub-text  m-b-lg">
+                <p className="sub-text no-reveal m-b-lg">
                   Our web application development team works with NodeJs, AngularJs, Golang, Ruby on Rails, PHP, Java (and a long list of many other languages) to ensure highly scalable and optimally engineered solutions are delivered based on your project requirements.  
                 </p>
               </span>
               <p className="sub-title">Mobile App Development </p>
               <span className="sub-text-wrapper">
-                <p className="sub-text  m-b-lg">
+                <p className="sub-text no-reveal m-b-lg">
                   There are billions of users worldwide using mobile phones - it’s a no brainer why you need to build an Android or iOS app. Charisol’s mobile app development team has the right expertise and experience in not just building but also scaling your app.
                 </p>
               </span>
@@ -121,7 +121,7 @@ const Index = (props) => (
       </div>
       <div className="benefits">
         <span className="heading-wrapper">
-          <h2 className="heading text-center m-b-xl">Hire Dedicated Professionals</h2>
+          <h2 className="heading no-reveal text-center m-b-xl">Hire Dedicated Professionals</h2>
         </span>
         <div className="content m-t-lg">
           <div className="m-t-lg row">
@@ -133,7 +133,7 @@ const Index = (props) => (
                 <div className="nine columns">
                   <h5>Tested and Proven</h5>
                   <span className="sub-text-wrapper">
-                      <p className="sub-text">
+                      <p className="sub-text no-reveal">
                         Our expertise ranges from developing offline web-based systems to highly scalable enterprise SAAS products. We have a proven record of delivering high quality deliverables to our clients.
                       </p>
                   </span>
@@ -148,7 +148,7 @@ const Index = (props) => (
                 <div className="nine columns">
                   <h5>Dedicated Professionals</h5>
                   <span className="sub-text-wrapper">
-                      <p className="sub-text">
+                      <p className="sub-text  no-reveal">
                         Our dedicated professionals have expert experience and high performance and are ready to bring your ideas to life and achieve exceptional results in the shortest possible time.
                       </p>
                   </span>
@@ -164,8 +164,8 @@ const Index = (props) => (
                 </div>
                 <div className="nine columns">
                   <h5>Unparalleled Support </h5>
-                  <span className="sub-text-wrapper">
-                      <p className="sub-text">
+                  <span className="sub-text-wrapper ">
+                      <p className="sub-text no-reveal">
                         We are available round the clock to get all your questions answered. Just call us or send us an email and we will get back to you as soon as we can. We are just one click away!
                       </p>
                   </span>
@@ -179,8 +179,8 @@ const Index = (props) => (
                 </div>
                 <div className="nine columns">
                   <h5>Budget friendly</h5>
-                  <span className="sub-text-wrapper">
-                      <p className="sub-text">
+                  <span className="sub-text-wrapper ">
+                      <p className="sub-text no-reveal">
                         Get proactive with your growth strategy with our development plan that suits your budget. All our plans have been cherry picked to make sure our clients get maximum return on investment.
                       </p>
                   </span>
