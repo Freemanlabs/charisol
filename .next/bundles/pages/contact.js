@@ -2,7 +2,7 @@ module.exports =
 
         __NEXT_REGISTER_PAGE('/contact', function() {
           var comp = 
-      webpackJsonp([7],{
+      webpackJsonp([10],{
 
 /***/ "./assets/img/bg_contact.png":
 /***/ (function(module, exports) {
@@ -2181,7 +2181,7 @@ module.exports = "@charset \"UTF-8\";\n/*! normalize.css v3.0.2 | MIT License | 
 
 /***/ }),
 
-/***/ 7:
+/***/ 6:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__("./pages/contact.js");
@@ -2189,7 +2189,7 @@ module.exports = __webpack_require__("./pages/contact.js");
 
 /***/ })
 
-},[7])
+},[6])
           return { page: comp.default }
         })
       ;
