@@ -1,7 +1,10 @@
 import Head from 'next/head'
+import stylesheet from '../styles/index.scss';
+
 export default (props) => (
   <Head>
     <title>{props.title}</title>
+    <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
     <link rel="shortcut icon" href="/favicon.ico" />
       <meta charSet="utf-8" />     
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
