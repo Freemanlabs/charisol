@@ -2,7 +2,7 @@ module.exports =
 
         __NEXT_REGISTER_PAGE('/', function() {
           var comp = 
-      webpackJsonp([9],{
+      webpackJsonp([4],{
 
 /***/ "./assets/img/alexonozor.jpg":
 /***/ (function(module, exports) {
@@ -402,21 +402,21 @@ var _default = function _default(props) {
       lineNumber: 10
     }
   }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("script", {
-    src: "../static/slideout.min.js",
+    src: "https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.7.0/jquery.flexslider.min.js",
     type: "text/javascript",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
     }
   }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("script", {
-    src: "../static/app.js",
+    src: "../static/slideout.min.js",
     type: "text/javascript",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12
     }
   }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("script", {
-    src: "../static/slider.min.js",
+    src: "../static/app.js",
     type: "text/javascript",
     __source: {
       fileName: _jsxFileName,
@@ -2548,7 +2548,7 @@ module.exports = "@charset \"UTF-8\";\n/*! normalize.css v3.0.2 | MIT License | 
 
 /***/ }),
 
-/***/ 8:
+/***/ 3:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__("./pages/index.js");
@@ -2556,7 +2556,7 @@ module.exports = __webpack_require__("./pages/index.js");
 
 /***/ })
 
-},[8])
+},[3])
           return { page: comp.default }
         })
       ;
