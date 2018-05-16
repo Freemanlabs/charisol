@@ -4,7 +4,7 @@ import stylesheet from '../styles/index.scss';
 import Navbar from '../components/Navbar';
 
 const Index = (props) => (
-    <Layout title="FAQ | Charisol">
+    <Layout title="FAQ | Charisol Technologies" content="Have an question running through your mind, get on our FAQ page or send us a mail for clarity.">
         <style dangerouslySetInnerHTML={{ __html: stylesheet }} />  
         <div id="panel" data-slideout-ignore>
     <section className="faq"> 

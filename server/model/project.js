@@ -1,17 +1,14 @@
 const mongoose = require('mongoose'),
   Schema = mongoose.Schema
 const validate = require('mongoose-validator');
-const beautifyUnique = require('mongoose-beautiful-unique-validation');
-const GENDER = ['Male', 'Female'];
-
-var validateEmail = function(email) {
+var validateEmail = function (email) {
   var re = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
   return re.test(email)
 };
 
-var TeamSchema = new mongoose.Schema({
+var ProjectSchema = new mongoose.Schema({
 
-  firstName: {
+  name: {
     type: String,
     required: true,
     validate: validate({
@@ -22,18 +19,11 @@ var TeamSchema = new mongoose.Schema({
     })
   },
 
-  lastName: {
-    type: String,
-    required: true,
-    validate: validate({
-      validator: 'isLength',
-      arguments: [3, 20],
-      passIfEmpty: false,
-      message: 'last Name should be between {ARGS[0]} and {ARGS[1]} characters',
-    })
+  startDate: {
+    type: String
   },
 
-  image_url: {
+  tel: {
     type: String
   },
 
@@ -42,14 +32,22 @@ var TeamSchema = new mongoose.Schema({
     type: String
   },
 
-
-  position: {
+  personalNeeded: {
     type: String
   },
 
-  gender: {
-    type: String,
-    enum: GENDER
+
+  startDate: {
+    type: Date
+  },
+
+  createdAt: {
+    type: Date,
+    default: Date.now
+  },
+
+  billing: {
+    type: String
   },
 
   email: {
@@ -60,12 +58,7 @@ var TeamSchema = new mongoose.Schema({
     trim: true,
     validate: [validateEmail, 'Please fill a valid email address'],
     match: [/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/, 'Please fill a valid email address']
-  },
-
-  skills: [
-    { type: Schema.Types.ObjectId, ref: 'Skill' }
-  ]
+  }
 });
 
-module.exports = mongoose.model('Team', TeamSchema);  
-
+module.exports = mongoose.model('Project', ProjectSchema); 

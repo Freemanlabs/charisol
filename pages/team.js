@@ -29,7 +29,7 @@ class Team extends Component {
 
   render() {
     return (
-      <Layout title="Team | Charisol">
+      <Layout title="Team | Charisol Technologies" content="Our team comprises of vetted freelance developers that have been tested on their technical skills, communication skills, and project management skills.">
         <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
         <nav id="profile" className="profile">
           <div className="head">
