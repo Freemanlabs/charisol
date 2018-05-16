@@ -1,23 +1,13 @@
 import Link from 'next/link';
 import Layout from '../components/Layout';
+import Navbar from '../components/Navbar';
 import stylesheet from '../styles/index.scss';
 
 const Pricing = (props) => (
     <Layout title="Pricing | Charisol Technologies">  
       <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
         <section className="pricing" id="panel" data-slideout-ignore>
-            <nav className="nav-index nav-top">
-                <div className="nav-desktop-left">
-                    <a className="logo" href="./index.html">
-                        <img src={require('../assets/img/charisol_logo.svg')}  alt="Charisol" />
-                    </a>
-                </div>
-                <div className="hamburger">
-                    <span className="first-child"></span>
-                    <span></span>
-                    <span className="last-child"></span>
-                </div>
-            </nav>
+        <Navbar />
             <div className="content">
                 <div className="row">
                     <div className="pricing-text-wrapper">

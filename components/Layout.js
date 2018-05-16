@@ -4,7 +4,7 @@ import Sidebar from './Sidebar';
 const Layout = (props) => (
     <div>
       <Sidebar />
-       <Header title={props.title}/>
+       <Header title={props.title} content={props.content}/>
        {props.children}
       <Footer />
     </div>

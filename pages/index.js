@@ -4,7 +4,8 @@ import Layout from '../components/Layout';
 const Index = (props) => (
 
   
-  <Layout title="A software development agency for remote companies | Charisol">  
+  <Layout title="A software development agency for remote companies | Charisol" content="Charisol connects remote friendly companies with a community of talented developers and designers.
+  Let’s figure out your software engineering and design needs.">  
     
     
     <section className="index" id="panel" data-slideout-ignore>
