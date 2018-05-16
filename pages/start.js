@@ -68,7 +68,7 @@ class Start extends Component {
   render() {
     const { startForm } = this.state;
     return (
-    <Layout title="Start a Project | Charisol Technologies">
+    <Layout title="Start a Project | Charisol Technologies" ontent="At Charisol, we approach every project with deep commitment and passion, applying meticulous detail + craftsmanship at every stage of product development">
     <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
     <div id="panel" data-slideout-ignore>
         <section className="start">

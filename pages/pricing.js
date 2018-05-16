@@ -3,7 +3,7 @@ import Layout from '../components/Layout';
 import stylesheet from '../styles/index.scss';
 
 const Pricing = (props) => (
-    <Layout title="A software development agency for remote companies | Charisol">  
+    <Layout title="Pricing | Charisol Technologies">  
       <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
         <section className="pricing" id="panel" data-slideout-ignore>
             <nav className="nav-index nav-top">
