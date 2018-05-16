@@ -21,7 +21,7 @@ export default (props) => (
     <meta name="theme-color" content="#000000" />
   </Head>
   <AppBar
-    title={<span style={styles.title}>Title</span>}
+    title={<span style={styles.title}>Admin portal under construction</span>}
     iconElementLeft={<IconButton><NavigationClose /></IconButton>}
     iconElementRight={<FlatButton label="Save" />}
   />
