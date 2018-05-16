@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 
  const About = (props) => (
-   <Layout  title="About Us | Charisol"> 
+   <Layout  title="About Us | Charisol Technologies"> 
    <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
    
     <div id="panel"  data-slideout-ignore>

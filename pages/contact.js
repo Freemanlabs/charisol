@@ -62,7 +62,7 @@ class Contact extends Component {
   render() {
     const { input } = this.state;
     return (
-      <Layout title="Contact Us | Charisol">
+      <Layout title="Contact Us | Charisol Technologies" content="Let us help you bring your projects to life and deliver your design/developments needs the right way.">
         <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
         <div id="panel" data-slideout-ignore>
           <section className="pricing">
