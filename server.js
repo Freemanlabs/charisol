@@ -23,6 +23,10 @@ mongoose.connection.on('error', function (err) {
 
 const teamsController = require('./server/controller/teamsController');
 const contactsController = require('./server/controller/contactsController');
+const skillsController = require('./server/controller/skillsController');
+const projectsController = require('./server/controller/projectsController');
+
+
 
   app.prepare()
   .then(() => {
@@ -33,10 +37,20 @@ const contactsController = require('./server/controller/contactsController');
 
     server.get('/api/get-teams', teamsController.getTeams());
     server.post('/api/teams', teamsController.saveTeam());
-    server.get('/api/teams/:id', teamsController.getTeam());
+    server.get('/api/team/:id', teamsController.getTeam());
+    server.put('/api/team/:id', teamsController.updateTeam());
+    server.post('/api/update-create/:email', teamsController.updateOrCreate())
     // contacts
     server.post('/api/contacts', contactsController.saveContact());
     server.get('/api/get-contacts', contactsController.getContacts());
+    // skills
+    server.get('/api/get-skills', skillsController.getSkills());
+    server.post('/api/skill', skillsController.saveSkill());
+    server.get('/api/skill/:id', skillsController.getSkill());
+    //projects
+    server.get('/api/get-projects', projectsController.getProjects());
+    server.post('/api/projects', projectsController.saveProjects());
+  
 
     server.get('/contact', (req, res) => {
       return app.render(req, res, '/contact')
@@ -48,6 +62,10 @@ const contactsController = require('./server/controller/contactsController');
 
     server.get('/team', (req, res) => {
       return app.render(req, res, '/team')
+    })
+
+    server.get('/admin', (req, res) => {
+      return app.render(req, res, '/admin-home')
     })
 
     server.get('*', (req, res) => {
