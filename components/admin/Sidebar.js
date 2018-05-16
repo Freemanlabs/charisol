@@ -17,8 +17,8 @@ render () {
     return (
     <div style={{margin: "0px", padding: "0px", height: '0px'}}>
           <Drawer open={this.state.open}>
-            <MenuItem>Menu Item</MenuItem>
-            <MenuItem>Menu Item 2</MenuItem>
+            <MenuItem>construction</MenuItem>
+            <MenuItem>construction</MenuItem>
           </Drawer>
     </div>
   )
