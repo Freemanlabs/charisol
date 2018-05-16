@@ -90,7 +90,11 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
+<<<<<<< HEAD
 /******/ 	var hotCurrentHash = "89d6b29d5fd0789f001c"; // eslint-disable-line no-unused-vars
+=======
+/******/ 	var hotCurrentHash = "d6ff925a00ede25b47a3"; // eslint-disable-line no-unused-vars
+>>>>>>> feat(admin): setup authentication with slack and admin portal
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -755,7 +759,11 @@
 /******/ 		if (__webpack_require__.nc) {
 /******/ 			script.setAttribute("nonce", __webpack_require__.nc);
 /******/ 		}
+<<<<<<< HEAD
 /******/ 		script.src = __webpack_require__.p + "" + ({"0":"main.js","1":"bundles/pages/_error.js","2":"bundles/pages/_app.js","4":"bundles/pages/admin-home.js"}[chunkId]||chunkId) + "-" + {"0":"e5162e79a870eef4363b","1":"5bef41eb30202310ec0a","2":"5d4fb4e0d6ac5dd63490","4":"57122e2b56cdd9b6866f"}[chunkId] + ".js";
+=======
+/******/ 		script.src = __webpack_require__.p + "" + ({"0":"main.js","1":"bundles/pages/_error.js","2":"bundles/pages/_app.js"}[chunkId]||chunkId) + "-" + {"0":"e5162e79a870eef4363b","1":"5bef41eb30202310ec0a","2":"5d4fb4e0d6ac5dd63490"}[chunkId] + ".js";
+>>>>>>> feat(admin): setup authentication with slack and admin portal
 /******/ 		var timeout = setTimeout(onScriptComplete, 120000);
 /******/ 		script.onerror = script.onload = onScriptComplete;
 /******/ 		function onScriptComplete() {
