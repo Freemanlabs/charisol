@@ -20130,7 +20130,7 @@ var _default = AdminHome;
 
 /***/ }),
 
-/***/ 5:
+/***/ 3:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__("./pages/admin-home.js");
@@ -20138,7 +20138,7 @@ module.exports = __webpack_require__("./pages/admin-home.js");
 
 /***/ })
 
-},[5])
+},[3])
           return { page: comp.default }
         })
       ;
