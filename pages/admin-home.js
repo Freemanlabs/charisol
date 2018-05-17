@@ -148,7 +148,7 @@ class AdminHome extends Component {
     <Layout title="Dashboard">
     <form onSubmit={this.submitForm}>
       <div style={styles.div}>
-        <TextField hintText="Enter Fullname" defaultValue={currentUser.firstName} onChange={e => this.handleInputChange({ firstName: e.target.value })} fullWidth={true} />
+        <TextField hintText="Enter Fullname" value={currentUser.firstName} onChange={e => this.handleInputChange({ firstName: e.target.value })} fullWidth={true} />
         <TextField hintText="Enter lastName" value={currentUser.lastName} onChange={e => this.handleInputChange({ lastName: e.target.value })} fullWidth={true} />
       </div>
       <div style={styles.div}>

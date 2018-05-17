@@ -2,7 +2,7 @@ module.exports =
 
         __NEXT_REGISTER_PAGE('/admin-home', function() {
           var comp = 
-      webpackJsonp([5],{
+      webpackJsonp([4],{
 
 /***/ "./components/admin/Header.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -19934,7 +19934,7 @@ function (_Component) {
         }
       }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7_material_ui_TextField___default.a, {
         hintText: "Enter Fullname",
-        defaultValue: "errer",
+        value: currentUser.firstName,
         onChange: function onChange(e) {
           return _this4.handleInputChange({
             firstName: e.target.value
@@ -20131,7 +20131,7 @@ var _default = AdminHome;
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__("./pages/admin-home.js");
@@ -20139,7 +20139,7 @@ module.exports = __webpack_require__("./pages/admin-home.js");
 
 /***/ })
 
-},[4])
+},[3])
           return { page: comp.default }
         })
       ;
