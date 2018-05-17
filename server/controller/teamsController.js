@@ -66,7 +66,7 @@ controller.saveTeam = () => {
               if (err) {
                 res.json({ success: false, err, status: 501 }).status(500)
               } else {
-                res.json({ success: true, team: teamParams, status: 201 }).status(200)
+                res.json({ success: true, user: teamParams, status: 201 }).status(200)
               }
             })
           }

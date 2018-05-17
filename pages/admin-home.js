@@ -66,7 +66,8 @@ class AdminHome extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      ...initialState
+      ...initialState,
+      currentUserId: props.url.query._id
     }
     this.handleChange = this.handleInputChange.bind(this);
     this.submitForm = this.submitForm.bind(this);
@@ -80,6 +81,39 @@ class AdminHome extends Component {
         ...newPartialInput
       }
     }))
+  }
+
+  componentDidMount() {
+    this.getSkills();
+    this.getUser();
+  }
+
+  getSkills() {
+    fetch(`/api/get-skills`)
+    .then((res) => res.json())
+    .then((data) => this.setState({teams: data}))
+  }
+
+  getUserLocally() {
+    return JSON.parse(localStorage.getItem('user'))
+  }
+  
+  setUserLocally(user) {
+    localStorage.setItem('user', JSON.stringify(user))
+    return user
+  }
+
+  getUser() {
+    fetch(`/api/team/${this.state.currentUserId}`)
+      .then((res) => res.json())
+      .then((user) => {
+        this.setState({ currentUser: user})
+        this.setUserLocally(user);
+      })
+  }
+ 
+  getUserInfo(userInfo) {
+    this.setState({user: userInfo})
   }
 
   submitForm(event) {
@@ -106,40 +140,6 @@ class AdminHome extends Component {
     //     }
     //   })
     // })
-  }
-
-  componentDidMount() {
-    this.getSkills();
-    this.getUser();
-  }
-
-  getSkills() {
-    fetch(`/api/get-skills`)
-    .then((res) => res.json())
-    .then((data) => this.setState({teams: data}))
-  }
-
-  getUserLocally() {
-    return JSON.parse(localStorage.getItem('user'))
-  }
-  
-  setUserLocally(user) {
-    localStorage.setItem('user', JSON.stringify(user))
-    return user
-  }
-
-  getUser() {
-    const user = this.getUserLocally();
-    fetch(`/api/team/${user._id}`)
-      .then((res) => res.json())
-      .then((user) => {
-        this.setState({ currentUser: user})
-        this.setUserLocally(user);
-      })
-  }
- 
-  getUserInfo(userInfo) {
-    this.setState({user: userInfo})
   }
 
   render() {

@@ -67,9 +67,10 @@ class AdminLogin extends Component {
     })
     .then((res) => res.json())
     .then((data) => {
+        console.log(data);
         this.setState({saving: false, save: true})
         localStorage.setItem('access_token', userReponse.access_token);
-        Router.push('/admin-home');
+        Router.push({ pathname:'/admin-home', query: { _id: data.user._id }});
     })
   } 
  
