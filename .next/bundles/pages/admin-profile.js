@@ -2,7 +2,7 @@ module.exports =
 
         __NEXT_REGISTER_PAGE('/admin-profile', function() {
           var comp = 
-      webpackJsonp([5],{
+      webpackJsonp([9],{
 
 /***/ "./components/admin/Dashboard.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -138,6 +138,7 @@ function (_React$Component) {
           lineNumber: 45
         }
       }, __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0__admin_Header__["a" /* default */], {
+        pageName: this.props.pageName,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 46
@@ -217,6 +218,8 @@ var _default = Object(__WEBPACK_IMPORTED_MODULE_4__material_ui_core_styles__["wi
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__material_ui_core_Menu___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_13__material_ui_core_Menu__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_next_head__ = __webpack_require__("./node_modules/next/head.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_next_head___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_14_next_head__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_next_router__ = __webpack_require__("./node_modules/next/router.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_next_router___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_15_next_router__);
 var _jsxFileName = "/Users/macbook/workspace/charisol/challaris-tech-website/components/admin/Header.js";
 
 (function () {
@@ -254,6 +257,7 @@ function _assertThisInitialized(self) { if (self === void 0) { throw new Referen
 
 
 
+
 var styles = {
   root: {
     flexGrow: 1
@@ -272,26 +276,13 @@ var Header =
 function (_React$Component) {
   _inherits(Header, _React$Component);
 
-  function Header() {
-    var _ref;
-
-    var _temp, _this;
+  function Header(props) {
+    var _this;
 
     _classCallCheck(this, Header);
 
-    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
-      args[_key] = arguments[_key];
-    }
-
-    return _possibleConstructorReturn(_this, (_temp = _this = _possibleConstructorReturn(this, (_ref = Header.__proto__ || Object.getPrototypeOf(Header)).call.apply(_ref, [this].concat(args))), Object.defineProperty(_assertThisInitialized(_this), "state", {
-      configurable: true,
-      enumerable: true,
-      writable: true,
-      value: {
-        auth: true,
-        anchorEl: null
-      }
-    }), Object.defineProperty(_assertThisInitialized(_this), "handleChange", {
+    _this = _possibleConstructorReturn(this, (Header.__proto__ || Object.getPrototypeOf(Header)).call(this, props));
+    Object.defineProperty(_assertThisInitialized(_this), "handleChange", {
       configurable: true,
       enumerable: true,
       writable: true,
@@ -300,7 +291,8 @@ function (_React$Component) {
           auth: checked
         });
       }
-    }), Object.defineProperty(_assertThisInitialized(_this), "handleMenu", {
+    });
+    Object.defineProperty(_assertThisInitialized(_this), "handleMenu", {
       configurable: true,
       enumerable: true,
       writable: true,
@@ -309,7 +301,8 @@ function (_React$Component) {
           anchorEl: event.currentTarget
         });
       }
-    }), Object.defineProperty(_assertThisInitialized(_this), "handleClose", {
+    });
+    Object.defineProperty(_assertThisInitialized(_this), "handleClose", {
       configurable: true,
       enumerable: true,
       writable: true,
@@ -318,13 +311,29 @@ function (_React$Component) {
           anchorEl: null
         });
       }
-    }), _temp));
+    });
+    _this.state = {
+      auth: true,
+      anchorEl: null
+    };
+    _this.logoutHanddler = _this.logoutHanddler.bind(_assertThisInitialized(_this));
+    return _this;
   }
 
   _createClass(Header, [{
+    key: "logoutHanddler",
+    value: function logoutHanddler() {
+      this.setState({
+        anchorEl: null
+      });
+      __WEBPACK_IMPORTED_MODULE_15_next_router___default.a.push("/admin-login");
+    }
+  }, {
     key: "render",
     value: function render() {
-      var classes = this.props.classes;
+      var _props = this.props,
+          classes = _props.classes,
+          pageName = _props.pageName;
       var _state = this.state,
           auth = _state.auth,
           anchorEl = _state.anchorEl;
@@ -333,57 +342,57 @@ function (_React$Component) {
         className: classes.root,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 55
+          lineNumber: 66
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_14_next_head___default.a, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 56
+          lineNumber: 67
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", {
         rel: "stylesheet",
         href: "https://fonts.googleapis.com/css?family=Roboto:300,400,500",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 57
+          lineNumber: 68
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", {
         rel: "stylesheet",
         href: "https://fonts.googleapis.com/icon?family=Material+Icons",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 58
+          lineNumber: 69
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         charset: "utf-8",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 59
+          lineNumber: 70
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         name: "viewport",
         content: "user-scalable=0, initial-scale=1, minimum-scale=1, width=device-width, height=device-height",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 60
+          lineNumber: 71
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         name: "theme-color",
         content: "#000000",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 61
+          lineNumber: 72
         }
       })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__material_ui_core_AppBar___default.a, {
         position: "static",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 64
+          lineNumber: 75
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__material_ui_core_Toolbar___default.a, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 65
+          lineNumber: 76
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6__material_ui_core_IconButton___default.a, {
         className: classes.menuButton,
@@ -391,12 +400,12 @@ function (_React$Component) {
         "aria-label": "Menu",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 66
+          lineNumber: 77
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7__material_ui_icons_Menu___default.a, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 67
+          lineNumber: 78
         }
       })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5__material_ui_core_Typography___default.a, {
         variant: "title",
@@ -404,12 +413,12 @@ function (_React$Component) {
         className: classes.flex,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 69
+          lineNumber: 80
         }
-      }, "Title"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+      }, pageName), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 72
+          lineNumber: 83
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6__material_ui_core_IconButton___default.a, {
         "aria-owns": open ? 'menu-appbar' : null,
@@ -418,12 +427,12 @@ function (_React$Component) {
         color: "inherit",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 73
+          lineNumber: 84
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_8__material_ui_icons_AccountCircle___default.a, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 79
+          lineNumber: 90
         }
       })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_13__material_ui_core_Menu___default.a, {
         id: "menu-appbar",
@@ -440,21 +449,15 @@ function (_React$Component) {
         onClose: this.handleClose,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 81
+          lineNumber: 92
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_12__material_ui_core_MenuItem___default.a, {
-        onClick: this.handleClose,
+        onClick: this.logoutHanddler,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 95
+          lineNumber: 106
         }
-      }, "Profile"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_12__material_ui_core_MenuItem___default.a, {
-        onClick: this.handleClose,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 96
-        }
-      }, "My account"))))));
+      }, "logout"))))));
     }
   }, {
     key: "__reactstandin__regenerateByEval",
@@ -712,33 +715,97 @@ function (_React$Component) {
           fileName: _jsxFileName,
           lineNumber: 62
         }
-      })), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0_next_link___default.a, {
-        href: "/admin-skill",
+      })), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_13__material_ui_core_Collapse___default.a, {
+        "in": true,
+        timeout: "auto",
+        unmountOnExit: true,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 64
+        }
+      }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__material_ui_core_List___default.a, {
+        component: "div",
+        disablePadding: true,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 65
+        }
+      }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0_next_link___default.a, {
+        as: "/dashboard/message/contact",
+        href: "/admin-contact-message",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 66
+        }
+      }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_8__material_ui_core_ListItem___default.a, {
+        button: true,
+        className: classes.nested,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 67
+        }
+      }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_10__material_ui_core_ListItemText___default.a, {
+        inset: true,
+        primary: "Contacts",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 68
+        }
+      })))), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__material_ui_core_List___default.a, {
+        component: "div",
+        disablePadding: true,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 72
+        }
+      }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0_next_link___default.a, {
+        as: "/dashboard/message/projects",
+        href: "/admin-project-message",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 73
+        }
+      }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_8__material_ui_core_ListItem___default.a, {
+        button: true,
+        className: classes.nested,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 74
+        }
+      }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_10__material_ui_core_ListItemText___default.a, {
+        inset: true,
+        primary: "Projects",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 75
+        }
+      }))))), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0_next_link___default.a, {
+        href: "/admin-skill",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 80
         }
       }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_8__material_ui_core_ListItem___default.a, {
         button: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 65
+          lineNumber: 81
         }
       }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_9__material_ui_core_ListItemIcon___default.a, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 66
+          lineNumber: 82
         }
       }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_12__material_ui_core_Icon___default.a, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 67
+          lineNumber: 83
         }
       }, "settings_ethernet")), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_10__material_ui_core_ListItemText___default.a, {
-        primary: "Manage SkillS",
+        primary: "Manage Skillset",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 69
+          lineNumber: 85
         }
       })))));
     }
@@ -24870,6 +24937,14 @@ module.exports = __webpack_require__("./node_modules/next/dist/lib/link.js")
 
 /***/ }),
 
+/***/ "./node_modules/next/router.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__("./node_modules/next/dist/lib/router/index.js")
+
+
+/***/ }),
+
 /***/ "./node_modules/object-keys/index.js":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -31173,7 +31248,7 @@ var _default = Object(__WEBPACK_IMPORTED_MODULE_2__material_ui_core_styles__["wi
 
 /***/ }),
 
-/***/ 4:
+/***/ 6:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__("./pages/admin-profile.js");
@@ -31181,7 +31256,7 @@ module.exports = __webpack_require__("./pages/admin-profile.js");
 
 /***/ })
 
-},[4])
+},[6])
           return { page: comp.default }
         })
       ;

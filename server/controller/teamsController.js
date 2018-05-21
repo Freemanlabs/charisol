@@ -35,6 +35,19 @@ controller.updateTeam = () => {
   }
 }
 
+controller.deleteTeam = () => {
+  return (req, res) => {
+    const id = req.params.id;
+    console.log(id)
+    Team.deleteOne({_id: id}).exec((err, team) => {
+      if (err) throw err
+      res.json({status: 201, msg: "Deleted", success: true});
+    })
+  }
+}
+
+
+
 controller.saveTeam = () => {
   return (req, res) => {
     const team = new Team(req.body)

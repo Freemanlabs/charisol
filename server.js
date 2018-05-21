@@ -39,6 +39,7 @@ const projectsController = require('./server/controller/projectsController');
     server.post('/api/teams', teamsController.saveTeam());
     server.get('/api/team/:id', teamsController.getTeam());
     server.put('/api/team/:id', teamsController.updateTeam());
+    server.delete('/api/team/:id', teamsController.deleteTeam());
     server.post('/api/update-create/:email', teamsController.updateOrCreate())
     // contacts
     server.post('/api/contacts', contactsController.saveContact());
@@ -69,8 +70,9 @@ const projectsController = require('./server/controller/projectsController');
       const queryParams = { _id: req.params.id } 
       return app.render(req, res, actualPage, queryParams)
     })
-    
 
+
+    
     server.get('*', (req, res) => {
       return handle(req, res)
     })

@@ -43,7 +43,7 @@ class Dashboard extends React.Component {
               <Sidebar />
             </Grid>
             <Grid item xs={8} sm={10}>
-              <Header />
+              <Header  pageName={this.props.pageName}/>
               {this.props.children}
             </Grid>
         </Grid>

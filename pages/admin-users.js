@@ -24,6 +24,11 @@ import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
 import IconButton from '@material-ui/core/IconButton';
 import Link from 'next/link';
+import Dialog from '@material-ui/core/Dialog';
+import DialogActions from '@material-ui/core/DialogActions';
+import DialogContent from '@material-ui/core/DialogContent';
+import DialogContentText from '@material-ui/core/DialogContentText';
+import DialogTitle from '@material-ui/core/DialogTitle';
 
 
 
@@ -31,14 +36,18 @@ import Link from 'next/link';
 const initialState = {
   submitting: false,
   submitted: false,
+  open: false,
+  vertical: null,
+  horizontal: null,
   currentUser: {},
-  users: []
+  selectedUserId: "",
+  users: [],
+  openDeleteDialog: false
 }
 
 const styles = theme => ({
   root: {
     flexGrow: 1,
-    height: 250,
     width: '95%',
     margin: '30px auto'
   },
@@ -54,14 +63,16 @@ const styles = theme => ({
 });
 
 
-class AdminProfile extends React.Component {
+class AdminUser extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       ...initialState
     }
-    // this.submitForm = this.submitForm.bind(this);
-    // this.handleClose = this.handleClose.bind(this);
+    //this.submitForm = this.submitForm.bind(this);
+    this.openDeleteDialogHandler = this.openDeleteDialogHandler.bind(this);
+    this.handleDeleteUser = this.handleDeleteUser.bind(this);
+    this.handleDontDelete = this.handleDontDelete.bind(this);
   }
 
   getUsers() {
@@ -72,6 +83,8 @@ class AdminProfile extends React.Component {
       }
       )
   }
+
+
 
   componentDidMount() {
     this.getUsers();
@@ -90,16 +103,38 @@ class AdminProfile extends React.Component {
     this.setState({ user: userInfo })
   }
 
+  openDeleteDialogHandler(id) {
+    this.setState({ openDeleteDialog: true, selectedUserId: id });
+  };
 
-  handleInputChange = newPartialInput => {
-    this.setState(state => ({
-      ...state,
-      input: {
-        ...state.input,
-        ...newPartialInput
+  handleDeleteUser(event) {
+    this.setState({ openDeleteDialog: false, submitted: true });
+
+    fetch(`/api/team/${this.state.selectedUserId}`, {
+      method: 'delete',
+      headers: {
+        'Accept': 'application/json, text/plain, */*',
+        'Content-Type': 'application/json'
       }
-    }))
+    }).then((response) => {
+      response.json().then((res) => {
+        if (res.status === 201 && res.success === true) {
+          this.getUsers()
+          this.setState({ submitting: false, vertical: 'top', horizontal: 'center', open: true });
+        } else {
+          this.setState({ submitting: false, vertical: 'top', horizontal: 'center', open: true });
+        }
+      })
+    })
+
   }
+
+  handleDontDelete() {
+    this.setState({ openDeleteDialog: false });
+  }
+
+
+
 
 
 
@@ -111,24 +146,25 @@ class AdminProfile extends React.Component {
 
 
     return (
-      <Dashboard>
+      <Dashboard pageName="Charisol Staffs">
         <div className={classes.root}>
           <Snackbar
             anchorOrigin={{ vertical, horizontal }}
             open={open}
-            onClose={this.handleClose}
+            onClose={this.handleCloseSnackbar}
             autoHideDuration={6000}
             ContentProps={{
               'aria-describedby': 'message-id',
             }}
             action={[
-              <Icon onClick={this.handleClose}>close</Icon>
+              <Icon onClick={this.handleCloseSnackbar}>close</Icon>
             ]}
-            message={<span id="message-id">Updated</span>}
+            message={<span id="message-id">User has been deleted</span>}
           />
           <Grid container spacing={24} alignItems="center">
             <Grid item xs={8} sm={12}>
               <Paper className={classes.root}>
+                {this.state.submitting ? (<LinearProgress color="secondary" />) : ('')}
                 <Table className={classes.table}>
                   <TableHead>
                     <TableRow>
@@ -147,7 +183,7 @@ class AdminProfile extends React.Component {
                       return (
                         <TableRow key={n._id}>
                           <TableCell >
-                          <IconButton className={classes.button} aria-label="delete">
+                            <IconButton className={classes.button} aria-label="delete">
                               <Icon>drag_handle</Icon>
                             </IconButton>
                           </TableCell>
@@ -158,14 +194,20 @@ class AdminProfile extends React.Component {
                           <TableCell >{n.phoneNumber}</TableCell>
                           <TableCell >{n.position}</TableCell>
                           <TableCell>
-                            <IconButton color="secondary" className={classes.button} aria-label="delete">
-                              <Icon>delete</Icon>
-                            </IconButton>
-                            <Link as={`/dashboard/profile/${n._id}`} href={`/admin-profile?_id=${n._id}`}>
-                            <IconButton className={classes.button} aria-label="delete">
-                              <Icon>create</Icon>
-                            </IconButton>
-                            </Link>
+                            <Grid container spacing={24} alignItems="center">
+                              <Grid item xs={8} sm={6}>
+                                <IconButton color="secondary" onClick={(e) => this.openDeleteDialogHandler(n._id)} aria-label="delete">
+                                  <Icon>delete</Icon>
+                                </IconButton>
+                              </Grid>
+                              <Grid item xs={8} sm={6}>
+                                <Link as={`/dashboard/profile/${n._id}`} href={`/admin-profile?_id=${n._id}`}>
+                                  <IconButton aria-label="delete">
+                                    <Icon>create</Icon>
+                                  </IconButton>
+                                </Link>
+                              </Grid>
+                            </Grid>
                           </TableCell>
                         </TableRow>
                       );
@@ -175,14 +217,36 @@ class AdminProfile extends React.Component {
               </Paper>
             </Grid>
           </Grid>
+
+          <Dialog
+            open={this.state.openDeleteDialog}
+            onClose={this.handleClose}
+            aria-labelledby="alert-dialog-title"
+            aria-describedby="alert-dialog-description"
+          >
+            <DialogTitle id="alert-dialog-title">{"Are you sure?"}</DialogTitle>
+            <DialogContent>
+              <DialogContentText id="alert-dialog-description">
+                Are you sure you want to permanetly delete this user?
+            </DialogContentText>
+            </DialogContent>
+            <DialogActions>
+              <Button onClick={(e) => this.handleDontDelete(e)} color="primary">
+                No
+            </Button>
+              <Button onClick={(e) => this.handleDeleteUser(e)} color="secondary" autoFocus>
+                Yes
+            </Button>
+            </DialogActions>
+          </Dialog>
         </div>
       </Dashboard>
     );
   }
 }
 
-AdminProfile.propTypes = {
+AdminUser.propTypes = {
   classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(AdminProfile);
+export default withStyles(styles)(AdminUser);
