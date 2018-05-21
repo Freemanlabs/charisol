@@ -2,7 +2,7 @@ module.exports =
 
         __NEXT_REGISTER_PAGE('/admin-profile', function() {
           var comp = 
-      webpackJsonp([4],{
+      webpackJsonp([5],{
 
 /***/ "./components/admin/Dashboard.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -107,14 +107,14 @@ function (_React$Component) {
         className: classes.root,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 39
+          lineNumber: 40
         }
       }, __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5__material_ui_core_Grid___default.a, {
         container: true,
         spacing: 0,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 40
+          lineNumber: 41
         }
       }, __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5__material_ui_core_Grid___default.a, {
         item: true,
@@ -122,12 +122,12 @@ function (_React$Component) {
         sm: 2,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 41
+          lineNumber: 42
         }
       }, __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__admin_Sidebar__["a" /* default */], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 42
+          lineNumber: 43
         }
       })), __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5__material_ui_core_Grid___default.a, {
         item: true,
@@ -135,12 +135,12 @@ function (_React$Component) {
         sm: 10,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 44
+          lineNumber: 45
         }
       }, __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0__admin_Header__["a" /* default */], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 45
+          lineNumber: 46
         }
       }), this.props.children)));
     }
@@ -333,46 +333,46 @@ function (_React$Component) {
         className: classes.root,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 56
+          lineNumber: 55
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_14_next_head___default.a, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 57
+          lineNumber: 56
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", {
         rel: "stylesheet",
         href: "https://fonts.googleapis.com/css?family=Roboto:300,400,500",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 58
+          lineNumber: 57
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", {
         rel: "stylesheet",
         href: "https://fonts.googleapis.com/icon?family=Material+Icons",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 59
+          lineNumber: 58
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         charset: "utf-8",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 60
+          lineNumber: 59
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         name: "viewport",
         content: "user-scalable=0, initial-scale=1, minimum-scale=1, width=device-width, height=device-height",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 61
+          lineNumber: 60
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         name: "theme-color",
         content: "#000000",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 62
+          lineNumber: 61
         }
       })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__material_ui_core_AppBar___default.a, {
         position: "static",
@@ -669,43 +669,78 @@ function (_React$Component) {
           fileName: _jsxFileName,
           lineNumber: 50
         }
+      }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0_next_link___default.a, {
+        as: "/dashboard/users",
+        href: "/admin-users",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 51
+        }
       }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_8__material_ui_core_ListItem___default.a, {
         button: true,
         className: classes.nested,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 51
+          lineNumber: 52
         }
       }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_10__material_ui_core_ListItemText___default.a, {
         inset: true,
         primary: "All Users",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 52
+          lineNumber: 53
         }
-      })))), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_8__material_ui_core_ListItem___default.a, {
+      }))))), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_8__material_ui_core_ListItem___default.a, {
         button: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 56
+          lineNumber: 58
         }
       }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_9__material_ui_core_ListItemIcon___default.a, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 57
+          lineNumber: 59
         }
       }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_12__material_ui_core_Icon___default.a, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 58
+          lineNumber: 60
         }
       }, "message")), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_10__material_ui_core_ListItemText___default.a, {
         primary: "Manage Messages",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 60
+          lineNumber: 62
         }
-      }))));
+      })), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0_next_link___default.a, {
+        href: "/admin-skill",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 64
+        }
+      }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_8__material_ui_core_ListItem___default.a, {
+        button: true,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 65
+        }
+      }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_9__material_ui_core_ListItemIcon___default.a, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 66
+        }
+      }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_12__material_ui_core_Icon___default.a, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 67
+        }
+      }, "settings_ethernet")), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_10__material_ui_core_ListItemText___default.a, {
+        primary: "Manage SkillS",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 69
+        }
+      })))));
     }
   }, {
     key: "__reactstandin__regenerateByEval",
@@ -31138,7 +31173,7 @@ var _default = Object(__WEBPACK_IMPORTED_MODULE_2__material_ui_core_styles__["wi
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__("./pages/admin-profile.js");
@@ -31146,7 +31181,7 @@ module.exports = __webpack_require__("./pages/admin-profile.js");
 
 /***/ })
 
-},[3])
+},[4])
           return { page: comp.default }
         })
       ;
