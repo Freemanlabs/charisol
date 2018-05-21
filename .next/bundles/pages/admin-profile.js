@@ -1,8 +1,187 @@
 module.exports =
 
-        __NEXT_REGISTER_PAGE('/admin-home', function() {
+        __NEXT_REGISTER_PAGE('/admin-profile', function() {
           var comp = 
       webpackJsonp([4],{
+
+/***/ "./components/admin/Dashboard.js":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__admin_Header__ = __webpack_require__("./components/admin/Header.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__admin_Sidebar__ = __webpack_require__("./components/admin/Sidebar.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react__ = __webpack_require__("./node_modules/react/cjs/react.development.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_prop_types__ = __webpack_require__("./node_modules/next/node_modules/prop-types/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_prop_types__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__material_ui_core_styles__ = __webpack_require__("./node_modules/@material-ui/core/styles/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__material_ui_core_styles___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__material_ui_core_styles__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__material_ui_core_Grid__ = __webpack_require__("./node_modules/@material-ui/core/Grid/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__material_ui_core_Grid___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__material_ui_core_Grid__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__material_ui_core_Paper__ = __webpack_require__("./node_modules/@material-ui/core/Paper/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__material_ui_core_Paper___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__material_ui_core_Paper__);
+var _jsxFileName = "/Users/macbook/workspace/charisol/challaris-tech-website/components/admin/Dashboard.js";
+
+(function () {
+  var enterModule = __webpack_require__("./node_modules/react-hot-loader/index.js").enterModule;
+
+  enterModule && enterModule(module);
+})();
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+
+
+
+
+
+
+
+
+var styles = function styles(theme) {
+  return {
+    root: {
+      flexGrow: 1,
+      backgroundColor: '#E0E0E0'
+    },
+    paper: {
+      height: 140,
+      width: 100
+    }
+  };
+};
+
+var Dashboard =
+/*#__PURE__*/
+function (_React$Component) {
+  _inherits(Dashboard, _React$Component);
+
+  function Dashboard(props) {
+    var _this;
+
+    _classCallCheck(this, Dashboard);
+
+    _this = _possibleConstructorReturn(this, (Dashboard.__proto__ || Object.getPrototypeOf(Dashboard)).call(this, props));
+    Object.defineProperty(_assertThisInitialized(_this), "state", {
+      configurable: true,
+      enumerable: true,
+      writable: true,
+      value: {
+        spacing: '16'
+      }
+    });
+    Object.defineProperty(_assertThisInitialized(_this), "handleChange", {
+      configurable: true,
+      enumerable: true,
+      writable: true,
+      value: function value(key) {
+        return function (event, value) {
+          _this.setState(_defineProperty({}, key, value));
+        };
+      }
+    });
+    return _this;
+  }
+
+  _createClass(Dashboard, [{
+    key: "render",
+    value: function render() {
+      var classes = this.props.classes;
+      var spacing = this.state.spacing;
+      return __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5__material_ui_core_Grid___default.a, {
+        container: true,
+        className: classes.root,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 39
+        }
+      }, __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5__material_ui_core_Grid___default.a, {
+        container: true,
+        spacing: 0,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 40
+        }
+      }, __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5__material_ui_core_Grid___default.a, {
+        item: true,
+        xs: 8,
+        sm: 2,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 41
+        }
+      }, __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__admin_Sidebar__["a" /* default */], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 42
+        }
+      })), __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5__material_ui_core_Grid___default.a, {
+        item: true,
+        xs: 8,
+        sm: 10,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 44
+        }
+      }, __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0__admin_Header__["a" /* default */], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 45
+        }
+      }), this.props.children)));
+    }
+  }, {
+    key: "__reactstandin__regenerateByEval",
+    value: function __reactstandin__regenerateByEval(key, code) {
+      this[key] = eval(code);
+    }
+  }]);
+
+  return Dashboard;
+}(__WEBPACK_IMPORTED_MODULE_2_react___default.a.Component);
+
+Dashboard.propTypes = {
+  classes: __WEBPACK_IMPORTED_MODULE_3_prop_types___default.a.object.isRequired
+};
+
+var _default = Object(__WEBPACK_IMPORTED_MODULE_4__material_ui_core_styles__["withStyles"])(styles)(Dashboard);
+
+/* harmony default export */ __webpack_exports__["a"] = (_default);
+;
+
+(function () {
+  var reactHotLoader = __webpack_require__("./node_modules/react-hot-loader/index.js").default;
+
+  var leaveModule = __webpack_require__("./node_modules/react-hot-loader/index.js").leaveModule;
+
+  if (!reactHotLoader) {
+    return;
+  }
+
+  reactHotLoader.register(styles, "styles", "/Users/macbook/workspace/charisol/challaris-tech-website/components/admin/Dashboard.js");
+  reactHotLoader.register(Dashboard, "Dashboard", "/Users/macbook/workspace/charisol/challaris-tech-website/components/admin/Dashboard.js");
+  reactHotLoader.register(_default, "default", "/Users/macbook/workspace/charisol/challaris-tech-website/components/admin/Dashboard.js");
+  leaveModule(module);
+})();
+
+;
+/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__("./node_modules/webpack/buildin/harmony-module.js")(module)))
+
+/***/ }),
 
 /***/ "./components/admin/Header.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -308,185 +487,6 @@ var _default = Object(__WEBPACK_IMPORTED_MODULE_2__material_ui_core_styles__["wi
   reactHotLoader.register(styles, "styles", "/Users/macbook/workspace/charisol/challaris-tech-website/components/admin/Header.js");
   reactHotLoader.register(Header, "Header", "/Users/macbook/workspace/charisol/challaris-tech-website/components/admin/Header.js");
   reactHotLoader.register(_default, "default", "/Users/macbook/workspace/charisol/challaris-tech-website/components/admin/Header.js");
-  leaveModule(module);
-})();
-
-;
-/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__("./node_modules/webpack/buildin/harmony-module.js")(module)))
-
-/***/ }),
-
-/***/ "./components/admin/Layout.js":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__admin_Header__ = __webpack_require__("./components/admin/Header.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__admin_Sidebar__ = __webpack_require__("./components/admin/Sidebar.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react__ = __webpack_require__("./node_modules/react/cjs/react.development.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_prop_types__ = __webpack_require__("./node_modules/next/node_modules/prop-types/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__material_ui_core_styles__ = __webpack_require__("./node_modules/@material-ui/core/styles/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__material_ui_core_styles___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__material_ui_core_styles__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__material_ui_core_Grid__ = __webpack_require__("./node_modules/@material-ui/core/Grid/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__material_ui_core_Grid___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__material_ui_core_Grid__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__material_ui_core_Paper__ = __webpack_require__("./node_modules/@material-ui/core/Paper/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__material_ui_core_Paper___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__material_ui_core_Paper__);
-var _jsxFileName = "/Users/macbook/workspace/charisol/challaris-tech-website/components/admin/Layout.js";
-
-(function () {
-  var enterModule = __webpack_require__("./node_modules/react-hot-loader/index.js").enterModule;
-
-  enterModule && enterModule(module);
-})();
-
-function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
-
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
-
-function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
-
-
-
-
-
-
-
-
-
-var styles = function styles(theme) {
-  return {
-    root: {
-      flexGrow: 1,
-      backgroundColor: '#E0E0E0'
-    },
-    paper: {
-      height: 140,
-      width: 100
-    }
-  };
-};
-
-var AdminLayout =
-/*#__PURE__*/
-function (_React$Component) {
-  _inherits(AdminLayout, _React$Component);
-
-  function AdminLayout(props) {
-    var _this;
-
-    _classCallCheck(this, AdminLayout);
-
-    _this = _possibleConstructorReturn(this, (AdminLayout.__proto__ || Object.getPrototypeOf(AdminLayout)).call(this, props));
-    Object.defineProperty(_assertThisInitialized(_this), "state", {
-      configurable: true,
-      enumerable: true,
-      writable: true,
-      value: {
-        spacing: '16'
-      }
-    });
-    Object.defineProperty(_assertThisInitialized(_this), "handleChange", {
-      configurable: true,
-      enumerable: true,
-      writable: true,
-      value: function value(key) {
-        return function (event, value) {
-          _this.setState(_defineProperty({}, key, value));
-        };
-      }
-    });
-    return _this;
-  }
-
-  _createClass(AdminLayout, [{
-    key: "render",
-    value: function render() {
-      var classes = this.props.classes;
-      var spacing = this.state.spacing;
-      return __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5__material_ui_core_Grid___default.a, {
-        container: true,
-        className: classes.root,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 39
-        }
-      }, __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5__material_ui_core_Grid___default.a, {
-        container: true,
-        spacing: 0,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 40
-        }
-      }, __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5__material_ui_core_Grid___default.a, {
-        item: true,
-        xs: 8,
-        sm: 2,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 41
-        }
-      }, __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__admin_Sidebar__["a" /* default */], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 42
-        }
-      })), __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5__material_ui_core_Grid___default.a, {
-        item: true,
-        xs: 8,
-        sm: 10,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 44
-        }
-      }, __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0__admin_Header__["a" /* default */], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 45
-        }
-      }), this.props.children)));
-    }
-  }, {
-    key: "__reactstandin__regenerateByEval",
-    value: function __reactstandin__regenerateByEval(key, code) {
-      this[key] = eval(code);
-    }
-  }]);
-
-  return AdminLayout;
-}(__WEBPACK_IMPORTED_MODULE_2_react___default.a.Component);
-
-AdminLayout.propTypes = {
-  classes: __WEBPACK_IMPORTED_MODULE_3_prop_types___default.a.object.isRequired
-};
-
-var _default = Object(__WEBPACK_IMPORTED_MODULE_4__material_ui_core_styles__["withStyles"])(styles)(AdminLayout);
-
-/* harmony default export */ __webpack_exports__["a"] = (_default);
-;
-
-(function () {
-  var reactHotLoader = __webpack_require__("./node_modules/react-hot-loader/index.js").default;
-
-  var leaveModule = __webpack_require__("./node_modules/react-hot-loader/index.js").leaveModule;
-
-  if (!reactHotLoader) {
-    return;
-  }
-
-  reactHotLoader.register(styles, "styles", "/Users/macbook/workspace/charisol/challaris-tech-website/components/admin/Layout.js");
-  reactHotLoader.register(AdminLayout, "AdminLayout", "/Users/macbook/workspace/charisol/challaris-tech-website/components/admin/Layout.js");
-  reactHotLoader.register(_default, "default", "/Users/macbook/workspace/charisol/challaris-tech-website/components/admin/Layout.js");
   leaveModule(module);
 })();
 
@@ -29890,7 +29890,7 @@ module.exports = function(originalModule) {
 
 /***/ }),
 
-/***/ "./pages/admin-home.js":
+/***/ "./pages/admin-profile.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -29922,7 +29922,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_react_select__ = __webpack_require__("./node_modules/react-select/dist/react-select.es.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_react_select_dist_react_select_css__ = __webpack_require__("./node_modules/react-select/dist/react-select.css");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_react_select_dist_react_select_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_13_react_select_dist_react_select_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__components_admin_Layout__ = __webpack_require__("./components/admin/Layout.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__components_admin_Dashboard__ = __webpack_require__("./components/admin/Dashboard.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__material_ui_icons_AccountCircle__ = __webpack_require__("./node_modules/@material-ui/icons/AccountCircle.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__material_ui_icons_AccountCircle___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_15__material_ui_icons_AccountCircle__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__material_ui_core_InputLabel__ = __webpack_require__("./node_modules/@material-ui/core/InputLabel/index.js");
@@ -29959,7 +29959,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__material_ui_core_LinearProgress___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_31__material_ui_core_LinearProgress__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__material_ui_core_Snackbar__ = __webpack_require__("./node_modules/@material-ui/core/Snackbar/index.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__material_ui_core_Snackbar___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_32__material_ui_core_Snackbar__);
-var _jsxFileName = "/Users/macbook/workspace/charisol/challaris-tech-website/pages/admin-home.js";
+var _jsxFileName = "/Users/macbook/workspace/charisol/challaris-tech-website/pages/admin-profile.js";
 
 (function () {
   var enterModule = __webpack_require__("./node_modules/react-hot-loader/index.js").enterModule;
@@ -30305,17 +30305,17 @@ var initialState = {
   allSkills: []
 };
 
-var AdminHome =
+var AdminProfile =
 /*#__PURE__*/
 function (_React$Component2) {
-  _inherits(AdminHome, _React$Component2);
+  _inherits(AdminProfile, _React$Component2);
 
-  function AdminHome(props) {
+  function AdminProfile(props) {
     var _this2;
 
-    _classCallCheck(this, AdminHome);
+    _classCallCheck(this, AdminProfile);
 
-    _this2 = _possibleConstructorReturn(this, (AdminHome.__proto__ || Object.getPrototypeOf(AdminHome)).call(this, props));
+    _this2 = _possibleConstructorReturn(this, (AdminProfile.__proto__ || Object.getPrototypeOf(AdminProfile)).call(this, props));
     Object.defineProperty(_assertThisInitialized(_this2), "handleChange", {
       configurable: true,
       enumerable: true,
@@ -30373,7 +30373,7 @@ function (_React$Component2) {
     return _this2;
   }
 
-  _createClass(AdminHome, [{
+  _createClass(AdminProfile, [{
     key: "getSkills",
     value: function getSkills() {
       var _this3 = this;
@@ -30497,8 +30497,7 @@ function (_React$Component2) {
           vertical = _state.vertical,
           horizontal = _state.horizontal,
           valueSkillBind = _state.valueSkillBind;
-      console.log(valueSkillBind);
-      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_14__components_admin_Layout__["a" /* default */], {
+      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_14__components_admin_Dashboard__["a" /* default */], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 376
@@ -31084,14 +31083,14 @@ function (_React$Component2) {
     }
   }]);
 
-  return AdminHome;
+  return AdminProfile;
 }(__WEBPACK_IMPORTED_MODULE_0_react___default.a.Component);
 
-AdminHome.propTypes = {
+AdminProfile.propTypes = {
   classes: __WEBPACK_IMPORTED_MODULE_1_prop_types___default.a.object.isRequired
 };
 
-var _default = Object(__WEBPACK_IMPORTED_MODULE_2__material_ui_core_styles__["withStyles"])(styles)(AdminHome);
+var _default = Object(__WEBPACK_IMPORTED_MODULE_2__material_ui_core_styles__["withStyles"])(styles)(AdminProfile);
 
 /* harmony default export */ __webpack_exports__["default"] = (_default);
 ;
@@ -31105,14 +31104,14 @@ var _default = Object(__WEBPACK_IMPORTED_MODULE_2__material_ui_core_styles__["wi
     return;
   }
 
-  reactHotLoader.register(Option, "Option", "/Users/macbook/workspace/charisol/challaris-tech-website/pages/admin-home.js");
-  reactHotLoader.register(SelectWrapped, "SelectWrapped", "/Users/macbook/workspace/charisol/challaris-tech-website/pages/admin-home.js");
-  reactHotLoader.register(ITEM_HEIGHT, "ITEM_HEIGHT", "/Users/macbook/workspace/charisol/challaris-tech-website/pages/admin-home.js");
-  reactHotLoader.register(valueSkillBind, "valueSkillBind", "/Users/macbook/workspace/charisol/challaris-tech-website/pages/admin-home.js");
-  reactHotLoader.register(styles, "styles", "/Users/macbook/workspace/charisol/challaris-tech-website/pages/admin-home.js");
-  reactHotLoader.register(initialState, "initialState", "/Users/macbook/workspace/charisol/challaris-tech-website/pages/admin-home.js");
-  reactHotLoader.register(AdminHome, "AdminHome", "/Users/macbook/workspace/charisol/challaris-tech-website/pages/admin-home.js");
-  reactHotLoader.register(_default, "default", "/Users/macbook/workspace/charisol/challaris-tech-website/pages/admin-home.js");
+  reactHotLoader.register(Option, "Option", "/Users/macbook/workspace/charisol/challaris-tech-website/pages/admin-profile.js");
+  reactHotLoader.register(SelectWrapped, "SelectWrapped", "/Users/macbook/workspace/charisol/challaris-tech-website/pages/admin-profile.js");
+  reactHotLoader.register(ITEM_HEIGHT, "ITEM_HEIGHT", "/Users/macbook/workspace/charisol/challaris-tech-website/pages/admin-profile.js");
+  reactHotLoader.register(valueSkillBind, "valueSkillBind", "/Users/macbook/workspace/charisol/challaris-tech-website/pages/admin-profile.js");
+  reactHotLoader.register(styles, "styles", "/Users/macbook/workspace/charisol/challaris-tech-website/pages/admin-profile.js");
+  reactHotLoader.register(initialState, "initialState", "/Users/macbook/workspace/charisol/challaris-tech-website/pages/admin-profile.js");
+  reactHotLoader.register(AdminProfile, "AdminProfile", "/Users/macbook/workspace/charisol/challaris-tech-website/pages/admin-profile.js");
+  reactHotLoader.register(_default, "default", "/Users/macbook/workspace/charisol/challaris-tech-website/pages/admin-profile.js");
   leaveModule(module);
 })();
 
@@ -31133,7 +31132,7 @@ var _default = Object(__WEBPACK_IMPORTED_MODULE_2__material_ui_core_styles__["wi
           next.router.update(r, Component)
         }
       }
-    })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/admin-home")
+    })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/admin-profile")
   
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__("./node_modules/webpack/buildin/harmony-module.js")(module)))
 
@@ -31142,7 +31141,7 @@ var _default = Object(__WEBPACK_IMPORTED_MODULE_2__material_ui_core_styles__["wi
 /***/ 3:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__("./pages/admin-home.js");
+module.exports = __webpack_require__("./pages/admin-profile.js");
 
 
 /***/ })
@@ -31151,4 +31150,4 @@ module.exports = __webpack_require__("./pages/admin-home.js");
           return { page: comp.default }
         })
       ;
-//# sourceMappingURL=admin-home.js.map
+//# sourceMappingURL=admin-profile.js.map

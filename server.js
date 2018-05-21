@@ -64,9 +64,12 @@ const projectsController = require('./server/controller/projectsController');
       return app.render(req, res, '/team')
     })
 
-    server.get('/admin', (req, res) => {
-      return app.render(req, res, '/admin-home')
+    server.get('/dashboard/profile/:id', (req, res) => {
+      const actualPage = '/admin-profile'
+      const queryParams = { _id: req.params.id } 
+      return app.render(req, res, actualPage, queryParams)
     })
+    
 
     server.get('*', (req, res) => {
       return handle(req, res)

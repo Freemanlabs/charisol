@@ -12,7 +12,7 @@ import ClearIcon from '@material-ui/icons/Clear';
 import Chip from '@material-ui/core/Chip';
 import Select from 'react-select';
 import 'react-select/dist/react-select.css';
-import AdminLayout from '../components/admin/Layout';
+import Dashboard from '../components/admin/Dashboard';
 import AccountCircle from '@material-ui/icons/AccountCircle';
 import InputLabel from '@material-ui/core/InputLabel';
 import InputAdornment from '@material-ui/core/InputAdornment';
@@ -242,7 +242,7 @@ const initialState = {
 }
 
 
-class AdminHome extends React.Component {
+class AdminProfile extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -370,10 +370,10 @@ class AdminHome extends React.Component {
   render() {
     const { classes } = this.props;
     const  {input, open, vertical, horizontal, valueSkillBind}  = this.state;
-    console.log(valueSkillBind);
+  
  
     return (
-      <AdminLayout>
+      <Dashboard>
         <div className={classes.root}>
           <Avatar
             alt="Adelle Charles"
@@ -558,13 +558,13 @@ class AdminHome extends React.Component {
             </Card>
           </form>
         </div>
-      </AdminLayout>
+      </Dashboard>
     );
   }
 }
 
-AdminHome.propTypes = {
+AdminProfile.propTypes = {
   classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(AdminHome);
+export default withStyles(styles)(AdminProfile);

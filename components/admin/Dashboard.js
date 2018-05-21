@@ -17,7 +17,7 @@ const styles = theme => ({
   }
 });
 
-class AdminLayout extends React.Component {
+class Dashboard extends React.Component {
   constructor(props) {
     super(props)
   }
@@ -51,8 +51,8 @@ class AdminLayout extends React.Component {
   }
 }
 
-AdminLayout.propTypes = {
+Dashboard.propTypes = {
   classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(AdminLayout)
+export default withStyles(styles)(Dashboard)
