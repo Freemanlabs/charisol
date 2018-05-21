@@ -48,9 +48,11 @@ class Sidebar extends React.Component {
           </ListItem>
           <Collapse in={this.state.open} timeout="auto" unmountOnExit>
             <List component="div" disablePadding>
+            <Link as='/dashboard/users' href="/admin-users">
               <ListItem button className={classes.nested}>
                 <ListItemText inset primary="All Users" />
               </ListItem>
+            </Link>
             </List>
           </Collapse>
           <ListItem button>
@@ -59,6 +61,14 @@ class Sidebar extends React.Component {
             </ListItemIcon>
             <ListItemText primary="Manage Messages" />
           </ListItem>
+          <Link href="/admin-skill">
+            <ListItem button>
+              <ListItemIcon>
+                <Icon>settings_ethernet</Icon>
+              </ListItemIcon>
+              <ListItemText primary="Manage SkillS" />
+            </ListItem>
+          </Link>
         </List>
       </Drawer>
     )

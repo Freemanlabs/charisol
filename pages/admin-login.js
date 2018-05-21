@@ -1,7 +1,6 @@
 
 import fetch from 'isomorphic-unfetch'
 import React, { Component } from 'react'
-import Layout from '../components/admin/Layout';
 import Router from 'next/router'
 
 
@@ -69,7 +68,7 @@ class AdminLogin extends Component {
         console.log(data);
         this.setState({saving: false, save: true})
         localStorage.setItem('access_token', userReponse.access_token);
-        Router.push({ pathname:'/admin-home', query: { _id: data.user._id }});
+        Router.push(`/admin-profile?_id=${data.user._id}`, `/dashboard/profile/${data.user._id}`);
     })
   } 
  
