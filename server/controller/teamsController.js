@@ -30,7 +30,7 @@ controller.updateTeam = () => {
     const params = req.body;
     Team.findByIdAndUpdate(id, params).exec((err, team) => {
       if (err) throw err
-      res.json(team);
+      res.json({status: 201, user: team, success: true});
     })
   }
 }
@@ -62,11 +62,11 @@ controller.saveTeam = () => {
             })
           }  else {
             console.log('creating team');
-            Team.create(teamParams).exec((err, team) => {
+            teamParams.save((err) => {
               if (err) {
                 res.json({ success: false, err, status: 501 }).status(500)
               } else {
-                res.json({ success: true, team, status: 201 }).status(200)
+                res.json({ success: true, user: teamParams, status: 201 }).status(200)
               }
             })
           }

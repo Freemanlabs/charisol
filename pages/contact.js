@@ -38,7 +38,7 @@ class Contact extends Component {
     event.preventDefault();
     const { input } = this.state;
     this.setState({ submitting: true })
-    fetch('/api/contacts', {
+    fetch('/api/team/:id', {
       method: 'post',
       headers: {
         'Accept': 'application/json, text/plain, */*',
