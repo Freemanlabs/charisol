@@ -30,7 +30,7 @@ controller.updateTeam = () => {
     const params = req.body;
     Team.findByIdAndUpdate(id, params).exec((err, team) => {
       if (err) throw err
-      res.json(team);
+      res.json({status: 201, user: team, success: true});
     })
   }
 }

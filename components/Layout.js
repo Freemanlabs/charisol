@@ -5,7 +5,7 @@ const Layout = (props) => (
     <div>
       <Sidebar />
        <Header title={props.title} content={props.content}/>
-       {props.children}
+       <div style={{backgroundColor: '#E0E0E0'}}>{props.children}</div>
       <Footer />
     </div>
 )

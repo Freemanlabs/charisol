@@ -3,7 +3,6 @@ import fetch from 'isomorphic-unfetch'
 import React, { Component } from 'react'
 import Layout from '../components/admin/Layout';
 import Router from 'next/router'
-import Snackbar from 'material-ui/Snackbar';
 
 
 const initialState = {
