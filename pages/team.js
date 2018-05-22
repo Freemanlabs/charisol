@@ -10,7 +10,7 @@ class Team extends Component {
     super(props);
     this.state = {
       teams: [],
-      user: {}
+      user: {skills: []}
     }
      this.getUserInfo = this.getUserInfo.bind(this);
   }
@@ -51,7 +51,15 @@ class Team extends Component {
               </div>
             </div>
             <div className='m-t-md m-b-md'>
-              <p>{this.state.user.description}</p>
+              <p>{this.state.user.biography}</p>
+            </div>
+
+            <div className='m-t-md m-b-md'>
+              <p><b>Skills</b></p>
+          
+               <p>{ this.state.user.skills.map(skill => { return skill.name}).join(", ")}</p>
+              
+              
             </div>
           </div>
           <a className="btn-curve-purple m-t-md" href="./start.html">

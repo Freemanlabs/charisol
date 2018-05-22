@@ -4,7 +4,7 @@ const controller = {}
 controller.getTeams = () => {
   return (req, res) => {
     Team.find()
-    .populate('skills')
+    .populate('skills').sort('positionNumber')
     .exec((err, teams) => {
       if (err) throw err
       res.json(teams);
