@@ -37,6 +37,10 @@ var TeamSchema = new mongoose.Schema({
     type: String
   },
 
+  positionNumber: {
+    type: Number
+  },
+
 
   biography: {
     type: String

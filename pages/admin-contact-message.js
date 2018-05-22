@@ -41,7 +41,7 @@ const initialState = {
   horizontal: null,
   currentUser: {},
   selectedUserId: "",
-  users: [],
+  contacts: [],
   openDeleteDialog: false
 }
 
@@ -63,7 +63,7 @@ const styles = theme => ({
 });
 
 
-class AdminUser extends React.Component {
+class AdminContactMessage extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -76,15 +76,17 @@ class AdminUser extends React.Component {
   }
 
   getUsers() {
-    fetch(`/api/get-teams`)
+    fetch(`/api/get-contacts`)
       .then((res) => res.json())
       .then((data) => {
-        this.setState({ users: data })
+          console.log(data)
+        this.setState({ contacts: data })
       }
       )
   }
 
 
+  
 
   componentDidMount() {
     this.getUsers();
@@ -109,7 +111,7 @@ class AdminUser extends React.Component {
 
   handleDeleteUser(event) {
     this.setState({ openDeleteDialog: false, submitted: true });
-
+  
     fetch(`/api/team/${this.state.selectedUserId}`, {
       method: 'delete',
       headers: {
@@ -146,7 +148,7 @@ class AdminUser extends React.Component {
 
 
     return (
-      <Dashboard pageName="Charisol Staffs">
+      <Dashboard pageName="Contact Messages">
         <div className={classes.root}>
           <Snackbar
             anchorOrigin={{ vertical, horizontal }}
@@ -164,51 +166,35 @@ class AdminUser extends React.Component {
           <Grid container spacing={24} alignItems="center">
             <Grid item xs={8} sm={12}>
               <Paper className={classes.root}>
-                {this.state.submitting ? (<LinearProgress color="secondary" />) : ('')}
+              {this.state.submitting ? (<LinearProgress color="secondary" />) : ('')}
                 <Table className={classes.table}>
                   <TableHead>
                     <TableRow>
-                      <TableCell>suffle</TableCell>
-                      <TableCell>S/N</TableCell>
-                      <TableCell>First Name</TableCell>
-                      <TableCell>Last Name</TableCell>
+                      <TableCell>Full Name</TableCell>
                       <TableCell>Email</TableCell>
-                      <TableCell>Phone Number</TableCell>
-                      <TableCell>Position</TableCell>
-                      <TableCell>Action</TableCell>
+                      <TableCell>Message</TableCell>
+                      <TableCell>Date</TableCell>
+                      {/* <TableCell>Action</TableCell> */}
                     </TableRow>
                   </TableHead>
                   <TableBody>
-                    {this.state.users.map((n, i) => {
+                    {this.state.contacts.map((n, i) => {
                       return (
-                        <TableRow key={n._id}>
-                          <TableCell >
-                            <IconButton className={classes.button} aria-label="delete">
-                              <Icon>drag_handle</Icon>
-                            </IconButton>
-                          </TableCell>
-                          <TableCell >{i + 1}</TableCell>
-                          <TableCell >{n.firstName}</TableCell>
-                          <TableCell >{n.lastName}</TableCell>
+                        <TableRow key={n._id}>  
+                          <TableCell >{n.name}</TableCell>
                           <TableCell >{n.email}</TableCell>
-                          <TableCell >{n.phoneNumber}</TableCell>
-                          <TableCell >{n.position}</TableCell>
-                          <TableCell>
-                            <Grid container spacing={24} alignItems="center">
-                              <Grid item xs={8} sm={6}>
-                                <IconButton color="secondary" onClick={(e) => this.openDeleteDialogHandler(n._id)} aria-label="delete">
-                                  <Icon>delete</Icon>
-                                </IconButton>
-                              </Grid>
-                              <Grid item xs={8} sm={6}>
-                                <Link as={`/dashboard/profile/${n._id}`} href={`/admin-profile?_id=${n._id}`}>
-                                  <IconButton aria-label="delete">
-                                    <Icon>create</Icon>
-                                  </IconButton>
-                                </Link>
-                              </Grid>
-                            </Grid>
-                          </TableCell>
+                          <TableCell >{n.message.substring(0, 14)+ '...'}</TableCell>
+                          <TableCell >{n.createdAt }</TableCell>
+                          {/* <TableCell>
+                            <IconButton color="secondary" onClick={(e) => this.openDeleteDialogHandler(n._id)} className={classes.button} aria-label="delete">
+                              <Icon>delete</Icon>
+                            </IconButton>
+                            <Link as={`/dashboard/profile/${n._id}`} href={`/admin-profile?_id=${n._id}`}>
+                              <IconButton className={classes.button} aria-label="delete">
+                                <Icon>create</Icon>
+                              </IconButton>
+                            </Link>
+                          </TableCell> */}
                         </TableRow>
                       );
                     })}
@@ -245,8 +231,8 @@ class AdminUser extends React.Component {
   }
 }
 
-AdminUser.propTypes = {
+AdminContactMessage.propTypes = {
   classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(AdminUser);
+export default withStyles(styles)(AdminContactMessage);

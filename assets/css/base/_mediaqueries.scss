@@ -1,21 +1,15 @@
-// @media screen and (min-width: 2000px){
-//   .index{
-//     max-width: 1440px;
-//     margin: auto;
-//   }
-// }
 @media screen and (min-width: 1366px){
   .index .simple .row {
-    background-size: 62%;
+    background-size: 62% !important;
   }
 }
 @media screen and (min-width: 1280px){
   .index{
     .top-img {
-      height: 650px;
+      height: 650px !important;
     }
     .top-wrapper {
-      background-size: contain;
+      background-size: contain !important;
     }
   }
   .pricing{
@@ -23,283 +17,283 @@
       padding-top: 50px
     }
     .content{
-      padding: 50px 50px 0 50px;
+      padding: 50px 50px 0 50px !important;
     }
     footer{
-      position: absolute;
-      bottom: 0;
-      width: 100%;
-      padding: 20px 50px;
-      box-sizing: border-box;
+      position: absolute !important;
+      bottom: 0 !important;
+      width: 100% !important;
+      padding: 20px 50px !important;
+      box-sizing: border-box !important;
     }
   }
 }
 @media screen and (max-width: 1280px){
   body{
-    font-size: 1.3em;
+    font-size: 1.3em !important;
   }
   .heading{
-    font-size: 34px;
+    font-size: 34px !important;
   }
   .btn-curve-purple{
-    width: 150px !important;
-    font-size: 12px !important;
+    width: 150px !important !important;
+    font-size: 12px !important !important;
   }
 }
 @media screen and (max-width: 1024px){
   .index{
     .top-img {
-      height: 600px;
+      height: 600px !important;
     }
     .top-wrapper {
-      background-size: 70%;
+      background-size: 70% !important;
     }
     .scale h1, .simple h1, .benefits h2{
-      font-size: 3.0rem;
+      font-size: 3.0rem !important;
     }
     .scale{
-      margin-top: 100px;
+      margin-top: 100px !important;
       
       .six:first-child img{
-        height: 300px;
+        height: 300px !important;
       }
       .text-content{
-        padding: 0 30px;
+        padding: 0 30px !important;
       }
     }
     .simple{
       .seven{
-        width: 85%;
-        margin: 0 auto;
-        float: none;
+        width: 85% !important;
+        margin: 0 auto !important;
+        float: none !important;
       }
       .five:nth-child(2){
-        display: none;
+        display: none !important;
       }
       .row {
-        background-size: 87%;
-        padding-bottom: 150px;
+        background-size: 87% !important;
+        padding-bottom: 150px !important;
       }
       .text-content{
-        padding-right: 60px !important;
-        margin-top: 130px;
+        padding-right: 60px !important !important;
+        margin-top: 130px !important;
       }
       .purple-bg{
-        display: none;
+        display: none !important;
       }
     } 
     .bottom-banner-wrapper{
       .img-wrapper{
-        width: 75%;
+        width: 75% !important;
       }
       .banner-text{
-        font-size: 20px !important;
-        line-height: 28px;
+        font-size: 20px !important !important;
+        line-height: 28px !important;
       }
       .start-project-btn{
-        padding: 13px 18px !important;
-        font-size: 12px;
+        padding: 13px 18px !important !important;
+        font-size: 12px !important;
       }
     }
   }
   .team{
     .people{
-      padding: 100px 30px;
+      padding: 100px 30px !important;
       #people-wrapper{
-        width: 98%;
+        width: 98% !important;
       }
       .tile{
-        width: 30.3333333333333%;
-        padding: 50px 1.5%;
+        width: 30.3333333333333% !important;
+        padding: 50px 1.5% !important;
       }
     }
     .core, .community{
       .text-content{
-        margin-top: 150px;
+        margin-top: 150px !important;
       }
       img{
-        height: 300px;
+        height: 300px !important;
       }
     }
     .image-wrapper-container{
-      padding: 10px 40px;
+      padding: 10px 40px !important;
     }
     
     .people-wrapper .purple-bg{
-      display: none;
+      display: none !important;
     }
     .avatar {
-      height: 150px;
+      height: 150px !important;
     }
     .people .text-wrap {
-      padding: 0;
+      padding: 0 !important;
     }
     .community .text-content {
-      margin-top: 0;
+      margin-top: 0 !important;
     }
   }
   .pricing{
     .pricing-text-wrapper{
-      margin-left: 20px;
+      margin-left: 20px !important;
     }
     .pricing-wrapper-container{
       .columns{
-        width: 50% !important;
-        margin-bottom: 50px;
+        width: 50% !important !important;
+        margin-bottom: 50px !important;
         .tile{
           .btn-container{
-            width: 80%;
-            margin: 0 auto;
+            width: 80% !important;
+            margin: 0 auto !important;
             .btn-curve-purple{
-              width: 100% !important;
+              width: 100% !important !important;
             }
           }
         }
         .tile.active{
-          transform: scale(1) !important;
+          transform: scale(1) !important !important;
         }
       }
     }
     h2 {
-      font-size: 3rem;
+      font-size: 3rem !important;
     }
     h5 {
-      font-size: 1em;
+      font-size: 1em !important;
     }
   }
 }
 @media screen and (max-width: 816px){
   .index{
     .top-img {
-      height: 500px;
+      height: 500px !important;
     }
     .top-wrapper {
-      background-size: 75%;
+      background-size: 75% !important;
     }
     .intro h1{
-      font-size: 2.7rem;
+      font-size: 2.7rem !important;
     }
     .intro .text-content {
-      margin-top: 100px !important;
-      padding: 0 30px;
+      margin-top: 100px !important !important;
+      padding: 0 30px !important;
     }
     .scale{
-      margin-top: 0px;
-      margin-bottom: 20px;
+      margin-top: 0px !important;
+      margin-bottom: 20px !important;
       .text-wrapper{
-        margin-top: 30px !important;
+        margin-top: 30px !important !important;
       }
       .six:first-child{
-        display: none;
+        display: none !important;
       }
       .six:nth-child(2){
-        width: 100%;
-        margin-left: 0;
+        width: 100% !important;
+        margin-left: 0 !important;
       }
     }
     .simple{
       .row {
-        background-size: 125%;
-        padding-bottom: 100px;
+        background-size: 125% !important;
+        padding-bottom: 100px !important;
       }
       .text-content{
-        margin-top: 70px;
-        padding-right: 100px;
+        margin-top: 70px !important;
+        padding-right: 100px !important;
       }
       .seven{
-        width: 100%;
+        width: 100% !important;
       }
       .purple-bg{
-        display: none;
+        display: none !important;
       }
     }
     .benefits{
       .content {
-        padding: 0 50px;
+        padding: 0 50px !important;
       }
       img{
-        height: 50px;
+        height: 50px !important;
       }
       .nine h5{
-        font-size: 1.2em;
-        margin-bottom: 10px;
+        font-size: 1.2em !important;
+        margin-bottom: 10px !important;
       }
     }
   }
   .team{
     .core{
       .img-col{
-        display: none;
+        display: none !important;
       }
     }
     .core img, .community img{
       display: none
     }
     .core .six:first-child, .community .six:nth-child(2){
-      width: 100%;
+      width: 100% !important;
 
       .text-content{
-        margin-top: 0;
+        margin-top: 0 !important;
       }
     }
     .community .six:nth-child(2){
-      margin: 0;
+      margin: 0 !important;
     }
     .people{
-      padding: 50px 20px;
+      padding: 50px 20px !important;
       .three.columns {
-        width: 50%;
-        margin-left: 0;
+        width: 50% !important;
+        margin-left: 0 !important;
       }
       .tile{
-        width: 46%;
-        padding: 50px 1.5%;
+        width: 46% !important;
+        padding: 50px 1.5% !important;
       }
       .avatar{
-        display: block;
-        width: 100%;
+        display: block !important;
+        width: 100% !important;
       }
       div.m-b-md {
-        margin-bottom: 10px;
+        margin-bottom: 10px !important;
       }
       div.m-b-md p{
-        margin-bottom: 0;
+        margin-bottom: 0 !important;
       }
     } 
   }
   .pricing{
     .three:first-child{
-      width: 100%;
+      width: 100% !important;
 
       .text-content{
-        padding-top: 20px;
-        margin-bottom: 50px;
+        padding-top: 20px !important;
+        margin-bottom: 50px !important;
       }
     }
     .nine{
-      margin-left: 0;
-      width: 100%;
-      padding: 20px;
+      margin-left: 0 !important;
+      width: 100% !important;
+      padding: 20px !important;
 
       .three{
-        width: 50%;
-        margin-left: 0;
+        width: 50% !important;
+        margin-left: 0 !important;
       }
     }
   }
   .contact{
     .content {
-      padding: 50px 30px;
+      padding: 50px 30px !important;
     }
     .text-content{
-      margin-top: 0;
-      padding-right: 0;
+      margin-top: 0 !important;
+      padding-right: 0 !important;
     }
     .six:first-child{
-      display: none;
+      display: none !important;
     }
     .six:nth-child(2){
-      width: 100%;
+      width: 100% !important;
     }
   }
 }
@@ -307,21 +301,21 @@
   .index{
     .intro{
       .columns{
-        width: 100%;
-        padding: 20px !important;
+        width: 100% !important;
+        padding: 20px !important !important;
       }
       .columns.right-pane{
-        margin-left: 0px;
-        min-height: auto;
+        margin-left: 0px !important;
+        min-height: auto !important;
       }
     }
     .top-img{
-      height: 350px !important;
+      height: 350px !important !important;
     }
   }
   .pricing{
     .content{
-      padding: 20px;
+      padding: 20px !important;
     }
   }
 }
@@ -329,170 +323,170 @@
   .pricing{
     .pricing-wrapper-container{
       .columns{
-        width: 100% !important;
+        width: 100% !important !important;
       }
     }
   }
   .team{
     .people{
       .tile{
-        width: 96%;
-        padding: 30px 1.5%;
+        width: 96% !important;
+        padding: 30px 1.5% !important;
       }
     }
   }
 }
 @media screen and (max-width: 425px){
   .btn-curve-white{
-    padding: 12px;
-    width: 150px;
+    padding: 12px !important;
+    width: 150px !important;
   }
   .index{
     .intro {
       
       .logo{
-        height: 65px;
-        width: 100px;
-        margin-left: 0px;
+        height: 65px !important;
+        width: 100px !important;
+        margin-left: 0px !important;
       }    
       .hamburger{
-        position: relative;
+        position: relative !important;
       }
       .text-content{
-        margin-top: 70px;
-        margin-bottom: 20px;
+        margin-top: 70px !important;
+        margin-bottom: 20px !important;
       }
       .six.columns:first-child {
-        padding: 20px;
+        padding: 20px !important;
       }
     }
     .top-wrapper{
-      background: url(../img/bg_left_rect.svg) no-repeat top left;
-      background-size: 117%;
-      min-height: 70vh;
+      background: url(../../static/img/bg_left_semi.svg) no-repeat top left !important;
+      // background-size: 117% !important;
+      min-height: 70vh !important;
     }
     .scale{
       .section-2-wrapper{
-        padding-top: 0px;
+        padding-top: 0px !important;
       }
     }
     .top-img {
-      display: none;
+      display: none !important;
     }
     .simple{
-      background-image: url(../img/bg_left_shape.svg);
-      background-size: 450%;
+      background-image: url(../../static/img/bg_left_shape.svg) !important;
+      background-size: 450% !important;
       .row {
         background-size: cover
       }
       .text-content{
-        padding-right: 50px;
+        padding-right: 50px !important;
       }
       p {
-        padding-right: 0;
+        padding-right: 0 !important;
       }
     }
     .benefits{
       .row{
-        margin-top: 0;
-        text-align: center;
+        margin-top: 0 !important;
+        text-align: center !important;
       }
       .heading{
-        padding: 0px 20px;
+        padding: 0px 20px !important;
       }
       .columns{
-        padding-bottom: 30px;
+        padding-bottom: 30px !important;
       }
     }
     .bottom-banner-wrapper{
       .img-wrapper{
         .banner-text{
-          font-size: 18px !important;
-          line-height: 24px !important;
+          font-size: 18px !important !important;
+          line-height: 24px !important !important;
         }
         .start-project-btn{
-          width: 130px;
+          width: 130px !important;
         }
       }
     }
   }
   footer{
-    padding: 20px;
+    padding: 20px !important;
     
     .nav-desktop-left .logo img {
       top: 0
     }
     .nav-desktop-left, .links{
-      float: none;
+      float: none !important;
     }
     .links{
-      margin-top: 10px;
+      margin-top: 10px !important;
       li {
-        padding: 0 20px;
+        padding: 0 20px !important;
       }
     }
   }
   .team{
     .core .text-content, .community .text-content {
-      padding: 0 20px;
+      padding: 0 20px !important;
     }
     .people{
-      padding: 50px 20px;
+      padding: 50px 20px !important;
   
       .three.columns {
-        width: 100%;
+        width: 100% !important;
       }
     }
   }
   .pricing{
     .content{
-      padding: 20px 30px;
+      padding: 20px 30px !important;
     }
     .nine .three{
-      width: 100%;
-      margin-left: 0;
+      width: 100% !important;
+      margin-left: 0 !important;
     }
   }
   .nav-top{
-    padding: 20px 20px 40px 20px;
+    padding: 20px 20px 40px 20px !important;
   }
   .faq, .start{
     h1{
-      font-size: 3.0rem;
+      font-size: 3.0rem !important;
     }
     .content {
-      padding: 30px;
+      padding: 30px !important;
     }
   }
 }
 @media screen and (max-width: 375px){
   .index{
     .top-wrapper{
-      background-size: 140%;
+      background-size: 140% !important;
     }
   }
   footer .links li {
-    padding: 0 15px;
+    padding: 0 15px !important;
   }
 }
 @media screen and (max-width: 360px){
   .index .top-wrapper{
-    background-size: 155%;
+    background-size: 155% !important;
   }
   .index{
     .simple{
-      background-image: url(../img/bg_left_shape.svg);
-      background-size: 850%;
+      background-image: url(../../static/img/bg_left_shape.svg) !important;
+      background-size: 850% !important;
     }
   }
   .pricing{
     .content{
-      padding: 15px 10px;
+      padding: 15px 10px !important;
     }
   }
 }
 @media screen and (max-width: 320px){
   .index .top-wrapper {
-    background-size: 193%;
+    background-size: 193% !important;
   }
 }

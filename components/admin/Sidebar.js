@@ -61,12 +61,28 @@ class Sidebar extends React.Component {
             </ListItemIcon>
             <ListItemText primary="Manage Messages" />
           </ListItem>
+          <Collapse in={true} timeout="auto" unmountOnExit>
+            <List component="div" disablePadding>
+            <Link as='/dashboard/message/contact' href="/admin-contact-message">
+              <ListItem button className={classes.nested}>
+                <ListItemText inset primary="Contacts" />
+              </ListItem>
+            </Link>
+            </List>
+            <List component="div" disablePadding>
+            <Link as='/dashboard/message/projects' href="/admin-project-message">
+              <ListItem button className={classes.nested}>
+                <ListItemText inset primary="Projects" />
+              </ListItem>
+            </Link>
+            </List>
+          </Collapse>
           <Link href="/admin-skill">
             <ListItem button>
               <ListItemIcon>
                 <Icon>settings_ethernet</Icon>
               </ListItemIcon>
-              <ListItemText primary="Manage SkillS" />
+              <ListItemText primary="Manage Skillset" />
             </ListItem>
           </Link>
         </List>
@@ -74,6 +90,7 @@ class Sidebar extends React.Component {
     )
   }
 }
+
 
 Sidebar.propTypes = {
   classes: PropTypes.object.isRequired,

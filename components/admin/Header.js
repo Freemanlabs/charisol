@@ -14,6 +14,7 @@ import FormGroup from '@material-ui/core/FormGroup';
 import MenuItem from '@material-ui/core/MenuItem';
 import Menu from '@material-ui/core/Menu';
 import Head from 'next/head'
+import Router from 'next/router'
 
 const styles = {
   root: {
@@ -29,10 +30,15 @@ const styles = {
 };
 
 class Header extends React.Component {
-  state = {
-    auth: true,
-    anchorEl: null,
-  };
+  constructor(props) {
+    super(props)
+    this.state = {
+      auth: true,
+      anchorEl: null,
+    };
+    this.logoutHanddler = this.logoutHanddler.bind(this);
+  }
+  
 
   handleChange = (event, checked) => {
     this.setState({ auth: checked });
@@ -46,8 +52,13 @@ class Header extends React.Component {
     this.setState({ anchorEl: null });
   };
 
+  logoutHanddler() {
+    this.setState({ anchorEl: null });
+    Router.push(`/admin-login`);
+  }
+
   render() {
-    const { classes } = this.props;
+    const { classes, pageName } = this.props;
     const { auth, anchorEl } = this.state;
     const open = Boolean(anchorEl);
 
@@ -67,7 +78,7 @@ class Header extends React.Component {
               <MenuIcon />
             </IconButton>
             <Typography variant="title" color="inherit" className={classes.flex}>
-              Title
+              {pageName}
             </Typography>
               <div>
                 <IconButton
@@ -92,8 +103,8 @@ class Header extends React.Component {
                   open={open}
                   onClose={this.handleClose}
                 >
-                  <MenuItem onClick={this.handleClose}>Profile</MenuItem>
-                  <MenuItem onClick={this.handleClose}>My account</MenuItem>
+                  <MenuItem onClick={this.logoutHanddler}>logout</MenuItem>
+                  
                 </Menu>
               </div>
             

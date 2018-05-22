@@ -44,7 +44,6 @@ const initialState = {
 const styles = theme => ({
   root: {
     flexGrow: 1,
-    height: 250,
     width: '90%',
     margin: '30px auto'
 
@@ -136,7 +135,7 @@ class AdminProfile extends React.Component {
 
 
     return (
-      <Dashboard>
+      <Dashboard  pageName="Manage Skills">
         <div className={classes.root}>
           <Snackbar
             anchorOrigin={{ vertical, horizontal }}
