@@ -1,0 +1,32 @@
+.start{
+  @extend .faq;
+  #start-form{
+    transition: all 0.5s ease-out;
+  }
+  .date{
+    height: 38px;
+    padding: 6px 10px;
+    background-color: #fff;
+    border: 1px solid #D1D1D1;
+    border-radius: 4px;
+    box-shadow: none;
+    box-sizing: border-box;
+  }
+  .div{
+    margin-bottom: 30px;
+  }
+  textarea{
+    height: auto;
+  }
+  .response-msg-toast{
+    width: 400px;
+    height: 250px;
+    border: 1px solid;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: #00cc00;
+    z-index: 1;
+    border-radius: 3px;
+  }
+}
