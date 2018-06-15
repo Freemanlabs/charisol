@@ -15,7 +15,7 @@ export default () => (
         <a href="/team">Team &amp; Community</a>
         </li>
         <li>
-          <a href="http://blog.charisol.io" target="no_blank">Blog</a>
+          <a href="/blog" target="no_blank">Blog</a>
         </li>
         <li>
           <a href="/pricing">Pricing</a>
