@@ -92,6 +92,7 @@
 /******/ 	var hotApplyOnUpdate = true;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /******/ 	var hotCurrentHash = "d2ca130cae2cc35e2625"; // eslint-disable-line no-unused-vars
 =======
 /******/ 	var hotCurrentHash = "f7bd80eecc3302ab2034"; // eslint-disable-line no-unused-vars
@@ -99,6 +100,9 @@
 =======
 /******/ 	var hotCurrentHash = "603b3efdb5e3351f833f"; // eslint-disable-line no-unused-vars
 >>>>>>> feat(): deploy
+=======
+/******/ 	var hotCurrentHash = "f818c4e5077d95c1b4f6"; // eslint-disable-line no-unused-vars
+>>>>>>> feat(): build
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
