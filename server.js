@@ -8,6 +8,9 @@ const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 require('dotenv').config({ path: 'variables.env' });
 
+const route = pathMatch()
+const match = route('/post/:slug')
+
 
 
 //conneting to mongoose
@@ -77,8 +80,22 @@ const projectsController = require('./server/controller/projectsController');
       return handle(req, res)
     })
 
-    server.listen(port, (err) => {
-      if (err) throw err
-      console.log(`> Ready on http://localhost:${port}`)
+	
+	createServer((req, res) => {
+      const { pathname, query } = parse(req.url, true)
+      const params = match(pathname)
+      if (params === false) {
+        handle(req, res)
+        return
+      }
+      // assigning `query` into the params means that we still
+      // get the query string passed to our application
+      // i.e. /blog/foo?show-comments=true
+      app.render(req, res, '/post', Object.assign({}, query, params))
     })
+      .listen(port, (err) => {
+        if (err) throw err
+        console.log(`> Ready on http://localhost:${port}`)
+      })
+	
   })
