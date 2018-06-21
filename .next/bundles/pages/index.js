@@ -708,8 +708,7 @@ var _default = function _default() {
       lineNumber: 17
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    href: "http://blog.charisol.io",
-    target: "no_blank",
+    href: "/blog",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 18
