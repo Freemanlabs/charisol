@@ -37,8 +37,12 @@ var TeamSchema = new mongoose.Schema({
     type: String
   },
 
+  positionNumber: {
+    type: Number
+  },
 
-  description: {
+
+  biography: {
     type: String
   },
 
@@ -47,9 +51,29 @@ var TeamSchema = new mongoose.Schema({
     type: String
   },
 
+  phoneNumber: {
+    type: String
+  },
+
+  address: {
+    type: String
+  },
+
+  slogan: {
+    type: String
+  },
+
   gender: {
     type: String,
     enum: GENDER
+  },
+
+  biography: {
+    type: String,
+  },
+
+  githubUsername: {
+    type: String,
   },
 
   email: {

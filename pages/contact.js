@@ -3,10 +3,14 @@ import Navbar from '../components/Navbar';
 import stylesheet from '../styles/about.scss';
 import React, { Component } from 'react'
 import fetch from 'isomorphic-unfetch'
+import Button from '@material-ui/core/Button';
+import Snackbar from '@material-ui/core/Snackbar';
+import LinearProgress from '@material-ui/core/LinearProgress';
 
 const initialState = {
   submitting: false,
   submitted: false,
+  showAlert: false,
   input: {
     email: "",
     name: "",
@@ -36,7 +40,7 @@ class Contact extends Component {
 
   submitForm(event) {
     event.preventDefault();
-    const { input } = this.state;
+    const { input, showAlert } = this.state;
     this.setState({ submitting: true })
     fetch('/api/contacts', {
       method: 'post',
@@ -50,7 +54,7 @@ class Contact extends Component {
         if (res.status === 201 && res.success === true) {
           this.setState({ submitted: true })
           this.setState(initialState)
-          alert('Message sent!');
+          this.setState({ showAlert: true });
         } else {
           this.setState({ submitting: false });
           alert('Internal server error');
@@ -60,10 +64,19 @@ class Contact extends Component {
   }
 
   render() {
-    const { input } = this.state;
+    const { input, showAlert } = this.state;
     return (
       <Layout title="Contact Us | Charisol Technologies" content="Let us help you bring your projects to life and deliver your design/developments needs the right way.">
         <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
+        <Snackbar
+          anchorOrigin={{ vertical: 'top', horizontal: 'center' }}
+          open={showAlert}
+          onClose={this.handleClose}
+          ContentProps={{
+            'aria-describedby': 'message-id',
+          }}
+          message={<span id="message-id">Message Sent! You will be notify</span>}
+        />
         <div id="panel" data-slideout-ignore>
           <section className="pricing">
             <Navbar />
@@ -110,7 +123,8 @@ class Contact extends Component {
                         <textarea value={input.message} onChange={e => this.handleInputChange({ message: e.target.value })} className="u-full-width" id="message" rows="8" name="project_description" required></textarea>
                         <p className="light"><em>Tip: Could be a project brief, a partnership enquiry or asking about vacancies</em></p>
                       </div>
-                      <button className={this.state.submitting ? 'full m-t-lg m-t-lg btn-curve-gray' : 'm-t-lg btn-curve-purple full'} type="submit" value="Submit">{this.state.submitting ? 'Submitting...' : 'Submit'}</button>
+                      {this.state.submitting ? (<LinearProgress color="secondary" />) : ('')}
+                      <button className='m-t-lg btn-curve-purple full' type="submit" value="Submit">{this.state.submitting ? 'Submitting...' : 'Submit'}</button>
                     </form>
                   </div>
                 </div>

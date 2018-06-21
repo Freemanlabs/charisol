@@ -4,8 +4,8 @@ import Sidebar from './Sidebar';
 const Layout = (props) => (
     <div>
       <Sidebar />
-       <Header title={props.title}/>
-       {props.children}
+       <Header title={props.title} content={props.content}/>
+       <div style={{backgroundColor: '#E0E0E0'}}>{props.children}</div>
       <Footer />
     </div>
 )

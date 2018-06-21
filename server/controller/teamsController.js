@@ -4,7 +4,7 @@ const controller = {}
 controller.getTeams = () => {
   return (req, res) => {
     Team.find()
-    .populate('skills')
+    .populate('skills').sort('positionNumber')
     .exec((err, teams) => {
       if (err) throw err
       res.json(teams);
@@ -30,10 +30,23 @@ controller.updateTeam = () => {
     const params = req.body;
     Team.findByIdAndUpdate(id, params).exec((err, team) => {
       if (err) throw err
-      res.json(team);
+      res.json({status: 201, user: team, success: true});
     })
   }
 }
+
+controller.deleteTeam = () => {
+  return (req, res) => {
+    const id = req.params.id;
+    console.log(id)
+    Team.deleteOne({_id: id}).exec((err, team) => {
+      if (err) throw err
+      res.json({status: 201, msg: "Deleted", success: true});
+    })
+  }
+}
+
+
 
 controller.saveTeam = () => {
   return (req, res) => {
@@ -62,11 +75,11 @@ controller.saveTeam = () => {
             })
           }  else {
             console.log('creating team');
-            Team.create(teamParams).exec((err, team) => {
+            teamParams.save((err) => {
               if (err) {
                 res.json({ success: false, err, status: 501 }).status(500)
               } else {
-                res.json({ success: true, team, status: 201 }).status(200)
+                res.json({ success: true, user: teamParams, status: 201 }).status(200)
               }
             })
           }
