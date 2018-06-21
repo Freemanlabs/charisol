@@ -1,15 +1,8 @@
 module.exports =
 
-        __NEXT_REGISTER_PAGE('/team', function() {
+        __NEXT_REGISTER_PAGE('/about', function() {
           var comp = 
       webpackJsonp([5],{
-
-/***/ "./assets/img/bg_team_1.png":
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/bg_team_1-2858fe07d7fb338097d790305baccc35.png";
-
-/***/ }),
 
 /***/ "./assets/img/charisol_logo.svg":
 /***/ (function(module, exports) {
@@ -39,10 +32,10 @@ module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGlu
 
 /***/ }),
 
-/***/ "./assets/img/icon_right_purple.svg":
+/***/ "./assets/img/icon_right_white.svg":
 /***/ (function(module, exports) {
 
-module.exports = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTciIGhlaWdodD0iMTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjx1c2UgeGxpbms6aHJlZj0iI3BhdGgwX2ZpbGwiIGZpbGw9IiM4MDY0RkYiLz48ZGVmcz48cGF0aCBpZD0icGF0aDBfZmlsbCIgZD0iTTExLjQ0OC4xOGEuNTk5LjU5OSAwIDAgMC0uODU3IDAgLjYwOS42MDkgMCAwIDAgMCAuODUybDQuMzQ0IDQuMzYxSC42Yy0uMzM0IDAtLjYuMjY3LS42LjYwMyAwIC4zMzUuMjY2LjYxLjYuNjFoMTQuMzM1bC00LjM0NCA0LjM1M2EuNjIuNjIgMCAwIDAgMCAuODZjLjI0LjI0MS42MjYuMjQxLjg1NyAwbDUuMzcyLTUuMzkzYS41OTQuNTk0IDAgMCAwIDAtLjg1MUwxMS40NDguMTh6Ii8+PC9kZWZzPjwvc3ZnPg=="
+module.exports = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTciIGhlaWdodD0iMTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjx1c2UgeGxpbms6aHJlZj0iI3BhdGgwX2ZpbGwiIGZpbGw9IiNGRkYiLz48ZGVmcz48cGF0aCBpZD0icGF0aDBfZmlsbCIgZD0iTTExLjQ0OC4xOGEuNTk5LjU5OSAwIDAgMC0uODU3IDAgLjYwOS42MDkgMCAwIDAgMCAuODUybDQuMzQ0IDQuMzYxSC42Yy0uMzM0IDAtLjYuMjY3LS42LjYwMyAwIC4zMzUuMjY2LjYxLjYuNjFoMTQuMzM1bC00LjM0NCA0LjM1M2EuNjIuNjIgMCAwIDAgMCAuODZjLjI0LjI0MS42MjYuMjQxLjg1NyAwbDUuMzcyLTUuMzkzYS41OTQuNTk0IDAgMCAwIDAtLjg1MUwxMS40NDguMTh6Ii8+PC9kZWZzPjwvc3ZnPg=="
 
 /***/ }),
 
@@ -831,13 +824,6 @@ var _default = function _default() {
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime/core-js/json/stringify.js":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__("./node_modules/core-js/library/fn/json/stringify.js");
-
-/***/ }),
-
 /***/ "./node_modules/core-js/library/fn/json/stringify.js":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1076,44 +1062,36 @@ module.exports = bind.call(Function.call, Object.prototype.hasOwnProperty);
 
 /***/ }),
 
-/***/ "./node_modules/isomorphic-unfetch/browser.js":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = window.fetch || (window.fetch = __webpack_require__("./node_modules/unfetch/dist/unfetch.es.js").default || __webpack_require__("./node_modules/unfetch/dist/unfetch.es.js"));
-
-
-/***/ }),
-
 /***/ "./node_modules/next/dist/lib/link.js":
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _interopRequireWildcard = __webpack_require__("./node_modules/@babel/runtime/helpers/interopRequireWildcard.js");
+var _interopRequireWildcard = __webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/interopRequireWildcard.js");
 
-var _interopRequireDefault = __webpack_require__("./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
+var _interopRequireDefault = __webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/interopRequireDefault.js");
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
 
-var _typeof2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/typeof.js"));
+var _typeof2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/typeof.js"));
 
-var _stringify = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/core-js/json/stringify.js"));
+var _stringify = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/core-js/json/stringify.js"));
 
-var _getPrototypeOf = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/core-js/object/get-prototype-of.js"));
+var _getPrototypeOf = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/core-js/object/get-prototype-of.js"));
 
-var _classCallCheck2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/classCallCheck.js"));
+var _classCallCheck2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/classCallCheck.js"));
 
-var _createClass2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/createClass.js"));
+var _createClass2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/createClass.js"));
 
-var _possibleConstructorReturn2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js"));
+var _possibleConstructorReturn2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js"));
 
-var _inherits2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/inherits.js"));
+var _inherits2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/inherits.js"));
 
-var _assertThisInitialized2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/assertThisInitialized.js"));
+var _assertThisInitialized2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/assertThisInitialized.js"));
 
 var _url = __webpack_require__("./node_modules/url/url.js");
 
@@ -1319,6 +1297,13 @@ module.exports = __webpack_require__("./node_modules/next/dist/lib/head.js")
 
 module.exports = __webpack_require__("./node_modules/next/dist/lib/link.js")
 
+
+/***/ }),
+
+/***/ "./node_modules/next/node_modules/@babel/runtime/core-js/json/stringify.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__("./node_modules/core-js/library/fn/json/stringify.js");
 
 /***/ }),
 
@@ -1762,22 +1747,21 @@ module.exports = function(originalModule) {
 
 /***/ }),
 
-/***/ "./pages/team.js":
+/***/ "./pages/about.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_Layout__ = __webpack_require__("./components/Layout.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_Navbar__ = __webpack_require__("./components/Navbar.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__styles_about_scss__ = __webpack_require__("./styles/about.scss");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__styles_about_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__styles_about_scss__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_isomorphic_unfetch__ = __webpack_require__("./node_modules/isomorphic-unfetch/browser.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_isomorphic_unfetch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_isomorphic_unfetch__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_react__ = __webpack_require__("./node_modules/react/cjs/react.development.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__assets_img_bg_team_1_png__ = __webpack_require__("./assets/img/bg_team_1.png");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__assets_img_bg_team_1_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__assets_img_bg_team_1_png__);
-var _jsxFileName = "/Users/macbook/workspace/charisol/challaris-tech-website/pages/team.js";
+/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("./node_modules/react/cjs/react.development.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_Layout__ = __webpack_require__("./components/Layout.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_Navbar__ = __webpack_require__("./components/Navbar.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__styles_about_scss__ = __webpack_require__("./styles/about.scss");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__styles_about_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__styles_about_scss__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_next_link__ = __webpack_require__("./node_modules/next/link.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_next_link__);
+var _jsxFileName = "/Users/macbook/workspace/charisol/challaris-tech-website/pages/about.js";
+
 
 (function () {
   var enterModule = __webpack_require__("./node_modules/react-hot-loader/index.js").enterModule;
@@ -1785,429 +1769,139 @@ var _jsxFileName = "/Users/macbook/workspace/charisol/challaris-tech-website/pag
   enterModule && enterModule(module);
 })();
 
-function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
-
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
-
-function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
 
 
 
 
 
-
-
-
-var Team =
-/*#__PURE__*/
-function (_Component) {
-  _inherits(Team, _Component);
-
-  function Team(props) {
-    var _this;
-
-    _classCallCheck(this, Team);
-
-    _this = _possibleConstructorReturn(this, (Team.__proto__ || Object.getPrototypeOf(Team)).call(this, props));
-    _this.state = {
-      teams: [],
-      user: {
-        skills: []
-      }
-    };
-    _this.getUserInfo = _this.getUserInfo.bind(_assertThisInitialized(_this));
-    return _this;
-  }
-
-  _createClass(Team, [{
-    key: "componentDidMount",
-    value: function componentDidMount() {
-      var _this2 = this;
-
-      __WEBPACK_IMPORTED_MODULE_3_isomorphic_unfetch___default()("/api/get-teams").then(function (res) {
-        return res.json();
-      }).then(function (data) {
-        return _this2.setState({
-          teams: data
-        });
-      });
+var About = function About(props) {
+  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__components_Layout__["a" /* default */], {
+    title: "About Us | Charisol Technologies",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
     }
-  }, {
-    key: "getUserInfo",
-    value: function getUserInfo(userInfo) {
-      this.setState({
-        user: userInfo
-      });
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("style", {
+    dangerouslySetInnerHTML: {
+      __html: __WEBPACK_IMPORTED_MODULE_3__styles_about_scss___default.a
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
     }
-  }, {
-    key: "render",
-    value: function render() {
-      var _this3 = this;
-
-      return __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0__components_Layout__["a" /* default */], {
-        title: "Team | Charisol Technologies",
-        content: "Our team comprises of vetted freelance developers that have been tested on their technical skills, communication skills, and project management skills.",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 32
-        }
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("style", {
-        dangerouslySetInnerHTML: {
-          __html: __WEBPACK_IMPORTED_MODULE_2__styles_about_scss___default.a
-        },
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 33
-        }
-      }), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("nav", {
-        id: "profile",
-        className: "profile",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 34
-        }
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
-        className: "head",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 35
-        }
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("h5", {
-        className: "light",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 36
-        }
-      }, "Profile Details"), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("span", {
-        className: "close close-red",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 37
-        }
-      })), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 39
-        }
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
-        className: "top-info",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 40
-        }
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
-        className: "row",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 41
-        }
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
-        className: "six columns",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 42
-        }
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("img", {
-        src: this.state.user.image_url,
-        alt: "team member",
-        className: "avatar",
-        style: {
-          with: '54%'
-        },
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 43
-        }
-      })), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
-        className: "six columns",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 45
-        }
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("h5", {
-        className: "bold",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 46
-        }
-      }, this.state.user.firstName, " ", this.state.user.lastName), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("p", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 47
-        }
-      }, this.state.user.position), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("span", {
-        className: "blue-badge",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 48
-        }
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("span", {
-        className: "circle",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 49
-        }
-      }), "Core team")))), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
-        className: "m-t-md m-b-md",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 53
-        }
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("p", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 54
-        }
-      }, this.state.user.biography)), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
-        className: "m-t-md m-b-md",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 57
-        }
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("p", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 58
-        }
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("b", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 58
-        }
-      }, "Skills")), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("p", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 60
-        }
-      }, this.state.user.skills.map(function (skill) {
-        return skill.name;
-      }).join(", ")))), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("a", {
-        className: "btn-curve-purple m-t-md",
-        href: "./start.html",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 65
-        }
-      }, "Start a project", __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("img", {
-        src: "../static/img/icon_right_white.svg",
-        alt: "right",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 67
-        }
-      }))), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("section", {
-        className: "team",
-        id: "panel",
-        "data-slideout-ignore": true,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 72
-        }
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__components_Navbar__["a" /* default */], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 73
-        }
-      }), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
-        className: "content-cover",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 74
-        }
-      }), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
-        className: "row core",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 75
-        }
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
-        className: "six columns",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 76
-        }
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
-        className: "text-content",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 77
-        }
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("span", {
-        className: "heading-wrapper",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 78
-        }
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("h1", {
-        className: "heading no-reveal",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 79
-        }
-      }, "Core team.")), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("span", {
-        className: "sub-text-wrapper",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 83
-        }
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("p", {
-        className: "sub-text no-reveal",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 84
-        }
-      }, "We are a team of young and vibrant techies filled with loads of passion for what we do. We are proud workaholics who drink a little too much coffee and believe in power naps.")), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("span", {
-        className: "sub-text-wrapper",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 89
-        }
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("p", {
-        className: "sub-text no-reveal",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 90
-        }
-      }, "Our mutual desire to change the world through cutting edge programming techniques is what keeps us together. Occasionally we try to listen to our mothers and know when to pull an all nighter and when to catch 40 winks.")))), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
-        className: "six columns img-col",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 97
-        }
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
-        className: "image-wrapper-container",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 98
-        }
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
-        className: "image-wrapper no-reveal",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 99
-        }
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
-        className: "image team-image",
-        alt: "team",
-        style: {
-          backgroundImage: 'url(' + __WEBPACK_IMPORTED_MODULE_5__assets_img_bg_team_1_png___default.a + ')'
-        },
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 100
-        }
-      }))))), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
-        className: "people-wrapper",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 106
-        }
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
-        id: "people",
-        className: "row people",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 108
-        }
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
-        id: "people-wrapper",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 109
-        }
-      }, this.state.teams.map(function (team, i) {
-        return __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
-          className: "tile",
-          key: i,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 112
-          }
-        }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
-          className: "avatar-wrapper no-reveal",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 113
-          }
-        }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
-          className: "avatar",
-          alt: "team member",
-          style: {
-            backgroundImage: 'url(' + team.image_url + ')'
-          },
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 114
-          }
-        })), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
-          className: "text-wrap",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 116
-          }
-        }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
-          className: "sub-text-wrapper",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 117
-          }
-        }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("h5", {
-          className: "bold sub-text",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 118
-          }
-        }, team.firstName, " ", team.lastName)), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
-          className: "sub-text-wrapper",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 120
-          }
-        }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("p", {
-          className: "light sub-text",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 121
-          }
-        }, team.position))), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("button", {
-          className: "team-profile-btn btn-clear-purple",
-          onClick: function onClick(e) {
-            return _this3.getUserInfo(team);
-          },
-          "data-person-id": team._id,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 124
-          }
-        }, "View Profile", __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("img", {
-          src: __webpack_require__("./assets/img/icon_right_purple.svg"),
-          alt: "right",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 124
-          }
-        })));
-      }))))));
+  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    id: "panel",
+    "data-slideout-ignore": true,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
     }
-  }, {
-    key: "__reactstandin__regenerateByEval",
-    value: function __reactstandin__regenerateByEval(key, code) {
-      this[key] = eval(code);
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("section", {
+    className: "pricing",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
     }
-  }]);
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__components_Navbar__["a" /* default */], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    }
+  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    className: "content",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    className: "row",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    className: "pricing-text-wrapper",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    className: "text-content",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
+    className: "heading-wrapper",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h1", {
+    className: "heading no-reveal",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    }
+  }, "About Charisol")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
+    className: "sub-text-wrapper",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+    className: "sub-text no-reveal",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    }
+  }, "Back in 2012, I was approached to build a simple coupon site application. With great excitement, I jumped at the opportunity to help a friend who had extensive experience working in a coupon company and hoped to own one, achieve a long term goal. See, at best I was a full stack backend engineer but that would even be stretching the truth. I found a template and wired up the front end to show live data and thought I was done. I discovered the small iterations took me longer than I would have spent wiring up the whole backend. It dawned on me, if I could not build a great looking coupon site from ground up, I cannot solve the numerous ideas I have painstakingly written down over the years. I knew I needed a team to journey alongside me with an open mind to interact with the problems within our sphere of imagination. This thought led me on the journey of putting together a capable, well rounded rockstar team with diverse skills that mesh into a coherent whole, my avengers! Our heartbeats to the melody of solutions that make music in the veins of those whose problems we partner with to solve. The vision of the company and by extension this team is to be a physical extension of a Graceful God. This vision is enshrined in the name of the company (Charisol - Charis Solutions), the logo, and the processes, products and people. Our culture is being crafted to pass through those who pass through us.")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
+    className: "sub-text-wrapper",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+    className: "sub-text no-reveal",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    }
+  }, "So what do we do? How do we translate our call? We seek to do this in the following ways: Building a strong network of highly skilled individuals with skillsets that span the full spectrum involved in researching a problem through designing, engineering, marketing and analysing the solution for optimization. Our community consists of young minds we equip and encourage take part of software engineering projects by connecting them to our network. Providing them opportunities to get hands on experience designing, building and marketing solutions to problems around us. Seeking opportunities to make a difference by focusing on creating impact, by so doing solving problems over monetary gains. Ensuring the long term health of the company is taken care of by providing expertise to help Companies solve problems in their industries."))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4_next_link___default.a, {
+    href: "/start",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+    className: "btn-curve-purple m-t-md",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41
+    }
+  }, "Start a project", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
+    src: __webpack_require__("./assets/img/icon_right_white.svg"),
+    alt: "right",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43
+    }
+  }))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    className: "pricing-wrapper columns",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    className: "row pricing-wrapper-container",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49
+    }
+  }))))));
+};
 
-  return Team;
-}(__WEBPACK_IMPORTED_MODULE_4_react__["Component"]);
-
-var _default = Team;
+var _default = About;
 /* harmony default export */ __webpack_exports__["default"] = (_default);
 ;
 
@@ -2220,8 +1914,8 @@ var _default = Team;
     return;
   }
 
-  reactHotLoader.register(Team, "Team", "/Users/macbook/workspace/charisol/challaris-tech-website/pages/team.js");
-  reactHotLoader.register(_default, "default", "/Users/macbook/workspace/charisol/challaris-tech-website/pages/team.js");
+  reactHotLoader.register(About, "About", "/Users/macbook/workspace/charisol/challaris-tech-website/pages/about.js");
+  reactHotLoader.register(_default, "default", "/Users/macbook/workspace/charisol/challaris-tech-website/pages/about.js");
   leaveModule(module);
 })();
 
@@ -2242,7 +1936,7 @@ var _default = Team;
           next.router.update(r, Component)
         }
       }
-    })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/team")
+    })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/about")
   
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__("./node_modules/webpack/buildin/harmony-module.js")(module)))
 
@@ -2265,7 +1959,7 @@ module.exports = "@charset \"UTF-8\";\n/*! normalize.css v3.0.2 | MIT License | 
 /***/ 4:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__("./pages/team.js");
+module.exports = __webpack_require__("./pages/about.js");
 
 
 /***/ })
@@ -2274,4 +1968,4 @@ module.exports = __webpack_require__("./pages/team.js");
           return { page: comp.default }
         })
       ;
-//# sourceMappingURL=team.js.map
+//# sourceMappingURL=about.js.map
