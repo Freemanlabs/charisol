@@ -9,6 +9,14 @@ const bodyParser = require('body-parser');
 require('dotenv').config({ path: 'variables.env' });
 
 
+/**for blog */
+const http = require('http')
+const { parse } = require('url')
+const pathMatch = require('path-match')
+const route = pathMatch()
+const match = route('/post/:slug')
+
+
 
 //conneting to mongoose
 mongoose.connect(process.env.DATABASE)
@@ -51,7 +59,7 @@ const projectsController = require('./server/controller/projectsController');
     //projects
     server.get('/api/get-projects', projectsController.getProjects());
     server.post('/api/projects', projectsController.saveProjects());
-  
+    
 
     server.get('/contact', (req, res) => {
       return app.render(req, res, '/contact')
@@ -60,6 +68,14 @@ const projectsController = require('./server/controller/projectsController');
     server.get('/', (req, res) => {
       return app.render(req, res, '/')
     })
+
+    server.get('/post/:slug', (req, res) => {
+      const actualPage = '/post'
+      const queryParams = { slug: req.params.slug } 
+      return app.render(req, res, actualPage, queryParams)
+    })
+
+   
 
     server.get('/team', (req, res) => {
       return app.render(req, res, '/team')
@@ -81,4 +97,7 @@ const projectsController = require('./server/controller/projectsController');
       if (err) throw err
       console.log(`> Ready on http://localhost:${port}`)
     })
+
+
+   
   })

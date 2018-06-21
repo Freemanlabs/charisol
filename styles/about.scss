@@ -118,4 +118,37 @@
     .team-image {
       background-image: url(https://files.slack.com/files-pri/T3SR5PY3V-FAGTVEHGA/923.jpgassets/img/bg_team_1.png);
     }
+	
+  
+    
+  /** for blog*/  
+	@media screen and (max-width: 1024px){
+	  .card-list {
+		width: 115%;
+    margin-left:0px;
+    		
+		
+		.overf{
+		  max-height:100px;
+	  }
+	  }
+	  .post-content{
+      width:130%;
+    }
+	  
+	}
+	@media screen and (max-width: 675px){
+	  .card-list {
+		width: 90%;
+		margin-left:0px;
+	  
+	  
+	  }
+	  .post-content{
+      width:125%;
+	  
+    }
+	}
+	
+	
   }

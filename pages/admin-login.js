@@ -44,6 +44,8 @@ class AdminLogin extends Component {
             } 
          }
         )
+    } else {
+        console.log(this.state.loignCode)
     }
   }
 
