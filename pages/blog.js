@@ -67,7 +67,7 @@ const Blog = ({ posts = [] }) => (
                             {format(publishedAt, 'MMMM DD, YYYY')}
                           </p>
 
-                          <Link prefetch href={{pathname: '/post', query: {slug: slug}}}>
+                          <Link prefetch href={`/post/${slug}`}>
                             <a>
                               <h1>{title}</h1>
                             </a>
