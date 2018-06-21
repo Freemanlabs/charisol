@@ -59,7 +59,7 @@ const projectsController = require('./server/controller/projectsController');
     //projects
     server.get('/api/get-projects', projectsController.getProjects());
     server.post('/api/projects', projectsController.saveProjects());
-  
+    
 
     server.get('/contact', (req, res) => {
       return app.render(req, res, '/contact')
@@ -68,6 +68,14 @@ const projectsController = require('./server/controller/projectsController');
     server.get('/', (req, res) => {
       return app.render(req, res, '/')
     })
+
+    server.get('/post/:slug', (req, res) => {
+      const actualPage = '/post'
+      const queryParams = { slug: req.params.slug } 
+      return app.render(req, res, actualPage, queryParams)
+    })
+
+   
 
     server.get('/team', (req, res) => {
       return app.render(req, res, '/team')
@@ -85,27 +93,11 @@ const projectsController = require('./server/controller/projectsController');
       return handle(req, res)
     })
 
-    /**server.listen(port, (err) => {
-      if (err) throw err
-      console.log(`> Ready on http://localhost:${port}`)
-    })*/
-
-
-    /**for blog */
-    http.createServer((req, res) => {
-      const { pathname, query } = parse(req.url, true)
-      const params = match(pathname)
-      if (params === false) {
-        handle(req, res)
-        return
-      }
-      // assigning `query` into the params means that we still
-      // get the query string passed to our application
-      // i.e. /blog/foo?show-comments=true
-      app.render(req, res, '/post', Object.assign({}, query, params))
-    })
-    .listen(port, (err) => {
+    server.listen(port, (err) => {
       if (err) throw err
       console.log(`> Ready on http://localhost:${port}`)
     })
+
+
+   
   })

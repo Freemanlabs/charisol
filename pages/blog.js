@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import {format} from 'date-fns/';
+import { format } from 'date-fns/';
 import client from '../client';
 import Layout from '../components/Layout';
 import Navbar from '../components/Navbar';
@@ -14,94 +14,94 @@ function urlFor(source) {
 }
 
 const Blog = ({ posts = [] }) => (
-<Layout  title="Blog | Charisol Technologies"> 
-   <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <Layout title="Blog | Charisol Technologies">
+    <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 
-   <div id="panel"  data-slideout-ignore>
+    <div id="panel" data-slideout-ignore>
       <section className="pricing">
-      <Navbar />
+        <Navbar />
         <div className="content">
           <div className="row">
             <div className="pricing-text-wrapper">
               <div className="text-content">
                 <span className="heading-wrapper">
-                    <h1 className="heading no-reveal">
-                      The Charisol Blog
+                  <h1 className="heading no-reveal">
+                    The Charisol Blog
                     </h1>
-				</span>
-				<span className="sub-text-wrapper">
+                </span>
+                <span className="sub-text-wrapper">
                   <p className="sub-text no-reveal bl-subhead">
-                      We publish on topics such as software development, digital publishing and content strategy.
+                    We publish on topics such as software development, digital publishing and content strategy.
 				  </p>
                 </span>
-				
-				<div >
-				<ul>
-				
-				{
-          posts.map(({_id, title = '', name = 'No name', publishedAt='', categories = [], mainImage={}, body=[], authorImage = {}, slug = '', _updatedAt = ''}) =>
-              slug && <li key={_id} className="card-list">
-				<div className="image">
-					<img  
-					
-					style={{ width: "140%" }}
-          srcSet={`
+
+                <div >
+                  <ul>
+
+                    {
+                      posts.map(({ _id, title = '', name = 'No name', publishedAt = '', categories = [], mainImage = {}, body = [], authorImage = {}, slug = '', _updatedAt = '' }) =>
+                        slug && <li key={_id} className="card-list">
+                          <div className="image">
+                            <img
+
+                              style={{ width: "140%" }}
+                              srcSet={`
             ${urlFor(mainImage).width(320)} 320w,
             ${urlFor(mainImage).width(480)} 480w,
             ${urlFor(mainImage).width(800)} 800w
           `}
-          sizes={`
+                              sizes={`
             (max-width: 320px) 280px,
             (max-width: 480px) 440px,
             800px
           `}
-          src={urlFor(mainImage)}
-					/>
-				</div>
-				<p className="cat">
-					<i className="fa fa-tag"></i>
-					<em> {categories}</em>
-				</p>
-				<p className="date">
-					{format(publishedAt, 'MMMM DD, YYYY')}
-				</p>
-				
-                <Link prefetch href={`/post/${slug}`}>
-					<a>
-						<h1>{title}</h1>
-					</a>
-				</Link>
-				<div className="overf">
-				<BlockContent
-					blocks={body[1]}
-					imageOptions={{w: 900, h: 600, fit: 'min'}}
-					projectId={client.clientConfig.projectId}
-					dataset={client.clientConfig.dataset}
-				  /></div>
-				<footer>
-				<div className="author">
-					<img src={urlFor(authorImage).width(40).url()} />
-				</div>
-				<p className="name">
-					By
+                              src={urlFor(mainImage)}
+                            />
+                          </div>
+                          <p className="cat">
+                            <i className="fa fa-tag"></i>
+                            <em> {categories}</em>
+                          </p>
+                          <p className="date">
+                            {format(publishedAt, 'MMMM DD, YYYY')}
+                          </p>
+
+                          <Link prefetch href={{pathname: '/post', query: {slug: slug}}}>
+                            <a>
+                              <h1>{title}</h1>
+                            </a>
+                          </Link>
+                          <div className="overf">
+                            <BlockContent
+                              blocks={body[1]}
+                              imageOptions={{ w: 900, h: 600, fit: 'min' }}
+                              projectId={client.clientConfig.projectId}
+                              dataset={client.clientConfig.dataset}
+                            /></div>
+                          <footer>
+                            <div className="author">
+                              <img src={urlFor(authorImage).width(40).url()} />
+                            </div>
+                            <p className="name">
+                              By
 					<em> {name}</em>
-				</p>
-				</footer>
-              </li>
-          )
-				}
-  </ul>  
-  </div>
-				
-				</div></div>
-				</div>
+                            </p>
+                          </footer>
+                        </li>
+                      )
+                    }
+                  </ul>
+                </div>
+
+              </div></div>
           </div>
+        </div>
       </section>
     </div>
-	
-	
-	<style jsx>{`
+
+
+    <style jsx>{`
       .bl-subhead { 
 		font-weight:300px;
 		font-size:22px;
@@ -234,11 +234,12 @@ const Blog = ({ posts = [] }) => (
     background: transparent;
 	  }
     `}</style>
-</Layout>
+  </Layout>
 )
 
 Blog.getInitialProps = async () => {
-    return { posts: await client.fetch(`*[_type == "post"][0..1000] | order(publishedAt desc){
+  return {
+    posts: await client.fetch(`*[_type == "post"][0..1000] | order(publishedAt desc){
       _id,
       title,
 	  "name": author->name,
@@ -249,8 +250,9 @@ Blog.getInitialProps = async () => {
 	  body,
       "slug": slug.current,
       _updatedAt
-    }`) }
-	
+    }`)
+  }
+
 }
 
 export default Blog

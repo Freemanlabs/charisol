@@ -114,7 +114,7 @@ const BlogPost = ({ title = 'No title', name = 'No name', publishedAt='', catego
 </Layout>
 )
 
-BlogPost.getInitialProps = async ({ query: { slug } }) => {
+BlogPost.getInitialProps = async (req) => {
   return await client.fetch(`*[slug.current == $slug][0]{
       title,
       "name": author->name,
@@ -123,7 +123,7 @@ BlogPost.getInitialProps = async ({ query: { slug } }) => {
 	  publishedAt,
       body,
       _updatedAt
-    }`, { slug })
+    }`, {slug: req.query.slug})
 }
 
 export default BlogPost
