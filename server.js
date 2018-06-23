@@ -33,10 +33,11 @@ const teamsController = require('./server/controller/teamsController');
 const contactsController = require('./server/controller/contactsController');
 const skillsController = require('./server/controller/skillsController');
 const projectsController = require('./server/controller/projectsController');
+const recommendController = require("./server/controller/recommendController");
 
 
 
-  app.prepare()
+app.prepare()
   .then(() => {
     const server = express()
     // Takes the raw requests and turns them into usable properties on req.body
@@ -59,7 +60,12 @@ const projectsController = require('./server/controller/projectsController');
     //projects
     server.get('/api/get-projects', projectsController.getProjects());
     server.post('/api/projects', projectsController.saveProjects());
-    
+    //for recommendations
+    server.get("/api/get-recommendations", recommendController.getWord());
+    server.post("/api/recommendations", recommendController.saveWord());
+    server.delete("/api/recommendations/:id", recommendController.deleteWord());
+
+
 
     server.get('/contact', (req, res) => {
       return app.render(req, res, '/contact')
@@ -71,11 +77,11 @@ const projectsController = require('./server/controller/projectsController');
 
     server.get('/post/:slug', (req, res) => {
       const actualPage = '/post'
-      const queryParams = { slug: req.params.slug } 
+      const queryParams = { slug: req.params.slug }
       return app.render(req, res, actualPage, queryParams)
     })
 
-   
+
 
     server.get('/team', (req, res) => {
       return app.render(req, res, '/team')
@@ -83,12 +89,12 @@ const projectsController = require('./server/controller/projectsController');
 
     server.get('/dashboard/profile/:id', (req, res) => {
       const actualPage = '/admin-profile'
-      const queryParams = { _id: req.params.id } 
+      const queryParams = { _id: req.params.id }
       return app.render(req, res, actualPage, queryParams)
     })
 
 
-    
+
     server.get('*', (req, res) => {
       return handle(req, res)
     })
@@ -99,5 +105,5 @@ const projectsController = require('./server/controller/projectsController');
     })
 
 
-   
+
   })

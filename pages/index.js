@@ -191,55 +191,6 @@ const Index = (props) => (
           </div>
         </div>
         
-      <div className="container">
-        <div className="row">
-            <div className="col-md-12">
-            <span className="heading-wrapper">
-              <h2 className="heading text-center m-b-xl">What Clients Say About Our Developers</h2>
-            </span>
-                <div id="testimonial-slider" className="owl-carousel">
-                    <div className="testimonial">
-                        <div className="pic">
-                         <img src={require('../assets/img/david.png')}  alt="David" /> 
-                        </div>
-                        <p className="description">
-                            <span style={{marginTop: 20, fontWeight: 500, textTransform: 'uppercase', fontSize: 15, display: 'block'}}>David Ekpo</span>
-                            It has been a pleasure having David on the team. He always delivers better than expected results, while remaining forward thinking. What really has caught my eye was the level of research he puts into a project or initiative - This really helps bring everything together.
-                        </p>
-                        <h3 className="title">Hunter Stevens</h3>
-                        <small className="post">- Director of Client Care, 
-                      TRIBUS</small>
-                    </div>
-
-                    <div className="testimonial">
-                        <div className="pic">
-                        <img src={require('../assets/img/alexonozor.jpg')}  alt="Alex Onozor" />  
-                        </div>
-                        <p className="description">
-                        <span style={{marginTop: 20, fontWeight: 500, textTransform: 'uppercase', fontSize: 15, display: 'block'}}>Alex Onozor</span>
-                          I met Alex during his time at Andela where he worked as a software engineer. He was one of the most talented and knowledgeable people when it came to Ruby, Rails, and Javascript development. I was thoroughly impressed by his hard work, work-ethic, and attitude towards others and I expect him to accomplish great things in the Rails community and his career. I consider him not only to be a talented Rails developer and employee, but also my friend.
-                        </p>
-                        <h3 className="title">Jeffrey Wan</h3>
-                        <small className="post">- Software Developer at Blue Apron </small>
-                    </div>
-
-                    <div className="testimonial">
-                        <div className="pic">
-                        <img src="https://media.licdn.com/dms/image/C4E03AQFKvPRfqii8TQ/profile-displayphoto-shrink_800_800/0?e=1529164800&v=beta&t=gC03DGjPAvyI7VwUXG8sAhSiEy_8xIe66TUd3Zk4KWc" alt="Oluwatobi Akindunjoye" />  
-                           
-                        </div>
-                        <p className="description">
-                        <span style={{marginTop: 20, fontWeight: 500, textTransform: 'uppercase', fontSize: 15, display: 'block'}}>Oluwatobi Akindunjoye</span>
-                        Tobi and I worked together at WildFusion. I am always very impressed with his high quality work and attention to details. His ability to convert client ideas and needs into understandable design concepts is remarkable. He has also mastered the art of Designer—Developer hands off. I highly recommend Tobi.
-                        </p>
-                        <h3 className="title">Somide Olaoye Anthon</h3>
-                        <small className="post">- GIS Developer -
-                            United Nations</small>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
   </div> 
 
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
