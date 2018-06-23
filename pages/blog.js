@@ -45,7 +45,7 @@ const Blog = ({ posts = [] }) => (
                           <div className="image">
                             <img
 
-                              style={{ width: "140%" }}
+                              style={{ width: "140%"}}
                               srcSet={`
             ${urlFor(mainImage).width(320)} 320w,
             ${urlFor(mainImage).width(480)} 480w,
@@ -59,20 +59,20 @@ const Blog = ({ posts = [] }) => (
                               src={urlFor(mainImage)}
                             />
                           </div>
-                          <p className="cat">
-                            <i className="fa fa-tag"></i>
+                          
+
+                          <Link prefetch href={`/post/${slug}`}>
+                            <a>
+                            <p className="cat">
+                            <i className="fa fa-pencil"></i>
                             <em> {categories}</em>
                           </p>
                           <p className="date">
                             {format(publishedAt, 'MMMM DD, YYYY')}
                           </p>
-
-                          <Link prefetch href={`/post/${slug}`}>
-                            <a>
                               <h1>{title}</h1>
-                            </a>
-                          </Link>
-                          <div className="overf">
+
+                              <div className="overf">
                             <BlockContent
                               blocks={body[1]}
                               imageOptions={{ w: 900, h: 600, fit: 'min' }}
@@ -88,6 +88,9 @@ const Blog = ({ posts = [] }) => (
 					<em> {name}</em>
                             </p>
                           </footer>
+                            </a>
+                          </Link>
+                          
                         </li>
                       )
                     }
@@ -185,7 +188,12 @@ const Blog = ({ posts = [] }) => (
     overflow: hidden;
 	  }
 	  .card-list i{
-		  color: #B721FF;
+      color: #fff;
+      font-size:8px;
+      display: inline-block;
+  border-radius: 50px;
+  background-color:#B721FF;
+  padding: 0.5em 0.6em;
 	  }
 	  .card-list .cat{
 		  margin-bottom: 1px;
@@ -193,7 +201,7 @@ const Blog = ({ posts = [] }) => (
 	  }
 	  .card-list .cat em{
 		  margin-left: 3px;
-	  }
+    }
 	  .card-list .name{
 		  padding-top: 10px;
 		  margin-left: 50px;
@@ -215,6 +223,9 @@ const Blog = ({ posts = [] }) => (
 		  text-align:justify;
 		  content:"";
     position:relative;
+        color: #434456;
+        font-size:15px;
+        line-height:27px;
 	  }
 	  .overf:after{
 		  content:'';

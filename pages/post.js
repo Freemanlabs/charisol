@@ -18,7 +18,7 @@ const serializers = {
     image: ({ node: { asset } }) => (
       <picture>
         <img
-          style={{ width: "100%" }}
+          style={{ width: "100%",margin:"0 auto 20px" }}
           srcSet={`
             ${urlFor(asset).width(320)} 320w,
             ${urlFor(asset).width(480)} 480w,
@@ -96,7 +96,7 @@ const BlogPost = ({ title = 'No title', name = 'No name', publishedAt='', catego
 	  }
 	  .post-content i{
     color:#1EAEDB;
-	  }
+    }
 	  .resp{
   max-width: 740px;
   width:100%;
@@ -106,6 +106,8 @@ const BlogPost = ({ title = 'No title', name = 'No name', publishedAt='', catego
 	margin-left:auto;
   margin-right:auto;
   margin-top:20px;
+  font-size:15px;
+        line-height:27px;
     }
 	  
     `}</style>
@@ -124,6 +126,14 @@ BlogPost.getInitialProps = async (req) => {
       body,
       _updatedAt
     }`, {slug: req.query.slug})
+
+    const promise1 = new client.fetch(function(resolve, reject) {
+      throw 'Uh-oh!';
+    });
+
+    promise1.catch(function(error) {
+      console.log(error);
+    });
 }
 
 export default BlogPost

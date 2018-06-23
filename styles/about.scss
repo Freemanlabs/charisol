@@ -135,6 +135,9 @@
 	  .post-content{
       width:130%;
     }
+    .post-content h1{
+      font-size:34px;
+    }
 	  
 	}
 	@media screen and (max-width: 675px){
@@ -147,6 +150,9 @@
 	  .post-content{
       width:125%;
 	  
+    }
+    .post-content h1{
+      font-size:24px;
     }
 	}
 	
