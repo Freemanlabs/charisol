@@ -2,7 +2,7 @@ module.exports =
 
         __NEXT_REGISTER_PAGE('/', function() {
           var comp = 
-      webpackJsonp([5],{
+      webpackJsonp([4],{
 
 /***/ "./assets/img/alexonozor.jpg":
 /***/ (function(module, exports) {
@@ -3695,7 +3695,7 @@ module.exports = "@charset \"UTF-8\";\n/*! normalize.css v3.0.2 | MIT License | 
 
 /***/ }),
 
-/***/ 9:
+/***/ 3:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__("./pages/index.js");
@@ -3703,7 +3703,7 @@ module.exports = __webpack_require__("./pages/index.js");
 
 /***/ })
 
-},[9])
+},[3])
           return { page: comp.default }
         })
       ;

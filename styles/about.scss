@@ -14,6 +14,14 @@
         margin-top: 55px;
       }
     }
+    .pricing-text-wrapperm{
+      width: 70%;
+      margin: 0 auto;
+      text-align: left;
+      a{
+        margin-top: 55px;
+      }
+    }
     .nine{
       background: transparentize($purple, 0.9);
       margin-top: 50px;
@@ -138,7 +146,9 @@
     .post-content h1{
       font-size:34px;
     }
-    
+    .pricing-text-wrapperm{
+      width:90%;
+    }
     .six{
     .respimg{
         width:100%;
@@ -165,8 +175,7 @@
       font-size:24px;
     }
     .pricing-text-wrapperm{
-      padding-left: 20px;
-      padding-right: 20px;
+      width:80%;
     }
 
 
