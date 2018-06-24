@@ -13,7 +13,7 @@ import Link from 'next/link';
       <Navbar />
         <div className="content">
           <div className="row">
-            <div className="pricing-text-wrapper">
+            <div className="pricing-text-wrapperm">
               <div className="text-content">
                 <span className="heading-wrapper">
                     <h1 className="heading no-reveal">
@@ -45,13 +45,20 @@ import Link from 'next/link';
                 </Link>
               </div>
             </div>
-            <div className="pricing-wrapper columns">
+            {/*<div className="pricing-wrapper columns">
               <div className="row pricing-wrapper-container">
               </div>
-            </div>
+ </div>*/}
           </div>
       </section>
     </div>
+
+    <style jsx>{`
+      .sub-text{
+        text-align:justify;
+        line-height:27px;
+      }
+    `}</style>
    </Layout> 
   )
 

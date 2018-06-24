@@ -266,5 +266,24 @@
       background-repeat: no-repeat;
     }
   }
+  @media screen and (max-width: 1024px){
+	  .pricing-wrapper{
+      width:100% !important;
+      .columns{
+        min-width:50%;
+      }
+      
+    }
+	  
+	}
+	@media screen and (max-width: 675px){
+	  .pricing-wrapper{
+      width:100% !important;
+      .columns{
+        min-width:100%;
+      }
+      
+    }
+	}
 
   

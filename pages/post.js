@@ -7,6 +7,7 @@ import client from '../client'
 import Layout from '../components/Layout';
 import Navbar from '../components/Navbar';
 import stylesheet from '../styles/about.scss';
+import ReactDisqusComments from 'react-disqus-comments';
 
 const builder = imageUrlBuilder(client)
 function urlFor(source) {
@@ -67,9 +68,8 @@ const BlogPost = ({ title = 'No title', name = 'No name', publishedAt='', catego
     projectId={client.clientConfig.projectId}
     dataset={client.clientConfig.dataset}
   /></div>
-  <i className="fa fa-arrow-left"></i><Link href="/blog"><a>Back to Blog</a></Link>
+  {/*<i className="fa fa-arrow-left"></i><Link href="/blog"><a>Back to Blog</a></Link>*/}
   </div>
-
 
 </div></div>
 				</div>
@@ -114,6 +114,7 @@ const BlogPost = ({ title = 'No title', name = 'No name', publishedAt='', catego
 	
 	
 </Layout>
+
 )
 
 BlogPost.getInitialProps = async (req) => {

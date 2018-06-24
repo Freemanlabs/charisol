@@ -83,7 +83,7 @@ class Contact extends Component {
             <div className="content">
               <div className="row">
                 <div className="six columns">
-                  <img src={require('../assets/img/bg_contact.png')} alt="Scaling software development teams." />
+                  <img src={require('../assets/img/bg_contact.png')} alt="Scaling software development teams." className="respimg"/>
                 </div>
                 <div className="six columns">
                   <div className="text-content">
@@ -132,6 +132,14 @@ class Contact extends Component {
             </div>
           </section>
         </div>
+
+        <style jsx>{`
+      .sub-text{
+        text-align:justify;
+      }
+      
+    `}</style>
+
       </Layout>
     )
   }
