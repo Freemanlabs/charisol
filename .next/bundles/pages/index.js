@@ -4,24 +4,10 @@ module.exports =
           var comp = 
       webpackJsonp([4],{
 
-/***/ "./assets/img/alexonozor.jpg":
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/alexonozor-982ba23270a4a2fc9740894e54d97d48.jpg";
-
-/***/ }),
-
 /***/ "./assets/img/charisol_logo.svg":
 /***/ (function(module, exports) {
 
 module.exports = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOTQiIGhlaWdodD0iMTkiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjx1c2UgeGxpbms6aHJlZj0iI3BhdGgwX2ZpbGwiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgLTYpIiBmaWxsPSIjNEQ0RDREIi8+PGRlZnM+PHBhdGggaWQ9InBhdGgwX2ZpbGwiIGQ9Ik03LjE3NiAyMWMtMS43MjggMC0yLjg4LTEuMjQ4LTIuODgtMy4wMjQgMC0xLjc1MiAxLjE1Mi0zLjAyNCAyLjg4LTMuMDI0IDEuMjI0IDAgMi4yMDguNjcyIDIuNTQ0IDIuMTM2bDMuNi0uODY0Yy0uNjcyLTIuODMyLTMuMjE2LTQuNjMyLTYuMTQ0LTQuNjMyLTMuNiAwLTYuNTc2IDIuNTkyLTYuNTc2IDYuMzg0IDAgMy44MTYgMi45NzYgNi4zODQgNi41NzYgNi4zODQgMyAwIDUuNTQ0LTEuODQ4IDYuMTQ0LTQuNzA0bC0zLjUyOC0uNzY4QzkuMzg0IDIwLjM1MiA4LjQgMjEgNy4xNzYgMjF6bTE1LjY5OC05LjQwOGMtMS41MzYgMC0yLjc4NC41NTItMy43MiAxLjUxMlY2LjcyaC0zLjg0VjI0aDMuODR2LTUuNTkyYzAtMi4zMjguOTg0LTMuMzYgMi40NzItMy4zNiAxLjI0OCAwIDIuMDg4Ljk2IDIuMDg4IDIuMzc2VjI0aDMuODE2di03LjM5MmMwLTMuMDI0LTEuODcyLTUuMDE2LTQuNjU2LTUuMDE2em0xOS45NzEuMzZoLTMuODR2Ljk2Yy0uOTM2LS44NC0yLjE4NC0xLjMyLTMuNzQ0LTEuMzItMy4xOTIgMC01Ljg4IDIuNTkyLTUuODggNi4zODQgMCAzLjgxNiAyLjY4OCA2LjM4NCA1Ljg4IDYuMzg0IDEuNTYgMCAyLjgwOC0uNDggMy43NDQtMS4zMlYyNGgzLjg0VjExLjk1MnptLTYuNzkyIDkuMTQ0Yy0xLjY4IDAtMi45MDQtMS4yNDgtMi45MDQtMy4xMiAwLTEuODQ4IDEuMjI0LTMuMTIgMi45MDQtMy4xMiAxLjU2IDAgMi45NTIgMS4yNzIgMi45NTIgMy4xMiAwIDEuODcyLTEuMzkyIDMuMTItMi45NTIgMy4xMnptMTcuNTU4LTkuMzEyYy0xLjk2OCAwLTMuMjg4IDEuMDMyLTQuMTUyIDIuNDcydi0yLjMwNGgtMy44NFYyNGgzLjg0di0zLjc2OGMwLTMuMTIgMS40NjQtNC41MTIgNC4xNTItNC41MTJoLjY5NmwuMTY4LTMuODRhMy4yODggMy4yODggMCAwIDAtLjg2NC0uMDk2em00LjU5Ni01LjU2OEEyLjE2NyAyLjE2NyAwIDAgMCA1NiA4LjRjMCAxLjIyNC45MTIgMi4xMzYgMi4yMDggMi4xMzYgMS4yOTYgMCAyLjIzMi0uOTEyIDIuMjMyLTIuMTM2IDAtMS4xNzYtLjkzNi0yLjE4NC0yLjIzMi0yLjE4NHpNNjAuMTI3IDI0VjExLjk1MmgtMy44NFYyNGgzLjg0em0yLjE2LTMuMTQ0Yy40MDggMi40NzIgMi44MzIgMy41MDQgNS42NjQgMy41MDQgMy4xNjggMCA1LjQ3Mi0xLjM5MiA1LjQ3Mi00LjA1NiAwLTEuNzc2LTEuMDU2LTMuMTQ0LTMuMzM2LTMuNjI0bC0yLjgzMi0uNTc2Yy0uNzY4LS4xNjgtLjkxMi0uNTA0LS45MTItLjg0IDAtLjQzMi4zMzYtLjkzNiAxLjM2OC0uOTM2IDEuMTc2IDAgMS44OTYuNjcyIDIuMDE2IDEuNDE2bDMuNTA0LS42OTZjLS40OC0yLjA4OC0yLjQ3Mi0zLjQ1Ni01LjQ3Mi0zLjQ1Ni0zLjA0OCAwLTUuMTg0IDEuNjA4LTUuMTg0IDQuMDggMCAxLjg5NiAxLjI3MiAzLjA5NiAzLjUwNCAzLjUwNGwyLjQ0OC40OGMuODg4LjE2OCAxLjIuNDggMS4yLjg4OCAwIC41MjgtLjU1Mi45Ni0xLjU2Ljk2LTEuMDMyIDAtMS45NjgtLjM4NC0yLjEzNi0xLjQxNmwtMy43NDQuNzY4em0xOC45NzctOS4yMTZjLTMuNjQ4IDAtNi42NzIgMi41NDQtNi42NzIgNi4zMzYgMCAzLjgxNiAzLjAyNCA2LjM2IDYuNjcyIDYuMzYgMy41NzYgMCA2LjYtMi41NDQgNi42LTYuMzYgMC0zLjc5Mi0zLjAyNC02LjMzNi02LjYtNi4zMzZ6bTAgOS40NTZjLTEuNTYgMC0yLjk3Ni0xLjIyNC0yLjk3Ni0zLjEyIDAtMS44NzIgMS40MTYtMy4xMiAyLjk3Ni0zLjEyIDEuNDg4IDAgMi45MDQgMS4yNDggMi45MDQgMy4xMiAwIDEuODk2LTEuNDE2IDMuMTItMi45MDQgMy4xMnpNOTMuNjg1IDI0VjYuNzJoLTMuODRWMjRoMy44NHoiLz48L2RlZnM+PC9zdmc+"
-
-/***/ }),
-
-/***/ "./assets/img/david.png":
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/david-2503246d328f2d6b310356358e3503d7.png";
 
 /***/ }),
 
@@ -117,7 +103,7 @@ module.exports = "/_next/static/images/iphone_x-1701b848927bb13382bbf5a68e8fcd80
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link__ = __webpack_require__("./node_modules/next/link.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_link__);
-var _jsxFileName = "/Users/emmyyusufu/Desktop/Dev projects/Web/CHARISOL/challaris-tech-website/components/Footer.js";
+var _jsxFileName = "/Users/emmyyusufu/Desktop/Charisol/challaris-tech-website/components/Footer.js";
 
 
 (function () {
@@ -321,7 +307,7 @@ var _default = function _default(props) {
     return;
   }
 
-  reactHotLoader.register(_default, "default", "/Users/emmyyusufu/Desktop/Dev projects/Web/CHARISOL/challaris-tech-website/components/Footer.js");
+  reactHotLoader.register(_default, "default", "/Users/emmyyusufu/Desktop/Charisol/challaris-tech-website/components/Footer.js");
   leaveModule(module);
 })();
 
@@ -340,7 +326,7 @@ var _default = function _default(props) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_head___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_head__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__styles_index_scss__ = __webpack_require__("./styles/index.scss");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__styles_index_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__styles_index_scss__);
-var _jsxFileName = "/Users/emmyyusufu/Desktop/Dev projects/Web/CHARISOL/challaris-tech-website/components/Header.js";
+var _jsxFileName = "/Users/emmyyusufu/Desktop/Charisol/challaris-tech-website/components/Header.js";
 
 
 (function () {
@@ -532,7 +518,7 @@ var _default = function _default(props) {
     return;
   }
 
-  reactHotLoader.register(_default, "default", "/Users/emmyyusufu/Desktop/Dev projects/Web/CHARISOL/challaris-tech-website/components/Header.js");
+  reactHotLoader.register(_default, "default", "/Users/emmyyusufu/Desktop/Charisol/challaris-tech-website/components/Header.js");
   leaveModule(module);
 })();
 
@@ -550,7 +536,7 @@ var _default = function _default(props) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Header__ = __webpack_require__("./components/Header.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Footer__ = __webpack_require__("./components/Footer.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Sidebar__ = __webpack_require__("./components/Sidebar.js");
-var _jsxFileName = "/Users/emmyyusufu/Desktop/Dev projects/Web/CHARISOL/challaris-tech-website/components/Layout.js";
+var _jsxFileName = "/Users/emmyyusufu/Desktop/Charisol/challaris-tech-website/components/Layout.js";
 
 
 (function () {
@@ -610,8 +596,8 @@ var _default = Layout;
     return;
   }
 
-  reactHotLoader.register(Layout, "Layout", "/Users/emmyyusufu/Desktop/Dev projects/Web/CHARISOL/challaris-tech-website/components/Layout.js");
-  reactHotLoader.register(_default, "default", "/Users/emmyyusufu/Desktop/Dev projects/Web/CHARISOL/challaris-tech-website/components/Layout.js");
+  reactHotLoader.register(Layout, "Layout", "/Users/emmyyusufu/Desktop/Charisol/challaris-tech-website/components/Layout.js");
+  reactHotLoader.register(_default, "default", "/Users/emmyyusufu/Desktop/Charisol/challaris-tech-website/components/Layout.js");
   leaveModule(module);
 })();
 
@@ -628,7 +614,7 @@ var _default = Layout;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link__ = __webpack_require__("./node_modules/next/link.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_link__);
-var _jsxFileName = "/Users/emmyyusufu/Desktop/Dev projects/Web/CHARISOL/challaris-tech-website/components/Sidebar.js";
+var _jsxFileName = "/Users/emmyyusufu/Desktop/Charisol/challaris-tech-website/components/Sidebar.js";
 
 
 (function () {
@@ -784,7 +770,7 @@ var _default = function _default() {
     return;
   }
 
-  reactHotLoader.register(_default, "default", "/Users/emmyyusufu/Desktop/Dev projects/Web/CHARISOL/challaris-tech-website/components/Sidebar.js");
+  reactHotLoader.register(_default, "default", "/Users/emmyyusufu/Desktop/Charisol/challaris-tech-website/components/Sidebar.js");
   leaveModule(module);
 })();
 
@@ -1727,7 +1713,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link__ = __webpack_require__("./node_modules/next/link.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_link__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_Layout__ = __webpack_require__("./components/Layout.js");
-var _jsxFileName = "/Users/emmyyusufu/Desktop/Dev projects/Web/CHARISOL/challaris-tech-website/pages/index.js";
+var _jsxFileName = "/Users/emmyyusufu/Desktop/Charisol/challaris-tech-website/pages/index.js";
 
 
 (function () {
@@ -2334,196 +2320,12 @@ var Index = function Index(props) {
       fileName: _jsxFileName,
       lineNumber: 184
     }
-  }, "Get proactive with your growth strategy with our development plan that suits your budget. All our plans have been cherry picked to make sure our clients get maximum return on investment."))))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "container",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 194
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "row",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 195
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "col-md-12",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 196
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
-    className: "heading-wrapper",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 197
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
-    className: "heading text-center m-b-xl",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 198
-    }
-  }, "What Clients Say About Our Developers")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    id: "testimonial-slider",
-    className: "owl-carousel",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 200
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "testimonial",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 201
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "pic",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 202
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
-    src: __webpack_require__("./assets/img/david.png"),
-    alt: "David",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 203
-    }
-  })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    className: "description",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 205
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
-    style: {
-      marginTop: 20,
-      fontWeight: 500,
-      textTransform: 'uppercase',
-      fontSize: 15,
-      display: 'block'
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 206
-    }
-  }, "David Ekpo"), "It has been a pleasure having David on the team. He always delivers better than expected results, while remaining forward thinking. What really has caught my eye was the level of research he puts into a project or initiative - This really helps bring everything together."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h3", {
-    className: "title",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 209
-    }
-  }, "Hunter Stevens"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("small", {
-    className: "post",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 210
-    }
-  }, "- Director of Client Care, TRIBUS")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "testimonial",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 214
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "pic",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 215
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
-    src: __webpack_require__("./assets/img/alexonozor.jpg"),
-    alt: "Alex Onozor",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 216
-    }
-  })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    className: "description",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 218
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
-    style: {
-      marginTop: 20,
-      fontWeight: 500,
-      textTransform: 'uppercase',
-      fontSize: 15,
-      display: 'block'
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 219
-    }
-  }, "Alex Onozor"), "I met Alex during his time at Andela where he worked as a software engineer. He was one of the most talented and knowledgeable people when it came to Ruby, Rails, and Javascript development. I was thoroughly impressed by his hard work, work-ethic, and attitude towards others and I expect him to accomplish great things in the Rails community and his career. I consider him not only to be a talented Rails developer and employee, but also my friend."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h3", {
-    className: "title",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 222
-    }
-  }, "Jeffrey Wan"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("small", {
-    className: "post",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 223
-    }
-  }, "- Software Developer at Blue Apron ")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "testimonial",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 226
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "pic",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 227
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
-    src: "https://media.licdn.com/dms/image/C4E03AQFKvPRfqii8TQ/profile-displayphoto-shrink_800_800/0?e=1529164800&v=beta&t=gC03DGjPAvyI7VwUXG8sAhSiEy_8xIe66TUd3Zk4KWc",
-    alt: "Oluwatobi Akindunjoye",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 228
-    }
-  })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    className: "description",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 231
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
-    style: {
-      marginTop: 20,
-      fontWeight: 500,
-      textTransform: 'uppercase',
-      fontSize: 15,
-      display: 'block'
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 232
-    }
-  }, "Oluwatobi Akindunjoye"), "Tobi and I worked together at WildFusion. I am always very impressed with his high quality work and attention to details. His ability to convert client ideas and needs into understandable design concepts is remarkable. He has also mastered the art of Designer\u2014Developer hands off. I highly recommend Tobi."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h3", {
-    className: "title",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 235
-    }
-  }, "Somide Olaoye Anthon"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("small", {
-    className: "post",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 236
-    }
-  }, "- GIS Developer - United Nations"))))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("script", {
+  }, "Get proactive with your growth strategy with our development plan that suits your budget. All our plans have been cherry picked to make sure our clients get maximum return on investment.")))))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("script", {
     type: "text/javascript",
     src: "https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 245
+      lineNumber: 196
     }
   }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("script", {
     dangerouslySetInnerHTML: {
@@ -2531,44 +2333,44 @@ var Index = function Index(props) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 246
+      lineNumber: 197
     }
   }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
     className: "bottom-banner-wrapper",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 264
+      lineNumber: 215
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
     className: "img-wrapper",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 265
+      lineNumber: 216
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
     className: "banner-text",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 266
+      lineNumber: 217
     }
   }, "Tap into a world of skilled software developers who are not only passionate about coding but also abide by the best professional practices."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
     href: "/start",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 269
+      lineNumber: 220
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
     className: "btn-curve-white start-project-btn m-t-md",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 270
+      lineNumber: 221
     }
   }, "Start a project!", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
     src: __webpack_require__("./assets/img/icon_right_black.svg"),
     alt: "right",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 272
+      lineNumber: 223
     }
   })))))));
 };
@@ -2586,8 +2388,8 @@ var _default = Index;
     return;
   }
 
-  reactHotLoader.register(Index, "Index", "/Users/emmyyusufu/Desktop/Dev projects/Web/CHARISOL/challaris-tech-website/pages/index.js");
-  reactHotLoader.register(_default, "default", "/Users/emmyyusufu/Desktop/Dev projects/Web/CHARISOL/challaris-tech-website/pages/index.js");
+  reactHotLoader.register(Index, "Index", "/Users/emmyyusufu/Desktop/Charisol/challaris-tech-website/pages/index.js");
+  reactHotLoader.register(_default, "default", "/Users/emmyyusufu/Desktop/Charisol/challaris-tech-website/pages/index.js");
   leaveModule(module);
 })();
 
