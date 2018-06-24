@@ -1,11 +1,8 @@
-<<<<<<< HEAD
-module.exports=__NEXT_REGISTER_PAGE("/",function(){var s=webpackJsonp([17],{831:function(s,e,a){s.exports=a(832)},832:function(s,e){throw new Error("Module build failed: SyntaxError: /Users/macbook/workspace/charisol/challaris-tech-website/pages/index.js: Unexpected token (192:1)\n\n  190 |             </div>\n  191 |           </div>\n> 192 | <<<<<<< HEAD\n      |  ^\n  193 |         </div>    \n  194 | =======\n  195 |         </div>\n    at _class.raise (/Users/macbook/workspace/charisol/challaris-tech-website/node_modules/babylon/lib/index.js:778:15)\n    at _class.unexpected (/Users/macbook/workspace/charisol/challaris-tech-website/node_modules/babylon/lib/index.js:2063:16)\n    at _class.jsxParseIdentifier (/Users/macbook/workspace/charisol/challaris-tech-website/node_modules/babylon/lib/index.js:7874:14)\n    at _class.jsxParseNamespacedName (/Users/macbook/workspace/charisol/challaris-tech-website/node_modules/babylon/lib/index.js:7884:23)\n    at _class.jsxParseElementName (/Users/macbook/workspace/charisol/challaris-tech-website/node_modules/babylon/lib/index.js:7895:23)\n    at _class.jsxParseOpeningElementAt (/Users/macbook/workspace/charisol/challaris-tech-website/node_modules/babylon/lib/index.js:7981:24)\n    at _class.jsxParseElementAt (/Users/macbook/workspace/charisol/challaris-tech-website/node_modules/babylon/lib/index.js:8008:33)\n    at _class.jsxParseElementAt (/Users/macbook/workspace/charisol/challaris-tech-website/node_modules/babylon/lib/index.js:8024:34)\n    at _class.jsxParseElementAt (/Users/macbook/workspace/charisol/challaris-tech-website/node_modules/babylon/lib/index.js:8024:34)\n    at _class.jsxParseElementAt (/Users/macbook/workspace/charisol/challaris-tech-website/node_modules/babylon/lib/index.js:8024:34)\n    at _class.jsxParseElementAt (/Users/macbook/workspace/charisol/challaris-tech-website/node_modules/babylon/lib/index.js:8024:34)\n    at _class.jsxParseElement (/Users/macbook/workspace/charisol/challaris-tech-website/node_modules/babylon/lib/index.js:8077:19)\n    at _class.parseExprAtom (/Users/macbook/workspace/charisol/challaris-tech-website/node_modules/babylon/lib/index.js:8084:21)\n    at _class.parseExprSubscripts (/Users/macbook/workspace/charisol/challaris-tech-website/node_modules/babylon/lib/index.js:2725:21)\n    at _class.parseMaybeUnary (/Users/macbook/workspace/charisol/challaris-tech-website/node_modules/babylon/lib/index.js:2704:21)\n    at _class.parseExprOps (/Users/macbook/workspace/charisol/challaris-tech-website/node_modules/babylon/lib/index.js:2616:21)")}},[831]);return{page:s.default}});
-=======
 module.exports =
 
         __NEXT_REGISTER_PAGE('/', function() {
           var comp = 
-      webpackJsonp([5],{
+      webpackJsonp([4],{
 
 /***/ "./assets/img/alexonozor.jpg":
 /***/ (function(module, exports) {
@@ -3698,7 +3695,7 @@ module.exports = "@charset \"UTF-8\";\n/*! normalize.css v3.0.2 | MIT License | 
 
 /***/ }),
 
-/***/ 9:
+/***/ 3:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__("./pages/index.js");
@@ -3706,9 +3703,8 @@ module.exports = __webpack_require__("./pages/index.js");
 
 /***/ })
 
-},[9])
+},[3])
           return { page: comp.default }
         })
       ;
 //# sourceMappingURL=index.js.map
->>>>>>> fix app responsiveness

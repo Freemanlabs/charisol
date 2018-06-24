@@ -5,7 +5,7 @@ module.exports =
 
         __NEXT_REGISTER_PAGE('/pricing', function() {
           var comp = 
-      webpackJsonp([9],{
+      webpackJsonp([5],{
 
 /***/ "./assets/img/charisol_logo.svg":
 /***/ (function(module, exports) {
@@ -3349,7 +3349,7 @@ module.exports = "@charset \"UTF-8\";\n/*! normalize.css v3.0.2 | MIT License | 
 
 /***/ }),
 
-/***/ 8:
+/***/ 4:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__("./pages/pricing.js");
@@ -3357,7 +3357,7 @@ module.exports = __webpack_require__("./pages/pricing.js");
 
 /***/ })
 
-},[8])
+},[4])
           return { page: comp.default }
         })
       ;
