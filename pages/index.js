@@ -189,26 +189,8 @@ const Index = (props) => (
               </div>
             </div>
           </div>
-        </div>
-        
+        </div>    
   </div> 
-
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
-  <script  dangerouslySetInnerHTML={{ __html: 
-    `$(document).ready(function(){
-      $("#testimonial-slider").owlCarousel({
-          items:1,
-          itemsDesktop:[1000,2],
-          itemsDesktopSmall:[990,2],
-          itemsTablet:[768,1],
-          pagination:true,
-          navigation:false,
-          navigationText:["",""],
-          slideSpeed:1000,
-          autoPlay:true
-      });
-  });`
-  }}/>
 
 
       

@@ -1,11 +1,5 @@
 webpackHotUpdate(4,{
 
-/***/ "./assets/img/alexonozor.jpg":
-false,
-
-/***/ "./assets/img/david.png":
-false,
-
 /***/ "./pages/index.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -16,7 +10,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link__ = __webpack_require__("./node_modules/next/link.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_link__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_Layout__ = __webpack_require__("./components/Layout.js");
-var _jsxFileName = "/Users/emmyyusufu/Desktop/Charisol/challaris-tech-website/pages/index.js";
+var _jsxFileName = "/Users/macbook/workspace/charisol/challaris-tech-website/pages/index.js";
 
 
 (function () {
@@ -623,57 +617,42 @@ var Index = function Index(props) {
       fileName: _jsxFileName,
       lineNumber: 184
     }
-  }, "Get proactive with your growth strategy with our development plan that suits your budget. All our plans have been cherry picked to make sure our clients get maximum return on investment.")))))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("script", {
-    type: "text/javascript",
-    src: "https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 196
-    }
-  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("script", {
-    dangerouslySetInnerHTML: {
-      __html: "$(document).ready(function(){\n      $(\"#testimonial-slider\").owlCarousel({\n          items:1,\n          itemsDesktop:[1000,2],\n          itemsDesktopSmall:[990,2],\n          itemsTablet:[768,1],\n          pagination:true,\n          navigation:false,\n          navigationText:[\"\",\"\"],\n          slideSpeed:1000,\n          autoPlay:true\n      });\n  });"
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 197
-    }
-  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+  }, "Get proactive with your growth strategy with our development plan that suits your budget. All our plans have been cherry picked to make sure our clients get maximum return on investment.")))))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
     className: "bottom-banner-wrapper",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 215
+      lineNumber: 197
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
     className: "img-wrapper",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 216
+      lineNumber: 198
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
     className: "banner-text",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 217
+      lineNumber: 199
     }
   }, "Tap into a world of skilled software developers who are not only passionate about coding but also abide by the best professional practices."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
     href: "/start",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 220
+      lineNumber: 202
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
     className: "btn-curve-white start-project-btn m-t-md",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 221
+      lineNumber: 203
     }
   }, "Start a project!", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
     src: __webpack_require__("./assets/img/icon_right_black.svg"),
     alt: "right",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 223
+      lineNumber: 205
     }
   })))))));
 };
@@ -691,8 +670,8 @@ var _default = Index;
     return;
   }
 
-  reactHotLoader.register(Index, "Index", "/Users/emmyyusufu/Desktop/Charisol/challaris-tech-website/pages/index.js");
-  reactHotLoader.register(_default, "default", "/Users/emmyyusufu/Desktop/Charisol/challaris-tech-website/pages/index.js");
+  reactHotLoader.register(Index, "Index", "/Users/macbook/workspace/charisol/challaris-tech-website/pages/index.js");
+  reactHotLoader.register(_default, "default", "/Users/macbook/workspace/charisol/challaris-tech-website/pages/index.js");
   leaveModule(module);
 })();
 
@@ -720,4 +699,4 @@ var _default = Index;
 /***/ })
 
 })
-//# sourceMappingURL=4.c2c308fe9d0a625b87db.hot-update.js.map
+//# sourceMappingURL=4.f81f7ef2d13dde61dd0e.hot-update.js.map
