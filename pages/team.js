@@ -50,16 +50,13 @@ class Team extends Component {
                 </div>
               </div>
             </div>
-            <div className='m-t-md m-b-md'>
+            <div className='m-t-md m-b-md side-bar-text-mobile'>
               <p>{this.state.user.biography}</p>
             </div>
 
-            <div className='m-t-md m-b-md'>
+            <div className='m-t-md m-b-md side-bar-text-mobile'>
               <p><b>Skills</b></p>
-          
-               <p>{ this.state.user.skills.map(skill => { return skill.name}).join(", ")}</p>
-              
-              
+               <p>{ this.state.user.skills.map(skill => { return skill.name}).join(", ")}</p> 
             </div>
           </div>
           <a className="btn-curve-purple m-t-md" href="./start">
