@@ -7,6 +7,8 @@ const Index = (props) => (
   <Layout title="A software development agency for remote companies | Charisol" content="Charisol connects remote friendly companies with a community of talented developers and designers.
   Let’s figure out your software engineering and design needs.">  
     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css" />
     <section className="index" id="panel" data-slideout-ignore>
       <div className="top-wrapper">
         <div className="intro">
@@ -189,7 +191,7 @@ const Index = (props) => (
           </div>
         </div>
         
-      <div className="container">
+      {/* <div className="container">
         <div className="row">
             <div className="col-md-12">
             <span className="heading-wrapper">
@@ -237,7 +239,7 @@ const Index = (props) => (
                 </div>
             </div>
         </div>
-    </div>
+    </div> */}
   </div> 
 
 

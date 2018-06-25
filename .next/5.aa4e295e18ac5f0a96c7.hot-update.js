@@ -1,4 +1,4 @@
-webpackHotUpdate(4,{
+webpackHotUpdate(5,{
 
 /***/ "./node_modules/next/link.js":
 /***/ (function(module, exports, __webpack_require__) {
@@ -9,4 +9,4 @@ module.exports = __webpack_require__("./node_modules/next/dist/lib/link.js")
 /***/ })
 
 })
-//# sourceMappingURL=4.1a2c5abc89989c0ac3de.hot-update.js.map
+//# sourceMappingURL=5.aa4e295e18ac5f0a96c7.hot-update.js.map
