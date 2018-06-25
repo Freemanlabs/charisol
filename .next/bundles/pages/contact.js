@@ -2,7 +2,7 @@ module.exports =
 
         __NEXT_REGISTER_PAGE('/contact', function() {
           var comp = 
-      webpackJsonp([6],{
+      webpackJsonp([5],{
 
 /***/ "./assets/img/bg_contact.png":
 /***/ (function(module, exports) {
@@ -28,14 +28,14 @@ module.exports = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5v
 /***/ "./assets/img/icon_instagram.svg":
 /***/ (function(module, exports) {
 
-module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiCgkgdmlld0JveD0iMCAwIDUxMiA1MTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTI7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGNpcmNsZSBzdHlsZT0iZmlsbDojNkMyN0IzOyIgY3g9IjI1NiIgY3k9IjI1NiIgcj0iMjU2Ii8+CjxwYXRoIHN0eWxlPSJmaWxsOiM1MDFBOTY7IiBkPSJNMzc0LjcxLDEzMi45MjJjLTMwLjU4NywzLjg3Mi02Mi40NzksMy43MzctOTQuNTc1LDAuNjgxCgljLTQ0LjgyMi0zLjQ0OC0xMTAuMzMtMjQuMTM1LTEzNC40NjUsMTcuMjM5Yy0zOC43NzIsNjYuMjM2LTE5LjY0OSwxNTEuMDM1LTEwLjYxNCwyMjYuMDc4bDEzNC43MzcsMTM0LjcwOAoJYzEzMC4zODgtNi45MjMsMjM0Ljg4Ni0xMTEuNDA3LDI0MS44MzEtMjQxLjc5TDM3NC43MSwxMzIuOTIyeiIvPgo8Zz4KCTxwYXRoIHN0eWxlPSJmaWxsOiNGRkZGRkY7IiBkPSJNMzE1LjIyNywxMDkuNDY4SDE5Ni43NzJjLTQ4LjE0LDAtODcuMzA0LDM5LjE2NC04Ny4zMDQsODcuMzA0djExOC40NTUKCQljMCw0OC4xMzgsMzkuMTY0LDg3LjMwNSw4Ny4zMDUsODcuMzA1aDExOC40NTVjNDguMTM4LDAsODcuMzA1LTM5LjE2NSw4Ny4zMDUtODcuMzA1VjE5Ni43NzIKCQlDNDAyLjUzMiwxNDguNjMyLDM2My4zNjcsMTA5LjQ2OCwzMTUuMjI3LDEwOS40NjhMMzE1LjIyNywxMDkuNDY4eiBNMzczLjA1LDMxNS4yMjhjMCwzMS45MzQtMjUuODg4LDU3LjgyMi01Ny44MjIsNTcuODIySDE5Ni43NzMKCQljLTMxLjkzNCwwLTU3LjgyMi0yNS44ODgtNTcuODIyLTU3LjgyMlYxOTYuNzczYzAtMzEuOTM0LDI1Ljg4OC01Ny44MjMsNTcuODIyLTU3LjgyM2gxMTguNDU1CgkJYzMxLjkzNCwwLDU3LjgyMiwyNS44OSw1Ny44MjIsNTcuODIzVjMxNS4yMjh6Ii8+Cgk8cGF0aCBzdHlsZT0iZmlsbDojRkZGRkZGOyIgZD0iTTI1NiwxODAuMjAyYy00MS43OTQsMC03NS43OTgsMzQuMDA0LTc1Ljc5OCw3NS43OThjMCw0MS43OTEsMzQuMDA0LDc1Ljc5NSw3NS43OTgsNzUuNzk1CgkJczc1Ljc5NS0zNC4wMDEsNzUuNzk1LTc1Ljc5NVMyOTcuNzk0LDE4MC4yMDIsMjU2LDE4MC4yMDJMMjU2LDE4MC4yMDJ6IE0yNTYsMzAyLjMxM2MtMjUuNTc5LDAtNDYuMzE2LTIwLjczMy00Ni4zMTYtNDYuMzEzCgkJczIwLjczNy00Ni4zMTYsNDYuMzE2LTQ2LjMxNnM0Ni4zMTMsMjAuNzM1LDQ2LjMxMyw0Ni4zMTZDMzAyLjMxMywyODEuNTc5LDI4MS41NzksMzAyLjMxMywyNTYsMzAyLjMxM0wyNTYsMzAyLjMxM3oiLz4KPC9nPgo8Zz4KCTxwYXRoIHN0eWxlPSJmaWxsOiNEMUQxRDE7IiBkPSJNMzUwLjEwMywxODAuNzc0YzAsMTAuMDMtOC4xMzIsMTguMTYzLTE4LjE2MywxOC4xNjNjLTEwLjAzLDAtMTguMTYzLTguMTMzLTE4LjE2My0xOC4xNjMKCQljMC0xMC4wMzEsOC4xMzMtMTguMTYzLDE4LjE2My0xOC4xNjNDMzQxLjk3MywxNjIuNjExLDM1MC4xMDMsMTcwLjc0MSwzNTAuMTAzLDE4MC43NzRMMzUwLjEwMywxODAuNzc0eiIvPgoJPHBhdGggc3R5bGU9ImZpbGw6I0QxRDFEMTsiIGQ9Ik0zMTUuMjI4LDEwOS40NjhoLTU5LjgwMnYyOS40ODJoNTkuODAyYzMxLjkzNCwwLDU3LjgyMiwyNS44OSw1Ny44MjIsNTcuODIzdjExOC40NTUKCQljMCwzMS45MzQtMjUuODg4LDU3LjgyMi01Ny44MjIsNTcuODIyaC01OS44MDJ2MjkuNDgyaDU5LjgwMmM0OC4xMzgsMCw4Ny4zMDQtMzkuMTY1LDg3LjMwNC04Ny4zMDVWMTk2Ljc3MgoJCUM0MDIuNTMyLDE0OC42MzIsMzYzLjM2NywxMDkuNDY4LDMxNS4yMjgsMTA5LjQ2OHoiLz4KCTxwYXRoIHN0eWxlPSJmaWxsOiNEMUQxRDE7IiBkPSJNMjU2LDE4MC4yMDJjLTAuMTkzLDAtMC4zODEsMC4wMTQtMC41NzQsMC4wMTR2MjkuNDgyYzAuMTkxLTAuMDAyLDAuMzgxLTAuMDE0LDAuNTc0LTAuMDE0CgkJYzI1LjU3OSwwLDQ2LjMxMywyMC43MzUsNDYuMzEzLDQ2LjMxNmMwLDI1LjU3OS0yMC43MzMsNDYuMzEzLTQ2LjMxMyw0Ni4zMTNjLTAuMTkzLDAtMC4zODMtMC4wMTItMC41NzQtMC4wMTR2MjkuNDgyCgkJYzAuMTkzLDAuMDAyLDAuMzgxLDAuMDE0LDAuNTc0LDAuMDE0YzQxLjc5NCwwLDc1Ljc5NS0zNC4wMDIsNzUuNzk1LTc1Ljc5NUMzMzEuNzk1LDIxNC4yMDYsMjk3Ljc5NCwxODAuMjAyLDI1NiwxODAuMjAyeiIvPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo="
+module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgdmlld0JveD0iMCAwIDUxMiA1MTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTI7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxjaXJjbGUgc3R5bGU9ImZpbGw6IzZDMjdCMzsiIGN4PSIyNTYiIGN5PSIyNTYiIHI9IjI1NiIvPg0KPHBhdGggc3R5bGU9ImZpbGw6IzUwMUE5NjsiIGQ9Ik0zNzQuNzEsMTMyLjkyMmMtMzAuNTg3LDMuODcyLTYyLjQ3OSwzLjczNy05NC41NzUsMC42ODENCgljLTQ0LjgyMi0zLjQ0OC0xMTAuMzMtMjQuMTM1LTEzNC40NjUsMTcuMjM5Yy0zOC43NzIsNjYuMjM2LTE5LjY0OSwxNTEuMDM1LTEwLjYxNCwyMjYuMDc4bDEzNC43MzcsMTM0LjcwOA0KCWMxMzAuMzg4LTYuOTIzLDIzNC44ODYtMTExLjQwNywyNDEuODMxLTI0MS43OUwzNzQuNzEsMTMyLjkyMnoiLz4NCjxnPg0KCTxwYXRoIHN0eWxlPSJmaWxsOiNGRkZGRkY7IiBkPSJNMzE1LjIyNywxMDkuNDY4SDE5Ni43NzJjLTQ4LjE0LDAtODcuMzA0LDM5LjE2NC04Ny4zMDQsODcuMzA0djExOC40NTUNCgkJYzAsNDguMTM4LDM5LjE2NCw4Ny4zMDUsODcuMzA1LDg3LjMwNWgxMTguNDU1YzQ4LjEzOCwwLDg3LjMwNS0zOS4xNjUsODcuMzA1LTg3LjMwNVYxOTYuNzcyDQoJCUM0MDIuNTMyLDE0OC42MzIsMzYzLjM2NywxMDkuNDY4LDMxNS4yMjcsMTA5LjQ2OEwzMTUuMjI3LDEwOS40Njh6IE0zNzMuMDUsMzE1LjIyOGMwLDMxLjkzNC0yNS44ODgsNTcuODIyLTU3LjgyMiw1Ny44MjJIMTk2Ljc3Mw0KCQljLTMxLjkzNCwwLTU3LjgyMi0yNS44ODgtNTcuODIyLTU3LjgyMlYxOTYuNzczYzAtMzEuOTM0LDI1Ljg4OC01Ny44MjMsNTcuODIyLTU3LjgyM2gxMTguNDU1DQoJCWMzMS45MzQsMCw1Ny44MjIsMjUuODksNTcuODIyLDU3LjgyM1YzMTUuMjI4eiIvPg0KCTxwYXRoIHN0eWxlPSJmaWxsOiNGRkZGRkY7IiBkPSJNMjU2LDE4MC4yMDJjLTQxLjc5NCwwLTc1Ljc5OCwzNC4wMDQtNzUuNzk4LDc1Ljc5OGMwLDQxLjc5MSwzNC4wMDQsNzUuNzk1LDc1Ljc5OCw3NS43OTUNCgkJczc1Ljc5NS0zNC4wMDEsNzUuNzk1LTc1Ljc5NVMyOTcuNzk0LDE4MC4yMDIsMjU2LDE4MC4yMDJMMjU2LDE4MC4yMDJ6IE0yNTYsMzAyLjMxM2MtMjUuNTc5LDAtNDYuMzE2LTIwLjczMy00Ni4zMTYtNDYuMzEzDQoJCXMyMC43MzctNDYuMzE2LDQ2LjMxNi00Ni4zMTZzNDYuMzEzLDIwLjczNSw0Ni4zMTMsNDYuMzE2QzMwMi4zMTMsMjgxLjU3OSwyODEuNTc5LDMwMi4zMTMsMjU2LDMwMi4zMTNMMjU2LDMwMi4zMTN6Ii8+DQo8L2c+DQo8Zz4NCgk8cGF0aCBzdHlsZT0iZmlsbDojRDFEMUQxOyIgZD0iTTM1MC4xMDMsMTgwLjc3NGMwLDEwLjAzLTguMTMyLDE4LjE2My0xOC4xNjMsMTguMTYzYy0xMC4wMywwLTE4LjE2My04LjEzMy0xOC4xNjMtMTguMTYzDQoJCWMwLTEwLjAzMSw4LjEzMy0xOC4xNjMsMTguMTYzLTE4LjE2M0MzNDEuOTczLDE2Mi42MTEsMzUwLjEwMywxNzAuNzQxLDM1MC4xMDMsMTgwLjc3NEwzNTAuMTAzLDE4MC43NzR6Ii8+DQoJPHBhdGggc3R5bGU9ImZpbGw6I0QxRDFEMTsiIGQ9Ik0zMTUuMjI4LDEwOS40NjhoLTU5LjgwMnYyOS40ODJoNTkuODAyYzMxLjkzNCwwLDU3LjgyMiwyNS44OSw1Ny44MjIsNTcuODIzdjExOC40NTUNCgkJYzAsMzEuOTM0LTI1Ljg4OCw1Ny44MjItNTcuODIyLDU3LjgyMmgtNTkuODAydjI5LjQ4Mmg1OS44MDJjNDguMTM4LDAsODcuMzA0LTM5LjE2NSw4Ny4zMDQtODcuMzA1VjE5Ni43NzINCgkJQzQwMi41MzIsMTQ4LjYzMiwzNjMuMzY3LDEwOS40NjgsMzE1LjIyOCwxMDkuNDY4eiIvPg0KCTxwYXRoIHN0eWxlPSJmaWxsOiNEMUQxRDE7IiBkPSJNMjU2LDE4MC4yMDJjLTAuMTkzLDAtMC4zODEsMC4wMTQtMC41NzQsMC4wMTR2MjkuNDgyYzAuMTkxLTAuMDAyLDAuMzgxLTAuMDE0LDAuNTc0LTAuMDE0DQoJCWMyNS41NzksMCw0Ni4zMTMsMjAuNzM1LDQ2LjMxMyw0Ni4zMTZjMCwyNS41NzktMjAuNzMzLDQ2LjMxMy00Ni4zMTMsNDYuMzEzYy0wLjE5MywwLTAuMzgzLTAuMDEyLTAuNTc0LTAuMDE0djI5LjQ4Mg0KCQljMC4xOTMsMC4wMDIsMC4zODEsMC4wMTQsMC41NzQsMC4wMTRjNDEuNzk0LDAsNzUuNzk1LTM0LjAwMiw3NS43OTUtNzUuNzk1QzMzMS43OTUsMjE0LjIwNiwyOTcuNzk0LDE4MC4yMDIsMjU2LDE4MC4yMDJ6Ii8+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8L3N2Zz4NCg=="
 
 /***/ }),
 
 /***/ "./assets/img/icon_medium.svg":
 /***/ (function(module, exports) {
 
-module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjEwMjkgLTcxMSAxOTgyIDE5ODIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMTAyOSAtNzExIDE5ODIgMTk4MjsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLnN0MHtmaWxsOiMxQTE5MTg7fQoJLnN0MXtmaWxsOiNGRkZGRkY7fQo8L3N0eWxlPgo8Y2lyY2xlIGNsYXNzPSJzdDAiIGN4PSIyMDIwIiBjeT0iMjg2IiByPSI5ODQiLz4KPHBhdGggY2xhc3M9InN0MSIgZD0iTTI0NDMuNyw2Mi4yaC0zMy41Yy0xMi40LDAtMzAsMTgtMzAsMjkuNHY0MTYuNWMwLDExLjUsMTcuNiwyNy4yLDMwLDI3LjJoMzMuNXY5OC45aC0zMDMuN3YtOTguOWg2My42Vjk3LjUKCWgtMy4xbC0xNDguNCw1MzYuN2gtMTE0LjlMMTc5MC43LDk3LjVoLTMuN3Y0MzcuOGg2My42djk4LjloLTI1NC4ydi05OC45aDMyLjZjMTMuNCwwLDMxLTE1LjcsMzEtMjcuMlY5MS42CgljMC0xMS41LTE3LjYtMjkuNC0zMS0yOS40aC0zMi42di05OC45aDMxNy45bDEwNC40LDM4OC40aDIuOWwxMDUuMy0zODguNGgzMTYuOVY2Mi4yIi8+Cjwvc3ZnPgo="
+module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOS4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHZpZXdCb3g9IjEwMjkgLTcxMSAxOTgyIDE5ODIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMTAyOSAtNzExIDE5ODIgMTk4MjsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4NCgkuc3Qwe2ZpbGw6IzFBMTkxODt9DQoJLnN0MXtmaWxsOiNGRkZGRkY7fQ0KPC9zdHlsZT4NCjxjaXJjbGUgY2xhc3M9InN0MCIgY3g9IjIwMjAiIGN5PSIyODYiIHI9Ijk4NCIvPg0KPHBhdGggY2xhc3M9InN0MSIgZD0iTTI0NDMuNyw2Mi4yaC0zMy41Yy0xMi40LDAtMzAsMTgtMzAsMjkuNHY0MTYuNWMwLDExLjUsMTcuNiwyNy4yLDMwLDI3LjJoMzMuNXY5OC45aC0zMDMuN3YtOTguOWg2My42Vjk3LjUNCgloLTMuMWwtMTQ4LjQsNTM2LjdoLTExNC45TDE3OTAuNyw5Ny41aC0zLjd2NDM3LjhoNjMuNnY5OC45aC0yNTQuMnYtOTguOWgzMi42YzEzLjQsMCwzMS0xNS43LDMxLTI3LjJWOTEuNg0KCWMwLTExLjUtMTcuNi0yOS40LTMxLTI5LjRoLTMyLjZ2LTk4LjloMzE3LjlsMTA0LjQsMzg4LjRoMi45bDEwNS4zLTM4OC40aDMxNi45VjYyLjIiLz4NCjwvc3ZnPg0K"
 
 /***/ }),
 
@@ -54,7 +54,7 @@ module.exports = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5v
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link__ = __webpack_require__("./node_modules/next/link.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_link__);
-var _jsxFileName = "/Users/macbook/workspace/charisol/challaris-tech-website/components/Footer.js";
+var _jsxFileName = "C:\\Users\\user\\challaris-tech-website\\components\\Footer.js";
 
 
 (function () {
@@ -257,7 +257,7 @@ var _default = function _default(props) {
     return;
   }
 
-  reactHotLoader.register(_default, "default", "/Users/macbook/workspace/charisol/challaris-tech-website/components/Footer.js");
+  reactHotLoader.register(_default, "default", "C:\\Users\\user\\challaris-tech-website\\components\\Footer.js");
   leaveModule(module);
 })();
 
@@ -276,7 +276,7 @@ var _default = function _default(props) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_head___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_head__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__styles_index_scss__ = __webpack_require__("./styles/index.scss");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__styles_index_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__styles_index_scss__);
-var _jsxFileName = "/Users/macbook/workspace/charisol/challaris-tech-website/components/Header.js";
+var _jsxFileName = "C:\\Users\\user\\challaris-tech-website\\components\\Header.js";
 
 
 (function () {
@@ -468,7 +468,7 @@ var _default = function _default(props) {
     return;
   }
 
-  reactHotLoader.register(_default, "default", "/Users/macbook/workspace/charisol/challaris-tech-website/components/Header.js");
+  reactHotLoader.register(_default, "default", "C:\\Users\\user\\challaris-tech-website\\components\\Header.js");
   leaveModule(module);
 })();
 
@@ -486,7 +486,7 @@ var _default = function _default(props) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Header__ = __webpack_require__("./components/Header.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Footer__ = __webpack_require__("./components/Footer.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Sidebar__ = __webpack_require__("./components/Sidebar.js");
-var _jsxFileName = "/Users/macbook/workspace/charisol/challaris-tech-website/components/Layout.js";
+var _jsxFileName = "C:\\Users\\user\\challaris-tech-website\\components\\Layout.js";
 
 
 (function () {
@@ -546,8 +546,8 @@ var _default = Layout;
     return;
   }
 
-  reactHotLoader.register(Layout, "Layout", "/Users/macbook/workspace/charisol/challaris-tech-website/components/Layout.js");
-  reactHotLoader.register(_default, "default", "/Users/macbook/workspace/charisol/challaris-tech-website/components/Layout.js");
+  reactHotLoader.register(Layout, "Layout", "C:\\Users\\user\\challaris-tech-website\\components\\Layout.js");
+  reactHotLoader.register(_default, "default", "C:\\Users\\user\\challaris-tech-website\\components\\Layout.js");
   leaveModule(module);
 })();
 
@@ -564,7 +564,7 @@ var _default = Layout;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link__ = __webpack_require__("./node_modules/next/link.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_link__);
-var _jsxFileName = "/Users/macbook/workspace/charisol/challaris-tech-website/components/Navbar.js";
+var _jsxFileName = "C:\\Users\\user\\challaris-tech-website\\components\\Navbar.js";
 
 
 (function () {
@@ -640,7 +640,7 @@ var _default = function _default(props) {
     return;
   }
 
-  reactHotLoader.register(_default, "default", "/Users/macbook/workspace/charisol/challaris-tech-website/components/Navbar.js");
+  reactHotLoader.register(_default, "default", "C:\\Users\\user\\challaris-tech-website\\components\\Navbar.js");
   leaveModule(module);
 })();
 
@@ -657,7 +657,7 @@ var _default = function _default(props) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link__ = __webpack_require__("./node_modules/next/link.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_link__);
-var _jsxFileName = "/Users/macbook/workspace/charisol/challaris-tech-website/components/Sidebar.js";
+var _jsxFileName = "C:\\Users\\user\\challaris-tech-website\\components\\Sidebar.js";
 
 
 (function () {
@@ -813,12 +813,106 @@ var _default = function _default() {
     return;
   }
 
-  reactHotLoader.register(_default, "default", "/Users/macbook/workspace/charisol/challaris-tech-website/components/Sidebar.js");
+  reactHotLoader.register(_default, "default", "C:\\Users\\user\\challaris-tech-website\\components\\Sidebar.js");
   leaveModule(module);
 })();
 
 ;
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__("./node_modules/webpack/buildin/harmony-module.js")(module)))
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/core-js/json/stringify.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__("./node_modules/core-js/library/fn/json/stringify.js");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/core-js/map.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__("./node_modules/core-js/library/fn/map.js");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/core-js/number/is-nan.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__("./node_modules/core-js/library/fn/number/is-nan.js");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/core-js/number/min-safe-integer.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__("./node_modules/core-js/library/fn/number/min-safe-integer.js");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/extends.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+var _Object$assign = __webpack_require__("./node_modules/@babel/runtime/core-js/object/assign.js");
+
+function _extends() {
+  module.exports = _extends = _Object$assign || function (target) {
+    for (var i = 1; i < arguments.length; i++) {
+      var source = arguments[i];
+
+      for (var key in source) {
+        if (Object.prototype.hasOwnProperty.call(source, key)) {
+          target[key] = source[key];
+        }
+      }
+    }
+
+    return target;
+  };
+
+  return _extends.apply(this, arguments);
+}
+
+module.exports = _extends;
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/objectWithoutProperties.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+var _Object$getOwnPropertySymbols = __webpack_require__("./node_modules/@babel/runtime/core-js/object/get-own-property-symbols.js");
+
+var _Object$keys = __webpack_require__("./node_modules/@babel/runtime/core-js/object/keys.js");
+
+function _objectWithoutProperties(source, excluded) {
+  if (source == null) return {};
+  var target = {};
+
+  var sourceKeys = _Object$keys(source);
+
+  var key, i;
+
+  for (i = 0; i < sourceKeys.length; i++) {
+    key = sourceKeys[i];
+    if (excluded.indexOf(key) >= 0) continue;
+    target[key] = source[key];
+  }
+
+  if (_Object$getOwnPropertySymbols) {
+    var sourceSymbolKeys = _Object$getOwnPropertySymbols(source);
+
+    for (i = 0; i < sourceSymbolKeys.length; i++) {
+      key = sourceSymbolKeys[i];
+      if (excluded.indexOf(key) >= 0) continue;
+      if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue;
+      target[key] = source[key];
+    }
+  }
+
+  return target;
+}
+
+module.exports = _objectWithoutProperties;
 
 /***/ }),
 
@@ -828,20 +922,20 @@ var _default = function _default() {
 "use strict";
 
 
-var _interopRequireDefault = __webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js");
+var _interopRequireDefault = __webpack_require__("./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = exports.styles = void 0;
 
-var _extends2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/extends.js"));
+var _extends2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/extends.js"));
 
-var _defineProperty2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/defineProperty.js"));
+var _defineProperty2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/defineProperty.js"));
 
-var _objectWithoutProperties2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/objectWithoutProperties.js"));
+var _objectWithoutProperties2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/objectWithoutProperties.js"));
 
-var _objectSpread2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/objectSpread.js"));
+var _objectSpread2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/objectSpread.js"));
 
 var _react = _interopRequireDefault(__webpack_require__("./node_modules/react/cjs/react.development.js"));
 
@@ -867,7 +961,7 @@ var styles = function styles(theme) {
       minWidth: theme.spacing.unit * 11,
       minHeight: 36,
       padding: "".concat(theme.spacing.unit, "px ").concat(theme.spacing.unit * 2, "px"),
-      borderRadius: 4,
+      borderRadius: 2,
       color: theme.palette.text.primary,
       transition: theme.transitions.create(['background-color', 'box-shadow'], {
         duration: theme.transitions.duration.short
@@ -893,7 +987,7 @@ var styles = function styles(theme) {
       alignItems: 'inherit',
       justifyContent: 'inherit'
     },
-    textPrimary: {
+    flatPrimary: {
       color: theme.palette.primary.main,
       '&:hover': {
         backgroundColor: (0, _colorManipulator.fade)(theme.palette.primary.main, theme.palette.action.hoverOpacity),
@@ -903,7 +997,7 @@ var styles = function styles(theme) {
         }
       }
     },
-    textSecondary: {
+    flatSecondary: {
       color: theme.palette.secondary.main,
       '&:hover': {
         backgroundColor: (0, _colorManipulator.fade)(theme.palette.secondary.main, theme.palette.action.hoverOpacity),
@@ -913,16 +1007,14 @@ var styles = function styles(theme) {
         }
       }
     },
-    flat: {},
-    flatPrimary: {},
-    flatSecondary: {},
     outlined: {
-      border: "1px solid ".concat(theme.palette.type === 'light' ? 'rgba(0, 0, 0, 0.23)' : 'rgba(255, 255, 255, 0.23)')
+      border: "1px solid ".concat(theme.palette.type === 'light' ? 'rgba(0, 0, 0, 0.23)' : 'rgba(255, 255, 255, 0.23)'),
+      borderRadius: 4
     },
     colorInherit: {
       color: 'inherit'
     },
-    contained: {
+    raised: {
       color: theme.palette.getContrastText(theme.palette.grey[300]),
       backgroundColor: theme.palette.grey[300],
       boxShadow: theme.shadows[2],
@@ -948,7 +1040,7 @@ var styles = function styles(theme) {
         }
       }
     },
-    containedPrimary: {
+    raisedPrimary: {
       color: theme.palette.primary.contrastText,
       backgroundColor: theme.palette.primary.main,
       '&:hover': {
@@ -959,7 +1051,7 @@ var styles = function styles(theme) {
         }
       }
     },
-    containedSecondary: {
+    raisedSecondary: {
       color: theme.palette.secondary.contrastText,
       backgroundColor: theme.palette.secondary.main,
       '&:hover': {
@@ -970,9 +1062,6 @@ var styles = function styles(theme) {
         }
       }
     },
-    raised: {},
-    raisedPrimary: {},
-    raisedSecondary: {},
     focusVisible: {},
     disabled: {},
     fab: {
@@ -1027,9 +1116,9 @@ function Button(props) {
       variant = props.variant,
       other = (0, _objectWithoutProperties2.default)(props, ["children", "classes", "className", "color", "disabled", "disableFocusRipple", "fullWidth", "focusVisibleClassName", "mini", "size", "variant"]);
   var fab = variant === 'fab';
-  var contained = variant === 'contained' || variant === 'raised';
-  var text = !contained && !fab;
-  var className = (0, _classnames.default)(classes.root, (_classNames = {}, (0, _defineProperty2.default)(_classNames, classes.contained, contained || fab), (0, _defineProperty2.default)(_classNames, classes.fab, fab), (0, _defineProperty2.default)(_classNames, classes.mini, fab && mini), (0, _defineProperty2.default)(_classNames, classes.colorInherit, color === 'inherit'), (0, _defineProperty2.default)(_classNames, classes.textPrimary, text && color === 'primary'), (0, _defineProperty2.default)(_classNames, classes.textSecondary, text && color === 'secondary'), (0, _defineProperty2.default)(_classNames, classes.flat, text), (0, _defineProperty2.default)(_classNames, classes.flatPrimary, text && color === 'primary'), (0, _defineProperty2.default)(_classNames, classes.flatSecondary, text && color === 'secondary'), (0, _defineProperty2.default)(_classNames, classes.containedPrimary, !text && color === 'primary'), (0, _defineProperty2.default)(_classNames, classes.containedSecondary, !text && color === 'secondary'), (0, _defineProperty2.default)(_classNames, classes.raised, contained || fab), (0, _defineProperty2.default)(_classNames, classes.raisedPrimary, (contained || fab) && color === 'primary'), (0, _defineProperty2.default)(_classNames, classes.raisedSecondary, (contained || fab) && color === 'secondary'), (0, _defineProperty2.default)(_classNames, classes.text, variant === 'text'), (0, _defineProperty2.default)(_classNames, classes.outlined, variant === 'outlined'), (0, _defineProperty2.default)(_classNames, classes["size".concat((0, _helpers.capitalize)(size))], size !== 'medium'), (0, _defineProperty2.default)(_classNames, classes.disabled, disabled), (0, _defineProperty2.default)(_classNames, classes.fullWidth, fullWidth), _classNames), classNameProp);
+  var raised = variant === 'raised';
+  var flat = !raised && !fab;
+  var className = (0, _classnames.default)(classes.root, (_classNames = {}, (0, _defineProperty2.default)(_classNames, classes.raised, raised || fab), (0, _defineProperty2.default)(_classNames, classes.fab, fab), (0, _defineProperty2.default)(_classNames, classes.mini, fab && mini), (0, _defineProperty2.default)(_classNames, classes.colorInherit, color === 'inherit'), (0, _defineProperty2.default)(_classNames, classes.flatPrimary, flat && color === 'primary'), (0, _defineProperty2.default)(_classNames, classes.flatSecondary, flat && color === 'secondary'), (0, _defineProperty2.default)(_classNames, classes.raisedPrimary, !flat && color === 'primary'), (0, _defineProperty2.default)(_classNames, classes.raisedSecondary, !flat && color === 'secondary'), (0, _defineProperty2.default)(_classNames, classes.outlined, variant === 'outlined'), (0, _defineProperty2.default)(_classNames, classes["size".concat((0, _helpers.capitalize)(size))], size !== 'medium'), (0, _defineProperty2.default)(_classNames, classes.disabled, disabled), (0, _defineProperty2.default)(_classNames, classes.fullWidth, fullWidth), _classNames), classNameProp);
   return _react.default.createElement(_ButtonBase.default, (0, _extends2.default)({
     className: className,
     disabled: disabled,
@@ -1065,6 +1154,7 @@ Button.propTypes =  true ? {
   /**
    * The component used for the root node.
    * Either a string to use a DOM element or a component.
+   * The default value is a `button`.
    */
   component: _propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.func]),
 
@@ -1119,18 +1209,17 @@ Button.propTypes =  true ? {
   /**
    * The type of button.
    */
-  variant: _propTypes.default.oneOf(['text', 'flat', 'outlined', 'contained', 'raised', 'fab'])
+  variant: _propTypes.default.oneOf(['flat', 'outlined', 'raised', 'fab'])
 } : {};
 Button.defaultProps = {
   color: 'default',
-  component: 'button',
   disabled: false,
   disableFocusRipple: false,
   fullWidth: false,
   mini: false,
   size: 'medium',
   type: 'button',
-  variant: 'text'
+  variant: 'flat'
 };
 
 var _default = (0, _withStyles.default)(styles, {
@@ -1147,7 +1236,7 @@ exports.default = _default;
 "use strict";
 
 
-var _interopRequireDefault = __webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js");
+var _interopRequireDefault = __webpack_require__("./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -1169,28 +1258,30 @@ var _Button = _interopRequireDefault(__webpack_require__("./node_modules/@materi
 "use strict";
 
 
-var _interopRequireDefault = __webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js");
+var _interopRequireDefault = __webpack_require__("./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = exports.styles = void 0;
 
-var _extends2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/extends.js"));
+var _extends2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/extends.js"));
 
-var _defineProperty2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/defineProperty.js"));
+var _defineProperty2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/defineProperty.js"));
 
-var _objectWithoutProperties2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/objectWithoutProperties.js"));
+var _objectWithoutProperties2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/objectWithoutProperties.js"));
 
-var _classCallCheck2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/classCallCheck.js"));
+var _getPrototypeOf = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/core-js/object/get-prototype-of.js"));
 
-var _createClass2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/createClass.js"));
+var _classCallCheck2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/classCallCheck.js"));
 
-var _possibleConstructorReturn2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/possibleConstructorReturn.js"));
+var _createClass2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/createClass.js"));
 
-var _inherits2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/inherits.js"));
+var _possibleConstructorReturn2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js"));
 
-var _assertThisInitialized2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/assertThisInitialized.js"));
+var _inherits2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/inherits.js"));
+
+var _assertThisInitialized2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/assertThisInitialized.js"));
 
 var _react = _interopRequireDefault(__webpack_require__("./node_modules/react/cjs/react.development.js"));
 
@@ -1253,19 +1344,13 @@ var styles = {
   disabled: {},
   focusVisible: {}
 };
-/* istanbul ignore if */
-
-exports.styles = styles;
-
-if ("development" !== 'production' && !_react.default.createContext) {
-  throw new Error('Material-UI: react@16.3.0 or greater is required.');
-}
 /**
  * `ButtonBase` contains as few styles as possible.
  * It aims to be a simple building block for creating a button.
  * It contains a load of style reset and some focus/ripple logic.
  */
 
+exports.styles = styles;
 
 var ButtonBase =
 /*#__PURE__*/
@@ -1283,99 +1368,194 @@ function (_React$Component) {
       args[_key] = arguments[_key];
     }
 
-    return (0, _possibleConstructorReturn2.default)(_this, (_temp = _this = (0, _possibleConstructorReturn2.default)(this, (_ref = ButtonBase.__proto__ || Object.getPrototypeOf(ButtonBase)).call.apply(_ref, [this].concat(args))), _this.state = {}, _this.onFocusVisibleHandler = function (event) {
-      _this.keyDown = false;
+    return (0, _possibleConstructorReturn2.default)(_this, (_temp = _this = (0, _possibleConstructorReturn2.default)(this, (_ref = ButtonBase.__proto__ || (0, _getPrototypeOf.default)(ButtonBase)).call.apply(_ref, [this].concat(args))), Object.defineProperty((0, _assertThisInitialized2.default)(_this), "state", {
+      configurable: true,
+      enumerable: true,
+      writable: true,
+      value: {}
+    }), Object.defineProperty((0, _assertThisInitialized2.default)(_this), "onFocusVisibleHandler", {
+      configurable: true,
+      enumerable: true,
+      writable: true,
+      value: function value(event) {
+        _this.keyDown = false;
 
-      _this.setState({
-        focusVisible: true
-      });
-
-      if (_this.props.onFocusVisible) {
-        _this.props.onFocusVisible(event);
-      }
-    }, _this.onRippleRef = function (node) {
-      _this.ripple = node;
-    }, _this.ripple = null, _this.keyDown = false, _this.button = null, _this.focusVisibleTimeout = null, _this.focusVisibleCheckTime = 50, _this.focusVisibleMaxCheckTimes = 5, _this.handleKeyDown = function (event) {
-      var _this$props = _this.props,
-          component = _this$props.component,
-          focusRipple = _this$props.focusRipple,
-          onKeyDown = _this$props.onKeyDown,
-          onClick = _this$props.onClick;
-      var key = (0, _keycode.default)(event); // Check if key is already down to avoid repeats being counted as multiple activations
-
-      if (focusRipple && !_this.keyDown && _this.state.focusVisible && _this.ripple && key === 'space') {
-        _this.keyDown = true;
-        event.persist();
-
-        _this.ripple.stop(event, function () {
-          _this.ripple.start(event);
+        _this.setState({
+          focusVisible: true
         });
-      }
 
-      if (onKeyDown) {
-        onKeyDown(event);
-      } // Keyboard accessibility for non interactive elements
-
-
-      if (event.target === event.currentTarget && component && component !== 'button' && (key === 'space' || key === 'enter') && !(_this.button.tagName === 'A' && _this.button.href)) {
-        event.preventDefault();
-
-        if (onClick) {
-          onClick(event);
+        if (_this.props.onFocusVisible) {
+          _this.props.onFocusVisible(event);
         }
       }
-    }, _this.handleKeyUp = function (event) {
-      if (_this.props.focusRipple && (0, _keycode.default)(event) === 'space' && _this.ripple && _this.state.focusVisible) {
-        _this.keyDown = false;
+    }), Object.defineProperty((0, _assertThisInitialized2.default)(_this), "onRippleRef", {
+      configurable: true,
+      enumerable: true,
+      writable: true,
+      value: function value(node) {
+        _this.ripple = node;
+      }
+    }), Object.defineProperty((0, _assertThisInitialized2.default)(_this), "ripple", {
+      configurable: true,
+      enumerable: true,
+      writable: true,
+      value: null
+    }), Object.defineProperty((0, _assertThisInitialized2.default)(_this), "keyDown", {
+      configurable: true,
+      enumerable: true,
+      writable: true,
+      value: false
+    }), Object.defineProperty((0, _assertThisInitialized2.default)(_this), "button", {
+      configurable: true,
+      enumerable: true,
+      writable: true,
+      value: null
+    }), Object.defineProperty((0, _assertThisInitialized2.default)(_this), "focusVisibleTimeout", {
+      configurable: true,
+      enumerable: true,
+      writable: true,
+      value: null
+    }), Object.defineProperty((0, _assertThisInitialized2.default)(_this), "focusVisibleCheckTime", {
+      configurable: true,
+      enumerable: true,
+      writable: true,
+      value: 50
+    }), Object.defineProperty((0, _assertThisInitialized2.default)(_this), "focusVisibleMaxCheckTimes", {
+      configurable: true,
+      enumerable: true,
+      writable: true,
+      value: 5
+    }), Object.defineProperty((0, _assertThisInitialized2.default)(_this), "handleKeyDown", {
+      configurable: true,
+      enumerable: true,
+      writable: true,
+      value: function value(event) {
+        var _this$props = _this.props,
+            component = _this$props.component,
+            focusRipple = _this$props.focusRipple,
+            onKeyDown = _this$props.onKeyDown,
+            onClick = _this$props.onClick;
+        var key = (0, _keycode.default)(event); // Check if key is already down to avoid repeats being counted as multiple activations
+
+        if (focusRipple && !_this.keyDown && _this.state.focusVisible && _this.ripple && key === 'space') {
+          _this.keyDown = true;
+          event.persist();
+
+          _this.ripple.stop(event, function () {
+            _this.ripple.start(event);
+          });
+        }
+
+        if (onKeyDown) {
+          onKeyDown(event);
+        } // Keyboard accessibility for non interactive elements
+
+
+        if (event.target === event.currentTarget && component && component !== 'button' && (key === 'space' || key === 'enter')) {
+          event.preventDefault();
+
+          if (onClick) {
+            onClick(event);
+          }
+        }
+      }
+    }), Object.defineProperty((0, _assertThisInitialized2.default)(_this), "handleKeyUp", {
+      configurable: true,
+      enumerable: true,
+      writable: true,
+      value: function value(event) {
+        if (_this.props.focusRipple && (0, _keycode.default)(event) === 'space' && _this.ripple && _this.state.focusVisible) {
+          _this.keyDown = false;
+          event.persist();
+
+          _this.ripple.stop(event, function () {
+            return _this.ripple.pulsate(event);
+          });
+        }
+
+        if (_this.props.onKeyUp) {
+          _this.props.onKeyUp(event);
+        }
+      }
+    }), Object.defineProperty((0, _assertThisInitialized2.default)(_this), "handleMouseDown", {
+      configurable: true,
+      enumerable: true,
+      writable: true,
+      value: (0, _createRippleHandler.default)((0, _assertThisInitialized2.default)(_this), 'MouseDown', 'start', function () {
+        clearTimeout(_this.focusVisibleTimeout);
+
+        if (_this.state.focusVisible) {
+          _this.setState({
+            focusVisible: false
+          });
+        }
+      })
+    }), Object.defineProperty((0, _assertThisInitialized2.default)(_this), "handleMouseUp", {
+      configurable: true,
+      enumerable: true,
+      writable: true,
+      value: (0, _createRippleHandler.default)((0, _assertThisInitialized2.default)(_this), 'MouseUp', 'stop')
+    }), Object.defineProperty((0, _assertThisInitialized2.default)(_this), "handleMouseLeave", {
+      configurable: true,
+      enumerable: true,
+      writable: true,
+      value: (0, _createRippleHandler.default)((0, _assertThisInitialized2.default)(_this), 'MouseLeave', 'stop', function (event) {
+        if (_this.state.focusVisible) {
+          event.preventDefault();
+        }
+      })
+    }), Object.defineProperty((0, _assertThisInitialized2.default)(_this), "handleTouchStart", {
+      configurable: true,
+      enumerable: true,
+      writable: true,
+      value: (0, _createRippleHandler.default)((0, _assertThisInitialized2.default)(_this), 'TouchStart', 'start')
+    }), Object.defineProperty((0, _assertThisInitialized2.default)(_this), "handleTouchEnd", {
+      configurable: true,
+      enumerable: true,
+      writable: true,
+      value: (0, _createRippleHandler.default)((0, _assertThisInitialized2.default)(_this), 'TouchEnd', 'stop')
+    }), Object.defineProperty((0, _assertThisInitialized2.default)(_this), "handleTouchMove", {
+      configurable: true,
+      enumerable: true,
+      writable: true,
+      value: (0, _createRippleHandler.default)((0, _assertThisInitialized2.default)(_this), 'TouchMove', 'stop')
+    }), Object.defineProperty((0, _assertThisInitialized2.default)(_this), "handleBlur", {
+      configurable: true,
+      enumerable: true,
+      writable: true,
+      value: (0, _createRippleHandler.default)((0, _assertThisInitialized2.default)(_this), 'Blur', 'stop', function () {
+        clearTimeout(_this.focusVisibleTimeout);
+
+        if (_this.state.focusVisible) {
+          _this.setState({
+            focusVisible: false
+          });
+        }
+      })
+    }), Object.defineProperty((0, _assertThisInitialized2.default)(_this), "handleFocus", {
+      configurable: true,
+      enumerable: true,
+      writable: true,
+      value: function value(event) {
+        if (_this.props.disabled) {
+          return;
+        } // Fix for https://github.com/facebook/react/issues/7769
+
+
+        if (!_this.button) {
+          _this.button = event.currentTarget;
+        }
+
         event.persist();
-
-        _this.ripple.stop(event, function () {
-          _this.ripple.pulsate(event);
+        (0, _focusVisible.detectFocusVisible)((0, _assertThisInitialized2.default)(_this), _this.button, function () {
+          _this.onFocusVisibleHandler(event);
         });
-      }
 
-      if (_this.props.onKeyUp) {
-        _this.props.onKeyUp(event);
+        if (_this.props.onFocus) {
+          _this.props.onFocus(event);
+        }
       }
-    }, _this.handleMouseDown = (0, _createRippleHandler.default)((0, _assertThisInitialized2.default)(_this), 'MouseDown', 'start', function () {
-      clearTimeout(_this.focusVisibleTimeout);
-
-      if (_this.state.focusVisible) {
-        _this.setState({
-          focusVisible: false
-        });
-      }
-    }), _this.handleMouseUp = (0, _createRippleHandler.default)((0, _assertThisInitialized2.default)(_this), 'MouseUp', 'stop'), _this.handleMouseLeave = (0, _createRippleHandler.default)((0, _assertThisInitialized2.default)(_this), 'MouseLeave', 'stop', function (event) {
-      if (_this.state.focusVisible) {
-        event.preventDefault();
-      }
-    }), _this.handleTouchStart = (0, _createRippleHandler.default)((0, _assertThisInitialized2.default)(_this), 'TouchStart', 'start'), _this.handleTouchEnd = (0, _createRippleHandler.default)((0, _assertThisInitialized2.default)(_this), 'TouchEnd', 'stop'), _this.handleTouchMove = (0, _createRippleHandler.default)((0, _assertThisInitialized2.default)(_this), 'TouchMove', 'stop'), _this.handleBlur = (0, _createRippleHandler.default)((0, _assertThisInitialized2.default)(_this), 'Blur', 'stop', function () {
-      clearTimeout(_this.focusVisibleTimeout);
-
-      if (_this.state.focusVisible) {
-        _this.setState({
-          focusVisible: false
-        });
-      }
-    }), _this.handleFocus = function (event) {
-      if (_this.props.disabled) {
-        return;
-      } // Fix for https://github.com/facebook/react/issues/7769
-
-
-      if (!_this.button) {
-        _this.button = event.currentTarget;
-      }
-
-      event.persist();
-      (0, _focusVisible.detectFocusVisible)((0, _assertThisInitialized2.default)(_this), _this.button, function () {
-        _this.onFocusVisibleHandler(event);
-      });
-
-      if (_this.props.onFocus) {
-        _this.props.onFocus(event);
-      }
-    }, _temp));
+    }), _temp));
   }
 
   (0, _createClass2.default)(ButtonBase, [{
@@ -1447,8 +1627,12 @@ function (_React$Component) {
       var buttonProps = {};
       var ComponentProp = component;
 
-      if (ComponentProp === 'button' && other.href) {
-        ComponentProp = 'a';
+      if (!ComponentProp) {
+        if (other.href) {
+          ComponentProp = 'a';
+        } else {
+          ComponentProp = 'button';
+        }
       }
 
       if (ComponentProp === 'button') {
@@ -1518,7 +1702,7 @@ ButtonBase.propTypes =  true ? {
   /**
    * Use that property to pass a ref callback to the native button component.
    */
-  buttonRef: _propTypes.default.oneOfType([_propTypes.default.func, _propTypes.default.object]),
+  buttonRef: _propTypes.default.func,
 
   /**
    * If `true`, the ripples will be centered.
@@ -1545,6 +1729,7 @@ ButtonBase.propTypes =  true ? {
   /**
    * The component used for the root node.
    * Either a string to use a DOM element or a component.
+   * The default value is a `button`.
    */
   component: _propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.func]),
 
@@ -1649,15 +1834,12 @@ ButtonBase.propTypes =  true ? {
   TouchRippleProps: _propTypes.default.object,
 
   /**
-   * Used to control the button's purpose.
-   * This property passes the value to the `type` attribute of the native button component.
-   * Valid property values include `button`, `submit`, and `reset`.
+   * @ignore
    */
   type: _propTypes.default.string
 } : {};
 ButtonBase.defaultProps = {
   centerRipple: false,
-  component: 'button',
   disableRipple: false,
   focusRipple: false,
   tabIndex: '0',
@@ -1678,26 +1860,30 @@ exports.default = _default;
 "use strict";
 
 
-var _interopRequireDefault = __webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js");
+var _interopRequireDefault = __webpack_require__("./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
 
-var _extends2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/extends.js"));
+var _extends2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/extends.js"));
 
-var _defineProperty2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/defineProperty.js"));
+var _defineProperty2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/defineProperty.js"));
 
-var _objectWithoutProperties2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/objectWithoutProperties.js"));
+var _objectWithoutProperties2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/objectWithoutProperties.js"));
 
-var _classCallCheck2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/classCallCheck.js"));
+var _getPrototypeOf = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/core-js/object/get-prototype-of.js"));
 
-var _createClass2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/createClass.js"));
+var _classCallCheck2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/classCallCheck.js"));
 
-var _possibleConstructorReturn2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/possibleConstructorReturn.js"));
+var _createClass2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/createClass.js"));
 
-var _inherits2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/inherits.js"));
+var _possibleConstructorReturn2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js"));
+
+var _inherits2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/inherits.js"));
+
+var _assertThisInitialized2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/assertThisInitialized.js"));
 
 var _react = _interopRequireDefault(__webpack_require__("./node_modules/react/cjs/react.development.js"));
 
@@ -1726,18 +1912,33 @@ function (_React$Component) {
       args[_key] = arguments[_key];
     }
 
-    return (0, _possibleConstructorReturn2.default)(_this, (_temp = _this = (0, _possibleConstructorReturn2.default)(this, (_ref = Ripple.__proto__ || Object.getPrototypeOf(Ripple)).call.apply(_ref, [this].concat(args))), _this.state = {
-      visible: false,
-      leaving: false
-    }, _this.handleEnter = function () {
-      _this.setState({
-        visible: true
-      });
-    }, _this.handleExit = function () {
-      _this.setState({
-        leaving: true
-      });
-    }, _temp));
+    return (0, _possibleConstructorReturn2.default)(_this, (_temp = _this = (0, _possibleConstructorReturn2.default)(this, (_ref = Ripple.__proto__ || (0, _getPrototypeOf.default)(Ripple)).call.apply(_ref, [this].concat(args))), Object.defineProperty((0, _assertThisInitialized2.default)(_this), "state", {
+      configurable: true,
+      enumerable: true,
+      writable: true,
+      value: {
+        visible: false,
+        leaving: false
+      }
+    }), Object.defineProperty((0, _assertThisInitialized2.default)(_this), "handleEnter", {
+      configurable: true,
+      enumerable: true,
+      writable: true,
+      value: function value() {
+        _this.setState({
+          visible: true
+        });
+      }
+    }), Object.defineProperty((0, _assertThisInitialized2.default)(_this), "handleExit", {
+      configurable: true,
+      enumerable: true,
+      writable: true,
+      value: function value() {
+        _this.setState({
+          leaving: true
+        });
+      }
+    }), _temp));
   }
 
   (0, _createClass2.default)(Ripple, [{
@@ -1824,28 +2025,30 @@ exports.default = _default;
 "use strict";
 
 
-var _interopRequireDefault = __webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js");
+var _interopRequireDefault = __webpack_require__("./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = exports.styles = exports.DELAY_RIPPLE = void 0;
 
-var _extends2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/extends.js"));
+var _extends2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/extends.js"));
 
-var _objectWithoutProperties2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/objectWithoutProperties.js"));
+var _objectWithoutProperties2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/objectWithoutProperties.js"));
 
-var _toConsumableArray2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/toConsumableArray.js"));
+var _toConsumableArray2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/toConsumableArray.js"));
 
-var _classCallCheck2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/classCallCheck.js"));
+var _getPrototypeOf = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/core-js/object/get-prototype-of.js"));
 
-var _createClass2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/createClass.js"));
+var _classCallCheck2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/classCallCheck.js"));
 
-var _possibleConstructorReturn2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/possibleConstructorReturn.js"));
+var _createClass2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/createClass.js"));
 
-var _inherits2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/inherits.js"));
+var _possibleConstructorReturn2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js"));
 
-var _assertThisInitialized2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/assertThisInitialized.js"));
+var _inherits2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/inherits.js"));
+
+var _assertThisInitialized2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/assertThisInitialized.js"));
 
 var _react = _interopRequireDefault(__webpack_require__("./node_modules/react/cjs/react.development.js"));
 
@@ -1963,71 +2166,116 @@ function (_React$PureComponent) {
       args[_key] = arguments[_key];
     }
 
-    return (0, _possibleConstructorReturn2.default)(_this, (_temp = _this = (0, _possibleConstructorReturn2.default)(this, (_ref = TouchRipple.__proto__ || Object.getPrototypeOf(TouchRipple)).call.apply(_ref, [this].concat(args))), _this.state = {
-      nextKey: 0,
-      ripples: []
-    }, _this.ignoringMouseDown = false, _this.startTimer = null, _this.startTimerCommit = null, _this.pulsate = function () {
-      _this.start({}, {
-        pulsate: true
-      });
-    }, _this.start = function () {
-      var event = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
-      var options = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
-      var cb = arguments.length > 2 ? arguments[2] : undefined;
-      var _options$pulsate = options.pulsate,
-          pulsate = _options$pulsate === void 0 ? false : _options$pulsate,
-          _options$center = options.center,
-          center = _options$center === void 0 ? _this.props.center || options.pulsate : _options$center,
-          _options$fakeElement = options.fakeElement,
-          fakeElement = _options$fakeElement === void 0 ? false : _options$fakeElement;
-
-      if (event.type === 'mousedown' && _this.ignoringMouseDown) {
-        _this.ignoringMouseDown = false;
-        return;
+    return (0, _possibleConstructorReturn2.default)(_this, (_temp = _this = (0, _possibleConstructorReturn2.default)(this, (_ref = TouchRipple.__proto__ || (0, _getPrototypeOf.default)(TouchRipple)).call.apply(_ref, [this].concat(args))), Object.defineProperty((0, _assertThisInitialized2.default)(_this), "state", {
+      configurable: true,
+      enumerable: true,
+      writable: true,
+      value: {
+        nextKey: 0,
+        ripples: []
       }
-
-      if (event.type === 'touchstart') {
-        _this.ignoringMouseDown = true;
+    }), Object.defineProperty((0, _assertThisInitialized2.default)(_this), "ignoringMouseDown", {
+      configurable: true,
+      enumerable: true,
+      writable: true,
+      value: false
+    }), Object.defineProperty((0, _assertThisInitialized2.default)(_this), "startTimer", {
+      configurable: true,
+      enumerable: true,
+      writable: true,
+      value: null
+    }), Object.defineProperty((0, _assertThisInitialized2.default)(_this), "startTimerCommit", {
+      configurable: true,
+      enumerable: true,
+      writable: true,
+      value: null
+    }), Object.defineProperty((0, _assertThisInitialized2.default)(_this), "pulsate", {
+      configurable: true,
+      enumerable: true,
+      writable: true,
+      value: function value() {
+        _this.start({}, {
+          pulsate: true
+        });
       }
+    }), Object.defineProperty((0, _assertThisInitialized2.default)(_this), "start", {
+      configurable: true,
+      enumerable: true,
+      writable: true,
+      value: function value() {
+        var event = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+        var options = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
+        var cb = arguments.length > 2 ? arguments[2] : undefined;
+        var _options$pulsate = options.pulsate,
+            pulsate = _options$pulsate === void 0 ? false : _options$pulsate,
+            _options$center = options.center,
+            center = _options$center === void 0 ? _this.props.center || options.pulsate : _options$center,
+            _options$fakeElement = options.fakeElement,
+            fakeElement = _options$fakeElement === void 0 ? false : _options$fakeElement;
 
-      var element = fakeElement ? null : _reactDom.default.findDOMNode((0, _assertThisInitialized2.default)(_this));
-      var rect = element ? element.getBoundingClientRect() : {
-        width: 0,
-        height: 0,
-        left: 0,
-        top: 0
-      }; // Get the size of the ripple
-
-      var rippleX;
-      var rippleY;
-      var rippleSize;
-
-      if (center || event.clientX === 0 && event.clientY === 0 || !event.clientX && !event.touches) {
-        rippleX = Math.round(rect.width / 2);
-        rippleY = Math.round(rect.height / 2);
-      } else {
-        var clientX = event.clientX ? event.clientX : event.touches[0].clientX;
-        var clientY = event.clientY ? event.clientY : event.touches[0].clientY;
-        rippleX = Math.round(clientX - rect.left);
-        rippleY = Math.round(clientY - rect.top);
-      }
-
-      if (center) {
-        rippleSize = Math.sqrt((2 * Math.pow(rect.width, 2) + Math.pow(rect.height, 2)) / 3); // For some reason the animation is broken on Mobile Chrome if the size if even.
-
-        if (rippleSize % 2 === 0) {
-          rippleSize += 1;
+        if (event.type === 'mousedown' && _this.ignoringMouseDown) {
+          _this.ignoringMouseDown = false;
+          return;
         }
-      } else {
-        var sizeX = Math.max(Math.abs((element ? element.clientWidth : 0) - rippleX), rippleX) * 2 + 2;
-        var sizeY = Math.max(Math.abs((element ? element.clientHeight : 0) - rippleY), rippleY) * 2 + 2;
-        rippleSize = Math.sqrt(Math.pow(sizeX, 2) + Math.pow(sizeY, 2));
-      } // Touche devices
+
+        if (event.type === 'touchstart') {
+          _this.ignoringMouseDown = true;
+        }
+
+        var element = fakeElement ? null : _reactDom.default.findDOMNode((0, _assertThisInitialized2.default)(_this));
+        var rect = element ? element.getBoundingClientRect() : {
+          width: 0,
+          height: 0,
+          left: 0,
+          top: 0
+        }; // Get the size of the ripple
+
+        var rippleX;
+        var rippleY;
+        var rippleSize;
+
+        if (center || event.clientX === 0 && event.clientY === 0 || !event.clientX && !event.touches) {
+          rippleX = Math.round(rect.width / 2);
+          rippleY = Math.round(rect.height / 2);
+        } else {
+          var clientX = event.clientX ? event.clientX : event.touches[0].clientX;
+          var clientY = event.clientY ? event.clientY : event.touches[0].clientY;
+          rippleX = Math.round(clientX - rect.left);
+          rippleY = Math.round(clientY - rect.top);
+        }
+
+        if (center) {
+          rippleSize = Math.sqrt((2 * Math.pow(rect.width, 2) + Math.pow(rect.height, 2)) / 3); // For some reason the animation is broken on Mobile Chrome if the size if even.
+
+          if (rippleSize % 2 === 0) {
+            rippleSize += 1;
+          }
+        } else {
+          var sizeX = Math.max(Math.abs((element ? element.clientWidth : 0) - rippleX), rippleX) * 2 + 2;
+          var sizeY = Math.max(Math.abs((element ? element.clientHeight : 0) - rippleY), rippleY) * 2 + 2;
+          rippleSize = Math.sqrt(Math.pow(sizeX, 2) + Math.pow(sizeY, 2));
+        } // Touche devices
 
 
-      if (event.touches) {
-        // Prepare the ripple effect.
-        _this.startTimerCommit = function () {
+        if (event.touches) {
+          // Prepare the ripple effect.
+          _this.startTimerCommit = function () {
+            _this.startCommit({
+              pulsate: pulsate,
+              rippleX: rippleX,
+              rippleY: rippleY,
+              rippleSize: rippleSize,
+              cb: cb
+            });
+          }; // Deplay the execution of the ripple effect.
+
+
+          _this.startTimer = setTimeout(function () {
+            _this.startTimerCommit();
+
+            _this.startTimerCommit = null;
+          }, DELAY_RIPPLE); // We have to make a tradeoff with this value.
+        } else {
           _this.startCommit({
             pulsate: pulsate,
             rippleX: rippleX,
@@ -2035,73 +2283,68 @@ function (_React$PureComponent) {
             rippleSize: rippleSize,
             cb: cb
           });
-        }; // Deplay the execution of the ripple effect.
+        }
+      }
+    }), Object.defineProperty((0, _assertThisInitialized2.default)(_this), "startCommit", {
+      configurable: true,
+      enumerable: true,
+      writable: true,
+      value: function value(params) {
+        var pulsate = params.pulsate,
+            rippleX = params.rippleX,
+            rippleY = params.rippleY,
+            rippleSize = params.rippleSize,
+            cb = params.cb;
+        var ripples = _this.state.ripples; // Add a ripple to the ripples array.
 
-
-        _this.startTimer = setTimeout(function () {
-          _this.startTimerCommit();
-
-          _this.startTimerCommit = null;
-        }, DELAY_RIPPLE); // We have to make a tradeoff with this value.
-      } else {
-        _this.startCommit({
+        ripples = (0, _toConsumableArray2.default)(ripples).concat([_react.default.createElement(_Ripple.default, {
+          key: _this.state.nextKey,
+          classes: _this.props.classes,
+          timeout: {
+            exit: DURATION,
+            enter: DURATION
+          },
           pulsate: pulsate,
           rippleX: rippleX,
           rippleY: rippleY,
-          rippleSize: rippleSize,
-          cb: cb
-        });
-      }
-    }, _this.startCommit = function (params) {
-      var pulsate = params.pulsate,
-          rippleX = params.rippleX,
-          rippleY = params.rippleY,
-          rippleSize = params.rippleSize,
-          cb = params.cb;
-      var ripples = _this.state.ripples; // Add a ripple to the ripples array.
+          rippleSize: rippleSize
+        })]);
 
-      ripples = (0, _toConsumableArray2.default)(ripples).concat([_react.default.createElement(_Ripple.default, {
-        key: _this.state.nextKey,
-        classes: _this.props.classes,
-        timeout: {
-          exit: DURATION,
-          enter: DURATION
-        },
-        pulsate: pulsate,
-        rippleX: rippleX,
-        rippleY: rippleY,
-        rippleSize: rippleSize
-      })]);
-
-      _this.setState({
-        nextKey: _this.state.nextKey + 1,
-        ripples: ripples
-      }, cb);
-    }, _this.stop = function (event, cb) {
-      clearTimeout(_this.startTimer);
-      var ripples = _this.state.ripples; // The touch interaction occures to quickly.
-      // We still want to show ripple effect.
-
-      if (event.type === 'touchend' && _this.startTimerCommit) {
-        event.persist();
-
-        _this.startTimerCommit();
-
-        _this.startTimerCommit = null;
-        _this.startTimer = setTimeout(function () {
-          _this.stop(event, cb);
-        }, 0);
-        return;
-      }
-
-      _this.startTimerCommit = null;
-
-      if (ripples && ripples.length) {
         _this.setState({
-          ripples: ripples.slice(1)
+          nextKey: _this.state.nextKey + 1,
+          ripples: ripples
         }, cb);
       }
-    }, _temp));
+    }), Object.defineProperty((0, _assertThisInitialized2.default)(_this), "stop", {
+      configurable: true,
+      enumerable: true,
+      writable: true,
+      value: function value(event, cb) {
+        clearTimeout(_this.startTimer);
+        var ripples = _this.state.ripples; // The touch interaction occures to quickly.
+        // We still want to show ripple effect.
+
+        if (event.type === 'touchend' && _this.startTimerCommit) {
+          event.persist();
+
+          _this.startTimerCommit();
+
+          _this.startTimerCommit = null;
+          _this.startTimer = setTimeout(function () {
+            _this.stop(event, cb);
+          }, 0);
+          return;
+        }
+
+        _this.startTimerCommit = null;
+
+        if (ripples && ripples.length) {
+          _this.setState({
+            ripples: ripples.slice(1)
+          }, cb);
+        }
+      }
+    }), _temp));
   }
 
   (0, _createClass2.default)(TouchRipple, [{
@@ -2204,7 +2447,7 @@ exports.default = _default;
 "use strict";
 
 
-var _interopRequireDefault = __webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js");
+var _interopRequireDefault = __webpack_require__("./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -2214,7 +2457,7 @@ exports.listenForFocusKeys = listenForFocusKeys;
 
 var _keycode = _interopRequireDefault(__webpack_require__("./node_modules/keycode/index.js"));
 
-var _warning = _interopRequireDefault(__webpack_require__("./node_modules/warning/warning.js"));
+var _warning = _interopRequireDefault(__webpack_require__("./node_modules/warning/browser.js"));
 
 var _contains = _interopRequireDefault(__webpack_require__("./node_modules/dom-helpers/query/contains.js"));
 
@@ -2228,8 +2471,8 @@ var internal = {
 
 function detectFocusVisible(instance, element, callback) {
   var attempt = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : 1;
-   true ? (0, _warning.default)(instance.focusVisibleCheckTime, 'Material-UI: missing instance.focusVisibleCheckTime.') : void 0;
-   true ? (0, _warning.default)(instance.focusVisibleMaxCheckTimes, 'Material-UI: missing instance.focusVisibleMaxCheckTimes.') : void 0;
+   true ? (0, _warning.default)(instance.focusVisibleCheckTime, 'Material-UI: missing instance.focusVisibleCheckTime') : void 0;
+   true ? (0, _warning.default)(instance.focusVisibleMaxCheckTimes, 'Material-UI: missing instance.focusVisibleMaxCheckTimes') : void 0;
   instance.focusVisibleTimeout = setTimeout(function () {
     var doc = (0, _ownerDocument.default)(element);
 
@@ -2244,7 +2487,7 @@ function detectFocusVisible(instance, element, callback) {
 var FOCUS_KEYS = ['tab', 'enter', 'space', 'esc', 'up', 'down', 'left', 'right'];
 
 function isFocusKey(event) {
-  return FOCUS_KEYS.indexOf((0, _keycode.default)(event)) > -1;
+  return FOCUS_KEYS.indexOf((0, _keycode.default)(event)) !== -1;
 }
 
 var handleKeyUpEvent = function handleKeyUpEvent(event) {
@@ -2273,7 +2516,7 @@ function listenForFocusKeys(win) {
 "use strict";
 
 
-var _interopRequireDefault = __webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js");
+var _interopRequireDefault = __webpack_require__("./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -2295,26 +2538,28 @@ var _ButtonBase = _interopRequireDefault(__webpack_require__("./node_modules/@ma
 "use strict";
 
 
-var _interopRequireDefault = __webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js");
+var _interopRequireDefault = __webpack_require__("./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
 
-var _extends2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/extends.js"));
+var _extends2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/extends.js"));
 
-var _objectWithoutProperties2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/objectWithoutProperties.js"));
+var _objectWithoutProperties2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/objectWithoutProperties.js"));
 
-var _classCallCheck2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/classCallCheck.js"));
+var _getPrototypeOf = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/core-js/object/get-prototype-of.js"));
 
-var _createClass2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/createClass.js"));
+var _classCallCheck2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/classCallCheck.js"));
 
-var _possibleConstructorReturn2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/possibleConstructorReturn.js"));
+var _createClass2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/createClass.js"));
 
-var _inherits2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/inherits.js"));
+var _possibleConstructorReturn2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js"));
 
-var _assertThisInitialized2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/assertThisInitialized.js"));
+var _inherits2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/inherits.js"));
+
+var _assertThisInitialized2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/assertThisInitialized.js"));
 
 var _react = _interopRequireDefault(__webpack_require__("./node_modules/react/cjs/react.development.js"));
 
@@ -2322,7 +2567,7 @@ var _propTypes = _interopRequireDefault(__webpack_require__("./node_modules/next
 
 var _reactDom = _interopRequireDefault(__webpack_require__("./node_modules/react-dom/cjs/react-dom.development.js"));
 
-var _reactEventListener = _interopRequireDefault(__webpack_require__("./node_modules/react-event-listener/dist/react-event-listener.cjs.js"));
+var _reactEventListener = _interopRequireDefault(__webpack_require__("./node_modules/react-event-listener/lib/index.js"));
 
 var _ownerDocument = _interopRequireDefault(__webpack_require__("./node_modules/dom-helpers/ownerDocument.js"));
 
@@ -2355,25 +2600,35 @@ function (_React$Component) {
       args[_key] = arguments[_key];
     }
 
-    return (0, _possibleConstructorReturn2.default)(_this, (_temp = _this = (0, _possibleConstructorReturn2.default)(this, (_ref = ClickAwayListener.__proto__ || Object.getPrototypeOf(ClickAwayListener)).call.apply(_ref, [this].concat(args))), _this.mounted = false, _this.handleClickAway = function (event) {
-      // Ignore events that have been `event.preventDefault()` marked.
-      if (event.defaultPrevented) {
-        return;
-      } // IE11 support, which trigger the handleClickAway even after the unbind
+    return (0, _possibleConstructorReturn2.default)(_this, (_temp = _this = (0, _possibleConstructorReturn2.default)(this, (_ref = ClickAwayListener.__proto__ || (0, _getPrototypeOf.default)(ClickAwayListener)).call.apply(_ref, [this].concat(args))), Object.defineProperty((0, _assertThisInitialized2.default)(_this), "mounted", {
+      configurable: true,
+      enumerable: true,
+      writable: true,
+      value: false
+    }), Object.defineProperty((0, _assertThisInitialized2.default)(_this), "handleClickAway", {
+      configurable: true,
+      enumerable: true,
+      writable: true,
+      value: function value(event) {
+        // Ignore events that have been `event.preventDefault()` marked.
+        if (event.defaultPrevented) {
+          return;
+        } // IE11 support, which trigger the handleClickAway even after the unbind
 
 
-      if (!_this.mounted) {
-        return;
+        if (!_this.mounted) {
+          return;
+        }
+
+        var el = _reactDom.default.findDOMNode((0, _assertThisInitialized2.default)(_this));
+
+        var doc = (0, _ownerDocument.default)(el);
+
+        if (doc.documentElement && doc.documentElement.contains(event.target) && !isDescendant(el, event.target)) {
+          _this.props.onClickAway(event);
+        }
       }
-
-      var el = _reactDom.default.findDOMNode((0, _assertThisInitialized2.default)(_this));
-
-      var doc = (0, _ownerDocument.default)(el);
-
-      if (doc.documentElement && doc.documentElement.contains(event.target) && !isDescendant(el, event.target)) {
-        _this.props.onClickAway(event);
-      }
-    }, _temp));
+    }), _temp));
   }
 
   (0, _createClass2.default)(ClickAwayListener, [{
@@ -2434,7 +2689,7 @@ exports.default = _default;
 "use strict";
 
 
-var _interopRequireDefault = __webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js");
+var _interopRequireDefault = __webpack_require__("./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -2456,18 +2711,18 @@ var _ClickAwayListener = _interopRequireDefault(__webpack_require__("./node_modu
 "use strict";
 
 
-var _interopRequireDefault = __webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js");
+var _interopRequireDefault = __webpack_require__("./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = exports.styles = void 0;
 
-var _extends2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/extends.js"));
+var _extends2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/extends.js"));
 
-var _defineProperty2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/defineProperty.js"));
+var _defineProperty2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/defineProperty.js"));
 
-var _objectWithoutProperties2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/objectWithoutProperties.js"));
+var _objectWithoutProperties2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/objectWithoutProperties.js"));
 
 var _react = _interopRequireDefault(__webpack_require__("./node_modules/react/cjs/react.development.js"));
 
@@ -2475,7 +2730,7 @@ var _propTypes = _interopRequireDefault(__webpack_require__("./node_modules/next
 
 var _classnames = _interopRequireDefault(__webpack_require__("./node_modules/classnames/index.js"));
 
-var _warning = _interopRequireDefault(__webpack_require__("./node_modules/warning/warning.js"));
+var _warning = _interopRequireDefault(__webpack_require__("./node_modules/warning/browser.js"));
 
 var _withStyles = _interopRequireDefault(__webpack_require__("./node_modules/@material-ui/core/styles/withStyles.js"));
 
@@ -2724,7 +2979,7 @@ exports.default = _default;
 "use strict";
 
 
-var _interopRequireDefault = __webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js");
+var _interopRequireDefault = __webpack_require__("./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -2746,20 +3001,20 @@ var _LinearProgress = _interopRequireDefault(__webpack_require__("./node_modules
 "use strict";
 
 
-var _interopRequireDefault = __webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js");
+var _interopRequireDefault = __webpack_require__("./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = exports.styles = void 0;
 
-var _extends2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/extends.js"));
+var _extends2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/extends.js"));
 
-var _defineProperty2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/defineProperty.js"));
+var _defineProperty2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/defineProperty.js"));
 
-var _objectWithoutProperties2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/objectWithoutProperties.js"));
+var _objectWithoutProperties2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/objectWithoutProperties.js"));
 
-var _objectSpread2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/objectSpread.js"));
+var _objectSpread2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/objectSpread.js"));
 
 var _react = _interopRequireDefault(__webpack_require__("./node_modules/react/cjs/react.development.js"));
 
@@ -2767,7 +3022,7 @@ var _propTypes = _interopRequireDefault(__webpack_require__("./node_modules/next
 
 var _classnames = _interopRequireDefault(__webpack_require__("./node_modules/classnames/index.js"));
 
-var _warning = _interopRequireDefault(__webpack_require__("./node_modules/warning/warning.js"));
+var _warning = _interopRequireDefault(__webpack_require__("./node_modules/warning/browser.js"));
 
 var _withStyles = _interopRequireDefault(__webpack_require__("./node_modules/@material-ui/core/styles/withStyles.js"));
 
@@ -2858,7 +3113,7 @@ exports.default = _default;
 "use strict";
 
 
-var _interopRequireDefault = __webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js");
+var _interopRequireDefault = __webpack_require__("./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -2880,7 +3135,7 @@ var _Paper = _interopRequireDefault(__webpack_require__("./node_modules/@materia
 "use strict";
 
 
-var _interopRequireDefault = __webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js");
+var _interopRequireDefault = __webpack_require__("./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -2888,19 +3143,23 @@ Object.defineProperty(exports, "__esModule", {
 exports.setTranslateValue = setTranslateValue;
 exports.default = void 0;
 
-var _extends2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/extends.js"));
+var _extends2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/extends.js"));
 
-var _objectWithoutProperties2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/objectWithoutProperties.js"));
+var _objectWithoutProperties2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/objectWithoutProperties.js"));
 
-var _objectSpread2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/objectSpread.js"));
+var _objectSpread2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/objectSpread.js"));
 
-var _classCallCheck2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/classCallCheck.js"));
+var _getPrototypeOf = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/core-js/object/get-prototype-of.js"));
 
-var _createClass2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/createClass.js"));
+var _classCallCheck2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/classCallCheck.js"));
 
-var _possibleConstructorReturn2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/possibleConstructorReturn.js"));
+var _createClass2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/createClass.js"));
 
-var _inherits2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/inherits.js"));
+var _possibleConstructorReturn2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js"));
+
+var _inherits2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/inherits.js"));
+
+var _assertThisInitialized2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/assertThisInitialized.js"));
 
 var _react = _interopRequireDefault(__webpack_require__("./node_modules/react/cjs/react.development.js"));
 
@@ -2908,9 +3167,9 @@ var _propTypes = _interopRequireDefault(__webpack_require__("./node_modules/next
 
 var _reactDom = _interopRequireDefault(__webpack_require__("./node_modules/react-dom/cjs/react-dom.development.js"));
 
-var _reactEventListener = _interopRequireDefault(__webpack_require__("./node_modules/react-event-listener/dist/react-event-listener.cjs.js"));
+var _reactEventListener = _interopRequireDefault(__webpack_require__("./node_modules/react-event-listener/lib/index.js"));
 
-var _debounce = _interopRequireDefault(__webpack_require__("./node_modules/debounce/index.js"));
+var _debounce = _interopRequireDefault(__webpack_require__("./node_modules/lodash/debounce.js"));
 
 var _Transition = _interopRequireDefault(__webpack_require__("./node_modules/react-transition-group/Transition.js"));
 
@@ -2990,66 +3249,101 @@ function (_React$Component) {
       args[_key] = arguments[_key];
     }
 
-    return (0, _possibleConstructorReturn2.default)(_this, (_temp = _this = (0, _possibleConstructorReturn2.default)(this, (_ref = Slide.__proto__ || Object.getPrototypeOf(Slide)).call.apply(_ref, [this].concat(args))), _this.mounted = false, _this.transition = null, _this.handleResize = (0, _debounce.default)(function () {
-      // Skip configuration where the position is screen size invariant.
-      if (_this.props.in || _this.props.direction === 'down' || _this.props.direction === 'right') {
-        return;
-      }
+    return (0, _possibleConstructorReturn2.default)(_this, (_temp = _this = (0, _possibleConstructorReturn2.default)(this, (_ref = Slide.__proto__ || (0, _getPrototypeOf.default)(Slide)).call.apply(_ref, [this].concat(args))), Object.defineProperty((0, _assertThisInitialized2.default)(_this), "mounted", {
+      configurable: true,
+      enumerable: true,
+      writable: true,
+      value: false
+    }), Object.defineProperty((0, _assertThisInitialized2.default)(_this), "transition", {
+      configurable: true,
+      enumerable: true,
+      writable: true,
+      value: null
+    }), Object.defineProperty((0, _assertThisInitialized2.default)(_this), "handleResize", {
+      configurable: true,
+      enumerable: true,
+      writable: true,
+      value: (0, _debounce.default)(function () {
+        // Skip configuration where the position is screen size invariant.
+        if (_this.props.in || _this.props.direction === 'down' || _this.props.direction === 'right') {
+          return;
+        }
 
-      var node = _reactDom.default.findDOMNode(_this.transition);
+        var node = _reactDom.default.findDOMNode(_this.transition);
 
-      if (node) {
+        if (node) {
+          setTranslateValue(_this.props, node);
+        }
+      }, 166)
+    }), Object.defineProperty((0, _assertThisInitialized2.default)(_this), "handleEnter", {
+      configurable: true,
+      enumerable: true,
+      writable: true,
+      value: function value(node) {
         setTranslateValue(_this.props, node);
-      }
-    }, 166), _this.handleEnter = function (node) {
-      setTranslateValue(_this.props, node);
-      (0, _utils.reflow)(node);
+        (0, _utils.reflow)(node);
 
-      if (_this.props.onEnter) {
-        _this.props.onEnter(node);
+        if (_this.props.onEnter) {
+          _this.props.onEnter(node);
+        }
       }
-    }, _this.handleEntering = function (node) {
-      var theme = _this.props.theme;
-      var transitionProps = (0, _utils.getTransitionProps)(_this.props, {
-        mode: 'enter'
-      });
-      node.style.webkitTransition = theme.transitions.create('-webkit-transform', (0, _objectSpread2.default)({}, transitionProps, {
-        easing: theme.transitions.easing.easeOut
-      }));
-      node.style.transition = theme.transitions.create('transform', (0, _objectSpread2.default)({}, transitionProps, {
-        easing: theme.transitions.easing.easeOut
-      }));
-      node.style.webkitTransform = 'translate(0, 0)';
-      node.style.transform = 'translate(0, 0)';
+    }), Object.defineProperty((0, _assertThisInitialized2.default)(_this), "handleEntering", {
+      configurable: true,
+      enumerable: true,
+      writable: true,
+      value: function value(node) {
+        var theme = _this.props.theme;
+        var transitionProps = (0, _utils.getTransitionProps)(_this.props, {
+          mode: 'enter'
+        });
+        node.style.webkitTransition = theme.transitions.create('-webkit-transform', (0, _objectSpread2.default)({}, transitionProps, {
+          easing: theme.transitions.easing.easeOut
+        }));
+        node.style.transition = theme.transitions.create('transform', (0, _objectSpread2.default)({}, transitionProps, {
+          easing: theme.transitions.easing.easeOut
+        }));
+        node.style.webkitTransform = 'translate(0, 0)';
+        node.style.transform = 'translate(0, 0)';
 
-      if (_this.props.onEntering) {
-        _this.props.onEntering(node);
+        if (_this.props.onEntering) {
+          _this.props.onEntering(node);
+        }
       }
-    }, _this.handleExit = function (node) {
-      var theme = _this.props.theme;
-      var transitionProps = (0, _utils.getTransitionProps)(_this.props, {
-        mode: 'exit'
-      });
-      node.style.webkitTransition = theme.transitions.create('-webkit-transform', (0, _objectSpread2.default)({}, transitionProps, {
-        easing: theme.transitions.easing.sharp
-      }));
-      node.style.transition = theme.transitions.create('transform', (0, _objectSpread2.default)({}, transitionProps, {
-        easing: theme.transitions.easing.sharp
-      }));
-      setTranslateValue(_this.props, node);
+    }), Object.defineProperty((0, _assertThisInitialized2.default)(_this), "handleExit", {
+      configurable: true,
+      enumerable: true,
+      writable: true,
+      value: function value(node) {
+        var theme = _this.props.theme;
+        var transitionProps = (0, _utils.getTransitionProps)(_this.props, {
+          mode: 'exit'
+        });
+        node.style.webkitTransition = theme.transitions.create('-webkit-transform', (0, _objectSpread2.default)({}, transitionProps, {
+          easing: theme.transitions.easing.sharp
+        }));
+        node.style.transition = theme.transitions.create('transform', (0, _objectSpread2.default)({}, transitionProps, {
+          easing: theme.transitions.easing.sharp
+        }));
+        setTranslateValue(_this.props, node);
 
-      if (_this.props.onExit) {
-        _this.props.onExit(node);
+        if (_this.props.onExit) {
+          _this.props.onExit(node);
+        }
       }
-    }, _this.handleExited = function (node) {
-      // No need for transitions when the component is hidden
-      node.style.webkitTransition = '';
-      node.style.transition = '';
+    }), Object.defineProperty((0, _assertThisInitialized2.default)(_this), "handleExited", {
+      configurable: true,
+      enumerable: true,
+      writable: true,
+      value: function value(node) {
+        // No need for transitions when the component is hidden
+        node.style.webkitTransition = '';
+        node.style.transition = '';
 
-      if (_this.props.onExited) {
-        _this.props.onExited(node);
+        if (_this.props.onExited) {
+          _this.props.onExited(node);
+        }
       }
-    }, _temp));
+    }), _temp));
   }
 
   (0, _createClass2.default)(Slide, [{
@@ -3077,7 +3371,7 @@ function (_React$Component) {
   }, {
     key: "componentWillUnmount",
     value: function componentWillUnmount() {
-      this.handleResize.clear();
+      this.handleResize.cancel();
     }
   }, {
     key: "updatePosition",
@@ -3206,7 +3500,7 @@ exports.default = _default;
 "use strict";
 
 
-var _interopRequireDefault = __webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js");
+var _interopRequireDefault = __webpack_require__("./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -3228,28 +3522,32 @@ var _Slide = _interopRequireDefault(__webpack_require__("./node_modules/@materia
 "use strict";
 
 
-var _interopRequireDefault = __webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js");
+var _interopRequireDefault = __webpack_require__("./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = exports.styles = void 0;
 
-var _extends2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/extends.js"));
+var _extends2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/extends.js"));
 
-var _objectWithoutProperties2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/objectWithoutProperties.js"));
+var _objectWithoutProperties2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/objectWithoutProperties.js"));
 
-var _classCallCheck2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/classCallCheck.js"));
+var _getPrototypeOf = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/core-js/object/get-prototype-of.js"));
 
-var _createClass2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/createClass.js"));
+var _classCallCheck2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/classCallCheck.js"));
 
-var _possibleConstructorReturn2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/possibleConstructorReturn.js"));
+var _createClass2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/createClass.js"));
 
-var _inherits2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/inherits.js"));
+var _possibleConstructorReturn2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js"));
 
-var _defineProperty2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/defineProperty.js"));
+var _inherits2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/inherits.js"));
 
-var _objectSpread8 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/objectSpread.js"));
+var _assertThisInitialized2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/assertThisInitialized.js"));
+
+var _defineProperty2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/defineProperty.js"));
+
+var _objectSpread8 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/objectSpread.js"));
 
 var _react = _interopRequireDefault(__webpack_require__("./node_modules/react/cjs/react.development.js"));
 
@@ -3257,7 +3555,7 @@ var _propTypes = _interopRequireDefault(__webpack_require__("./node_modules/next
 
 var _classnames = _interopRequireDefault(__webpack_require__("./node_modules/classnames/index.js"));
 
-var _reactEventListener = _interopRequireDefault(__webpack_require__("./node_modules/react-event-listener/dist/react-event-listener.cjs.js"));
+var _reactEventListener = _interopRequireDefault(__webpack_require__("./node_modules/react-event-listener/lib/index.js"));
 
 var _withStyles = _interopRequireDefault(__webpack_require__("./node_modules/@material-ui/core/styles/withStyles.js"));
 
@@ -3328,14 +3626,8 @@ var styles = function styles(theme) {
     }, bottomSpace, leftSpace)))
   };
 };
-/* istanbul ignore if */
-
 
 exports.styles = styles;
-
-if ("development" !== 'production' && !_react.default.createContext) {
-  throw new Error('Material-UI: react@16.3.0 or greater is required.');
-}
 
 var Snackbar =
 /*#__PURE__*/
@@ -3353,39 +3645,79 @@ function (_React$Component) {
       args[_key] = arguments[_key];
     }
 
-    return (0, _possibleConstructorReturn2.default)(_this, (_temp = _this = (0, _possibleConstructorReturn2.default)(this, (_ref = Snackbar.__proto__ || Object.getPrototypeOf(Snackbar)).call.apply(_ref, [this].concat(args))), _this.state = {}, _this.timerAutoHide = null, _this.handleMouseEnter = function (event) {
-      if (_this.props.onMouseEnter) {
-        _this.props.onMouseEnter(event);
-      }
-
-      _this.handlePause();
-    }, _this.handleMouseLeave = function (event) {
-      if (_this.props.onMouseLeave) {
-        _this.props.onMouseLeave(event);
-      }
-
-      _this.handleResume();
-    }, _this.handleClickAway = function (event) {
-      if (_this.props.onClose) {
-        _this.props.onClose(event, 'clickaway');
-      }
-    }, _this.handlePause = function () {
-      clearTimeout(_this.timerAutoHide);
-    }, _this.handleResume = function () {
-      if (_this.props.autoHideDuration != null) {
-        if (_this.props.resumeHideDuration !== undefined) {
-          _this.setAutoHideTimer(_this.props.resumeHideDuration);
-
-          return;
+    return (0, _possibleConstructorReturn2.default)(_this, (_temp = _this = (0, _possibleConstructorReturn2.default)(this, (_ref = Snackbar.__proto__ || (0, _getPrototypeOf.default)(Snackbar)).call.apply(_ref, [this].concat(args))), Object.defineProperty((0, _assertThisInitialized2.default)(_this), "state", {
+      configurable: true,
+      enumerable: true,
+      writable: true,
+      value: {}
+    }), Object.defineProperty((0, _assertThisInitialized2.default)(_this), "timerAutoHide", {
+      configurable: true,
+      enumerable: true,
+      writable: true,
+      value: null
+    }), Object.defineProperty((0, _assertThisInitialized2.default)(_this), "handleMouseEnter", {
+      configurable: true,
+      enumerable: true,
+      writable: true,
+      value: function value(event) {
+        if (_this.props.onMouseEnter) {
+          _this.props.onMouseEnter(event);
         }
 
-        _this.setAutoHideTimer((_this.props.autoHideDuration || 0) * 0.5);
+        _this.handlePause();
       }
-    }, _this.handleExited = function () {
-      _this.setState({
-        exited: true
-      });
-    }, _temp));
+    }), Object.defineProperty((0, _assertThisInitialized2.default)(_this), "handleMouseLeave", {
+      configurable: true,
+      enumerable: true,
+      writable: true,
+      value: function value(event) {
+        if (_this.props.onMouseLeave) {
+          _this.props.onMouseLeave(event);
+        }
+
+        _this.handleResume();
+      }
+    }), Object.defineProperty((0, _assertThisInitialized2.default)(_this), "handleClickAway", {
+      configurable: true,
+      enumerable: true,
+      writable: true,
+      value: function value(event) {
+        if (_this.props.onClose) {
+          _this.props.onClose(event, 'clickaway');
+        }
+      }
+    }), Object.defineProperty((0, _assertThisInitialized2.default)(_this), "handlePause", {
+      configurable: true,
+      enumerable: true,
+      writable: true,
+      value: function value() {
+        clearTimeout(_this.timerAutoHide);
+      }
+    }), Object.defineProperty((0, _assertThisInitialized2.default)(_this), "handleResume", {
+      configurable: true,
+      enumerable: true,
+      writable: true,
+      value: function value() {
+        if (_this.props.autoHideDuration != null) {
+          if (_this.props.resumeHideDuration !== undefined) {
+            _this.setAutoHideTimer(_this.props.resumeHideDuration);
+
+            return;
+          }
+
+          _this.setAutoHideTimer((_this.props.autoHideDuration || 0) * 0.5);
+        }
+      }
+    }), Object.defineProperty((0, _assertThisInitialized2.default)(_this), "handleExited", {
+      configurable: true,
+      enumerable: true,
+      writable: true,
+      value: function value() {
+        _this.setState({
+          exited: true
+        });
+      }
+    }), _temp));
   }
 
   (0, _createClass2.default)(Snackbar, [{
@@ -3688,7 +4020,7 @@ exports.default = _default;
 "use strict";
 
 
-var _interopRequireDefault = __webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js");
+var _interopRequireDefault = __webpack_require__("./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -3710,18 +4042,18 @@ var _Snackbar = _interopRequireDefault(__webpack_require__("./node_modules/@mate
 "use strict";
 
 
-var _interopRequireDefault = __webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js");
+var _interopRequireDefault = __webpack_require__("./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = exports.styles = void 0;
 
-var _extends2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/extends.js"));
+var _extends2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/extends.js"));
 
-var _objectWithoutProperties2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/objectWithoutProperties.js"));
+var _objectWithoutProperties2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/objectWithoutProperties.js"));
 
-var _defineProperty2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/defineProperty.js"));
+var _defineProperty2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/defineProperty.js"));
 
 var _react = _interopRequireDefault(__webpack_require__("./node_modules/react/cjs/react.development.js"));
 
@@ -3833,7 +4165,7 @@ exports.default = _default;
 "use strict";
 
 
-var _interopRequireDefault = __webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js");
+var _interopRequireDefault = __webpack_require__("./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -3855,18 +4187,18 @@ var _SnackbarContent = _interopRequireDefault(__webpack_require__("./node_module
 "use strict";
 
 
-var _interopRequireDefault = __webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js");
+var _interopRequireDefault = __webpack_require__("./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = exports.styles = void 0;
 
-var _extends2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/extends.js"));
+var _extends2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/extends.js"));
 
-var _defineProperty2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/defineProperty.js"));
+var _defineProperty2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/defineProperty.js"));
 
-var _objectWithoutProperties2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/objectWithoutProperties.js"));
+var _objectWithoutProperties2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/objectWithoutProperties.js"));
 
 var _react = _interopRequireDefault(__webpack_require__("./node_modules/react/cjs/react.development.js"));
 
@@ -4054,7 +4386,7 @@ exports.default = _default;
 "use strict";
 
 
-var _interopRequireDefault = __webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js");
+var _interopRequireDefault = __webpack_require__("./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -4219,7 +4551,7 @@ exports.default = _default;
 "use strict";
 
 
-var _interopRequireDefault = __webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js");
+var _interopRequireDefault = __webpack_require__("./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -4234,7 +4566,7 @@ exports.fade = fade;
 exports.darken = darken;
 exports.lighten = lighten;
 
-var _warning = _interopRequireDefault(__webpack_require__("./node_modules/warning/warning.js"));
+var _warning = _interopRequireDefault(__webpack_require__("./node_modules/warning/browser.js"));
 
 //  weak
 
@@ -4486,7 +4818,7 @@ function lighten(color, coefficient) {
 "use strict";
 
 
-var _interopRequireDefault = __webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js");
+var _interopRequireDefault = __webpack_require__("./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -4494,9 +4826,9 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = createBreakpoints;
 exports.keys = void 0;
 
-var _objectSpread2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/objectSpread.js"));
+var _objectSpread2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/objectSpread.js"));
 
-var _objectWithoutProperties2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/objectWithoutProperties.js"));
+var _objectWithoutProperties2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/objectWithoutProperties.js"));
 
 // Sorted ASC by size. That's important.
 // It can't be configured as it's used statically for propTypes.
@@ -4572,21 +4904,18 @@ function createBreakpoints(breakpoints) {
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(global) {
 
-var _interopRequireDefault = __webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js");
+
+var _interopRequireDefault = __webpack_require__("./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = createGenerateClassName;
 
-var _warning = _interopRequireDefault(__webpack_require__("./node_modules/warning/warning.js"));
+var _warning = _interopRequireDefault(__webpack_require__("./node_modules/warning/browser.js"));
 
-/* eslint-disable no-underscore-dangle */
-// People might bundle this classname generator twice.
-// We need to use a global.
-global.__MUI_GENERATOR_COUNTER__ = 0; // Returns a function which generates unique class names based on counters.
+var generatorCounter = 0; // Returns a function which generates unique class names based on counters.
 // When new generator function is created, rule counter is reset.
 // We need to reset the rule counter for SSR for each request.
 //
@@ -4604,11 +4933,13 @@ function createGenerateClassName() {
   // so the warning is only triggered in production.
   // - We expect a class name generator to be instantiated per new request on the server,
   // so the warning is only triggered client side.
+  // - You can get away with having multiple class name generators
+  // by modifying the `productionPrefix`.
 
   if (false) {
-    global.__MUI_GENERATOR_COUNTER__ += 1;
+    generatorCounter += 1;
 
-    if (global.__MUI_GENERATOR_COUNTER__ > 2) {
+    if (generatorCounter > 2) {
       // eslint-disable-next-line no-console
       console.error(['Material-UI: we have detected more than needed creation of the class name generator.', 'You should only use one class name generator on the client side.', 'If you do otherwise, you take the risk to have conflicting class names in production.'].join('\n'));
     }
@@ -4654,7 +4985,6 @@ function createGenerateClassName() {
     return "".concat(rule.key, "-").concat(ruleCounter);
   };
 }
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__("./node_modules/webpack/buildin/global.js")))
 
 /***/ }),
 
@@ -4664,16 +4994,16 @@ function createGenerateClassName() {
 "use strict";
 
 
-var _interopRequireDefault = __webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js");
+var _interopRequireDefault = __webpack_require__("./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = createMixins;
 
-var _defineProperty2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/defineProperty.js"));
+var _defineProperty2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/defineProperty.js"));
 
-var _objectSpread3 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/objectSpread.js"));
+var _objectSpread3 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/objectSpread.js"));
 
 function createMixins(breakpoints, spacing, mixins) {
   var _toolbar;
@@ -4707,20 +5037,20 @@ function createMixins(breakpoints, spacing, mixins) {
 "use strict";
 
 
-var _interopRequireDefault = __webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js");
+var _interopRequireDefault = __webpack_require__("./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
 
-var _objectSpread2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/objectSpread.js"));
+var _objectSpread2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/objectSpread.js"));
 
-var _objectWithoutProperties2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/objectWithoutProperties.js"));
+var _objectWithoutProperties2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/objectWithoutProperties.js"));
 
 var _deepmerge = _interopRequireDefault(__webpack_require__("./node_modules/deepmerge/dist/es.js"));
 
-var _warning = _interopRequireDefault(__webpack_require__("./node_modules/warning/warning.js"));
+var _warning = _interopRequireDefault(__webpack_require__("./node_modules/warning/browser.js"));
 
 var _createTypography = _interopRequireDefault(__webpack_require__("./node_modules/@material-ui/core/styles/createTypography.js"));
 
@@ -4784,7 +5114,7 @@ exports.default = _default;
 "use strict";
 
 
-var _interopRequireDefault = __webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js");
+var _interopRequireDefault = __webpack_require__("./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -4792,11 +5122,11 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = createPalette;
 exports.dark = exports.light = void 0;
 
-var _objectSpread2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/objectSpread.js"));
+var _objectSpread2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/objectSpread.js"));
 
-var _objectWithoutProperties2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/objectWithoutProperties.js"));
+var _objectWithoutProperties2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/objectWithoutProperties.js"));
 
-var _warning = _interopRequireDefault(__webpack_require__("./node_modules/warning/warning.js"));
+var _warning = _interopRequireDefault(__webpack_require__("./node_modules/warning/browser.js"));
 
 var _deepmerge = _interopRequireDefault(__webpack_require__("./node_modules/deepmerge/dist/es.js"));
 
@@ -4986,14 +5316,14 @@ function createPalette(palette) {
 "use strict";
 
 
-var _interopRequireDefault = __webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js");
+var _interopRequireDefault = __webpack_require__("./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = createTypography;
 
-var _objectWithoutProperties2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/objectWithoutProperties.js"));
+var _objectWithoutProperties2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/objectWithoutProperties.js"));
 
 var _deepmerge = _interopRequireDefault(__webpack_require__("./node_modules/deepmerge/dist/es.js"));
 
@@ -5128,16 +5458,18 @@ function createTypography(palette, typography) {
 "use strict";
 
 
-var _interopRequireDefault = __webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js");
+var _interopRequireDefault = __webpack_require__("./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
 
-var _objectSpread2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/objectSpread.js"));
+var _keys = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/core-js/object/keys.js"));
 
-var _warning = _interopRequireDefault(__webpack_require__("./node_modules/warning/warning.js"));
+var _objectSpread2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/objectSpread.js"));
+
+var _warning = _interopRequireDefault(__webpack_require__("./node_modules/warning/browser.js"));
 
 var _deepmerge = _interopRequireDefault(__webpack_require__("./node_modules/deepmerge/dist/es.js"));
 
@@ -5159,7 +5491,7 @@ function getStylesCreator(stylesOrCreator) {
 
     var overrides = theme.overrides[name];
     var stylesWithOverrides = (0, _objectSpread2.default)({}, styles);
-    Object.keys(overrides).forEach(function (key) {
+    (0, _keys.default)(overrides).forEach(function (key) {
        true ? (0, _warning.default)(stylesWithOverrides[key], ['Material-UI: you are trying to override a style that does not exist.', "Fix the `".concat(key, "` key of `theme.overrides.").concat(name, "`.")].join('\n')) : void 0;
       stylesWithOverrides[key] = (0, _deepmerge.default)(stylesWithOverrides[key], overrides[key], {
         arrayMerge: arrayMerge
@@ -5213,7 +5545,7 @@ exports.default = _default;
 "use strict";
 
 
-var _interopRequireDefault = __webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js");
+var _interopRequireDefault = __webpack_require__("./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -5294,14 +5626,14 @@ exports.default = _default;
 "use strict";
 
 
-var _interopRequireDefault = __webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js");
+var _interopRequireDefault = __webpack_require__("./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = exports.CHANNEL = void 0;
 
-var _defineProperty2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/defineProperty.js"));
+var _defineProperty2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/defineProperty.js"));
 
 var _propTypes = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/prop-types/index.js"));
 
@@ -5341,20 +5673,22 @@ exports.default = _default;
 "use strict";
 
 
-var _interopRequireDefault = __webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js");
+var _interopRequireDefault = __webpack_require__("./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = exports.isNumber = exports.isString = exports.formatMs = exports.duration = exports.easing = void 0;
 
-var _objectWithoutProperties2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/objectWithoutProperties.js"));
+var _keys = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/core-js/object/keys.js"));
 
-var _warning = _interopRequireDefault(__webpack_require__("./node_modules/warning/warning.js"));
+var _objectWithoutProperties2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/objectWithoutProperties.js"));
+
+var _isNan = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/core-js/number/is-nan.js"));
+
+var _warning = _interopRequireDefault(__webpack_require__("./node_modules/warning/browser.js"));
 
 /* eslint-disable no-param-reassign */
-
-/* eslint-disable no-restricted-globals */
 // Follow https://material.google.com/motion/duration-easing.html#duration-easing-natural-easing-curves
 // to learn the context in which each easing should be used.
 var easing = {
@@ -5399,7 +5733,7 @@ var isString = function isString(value) {
 exports.isString = isString;
 
 var isNumber = function isNumber(value) {
-  return !isNaN(parseFloat(value));
+  return !(0, _isNan.default)(parseFloat(value));
 };
 /**
  * @param {string|Array} props
@@ -5430,7 +5764,7 @@ var _default = {
        true ? (0, _warning.default)(isNumber(durationOption) || isString(durationOption), "Material-UI: argument \"duration\" must be a number or a string but found ".concat(durationOption, ".")) : void 0;
        true ? (0, _warning.default)(isString(easingOption), 'Material-UI: argument "easing" must be a string.') : void 0;
        true ? (0, _warning.default)(isNumber(delay) || isString(delay), 'Material-UI: argument "delay" must be a number or a string.') : void 0;
-       true ? (0, _warning.default)(Object.keys(other).length === 0, "Material-UI: unrecognized argument(s) [".concat(Object.keys(other).join(','), "]")) : void 0;
+       true ? (0, _warning.default)((0, _keys.default)(other).length === 0, "Material-UI: unrecognized argument(s) [".concat((0, _keys.default)(other).join(','), "]")) : void 0;
       return (Array.isArray(props) ? props : [props]).map(function (animatedProp) {
         return "".concat(animatedProp, " ").concat(typeof durationOption === 'string' ? durationOption : formatMs(durationOption), " ").concat(easingOption, " ").concat(typeof delay === 'string' ? delay : formatMs(delay));
       }).join(',');
@@ -5456,34 +5790,44 @@ exports.default = _default;
 "use strict";
 
 
-var _interopRequireWildcard = __webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/interopRequireWildcard.js");
+var _interopRequireWildcard = __webpack_require__("./node_modules/@babel/runtime/helpers/interopRequireWildcard.js");
 
-var _interopRequireDefault = __webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js");
+var _interopRequireDefault = __webpack_require__("./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = exports.sheetsManager = void 0;
 
-var _extends2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/extends.js"));
+var _extends2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/extends.js"));
 
-var _objectSpread2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/objectSpread.js"));
+var _keys = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/core-js/object/keys.js"));
 
-var _classCallCheck2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/classCallCheck.js"));
+var _objectSpread2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/objectSpread.js"));
 
-var _createClass2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/createClass.js"));
+var _getPrototypeOf = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/core-js/object/get-prototype-of.js"));
 
-var _possibleConstructorReturn2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/possibleConstructorReturn.js"));
+var _classCallCheck2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/classCallCheck.js"));
 
-var _inherits2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/inherits.js"));
+var _createClass2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/createClass.js"));
 
-var _objectWithoutProperties2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/objectWithoutProperties.js"));
+var _possibleConstructorReturn2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js"));
+
+var _inherits2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/inherits.js"));
+
+var _assertThisInitialized2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/assertThisInitialized.js"));
+
+var _objectWithoutProperties2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/objectWithoutProperties.js"));
+
+var _map = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/core-js/map.js"));
+
+var _minSafeInteger = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/core-js/number/min-safe-integer.js"));
 
 var _react = _interopRequireDefault(__webpack_require__("./node_modules/react/cjs/react.development.js"));
 
 var _propTypes = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/prop-types/index.js"));
 
-var _warning = _interopRequireDefault(__webpack_require__("./node_modules/warning/warning.js"));
+var _warning = _interopRequireDefault(__webpack_require__("./node_modules/warning/browser.js"));
 
 var _hoistNonReactStatics = _interopRequireDefault(__webpack_require__("./node_modules/hoist-non-react-statics/index.js"));
 
@@ -5521,9 +5865,9 @@ var generateClassName = (0, _createGenerateClassName.default)(); // Global index
 // So our solution is to render sheets them in the reverse order child->sheet, so
 // that parent has a higher specificity.
 
-var indexCounter = -10e10; // Exported for test purposes
+var indexCounter = _minSafeInteger.default; // Exported for test purposes
 
-var sheetsManager = new Map(); // We use the same empty object to ref count the styles that don't need a theme object.
+var sheetsManager = new _map.default(); // We use the same empty object to ref count the styles that don't need a theme object.
 
 exports.sheetsManager = sheetsManager;
 var noopTheme = {}; // In order to have self-supporting components, we rely on default theme when not provided.
@@ -5566,15 +5910,55 @@ var withStyles = function withStyles(stylesOrCreator) {
         var _this;
 
         (0, _classCallCheck2.default)(this, WithStyles);
-        _this = (0, _possibleConstructorReturn2.default)(this, (WithStyles.__proto__ || Object.getPrototypeOf(WithStyles)).call(this, props, context));
-        _this.state = {};
-        _this.disableStylesGeneration = false;
-        _this.jss = null;
-        _this.sheetOptions = null;
-        _this.sheetsManager = sheetsManager;
-        _this.stylesCreatorSaved = null;
-        _this.theme = null;
-        _this.unsubscribeId = null;
+        _this = (0, _possibleConstructorReturn2.default)(this, (WithStyles.__proto__ || (0, _getPrototypeOf.default)(WithStyles)).call(this, props, context));
+        Object.defineProperty((0, _assertThisInitialized2.default)(_this), "state", {
+          configurable: true,
+          enumerable: true,
+          writable: true,
+          value: {}
+        });
+        Object.defineProperty((0, _assertThisInitialized2.default)(_this), "disableStylesGeneration", {
+          configurable: true,
+          enumerable: true,
+          writable: true,
+          value: false
+        });
+        Object.defineProperty((0, _assertThisInitialized2.default)(_this), "jss", {
+          configurable: true,
+          enumerable: true,
+          writable: true,
+          value: null
+        });
+        Object.defineProperty((0, _assertThisInitialized2.default)(_this), "sheetOptions", {
+          configurable: true,
+          enumerable: true,
+          writable: true,
+          value: null
+        });
+        Object.defineProperty((0, _assertThisInitialized2.default)(_this), "sheetsManager", {
+          configurable: true,
+          enumerable: true,
+          writable: true,
+          value: sheetsManager
+        });
+        Object.defineProperty((0, _assertThisInitialized2.default)(_this), "stylesCreatorSaved", {
+          configurable: true,
+          enumerable: true,
+          writable: true,
+          value: null
+        });
+        Object.defineProperty((0, _assertThisInitialized2.default)(_this), "theme", {
+          configurable: true,
+          enumerable: true,
+          writable: true,
+          value: null
+        });
+        Object.defineProperty((0, _assertThisInitialized2.default)(_this), "unsubscribeId", {
+          configurable: true,
+          enumerable: true,
+          writable: true,
+          value: null
+        });
         _this.jss = _this.context[ns.jss] || jss;
         var muiThemeProviderOptions = _this.context.muiThemeProviderOptions;
 
@@ -5679,8 +6063,8 @@ var withStyles = function withStyles(stylesOrCreator) {
 
           if (generate) {
             if (this.props.classes) {
-              this.cacheClasses.value = (0, _objectSpread2.default)({}, this.cacheClasses.lastJSS, Object.keys(this.props.classes).reduce(function (accumulator, key) {
-                 true ? (0, _warning.default)(_this3.cacheClasses.lastJSS[key] || _this3.disableStylesGeneration, ["Material-UI: the key `".concat(key, "` ") + "provided to the classes property is not implemented in ".concat((0, _getDisplayName.default)(Component), "."), "You can only override one of the following: ".concat(Object.keys(_this3.cacheClasses.lastJSS).join(','))].join('\n')) : void 0;
+              this.cacheClasses.value = (0, _objectSpread2.default)({}, this.cacheClasses.lastJSS, (0, _keys.default)(this.props.classes).reduce(function (accumulator, key) {
+                 true ? (0, _warning.default)(_this3.cacheClasses.lastJSS[key] || _this3.disableStylesGeneration, ["Material-UI: the key `".concat(key, "` ") + "provided to the classes property is not implemented in ".concat((0, _getDisplayName.default)(Component), "."), "You can only override one of the following: ".concat((0, _keys.default)(_this3.cacheClasses.lastJSS).join(','))].join('\n')) : void 0;
                  true ? (0, _warning.default)(!_this3.props.classes[key] || typeof _this3.props.classes[key] === 'string', ["Material-UI: the key `".concat(key, "` ") + "provided to the classes property is not valid for ".concat((0, _getDisplayName.default)(Component), "."), "You need to provide a non empty string instead of: ".concat(_this3.props.classes[key], ".")].join('\n')) : void 0;
 
                 if (_this3.props.classes[key]) {
@@ -5707,7 +6091,7 @@ var withStyles = function withStyles(stylesOrCreator) {
           var sheetManager = this.sheetsManager.get(stylesCreatorSaved);
 
           if (!sheetManager) {
-            sheetManager = new Map();
+            sheetManager = new _map.default();
             this.sheetsManager.set(stylesCreatorSaved, sheetManager);
           }
 
@@ -5838,22 +6222,26 @@ exports.default = _default;
 "use strict";
 
 
-var _interopRequireDefault = __webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js");
+var _interopRequireDefault = __webpack_require__("./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
 
-var _extends2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/extends.js"));
+var _extends2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/extends.js"));
 
-var _classCallCheck2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/classCallCheck.js"));
+var _getPrototypeOf = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/core-js/object/get-prototype-of.js"));
 
-var _createClass2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/createClass.js"));
+var _classCallCheck2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/classCallCheck.js"));
 
-var _possibleConstructorReturn2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/possibleConstructorReturn.js"));
+var _createClass2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/createClass.js"));
 
-var _inherits2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/inherits.js"));
+var _possibleConstructorReturn2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js"));
+
+var _inherits2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/inherits.js"));
+
+var _assertThisInitialized2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/assertThisInitialized.js"));
 
 var _react = _interopRequireDefault(__webpack_require__("./node_modules/react/cjs/react.development.js"));
 
@@ -5888,9 +6276,19 @@ var withTheme = function withTheme() {
         var _this;
 
         (0, _classCallCheck2.default)(this, WithTheme);
-        _this = (0, _possibleConstructorReturn2.default)(this, (WithTheme.__proto__ || Object.getPrototypeOf(WithTheme)).call(this, props, context));
-        _this.state = {};
-        _this.unsubscribeId = null;
+        _this = (0, _possibleConstructorReturn2.default)(this, (WithTheme.__proto__ || (0, _getPrototypeOf.default)(WithTheme)).call(this, props, context));
+        Object.defineProperty((0, _assertThisInitialized2.default)(_this), "state", {
+          configurable: true,
+          enumerable: true,
+          writable: true,
+          value: {}
+        });
+        Object.defineProperty((0, _assertThisInitialized2.default)(_this), "unsubscribeId", {
+          configurable: true,
+          enumerable: true,
+          writable: true,
+          value: null
+        });
         _this.state = {
           // We use || as the function call is lazy evaluated.
           theme: _themeListener.default.initial(context) || getDefaultTheme()
@@ -6010,7 +6408,7 @@ function getTransitionProps(props, options) {
 "use strict";
 
 
-var _interopRequireDefault = __webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js");
+var _interopRequireDefault = __webpack_require__("./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -6021,9 +6419,11 @@ exports.findIndex = findIndex;
 exports.find = find;
 exports.createChainedFunction = createChainedFunction;
 
-var _typeof2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/typeof.js"));
+var _typeof2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/typeof.js"));
 
-var _warning = _interopRequireDefault(__webpack_require__("./node_modules/warning/warning.js"));
+var _keys = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/core-js/object/keys.js"));
+
+var _warning = _interopRequireDefault(__webpack_require__("./node_modules/warning/browser.js"));
 
 //  weak
 function capitalize(string) {
@@ -6035,7 +6435,7 @@ function capitalize(string) {
 }
 
 function contains(obj, pred) {
-  return Object.keys(pred).every(function (key) {
+  return (0, _keys.default)(pred).every(function (key) {
     return obj.hasOwnProperty(key) && obj[key] === pred[key];
   });
 }
@@ -6080,11 +6480,9 @@ function createChainedFunction() {
     funcs[_key] = arguments[_key];
   }
 
-  return funcs.reduce(function (acc, func) {
-    if (func == null) {
-      return acc;
-    }
-
+  return funcs.filter(function (func) {
+    return func != null;
+  }).reduce(function (acc, func) {
      true ? (0, _warning.default)(typeof func === 'function', 'Material-UI: invalid Argument Type, must only provide functions, undefined, or null.') : void 0;
     return function chainedFunction() {
       for (var _len2 = arguments.length, args = new Array(_len2), _key2 = 0; _key2 < _len2; _key2++) {
@@ -6105,7 +6503,7 @@ function createChainedFunction() {
 "use strict";
 
 
-var _interopRequireDefault = __webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js");
+var _interopRequireDefault = __webpack_require__("./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -6125,24 +6523,10 @@ exports.default = _default;
 
 /***/ }),
 
-/***/ "./node_modules/babel-runtime/core-js/get-iterator.js":
+/***/ "./node_modules/babel-runtime/core-js/object/assign.js":
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = { "default": __webpack_require__("./node_modules/core-js/library/fn/get-iterator.js"), __esModule: true };
-
-/***/ }),
-
-/***/ "./node_modules/babel-runtime/core-js/is-iterable.js":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = { "default": __webpack_require__("./node_modules/core-js/library/fn/is-iterable.js"), __esModule: true };
-
-/***/ }),
-
-/***/ "./node_modules/babel-runtime/core-js/map.js":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = { "default": __webpack_require__("./node_modules/core-js/library/fn/map.js"), __esModule: true };
+module.exports = { "default": __webpack_require__("./node_modules/core-js/library/fn/object/assign.js"), __esModule: true };
 
 /***/ }),
 
@@ -6285,6 +6669,28 @@ exports.default = function (subClass, superClass) {
 
 /***/ }),
 
+/***/ "./node_modules/babel-runtime/helpers/objectWithoutProperties.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+exports.__esModule = true;
+
+exports.default = function (obj, keys) {
+  var target = {};
+
+  for (var i in obj) {
+    if (keys.indexOf(i) >= 0) continue;
+    if (!Object.prototype.hasOwnProperty.call(obj, i)) continue;
+    target[i] = obj[i];
+  }
+
+  return target;
+};
+
+/***/ }),
+
 /***/ "./node_modules/babel-runtime/helpers/possibleConstructorReturn.js":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -6306,64 +6712,6 @@ exports.default = function (self, call) {
 
   return call && ((typeof call === "undefined" ? "undefined" : (0, _typeof3.default)(call)) === "object" || typeof call === "function") ? call : self;
 };
-
-/***/ }),
-
-/***/ "./node_modules/babel-runtime/helpers/slicedToArray.js":
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-var _isIterable2 = __webpack_require__("./node_modules/babel-runtime/core-js/is-iterable.js");
-
-var _isIterable3 = _interopRequireDefault(_isIterable2);
-
-var _getIterator2 = __webpack_require__("./node_modules/babel-runtime/core-js/get-iterator.js");
-
-var _getIterator3 = _interopRequireDefault(_getIterator2);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-exports.default = function () {
-  function sliceIterator(arr, i) {
-    var _arr = [];
-    var _n = true;
-    var _d = false;
-    var _e = undefined;
-
-    try {
-      for (var _i = (0, _getIterator3.default)(arr), _s; !(_n = (_s = _i.next()).done); _n = true) {
-        _arr.push(_s.value);
-
-        if (i && _arr.length === i) break;
-      }
-    } catch (err) {
-      _d = true;
-      _e = err;
-    } finally {
-      try {
-        if (!_n && _i["return"]) _i["return"]();
-      } finally {
-        if (_d) throw _e;
-      }
-    }
-
-    return _arr;
-  }
-
-  return function (arr, i) {
-    if (Array.isArray(arr)) {
-      return arr;
-    } else if ((0, _isIterable3.default)(Object(arr))) {
-      return sliceIterator(arr, i);
-    } else {
-      throw new TypeError("Invalid attempt to destructure non-iterable instance");
-    }
-  };
-}();
 
 /***/ }),
 
@@ -6478,6 +6826,24 @@ module.exports = __webpack_require__("./node_modules/core-js/library/modules/_co
 
 /***/ }),
 
+/***/ "./node_modules/core-js/library/fn/number/is-nan.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__("./node_modules/core-js/library/modules/es6.number.is-nan.js");
+module.exports = __webpack_require__("./node_modules/core-js/library/modules/_core.js").Number.isNaN;
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/fn/number/min-safe-integer.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__("./node_modules/core-js/library/modules/es6.number.min-safe-integer.js");
+module.exports = -0x1fffffffffffff;
+
+
+/***/ }),
+
 /***/ "./node_modules/core-js/library/modules/es6.map.js":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -6501,6 +6867,33 @@ module.exports = __webpack_require__("./node_modules/core-js/library/modules/_co
     return strong.def(validate(this, MAP), key === 0 ? 0 : key, value);
   }
 }, strong, true);
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/es6.number.is-nan.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+// 20.1.2.4 Number.isNaN(number)
+var $export = __webpack_require__("./node_modules/core-js/library/modules/_export.js");
+
+$export($export.S, 'Number', {
+  isNaN: function isNaN(number) {
+    // eslint-disable-next-line no-self-compare
+    return number != number;
+  }
+});
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/es6.number.min-safe-integer.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+// 20.1.2.10 Number.MIN_SAFE_INTEGER
+var $export = __webpack_require__("./node_modules/core-js/library/modules/_export.js");
+
+$export($export.S, 'Number', { MIN_SAFE_INTEGER: -0x1fffffffffffff });
 
 
 /***/ }),
@@ -6818,79 +7211,6 @@ function supportedValue(property, value) {
 
   return cache[cacheKey];
 }
-
-/***/ }),
-
-/***/ "./node_modules/debounce/index.js":
-/***/ (function(module, exports) {
-
-/**
- * Returns a function, that, as long as it continues to be invoked, will not
- * be triggered. The function will be called after it stops being called for
- * N milliseconds. If `immediate` is passed, trigger the function on the
- * leading edge, instead of the trailing. The function also has a property 'clear' 
- * that is a function which will clear the timer to prevent previously scheduled executions. 
- *
- * @source underscore.js
- * @see http://unscriptable.com/2009/03/20/debouncing-javascript-methods/
- * @param {Function} function to wrap
- * @param {Number} timeout in ms (`100`)
- * @param {Boolean} whether to execute at the beginning (`false`)
- * @api public
- */
-
-module.exports = function debounce(func, wait, immediate){
-  var timeout, args, context, timestamp, result;
-  if (null == wait) wait = 100;
-
-  function later() {
-    var last = Date.now() - timestamp;
-
-    if (last < wait && last >= 0) {
-      timeout = setTimeout(later, wait - last);
-    } else {
-      timeout = null;
-      if (!immediate) {
-        result = func.apply(context, args);
-        context = args = null;
-      }
-    }
-  };
-
-  var debounced = function(){
-    context = this;
-    args = arguments;
-    timestamp = Date.now();
-    var callNow = immediate && !timeout;
-    if (!timeout) timeout = setTimeout(later, wait);
-    if (callNow) {
-      result = func.apply(context, args);
-      context = args = null;
-    }
-
-    return result;
-  };
-
-  debounced.clear = function() {
-    if (timeout) {
-      clearTimeout(timeout);
-      timeout = null;
-    }
-  };
-  
-  debounced.flush = function() {
-    if (timeout) {
-      result = func.apply(context, args);
-      context = args = null;
-      
-      clearTimeout(timeout);
-      timeout = null;
-    }
-  };
-
-  return debounced;
-};
-
 
 /***/ }),
 
@@ -7855,7 +8175,7 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 
 exports.default = jssNested;
 
-var _warning = __webpack_require__("./node_modules/jss-nested/node_modules/warning/browser.js");
+var _warning = __webpack_require__("./node_modules/warning/browser.js");
 
 var _warning2 = _interopRequireDefault(_warning);
 
@@ -7956,74 +8276,6 @@ function jssNested() {
 
   return { onProcessStyle: onProcessStyle };
 }
-
-/***/ }),
-
-/***/ "./node_modules/jss-nested/node_modules/warning/browser.js":
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/**
- * Copyright 2014-2015, Facebook, Inc.
- * All rights reserved.
- *
- * This source code is licensed under the BSD-style license found in the
- * LICENSE file in the root directory of this source tree. An additional grant
- * of patent rights can be found in the PATENTS file in the same directory.
- */
-
-
-
-/**
- * Similar to invariant but only logs a warning if the condition is not met.
- * This can be used to log issues in development environments in critical
- * paths. Removing the logging code for production environments will keep the
- * same logic and follow the same code paths.
- */
-
-var warning = function() {};
-
-if (true) {
-  warning = function(condition, format, args) {
-    var len = arguments.length;
-    args = new Array(len > 2 ? len - 2 : 0);
-    for (var key = 2; key < len; key++) {
-      args[key - 2] = arguments[key];
-    }
-    if (format === undefined) {
-      throw new Error(
-        '`warning(condition, format, ...args)` requires a warning ' +
-        'message argument'
-      );
-    }
-
-    if (format.length < 10 || (/^[s\W]*$/).test(format)) {
-      throw new Error(
-        'The warning format should be able to uniquely identify this ' +
-        'warning. Please, use a more descriptive format than: ' + format
-      );
-    }
-
-    if (!condition) {
-      var argIndex = 0;
-      var message = 'Warning: ' +
-        format.replace(/%s/g, function() {
-          return args[argIndex++];
-        });
-      if (typeof console !== 'undefined') {
-        console.error(message);
-      }
-      try {
-        // This error was thrown as a convenience so that you can use this stack
-        // to find the callsite that caused this warning to fire.
-        throw new Error(message);
-      } catch(x) {}
-    }
-  };
-}
-
-module.exports = warning;
-
 
 /***/ }),
 
@@ -8200,7 +8452,7 @@ var Jss = function () {
     _classCallCheck(this, Jss);
 
     this.id = instanceCounter++;
-    this.version = "9.8.3";
+    this.version = "9.8.1";
     this.plugins = new _PluginsRegistry2['default']();
     this.options = {
       createGenerateClassName: _createGenerateClassName2['default'],
@@ -8353,7 +8605,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _warning = __webpack_require__("./node_modules/jss/node_modules/warning/browser.js");
+var _warning = __webpack_require__("./node_modules/warning/browser.js");
 
 var _warning2 = _interopRequireDefault(_warning);
 
@@ -8526,27 +8778,11 @@ var RuleList = function () {
 
   // Original styles object.
   function RuleList(options) {
-    var _this = this;
-
     _classCallCheck(this, RuleList);
 
     this.map = {};
     this.raw = {};
     this.index = [];
-
-    this.update = function (name, data) {
-      var _options = _this.options,
-          plugins = _options.jss.plugins,
-          sheet = _options.sheet;
-
-      if (typeof name === 'string') {
-        plugins.onUpdate(data, _this.get(name), sheet);
-      } else {
-        for (var index = 0; index < _this.index.length; index++) {
-          plugins.onUpdate(name, _this.index[index], sheet);
-        }
-      }
-    };
 
     this.options = options;
     this.classes = options.classes;
@@ -8568,12 +8804,12 @@ var RuleList = function () {
   _createClass(RuleList, [{
     key: 'add',
     value: function add(name, decl, options) {
-      var _options2 = this.options,
-          parent = _options2.parent,
-          sheet = _options2.sheet,
-          jss = _options2.jss,
-          Renderer = _options2.Renderer,
-          generateClassName = _options2.generateClassName;
+      var _options = this.options,
+          parent = _options.parent,
+          sheet = _options.sheet,
+          jss = _options.jss,
+          Renderer = _options.Renderer,
+          generateClassName = _options.generateClassName;
 
 
       options = _extends({
@@ -8686,12 +8922,28 @@ var RuleList = function () {
      */
 
   }, {
-    key: 'link',
+    key: 'update',
+    value: function update(name, data) {
+      var _options2 = this.options,
+          plugins = _options2.jss.plugins,
+          sheet = _options2.sheet;
 
+      if (typeof name === 'string') {
+        plugins.onUpdate(data, this.get(name), sheet);
+        return;
+      }
+
+      for (var index = 0; index < this.index.length; index++) {
+        plugins.onUpdate(name, this.index[index], sheet);
+      }
+    }
 
     /**
      * Link renderable rules with CSSRuleList.
      */
+
+  }, {
+    key: 'link',
     value: function link(cssRules) {
       var map = this.options.sheet.renderer.getUnescapedKeysMap(this.index);
 
@@ -8750,7 +9002,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _warning = __webpack_require__("./node_modules/jss/node_modules/warning/browser.js");
+var _warning = __webpack_require__("./node_modules/warning/browser.js");
 
 var _warning2 = _interopRequireDefault(_warning);
 
@@ -8963,21 +9215,9 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'd
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-/* eslint-disable-next-line no-use-before-define */
 var StyleSheet = function () {
   function StyleSheet(styles, options) {
-    var _this = this;
-
     _classCallCheck(this, StyleSheet);
-
-    this.update = function (name, data) {
-      if (typeof name === 'string') {
-        _this.rules.update(name, data);
-      } else {
-        _this.rules.update(name);
-      }
-      return _this;
-    };
 
     this.attached = false;
     this.deployed = false;
@@ -8991,8 +9231,8 @@ var StyleSheet = function () {
     this.renderer = new options.Renderer(this);
     this.rules = new _RuleList2['default'](this.options);
 
-    for (var _name in styles) {
-      this.rules.add(_name, styles[_name]);
+    for (var name in styles) {
+      this.rules.add(name, styles[name]);
     }
 
     this.rules.process();
@@ -9087,8 +9327,8 @@ var StyleSheet = function () {
     key: 'addRules',
     value: function addRules(styles, options) {
       var added = [];
-      for (var _name2 in styles) {
-        added.push(this.addRule(_name2, styles[_name2], options));
+      for (var name in styles) {
+        added.push(this.addRule(name, styles[name], options));
       }
       return added;
     }
@@ -9166,12 +9406,18 @@ var StyleSheet = function () {
      */
 
   }, {
-    key: 'toString',
-
+    key: 'update',
+    value: function update(name, data) {
+      this.rules.update(name, data);
+      return this;
+    }
 
     /**
      * Convert rules to a CSS string.
      */
+
+  }, {
+    key: 'toString',
     value: function toString(options) {
       return this.rules.toString(options);
     }
@@ -9478,17 +9724,14 @@ var classes = {
    * Generate plugins which will register all rules.
    */
 };
-var plugins = Object.keys(classes).map(function (key) {
+exports['default'] = Object.keys(classes).map(function (key) {
   // https://jsperf.com/indexof-vs-substr-vs-regex-at-the-beginning-3
   var re = new RegExp('^' + key);
-  var RuleClass = classes[key];
   var onCreateRule = function onCreateRule(name, decl, options) {
-    return re.test(name) ? new RuleClass(name, decl, options) : null;
+    return re.test(name) ? new classes[key](name, decl, options) : null;
   };
   return { onCreateRule: onCreateRule };
 });
-
-exports['default'] = plugins;
 
 /***/ }),
 
@@ -9504,7 +9747,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _warning = __webpack_require__("./node_modules/jss/node_modules/warning/browser.js");
+var _warning = __webpack_require__("./node_modules/warning/browser.js");
 
 var _warning2 = _interopRequireDefault(_warning);
 
@@ -10341,7 +10584,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _warning = __webpack_require__("./node_modules/jss/node_modules/warning/browser.js");
+var _warning = __webpack_require__("./node_modules/warning/browser.js");
 
 var _warning2 = _interopRequireDefault(_warning);
 
@@ -10640,7 +10883,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _warning = __webpack_require__("./node_modules/jss/node_modules/warning/browser.js");
+var _warning = __webpack_require__("./node_modules/warning/browser.js");
 
 var _warning2 = _interopRequireDefault(_warning);
 
@@ -10705,7 +10948,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports['default'] = createRule;
 
-var _warning = __webpack_require__("./node_modules/jss/node_modules/warning/browser.js");
+var _warning = __webpack_require__("./node_modules/warning/browser.js");
 
 var _warning2 = _interopRequireDefault(_warning);
 
@@ -11075,74 +11318,6 @@ function symbolObservablePonyfill(root) {
 
 /***/ }),
 
-/***/ "./node_modules/jss/node_modules/warning/browser.js":
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/**
- * Copyright 2014-2015, Facebook, Inc.
- * All rights reserved.
- *
- * This source code is licensed under the BSD-style license found in the
- * LICENSE file in the root directory of this source tree. An additional grant
- * of patent rights can be found in the PATENTS file in the same directory.
- */
-
-
-
-/**
- * Similar to invariant but only logs a warning if the condition is not met.
- * This can be used to log issues in development environments in critical
- * paths. Removing the logging code for production environments will keep the
- * same logic and follow the same code paths.
- */
-
-var warning = function() {};
-
-if (true) {
-  warning = function(condition, format, args) {
-    var len = arguments.length;
-    args = new Array(len > 2 ? len - 2 : 0);
-    for (var key = 2; key < len; key++) {
-      args[key - 2] = arguments[key];
-    }
-    if (format === undefined) {
-      throw new Error(
-        '`warning(condition, format, ...args)` requires a warning ' +
-        'message argument'
-      );
-    }
-
-    if (format.length < 10 || (/^[s\W]*$/).test(format)) {
-      throw new Error(
-        'The warning format should be able to uniquely identify this ' +
-        'warning. Please, use a more descriptive format than: ' + format
-      );
-    }
-
-    if (!condition) {
-      var argIndex = 0;
-      var message = 'Warning: ' +
-        format.replace(/%s/g, function() {
-          return args[argIndex++];
-        });
-      if (typeof console !== 'undefined') {
-        console.error(message);
-      }
-      try {
-        // This error was thrown as a convenience so that you can use this stack
-        // to find the callsite that caused this warning to fire.
-        throw new Error(message);
-      } catch(x) {}
-    }
-  };
-}
-
-module.exports = warning;
-
-
-/***/ }),
-
 /***/ "./node_modules/keycode/index.js":
 /***/ (function(module, exports) {
 
@@ -11325,36 +11500,604 @@ for (var alias in aliases) {
 
 /***/ }),
 
+/***/ "./node_modules/lodash/_Symbol.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+var root = __webpack_require__("./node_modules/lodash/_root.js");
+
+/** Built-in value references. */
+var Symbol = root.Symbol;
+
+module.exports = Symbol;
+
+
+/***/ }),
+
+/***/ "./node_modules/lodash/_baseGetTag.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+var Symbol = __webpack_require__("./node_modules/lodash/_Symbol.js"),
+    getRawTag = __webpack_require__("./node_modules/lodash/_getRawTag.js"),
+    objectToString = __webpack_require__("./node_modules/lodash/_objectToString.js");
+
+/** `Object#toString` result references. */
+var nullTag = '[object Null]',
+    undefinedTag = '[object Undefined]';
+
+/** Built-in value references. */
+var symToStringTag = Symbol ? Symbol.toStringTag : undefined;
+
+/**
+ * The base implementation of `getTag` without fallbacks for buggy environments.
+ *
+ * @private
+ * @param {*} value The value to query.
+ * @returns {string} Returns the `toStringTag`.
+ */
+function baseGetTag(value) {
+  if (value == null) {
+    return value === undefined ? undefinedTag : nullTag;
+  }
+  return (symToStringTag && symToStringTag in Object(value))
+    ? getRawTag(value)
+    : objectToString(value);
+}
+
+module.exports = baseGetTag;
+
+
+/***/ }),
+
+/***/ "./node_modules/lodash/_freeGlobal.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function(global) {/** Detect free variable `global` from Node.js. */
+var freeGlobal = typeof global == 'object' && global && global.Object === Object && global;
+
+module.exports = freeGlobal;
+
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__("./node_modules/webpack/buildin/global.js")))
+
+/***/ }),
+
+/***/ "./node_modules/lodash/_getRawTag.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+var Symbol = __webpack_require__("./node_modules/lodash/_Symbol.js");
+
+/** Used for built-in method references. */
+var objectProto = Object.prototype;
+
+/** Used to check objects for own properties. */
+var hasOwnProperty = objectProto.hasOwnProperty;
+
+/**
+ * Used to resolve the
+ * [`toStringTag`](http://ecma-international.org/ecma-262/7.0/#sec-object.prototype.tostring)
+ * of values.
+ */
+var nativeObjectToString = objectProto.toString;
+
+/** Built-in value references. */
+var symToStringTag = Symbol ? Symbol.toStringTag : undefined;
+
+/**
+ * A specialized version of `baseGetTag` which ignores `Symbol.toStringTag` values.
+ *
+ * @private
+ * @param {*} value The value to query.
+ * @returns {string} Returns the raw `toStringTag`.
+ */
+function getRawTag(value) {
+  var isOwn = hasOwnProperty.call(value, symToStringTag),
+      tag = value[symToStringTag];
+
+  try {
+    value[symToStringTag] = undefined;
+    var unmasked = true;
+  } catch (e) {}
+
+  var result = nativeObjectToString.call(value);
+  if (unmasked) {
+    if (isOwn) {
+      value[symToStringTag] = tag;
+    } else {
+      delete value[symToStringTag];
+    }
+  }
+  return result;
+}
+
+module.exports = getRawTag;
+
+
+/***/ }),
+
+/***/ "./node_modules/lodash/_objectToString.js":
+/***/ (function(module, exports) {
+
+/** Used for built-in method references. */
+var objectProto = Object.prototype;
+
+/**
+ * Used to resolve the
+ * [`toStringTag`](http://ecma-international.org/ecma-262/7.0/#sec-object.prototype.tostring)
+ * of values.
+ */
+var nativeObjectToString = objectProto.toString;
+
+/**
+ * Converts `value` to a string using `Object.prototype.toString`.
+ *
+ * @private
+ * @param {*} value The value to convert.
+ * @returns {string} Returns the converted string.
+ */
+function objectToString(value) {
+  return nativeObjectToString.call(value);
+}
+
+module.exports = objectToString;
+
+
+/***/ }),
+
+/***/ "./node_modules/lodash/_root.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+var freeGlobal = __webpack_require__("./node_modules/lodash/_freeGlobal.js");
+
+/** Detect free variable `self`. */
+var freeSelf = typeof self == 'object' && self && self.Object === Object && self;
+
+/** Used as a reference to the global object. */
+var root = freeGlobal || freeSelf || Function('return this')();
+
+module.exports = root;
+
+
+/***/ }),
+
+/***/ "./node_modules/lodash/debounce.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+var isObject = __webpack_require__("./node_modules/lodash/isObject.js"),
+    now = __webpack_require__("./node_modules/lodash/now.js"),
+    toNumber = __webpack_require__("./node_modules/lodash/toNumber.js");
+
+/** Error message constants. */
+var FUNC_ERROR_TEXT = 'Expected a function';
+
+/* Built-in method references for those with the same name as other `lodash` methods. */
+var nativeMax = Math.max,
+    nativeMin = Math.min;
+
+/**
+ * Creates a debounced function that delays invoking `func` until after `wait`
+ * milliseconds have elapsed since the last time the debounced function was
+ * invoked. The debounced function comes with a `cancel` method to cancel
+ * delayed `func` invocations and a `flush` method to immediately invoke them.
+ * Provide `options` to indicate whether `func` should be invoked on the
+ * leading and/or trailing edge of the `wait` timeout. The `func` is invoked
+ * with the last arguments provided to the debounced function. Subsequent
+ * calls to the debounced function return the result of the last `func`
+ * invocation.
+ *
+ * **Note:** If `leading` and `trailing` options are `true`, `func` is
+ * invoked on the trailing edge of the timeout only if the debounced function
+ * is invoked more than once during the `wait` timeout.
+ *
+ * If `wait` is `0` and `leading` is `false`, `func` invocation is deferred
+ * until to the next tick, similar to `setTimeout` with a timeout of `0`.
+ *
+ * See [David Corbacho's article](https://css-tricks.com/debouncing-throttling-explained-examples/)
+ * for details over the differences between `_.debounce` and `_.throttle`.
+ *
+ * @static
+ * @memberOf _
+ * @since 0.1.0
+ * @category Function
+ * @param {Function} func The function to debounce.
+ * @param {number} [wait=0] The number of milliseconds to delay.
+ * @param {Object} [options={}] The options object.
+ * @param {boolean} [options.leading=false]
+ *  Specify invoking on the leading edge of the timeout.
+ * @param {number} [options.maxWait]
+ *  The maximum time `func` is allowed to be delayed before it's invoked.
+ * @param {boolean} [options.trailing=true]
+ *  Specify invoking on the trailing edge of the timeout.
+ * @returns {Function} Returns the new debounced function.
+ * @example
+ *
+ * // Avoid costly calculations while the window size is in flux.
+ * jQuery(window).on('resize', _.debounce(calculateLayout, 150));
+ *
+ * // Invoke `sendMail` when clicked, debouncing subsequent calls.
+ * jQuery(element).on('click', _.debounce(sendMail, 300, {
+ *   'leading': true,
+ *   'trailing': false
+ * }));
+ *
+ * // Ensure `batchLog` is invoked once after 1 second of debounced calls.
+ * var debounced = _.debounce(batchLog, 250, { 'maxWait': 1000 });
+ * var source = new EventSource('/stream');
+ * jQuery(source).on('message', debounced);
+ *
+ * // Cancel the trailing debounced invocation.
+ * jQuery(window).on('popstate', debounced.cancel);
+ */
+function debounce(func, wait, options) {
+  var lastArgs,
+      lastThis,
+      maxWait,
+      result,
+      timerId,
+      lastCallTime,
+      lastInvokeTime = 0,
+      leading = false,
+      maxing = false,
+      trailing = true;
+
+  if (typeof func != 'function') {
+    throw new TypeError(FUNC_ERROR_TEXT);
+  }
+  wait = toNumber(wait) || 0;
+  if (isObject(options)) {
+    leading = !!options.leading;
+    maxing = 'maxWait' in options;
+    maxWait = maxing ? nativeMax(toNumber(options.maxWait) || 0, wait) : maxWait;
+    trailing = 'trailing' in options ? !!options.trailing : trailing;
+  }
+
+  function invokeFunc(time) {
+    var args = lastArgs,
+        thisArg = lastThis;
+
+    lastArgs = lastThis = undefined;
+    lastInvokeTime = time;
+    result = func.apply(thisArg, args);
+    return result;
+  }
+
+  function leadingEdge(time) {
+    // Reset any `maxWait` timer.
+    lastInvokeTime = time;
+    // Start the timer for the trailing edge.
+    timerId = setTimeout(timerExpired, wait);
+    // Invoke the leading edge.
+    return leading ? invokeFunc(time) : result;
+  }
+
+  function remainingWait(time) {
+    var timeSinceLastCall = time - lastCallTime,
+        timeSinceLastInvoke = time - lastInvokeTime,
+        timeWaiting = wait - timeSinceLastCall;
+
+    return maxing
+      ? nativeMin(timeWaiting, maxWait - timeSinceLastInvoke)
+      : timeWaiting;
+  }
+
+  function shouldInvoke(time) {
+    var timeSinceLastCall = time - lastCallTime,
+        timeSinceLastInvoke = time - lastInvokeTime;
+
+    // Either this is the first call, activity has stopped and we're at the
+    // trailing edge, the system time has gone backwards and we're treating
+    // it as the trailing edge, or we've hit the `maxWait` limit.
+    return (lastCallTime === undefined || (timeSinceLastCall >= wait) ||
+      (timeSinceLastCall < 0) || (maxing && timeSinceLastInvoke >= maxWait));
+  }
+
+  function timerExpired() {
+    var time = now();
+    if (shouldInvoke(time)) {
+      return trailingEdge(time);
+    }
+    // Restart the timer.
+    timerId = setTimeout(timerExpired, remainingWait(time));
+  }
+
+  function trailingEdge(time) {
+    timerId = undefined;
+
+    // Only invoke if we have `lastArgs` which means `func` has been
+    // debounced at least once.
+    if (trailing && lastArgs) {
+      return invokeFunc(time);
+    }
+    lastArgs = lastThis = undefined;
+    return result;
+  }
+
+  function cancel() {
+    if (timerId !== undefined) {
+      clearTimeout(timerId);
+    }
+    lastInvokeTime = 0;
+    lastArgs = lastCallTime = lastThis = timerId = undefined;
+  }
+
+  function flush() {
+    return timerId === undefined ? result : trailingEdge(now());
+  }
+
+  function debounced() {
+    var time = now(),
+        isInvoking = shouldInvoke(time);
+
+    lastArgs = arguments;
+    lastThis = this;
+    lastCallTime = time;
+
+    if (isInvoking) {
+      if (timerId === undefined) {
+        return leadingEdge(lastCallTime);
+      }
+      if (maxing) {
+        // Handle invocations in a tight loop.
+        timerId = setTimeout(timerExpired, wait);
+        return invokeFunc(lastCallTime);
+      }
+    }
+    if (timerId === undefined) {
+      timerId = setTimeout(timerExpired, wait);
+    }
+    return result;
+  }
+  debounced.cancel = cancel;
+  debounced.flush = flush;
+  return debounced;
+}
+
+module.exports = debounce;
+
+
+/***/ }),
+
+/***/ "./node_modules/lodash/isObject.js":
+/***/ (function(module, exports) {
+
+/**
+ * Checks if `value` is the
+ * [language type](http://www.ecma-international.org/ecma-262/7.0/#sec-ecmascript-language-types)
+ * of `Object`. (e.g. arrays, functions, objects, regexes, `new Number(0)`, and `new String('')`)
+ *
+ * @static
+ * @memberOf _
+ * @since 0.1.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is an object, else `false`.
+ * @example
+ *
+ * _.isObject({});
+ * // => true
+ *
+ * _.isObject([1, 2, 3]);
+ * // => true
+ *
+ * _.isObject(_.noop);
+ * // => true
+ *
+ * _.isObject(null);
+ * // => false
+ */
+function isObject(value) {
+  var type = typeof value;
+  return value != null && (type == 'object' || type == 'function');
+}
+
+module.exports = isObject;
+
+
+/***/ }),
+
+/***/ "./node_modules/lodash/isObjectLike.js":
+/***/ (function(module, exports) {
+
+/**
+ * Checks if `value` is object-like. A value is object-like if it's not `null`
+ * and has a `typeof` result of "object".
+ *
+ * @static
+ * @memberOf _
+ * @since 4.0.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is object-like, else `false`.
+ * @example
+ *
+ * _.isObjectLike({});
+ * // => true
+ *
+ * _.isObjectLike([1, 2, 3]);
+ * // => true
+ *
+ * _.isObjectLike(_.noop);
+ * // => false
+ *
+ * _.isObjectLike(null);
+ * // => false
+ */
+function isObjectLike(value) {
+  return value != null && typeof value == 'object';
+}
+
+module.exports = isObjectLike;
+
+
+/***/ }),
+
+/***/ "./node_modules/lodash/isSymbol.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+var baseGetTag = __webpack_require__("./node_modules/lodash/_baseGetTag.js"),
+    isObjectLike = __webpack_require__("./node_modules/lodash/isObjectLike.js");
+
+/** `Object#toString` result references. */
+var symbolTag = '[object Symbol]';
+
+/**
+ * Checks if `value` is classified as a `Symbol` primitive or object.
+ *
+ * @static
+ * @memberOf _
+ * @since 4.0.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is a symbol, else `false`.
+ * @example
+ *
+ * _.isSymbol(Symbol.iterator);
+ * // => true
+ *
+ * _.isSymbol('abc');
+ * // => false
+ */
+function isSymbol(value) {
+  return typeof value == 'symbol' ||
+    (isObjectLike(value) && baseGetTag(value) == symbolTag);
+}
+
+module.exports = isSymbol;
+
+
+/***/ }),
+
+/***/ "./node_modules/lodash/now.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+var root = __webpack_require__("./node_modules/lodash/_root.js");
+
+/**
+ * Gets the timestamp of the number of milliseconds that have elapsed since
+ * the Unix epoch (1 January 1970 00:00:00 UTC).
+ *
+ * @static
+ * @memberOf _
+ * @since 2.4.0
+ * @category Date
+ * @returns {number} Returns the timestamp.
+ * @example
+ *
+ * _.defer(function(stamp) {
+ *   console.log(_.now() - stamp);
+ * }, _.now());
+ * // => Logs the number of milliseconds it took for the deferred invocation.
+ */
+var now = function() {
+  return root.Date.now();
+};
+
+module.exports = now;
+
+
+/***/ }),
+
+/***/ "./node_modules/lodash/toNumber.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+var isObject = __webpack_require__("./node_modules/lodash/isObject.js"),
+    isSymbol = __webpack_require__("./node_modules/lodash/isSymbol.js");
+
+/** Used as references for various `Number` constants. */
+var NAN = 0 / 0;
+
+/** Used to match leading and trailing whitespace. */
+var reTrim = /^\s+|\s+$/g;
+
+/** Used to detect bad signed hexadecimal string values. */
+var reIsBadHex = /^[-+]0x[0-9a-f]+$/i;
+
+/** Used to detect binary string values. */
+var reIsBinary = /^0b[01]+$/i;
+
+/** Used to detect octal string values. */
+var reIsOctal = /^0o[0-7]+$/i;
+
+/** Built-in method references without a dependency on `root`. */
+var freeParseInt = parseInt;
+
+/**
+ * Converts `value` to a number.
+ *
+ * @static
+ * @memberOf _
+ * @since 4.0.0
+ * @category Lang
+ * @param {*} value The value to process.
+ * @returns {number} Returns the number.
+ * @example
+ *
+ * _.toNumber(3.2);
+ * // => 3.2
+ *
+ * _.toNumber(Number.MIN_VALUE);
+ * // => 5e-324
+ *
+ * _.toNumber(Infinity);
+ * // => Infinity
+ *
+ * _.toNumber('3.2');
+ * // => 3.2
+ */
+function toNumber(value) {
+  if (typeof value == 'number') {
+    return value;
+  }
+  if (isSymbol(value)) {
+    return NAN;
+  }
+  if (isObject(value)) {
+    var other = typeof value.valueOf == 'function' ? value.valueOf() : value;
+    value = isObject(other) ? (other + '') : other;
+  }
+  if (typeof value != 'string') {
+    return value === 0 ? value : +value;
+  }
+  value = value.replace(reTrim, '');
+  var isBinary = reIsBinary.test(value);
+  return (isBinary || reIsOctal.test(value))
+    ? freeParseInt(value.slice(2), isBinary ? 2 : 8)
+    : (reIsBadHex.test(value) ? NAN : +value);
+}
+
+module.exports = toNumber;
+
+
+/***/ }),
+
 /***/ "./node_modules/next/dist/lib/link.js":
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _interopRequireWildcard = __webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/interopRequireWildcard.js");
+var _interopRequireWildcard = __webpack_require__("./node_modules/@babel/runtime/helpers/interopRequireWildcard.js");
 
-var _interopRequireDefault = __webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/interopRequireDefault.js");
+var _interopRequireDefault = __webpack_require__("./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
 
-var _typeof2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/typeof.js"));
+var _typeof2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/typeof.js"));
 
-var _stringify = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/core-js/json/stringify.js"));
+var _stringify = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/core-js/json/stringify.js"));
 
-var _getPrototypeOf = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/core-js/object/get-prototype-of.js"));
+var _getPrototypeOf = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/core-js/object/get-prototype-of.js"));
 
-var _classCallCheck2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/classCallCheck.js"));
+var _classCallCheck2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/classCallCheck.js"));
 
-var _createClass2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/createClass.js"));
+var _createClass2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/createClass.js"));
 
-var _possibleConstructorReturn2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js"));
+var _possibleConstructorReturn2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js"));
 
-var _inherits2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/inherits.js"));
+var _inherits2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/inherits.js"));
 
-var _assertThisInitialized2 = _interopRequireDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/assertThisInitialized.js"));
+var _assertThisInitialized2 = _interopRequireDefault(__webpack_require__("./node_modules/@babel/runtime/helpers/assertThisInitialized.js"));
 
 var _url = __webpack_require__("./node_modules/url/url.js");
 
@@ -11563,338 +12306,6 @@ module.exports = __webpack_require__("./node_modules/next/dist/lib/link.js")
 
 /***/ }),
 
-/***/ "./node_modules/next/node_modules/@babel/runtime/core-js/json/stringify.js":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__("./node_modules/core-js/library/fn/json/stringify.js");
-
-/***/ }),
-
-/***/ "./node_modules/next/node_modules/@babel/runtime/helpers/builtin/arrayWithoutHoles.js":
-/***/ (function(module, exports) {
-
-function _arrayWithoutHoles(arr) {
-  if (Array.isArray(arr)) {
-    for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++) {
-      arr2[i] = arr[i];
-    }
-
-    return arr2;
-  }
-}
-
-module.exports = _arrayWithoutHoles;
-
-/***/ }),
-
-/***/ "./node_modules/next/node_modules/@babel/runtime/helpers/builtin/assertThisInitialized.js":
-/***/ (function(module, exports) {
-
-function _assertThisInitialized(self) {
-  if (self === void 0) {
-    throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
-  }
-
-  return self;
-}
-
-module.exports = _assertThisInitialized;
-
-/***/ }),
-
-/***/ "./node_modules/next/node_modules/@babel/runtime/helpers/builtin/classCallCheck.js":
-/***/ (function(module, exports) {
-
-function _classCallCheck(instance, Constructor) {
-  if (!(instance instanceof Constructor)) {
-    throw new TypeError("Cannot call a class as a function");
-  }
-}
-
-module.exports = _classCallCheck;
-
-/***/ }),
-
-/***/ "./node_modules/next/node_modules/@babel/runtime/helpers/builtin/createClass.js":
-/***/ (function(module, exports) {
-
-function _defineProperties(target, props) {
-  for (var i = 0; i < props.length; i++) {
-    var descriptor = props[i];
-    descriptor.enumerable = descriptor.enumerable || false;
-    descriptor.configurable = true;
-    if ("value" in descriptor) descriptor.writable = true;
-    Object.defineProperty(target, descriptor.key, descriptor);
-  }
-}
-
-function _createClass(Constructor, protoProps, staticProps) {
-  if (protoProps) _defineProperties(Constructor.prototype, protoProps);
-  if (staticProps) _defineProperties(Constructor, staticProps);
-  return Constructor;
-}
-
-module.exports = _createClass;
-
-/***/ }),
-
-/***/ "./node_modules/next/node_modules/@babel/runtime/helpers/builtin/defineProperty.js":
-/***/ (function(module, exports) {
-
-function _defineProperty(obj, key, value) {
-  if (key in obj) {
-    Object.defineProperty(obj, key, {
-      value: value,
-      enumerable: true,
-      configurable: true,
-      writable: true
-    });
-  } else {
-    obj[key] = value;
-  }
-
-  return obj;
-}
-
-module.exports = _defineProperty;
-
-/***/ }),
-
-/***/ "./node_modules/next/node_modules/@babel/runtime/helpers/builtin/extends.js":
-/***/ (function(module, exports) {
-
-function _extends() {
-  module.exports = _extends = Object.assign || function (target) {
-    for (var i = 1; i < arguments.length; i++) {
-      var source = arguments[i];
-
-      for (var key in source) {
-        if (Object.prototype.hasOwnProperty.call(source, key)) {
-          target[key] = source[key];
-        }
-      }
-    }
-
-    return target;
-  };
-
-  return _extends.apply(this, arguments);
-}
-
-module.exports = _extends;
-
-/***/ }),
-
-/***/ "./node_modules/next/node_modules/@babel/runtime/helpers/builtin/inherits.js":
-/***/ (function(module, exports) {
-
-function _inherits(subClass, superClass) {
-  if (typeof superClass !== "function" && superClass !== null) {
-    throw new TypeError("Super expression must either be null or a function");
-  }
-
-  subClass.prototype = Object.create(superClass && superClass.prototype, {
-    constructor: {
-      value: subClass,
-      enumerable: false,
-      writable: true,
-      configurable: true
-    }
-  });
-  if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass;
-}
-
-module.exports = _inherits;
-
-/***/ }),
-
-/***/ "./node_modules/next/node_modules/@babel/runtime/helpers/builtin/interopRequireDefault.js":
-/***/ (function(module, exports) {
-
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : {
-    default: obj
-  };
-}
-
-module.exports = _interopRequireDefault;
-
-/***/ }),
-
-/***/ "./node_modules/next/node_modules/@babel/runtime/helpers/builtin/interopRequireWildcard.js":
-/***/ (function(module, exports) {
-
-function _interopRequireWildcard(obj) {
-  if (obj && obj.__esModule) {
-    return obj;
-  } else {
-    var newObj = {};
-
-    if (obj != null) {
-      for (var key in obj) {
-        if (Object.prototype.hasOwnProperty.call(obj, key)) {
-          var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {};
-
-          if (desc.get || desc.set) {
-            Object.defineProperty(newObj, key, desc);
-          } else {
-            newObj[key] = obj[key];
-          }
-        }
-      }
-    }
-
-    newObj.default = obj;
-    return newObj;
-  }
-}
-
-module.exports = _interopRequireWildcard;
-
-/***/ }),
-
-/***/ "./node_modules/next/node_modules/@babel/runtime/helpers/builtin/iterableToArray.js":
-/***/ (function(module, exports) {
-
-function _iterableToArray(iter) {
-  if (Symbol.iterator in Object(iter) || Object.prototype.toString.call(iter) === "[object Arguments]") return Array.from(iter);
-}
-
-module.exports = _iterableToArray;
-
-/***/ }),
-
-/***/ "./node_modules/next/node_modules/@babel/runtime/helpers/builtin/nonIterableSpread.js":
-/***/ (function(module, exports) {
-
-function _nonIterableSpread() {
-  throw new TypeError("Invalid attempt to spread non-iterable instance");
-}
-
-module.exports = _nonIterableSpread;
-
-/***/ }),
-
-/***/ "./node_modules/next/node_modules/@babel/runtime/helpers/builtin/objectSpread.js":
-/***/ (function(module, exports, __webpack_require__) {
-
-var defineProperty = __webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/defineProperty.js");
-
-function _objectSpread(target) {
-  for (var i = 1; i < arguments.length; i++) {
-    var source = arguments[i] != null ? arguments[i] : {};
-    var ownKeys = Object.keys(source);
-
-    if (typeof Object.getOwnPropertySymbols === 'function') {
-      ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {
-        return Object.getOwnPropertyDescriptor(source, sym).enumerable;
-      }));
-    }
-
-    ownKeys.forEach(function (key) {
-      defineProperty(target, key, source[key]);
-    });
-  }
-
-  return target;
-}
-
-module.exports = _objectSpread;
-
-/***/ }),
-
-/***/ "./node_modules/next/node_modules/@babel/runtime/helpers/builtin/objectWithoutProperties.js":
-/***/ (function(module, exports) {
-
-function _objectWithoutProperties(source, excluded) {
-  if (source == null) return {};
-  var target = {};
-  var sourceKeys = Object.keys(source);
-  var key, i;
-
-  for (i = 0; i < sourceKeys.length; i++) {
-    key = sourceKeys[i];
-    if (excluded.indexOf(key) >= 0) continue;
-    target[key] = source[key];
-  }
-
-  if (Object.getOwnPropertySymbols) {
-    var sourceSymbolKeys = Object.getOwnPropertySymbols(source);
-
-    for (i = 0; i < sourceSymbolKeys.length; i++) {
-      key = sourceSymbolKeys[i];
-      if (excluded.indexOf(key) >= 0) continue;
-      if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue;
-      target[key] = source[key];
-    }
-  }
-
-  return target;
-}
-
-module.exports = _objectWithoutProperties;
-
-/***/ }),
-
-/***/ "./node_modules/next/node_modules/@babel/runtime/helpers/builtin/possibleConstructorReturn.js":
-/***/ (function(module, exports, __webpack_require__) {
-
-var _typeof = __webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/typeof.js");
-
-var assertThisInitialized = __webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/assertThisInitialized.js");
-
-function _possibleConstructorReturn(self, call) {
-  if (call && (_typeof(call) === "object" || typeof call === "function")) {
-    return call;
-  }
-
-  return assertThisInitialized(self);
-}
-
-module.exports = _possibleConstructorReturn;
-
-/***/ }),
-
-/***/ "./node_modules/next/node_modules/@babel/runtime/helpers/builtin/toConsumableArray.js":
-/***/ (function(module, exports, __webpack_require__) {
-
-var arrayWithoutHoles = __webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/arrayWithoutHoles.js");
-
-var iterableToArray = __webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/iterableToArray.js");
-
-var nonIterableSpread = __webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/nonIterableSpread.js");
-
-function _toConsumableArray(arr) {
-  return arrayWithoutHoles(arr) || iterableToArray(arr) || nonIterableSpread();
-}
-
-module.exports = _toConsumableArray;
-
-/***/ }),
-
-/***/ "./node_modules/next/node_modules/@babel/runtime/helpers/builtin/typeof.js":
-/***/ (function(module, exports) {
-
-function _typeof2(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof2 = function _typeof2(obj) { return typeof obj; }; } else { _typeof2 = function _typeof2(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof2(obj); }
-
-function _typeof(obj) {
-  if (typeof Symbol === "function" && _typeof2(Symbol.iterator) === "symbol") {
-    module.exports = _typeof = function _typeof(obj) {
-      return _typeof2(obj);
-    };
-  } else {
-    module.exports = _typeof = function _typeof(obj) {
-      return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : _typeof2(obj);
-    };
-  }
-
-  return _typeof(obj);
-}
-
-module.exports = _typeof;
-
-/***/ }),
-
 /***/ "./node_modules/object-keys/index.js":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11923,6 +12334,7 @@ var equalsConstructorPrototype = function (o) {
 	return ctor && ctor.prototype === o;
 };
 var excludedKeys = {
+	$applicationCache: true,
 	$console: true,
 	$external: true,
 	$frame: true,
@@ -12024,7 +12436,7 @@ keysShim.shim = function shimObjectKeys() {
 		}(1, 2));
 		if (!keysWorksWithArguments) {
 			var originalKeys = Object.keys;
-			Object.keys = function keys(object) {
+			Object.keys = function keys(object) { // eslint-disable-line func-name-matching
 				if (isArgs(object)) {
 					return originalKeys(slice.call(object));
 				} else {
@@ -12304,55 +12716,73 @@ module.exports = exports['default'];
 
 /***/ }),
 
-/***/ "./node_modules/react-event-listener/dist/react-event-listener.cjs.js":
+/***/ "./node_modules/react-event-listener/lib/index.js":
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-Object.defineProperty(exports, '__esModule', { value: true });
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
 
-function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
+var _getPrototypeOf = __webpack_require__("./node_modules/babel-runtime/core-js/object/get-prototype-of.js");
 
-var _classCallCheck = _interopDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/classCallCheck.js"));
-var _createClass = _interopDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/createClass.js"));
-var _possibleConstructorReturn = _interopDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/possibleConstructorReturn.js"));
-var _inherits = _interopDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/inherits.js"));
-var _typeof = _interopDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/typeof.js"));
-var _objectWithoutProperties = _interopDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/objectWithoutProperties.js"));
-var _objectSpread = _interopDefault(__webpack_require__("./node_modules/next/node_modules/@babel/runtime/helpers/builtin/objectSpread.js"));
-var React = _interopDefault(__webpack_require__("./node_modules/react/cjs/react.development.js"));
-var PropTypes = _interopDefault(__webpack_require__("./node_modules/next/node_modules/prop-types/index.js"));
-var warning = _interopDefault(__webpack_require__("./node_modules/warning/warning.js"));
+var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
-function defineProperty(object, property, attr) {
-  return Object.defineProperty(object, property, attr);
-} // Passive options
-// Inspired by https://github.com/Modernizr/Modernizr/blob/master/feature-detects/dom/passiveeventlisteners.js
+var _classCallCheck2 = __webpack_require__("./node_modules/babel-runtime/helpers/classCallCheck.js");
 
+var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var passiveOption = function () {
-  var cache = null;
-  return function () {
-    if (cache !== null) {
-      return cache;
-    }
+var _createClass2 = __webpack_require__("./node_modules/babel-runtime/helpers/createClass.js");
 
-    var supportsPassiveOption = false;
+var _createClass3 = _interopRequireDefault(_createClass2);
 
-    try {
-      window.addEventListener('test', null, defineProperty({}, 'passive', {
-        get: function get() {
-          supportsPassiveOption = true;
-        }
-      }));
-    } catch (err) {//
-    }
+var _possibleConstructorReturn2 = __webpack_require__("./node_modules/babel-runtime/helpers/possibleConstructorReturn.js");
 
-    cache = supportsPassiveOption;
-    return supportsPassiveOption;
-  }();
-}();
+var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
+
+var _inherits2 = __webpack_require__("./node_modules/babel-runtime/helpers/inherits.js");
+
+var _inherits3 = _interopRequireDefault(_inherits2);
+
+var _typeof2 = __webpack_require__("./node_modules/babel-runtime/helpers/typeof.js");
+
+var _typeof3 = _interopRequireDefault(_typeof2);
+
+var _keys = __webpack_require__("./node_modules/babel-runtime/core-js/object/keys.js");
+
+var _keys2 = _interopRequireDefault(_keys);
+
+var _objectWithoutProperties2 = __webpack_require__("./node_modules/babel-runtime/helpers/objectWithoutProperties.js");
+
+var _objectWithoutProperties3 = _interopRequireDefault(_objectWithoutProperties2);
+
+var _assign = __webpack_require__("./node_modules/babel-runtime/core-js/object/assign.js");
+
+var _assign2 = _interopRequireDefault(_assign);
+
+exports.withOptions = withOptions;
+
+var _react = __webpack_require__("./node_modules/react/cjs/react.development.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _propTypes = __webpack_require__("./node_modules/next/node_modules/prop-types/index.js");
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+var _shallowEqual = __webpack_require__("./node_modules/fbjs/lib/shallowEqual.js");
+
+var _shallowEqual2 = _interopRequireDefault(_shallowEqual);
+
+var _warning = __webpack_require__("./node_modules/warning/browser.js");
+
+var _warning2 = _interopRequireDefault(_warning);
+
+var _supports = __webpack_require__("./node_modules/react-event-listener/lib/supports.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var defaultEventOptions = {
   capture: false,
@@ -12360,12 +12790,12 @@ var defaultEventOptions = {
 };
 
 function mergeDefaultEventOptions(options) {
-  return _objectSpread({}, defaultEventOptions, options);
+  return (0, _assign2.default)({}, defaultEventOptions, options);
 }
 
 function getEventListenerArgs(eventName, callback, options) {
   var args = [eventName, callback];
-  args.push(passiveOption ? options : options.capture);
+  args.push(_supports.passiveOption ? options : options.capture);
   return args;
 }
 
@@ -12382,17 +12812,16 @@ function off(target, eventName, callback, options) {
 function forEachListener(props, iteratee) {
   var children = props.children,
       target = props.target,
-      eventProps = _objectWithoutProperties(props, ["children", "target"]);
+      eventProps = (0, _objectWithoutProperties3.default)(props, ['children', 'target']);
 
-  Object.keys(eventProps).forEach(function (name) {
+
+  (0, _keys2.default)(eventProps).forEach(function (name) {
     if (name.substring(0, 2) !== 'on') {
       return;
     }
 
     var prop = eventProps[name];
-
-    var type = _typeof(prop);
-
+    var type = typeof prop === 'undefined' ? 'undefined' : (0, _typeof3.default)(prop);
     var isObject = type === 'object';
     var isFunction = type === 'function';
 
@@ -12407,53 +12836,68 @@ function forEachListener(props, iteratee) {
     if (isObject) {
       iteratee(eventName, prop.handler, prop.options);
     } else {
-      iteratee(eventName, prop, mergeDefaultEventOptions({
-        capture: capture
-      }));
+      iteratee(eventName, prop, mergeDefaultEventOptions({ capture: capture }));
     }
   });
 }
 
 function withOptions(handler, options) {
-   true ? warning(options, 'react-event-listener: should be specified options in withOptions.') : void 0;
+   true ? (0, _warning2.default)(options, 'react-event-listener: should be specified options in withOptions.') : void 0;
+
   return {
     handler: handler,
     options: mergeDefaultEventOptions(options)
   };
 }
 
-var EventListener =
-/*#__PURE__*/
-function (_React$PureComponent) {
-  _inherits(EventListener, _React$PureComponent);
+var EventListener = function (_React$Component) {
+  (0, _inherits3.default)(EventListener, _React$Component);
 
   function EventListener() {
-    _classCallCheck(this, EventListener);
-
-    return _possibleConstructorReturn(this, (EventListener.__proto__ || Object.getPrototypeOf(EventListener)).apply(this, arguments));
+    (0, _classCallCheck3.default)(this, EventListener);
+    return (0, _possibleConstructorReturn3.default)(this, (EventListener.__proto__ || (0, _getPrototypeOf2.default)(EventListener)).apply(this, arguments));
   }
 
-  _createClass(EventListener, [{
-    key: "componentDidMount",
+  (0, _createClass3.default)(EventListener, [{
+    key: 'componentDidMount',
     value: function componentDidMount() {
-      this.applyListeners(on);
+      this.addListeners();
     }
   }, {
-    key: "componentDidUpdate",
-    value: function componentDidUpdate(prevProps) {
-      this.applyListeners(off, prevProps);
-      this.applyListeners(on);
+    key: 'shouldComponentUpdate',
+    value: function shouldComponentUpdate(nextProps) {
+      return !(0, _shallowEqual2.default)(this.props, nextProps);
     }
   }, {
-    key: "componentWillUnmount",
+    key: 'componentWillUpdate',
+    value: function componentWillUpdate() {
+      this.removeListeners();
+    }
+  }, {
+    key: 'componentDidUpdate',
+    value: function componentDidUpdate() {
+      this.addListeners();
+    }
+  }, {
+    key: 'componentWillUnmount',
     value: function componentWillUnmount() {
+      this.removeListeners();
+    }
+  }, {
+    key: 'addListeners',
+    value: function addListeners() {
+      this.applyListeners(on);
+    }
+  }, {
+    key: 'removeListeners',
+    value: function removeListeners() {
       this.applyListeners(off);
     }
   }, {
-    key: "applyListeners",
+    key: 'applyListeners',
     value: function applyListeners(onOrOff) {
-      var props = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : this.props;
-      var target = props.target;
+      var target = this.props.target;
+
 
       if (target) {
         var element = target;
@@ -12462,34 +12906,83 @@ function (_React$PureComponent) {
           element = window[target];
         }
 
-        forEachListener(props, onOrOff.bind(null, element));
+        forEachListener(this.props, onOrOff.bind(null, element));
       }
     }
   }, {
-    key: "render",
+    key: 'render',
     value: function render() {
       return this.props.children || null;
     }
   }]);
-
   return EventListener;
-}(React.PureComponent);
+}(_react2.default.Component);
 
 EventListener.propTypes =  true ? {
   /**
    * You can provide a single child too.
    */
-  children: PropTypes.node,
-
+  children: _propTypes2.default.node,
   /**
    * The DOM target to listen to.
    */
-  target: PropTypes.oneOfType([PropTypes.object, PropTypes.string]).isRequired
+  target: _propTypes2.default.oneOfType([_propTypes2.default.object, _propTypes2.default.string]).isRequired
 } : {};
 
-exports.withOptions = withOptions;
 exports.default = EventListener;
 
+/***/ }),
+
+/***/ "./node_modules/react-event-listener/lib/supports.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.passiveOption = undefined;
+
+var _defineProperty = __webpack_require__("./node_modules/babel-runtime/core-js/object/define-property.js");
+
+var _defineProperty2 = _interopRequireDefault(_defineProperty);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function defineProperty(object, property, attr) {
+  return (0, _defineProperty2.default)(object, property, attr);
+}
+
+// Passive options
+// Inspired by https://github.com/Modernizr/Modernizr/blob/master/feature-detects/dom/passiveeventlisteners.js
+var passiveOption = exports.passiveOption = function () {
+  var cache = null;
+
+  return function () {
+    if (cache !== null) {
+      return cache;
+    }
+
+    var supportsPassiveOption = false;
+
+    try {
+      window.addEventListener('test', null, defineProperty({}, 'passive', {
+        get: function get() {
+          supportsPassiveOption = true;
+        }
+      }));
+    } catch (err) {
+      //
+    }
+
+    cache = supportsPassiveOption;
+
+    return supportsPassiveOption;
+  }();
+}();
+
+exports.default = {};
 
 /***/ }),
 
@@ -13620,721 +14113,17 @@ exports.default = wrapDisplayName;
 
 /***/ }),
 
-/***/ "./node_modules/string-hash/index.js":
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-function hash(str) {
-  var hash = 5381,
-      i    = str.length;
-
-  while(i) {
-    hash = (hash * 33) ^ str.charCodeAt(--i);
-  }
-
-  /* JavaScript does bitwise operations (like XOR, above) on 32-bit signed
-   * integers. Since we want the results to be always positive, convert the
-   * signed int to an unsigned by doing an unsigned bitshift. */
-  return hash >>> 0;
-}
-
-module.exports = hash;
-
-
-/***/ }),
-
-/***/ "./node_modules/styled-jsx/dist/lib/stylesheet.js":
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(process) {
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _classCallCheck2 = __webpack_require__("./node_modules/babel-runtime/helpers/classCallCheck.js");
-
-var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
-
-var _createClass2 = __webpack_require__("./node_modules/babel-runtime/helpers/createClass.js");
-
-var _createClass3 = _interopRequireDefault(_createClass2);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-/*
-Based on Glamor's sheet
-https://github.com/threepointone/glamor/blob/667b480d31b3721a905021b26e1290ce92ca2879/src/sheet.js
-*/
-
-var isProd = process.env && "development" === 'production';
-var isString = function isString(o) {
-  return Object.prototype.toString.call(o) === '[object String]';
-};
-
-var StyleSheet = function () {
-  function StyleSheet() {
-    var _ref = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {},
-        _ref$name = _ref.name,
-        name = _ref$name === undefined ? 'stylesheet' : _ref$name,
-        _ref$optimizeForSpeed = _ref.optimizeForSpeed,
-        optimizeForSpeed = _ref$optimizeForSpeed === undefined ? isProd : _ref$optimizeForSpeed,
-        _ref$isBrowser = _ref.isBrowser,
-        isBrowser = _ref$isBrowser === undefined ? typeof window !== 'undefined' : _ref$isBrowser;
-
-    (0, _classCallCheck3.default)(this, StyleSheet);
-
-    invariant(isString(name), '`name` must be a string');
-    this._name = name;
-    this._deletedRulePlaceholder = '#' + name + '-deleted-rule____{}';
-
-    invariant(typeof optimizeForSpeed === 'boolean', '`optimizeForSpeed` must be a boolean');
-    this._optimizeForSpeed = optimizeForSpeed;
-    this._isBrowser = isBrowser;
-
-    this._serverSheet = undefined;
-    this._tags = [];
-    this._injected = false;
-    this._rulesCount = 0;
-  }
-
-  (0, _createClass3.default)(StyleSheet, [{
-    key: 'setOptimizeForSpeed',
-    value: function setOptimizeForSpeed(bool) {
-      invariant(typeof bool === 'boolean', '`setOptimizeForSpeed` accepts a boolean');
-
-      invariant(this._rulesCount === 0, 'optimizeForSpeed cannot be when rules have already been inserted');
-      this.flush();
-      this._optimizeForSpeed = bool;
-      this.inject();
-    }
-  }, {
-    key: 'isOptimizeForSpeed',
-    value: function isOptimizeForSpeed() {
-      return this._optimizeForSpeed;
-    }
-  }, {
-    key: 'inject',
-    value: function inject() {
-      var _this = this;
-
-      invariant(!this._injected, 'sheet already injected');
-      this._injected = true;
-      if (this._isBrowser && this._optimizeForSpeed) {
-        this._tags[0] = this.makeStyleTag(this._name);
-        this._optimizeForSpeed = 'insertRule' in this.getSheet();
-        if (!this._optimizeForSpeed) {
-          if (!isProd) {
-            console.warn('StyleSheet: optimizeForSpeed mode not supported falling back to standard mode.'); // eslint-disable-line no-console
-          }
-          this.flush();
-          this._injected = true;
-        }
-        return;
-      }
-
-      this._serverSheet = {
-        cssRules: [],
-        insertRule: function insertRule(rule, index) {
-          if (typeof index === 'number') {
-            _this._serverSheet.cssRules[index] = { cssText: rule };
-          } else {
-            _this._serverSheet.cssRules.push({ cssText: rule });
-          }
-          return index;
-        },
-        deleteRule: function deleteRule(index) {
-          _this._serverSheet.cssRules[index] = null;
-        }
-      };
-    }
-  }, {
-    key: 'getSheetForTag',
-    value: function getSheetForTag(tag) {
-      if (tag.sheet) {
-        return tag.sheet;
-      }
-
-      // this weirdness brought to you by firefox
-      for (var i = 0; i < document.styleSheets.length; i++) {
-        if (document.styleSheets[i].ownerNode === tag) {
-          return document.styleSheets[i];
-        }
-      }
-    }
-  }, {
-    key: 'getSheet',
-    value: function getSheet() {
-      return this.getSheetForTag(this._tags[this._tags.length - 1]);
-    }
-  }, {
-    key: 'insertRule',
-    value: function insertRule(rule, index) {
-      invariant(isString(rule), '`insertRule` accepts only strings');
-
-      if (!this._isBrowser) {
-        if (typeof index !== 'number') {
-          index = this._serverSheet.cssRules.length;
-        }
-        this._serverSheet.insertRule(rule, index);
-        return this._rulesCount++;
-      }
-
-      if (this._optimizeForSpeed) {
-        var sheet = this.getSheet();
-        if (typeof index !== 'number') {
-          index = sheet.cssRules.length;
-        }
-        // this weirdness for perf, and chrome's weird bug
-        // https://stackoverflow.com/questions/20007992/chrome-suddenly-stopped-accepting-insertrule
-        try {
-          sheet.insertRule(rule, index);
-        } catch (err) {
-          if (!isProd) {
-            console.warn('StyleSheet: illegal rule: \n\n' + rule + '\n\nSee https://stackoverflow.com/q/20007992 for more info'); // eslint-disable-line no-console
-          }
-          return -1;
-        }
-      } else {
-        var insertionPoint = this._tags[index];
-        this._tags.push(this.makeStyleTag(this._name, rule, insertionPoint));
-      }
-
-      return this._rulesCount++;
-    }
-  }, {
-    key: 'replaceRule',
-    value: function replaceRule(index, rule) {
-      if (this._optimizeForSpeed || !this._isBrowser) {
-        var sheet = this._isBrowser ? this.getSheet() : this._serverSheet;
-        if (!rule.trim()) {
-          rule = this._deletedRulePlaceholder;
-        }
-
-        if (!sheet.cssRules[index]) {
-          // @TBD Should we throw an error?
-          return index;
-        }
-
-        sheet.deleteRule(index);
-
-        try {
-          sheet.insertRule(rule, index);
-        } catch (err) {
-          if (!isProd) {
-            console.warn('StyleSheet: illegal rule: \n\n' + rule + '\n\nSee https://stackoverflow.com/q/20007992 for more info'); // eslint-disable-line no-console
-          }
-          // In order to preserve the indices we insert a deleteRulePlaceholder
-          sheet.insertRule(this._deletedRulePlaceholder, index);
-        }
-      } else {
-        var tag = this._tags[index];
-        invariant(tag, 'old rule at index `' + index + '` not found');
-        tag.textContent = rule;
-      }
-      return index;
-    }
-  }, {
-    key: 'deleteRule',
-    value: function deleteRule(index) {
-      if (!this._isBrowser) {
-        this._serverSheet.deleteRule(index);
-        return;
-      }
-
-      if (this._optimizeForSpeed) {
-        this.replaceRule(index, '');
-      } else {
-        var tag = this._tags[index];
-        invariant(tag, 'rule at index `' + index + '` not found');
-        tag.parentNode.removeChild(tag);
-        this._tags[index] = null;
-      }
-    }
-  }, {
-    key: 'flush',
-    value: function flush() {
-      this._injected = false;
-      this._rulesCount = 0;
-      if (this._isBrowser) {
-        this._tags.forEach(function (tag) {
-          return tag && tag.parentNode.removeChild(tag);
-        });
-        this._tags = [];
-      } else {
-        // simpler on server
-        this._serverSheet.cssRules = [];
-      }
-    }
-  }, {
-    key: 'cssRules',
-    value: function cssRules() {
-      var _this2 = this;
-
-      if (!this._isBrowser) {
-        return this._serverSheet.cssRules;
-      }
-      return this._tags.reduce(function (rules, tag) {
-        if (tag) {
-          rules = rules.concat(_this2.getSheetForTag(tag).cssRules.map(function (rule) {
-            return rule.cssText === _this2._deletedRulePlaceholder ? null : rule;
-          }));
-        } else {
-          rules.push(null);
-        }
-        return rules;
-      }, []);
-    }
-  }, {
-    key: 'makeStyleTag',
-    value: function makeStyleTag(name, cssString, relativeToTag) {
-      if (cssString) {
-        invariant(isString(cssString), 'makeStyleTag acceps only strings as second parameter');
-      }
-      var tag = document.createElement('style');
-      tag.type = 'text/css';
-      tag.setAttribute('data-' + name, '');
-      if (cssString) {
-        tag.appendChild(document.createTextNode(cssString));
-      }
-      var head = document.head || document.getElementsByTagName('head')[0];
-      if (relativeToTag) {
-        head.insertBefore(tag, relativeToTag);
-      } else {
-        head.appendChild(tag);
-      }
-      return tag;
-    }
-  }, {
-    key: 'length',
-    get: function get() {
-      return this._rulesCount;
-    }
-  }]);
-  return StyleSheet;
-}();
-
-exports.default = StyleSheet;
-
-
-function invariant(condition, message) {
-  if (!condition) {
-    throw new Error('StyleSheet: ' + message + '.');
-  }
-}
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__("./node_modules/node-libs-browser/node_modules/process/browser.js")))
-
-/***/ }),
-
-/***/ "./node_modules/styled-jsx/dist/style.js":
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _map = __webpack_require__("./node_modules/babel-runtime/core-js/map.js");
-
-var _map2 = _interopRequireDefault(_map);
-
-var _slicedToArray2 = __webpack_require__("./node_modules/babel-runtime/helpers/slicedToArray.js");
-
-var _slicedToArray3 = _interopRequireDefault(_slicedToArray2);
-
-var _getPrototypeOf = __webpack_require__("./node_modules/babel-runtime/core-js/object/get-prototype-of.js");
-
-var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
-
-var _classCallCheck2 = __webpack_require__("./node_modules/babel-runtime/helpers/classCallCheck.js");
-
-var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
-
-var _createClass2 = __webpack_require__("./node_modules/babel-runtime/helpers/createClass.js");
-
-var _createClass3 = _interopRequireDefault(_createClass2);
-
-var _possibleConstructorReturn2 = __webpack_require__("./node_modules/babel-runtime/helpers/possibleConstructorReturn.js");
-
-var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
-
-var _inherits2 = __webpack_require__("./node_modules/babel-runtime/helpers/inherits.js");
-
-var _inherits3 = _interopRequireDefault(_inherits2);
-
-exports.flush = flush;
-
-var _react = __webpack_require__("./node_modules/react/cjs/react.development.js");
-
-var _stylesheetRegistry = __webpack_require__("./node_modules/styled-jsx/dist/stylesheet-registry.js");
-
-var _stylesheetRegistry2 = _interopRequireDefault(_stylesheetRegistry);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var styleSheetRegistry = new _stylesheetRegistry2.default();
-
-var JSXStyle = function (_Component) {
-  (0, _inherits3.default)(JSXStyle, _Component);
-
-  function JSXStyle() {
-    (0, _classCallCheck3.default)(this, JSXStyle);
-    return (0, _possibleConstructorReturn3.default)(this, (JSXStyle.__proto__ || (0, _getPrototypeOf2.default)(JSXStyle)).apply(this, arguments));
-  }
-
-  (0, _createClass3.default)(JSXStyle, [{
-    key: 'componentWillMount',
-    value: function componentWillMount() {
-      styleSheetRegistry.add(this.props);
-    }
-  }, {
-    key: 'shouldComponentUpdate',
-    value: function shouldComponentUpdate(nextProps) {
-      return this.props.css !== nextProps.css;
-    }
-
-    // To avoid FOUC, we process new changes
-    // on `componentWillUpdate` rather than `componentDidUpdate`.
-
-  }, {
-    key: 'componentWillUpdate',
-    value: function componentWillUpdate(nextProps) {
-      styleSheetRegistry.update(this.props, nextProps);
-    }
-  }, {
-    key: 'componentWillUnmount',
-    value: function componentWillUnmount() {
-      styleSheetRegistry.remove(this.props);
-    }
-  }, {
-    key: 'render',
-    value: function render() {
-      return null;
-    }
-  }], [{
-    key: 'dynamic',
-    value: function dynamic(info) {
-      return info.map(function (tagInfo) {
-        var _tagInfo = (0, _slicedToArray3.default)(tagInfo, 2),
-            baseId = _tagInfo[0],
-            props = _tagInfo[1];
-
-        return styleSheetRegistry.computeId(baseId, props);
-      }).join(' ');
-    }
-  }]);
-  return JSXStyle;
-}(_react.Component);
-
-exports.default = JSXStyle;
-function flush() {
-  var cssRules = styleSheetRegistry.cssRules();
-  styleSheetRegistry.flush();
-  return new _map2.default(cssRules);
-}
-
-/***/ }),
-
-/***/ "./node_modules/styled-jsx/dist/stylesheet-registry.js":
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _keys = __webpack_require__("./node_modules/babel-runtime/core-js/object/keys.js");
-
-var _keys2 = _interopRequireDefault(_keys);
-
-var _classCallCheck2 = __webpack_require__("./node_modules/babel-runtime/helpers/classCallCheck.js");
-
-var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
-
-var _createClass2 = __webpack_require__("./node_modules/babel-runtime/helpers/createClass.js");
-
-var _createClass3 = _interopRequireDefault(_createClass2);
-
-var _stringHash = __webpack_require__("./node_modules/string-hash/index.js");
-
-var _stringHash2 = _interopRequireDefault(_stringHash);
-
-var _stylesheet = __webpack_require__("./node_modules/styled-jsx/dist/lib/stylesheet.js");
-
-var _stylesheet2 = _interopRequireDefault(_stylesheet);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var sanitize = function sanitize(rule) {
-  return rule.replace(/\/style/ig, '\\/style');
-};
-
-var StyleSheetRegistry = function () {
-  function StyleSheetRegistry() {
-    var _ref = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {},
-        _ref$styleSheet = _ref.styleSheet,
-        styleSheet = _ref$styleSheet === undefined ? null : _ref$styleSheet,
-        _ref$optimizeForSpeed = _ref.optimizeForSpeed,
-        optimizeForSpeed = _ref$optimizeForSpeed === undefined ? false : _ref$optimizeForSpeed,
-        _ref$isBrowser = _ref.isBrowser,
-        isBrowser = _ref$isBrowser === undefined ? typeof window !== 'undefined' : _ref$isBrowser;
-
-    (0, _classCallCheck3.default)(this, StyleSheetRegistry);
-
-    this._sheet = styleSheet || new _stylesheet2.default({
-      name: 'styled-jsx',
-      optimizeForSpeed: optimizeForSpeed
-    });
-
-    this._sheet.inject();
-    if (styleSheet && typeof optimizeForSpeed === 'boolean') {
-      this._sheet.setOptimizeForSpeed(optimizeForSpeed);
-      this._optimizeForSpeed = this._sheet.isOptimizeForSpeed();
-    }
-
-    this._isBrowser = isBrowser;
-
-    this._fromServer = undefined;
-    this._indices = {};
-    this._instancesCounts = {};
-
-    this.computeId = this.createComputeId();
-    this.computeSelector = this.createComputeSelector();
-  }
-
-  (0, _createClass3.default)(StyleSheetRegistry, [{
-    key: 'add',
-    value: function add(props) {
-      var _this = this;
-
-      if (undefined === this._optimizeForSpeed) {
-        this._optimizeForSpeed = Array.isArray(props.css);
-        this._sheet.setOptimizeForSpeed(this._optimizeForSpeed);
-        this._optimizeForSpeed = this._sheet.isOptimizeForSpeed();
-      }
-
-      if (this._isBrowser && !this._fromServer) {
-        this._fromServer = this.selectFromServer();
-        this._instancesCounts = (0, _keys2.default)(this._fromServer).reduce(function (acc, tagName) {
-          acc[tagName] = 0;
-          return acc;
-        }, {});
-      }
-
-      var _getIdAndRules = this.getIdAndRules(props),
-          styleId = _getIdAndRules.styleId,
-          rules = _getIdAndRules.rules;
-
-      // Deduping: just increase the instances count.
-
-
-      if (styleId in this._instancesCounts) {
-        this._instancesCounts[styleId] += 1;
-        return;
-      }
-
-      var indices = rules.map(function (rule) {
-        return _this._sheet.insertRule(rule);
-      })
-      // Filter out invalid rules
-      .filter(function (index) {
-        return index !== -1;
-      });
-
-      if (indices.length > 0) {
-        this._indices[styleId] = indices;
-        this._instancesCounts[styleId] = 1;
-      }
-    }
-  }, {
-    key: 'remove',
-    value: function remove(props) {
-      var _this2 = this;
-
-      var _getIdAndRules2 = this.getIdAndRules(props),
-          styleId = _getIdAndRules2.styleId;
-
-      invariant(styleId in this._instancesCounts, 'styleId: `' + styleId + '` not found');
-      this._instancesCounts[styleId] -= 1;
-
-      if (this._instancesCounts[styleId] < 1) {
-        var tagFromServer = this._fromServer && this._fromServer[styleId];
-        if (tagFromServer) {
-          tagFromServer.parentNode.removeChild(tagFromServer);
-          delete this._fromServer[styleId];
-        } else {
-          this._indices[styleId].forEach(function (index) {
-            return _this2._sheet.deleteRule(index);
-          });
-          delete this._indices[styleId];
-        }
-        delete this._instancesCounts[styleId];
-      }
-    }
-  }, {
-    key: 'update',
-    value: function update(props, nextProps) {
-      this.add(nextProps);
-      this.remove(props);
-    }
-  }, {
-    key: 'flush',
-    value: function flush() {
-      this._sheet.flush();
-      this._sheet.inject();
-      this._fromServer = undefined;
-      this._indices = {};
-      this._instancesCounts = {};
-
-      this.computeId = this.createComputeId();
-      this.computeSelector = this.createComputeSelector();
-    }
-  }, {
-    key: 'cssRules',
-    value: function cssRules() {
-      var _this3 = this;
-
-      var fromServer = this._fromServer ? (0, _keys2.default)(this._fromServer).map(function (styleId) {
-        return [styleId, _this3._fromServer[styleId]];
-      }) : [];
-      var cssRules = this._sheet.cssRules();
-
-      return fromServer.concat((0, _keys2.default)(this._indices).map(function (styleId) {
-        return [styleId, _this3._indices[styleId].map(function (index) {
-          return cssRules[index].cssText;
-        }).join('\n')];
-      }));
-    }
-
-    /**
-     * createComputeId
-     *
-     * Creates a function to compute and memoize a jsx id from a basedId and optionally props.
-     */
-
-  }, {
-    key: 'createComputeId',
-    value: function createComputeId() {
-      var cache = {};
-      return function (baseId, props) {
-        if (!props) {
-          return 'jsx-' + baseId;
-        }
-        var propsToString = String(props);
-        var key = baseId + propsToString;
-        // return `jsx-${hashString(`${baseId}-${propsToString}`)}`
-        if (!cache[key]) {
-          cache[key] = 'jsx-' + (0, _stringHash2.default)(baseId + '-' + propsToString);
-        }
-        return cache[key];
-      };
-    }
-
-    /**
-     * createComputeSelector
-     *
-     * Creates a function to compute and memoize dynamic selectors.
-     */
-
-  }, {
-    key: 'createComputeSelector',
-    value: function createComputeSelector() {
-      var selectoPlaceholderRegexp = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : /__jsx-style-dynamic-selector/g;
-
-      var cache = {};
-      return function (id, css) {
-        // Sanitize SSR-ed CSS.
-        // Client side code doesn't need to be sanitized since we use
-        // document.createTextNode (dev) and the CSSOM api sheet.insertRule (prod).
-        if (!this._isBrowser) {
-          css = sanitize(css);
-        }
-        var idcss = id + css;
-        if (!cache[idcss]) {
-          cache[idcss] = css.replace(selectoPlaceholderRegexp, id);
-        }
-        return cache[idcss];
-      };
-    }
-  }, {
-    key: 'getIdAndRules',
-    value: function getIdAndRules(props) {
-      var _this4 = this;
-
-      if (props.dynamic) {
-        var styleId = this.computeId(props.styleId, props.dynamic);
-        return {
-          styleId: styleId,
-          rules: Array.isArray(props.css) ? props.css.map(function (rule) {
-            return _this4.computeSelector(styleId, rule);
-          }) : [this.computeSelector(styleId, props.css)]
-        };
-      }
-
-      return {
-        styleId: this.computeId(props.styleId),
-        rules: Array.isArray(props.css) ? props.css : [props.css]
-      };
-    }
-
-    /**
-     * selectFromServer
-     *
-     * Collects style tags from the document with id __jsx-XXX
-     */
-
-  }, {
-    key: 'selectFromServer',
-    value: function selectFromServer() {
-      var elements = Array.prototype.slice.call(document.querySelectorAll('[id^="__jsx-"]'));
-
-      return elements.reduce(function (acc, element) {
-        var id = element.id.slice(2);
-        acc[id] = element;
-        return acc;
-      }, {});
-    }
-  }]);
-  return StyleSheetRegistry;
-}();
-
-exports.default = StyleSheetRegistry;
-
-
-function invariant(condition, message) {
-  if (!condition) {
-    throw new Error('StyleSheetRegistry: ' + message + '.');
-  }
-}
-
-/***/ }),
-
-/***/ "./node_modules/styled-jsx/style.js":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__("./node_modules/styled-jsx/dist/style.js")
-
-
-/***/ }),
-
-/***/ "./node_modules/warning/warning.js":
+/***/ "./node_modules/warning/browser.js":
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 /**
- * Copyright (c) 2014-present, Facebook, Inc.
+ * Copyright 2014-2015, Facebook, Inc.
+ * All rights reserved.
  *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * @providesModule warning
+ * This source code is licensed under the BSD-style license found in the
+ * LICENSE file in the root directory of this source tree. An additional grant
+ * of patent rights can be found in the PATENTS file in the same directory.
  */
 
 
@@ -14346,33 +14135,9 @@ module.exports = __webpack_require__("./node_modules/styled-jsx/dist/style.js")
  * same logic and follow the same code paths.
  */
 
-var __DEV__ = "development" !== 'production';
-
 var warning = function() {};
 
-if (__DEV__) {
-  var printWarning = function printWarning(format, args) {
-    var len = arguments.length;
-    args = new Array(len > 2 ? len - 2 : 0);
-    for (var key = 2; key < len; key++) {
-      args[key - 2] = arguments[key];
-    }
-    var argIndex = 0;
-    var message = 'Warning: ' +
-      format.replace(/%s/g, function() {
-        return args[argIndex++];
-      });
-    if (typeof console !== 'undefined') {
-      console.error(message);
-    }
-    try {
-      // --- Welcome to debugging React ---
-      // This error was thrown as a convenience so that you can use this stack
-      // to find the callsite that caused this warning to fire.
-      throw new Error(message);
-    } catch (x) {}
-  }
-
+if (true) {
   warning = function(condition, format, args) {
     var len = arguments.length;
     args = new Array(len > 2 ? len - 2 : 0);
@@ -14381,12 +14146,32 @@ if (__DEV__) {
     }
     if (format === undefined) {
       throw new Error(
-          '`warning(condition, format, ...args)` requires a warning ' +
-          'message argument'
+        '`warning(condition, format, ...args)` requires a warning ' +
+        'message argument'
       );
     }
+
+    if (format.length < 10 || (/^[s\W]*$/).test(format)) {
+      throw new Error(
+        'The warning format should be able to uniquely identify this ' +
+        'warning. Please, use a more descriptive format than: ' + format
+      );
+    }
+
     if (!condition) {
-      printWarning.apply(null, [format].concat(args));
+      var argIndex = 0;
+      var message = 'Warning: ' +
+        format.replace(/%s/g, function() {
+          return args[argIndex++];
+        });
+      if (typeof console !== 'undefined') {
+        console.error(message);
+      }
+      try {
+        // This error was thrown as a convenience so that you can use this stack
+        // to find the callsite that caused this warning to fire.
+        throw new Error(message);
+      } catch(x) {}
     }
   };
 }
@@ -14432,24 +14217,21 @@ module.exports = function(originalModule) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_styled_jsx_style__ = __webpack_require__("./node_modules/styled-jsx/style.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_styled_jsx_style___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_styled_jsx_style__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_Layout__ = __webpack_require__("./components/Layout.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_Navbar__ = __webpack_require__("./components/Navbar.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__styles_about_scss__ = __webpack_require__("./styles/about.scss");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__styles_about_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__styles_about_scss__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_react__ = __webpack_require__("./node_modules/react/cjs/react.development.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_isomorphic_unfetch__ = __webpack_require__("./node_modules/isomorphic-unfetch/browser.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_isomorphic_unfetch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_isomorphic_unfetch__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__material_ui_core_Button__ = __webpack_require__("./node_modules/@material-ui/core/Button/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__material_ui_core_Button___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__material_ui_core_Button__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__material_ui_core_Snackbar__ = __webpack_require__("./node_modules/@material-ui/core/Snackbar/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__material_ui_core_Snackbar___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7__material_ui_core_Snackbar__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__material_ui_core_LinearProgress__ = __webpack_require__("./node_modules/@material-ui/core/LinearProgress/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__material_ui_core_LinearProgress___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8__material_ui_core_LinearProgress__);
-var _jsxFileName = "/Users/macbook/workspace/charisol/challaris-tech-website/pages/contact.js";
-
+/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_Layout__ = __webpack_require__("./components/Layout.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_Navbar__ = __webpack_require__("./components/Navbar.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__styles_about_scss__ = __webpack_require__("./styles/about.scss");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__styles_about_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__styles_about_scss__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_react__ = __webpack_require__("./node_modules/react/cjs/react.development.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_isomorphic_unfetch__ = __webpack_require__("./node_modules/isomorphic-unfetch/browser.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_isomorphic_unfetch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_isomorphic_unfetch__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__material_ui_core_Button__ = __webpack_require__("./node_modules/@material-ui/core/Button/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__material_ui_core_Button___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__material_ui_core_Button__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__material_ui_core_Snackbar__ = __webpack_require__("./node_modules/@material-ui/core/Snackbar/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__material_ui_core_Snackbar___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__material_ui_core_Snackbar__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__material_ui_core_LinearProgress__ = __webpack_require__("./node_modules/@material-ui/core/LinearProgress/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__material_ui_core_LinearProgress___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7__material_ui_core_LinearProgress__);
+var _jsxFileName = "C:\\Users\\user\\challaris-tech-website\\pages\\contact.js";
 
 (function () {
   var enterModule = __webpack_require__("./node_modules/react-hot-loader/index.js").enterModule;
@@ -14532,7 +14314,7 @@ function (_Component) {
       this.setState({
         submitting: true
       });
-      __WEBPACK_IMPORTED_MODULE_5_isomorphic_unfetch___default()('/api/contacts', {
+      __WEBPACK_IMPORTED_MODULE_4_isomorphic_unfetch___default()('/api/contacts', {
         method: 'post',
         headers: {
           'Accept': 'application/json, text/plain, */*',
@@ -14569,22 +14351,22 @@ function (_Component) {
       var _state2 = this.state,
           input = _state2.input,
           showAlert = _state2.showAlert;
-      return __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__components_Layout__["a" /* default */], {
+      return __WEBPACK_IMPORTED_MODULE_3_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0__components_Layout__["a" /* default */], {
         title: "Contact Us | Charisol Technologies",
         content: "Let us help you bring your projects to life and deliver your design/developments needs the right way.",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 69
         }
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("style", {
+      }, __WEBPACK_IMPORTED_MODULE_3_react___default.a.createElement("style", {
         dangerouslySetInnerHTML: {
-          __html: __WEBPACK_IMPORTED_MODULE_3__styles_about_scss___default.a
+          __html: __WEBPACK_IMPORTED_MODULE_2__styles_about_scss___default.a
         },
         __source: {
           fileName: _jsxFileName,
           lineNumber: 70
         }
-      }), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7__material_ui_core_Snackbar___default.a, {
+      }), __WEBPACK_IMPORTED_MODULE_3_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6__material_ui_core_Snackbar___default.a, {
         anchorOrigin: {
           vertical: 'top',
           horizontal: 'center'
@@ -14594,158 +14376,153 @@ function (_Component) {
         ContentProps: {
           'aria-describedby': 'message-id'
         },
-        message: __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("span", {
+        message: __WEBPACK_IMPORTED_MODULE_3_react___default.a.createElement("span", {
           id: "message-id",
           __source: {
             fileName: _jsxFileName,
             lineNumber: 78
-          },
-          className: "jsx-3790433478"
+          }
         }, "Message Sent! You will be notify"),
         __source: {
           fileName: _jsxFileName,
           lineNumber: 71
         }
-      }), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
+      }), __WEBPACK_IMPORTED_MODULE_3_react___default.a.createElement("div", {
         id: "panel",
         "data-slideout-ignore": true,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 80
-        },
-        className: "jsx-3790433478"
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("section", {
+        }
+      }, __WEBPACK_IMPORTED_MODULE_3_react___default.a.createElement("section", {
+        className: "pricing",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 81
-        },
-        className: "jsx-3790433478" + " " + "pricing"
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__components_Navbar__["a" /* default */], {
+        }
+      }, __WEBPACK_IMPORTED_MODULE_3_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__components_Navbar__["a" /* default */], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 82
         }
-      }), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
+      }), __WEBPACK_IMPORTED_MODULE_3_react___default.a.createElement("div", {
+        className: "content",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 83
-        },
-        className: "jsx-3790433478" + " " + "content"
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
+        }
+      }, __WEBPACK_IMPORTED_MODULE_3_react___default.a.createElement("div", {
+        className: "row",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 84
-        },
-        className: "jsx-3790433478" + " " + "row"
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
+        }
+      }, __WEBPACK_IMPORTED_MODULE_3_react___default.a.createElement("div", {
+        className: "six columns",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 85
-        },
-        className: "jsx-3790433478" + " " + "six columns"
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("img", {
+        }
+      }, __WEBPACK_IMPORTED_MODULE_3_react___default.a.createElement("img", {
         src: __webpack_require__("./assets/img/bg_contact.png"),
         alt: "Scaling software development teams.",
+        className: "respimg",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 86
-        },
-        className: "jsx-3790433478" + " " + "respimg"
-      })), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
+        }
+      })), __WEBPACK_IMPORTED_MODULE_3_react___default.a.createElement("div", {
+        className: "six columns",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 88
-        },
-        className: "jsx-3790433478" + " " + "six columns"
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
+        }
+      }, __WEBPACK_IMPORTED_MODULE_3_react___default.a.createElement("div", {
+        className: "text-content",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 89
-        },
-        className: "jsx-3790433478" + " " + "text-content"
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("span", {
+        }
+      }, __WEBPACK_IMPORTED_MODULE_3_react___default.a.createElement("span", {
+        className: "heading-wrapper",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 90
-        },
-        className: "jsx-3790433478" + " " + "heading-wrapper"
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("h1", {
+        }
+      }, __WEBPACK_IMPORTED_MODULE_3_react___default.a.createElement("h1", {
+        className: "heading no-reveal",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 91
-        },
-        className: "jsx-3790433478" + " " + "heading no-reveal"
-      }, "Get in Touch.")), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("span", {
+        }
+      }, "Get in Touch.")), __WEBPACK_IMPORTED_MODULE_3_react___default.a.createElement("span", {
+        className: "sub-text-wrapper",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 95
-        },
-        className: "jsx-3790433478" + " " + "sub-text-wrapper"
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("p", {
+        }
+      }, __WEBPACK_IMPORTED_MODULE_3_react___default.a.createElement("p", {
+        className: "sub-text no-reveal",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 96
-        },
-        className: "jsx-3790433478" + " " + "sub-text no-reveal"
-      }, "Let\u2019s help you figure out your software engineering and design needs. We are super excited to get to chat with you and eager to work with you to bring your next project to life. Drop us a line or two and we will get in touch with you.")), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
+        }
+      }, "Let\u2019s help you figure out your software engineering and design needs. We are super excited to get to chat with you and eager to work with you to bring your next project to life. Drop us a line or two and we will get in touch with you.")), __WEBPACK_IMPORTED_MODULE_3_react___default.a.createElement("div", {
+        className: "m-b-md",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 101
-        },
-        className: "jsx-3790433478" + " " + "m-b-md"
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("h6", {
+        }
+      }, __WEBPACK_IMPORTED_MODULE_3_react___default.a.createElement("h6", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 102
-        },
-        className: "jsx-3790433478"
-      }, "Email: ", __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("a", {
+        }
+      }, "Email: ", __WEBPACK_IMPORTED_MODULE_3_react___default.a.createElement("a", {
         href: "mailto:info@charisol.io?subject=From Charisol Website",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 102
-        },
-        className: "jsx-3790433478"
-      }, "info@charisol.io"))), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("form", {
+        }
+      }, "info@charisol.io"))), __WEBPACK_IMPORTED_MODULE_3_react___default.a.createElement("form", {
         id: "start-form",
         onSubmit: this.submitForm,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 104
-        },
-        className: "jsx-3790433478"
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
+        }
+      }, __WEBPACK_IMPORTED_MODULE_3_react___default.a.createElement("div", {
+        className: "row",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 105
-        },
-        className: "jsx-3790433478" + " " + "row"
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
+        }
+      }, __WEBPACK_IMPORTED_MODULE_3_react___default.a.createElement("div", {
+        className: "six columns",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 106
-        },
-        className: "jsx-3790433478" + " " + "six columns"
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
+        }
+      }, __WEBPACK_IMPORTED_MODULE_3_react___default.a.createElement("div", {
+        className: "div",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 107
-        },
-        className: "jsx-3790433478" + " " + "div"
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("label", {
+        }
+      }, __WEBPACK_IMPORTED_MODULE_3_react___default.a.createElement("label", {
         htmlFor: "name",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 108
-        },
-        className: "jsx-3790433478"
-      }, "Name"), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("input", {
+        }
+      }, "Name"), __WEBPACK_IMPORTED_MODULE_3_react___default.a.createElement("input", {
         value: input.name,
         onChange: function onChange(e) {
           return _this3.handleInputChange({
             name: e.target.value
           });
         },
+        className: "u-full-width",
         type: "text",
         id: "name",
         name: "name",
@@ -14753,46 +14530,44 @@ function (_Component) {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 109
-        },
-        className: "jsx-3790433478" + " " + "u-full-width"
-      }), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("p", {
+        }
+      }), __WEBPACK_IMPORTED_MODULE_3_react___default.a.createElement("p", {
+        className: "light",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 110
-        },
-        className: "jsx-3790433478" + " " + "light"
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("em", {
+        }
+      }, __WEBPACK_IMPORTED_MODULE_3_react___default.a.createElement("em", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 110
-        },
-        className: "jsx-3790433478"
-      }, "Tip: Could be your fullname or company name.")))), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
+        }
+      }, "Tip: Could be your fullname or company name.")))), __WEBPACK_IMPORTED_MODULE_3_react___default.a.createElement("div", {
+        className: "six columns",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 113
-        },
-        className: "jsx-3790433478" + " " + "six columns"
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
+        }
+      }, __WEBPACK_IMPORTED_MODULE_3_react___default.a.createElement("div", {
+        className: "div",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 114
-        },
-        className: "jsx-3790433478" + " " + "div"
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("label", {
+        }
+      }, __WEBPACK_IMPORTED_MODULE_3_react___default.a.createElement("label", {
         htmlFor: "email",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 115
-        },
-        className: "jsx-3790433478"
-      }, "Email"), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("input", {
+        }
+      }, "Email"), __WEBPACK_IMPORTED_MODULE_3_react___default.a.createElement("input", {
         value: input.email,
         onChange: function onChange(e) {
           return _this3.handleInputChange({
             email: e.target.value
           });
         },
+        className: "u-full-width",
         type: "email",
         id: "email",
         name: "email",
@@ -14800,40 +14575,38 @@ function (_Component) {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 116
-        },
-        className: "jsx-3790433478" + " " + "u-full-width"
-      }), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("p", {
+        }
+      }), __WEBPACK_IMPORTED_MODULE_3_react___default.a.createElement("p", {
+        className: "light",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 117
-        },
-        className: "jsx-3790433478" + " " + "light"
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("em", {
+        }
+      }, __WEBPACK_IMPORTED_MODULE_3_react___default.a.createElement("em", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 117
-        },
-        className: "jsx-3790433478"
-      }, "Tip: Could be your personal email address or company email address."))))), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
+        }
+      }, "Tip: Could be your personal email address or company email address."))))), __WEBPACK_IMPORTED_MODULE_3_react___default.a.createElement("div", {
+        className: "div",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 121
-        },
-        className: "jsx-3790433478" + " " + "div"
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("label", {
+        }
+      }, __WEBPACK_IMPORTED_MODULE_3_react___default.a.createElement("label", {
         htmlFor: "project_description",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 122
-        },
-        className: "jsx-3790433478"
-      }, "Message"), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("textarea", {
+        }
+      }, "Message"), __WEBPACK_IMPORTED_MODULE_3_react___default.a.createElement("textarea", {
         value: input.message,
         onChange: function onChange(e) {
           return _this3.handleInputChange({
             message: e.target.value
           });
         },
+        className: "u-full-width",
         id: "message",
         rows: "8",
         name: "project_description",
@@ -14841,38 +14614,33 @@ function (_Component) {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 123
-        },
-        className: "jsx-3790433478" + " " + "u-full-width"
-      }), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("p", {
+        }
+      }), __WEBPACK_IMPORTED_MODULE_3_react___default.a.createElement("p", {
+        className: "light",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 124
-        },
-        className: "jsx-3790433478" + " " + "light"
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("em", {
+        }
+      }, __WEBPACK_IMPORTED_MODULE_3_react___default.a.createElement("em", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 124
-        },
-        className: "jsx-3790433478"
-      }, "Tip: Could be a project brief, a partnership enquiry or asking about vacancies"))), this.state.submitting ? __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_8__material_ui_core_LinearProgress___default.a, {
+        }
+      }, "Tip: Could be a project brief, a partnership enquiry or asking about vacancies"))), this.state.submitting ? __WEBPACK_IMPORTED_MODULE_3_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7__material_ui_core_LinearProgress___default.a, {
         color: "secondary",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 126
         }
-      }) : '', __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("button", {
+      }) : '', __WEBPACK_IMPORTED_MODULE_3_react___default.a.createElement("button", {
+        className: "m-t-lg btn-curve-purple full",
         type: "submit",
         value: "Submit",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 127
-        },
-        className: "jsx-3790433478" + " " + 'm-t-lg btn-curve-purple full'
-      }, this.state.submitting ? 'Submitting...' : 'Submit')))))))), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0_styled_jsx_style___default.a, {
-        styleId: "3790433478",
-        css: ".sub-text.jsx-3790433478{text-align:justify;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBhZ2VzL2NvbnRhY3QuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBdUlvQixBQUcyQixtQkFDcEIiLCJmaWxlIjoicGFnZXMvY29udGFjdC5qcyIsInNvdXJjZVJvb3QiOiIvVXNlcnMvbWFjYm9vay93b3Jrc3BhY2UvY2hhcmlzb2wvY2hhbGxhcmlzLXRlY2gtd2Vic2l0ZSIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBMYXlvdXQgZnJvbSAnLi4vY29tcG9uZW50cy9MYXlvdXQnO1xuaW1wb3J0IE5hdmJhciBmcm9tICcuLi9jb21wb25lbnRzL05hdmJhcic7XG5pbXBvcnQgc3R5bGVzaGVldCBmcm9tICcuLi9zdHlsZXMvYWJvdXQuc2Nzcyc7XG5pbXBvcnQgUmVhY3QsIHsgQ29tcG9uZW50IH0gZnJvbSAncmVhY3QnXG5pbXBvcnQgZmV0Y2ggZnJvbSAnaXNvbW9ycGhpYy11bmZldGNoJ1xuaW1wb3J0IEJ1dHRvbiBmcm9tICdAbWF0ZXJpYWwtdWkvY29yZS9CdXR0b24nO1xuaW1wb3J0IFNuYWNrYmFyIGZyb20gJ0BtYXRlcmlhbC11aS9jb3JlL1NuYWNrYmFyJztcbmltcG9ydCBMaW5lYXJQcm9ncmVzcyBmcm9tICdAbWF0ZXJpYWwtdWkvY29yZS9MaW5lYXJQcm9ncmVzcyc7XG5cbmNvbnN0IGluaXRpYWxTdGF0ZSA9IHtcbiAgc3VibWl0dGluZzogZmFsc2UsXG4gIHN1Ym1pdHRlZDogZmFsc2UsXG4gIHNob3dBbGVydDogZmFsc2UsXG4gIGlucHV0OiB7XG4gICAgZW1haWw6IFwiXCIsXG4gICAgbmFtZTogXCJcIixcbiAgICBtZXNzYWdlOiBcIlwiXG4gIH1cbn1cbmNsYXNzIENvbnRhY3QgZXh0ZW5kcyBDb21wb25lbnQge1xuXG4gIGNvbnN0cnVjdG9yKHByb3BzKSB7XG4gICAgc3VwZXIocHJvcHMpO1xuICAgIHRoaXMuc3RhdGUgPSB7XG4gICAgICAuLi5pbml0aWFsU3RhdGVcbiAgICB9O1xuICAgIHRoaXMuaGFuZGxlQ2hhbmdlID0gdGhpcy5oYW5kbGVJbnB1dENoYW5nZS5iaW5kKHRoaXMpO1xuICAgIHRoaXMuc3VibWl0Rm9ybSA9IHRoaXMuc3VibWl0Rm9ybS5iaW5kKHRoaXMpO1xuICB9XG5cbiAgaGFuZGxlSW5wdXRDaGFuZ2UobmV3UGFydGlhbElucHV0KSB7XG4gICAgdGhpcy5zZXRTdGF0ZShzdGF0ZSA9PiAoe1xuICAgICAgLi4uc3RhdGUsXG4gICAgICBpbnB1dDoge1xuICAgICAgICAuLi5zdGF0ZS5pbnB1dCxcbiAgICAgICAgLi4ubmV3UGFydGlhbElucHV0XG4gICAgICB9XG4gICAgfSkpXG4gIH1cblxuICBzdWJtaXRGb3JtKGV2ZW50KSB7XG4gICAgZXZlbnQucHJldmVudERlZmF1bHQoKTtcbiAgICBjb25zdCB7IGlucHV0LCBzaG93QWxlcnQgfSA9IHRoaXMuc3RhdGU7XG4gICAgdGhpcy5zZXRTdGF0ZSh7IHN1Ym1pdHRpbmc6IHRydWUgfSlcbiAgICBmZXRjaCgnL2FwaS9jb250YWN0cycsIHtcbiAgICAgIG1ldGhvZDogJ3Bvc3QnLFxuICAgICAgaGVhZGVyczoge1xuICAgICAgICAnQWNjZXB0JzogJ2FwcGxpY2F0aW9uL2pzb24sIHRleHQvcGxhaW4sICovKicsXG4gICAgICAgICdDb250ZW50LVR5cGUnOiAnYXBwbGljYXRpb24vanNvbidcbiAgICAgIH0sXG4gICAgICBib2R5OiBKU09OLnN0cmluZ2lmeShpbnB1dClcbiAgICB9KS50aGVuKChyZXNwb25zZSkgPT4ge1xuICAgICAgcmVzcG9uc2UuanNvbigpLnRoZW4oKHJlcykgPT4ge1xuICAgICAgICBpZiAocmVzLnN0YXR1cyA9PT0gMjAxICYmIHJlcy5zdWNjZXNzID09PSB0cnVlKSB7XG4gICAgICAgICAgdGhpcy5zZXRTdGF0ZSh7IHN1Ym1pdHRlZDogdHJ1ZSB9KVxuICAgICAgICAgIHRoaXMuc2V0U3RhdGUoaW5pdGlhbFN0YXRlKVxuICAgICAgICAgIHRoaXMuc2V0U3RhdGUoeyBzaG93QWxlcnQ6IHRydWUgfSk7XG4gICAgICAgIH0gZWxzZSB7XG4gICAgICAgICAgdGhpcy5zZXRTdGF0ZSh7IHN1Ym1pdHRpbmc6IGZhbHNlIH0pO1xuICAgICAgICAgIGFsZXJ0KCdJbnRlcm5hbCBzZXJ2ZXIgZXJyb3InKTtcbiAgICAgICAgfVxuICAgICAgfSlcbiAgICB9KVxuICB9XG5cbiAgcmVuZGVyKCkge1xuICAgIGNvbnN0IHsgaW5wdXQsIHNob3dBbGVydCB9ID0gdGhpcy5zdGF0ZTtcbiAgICByZXR1cm4gKFxuICAgICAgPExheW91dCB0aXRsZT1cIkNvbnRhY3QgVXMgfCBDaGFyaXNvbCBUZWNobm9sb2dpZXNcIiBjb250ZW50PVwiTGV0IHVzIGhlbHAgeW91IGJyaW5nIHlvdXIgcHJvamVjdHMgdG8gbGlmZSBhbmQgZGVsaXZlciB5b3VyIGRlc2lnbi9kZXZlbG9wbWVudHMgbmVlZHMgdGhlIHJpZ2h0IHdheS5cIj5cbiAgICAgICAgPHN0eWxlIGRhbmdlcm91c2x5U2V0SW5uZXJIVE1MPXt7IF9faHRtbDogc3R5bGVzaGVldCB9fSAvPlxuICAgICAgICA8U25hY2tiYXJcbiAgICAgICAgICBhbmNob3JPcmlnaW49e3sgdmVydGljYWw6ICd0b3AnLCBob3Jpem9udGFsOiAnY2VudGVyJyB9fVxuICAgICAgICAgIG9wZW49e3Nob3dBbGVydH1cbiAgICAgICAgICBvbkNsb3NlPXt0aGlzLmhhbmRsZUNsb3NlfVxuICAgICAgICAgIENvbnRlbnRQcm9wcz17e1xuICAgICAgICAgICAgJ2FyaWEtZGVzY3JpYmVkYnknOiAnbWVzc2FnZS1pZCcsXG4gICAgICAgICAgfX1cbiAgICAgICAgICBtZXNzYWdlPXs8c3BhbiBpZD1cIm1lc3NhZ2UtaWRcIj5NZXNzYWdlIFNlbnQhIFlvdSB3aWxsIGJlIG5vdGlmeTwvc3Bhbj59XG4gICAgICAgIC8+XG4gICAgICAgIDxkaXYgaWQ9XCJwYW5lbFwiIGRhdGEtc2xpZGVvdXQtaWdub3JlPlxuICAgICAgICAgIDxzZWN0aW9uIGNsYXNzTmFtZT1cInByaWNpbmdcIj5cbiAgICAgICAgICAgIDxOYXZiYXIgLz5cbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29udGVudFwiPlxuICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInJvd1wiPlxuICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwic2l4IGNvbHVtbnNcIj5cbiAgICAgICAgICAgICAgICAgIDxpbWcgc3JjPXtyZXF1aXJlKCcuLi9hc3NldHMvaW1nL2JnX2NvbnRhY3QucG5nJyl9IGFsdD1cIlNjYWxpbmcgc29mdHdhcmUgZGV2ZWxvcG1lbnQgdGVhbXMuXCIgY2xhc3NOYW1lPVwicmVzcGltZ1wiLz5cbiAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInNpeCBjb2x1bW5zXCI+XG4gICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInRleHQtY29udGVudFwiPlxuICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9XCJoZWFkaW5nLXdyYXBwZXJcIj5cbiAgICAgICAgICAgICAgICAgICAgICA8aDEgY2xhc3NOYW1lPVwiaGVhZGluZyBuby1yZXZlYWxcIj5cbiAgICAgICAgICAgICAgICAgICAgICAgIEdldCBpbiBUb3VjaC5cbiAgICAgICAgICAgICAgICAgICA8L2gxPlxuICAgICAgICAgICAgICAgICAgICA8L3NwYW4+XG4gICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT1cInN1Yi10ZXh0LXdyYXBwZXJcIj5cbiAgICAgICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9XCJzdWItdGV4dCBuby1yZXZlYWxcIj5cbiAgICAgICAgICAgICAgICAgICAgICAgIExldOKAmXMgaGVscCB5b3UgZmlndXJlIG91dCB5b3VyIHNvZnR3YXJlIGVuZ2luZWVyaW5nIGFuZCBkZXNpZ24gbmVlZHMuXG4gICAgICAgICAgICAgICAgICAgICAgICBXZSBhcmUgc3VwZXIgZXhjaXRlZCB0byBnZXQgdG8gY2hhdCB3aXRoIHlvdSBhbmQgZWFnZXIgdG8gd29yayB3aXRoIHlvdSB0byBicmluZyB5b3VyIG5leHQgcHJvamVjdCB0byBsaWZlLiBEcm9wIHVzIGEgbGluZSBvciB0d28gYW5kIHdlIHdpbGwgZ2V0IGluIHRvdWNoIHdpdGggeW91LlxuICAgICAgICAgICAgICAgICAgICAgIDwvcD5cbiAgICAgICAgICAgICAgICAgICAgPC9zcGFuPlxuICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cIm0tYi1tZFwiPlxuICAgICAgICAgICAgICAgICAgICAgIDxoNj5FbWFpbDogPGEgaHJlZj1cIm1haWx0bzppbmZvQGNoYXJpc29sLmlvP3N1YmplY3Q9RnJvbSBDaGFyaXNvbCBXZWJzaXRlXCI+aW5mb0BjaGFyaXNvbC5pbzwvYT48L2g2PlxuICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgPGZvcm0gaWQ9XCJzdGFydC1mb3JtXCIgb25TdWJtaXQ9e3RoaXMuc3VibWl0Rm9ybX0+XG4gICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJyb3dcIj5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwic2l4IGNvbHVtbnNcIj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJkaXZcIj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8bGFiZWwgaHRtbEZvcj1cIm5hbWVcIj5OYW1lPC9sYWJlbD5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8aW5wdXQgdmFsdWU9e2lucHV0Lm5hbWV9IG9uQ2hhbmdlPXtlID0+IHRoaXMuaGFuZGxlSW5wdXRDaGFuZ2UoeyBuYW1lOiBlLnRhcmdldC52YWx1ZSB9KX0gY2xhc3NOYW1lPVwidS1mdWxsLXdpZHRoXCIgdHlwZT1cInRleHRcIiBpZD1cIm5hbWVcIiBuYW1lPVwibmFtZVwiIHJlcXVpcmVkIC8+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPVwibGlnaHRcIj48ZW0+VGlwOiBDb3VsZCBiZSB5b3VyIGZ1bGxuYW1lIG9yIGNvbXBhbnkgbmFtZS48L2VtPjwvcD5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwic2l4IGNvbHVtbnNcIj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJkaXZcIj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8bGFiZWwgaHRtbEZvcj1cImVtYWlsXCI+RW1haWw8L2xhYmVsPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxpbnB1dCB2YWx1ZT17aW5wdXQuZW1haWx9IG9uQ2hhbmdlPXtlID0+IHRoaXMuaGFuZGxlSW5wdXRDaGFuZ2UoeyBlbWFpbDogZS50YXJnZXQudmFsdWUgfSl9IGNsYXNzTmFtZT1cInUtZnVsbC13aWR0aFwiIHR5cGU9XCJlbWFpbFwiIGlkPVwiZW1haWxcIiBuYW1lPVwiZW1haWxcIiByZXF1aXJlZCAvPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT1cImxpZ2h0XCI+PGVtPlRpcDogQ291bGQgYmUgeW91ciBwZXJzb25hbCBlbWFpbCBhZGRyZXNzIG9yIGNvbXBhbnkgZW1haWwgYWRkcmVzcy48L2VtPjwvcD5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImRpdlwiPlxuICAgICAgICAgICAgICAgICAgICAgICAgPGxhYmVsIGh0bWxGb3I9XCJwcm9qZWN0X2Rlc2NyaXB0aW9uXCI+TWVzc2FnZTwvbGFiZWw+XG4gICAgICAgICAgICAgICAgICAgICAgICA8dGV4dGFyZWEgdmFsdWU9e2lucHV0Lm1lc3NhZ2V9IG9uQ2hhbmdlPXtlID0+IHRoaXMuaGFuZGxlSW5wdXRDaGFuZ2UoeyBtZXNzYWdlOiBlLnRhcmdldC52YWx1ZSB9KX0gY2xhc3NOYW1lPVwidS1mdWxsLXdpZHRoXCIgaWQ9XCJtZXNzYWdlXCIgcm93cz1cIjhcIiBuYW1lPVwicHJvamVjdF9kZXNjcmlwdGlvblwiIHJlcXVpcmVkPjwvdGV4dGFyZWE+XG4gICAgICAgICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9XCJsaWdodFwiPjxlbT5UaXA6IENvdWxkIGJlIGEgcHJvamVjdCBicmllZiwgYSBwYXJ0bmVyc2hpcCBlbnF1aXJ5IG9yIGFza2luZyBhYm91dCB2YWNhbmNpZXM8L2VtPjwvcD5cbiAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICB7dGhpcy5zdGF0ZS5zdWJtaXR0aW5nID8gKDxMaW5lYXJQcm9ncmVzcyBjb2xvcj1cInNlY29uZGFyeVwiIC8+KSA6ICgnJyl9XG4gICAgICAgICAgICAgICAgICAgICAgPGJ1dHRvbiBjbGFzc05hbWU9J20tdC1sZyBidG4tY3VydmUtcHVycGxlIGZ1bGwnIHR5cGU9XCJzdWJtaXRcIiB2YWx1ZT1cIlN1Ym1pdFwiPnt0aGlzLnN0YXRlLnN1Ym1pdHRpbmcgPyAnU3VibWl0dGluZy4uLicgOiAnU3VibWl0J308L2J1dHRvbj5cbiAgICAgICAgICAgICAgICAgICAgPC9mb3JtPlxuICAgICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgPC9zZWN0aW9uPlxuICAgICAgICA8L2Rpdj5cblxuICAgICAgICA8c3R5bGUganN4PntgXG4gICAgICAuc3ViLXRleHR7XG4gICAgICAgIHRleHQtYWxpZ246anVzdGlmeTtcbiAgICAgIH1cbiAgICAgIFxuICAgIGB9PC9zdHlsZT5cblxuICAgICAgPC9MYXlvdXQ+XG4gICAgKVxuICB9XG59XG5cblxuZXhwb3J0IGRlZmF1bHQgQ29udGFjdCJdfQ== */\n/*@ sourceURL=pages/contact.js */"
-      }));
+        }
+      }, this.state.submitting ? 'Submitting...' : 'Submit')))))))));
     }
   }, {
     key: "__reactstandin__regenerateByEval",
@@ -14884,7 +14652,7 @@ function (_Component) {
   }]);
 
   return Contact;
-}(__WEBPACK_IMPORTED_MODULE_4_react__["Component"]);
+}(__WEBPACK_IMPORTED_MODULE_3_react__["Component"]);
 
 var _default = Contact;
 /* harmony default export */ __webpack_exports__["default"] = (_default);
@@ -14899,9 +14667,9 @@ var _default = Contact;
     return;
   }
 
-  reactHotLoader.register(initialState, "initialState", "/Users/macbook/workspace/charisol/challaris-tech-website/pages/contact.js");
-  reactHotLoader.register(Contact, "Contact", "/Users/macbook/workspace/charisol/challaris-tech-website/pages/contact.js");
-  reactHotLoader.register(_default, "default", "/Users/macbook/workspace/charisol/challaris-tech-website/pages/contact.js");
+  reactHotLoader.register(initialState, "initialState", "C:\\Users\\user\\challaris-tech-website\\pages\\contact.js");
+  reactHotLoader.register(Contact, "Contact", "C:\\Users\\user\\challaris-tech-website\\pages\\contact.js");
+  reactHotLoader.register(_default, "default", "C:\\Users\\user\\challaris-tech-website\\pages\\contact.js");
   leaveModule(module);
 })();
 
@@ -14931,18 +14699,18 @@ var _default = Contact;
 /***/ "./styles/about.scss":
 /***/ (function(module, exports) {
 
-module.exports = "@charset \"UTF-8\";\n/*! normalize.css v3.0.2 | MIT License | git.io/normalize */\n/**\n * 1. Set default font family to sans-serif.\n * 2. Prevent iOS text size adjust after orientation change, without disabling\n *    user zoom.\n */\nhtml {\n  font-family: sans-serif;\n  /* 1 */\n  -ms-text-size-adjust: 100%;\n  /* 2 */\n  -webkit-text-size-adjust: 100%;\n  /* 2 */ }\n/**\n * Remove default margin.\n */\nbody {\n  margin: 0; }\n/* HTML5 display definitions\n   ========================================================================== */\n/**\n * Correct `block` display not defined for any HTML5 element in IE 8/9.\n * Correct `block` display not defined for `details` or `summary` in IE 10/11\n * and Firefox.\n * Correct `block` display not defined for `main` in IE 11.\n */\narticle,\naside,\ndetails,\nfigcaption,\nfigure,\nfooter,\nheader,\nhgroup,\nmain,\nmenu,\nnav,\nsection,\nsummary {\n  display: block; }\n/**\n * 1. Correct `inline-block` display not defined in IE 8/9.\n * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.\n */\naudio,\ncanvas,\nprogress,\nvideo {\n  display: inline-block;\n  /* 1 */\n  vertical-align: baseline;\n  /* 2 */ }\n/**\n * Prevent modern browsers from displaying `audio` without controls.\n * Remove excess height in iOS 5 devices.\n */\naudio:not([controls]) {\n  display: none;\n  height: 0; }\n/**\n * Address `[hidden]` styling not present in IE 8/9/10.\n * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.\n */\n[hidden],\ntemplate {\n  display: none; }\n/* Links\n   ========================================================================== */\n/**\n * Remove the gray background color from active links in IE 10.\n */\na {\n  background-color: transparent; }\n/**\n * Improve readability when focused and also mouse hovered in all browsers.\n */\na:active,\na:hover {\n  outline: 0; }\n/* Text-level semantics\n   ========================================================================== */\n/**\n * Address styling not present in IE 8/9/10/11, Safari, and Chrome.\n */\nabbr[title] {\n  border-bottom: 1px dotted; }\n/**\n * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.\n */\nb,\nstrong {\n  font-weight: bold; }\n/**\n * Address styling not present in Safari and Chrome.\n */\ndfn {\n  font-style: italic; }\n/**\n * Address variable `h1` font-size and margin within `section` and `article`\n * contexts in Firefox 4+, Safari, and Chrome.\n */\nh1 {\n  font-size: 2em;\n  margin: 0.67em 0; }\n/**\n * Address styling not present in IE 8/9.\n */\nmark {\n  background: #ff0;\n  color: #000; }\n/**\n * Address inconsistent and variable font size in all browsers.\n */\nsmall {\n  font-size: 80%; }\n/**\n * Prevent `sub` and `sup` affecting `line-height` in all browsers.\n */\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline; }\nsup {\n  top: -0.5em; }\nsub {\n  bottom: -0.25em; }\n/* Embedded content\n   ========================================================================== */\n/**\n * Remove border when inside `a` element in IE 8/9/10.\n */\nimg {\n  border: 0; }\n/**\n * Correct overflow not hidden in IE 9/10/11.\n */\nsvg:not(:root) {\n  overflow: hidden; }\n/* Grouping content\n   ========================================================================== */\n/**\n * Address margin not present in IE 8/9 and Safari.\n */\nfigure {\n  margin: 1em 40px; }\n/**\n * Address differences between Firefox and other browsers.\n */\nhr {\n  -webkit-box-sizing: content-box;\n          box-sizing: content-box;\n  height: 0; }\n/**\n * Contain overflow in all browsers.\n */\npre {\n  overflow: auto; }\n/**\n * Address odd `em`-unit font size rendering in all browsers.\n */\ncode,\nkbd,\npre,\nsamp {\n  font-family: monospace, monospace;\n  font-size: 1em; }\n/* Forms\n   ========================================================================== */\n/**\n * Known limitation: by default, Chrome and Safari on OS X allow very limited\n * styling of `select`, unless a `border` property is set.\n */\n/**\n * 1. Correct color not being inherited.\n *    Known issue: affects color of disabled elements.\n * 2. Correct font properties not being inherited.\n * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.\n */\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  color: inherit;\n  /* 1 */\n  font: inherit;\n  /* 2 */\n  margin: 0;\n  /* 3 */ }\n/**\n * Address `overflow` set to `hidden` in IE 8/9/10/11.\n */\nbutton {\n  overflow: visible; }\n/**\n * Address inconsistent `text-transform` inheritance for `button` and `select`.\n * All other form control elements do not inherit `text-transform` values.\n * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.\n * Correct `select` style inheritance in Firefox.\n */\nbutton,\nselect {\n  text-transform: none; }\n/**\n * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`\n *    and `video` controls.\n * 2. Correct inability to style clickable `input` types in iOS.\n * 3. Improve usability and consistency of cursor style between image-type\n *    `input` and others.\n */\nbutton,\nhtml input[type=\"button\"],\ninput[type=\"reset\"],\ninput[type=\"submit\"] {\n  -webkit-appearance: button;\n  /* 2 */\n  cursor: pointer;\n  /* 3 */ }\n/**\n * Re-set default cursor for disabled elements.\n */\nbutton[disabled],\nhtml input[disabled] {\n  cursor: default; }\n/**\n * Remove inner padding and border in Firefox 4+.\n */\nbutton::-moz-focus-inner,\ninput::-moz-focus-inner {\n  border: 0;\n  padding: 0; }\n/**\n * Address Firefox 4+ setting `line-height` on `input` using `!important` in\n * the UA stylesheet.\n */\ninput {\n  line-height: normal; }\n/**\n * It's recommended that you don't attempt to style these elements.\n * Firefox's implementation doesn't respect box-sizing, padding, or width.\n *\n * 1. Address box sizing set to `content-box` in IE 8/9/10.\n * 2. Remove excess padding in IE 8/9/10.\n */\ninput[type=\"checkbox\"],\ninput[type=\"radio\"] {\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n  /* 1 */\n  padding: 0;\n  /* 2 */ }\n/**\n * Fix the cursor style for Chrome's increment/decrement buttons. For certain\n * `font-size` values of the `input`, it causes the cursor style of the\n * decrement button to change from `default` to `text`.\n */\ninput[type=\"number\"]::-webkit-inner-spin-button,\ninput[type=\"number\"]::-webkit-outer-spin-button {\n  height: auto; }\n/**\n * 1. Address `appearance` set to `searchfield` in Safari and Chrome.\n * 2. Address `box-sizing` set to `border-box` in Safari and Chrome\n *    (include `-moz` to future-proof).\n */\ninput[type=\"search\"] {\n  -webkit-appearance: textfield;\n  /* 1 */\n  -webkit-box-sizing: content-box;\n  /* 2 */\n  box-sizing: content-box; }\n/**\n * Remove inner padding and search cancel button in Safari and Chrome on OS X.\n * Safari (but not Chrome) clips the cancel button when the search input has\n * padding (and `textfield` appearance).\n */\ninput[type=\"search\"]::-webkit-search-cancel-button,\ninput[type=\"search\"]::-webkit-search-decoration {\n  -webkit-appearance: none; }\n/**\n * Define consistent border, margin, and padding.\n */\nfieldset {\n  border: 1px solid #c0c0c0;\n  margin: 0 2px;\n  padding: 0.35em 0.625em 0.75em; }\n/**\n * 1. Correct `color` not being inherited in IE 8/9/10/11.\n * 2. Remove padding so people aren't caught out if they zero out fieldsets.\n */\nlegend {\n  border: 0;\n  /* 1 */\n  padding: 0;\n  /* 2 */ }\n/**\n * Remove default vertical scrollbar in IE 8/9/10/11.\n */\ntextarea {\n  overflow: auto; }\n/**\n * Don't inherit the `font-weight` (applied by a rule above).\n * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.\n */\noptgroup {\n  font-weight: bold; }\n/* Tables\n   ========================================================================== */\n/**\n * Remove most spacing between table cells.\n */\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\ntd,\nth {\n  padding: 0; }\n/*\n* Skeleton V2.0.4\n* Copyright 2014, Dave Gamache\n* www.getskeleton.com\n* Free to use under the MIT license.\n* http://www.opensource.org/licenses/mit-license.php\n* 12/29/2014\n*/\n/* Table of contents\n––––––––––––––––––––––––––––––––––––––––––––––––––\n- Grid\n- Base Styles\n- Typography\n- Links\n- Buttons\n- Forms\n- Lists\n- Code\n- Tables\n- Spacing\n- Utilities\n- Clearing\n- Media Queries\n*/\n/* Grid\n–––––––––––––––––––––––––––––––––––––––––––––––––– */\n.container {\n  position: relative;\n  width: 100%;\n  max-width: 960px;\n  margin: 0 auto;\n  padding: 0 20px;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box; }\n.column,\n.columns {\n  width: 100%;\n  float: left;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box; }\n/* For devices larger than 400px */\n@media (min-width: 400px) {\n  .container {\n    width: 85%;\n    padding: 0; } }\n/* For devices larger than 550px */\n@media (min-width: 550px) {\n  .container {\n    width: 80%; }\n  .column,\n  .columns {\n    margin-left: 4%; }\n  .column:first-child,\n  .columns:first-child {\n    margin-left: 0; }\n  .one.column,\n  .one.columns {\n    width: 4.66666666667%; }\n  .two.columns {\n    width: 13.3333333333%; }\n  .three.columns {\n    width: 22%; }\n  .four.columns {\n    width: 30.6666666667%; }\n  .five.columns {\n    width: 39.3333333333%; }\n  .six.columns {\n    width: 48%; }\n  .seven.columns {\n    width: 56.6666666667%; }\n  .eight.columns {\n    width: 65.3333333333%; }\n  .nine.columns {\n    width: 74.0%; }\n  .ten.columns {\n    width: 82.6666666667%; }\n  .eleven.columns {\n    width: 91.3333333333%; }\n  .twelve.columns {\n    width: 100%;\n    margin-left: 0; }\n  .one-third.column {\n    width: 30.6666666667%; }\n  .two-thirds.column {\n    width: 65.3333333333%; }\n  .one-half.column {\n    width: 48%; }\n  /* Offsets */\n  .offset-by-one.column,\n  .offset-by-one.columns {\n    margin-left: 8.66666666667%; }\n  .offset-by-two.column,\n  .offset-by-two.columns {\n    margin-left: 17.3333333333%; }\n  .offset-by-three.column,\n  .offset-by-three.columns {\n    margin-left: 26%; }\n  .offset-by-four.column,\n  .offset-by-four.columns {\n    margin-left: 34.6666666667%; }\n  .offset-by-five.column,\n  .offset-by-five.columns {\n    margin-left: 43.3333333333%; }\n  .offset-by-six.column,\n  .offset-by-six.columns {\n    margin-left: 52%; }\n  .offset-by-seven.column,\n  .offset-by-seven.columns {\n    margin-left: 60.6666666667%; }\n  .offset-by-eight.column,\n  .offset-by-eight.columns {\n    margin-left: 69.3333333333%; }\n  .offset-by-nine.column,\n  .offset-by-nine.columns {\n    margin-left: 78.0%; }\n  .offset-by-ten.column,\n  .offset-by-ten.columns {\n    margin-left: 86.6666666667%; }\n  .offset-by-eleven.column,\n  .offset-by-eleven.columns {\n    margin-left: 95.3333333333%; }\n  .offset-by-one-third.column,\n  .offset-by-one-third.columns {\n    margin-left: 34.6666666667%; }\n  .offset-by-two-thirds.column,\n  .offset-by-two-thirds.columns {\n    margin-left: 69.3333333333%; }\n  .offset-by-one-half.column,\n  .offset-by-one-half.columns {\n    margin-left: 52%; } }\n/* Base Styles\n–––––––––––––––––––––––––––––––––––––––––––––––––– */\n/* NOTE\nhtml is set to 62.5% so that all the REM measurements throughout Skeleton\nare based on 10px sizing. So basically 1.5rem = 15px :) */\nhtml {\n  font-size: 62.5%; }\nbody {\n  font-size: 1.5em;\n  /* currently ems cause chrome bug misinterpreting rems on body element */\n  line-height: 1.6;\n  font-weight: 400;\n  font-family: \"Raleway\", \"HelveticaNeue\", \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n  color: #222; }\n/* Typography\n–––––––––––––––––––––––––––––––––––––––––––––––––– */\nh1, h2, h3, h4, h5, h6 {\n  margin-top: 0;\n  margin-bottom: 2rem;\n  font-weight: 300; }\nh1 {\n  font-size: 4.0rem;\n  line-height: 1.2;\n  letter-spacing: -.1rem; }\nh2 {\n  font-size: 3.6rem;\n  line-height: 1.25;\n  letter-spacing: -.1rem; }\nh3 {\n  font-size: 3.0rem;\n  line-height: 1.3;\n  letter-spacing: -.1rem; }\nh4 {\n  font-size: 2.4rem;\n  line-height: 1.35;\n  letter-spacing: -.08rem; }\nh5 {\n  font-size: 1.8rem;\n  line-height: 1.5;\n  letter-spacing: -.05rem; }\nh6 {\n  font-size: 1.5rem;\n  line-height: 1.6;\n  letter-spacing: 0; }\n/* Larger than phablet */\n@media (min-width: 550px) {\n  h1 {\n    font-size: 5.0rem; }\n  h2 {\n    font-size: 4.2rem; }\n  h3 {\n    font-size: 3.6rem; }\n  h4 {\n    font-size: 3.0rem; }\n  h5 {\n    font-size: 2.4rem; }\n  h6 {\n    font-size: 1.5rem; } }\np {\n  margin-top: 0; }\n/* Links\n–––––––––––––––––––––––––––––––––––––––––––––––––– */\na {\n  color: #1EAEDB; }\na:hover {\n  color: #0FA0CE; }\n/* Forms\n–––––––––––––––––––––––––––––––––––––––––––––––––– */\ninput[type=\"email\"],\ninput[type=\"number\"],\ninput[type=\"search\"],\ninput[type=\"text\"],\ninput[type=\"tel\"],\ninput[type=\"url\"],\ninput[type=\"password\"],\ntextarea,\nselect {\n  height: 38px;\n  padding: 6px 10px;\n  /* The 6px vertically centers text on FF, ignored by Webkit */\n  background-color: #fff;\n  border: 1px solid #D1D1D1;\n  border-radius: 4px;\n  -webkit-box-shadow: none;\n          box-shadow: none;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box; }\n/* Removes awkward default styles on some inputs for iOS */\ninput[type=\"email\"],\ninput[type=\"number\"],\ninput[type=\"search\"],\ninput[type=\"text\"],\ninput[type=\"tel\"],\ninput[type=\"url\"],\ninput[type=\"password\"],\ntextarea {\n  -webkit-appearance: none;\n  -moz-appearance: none;\n  appearance: none; }\ntextarea {\n  min-height: 65px;\n  padding-top: 6px;\n  padding-bottom: 6px; }\ninput[type=\"email\"]:focus,\ninput[type=\"number\"]:focus,\ninput[type=\"search\"]:focus,\ninput[type=\"text\"]:focus,\ninput[type=\"tel\"]:focus,\ninput[type=\"url\"]:focus,\ninput[type=\"password\"]:focus,\ntextarea:focus,\nselect:focus {\n  border: 1px solid #33C3F0;\n  outline: 0; }\nlabel,\nlegend {\n  display: block;\n  margin-bottom: .5rem;\n  font-weight: 600; }\nfieldset {\n  padding: 0;\n  border-width: 0; }\ninput[type=\"checkbox\"],\ninput[type=\"radio\"] {\n  display: inline; }\nlabel > .label-body {\n  display: inline-block;\n  margin-left: .5rem;\n  font-weight: normal; }\n/* Lists\n–––––––––––––––––––––––––––––––––––––––––––––––––– */\nul {\n  list-style: circle inside; }\nol {\n  list-style: decimal inside; }\nol, ul {\n  padding-left: 0;\n  margin-top: 0; }\nul ul,\nul ol,\nol ol,\nol ul {\n  margin: 1.5rem 0 1.5rem 3rem;\n  font-size: 90%; }\nli {\n  margin-bottom: 1rem; }\n/* Code\n–––––––––––––––––––––––––––––––––––––––––––––––––– */\ncode {\n  padding: .2rem .5rem;\n  margin: 0 .2rem;\n  font-size: 90%;\n  white-space: nowrap;\n  background: #F1F1F1;\n  border: 1px solid #E1E1E1;\n  border-radius: 4px; }\npre > code {\n  display: block;\n  padding: 1rem 1.5rem;\n  white-space: pre; }\n/* Tables\n–––––––––––––––––––––––––––––––––––––––––––––––––– */\nth,\ntd {\n  padding: 12px 15px;\n  text-align: left;\n  border-bottom: 1px solid #E1E1E1; }\nth:first-child,\ntd:first-child {\n  padding-left: 0; }\nth:last-child,\ntd:last-child {\n  padding-right: 0; }\n/* Spacing\n–––––––––––––––––––––––––––––––––––––––––––––––––– */\nbutton,\n.button {\n  margin-bottom: 1rem; }\ninput,\ntextarea,\nselect,\nfieldset {\n  margin-bottom: 1rem; }\npre,\nblockquote,\ndl,\nfigure,\ntable,\np,\nul,\nol,\nform {\n  margin-bottom: 2.5rem; }\n/* Utilities\n–––––––––––––––––––––––––––––––––––––––––––––––––– */\n.u-full-width {\n  width: 100%;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box; }\n.u-max-full-width {\n  max-width: 100%;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box; }\n.u-pull-right {\n  float: right; }\n.u-pull-left {\n  float: left; }\n/* Misc\n–––––––––––––––––––––––––––––––––––––––––––––––––– */\nhr {\n  margin-top: 3rem;\n  margin-bottom: 3.5rem;\n  border-width: 0;\n  border-top: 1px solid #E1E1E1; }\n/* Clearing\n–––––––––––––––––––––––––––––––––––––––––––––––––– */\n/* Self Clearing Goodness */\n.container:after,\n.row:after,\n.u-cf {\n  content: \"\";\n  display: table;\n  clear: both; }\n/* Media Queries\n–––––––––––––––––––––––––––––––––––––––––––––––––– */\n/*\nNote: The best way to structure the use of media queries is to create the queries\nnear the relevant code. For example, if you wanted to change the styles for buttons\non small devices, paste the mobile query code up in the buttons section and style it\nthere.\n*/\n/* Larger than mobile */\n/* Larger than phablet (also point when grid becomes active) */\n/* Larger than tablet */\n/* Larger than desktop */\n/* Larger than Desktop HD */\nbody {\n  width: 100%;\n  height: 100%; }\n.slideout-menu {\n  position: fixed;\n  top: 0;\n  bottom: 0;\n  width: 256px;\n  min-height: 100vh;\n  overflow-y: scroll;\n  -webkit-overflow-scrolling: touch;\n  z-index: 0;\n  display: none; }\n.slideout-menu-left {\n  left: 0; }\n.slideout-menu-right {\n  right: 0; }\n.slideout-panel {\n  position: relative;\n  z-index: 1;\n  will-change: transform;\n  background-color: transparent;\n  /* A background-color is required */\n  min-height: 100vh; }\n.slideout-open,\n.slideout-open body,\n.slideout-open .slideout-panel {\n  overflow: hidden; }\n.slideout-open .slideout-menu {\n  display: block; }\n.blocker {\n  position: fixed;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  overflow: auto;\n  z-index: 1;\n  padding: 20px;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n  background-color: #000;\n  background-color: rgba(0, 0, 0, 0.75);\n  text-align: center; }\n.blocker:before {\n  content: \"\";\n  display: inline-block;\n  height: 100%;\n  vertical-align: middle;\n  margin-right: -0.05em; }\n.blocker.behind {\n  background-color: transparent; }\n.modal {\n  display: none;\n  vertical-align: middle;\n  position: relative;\n  z-index: 2;\n  max-width: 500px;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n  width: 90%;\n  background: #fff;\n  padding: 15px 30px;\n  border-radius: 8px;\n  -webkit-box-shadow: 0 0 10px #000;\n  -o-box-shadow: 0 0 10px #000;\n  -ms-box-shadow: 0 0 10px #000;\n  box-shadow: 0 0 10px #000;\n  text-align: left; }\n.modal a.close-modal {\n  position: absolute;\n  top: -12.5px;\n  right: -12.5px;\n  display: block;\n  width: 30px;\n  height: 30px;\n  text-indent: -9999px;\n  background-size: contain;\n  background-repeat: no-repeat;\n  background-position: center center;\n  background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAAAXNSR0IArs4c6QAAA3hJREFUaAXlm8+K00Acx7MiCIJH/yw+gA9g25O49SL4AO3Bp1jw5NvktC+wF88qevK4BU97EmzxUBCEolK/n5gp3W6TTJPfpNPNF37MNsl85/vN/DaTmU6PknC4K+pniqeKJ3k8UnkvDxXJzzy+q/yaxxeVHxW/FNHjgRSeKt4rFoplzaAuHHDBGR2eS9G54reirsmienDCTRt7xwsp+KAoEmt9nLaGitZxrBbPFNaGfPloGw2t4JVamSt8xYW6Dg1oCYo3Yv+rCGViV160oMkcd8SYKnYV1Nb1aEOjCe6L5ZOiLfF120EjWhuBu3YIZt1NQmujnk5F4MgOpURzLfAwOBSTmzp3fpDxuI/pabxpqOoz2r2HLAb0GMbZKlNV5/Hg9XJypguryA7lPF5KMdTZQzHjqxNPhWhzIuAruOl1eNqKEx1tSh5rfbxdw7mOxCq4qS68ZTjKS1YVvilu559vWvFHhh4rZrdyZ69Vmpgdj8fJbDZLJpNJ0uv1cnr/gjrUhQMuI+ANjyuwftQ0bbL6Erp0mM/ny8Fg4M3LtdRxgMtKl3jwmIHVxYXChFy94/Rmpa/pTbNUhstKV+4Rr8lLQ9KlUvJKLyG8yvQ2s9SBy1Jb7jV5a0yapfF6apaZLjLLcWtd4sNrmJUMHyM+1xibTjH82Zh01TNlhsrOhdKTe00uAzZQmN6+KW+sDa/JD2PSVQ873m29yf+1Q9VDzfEYlHi1G5LKBBWZbtEsHbFwb1oYDwr1ZiF/2bnCSg1OBE/pfr9/bWx26UxJL3ONPISOLKUvQza0LZUxSKyjpdTGa/vDEr25rddbMM0Q3O6Lx3rqFvU+x6UrRKQY7tyrZecmD9FODy8uLizTmilwNj0kraNcAJhOp5aGVwsAGD5VmJBrWWbJSgWT9zrzWepQF47RaGSiKfeGx6Szi3gzmX/HHbihwBser4B9UJYpFBNX4R6vTn3VQnez0SymnrHQMsRYGTr1dSk34ljRqS/EMd2pLQ8YBp3a1PLfcqCpo8gtHkZFHKkTX6fs3MY0blKnth66rKCnU0VRGu37ONrQaA4eZDFtWAu2fXj9zjFkxTBOo8F7t926gTp/83Kyzzcy2kZD6xiqxTYnHLRFm3vHiRSwNSjkz3hoIzo8lCKWUlg/YtGs7tObunDAZfpDLbfEI15zsEIY3U/x/gHHc/G1zltnAgAAAABJRU5ErkJggg==\"); }\n.modal-spinner {\n  display: none;\n  position: fixed;\n  top: 50%;\n  left: 50%;\n  -webkit-transform: translateY(-50%) translateX(-50%);\n          transform: translateY(-50%) translateX(-50%);\n  padding: 12px 16px;\n  border-radius: 5px;\n  background-color: #111;\n  height: 20px; }\n.modal-spinner > div {\n  border-radius: 100px;\n  background-color: #fff;\n  height: 20px;\n  width: 2px;\n  margin: 0 1px;\n  display: inline-block;\n  -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;\n  animation: sk-stretchdelay 1.2s infinite ease-in-out; }\n.modal-spinner .rect2 {\n  -webkit-animation-delay: -1.1s;\n  animation-delay: -1.1s; }\n.modal-spinner .rect3 {\n  -webkit-animation-delay: -1.0s;\n  animation-delay: -1.0s; }\n.modal-spinner .rect4 {\n  -webkit-animation-delay: -0.9s;\n  animation-delay: -0.9s; }\n@-webkit-keyframes sk-stretchdelay {\n  0%, 40%, 100% {\n    -webkit-transform: scaleY(0.5); }\n  20% {\n    -webkit-transform: scaleY(1); } }\n@keyframes sk-stretchdelay {\n  0%, 40%, 100% {\n    transform: scaleY(0.5);\n    -webkit-transform: scaleY(0.5); }\n  20% {\n    transform: scaleY(1);\n    -webkit-transform: scaleY(1); } }\n/*\n * Note that this is toastr v2.1.3, the \"latest\" version in url has no more maintenance,\n * please go to https://cdnjs.com/libraries/toastr.js and pick a certain version you want to use,\n * make sure you copy the url from the website since the url may change between versions.\n * */\n.toast-title {\n  font-weight: 700; }\n.toast-message {\n  -ms-word-wrap: break-word;\n  word-wrap: break-word; }\n.toast-message a,\n.toast-message label {\n  color: #FFF; }\n.toast-message a:hover {\n  color: #CCC;\n  text-decoration: none; }\n.toast-close-button {\n  position: relative;\n  right: -.3em;\n  top: -.3em;\n  float: right;\n  font-size: 20px;\n  font-weight: 700;\n  color: #FFF;\n  -webkit-text-shadow: 0 1px 0 #fff;\n  text-shadow: 0 1px 0 #fff;\n  opacity: .8;\n  filter: alpha(opacity=80);\n  line-height: 1; }\n.toast-close-button:focus,\n.toast-close-button:hover {\n  color: #000;\n  text-decoration: none;\n  cursor: pointer;\n  opacity: .4;\n  filter: alpha(opacity=40); }\n.rtl .toast-close-button {\n  left: -.3em;\n  float: left;\n  right: .3em; }\nbutton.toast-close-button {\n  padding: 0;\n  cursor: pointer;\n  background: 0 0;\n  border: 0;\n  -webkit-appearance: none; }\n.toast-top-center {\n  top: 0;\n  right: 0;\n  width: 100%; }\n.toast-bottom-center {\n  bottom: 0;\n  right: 0;\n  width: 100%; }\n.toast-top-full-width {\n  top: 0;\n  right: 0;\n  width: 100%; }\n.toast-bottom-full-width {\n  bottom: 0;\n  right: 0;\n  width: 100%; }\n.toast-top-left {\n  top: 12px;\n  left: 12px; }\n.toast-top-right {\n  top: 12px;\n  right: 12px; }\n.toast-bottom-right {\n  right: 12px;\n  bottom: 12px; }\n.toast-bottom-left {\n  bottom: 12px;\n  left: 12px; }\n#toast-container {\n  position: fixed;\n  z-index: 999999;\n  pointer-events: none; }\n#toast-container * {\n  -webkit-box-sizing: border-box;\n  box-sizing: border-box; }\n#toast-container > div {\n  position: relative;\n  pointer-events: auto;\n  overflow: hidden;\n  margin: 0 0 6px;\n  padding: 15px 15px 15px 50px;\n  width: 300px;\n  border-radius: 3px;\n  background-position: 15px center;\n  background-repeat: no-repeat;\n  -webkit-box-shadow: 0 0 12px #999;\n  box-shadow: 0 0 12px #999;\n  color: #FFF;\n  opacity: .8;\n  filter: alpha(opacity=80); }\n#toast-container > div.rtl {\n  direction: rtl;\n  padding: 15px 50px 15px 15px;\n  background-position: right 15px center; }\n#toast-container > div:hover {\n  -webkit-box-shadow: 0 0 12px #000;\n  box-shadow: 0 0 12px #000;\n  opacity: 1;\n  filter: alpha(opacity=100);\n  cursor: pointer; }\n#toast-container > .toast-info {\n  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGwSURBVEhLtZa9SgNBEMc9sUxxRcoUKSzSWIhXpFMhhYWFhaBg4yPYiWCXZxBLERsLRS3EQkEfwCKdjWJAwSKCgoKCcudv4O5YLrt7EzgXhiU3/4+b2ckmwVjJSpKkQ6wAi4gwhT+z3wRBcEz0yjSseUTrcRyfsHsXmD0AmbHOC9Ii8VImnuXBPglHpQ5wwSVM7sNnTG7Za4JwDdCjxyAiH3nyA2mtaTJufiDZ5dCaqlItILh1NHatfN5skvjx9Z38m69CgzuXmZgVrPIGE763Jx9qKsRozWYw6xOHdER+nn2KkO+Bb+UV5CBN6WC6QtBgbRVozrahAbmm6HtUsgtPC19tFdxXZYBOfkbmFJ1VaHA1VAHjd0pp70oTZzvR+EVrx2Ygfdsq6eu55BHYR8hlcki+n+kERUFG8BrA0BwjeAv2M8WLQBtcy+SD6fNsmnB3AlBLrgTtVW1c2QN4bVWLATaIS60J2Du5y1TiJgjSBvFVZgTmwCU+dAZFoPxGEEs8nyHC9Bwe2GvEJv2WXZb0vjdyFT4Cxk3e/kIqlOGoVLwwPevpYHT+00T+hWwXDf4AJAOUqWcDhbwAAAAASUVORK5CYII=) !important; }\n#toast-container > .toast-error {\n  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHOSURBVEhLrZa/SgNBEMZzh0WKCClSCKaIYOED+AAKeQQLG8HWztLCImBrYadgIdY+gIKNYkBFSwu7CAoqCgkkoGBI/E28PdbLZmeDLgzZzcx83/zZ2SSXC1j9fr+I1Hq93g2yxH4iwM1vkoBWAdxCmpzTxfkN2RcyZNaHFIkSo10+8kgxkXIURV5HGxTmFuc75B2RfQkpxHG8aAgaAFa0tAHqYFfQ7Iwe2yhODk8+J4C7yAoRTWI3w/4klGRgR4lO7Rpn9+gvMyWp+uxFh8+H+ARlgN1nJuJuQAYvNkEnwGFck18Er4q3egEc/oO+mhLdKgRyhdNFiacC0rlOCbhNVz4H9FnAYgDBvU3QIioZlJFLJtsoHYRDfiZoUyIxqCtRpVlANq0EU4dApjrtgezPFad5S19Wgjkc0hNVnuF4HjVA6C7QrSIbylB+oZe3aHgBsqlNqKYH48jXyJKMuAbiyVJ8KzaB3eRc0pg9VwQ4niFryI68qiOi3AbjwdsfnAtk0bCjTLJKr6mrD9g8iq/S/B81hguOMlQTnVyG40wAcjnmgsCNESDrjme7wfftP4P7SP4N3CJZdvzoNyGq2c/HWOXJGsvVg+RA/k2MC/wN6I2YA2Pt8GkAAAAASUVORK5CYII=) !important; }\n#toast-container > .toast-success {\n  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADsSURBVEhLY2AYBfQMgf///3P8+/evAIgvA/FsIF+BavYDDWMBGroaSMMBiE8VC7AZDrIFaMFnii3AZTjUgsUUWUDA8OdAH6iQbQEhw4HyGsPEcKBXBIC4ARhex4G4BsjmweU1soIFaGg/WtoFZRIZdEvIMhxkCCjXIVsATV6gFGACs4Rsw0EGgIIH3QJYJgHSARQZDrWAB+jawzgs+Q2UO49D7jnRSRGoEFRILcdmEMWGI0cm0JJ2QpYA1RDvcmzJEWhABhD/pqrL0S0CWuABKgnRki9lLseS7g2AlqwHWQSKH4oKLrILpRGhEQCw2LiRUIa4lwAAAABJRU5ErkJggg==) !important; }\n#toast-container > .toast-warning {\n  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGYSURBVEhL5ZSvTsNQFMbXZGICMYGYmJhAQIJAICYQPAACiSDB8AiICQQJT4CqQEwgJvYASAQCiZiYmJhAIBATCARJy+9rTsldd8sKu1M0+dLb057v6/lbq/2rK0mS/TRNj9cWNAKPYIJII7gIxCcQ51cvqID+GIEX8ASG4B1bK5gIZFeQfoJdEXOfgX4QAQg7kH2A65yQ87lyxb27sggkAzAuFhbbg1K2kgCkB1bVwyIR9m2L7PRPIhDUIXgGtyKw575yz3lTNs6X4JXnjV+LKM/m3MydnTbtOKIjtz6VhCBq4vSm3ncdrD2lk0VgUXSVKjVDJXJzijW1RQdsU7F77He8u68koNZTz8Oz5yGa6J3H3lZ0xYgXBK2QymlWWA+RWnYhskLBv2vmE+hBMCtbA7KX5drWyRT/2JsqZ2IvfB9Y4bWDNMFbJRFmC9E74SoS0CqulwjkC0+5bpcV1CZ8NMej4pjy0U+doDQsGyo1hzVJttIjhQ7GnBtRFN1UarUlH8F3xict+HY07rEzoUGPlWcjRFRr4/gChZgc3ZL2d8oAAAAASUVORK5CYII=) !important; }\n#toast-container.toast-bottom-center > div,\n#toast-container.toast-top-center > div {\n  width: 300px;\n  margin-left: auto;\n  margin-right: auto; }\n#toast-container.toast-bottom-full-width > div,\n#toast-container.toast-top-full-width > div {\n  width: 96%;\n  margin-left: auto;\n  margin-right: auto; }\n.toast {\n  background-color: #030303; }\n.toast-success {\n  background-color: #51A351; }\n.toast-error {\n  background-color: #BD362F; }\n.toast-info {\n  background-color: #2F96B4; }\n.toast-warning {\n  background-color: #F89406; }\n.toast-progress {\n  position: absolute;\n  left: 0;\n  bottom: 0;\n  height: 4px;\n  background-color: #000;\n  opacity: .4;\n  filter: alpha(opacity=40); }\n@media all and (max-width: 240px) {\n  #toast-container > div {\n    padding: 8px 8px 8px 50px;\n    width: 11em; }\n  #toast-container > div.rtl {\n    padding: 8px 50px 8px 8px; }\n  #toast-container .toast-close-button {\n    right: -.2em;\n    top: -.2em; }\n  #toast-container .rtl .toast-close-button {\n    left: -.2em;\n    right: .2em; } }\n@media all and (min-width: 241px) and (max-width: 480px) {\n  #toast-container > div {\n    padding: 8px 8px 8px 50px;\n    width: 18em; }\n  #toast-container > div.rtl {\n    padding: 8px 50px 8px 8px; }\n  #toast-container .toast-close-button {\n    right: -.2em;\n    top: -.2em; }\n  #toast-container .rtl .toast-close-button {\n    left: -.2em;\n    right: .2em; } }\n@media all and (min-width: 481px) and (max-width: 768px) {\n  #toast-container > div {\n    padding: 15px 15px 15px 50px;\n    width: 25em; }\n  #toast-container > div.rtl {\n    padding: 15px 50px 15px 15px; } }\n@font-face {\n  font-family: 'vollkorn-regular';\n  src: url(\"../../static/fonts/vollkorn/Vollkorn-Regular.ttf\") format(\"truetype\"); }\n@font-face {\n  font-family: 'vollkorn-bold';\n  src: url(\"../../static/fonts/vollkorn/Vollkorn-Bold.ttf\") format(\"truetype\"); }\n@font-face {\n  font-family: 'vollkorn-black';\n  src: url(\"../../static/fonts/vollkorn/Vollkorn-Black.ttf\") format(\"truetype\"); }\n@font-face {\n  font-family: 'OpenSans-regular';\n  src: url(\"../../static/fonts/open-sans/OpenSans-Regular.ttf\") format(\"truetype\"); }\n@font-face {\n  font-family: 'OpenSand-bold';\n  src: url(\"../../static/fonts/open-sans/Volkron-Bold.ttf\") format(\"truetype\"); }\n.nav-desktop .nav-desktop-left .logo, .nav-index .nav-desktop-left .logo, .btn-block-white, .btn-block-purple {\n  display: block;\n  width: 100%; }\n.nav-desktop .nav-desktop-left, .nav-index .nav-desktop-left {\n  float: left;\n  margin-right: auto; }\n.nav-desktop .nav-desktop-left .logo, .nav-index .nav-desktop-left .logo {\n    font-size: 1.3em;\n    background-image: url(http://res.cloudinary.com/sportbay-co/image/upload/v1525431685/charisol-logo_purple_l5mn4v.svg);\n    background-position: left;\n    background-size: contain;\n    background-repeat: no-repeat;\n    margin-left: 20px;\n    width: 130px;\n    height: 75px; }\n.nav-desktop .nav-desktop-left .logo img, .nav-index .nav-desktop-left .logo img {\n      display: none;\n      max-height: 15px;\n      position: relative;\n      top: -5px; }\n.nav-desktop .hamburger, .nav-index .hamburger {\n  float: right;\n  cursor: pointer;\n  width: 40px;\n  padding: 10px; }\n.nav-desktop .hamburger span, .nav-index .hamburger span {\n    display: block;\n    margin-bottom: 4px;\n    background-color: black;\n    border: 1px solid black;\n    -webkit-transition: all 0.4s cubic-bezier(0.895, 0.03, 0.685, 0.22);\n    transition: all 0.4s cubic-bezier(0.895, 0.03, 0.685, 0.22); }\n.nav-desktop .hamburger .last-child, .nav-index .hamburger .last-child {\n    margin-bottom: 0; }\n.nav-desktop .hamburger:hover .first-child, .nav-index .hamburger:hover .first-child,\n.nav-desktop .hamburger:hover .last-child,\n.nav-index .hamburger:hover .last-child {\n  -webkit-transform: scaleX(0.7);\n          transform: scaleX(0.7); }\n.btn-clear-purple, .btn-clear-white, footer .links li a, .btn-trans-white, .btn-block-white, .btn-block-purple, .btn-curve-purple, .btn-curve-white, .nav-desktop .links li a {\n  -webkit-transition: 0.4s;\n  transition: 0.4s; }\n.btn-clear-purple, .btn-clear-white {\n  padding: 0;\n  margin: 0;\n  border: 0;\n  font-size: 1.2em;\n  position: relative;\n  text-decoration: none; }\n.btn-clear-purple img, .btn-clear-white img {\n    height: 10px;\n    margin-left: 10px; }\n.btn-clear-purple:hover, .btn-clear-white:hover {\n    -webkit-transform: translateY(-1px);\n            transform: translateY(-1px); }\nhtml, body {\n  height: 100%; }\nbody {\n  font-family: 'OpenSans-regular', sans-serif;\n  color: #222222;\n  overflow-x: hidden; }\nbutton {\n  background: transparent; }\nbutton:visited, button:focus {\n    outline: 0; }\nfooter {\n  padding: 20px 50px 70px 50px;\n  background: white; }\nfooter .nav-desktop-left {\n    float: left; }\nfooter .nav-desktop-left .logo {\n      text-decoration: none;\n      font-size: 1.3em;\n      display: block;\n      height: 85px;\n      width: 120px;\n      background-image: url(http://res.cloudinary.com/sportbay-co/image/upload/v1525431685/charisol-logo_purple_l5mn4v.svg);\n      background-position: left;\n      background-size: contain;\n      background-repeat: no-repeat; }\nfooter .nav-desktop-left .logo img {\n        max-height: 15px;\n        position: relative;\n        top: 15px; }\nfooter .links {\n    float: right;\n    margin-top: 5px; }\nfooter .links ul {\n      list-style: none;\n      padding: 0;\n      margin: 0; }\nfooter .links li {\n      display: inline-block;\n      padding: 0 15px; }\nfooter .links li a {\n        opacity: 0.9;\n        font-weight: 300;\n        text-decoration: none;\n        color: #4D4D4D; }\nfooter .links li a:hover {\n        opacity: 1; }\nfooter .links li img {\n        height: 30px;\n        position: relative;\n        top: 10px; }\n.close {\n  display: block;\n  width: 25px;\n  height: 25px;\n  background-position: center;\n  background-size: contain;\n  margin: 0 auto;\n  margin-right: 0px;\n  -webkit-transition: all 0.4s cubic-bezier(0.895, 0.03, 0.685, 0.22);\n  transition: all 0.4s cubic-bezier(0.895, 0.03, 0.685, 0.22);\n  margin-bottom: 40px; }\n.close-white {\n  background-image: url(\"http://res.cloudinary.com/sportbay-co/image/upload/v1525969277/close-white_vgyzjt.svg\"); }\n.close-red {\n  background-image: url(\"../../static/img/close-red.svg\");\n  width: 18px;\n  height: 18px; }\n.close:hover {\n  -webkit-transform: rotate(90deg);\n          transform: rotate(90deg); }\n.smooth-scroll {\n  position: absolute;\n  -webkit-transition: -webkit-transform 0.4s ease-out;\n  transition: -webkit-transform 0.4s ease-out;\n  transition: transform 0.4s ease-out;\n  transition: transform 0.4s ease-out, -webkit-transform 0.4s ease-out; }\n.bold {\n  font-family: 'OpenSans-Bold', sans-serif; }\n.light {\n  font-size: 12px;\n  opacity: 0.6;\n  font-family: 'proxima-nova-light', sans-serif; }\n.heading-wrapper, .sub-text-wrapper {\n  display: block;\n  overflow: hidden;\n  margin-bottom: 40px; }\n.heading-wrapper {\n  padding-top: 10px; }\n.sub-text-wrapper {\n  margin-bottom: 30px; }\n.heading {\n  font-family: 'vollkorn-bold', 'serif';\n  color: #B721FF;\n  font-size: 44px;\n  -webkit-transition: all 0.9s cubic-bezier(0.175, 0.885, 0.32, 1.275);\n  transition: all 0.9s cubic-bezier(0.175, 0.885, 0.32, 1.275);\n  -webkit-transition-delay: 0.25s;\n          transition-delay: 0.25s;\n  margin: 0px; }\n.sub-text {\n  margin-bottom: 0px;\n  -webkit-transition: all 0.7s cubic-bezier(0.77, 0, 0.175, 1);\n  transition: all 0.7s cubic-bezier(0.77, 0, 0.175, 1);\n  -webkit-transition-delay: 0.45s;\n          transition-delay: 0.45s; }\n.heading.no-reveal {\n  -webkit-transform: translate3d(0px, 115%, 0px);\n          transform: translate3d(0px, 115%, 0px);\n  opacity: 0; }\n.sub-text.no-reveal {\n  -webkit-transform: translate3d(0px, -115%, 0px);\n          transform: translate3d(0px, -115%, 0px);\n  opacity: 0; }\n.heading.reveal, .sub-text.reveal {\n  -webkit-transform: translate3d(0px, 0%, 0px);\n          transform: translate3d(0px, 0%, 0px);\n  opacity: 1; }\n.m-b-sm {\n  margin-bottom: 10px; }\n.m-b-md {\n  margin-bottom: 20px; }\n.m-b-lg {\n  margin-bottom: 40px; }\n.m-b-xl {\n  margin-bottom: 60px; }\n.m-l-sm {\n  margin-left: 10px; }\n.m-r-md {\n  margin-right: 20px; }\n.m-t-md {\n  margin-top: 20px; }\n.m-t-lg {\n  margin-top: 40px; }\n.m-t-xl {\n  margin-top: 60px; }\n.btn-clear-purple {\n  color: #B721FF; }\n.btn-clear-purple:hover {\n    color: #B721FF; }\n.btn-clear-white {\n  color: white; }\n.btn-clear-white:hover {\n    color: white; }\n.btn-trans-white {\n  color: white;\n  display: block;\n  width: 180px;\n  border: 1px solid white;\n  border-radius: 40px;\n  background: transparent;\n  text-align: center;\n  padding: 10px 25px;\n  -webkit-transition: -webkit-transform 0.4s;\n  transition: -webkit-transform 0.4s;\n  transition: transform 0.4s;\n  transition: transform 0.4s, -webkit-transform 0.4s; }\n.btn-trans-white:hover {\n    color: #222222 !important;\n    background: white;\n    -webkit-transform: scale(0.9);\n            transform: scale(0.9); }\n.btn-block-white {\n  -webkit-box-shadow: -1px 1px 1px 1px rgba(0, 0, 0, 0.1);\n          box-shadow: -1px 1px 1px 1px rgba(0, 0, 0, 0.1);\n  color: #B721FF;\n  display: block;\n  width: 180px;\n  border: 1px solid white;\n  border-radius: 3px;\n  background: transparent;\n  text-align: center;\n  padding: 5px 25px;\n  -webkit-transition: -webkit-transform 0.4s;\n  transition: -webkit-transform 0.4s;\n  transition: transform 0.4s;\n  transition: transform 0.4s, -webkit-transform 0.4s; }\n.btn-block-white:hover {\n    color: white !important;\n    background: #B721FF;\n    -webkit-transform: scale(0.9);\n            transform: scale(0.9); }\n.btn-block-purple {\n  color: white;\n  display: block;\n  width: 180px;\n  border: 1px solid transparent;\n  border-radius: 3px;\n  background: #B721FF;\n  text-align: center;\n  padding: 15px;\n  -webkit-transition: -webkit-transform 0.4s;\n  transition: -webkit-transform 0.4s;\n  transition: transform 0.4s;\n  transition: transform 0.4s, -webkit-transform 0.4s; }\n.btn-block-purple:hover {\n    color: white !important;\n    background: #B721FF;\n    -webkit-transform: scale(0.9);\n            transform: scale(0.9); }\n.btn-curve-purple img, .btn-curve-white img {\n  margin-left: 10px; }\n.btn-curve-purple {\n  color: white;\n  display: block;\n  width: 180px;\n  border: 1px solid transparent;\n  border-radius: 40px;\n  background: #B721FF;\n  text-align: center;\n  padding: 15px 15px;\n  -webkit-transition: -webkit-transform 0.4s;\n  transition: -webkit-transform 0.4s;\n  transition: transform 0.4s;\n  transition: transform 0.4s, -webkit-transform 0.4s;\n  text-decoration: none; }\n.btn-curve-purple:hover {\n    color: white !important;\n    background: #B721FF;\n    -webkit-transform: scale(0.9);\n            transform: scale(0.9); }\n.btn-curve-white {\n  color: #B721FF;\n  display: block;\n  width: 180px;\n  border: 1px solid transparent;\n  border-radius: 40px;\n  background: white;\n  text-align: center;\n  padding: 15px 15px;\n  -webkit-transition: -webkit-transform 0.4s;\n  transition: -webkit-transform 0.4s;\n  transition: transform 0.4s;\n  transition: transform 0.4s, -webkit-transform 0.4s;\n  text-decoration: none; }\n.btn-curve-white:hover {\n    color: #B721FF !important;\n    background: white;\n    -webkit-transform: scale(0.9);\n            transform: scale(0.9); }\n.text-center {\n  text-align: center; }\n.content-cover {\n  display: none;\n  z-index: 10;\n  position: absolute;\n  right: 0;\n  width: 100%;\n  height: 100%;\n  background: rgba(0, 0, 0, 0.6); }\n#panel {\n  background: white; }\n.modal input, .modal textarea, .modal select, .modal fieldset {\n  margin-bottom: 1rem; }\n.modal textarea {\n  height: auto; }\n.blocker {\n  z-index: 11; }\n.full {\n  display: block;\n  width: 100%; }\n.nav-desktop {\n  font-size: 1em;\n  left: 0;\n  padding: 15px 30px;\n  position: absolute;\n  right: 0;\n  top: 0;\n  z-index: 10;\n  background: #B721FF; }\n.nav-desktop .icon {\n    margin-right: 5px;\n    height: 12px;\n    position: relative;\n    top: -2px; }\n.nav-desktop .links {\n    float: left;\n    margin-left: 100px;\n    margin-top: 5px; }\n.nav-desktop .links ul {\n      list-style: none;\n      padding: 0;\n      margin: 0; }\n.nav-desktop .links li {\n      display: inline-block;\n      padding: 0 15px; }\n.nav-desktop .links li a {\n        opacity: 0.9;\n        font-weight: 300;\n        color: white;\n        text-decoration: none; }\n.nav-desktop .links li a:hover {\n        opacity: 1; }\n.nav-index {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center; }\n.nav-index .hamburger {\n    margin-left: auto; }\n.nav-top {\n  -webkit-box-shadow: -1px 1px 3px 3px rgba(0, 0, 0, 0.1);\n          box-shadow: -1px 1px 3px 3px rgba(0, 0, 0, 0.1);\n  padding: 0px 40px 0px 40px;\n  height: 75px; }\n.nav-top .hamburger {\n    margin-top: 25px;\n    padding-top: 5px; }\n.menu, .profile {\n  display: none !important; }\n.menu {\n  width: 400px;\n  padding: 60px;\n  background: #2b2b2b;\n  text-align: right;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box; }\n.menu .close {\n    cursor: pointer;\n    color: white;\n    font-size: 0.6em; }\n.menu ul {\n    padding: 0;\n    margin: 0;\n    list-style: none; }\n.menu li {\n    font-size: 2em;\n    margin-bottom: 20px; }\n.menu li.active img {\n      height: 10px;\n      margin-right: 20px;\n      position: relative;\n      top: -5px; }\n.menu a {\n    color: #FFFFFF;\n    text-decoration: none; }\n.menu a:hover {\n      color: #FFFFFF;\n      text-decoration: none; }\n.menu a:visited, .menu a:focus {\n      color: #FFFFFF;\n      text-decoration: none; }\n.menu a:hover {\n    color: #c038e0;\n    text-decoration: none; }\n.menu a:hover:hover {\n      color: #c038e0;\n      text-decoration: none; }\n.menu a:hover:visited, .menu a:hover:focus {\n      color: #c038e0;\n      text-decoration: none; }\n.menu p {\n    font-size: 0.6em; }\n.menu .btn-trans-white {\n    margin: 0 auto;\n    font-size: 17px;\n    margin-top: 80px; }\n.show {\n  display: block !important; }\n.mobile {\n  width: 300px;\n  padding: 40px; }\n.mobile .btn-trans-white {\n    font-size: 0.8em; }\n.profile {\n  width: 400px;\n  padding: 20px;\n  background: white;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box; }\n.profile h5 {\n    margin-bottom: 0; }\n.profile .head {\n    border-bottom: 1px solid #A3A3A3;\n    padding-bottom: 6px;\n    margin-bottom: 30px; }\n.profile .head h5 {\n      display: inline-block; }\n.profile .head span {\n      float: right;\n      margin-right: 20px;\n      color: crimson;\n      cursor: pointer; }\n.profile .blue-badge {\n    background: #B721FF;\n    font-size: 0.8em;\n    padding: 5px 10px;\n    border-radius: 20px;\n    color: white; }\n.profile .circle {\n    background: white;\n    padding: 5px;\n    border-radius: 50%;\n    margin-right: 10px;\n    display: inline-block; }\n.profile .top-info img {\n    height: 130px; }\n.profile .top-info p {\n    margin-bottom: 10px; }\n.profile .skills-heading {\n    font-size: 13px;\n    margin-top: 30px;\n    margin-bottom: 5px; }\n.profile .skill-text {\n    margin-top: 0px; }\n.profile .experience-heading {\n    margin-top: 20px;\n    margin-bottom: 0px; }\n.profile .experience-website {\n    color: #B721FF;\n    font-size: 12px;\n    display: block;\n    margin-bottom: 15px; }\n.profile .experience-role {\n    margin-top: 0px;\n    margin-bottom: 2px; }\n.profile .experience-period {\n    margin-top: 0px;\n    margin-bottom: 20px;\n    font-size: 12px; }\n.profile .experience-role-ul {\n    list-style-position: outside;\n    padding-left: 20px; }\n.profile .experience-role-ul li {\n      margin-bottom: 20px; }\n.menu {\n  display: none; }\n.index {\n  background: white; }\n.index .top-wrapper {\n    background: url(../img/bg_left_semi.svg) no-repeat top left;\n    background-size: 60%;\n    padding: 20px;\n    min-height: 95vh;\n    position: relative;\n    z-index: 5; }\n.index .intro {\n    background: white;\n    width: 100%;\n    min-height: inherit; }\n.index .intro .text-content {\n      margin-top: 100px;\n      padding: 0 50px; }\n.index .intro .six.columns:first-child {\n      padding: 20px 0 20px 20px; }\n.index .intro p {\n      color: #222222; }\n.index .intro .intro-content-wrapper {\n      min-height: inherit; }\n.index .intro .intro-content-wrapper .left-pane {\n        min-height: inherit;\n        display: -webkit-box;\n        display: -ms-flexbox;\n        display: flex;\n        -webkit-box-orient: vertical;\n        -webkit-box-direction: normal;\n            -ms-flex-direction: column;\n                flex-direction: column;\n        -webkit-box-pack: start;\n            -ms-flex-pack: start;\n                justify-content: flex-start; }\n.index .intro .intro-content-wrapper .left-pane .text-content {\n          -webkit-box-flex: 2;\n              -ms-flex: 2;\n                  flex: 2;\n          -webkit-box-pack: center;\n              -ms-flex-pack: center;\n                  justify-content: center;\n          display: -webkit-box;\n          display: -ms-flexbox;\n          display: flex;\n          -webkit-box-orient: vertical;\n          -webkit-box-direction: normal;\n              -ms-flex-direction: column;\n                  flex-direction: column;\n          padding-bottom: 60px;\n          margin-top: 0px; }\n.index .intro .intro-content-wrapper .left-pane .text-content .btn-curve-purple {\n            display: block;\n            width: 200px;\n            padding: 15px 20px;\n            text-align: center;\n            -webkit-transition: -webkit-transform 0.4s;\n            transition: -webkit-transform 0.4s;\n            transition: transform 0.4s;\n            transition: transform 0.4s, -webkit-transform 0.4s; }\n.index .intro .intro-content-wrapper .left-pane .text-content .btn-curve-purple:hover {\n            -webkit-transform: scale(0.9);\n                    transform: scale(0.9); }\n.index .intro .intro-content-wrapper .right-pane {\n        min-height: inherit;\n        overflow: hidden; }\n.index .intro .intro-content-wrapper .right-pane .top-img-wrapper {\n          overflow: hidden;\n          width: 100%;\n          min-height: inherit;\n          background-color: #333333;\n          -webkit-transform: scale(1.05);\n                  transform: scale(1.05);\n          -webkit-transform-origin: -100% 50%;\n                  transform-origin: -100% 50%;\n          -webkit-transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1);\n          transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1);\n          -webkit-transition-delay: 0.4s;\n                  transition-delay: 0.4s; }\n.index .intro .intro-content-wrapper .right-pane .top-img {\n          min-height: inherit;\n          -webkit-transform: translate3d(0px, 0px, 0px);\n                  transform: translate3d(0px, 0px, 0px);\n          -webkit-transition: all 1s cubic-bezier(0.23, 1, 0.32, 1);\n          transition: all 1s cubic-bezier(0.23, 1, 0.32, 1);\n          -webkit-transition-delay: 0.7s;\n                  transition-delay: 0.7s; }\n.index .intro .intro-content-wrapper .right-pane .top-img-wrapper.no-reveal {\n          -webkit-transform: scaleX(0.89);\n                  transform: scaleX(0.89); }\n.index .intro .intro-content-wrapper .right-pane .top-img-wrapper.no-reveal .top-img {\n            -webkit-transform: translate3d(-120%, 0px, 0px);\n                    transform: translate3d(-120%, 0px, 0px); }\n.index .top-img {\n    background: url(http://res.cloudinary.com/sportbay-co/image/upload/v1525424030/bg_top_qzynai.jpg) no-repeat top !important;\n    background-size: cover !important;\n    height: calc(100vh - 50px) !important; }\n.index .scale {\n    margin-top: 100px;\n    margin-bottom: 80px;\n    position: relative;\n    z-index: 2; }\n.index .scale .text-content {\n      margin-top: 0px;\n      padding: 0 50px; }\n.index .scale .sub-text {\n      color: #222222; }\n.index .scale .section-2-wrapper {\n      padding-top: 50px; }\n.index .scale .section-2-wrapper .image-wrapper-container {\n        padding: 1px 8%;\n        overflow: hidden;\n        -webkit-box-sizing: border-box;\n                box-sizing: border-box;\n        height: 700px;\n        position: relative; }\n.index .scale .section-2-wrapper .image-wrapper-container .clear-div-container {\n          overflow: hidden;\n          height: 100%;\n          width: 100%; }\n.index .scale .section-2-wrapper .image-wrapper-container .clear-div {\n          height: 100%;\n          width: 100%;\n          overflow: hidden;\n          background-color: #333333;\n          -webkit-transform: scaleX(1);\n                  transform: scaleX(1);\n          -webkit-transform-origin: -100% 50%;\n                  transform-origin: -100% 50%;\n          -webkit-transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1);\n          transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1); }\n.index .scale .section-2-wrapper .image-wrapper-container .image-wrapper {\n          height: 100%;\n          width: 100%;\n          top: 0;\n          left: 0;\n          right: 0;\n          -webkit-transform: translate3d(0px, 0%, 0px) scale(1.1);\n                  transform: translate3d(0px, 0%, 0px) scale(1.1);\n          -webkit-transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1);\n          transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1);\n          -webkit-transition-delay: 0.4s;\n                  transition-delay: 0.4s;\n          background-position: center;\n          background-size: cover; }\n.index .scale .section-2-wrapper .image-wrapper-container .image-wrapper:hover {\n          -webkit-transform: scale(1.05);\n                  transform: scale(1.05); }\n.index .scale .section-2-wrapper .image-wrapper-container.no-reveal .clear-div {\n        -webkit-transform: scaleX(0.67);\n                transform: scaleX(0.67); }\n.index .scale .section-2-wrapper .image-wrapper-container.no-reveal .image-wrapper {\n        -webkit-transform: translate3d(-120%, 0%, 0px);\n                transform: translate3d(-120%, 0%, 0px); }\n.index .scale .section-2-wrapper .text-wrapper {\n        margin-top: 150px;\n        margin-left: 0px; }\n.index .simple {\n    color: white;\n    position: relative;\n    z-index: 1;\n    background: url(../img/bg_left_shape.svg) no-repeat top left; }\n.index .simple .text-content {\n      margin-top: 100px;\n      padding: 0 50px; }\n.index .simple .row {\n      background-size: 70%;\n      position: relative;\n      z-index: 1;\n      padding: 70px 0px; }\n.index .simple .row .text-content {\n        padding: 0px 60px;\n        padding-right: 130px; }\n.index .simple .row .text-content .heading {\n          margin-bottom: 0px;\n          color: #ffffff; }\n.index .simple p {\n      padding-right: 30px; }\n.index .simple .sub-title {\n      font-size: 1.25em;\n      font-weight: 600;\n      margin-bottom: 10px; }\n.index .simple .five.columns:nth-child(2) img {\n      height: 600px;\n      margin-top: 70px; }\n.index .simple .purple-bg {\n      background: rgba(183, 33, 255, 0.1);\n      height: 300px;\n      position: absolute;\n      bottom: 0px;\n      z-index: 0;\n      display: block;\n      width: 100%; }\n.index .benefits {\n    padding: 120px 0;\n    padding-bottom: 200px;\n    display: block;\n    width: 100%;\n    background: rgba(183, 33, 255, 0.1); }\n.index .benefits .heading {\n      margin-bottom: 0px; }\n.index .benefits .content {\n      padding: 0 150px;\n      padding-top: 100px;\n      padding-bottom: 100px; }\n.index .benefits .content .h5 {\n        font-weight: 800; }\n.index .benefits .p {\n      opacity: 0.75; }\n.index .bottom-banner-wrapper {\n    min-height: 100px;\n    width: 100%;\n    -webkit-transform: translateY(-120px);\n            transform: translateY(-120px); }\n.index .bottom-banner-wrapper .img-wrapper {\n      width: 65%;\n      min-height: 400px;\n      padding-top: 30px;\n      padding-bottom: 30px;\n      border-radius: 10px;\n      margin: 0 auto;\n      background-image: url(\"../img/banner-img.jpg\");\n      background-position: center;\n      background-size: cover;\n      color: white;\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -webkit-box-orient: vertical;\n      -webkit-box-direction: normal;\n          -ms-flex-direction: column;\n              flex-direction: column;\n      -webkit-box-pack: center;\n          -ms-flex-pack: center;\n              justify-content: center;\n      -webkit-box-align: center;\n          -ms-flex-align: center;\n              align-items: center; }\n.index .bottom-banner-wrapper .img-wrapper .banner-text {\n        font-size: 24px;\n        display: block;\n        width: 65%;\n        -webkit-transition: all 0.6s ease-out;\n        transition: all 0.6s ease-out;\n        text-align: center; }\n.index .bottom-banner-wrapper .img-wrapper .banner-text.no-reveal {\n        opacity: 0; }\n.index .bottom-banner-wrapper .img-wrapper banner-text.reveal {\n        opacity: 1; }\n.index .bottom-banner-wrapper .img-wrapper .start-project-btn {\n        padding: 15px 40px;\n        color: #333333; }\n.index .bottom-banner-wrapper .img-wrapper .start-project-btn:hover {\n        color: #333333 !important; }\n.index .cd-testimonials-wrapper {\n    position: relative;\n    width: 90%;\n    max-width: 60%;\n    margin: 2em auto;\n    -webkit-font-smoothing: antialiased;\n    -moz-osx-font-smoothing: grayscale;\n    padding: 20px 40px 70px;\n    z-index: 1; }\n.index .cd-testimonials-wrapper::after {\n    /* quotation mark */\n    content: '\\201C';\n    position: absolute;\n    top: 10px;\n    left: 0;\n    width: 50px;\n    height: 50px;\n    padding-top: 8px;\n    margin-left: -25px;\n    background: #c038e0;\n    font-family: \"Georgia\", serif;\n    color: #ffffff;\n    font-size: 70px;\n    font-size: 4.375rem;\n    text-align: center;\n    /* visible on big devices only */\n    display: none; }\n@media only screen and (min-width: 768px) {\n    .index .cd-testimonials-wrapper {\n      margin: 0em auto;\n      padding: 0px 50px 114px; } }\n@media only screen and (min-width: 1170px) {\n    .index .cd-testimonials-wrapper::after {\n      /* quotation mark visible */\n      display: block; }\n    .index .cd-testimonials-wrapper {\n      margin: 0em auto;\n      padding: 0px 50px 114px; } }\n.index .cd-testimonials {\n    color: #000000;\n    text-align: center; }\n.index .cd-testimonials::after {\n    clear: both;\n    content: \"\";\n    display: table; }\n.index .cd-testimonials > li {\n    position: absolute;\n    opacity: 0; }\n.index .cd-testimonials > li:first-child {\n    position: relative;\n    opacity: 1; }\n.index .cd-testimonials p {\n    font-family: \"Georgia\", serif;\n    font-style: italic;\n    line-height: 1.4;\n    margin-bottom: 1em;\n    padding: 0 14px; }\n@media only screen and (min-width: 768px) {\n    .index .cd-testimonials p {\n      font-size: 22px;\n      font-size: 1.375rem; } }\n@media only screen and (min-width: 1170px) {\n    .index .cd-testimonials p {\n      font-size: 26px;\n      font-size: 2.625rem;\n      line-height: 1.6; } }\n@media only screen and (min-width: 300px) {\n    .index .recommendee-developer img {\n      height: 40px !important;\n      width: 40px !important;\n      border-radius: 50%;\n      border: 3px solid #fff; }\n    .index .recommendee-developer p {\n      font-size: 10px; }\n    .index .cd-author img {\n      width: 32px;\n      height: 32px;\n      border-radius: 50%;\n      margin-right: 5px;\n      border: 3px solid #fff; } }\n.index .cd-author img, .index .cd-author .cd-author-info {\n    display: inline-block;\n    vertical-align: middle; }\n.index .cd-author img {\n    width: 32px;\n    height: 32px;\n    border-radius: 50%;\n    margin-right: 5px;\n    border: 3px solid #fff; }\n.index .cd-author .cd-author-info {\n    text-align: left;\n    line-height: 1.2;\n    list-style-type: none;\n    margin: 0.5rem 0 -0.3rem 0rem; }\n.index .cd-author .cd-author-info li:first-child {\n    font-size: 14px;\n    font-size: 0.875rem;\n    line-height: 0px; }\n.index .cd-author .cd-author-info li:last-child {\n    font-size: 12px;\n    font-size: 0.75rem;\n    color: #6b6b70; }\n@media only screen and (min-width: 768px) {\n    .index .cd-author img {\n      width: 50px;\n      height: 50px; }\n    .index .cd-author .cd-author-info {\n      line-height: 1.4; }\n    .index .cd-author .cd-author-info li:first-child {\n      font-size: 16px;\n      font-size: 2rem;\n      line-height: 0px; }\n    .index .cd-author .cd-author-info li:last-child {\n      font-size: 14px;\n      font-size: 0.975rem; }\n    .index .recommendee-developer img {\n      height: 100px !important;\n      width: 100px !important;\n      border-radius: 50%;\n      border: 3px solid #fff; }\n    .index .recommendee-developer p {\n      font-size: 15px; } }\n.index .flex-direction-nav li {\n    position: absolute;\n    height: 100%;\n    width: 40px;\n    top: 0;\n    list-style-type: none; }\n.index .flex-direction-nav li:first-child {\n    left: 0; }\n.index .flex-direction-nav li:last-child {\n    right: 0; }\n.index .flex-direction-nav li a {\n    display: block;\n    height: 100%;\n    width: 100%;\n    /* image replacement */\n    overflow: hidden;\n    text-indent: 100%;\n    white-space: nowrap;\n    -webkit-transition: background-color 0.2s;\n    transition: background-color 0.2s; }\n.index .no-touch .flex-direction-nav li a:hover {\n    background-color: #323234; }\n.index .flex-direction-nav li a::before, .index .flex-direction-nav li a::after {\n    /* left and right arrows in css only */\n    content: '';\n    position: absolute;\n    left: 50%;\n    top: 50%;\n    width: 2px;\n    height: 13px;\n    background-color: #ffffff; }\n.index .flex-direction-nav li a::before {\n    -webkit-transform: translateY(-35px) rotate(45deg);\n    transform: translateY(-35px) rotate(45deg); }\n.index .flex-direction-nav li a::after {\n    -webkit-transform: translateY(-27px) rotate(-45deg);\n    transform: translateY(-27px) rotate(-45deg); }\n.index .flex-direction-nav li:last-child a::before {\n    -webkit-transform: translateY(-35px) rotate(-45deg);\n    transform: translateY(-35px) rotate(-45deg); }\n.index .flex-direction-nav li:last-child a::after {\n    -webkit-transform: translateY(-27px) rotate(45deg);\n    transform: translateY(-27px) rotate(45deg); }\n@media only screen and (min-width: 768px) {\n    .index .flex-direction-nav li {\n      width: 50px; } }\n@media only screen and (min-width: 1170px) {\n    .index .flex-direction-nav li a::before, .index .flex-direction-nav li a::after {\n      background-color: #5e5e63;\n      -webkit-transition: background-color 0.2s;\n      transition: background-color 0.2s; }\n    .index .flex-direction-nav li a:hover::before, .index .flex-direction-nav li a:hover::after {\n      background-color: #ffffff; } }\n@media only screen and (min-width: 768px) {\n    .index .cd-testimonials-all .cd-testimonials-item {\n      width: 46%;\n      margin: 0 2% 3em; }\n    .index .cd-testimonials-all .cd-author {\n      margin-left: 1em; } }\n@media only screen and (min-width: 1170px) {\n    .index .cd-testimonials-all .cd-testimonials-item {\n      width: 30%;\n      margin: 0 1.6666% 3em; } }\n.index .testimonial {\n    border-right: 4px solid #cd5bb9;\n    -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);\n            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);\n    padding: 30px 30px 30px 130px;\n    margin: 0 15px 30px 15px;\n    overflow: hidden;\n    position: relative;\n    background: #fff; }\n.index .testimonial:before {\n    content: \"\";\n    position: absolute;\n    bottom: -4px;\n    left: -17px;\n    border-top: 25px solid #cd5bb9;\n    border-left: 25px solid transparent;\n    border-right: 25px solid transparent;\n    -webkit-transform: rotate(45deg);\n            transform: rotate(45deg); }\n.index .testimonial:after {\n    content: \"\";\n    position: absolute;\n    top: -4px;\n    left: -17px;\n    border-top: 25px solid #cd5bb9;\n    border-left: 25px solid transparent;\n    border-right: 25px solid transparent;\n    -webkit-transform: rotate(135deg);\n            transform: rotate(135deg); }\n.index .testimonial .pic {\n    display: inline-block;\n    width: 80px;\n    height: 80px;\n    border-radius: 50%;\n    overflow: hidden;\n    position: absolute;\n    top: 60px;\n    left: 20px; }\n.index .testimonial .pic img {\n    width: 100%;\n    height: auto; }\n.index .testimonial .description {\n    font-size: 15px;\n    letter-spacing: 1px;\n    color: #6f6f6f;\n    line-height: 25px;\n    margin-bottom: 15px; }\n.index .testimonial .title {\n    display: inline-block;\n    font-size: 14px;\n    font-weight: 700;\n    text-transform: uppercase;\n    letter-spacing: 1px;\n    color: #cd5bb9;\n    margin: 0; }\n.index .testimonial .post {\n    display: inline-block;\n    font-size: 14px;\n    color: #000000;\n    font-style: italic; }\n.index .owl-theme .owl-controls .owl-page span {\n    border: 2px solid #2A3D7D;\n    background: #fff !important;\n    border-radius: 0 !important;\n    opacity: 1; }\n.index .owl-theme .owl-controls .owl-page.active span,\n  .index .owl-theme .owl-controls .owl-page:hover span {\n    background: #000000 !important;\n    border-color: #000000; }\n@media only screen and (max-width: 767px) {\n    .index .testimonial {\n      padding: 20px;\n      text-align: center; }\n    .index .testimonial .pic {\n      display: block;\n      position: static;\n      margin: 0 auto 15px; } }\n.contact {\n  min-height: calc(100vh - 400px);\n  background: white; }\n.contact .text-content {\n    margin-top: 50px;\n    padding: 0 50px; }\n.contact img {\n    height: calc(100vh - 200px); }\n.contact h6 {\n    color: #B721FF;\n    margin-bottom: 5px; }\n.contact .content {\n    padding: 50px 50px 0 50px; }\n.contact .text-content {\n    padding-left: 0; }\n.pricing {\n  min-height: calc(100vh - 400px);\n  background: white; }\n.pricing .pricing-text-wrapper {\n    width: 70%;\n    margin: 0 auto;\n    text-align: left; }\n.pricing .pricing-text-wrapper a {\n      margin-top: 55px; }\n.pricing .nine {\n    background: rgba(183, 33, 255, 0.1);\n    margin-top: 50px; }\n.pricing .pricing-wrapper {\n    margin: 0 auto;\n    margin-top: 50px;\n    margin-bottom: 200px; }\n.pricing .pricing-wrapper .pricing-wrapper-container {\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -ms-flex-wrap: wrap;\n          flex-wrap: wrap;\n      margin-top: 50px;\n      -webkit-box-pack: center;\n          -ms-flex-pack: center;\n              justify-content: center; }\n.pricing .pricing-wrapper .pricing-wrapper-container .columns {\n        width: 25%;\n        padding: 15px;\n        margin-left: 0px; }\n.pricing .pricing-wrapper .pricing-wrapper-container .columns .tile {\n          background: rgba(183, 33, 255, 0.1);\n          height: 100%;\n          padding: 25px;\n          min-height: 100px;\n          display: -webkit-box;\n          display: -ms-flexbox;\n          display: flex;\n          -webkit-box-orient: vertical;\n          -webkit-box-direction: normal;\n              -ms-flex-direction: column;\n                  flex-direction: column;\n          -webkit-transition: all 0.35s ease-out;\n          transition: all 0.35s ease-out;\n          border-radius: 8px; }\n.pricing .pricing-wrapper .pricing-wrapper-container .columns .tile .icon-container {\n            height: 70px;\n            background-size: contain;\n            background-repeat: no-repeat;\n            background-position: center;\n            margin-bottom: 40px;\n            margin-top: 10px; }\n.pricing .pricing-wrapper .pricing-wrapper-container .columns .tile .text-wrapper {\n            -webkit-box-flex: 2;\n                -ms-flex: 2;\n                    flex: 2; }\n.pricing .pricing-wrapper .pricing-wrapper-container .columns .tile .text-wrapper h2 {\n              font-size: 3.1rem;\n              margin-bottom: 15px;\n              display: block; }\n.pricing .pricing-wrapper .pricing-wrapper-container .columns .tile .btn-container {\n            display: block; }\n.pricing .pricing-wrapper .pricing-wrapper-container .columns .tile .btn-container .btn-curve-purple {\n              margin: 0 auto;\n              width: 85%;\n              padding: 15px 0px; }\n.pricing .pricing-wrapper .pricing-wrapper-container .columns .tile.active {\n          -webkit-box-shadow: 0px 0px 20px rgba(128, 100, 255, 0.15);\n                  box-shadow: 0px 0px 20px rgba(128, 100, 255, 0.15);\n          -webkit-transform: scale(1.05, 1.08);\n                  transform: scale(1.05, 1.08);\n          padding-bottom: 30px; }\n.pricing .text-content {\n    padding-top: 70px; }\n.pricing .three.active {\n    -webkit-box-shadow: -1px 1px 5px 5px rgba(0, 0, 0, 0.1);\n            box-shadow: -1px 1px 5px 5px rgba(0, 0, 0, 0.1);\n    background: white; }\n.pricing .three.active img {\n      border: 1px solid rgba(183, 33, 255, 0.5);\n      border-radius: 50%; }\n.pricing .three.active .btn-block-white {\n      color: white;\n      background: #B721FF;\n      -webkit-box-shadow: none;\n              box-shadow: none; }\n.pricing .three.active .btn-block-white:hover {\n        color: white;\n        background: #B721FF; }\n.pricing .tile {\n    padding: 20px; }\n.pricing h5 {\n    font-size: 1.5em;\n    margin-bottom: 5px; }\n.pricing h2 {\n    margin: 0; }\n.pricing .content {\n    padding: 20px 50px; }\n.pricing .text-content {\n    padding-left: 0; }\n.pricing .pricing-title-span {\n    font-weight: bold;\n    line-height: 18px;\n    display: block; }\n.team {\n  background: white;\n  position: relative;\n  z-index: 2; }\n.team .core, .team .community {\n    background: url(http://res.cloudinary.com/sportbay-co/image/upload/v1525702594/bg_team_right_apemol.svg) no-repeat top right;\n    background-size: 32%;\n    position: relative;\n    z-index: 2;\n    padding: 50px 20px; }\n.team .core .text-content, .team .community .text-content {\n      margin-top: 200px;\n      padding: 0 50px; }\n.team .community {\n    background: url(http://res.cloudinary.com/sportbay-co/image/upload/v1525702594/bg_team_right_apemol.svg) no-repeat top left;\n    padding: 100px 20px; }\n.team .community .six:first-child {\n      padding: 0 50px; }\n.team .image-wrapper-container {\n    height: 630px;\n    overflow: hidden;\n    padding: 10px 100px; }\n.team .image-wrapper-container .image-wrapper {\n      width: 100%;\n      height: 100%;\n      background-color: #333333;\n      -webkit-transition-delay: 0.3s;\n              transition-delay: 0.3s;\n      -webkit-transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1);\n      transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1);\n      -webkit-transform: scaleX(1);\n              transform: scaleX(1);\n      overflow: hidden; }\n.team .image-wrapper-container .image-wrapper .image {\n        height: 100%;\n        background-repeat: no-repeat;\n        background-size: cover;\n        -webkit-transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1);\n        transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1);\n        -webkit-transition-delay: 0.5s;\n                transition-delay: 0.5s;\n        -webkit-transform: translate3d(0px, 0px, 0px) scale(1.07);\n                transform: translate3d(0px, 0px, 0px) scale(1.07); }\n.team .image-wrapper-container .image-wrapper.no-reveal {\n      -webkit-transform: scaleX(0.7);\n              transform: scaleX(0.7); }\n.team .image-wrapper-container .image-wrapper.no-reveal .image {\n        -webkit-transform: translate3d(-120%, 0px, 0px);\n                transform: translate3d(-120%, 0px, 0px); }\n.team .people-wrapper .purple-bg {\n    background: rgba(183, 33, 255, 0.1);\n    height: 100px;\n    position: absolute;\n    top: 478px;\n    z-index: 0;\n    display: block;\n    width: 100%; }\n.team .avatar-wrapper {\n    height: 280px;\n    background-color: #333333;\n    -webkit-transition-delay: 0.3s;\n            transition-delay: 0.3s;\n    -webkit-transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1);\n    transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1);\n    -webkit-transform: scaleX(1);\n            transform: scaleX(1);\n    overflow: hidden; }\n.team .avatar-wrapper .avatar {\n      height: 100%;\n      width: 100%;\n      background-position: center;\n      background-size: cover;\n      -webkit-filter: grayscale(90%);\n              filter: grayscale(90%);\n      margin-bottom: 10px;\n      -webkit-transition: -webkit-filter 0.6s;\n      transition: -webkit-filter 0.6s;\n      transition: filter 0.6s;\n      transition: filter 0.6s, -webkit-filter 0.6s;\n      -webkit-transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1);\n      transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1);\n      -webkit-transition-delay: 0.5s;\n              transition-delay: 0.5s;\n      -webkit-transform: translate3d(0px, 0px, 0px) scale(1.04);\n              transform: translate3d(0px, 0px, 0px) scale(1.04); }\n.team .avatar-wrapper .avatar:hover {\n      -webkit-filter: grayscale(10%);\n              filter: grayscale(10%); }\n.team .avatar-wrapper.no-reveal {\n    -webkit-transform: scaleX(0.7);\n            transform: scaleX(0.7); }\n.team .avatar-wrapper.no-reveal .avatar {\n      -webkit-transform: translate3d(-120%, 0px, 0px);\n              transform: translate3d(-120%, 0px, 0px); }\n.team .people {\n    background: rgba(183, 33, 255, 0.1);\n    padding: 100px 70px;\n    display: block; }\n.team .people #people-wrapper {\n      width: 85%;\n      margin: 0 auto;\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -ms-flex-wrap: wrap;\n          flex-wrap: wrap; }\n.team .people .tile {\n      width: 21%;\n      padding: 50px 2%;\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -webkit-box-orient: vertical;\n      -webkit-box-direction: normal;\n          -ms-flex-direction: column;\n              flex-direction: column; }\n.team .people .tile .text-wrap {\n        -webkit-box-flex: 2;\n            -ms-flex: 2;\n                flex: 2; }\n.team .people .tile .desc-text {\n        height: 310px;\n        overflow: hidden;\n        text-overflow: ellipsis; }\n.team .people .tile .team-profile-btn {\n        text-align: left; }\n.team .people p.light {\n      margin-bottom: 10px;\n      min-height: 50px; }\n.team .people h5 {\n      font-size: 1.5em;\n      margin-bottom: 5px; }\n.team .people .text-wrap {\n      padding: 0 10px; }\n.team .people .text-wrap .sub-text-wrapper {\n        margin-top: 10px;\n        margin-bottom: 10px; }\n.faq, .start {\n  min-height: calc(100vh - 400px);\n  background: white; }\n.faq .text-content, .start .text-content {\n    margin-top: 0px;\n    padding: 0 50px; }\n.faq h5, .start h5 {\n    color: #B721FF;\n    margin-bottom: 5px; }\n.faq .content, .start .content {\n    padding: 50px 30px 0 30px; }\n.faq .text-content, .start .text-content {\n    padding-left: 0;\n    padding-right: 0; }\n.faq p, .start p {\n    margin-bottom: 10px; }\n.start #start-form {\n  -webkit-transition: all 0.5s ease-out;\n  transition: all 0.5s ease-out; }\n.start .date {\n  height: 38px;\n  padding: 6px 10px;\n  background-color: #fff;\n  border: 1px solid #D1D1D1;\n  border-radius: 4px;\n  -webkit-box-shadow: none;\n          box-shadow: none;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box; }\n.start .div {\n  margin-bottom: 30px; }\n.start textarea {\n  height: auto; }\n.start .response-msg-toast {\n  width: 400px;\n  height: 250px;\n  border: 1px solid;\n  position: fixed;\n  bottom: 0;\n  right: 0;\n  background-color: #00cc00;\n  z-index: 1;\n  border-radius: 3px; }\n.testimonials {\n  min-height: calc(100vh - 400px);\n  background: white; }\n.testimonials .pricing-text-wrapper {\n    width: 70%;\n    margin: 0 auto;\n    text-align: left; }\n.testimonials .pricing-text-wrapper a {\n      margin-top: 55px; }\n.testimonials .nine {\n    background: rgba(183, 33, 255, 0.1);\n    margin-top: 50px; }\n.testimonials .pricing-wrapper {\n    margin: 0 auto;\n    margin-top: 50px;\n    margin-bottom: 200px; }\n.testimonials .pricing-wrapper .pricing-wrapper-container {\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -ms-flex-wrap: wrap;\n          flex-wrap: wrap;\n      margin-top: 50px;\n      -webkit-box-pack: center;\n          -ms-flex-pack: center;\n              justify-content: center; }\n.testimonials .pricing-wrapper .pricing-wrapper-container .columns {\n        width: 25%;\n        padding: 15px;\n        margin-left: 0px; }\n.testimonials .pricing-wrapper .pricing-wrapper-container .columns .tile {\n          background: rgba(183, 33, 255, 0.1);\n          height: 100%;\n          padding: 25px;\n          min-height: 100px;\n          display: -webkit-box;\n          display: -ms-flexbox;\n          display: flex;\n          -webkit-box-orient: vertical;\n          -webkit-box-direction: normal;\n              -ms-flex-direction: column;\n                  flex-direction: column;\n          -webkit-transition: all 0.35s ease-out;\n          transition: all 0.35s ease-out;\n          border-radius: 8px; }\n.testimonials .pricing-wrapper .pricing-wrapper-container .columns .tile .icon-container {\n            height: 70px;\n            background-size: contain;\n            background-repeat: no-repeat;\n            background-position: center;\n            margin-bottom: 40px;\n            margin-top: 10px; }\n.testimonials .pricing-wrapper .pricing-wrapper-container .columns .tile .text-wrapper {\n            -webkit-box-flex: 2;\n                -ms-flex: 2;\n                    flex: 2; }\n.testimonials .pricing-wrapper .pricing-wrapper-container .columns .tile .text-wrapper h2 {\n              font-size: 3.1rem;\n              margin-bottom: 15px;\n              display: block; }\n.testimonials .pricing-wrapper .pricing-wrapper-container .columns .tile .btn-container {\n            display: block; }\n.testimonials .pricing-wrapper .pricing-wrapper-container .columns .tile .btn-container .btn-curve-purple {\n              margin: 0 auto;\n              width: 85%;\n              padding: 15px 0px; }\n.testimonials .pricing-wrapper .pricing-wrapper-container .columns .tile.active {\n          -webkit-box-shadow: 0px 0px 20px rgba(128, 100, 255, 0.15);\n                  box-shadow: 0px 0px 20px rgba(128, 100, 255, 0.15);\n          -webkit-transform: scale(1.05, 1.08);\n                  transform: scale(1.05, 1.08);\n          padding-bottom: 30px; }\n.testimonials .text-content {\n    padding-top: 70px; }\n.testimonials .three.active {\n    -webkit-box-shadow: -1px 1px 5px 5px rgba(0, 0, 0, 0.1);\n            box-shadow: -1px 1px 5px 5px rgba(0, 0, 0, 0.1);\n    background: white; }\n.testimonials .three.active img {\n      border: 1px solid rgba(183, 33, 255, 0.5);\n      border-radius: 50%; }\n.testimonials .three.active .btn-block-white {\n      color: white;\n      background: #B721FF;\n      -webkit-box-shadow: none;\n              box-shadow: none; }\n.testimonials .three.active .btn-block-white:hover {\n        color: white;\n        background: #B721FF; }\n.testimonials .tile {\n    padding: 20px; }\n.testimonials h5 {\n    font-size: 1.5em;\n    margin-bottom: 5px; }\n.testimonials h2 {\n    margin: 0; }\n.testimonials .content {\n    padding: 20px 50px; }\n.testimonials .text-content {\n    padding-left: 0; }\n.testimonials .pricing-title-span {\n    font-weight: bold;\n    line-height: 18px;\n    display: block; }\n.testimonials .cd-testimonials-wrapper {\n    position: relative;\n    width: 90%;\n    max-width: 768px;\n    background-color: #39393c;\n    margin: 2em auto;\n    -webkit-font-smoothing: antialiased;\n    -moz-osx-font-smoothing: grayscale;\n    padding: 20px 40px 70px;\n    z-index: 1; }\n.testimonials .cd-testimonials-wrapper::after {\n    /* quotation mark */\n    content: '\\201C';\n    position: absolute;\n    top: 10px;\n    left: 0;\n    width: 50px;\n    height: 50px;\n    padding-top: 8px;\n    margin-left: -25px;\n    background: rgba(32, 32, 34, 0.9);\n    font-family: \"Georgia\", serif;\n    color: #ffffff;\n    font-size: 70px;\n    font-size: 4.375rem;\n    text-align: center;\n    /* visible on big devices only */\n    display: none; }\n@media only screen and (min-width: 768px) {\n    .testimonials .cd-testimonials-wrapper {\n      margin: 4em auto;\n      padding: 64px 50px 114px; } }\n@media only screen and (min-width: 1170px) {\n    .testimonials .cd-testimonials-wrapper::after {\n      /* quotation mark visible */\n      display: block; } }\n.testimonials .cd-testimonials {\n    color: #ffffff;\n    text-align: center; }\n.testimonials .cd-testimonials::after {\n    clear: both;\n    content: \"\";\n    display: table; }\n.testimonials .cd-testimonials > li {\n    position: absolute;\n    opacity: 0; }\n.testimonials .cd-testimonials > li:first-child {\n    position: relative;\n    opacity: 1; }\n.testimonials .cd-testimonials p {\n    font-family: \"Georgia\", serif;\n    font-style: italic;\n    line-height: 1.4;\n    margin-bottom: 1em;\n    padding: 0 14px; }\n@media only screen and (min-width: 768px) {\n    .testimonials .cd-testimonials p {\n      font-size: 22px;\n      font-size: 1.375rem; } }\n@media only screen and (min-width: 1170px) {\n    .testimonials .cd-testimonials p {\n      font-size: 26px;\n      font-size: 1.625rem;\n      line-height: 1.6; } }\n.testimonials .cd-author img, .testimonials .cd-author .cd-author-info {\n    display: inline-block;\n    vertical-align: middle; }\n.testimonials .cd-author img {\n    width: 32px;\n    height: 32px;\n    border-radius: 50%;\n    margin-right: 5px;\n    -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);\n            box-shadow: 0 0 6px rgba(0, 0, 0, 0.3); }\n.testimonials .cd-author .cd-author-info {\n    text-align: left;\n    line-height: 1.2; }\n.testimonials .cd-author .cd-author-info li:first-child {\n    font-size: 14px;\n    font-size: 0.875rem; }\n.testimonials .cd-author .cd-author-info li:last-child {\n    font-size: 12px;\n    font-size: 0.75rem;\n    color: #6b6b70; }\n@media only screen and (min-width: 768px) {\n    .testimonials .cd-author img {\n      width: 50px;\n      height: 50px; }\n    .testimonials .cd-author .cd-author-info {\n      line-height: 1.4; }\n    .testimonials .cd-author .cd-author-info li:first-child {\n      font-size: 16px;\n      font-size: 1rem; }\n    .testimonials .cd-author .cd-author-info li:last-child {\n      font-size: 14px;\n      font-size: 0.875rem; } }\n.testimonials .flex-direction-nav li {\n    position: absolute;\n    height: 100%;\n    width: 40px;\n    top: 0; }\n.testimonials .flex-direction-nav li:first-child {\n    left: 0; }\n.testimonials .flex-direction-nav li:last-child {\n    right: 0; }\n.testimonials .flex-direction-nav li a {\n    display: block;\n    height: 100%;\n    width: 100%;\n    /* image replacement */\n    overflow: hidden;\n    text-indent: 100%;\n    white-space: nowrap;\n    -webkit-transition: background-color 0.2s;\n    transition: background-color 0.2s; }\n.testimonials .no-touch .flex-direction-nav li a:hover {\n    background-color: #323234; }\n.testimonials .flex-direction-nav li a::before, .testimonials .flex-direction-nav li a::after {\n    /* left and right arrows in css only */\n    content: '';\n    position: absolute;\n    left: 50%;\n    top: 50%;\n    width: 2px;\n    height: 13px;\n    background-color: #ffffff; }\n.testimonials .flex-direction-nav li a::before {\n    -webkit-transform: translateY(-35px) rotate(45deg);\n    transform: translateY(-35px) rotate(45deg); }\n.testimonials .flex-direction-nav li a::after {\n    -webkit-transform: translateY(-27px) rotate(-45deg);\n    transform: translateY(-27px) rotate(-45deg); }\n.testimonials .flex-direction-nav li:last-child a::before {\n    -webkit-transform: translateY(-35px) rotate(-45deg);\n    transform: translateY(-35px) rotate(-45deg); }\n.testimonials .flex-direction-nav li:last-child a::after {\n    -webkit-transform: translateY(-27px) rotate(45deg);\n    transform: translateY(-27px) rotate(45deg); }\n@media only screen and (min-width: 768px) {\n    .testimonials .flex-direction-nav li {\n      width: 50px; } }\n@media only screen and (min-width: 1170px) {\n    .testimonials .flex-direction-nav li a::before, .testimonials .flex-direction-nav li a::after {\n      background-color: #5e5e63;\n      -webkit-transition: background-color 0.2s;\n      transition: background-color 0.2s; }\n    .testimonials .flex-direction-nav li a:hover::before, .testimonials .flex-direction-nav li a:hover::after {\n      background-color: #ffffff; } }\n.testimonials .cd-see-all {\n    position: absolute;\n    z-index: 1;\n    left: 0;\n    bottom: 0;\n    width: 100%;\n    height: 50px;\n    line-height: 50px;\n    background-color: #252527;\n    text-align: center;\n    text-transform: uppercase;\n    color: #6b6b70;\n    font-weight: 700;\n    font-size: 12px;\n    font-size: 0.75rem;\n    -webkit-transition: color, 0.2s;\n    transition: color, 0.2s; }\n.testimonials .no-touch .cd-see-all:hover {\n    color: #79b6e4; }\n.testimonials .cd-testimonials-all {\n    position: fixed;\n    top: 0;\n    left: 0;\n    height: 100%;\n    width: 100%;\n    background-color: #ffffff;\n    z-index: 2;\n    visibility: hidden;\n    opacity: 0;\n    -webkit-transition: opacity .3s 0s, visibility 0s .3s;\n    transition: opacity .3s 0s, visibility 0s .3s; }\n.testimonials .cd-testimonials-all .cd-testimonials-all-wrapper {\n    position: absolute;\n    left: 0;\n    top: 0;\n    height: 100%;\n    width: 100%;\n    overflow: auto; }\n.testimonials .cd-testimonials-all .cd-testimonials-all-wrapper > ul {\n    width: 90%;\n    max-width: 1170px;\n    margin: 4em auto; }\n.testimonials .cd-testimonials-all .cd-testimonials-all-wrapper > ul::after {\n    clear: both;\n    content: \"\";\n    display: table; }\n.testimonials .cd-testimonials-all .cd-testimonials-item {\n    margin-bottom: 2em;\n    opacity: 0;\n    /* Force Hardware Acceleration in WebKit */\n    -webkit-transform: translate3d(0, 0, 0) scale(0.4);\n    transform: translate3d(0, 0, 0) scale(0.4);\n    -webkit-backface-visibility: hidden;\n    backface-visibility: hidden;\n    -webkit-transition: -webkit-transform .3s, opacity .3s;\n    -webkit-transition: opacity .3s, -webkit-transform .3s;\n    transition: opacity .3s, -webkit-transform .3s;\n    transition: transform .3s, opacity .3s;\n    transition: transform .3s, opacity .3s, -webkit-transform .3s; }\n.testimonials .cd-testimonials-all p {\n    position: relative;\n    background: #79b6e4;\n    color: #ffffff;\n    padding: 2em;\n    -webkit-font-smoothing: antialiased;\n    -moz-osx-font-smoothing: grayscale;\n    line-height: 1.4;\n    border-radius: 0.25em;\n    margin-bottom: 1em; }\n.testimonials .cd-testimonials-all p::after {\n    /* creating the triangle in css */\n    content: '';\n    position: absolute;\n    top: 100%;\n    left: 2em;\n    height: 0;\n    width: 0;\n    border: 8px solid transparent;\n    border-top-color: #79b6e4; }\n.testimonials .cd-testimonials-all .cd-author {\n    text-align: left;\n    margin-left: 1.5em; }\n.testimonials .cd-testimonials-all .cd-author img {\n    -webkit-box-shadow: 0 0 0 transparent;\n            box-shadow: 0 0 0 transparent; }\n.testimonials .cd-testimonials-all.is-visible {\n    visibility: visible;\n    opacity: 1;\n    -webkit-transition: opacity .3s 0s, visibility 0s 0s;\n    transition: opacity .3s 0s, visibility 0s 0s; }\n.testimonials .cd-testimonials-all.is-visible .cd-testimonials-all-wrapper {\n    -webkit-overflow-scrolling: touch; }\n.testimonials .cd-testimonials-all.is-visible .cd-testimonials-item {\n    opacity: 1;\n    -webkit-transform: translate3d(0, 0, 0) scale(1);\n    transform: translate3d(0, 0, 0) scale(1); }\n@media only screen and (min-width: 768px) {\n    .testimonials .cd-testimonials-all .cd-testimonials-item {\n      width: 46%;\n      margin: 0 2% 3em; }\n    .testimonials .cd-testimonials-all .cd-author {\n      margin-left: 1em; } }\n@media only screen and (min-width: 1170px) {\n    .testimonials .cd-testimonials-all .cd-testimonials-item {\n      width: 30%;\n      margin: 0 1.6666% 3em; } }\n.testimonials .close-btn {\n    position: fixed;\n    display: block;\n    width: 40px;\n    height: 40px;\n    top: 10px;\n    right: 5%;\n    /* image replacement */\n    overflow: hidden;\n    text-indent: 100%;\n    white-space: nowrap; }\n.testimonials .close-btn::before, .testimonials .close-btn::after {\n    /* close icon in css */\n    content: '';\n    position: absolute;\n    display: inline-block;\n    width: 2px;\n    height: 24px;\n    top: 8px;\n    left: 19px;\n    background-color: #39393c; }\n.testimonials .close-btn::before {\n    -webkit-transform: rotate(45deg);\n    transform: rotate(45deg); }\n.testimonials .close-btn::after {\n    -webkit-transform: rotate(-45deg);\n    transform: rotate(-45deg); }\n@media screen and (min-width: 1366px) {\n  .index .simple .row {\n    background-size: 62% !important; } }\n@media screen and (min-width: 1280px) {\n  .index .top-img {\n    height: 650px !important; }\n  .index .top-wrapper {\n    background-size: contain !important; }\n  .pricing .text-content {\n    padding-top: 50px; }\n  .pricing .content {\n    padding: 50px 50px 0 50px !important; }\n  .pricing footer {\n    position: absolute !important;\n    bottom: 0 !important;\n    width: 100% !important;\n    padding: 20px 50px !important;\n    -webkit-box-sizing: border-box !important;\n            box-sizing: border-box !important; } }\n@media screen and (max-width: 1280px) {\n  body {\n    font-size: 1.3em !important; }\n  .heading {\n    font-size: 34px !important; }\n  .btn-curve-purple {\n    width: 150px !important !important;\n    font-size: 12px !important !important; } }\n@media screen and (max-width: 1024px) {\n  .fr-card {\n    width: 300%;\n    position: relative;\n    float: left; }\n  .index .top-img {\n    height: 600px !important; }\n  .index .top-wrapper {\n    background-size: 70% !important; }\n  .index .scale h1, .index .simple h1, .index .benefits h2 {\n    font-size: 3.0rem !important; }\n  .index .scale {\n    margin-top: 100px !important; }\n    .index .scale .six:first-child img {\n      height: 300px !important; }\n    .index .scale .text-content {\n      padding: 0 30px !important; }\n  .index .simple .seven {\n    width: 85% !important;\n    margin: 0 auto !important;\n    float: none !important; }\n  .index .simple .five:nth-child(2) {\n    display: none !important; }\n  .index .simple .row {\n    background-size: 87% !important;\n    padding-bottom: 150px !important; }\n  .index .simple .text-content {\n    padding-right: 60px !important !important;\n    margin-top: 130px !important; }\n  .index .simple .purple-bg {\n    display: none !important; }\n  .index .bottom-banner-wrapper .img-wrapper {\n    width: 75% !important; }\n  .index .bottom-banner-wrapper .banner-text {\n    font-size: 20px !important !important;\n    line-height: 28px !important; }\n  .index .bottom-banner-wrapper .start-project-btn {\n    padding: 13px 18px !important !important;\n    font-size: 12px !important; }\n  .team .people {\n    padding: 100px 30px !important; }\n    .team .people #people-wrapper {\n      width: 98% !important; }\n    .team .people .tile {\n      width: 30.3333333333333% !important;\n      padding: 50px 1.5% !important; }\n  .team .core .text-content, .team .community .text-content {\n    margin-top: 150px !important; }\n  .team .core img, .team .community img {\n    height: 300px !important; }\n  .team .image-wrapper-container {\n    padding: 10px 40px !important; }\n  .team .people-wrapper .purple-bg {\n    display: none !important; }\n  .team .avatar {\n    height: 150px !important; }\n  .team .people .text-wrap {\n    padding: 0 !important; }\n  .team .community .text-content {\n    margin-top: 0 !important; }\n  .pricing .pricing-text-wrapper {\n    margin-left: 20px !important; }\n  .pricing .six {\n    margin-left: 5px;\n    margin-right: 5px; }\n  .pricing .pricing-wrapper-container .columns {\n    width: 50% !important !important;\n    margin-bottom: 50px !important; }\n    .pricing .pricing-wrapper-container .columns .tile .btn-container {\n      width: 80% !important;\n      margin: 0 auto !important; }\n      .pricing .pricing-wrapper-container .columns .tile .btn-container .btn-curve-purple {\n        width: 100% !important !important; }\n    .pricing .pricing-wrapper-container .columns .tile.active {\n      -webkit-transform: scale(1) !important !important;\n              transform: scale(1) !important !important; }\n  .pricing h2 {\n    font-size: 3rem !important; }\n  .pricing h5 {\n    font-size: 1em !important; } }\n@media screen and (max-width: 816px) {\n  .index .top-img {\n    height: 500px !important; }\n  .index .top-wrapper {\n    background-size: 75% !important; }\n  .index .intro h1 {\n    font-size: 2.7rem !important; }\n  .index .intro .text-content {\n    margin-top: 100px !important !important;\n    padding: 0 30px !important; }\n  .index .scale {\n    margin-top: 0px !important;\n    margin-bottom: 20px !important; }\n    .index .scale .text-wrapper {\n      margin-top: 30px !important !important; }\n    .index .scale .six:first-child {\n      display: none !important; }\n    .index .scale .six:nth-child(2) {\n      width: 100% !important;\n      margin-left: 0 !important; }\n  .index .simple .row {\n    background-size: 125% !important;\n    padding-bottom: 100px !important; }\n  .index .simple .text-content {\n    margin-top: 70px !important;\n    padding-right: 100px !important; }\n  .index .simple .seven {\n    width: 100% !important; }\n  .index .simple .purple-bg {\n    display: none !important; }\n  .index .benefits .content {\n    padding: 0 50px !important; }\n  .index .benefits img {\n    height: 50px !important; }\n  .index .benefits .nine h5 {\n    font-size: 1.2em !important;\n    margin-bottom: 10px !important; }\n  .team .core .img-col {\n    display: none !important; }\n  .team .core img, .team .community img {\n    display: none; }\n  .team .core .six:first-child, .team .community .six:nth-child(2) {\n    width: 100% !important; }\n    .team .core .six:first-child .text-content, .team .community .six:nth-child(2) .text-content {\n      margin-top: 0 !important; }\n  .team .community .six:nth-child(2) {\n    margin: 0 !important; }\n  .team .people {\n    padding: 50px 20px !important; }\n    .team .people .three.columns {\n      width: 50% !important;\n      margin-left: 0 !important; }\n    .team .people .tile {\n      width: 46% !important;\n      padding: 50px 1.5% !important; }\n    .team .people .avatar {\n      display: block !important;\n      width: 100% !important; }\n    .team .people div.m-b-md {\n      margin-bottom: 10px !important; }\n    .team .people div.m-b-md p {\n      margin-bottom: 0 !important; }\n  .pricing .three:first-child {\n    width: 100% !important; }\n    .pricing .three:first-child .text-content {\n      padding-top: 20px !important;\n      margin-bottom: 50px !important; }\n  .pricing .nine {\n    margin-left: 0 !important;\n    width: 100% !important;\n    padding: 20px !important; }\n    .pricing .nine .three {\n      width: 50% !important;\n      margin-left: 0 !important; }\n  .contact .content {\n    padding: 50px 30px !important; }\n  .contact .text-content {\n    margin-top: 0 !important;\n    padding-right: 0 !important; }\n  .contact .six:first-child {\n    display: none !important; }\n  .contact .six:nth-child(2) {\n    width: 100% !important; } }\n@media screen and (max-width: 675px) {\n  .index .intro .columns {\n    width: 100% !important;\n    padding: 20px !important !important; }\n  .index .intro .columns.right-pane {\n    margin-left: 0px !important;\n    min-height: auto !important; }\n  .index .top-img {\n    height: 350px !important !important; }\n  .pricing .content {\n    padding: 20px !important; }\n  .pricing .pricing-text-wrapper {\n    width: 300px; } }\n@media screen and (max-width: 509px) {\n  .pricing .pricing-wrapper-container .columns {\n    width: 100% !important !important; }\n  .team .people .tile {\n    width: 96% !important;\n    padding: 30px 1.5% !important; } }\n@media screen and (max-width: 425px) {\n  .btn-curve-white {\n    padding: 12px !important;\n    width: 150px !important; }\n  .index .intro .logo {\n    height: 65px !important;\n    width: 100px !important;\n    margin-left: 0px !important; }\n  .index .intro .hamburger {\n    position: relative !important; }\n  .index .intro .text-content {\n    margin-top: 70px !important;\n    margin-bottom: 20px !important; }\n  .index .intro .six.columns:first-child {\n    padding: 20px !important; }\n  .index .top-wrapper {\n    background: url(../../static/img/bg_left_semi.svg) no-repeat top left !important;\n    min-height: 70vh !important; }\n  .index .scale .section-2-wrapper {\n    padding-top: 0px !important; }\n  .index .top-img {\n    display: none !important; }\n  .index .simple {\n    background-image: url(../../static/img/bg_left_shape.svg) !important;\n    background-size: 450% !important; }\n    .index .simple .row {\n      background-size: cover; }\n    .index .simple .text-content {\n      padding-right: 50px !important; }\n    .index .simple p {\n      padding-right: 0 !important; }\n  .index .benefits .row {\n    margin-top: 0 !important;\n    text-align: center !important; }\n  .index .benefits .heading {\n    padding: 0px 20px !important; }\n  .index .benefits .columns {\n    padding-bottom: 30px !important; }\n  .index .bottom-banner-wrapper .img-wrapper .banner-text {\n    font-size: 18px !important !important;\n    line-height: 24px !important !important; }\n  .index .bottom-banner-wrapper .img-wrapper .start-project-btn {\n    width: 130px !important; }\n  footer {\n    padding: 20px !important; }\n    footer .nav-desktop-left .logo img {\n      top: 0; }\n    footer .nav-desktop-left, footer .links {\n      float: none !important; }\n    footer .links {\n      margin-top: 10px !important; }\n      footer .links li {\n        padding: 0 20px !important; }\n  .team .core .text-content, .team .community .text-content {\n    padding: 0 20px !important; }\n  .team .people {\n    padding: 50px 20px !important; }\n    .team .people .three.columns {\n      width: 100% !important; }\n  .pricing .content {\n    padding: 20px 30px !important; }\n  .pricing .nine .three {\n    width: 100% !important;\n    margin-left: 0 !important; }\n  .nav-top {\n    padding: 20px 20px 40px 20px !important; }\n  .faq h1, .start h1, .start h1 {\n    font-size: 3.0rem !important; }\n  .faq .content, .start .content, .start .content {\n    padding: 30px !important; } }\n@media screen and (max-width: 375px) {\n  .index .top-wrapper {\n    background-size: 140% !important; }\n  footer .links li {\n    padding: 0 15px !important; } }\n@media screen and (max-width: 360px) {\n  .index .top-wrapper {\n    background-size: 155% !important; }\n  .index .simple {\n    background-image: url(../../static/img/bg_left_shape.svg) !important;\n    background-size: 850% !important; }\n  .pricing .content {\n    padding: 15px 10px !important; } }\n@media screen and (max-width: 320px) {\n  .index .top-wrapper {\n    background-size: 193% !important; } }\n.pricing {\n  min-height: calc(100vh - 400px);\n  background: white;\n  /** for blog*/ }\n.pricing .pricing-text-wrapper {\n    width: 70%;\n    margin: 0 auto;\n    text-align: left; }\n.pricing .pricing-text-wrapper a {\n      margin-top: 55px; }\n.pricing .pricing-text-wrapperm {\n    width: 70%;\n    margin: 0 auto;\n    text-align: left; }\n.pricing .pricing-text-wrapperm a {\n      margin-top: 55px; }\n.pricing .nine {\n    background: rgba(183, 33, 255, 0.1);\n    margin-top: 50px; }\n.pricing .pricing-wrapper {\n    margin: 0 auto;\n    margin-top: 50px;\n    margin-bottom: 200px; }\n.pricing .pricing-wrapper .pricing-wrapper-container {\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -ms-flex-wrap: wrap;\n          flex-wrap: wrap;\n      margin-top: 50px;\n      -webkit-box-pack: center;\n          -ms-flex-pack: center;\n              justify-content: center; }\n.pricing .pricing-wrapper .pricing-wrapper-container .columns {\n        width: 25%;\n        padding: 15px;\n        margin-left: 0px; }\n.pricing .pricing-wrapper .pricing-wrapper-container .columns .tile {\n          background: rgba(183, 33, 255, 0.1);\n          height: 100%;\n          padding: 25px;\n          min-height: 100px;\n          display: -webkit-box;\n          display: -ms-flexbox;\n          display: flex;\n          -webkit-box-orient: vertical;\n          -webkit-box-direction: normal;\n              -ms-flex-direction: column;\n                  flex-direction: column;\n          -webkit-transition: all 0.35s ease-out;\n          transition: all 0.35s ease-out;\n          border-radius: 8px; }\n.pricing .pricing-wrapper .pricing-wrapper-container .columns .tile .icon-container {\n            height: 70px;\n            background-size: contain;\n            background-repeat: no-repeat;\n            background-position: center;\n            margin-bottom: 40px;\n            margin-top: 10px; }\n.pricing .pricing-wrapper .pricing-wrapper-container .columns .tile .text-wrapper {\n            -webkit-box-flex: 2;\n                -ms-flex: 2;\n                    flex: 2; }\n.pricing .pricing-wrapper .pricing-wrapper-container .columns .tile .text-wrapper h2 {\n              font-size: 3.1rem;\n              margin-bottom: 15px;\n              display: block; }\n.pricing .pricing-wrapper .pricing-wrapper-container .columns .tile .btn-container {\n            display: block; }\n.pricing .pricing-wrapper .pricing-wrapper-container .columns .tile .btn-container .btn-curve-purple {\n              margin: 0 auto;\n              width: 85%;\n              padding: 15px 0px; }\n.pricing .pricing-wrapper .pricing-wrapper-container .columns .tile.active {\n          -webkit-box-shadow: 0px 0px 20px rgba(128, 100, 255, 0.15);\n                  box-shadow: 0px 0px 20px rgba(128, 100, 255, 0.15);\n          -webkit-transform: scale(1.05, 1.08);\n                  transform: scale(1.05, 1.08);\n          padding-bottom: 30px; }\n.pricing .text-content {\n    padding-top: 70px; }\n.pricing .three.active {\n    -webkit-box-shadow: -1px 1px 5px 5px rgba(0, 0, 0, 0.1);\n            box-shadow: -1px 1px 5px 5px rgba(0, 0, 0, 0.1);\n    background: white; }\n.pricing .three.active img {\n      border: 1px solid rgba(183, 33, 255, 0.5);\n      border-radius: 50%; }\n.pricing .three.active .btn-block-white {\n      color: white;\n      background: #B721FF;\n      -webkit-box-shadow: none;\n              box-shadow: none; }\n.pricing .three.active .btn-block-white:hover {\n        color: white;\n        background: #B721FF; }\n.pricing .tile {\n    padding: 20px; }\n.pricing h5 {\n    font-size: 1.5em;\n    margin-bottom: 5px; }\n.pricing h2 {\n    margin: 0; }\n.pricing .content {\n    padding: 20px 50px; }\n.pricing .text-content {\n    padding-left: 0; }\n.pricing .pricing-title-span {\n    font-weight: bold;\n    line-height: 18px;\n    display: block; }\n.pricing .team-image {\n    background-image: url(https://files.slack.com/files-pri/T3SR5PY3V-FAGTVEHGA/923.jpgassets/img/bg_team_1.png); }\n@media screen and (max-width: 1024px) {\n    .pricing .card-list {\n      width: 115%;\n      margin-left: 0px; }\n      .pricing .card-list .overf {\n        max-height: 100px; }\n    .pricing .post-content {\n      width: 130%; }\n    .pricing .post-content h1 {\n      font-size: 34px; }\n    .pricing .pricing-text-wrapperm {\n      width: 90%; }\n    .pricing .six .respimg {\n      width: 100%;\n      height: auto;\n      min-height: 800px;\n      -o-object-fit: cover;\n         object-fit: cover; } }\n@media screen and (max-width: 675px) {\n    .pricing .card-list {\n      width: 90%;\n      margin-left: 0px; }\n    .pricing .post-content {\n      width: 125%; }\n    .pricing .post-content h1 {\n      font-size: 24px; }\n    .pricing .pricing-text-wrapperm {\n      width: 80%; }\n    .pricing .respimg {\n      width: 100%;\n      height: auto;\n      -o-object-fit: cover;\n         object-fit: cover; } }\n";
+module.exports = "@charset \"UTF-8\";\n/*! normalize.css v3.0.2 | MIT License | git.io/normalize */\n/**\r\n * 1. Set default font family to sans-serif.\r\n * 2. Prevent iOS text size adjust after orientation change, without disabling\r\n *    user zoom.\r\n */\nhtml {\n  font-family: sans-serif;\n  /* 1 */\n  -ms-text-size-adjust: 100%;\n  /* 2 */\n  -webkit-text-size-adjust: 100%;\n  /* 2 */ }\n/**\r\n * Remove default margin.\r\n */\nbody {\n  margin: 0; }\n/* HTML5 display definitions\r\n   ========================================================================== */\n/**\r\n * Correct `block` display not defined for any HTML5 element in IE 8/9.\r\n * Correct `block` display not defined for `details` or `summary` in IE 10/11\r\n * and Firefox.\r\n * Correct `block` display not defined for `main` in IE 11.\r\n */\narticle,\naside,\ndetails,\nfigcaption,\nfigure,\nfooter,\nheader,\nhgroup,\nmain,\nmenu,\nnav,\nsection,\nsummary {\n  display: block; }\n/**\r\n * 1. Correct `inline-block` display not defined in IE 8/9.\r\n * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.\r\n */\naudio,\ncanvas,\nprogress,\nvideo {\n  display: inline-block;\n  /* 1 */\n  vertical-align: baseline;\n  /* 2 */ }\n/**\r\n * Prevent modern browsers from displaying `audio` without controls.\r\n * Remove excess height in iOS 5 devices.\r\n */\naudio:not([controls]) {\n  display: none;\n  height: 0; }\n/**\r\n * Address `[hidden]` styling not present in IE 8/9/10.\r\n * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.\r\n */\n[hidden],\ntemplate {\n  display: none; }\n/* Links\r\n   ========================================================================== */\n/**\r\n * Remove the gray background color from active links in IE 10.\r\n */\na {\n  background-color: transparent; }\n/**\r\n * Improve readability when focused and also mouse hovered in all browsers.\r\n */\na:active,\na:hover {\n  outline: 0; }\n/* Text-level semantics\r\n   ========================================================================== */\n/**\r\n * Address styling not present in IE 8/9/10/11, Safari, and Chrome.\r\n */\nabbr[title] {\n  border-bottom: 1px dotted; }\n/**\r\n * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.\r\n */\nb,\nstrong {\n  font-weight: bold; }\n/**\r\n * Address styling not present in Safari and Chrome.\r\n */\ndfn {\n  font-style: italic; }\n/**\r\n * Address variable `h1` font-size and margin within `section` and `article`\r\n * contexts in Firefox 4+, Safari, and Chrome.\r\n */\nh1 {\n  font-size: 2em;\n  margin: 0.67em 0; }\n/**\r\n * Address styling not present in IE 8/9.\r\n */\nmark {\n  background: #ff0;\n  color: #000; }\n/**\r\n * Address inconsistent and variable font size in all browsers.\r\n */\nsmall {\n  font-size: 80%; }\n/**\r\n * Prevent `sub` and `sup` affecting `line-height` in all browsers.\r\n */\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline; }\nsup {\n  top: -0.5em; }\nsub {\n  bottom: -0.25em; }\n/* Embedded content\r\n   ========================================================================== */\n/**\r\n * Remove border when inside `a` element in IE 8/9/10.\r\n */\nimg {\n  border: 0; }\n/**\r\n * Correct overflow not hidden in IE 9/10/11.\r\n */\nsvg:not(:root) {\n  overflow: hidden; }\n/* Grouping content\r\n   ========================================================================== */\n/**\r\n * Address margin not present in IE 8/9 and Safari.\r\n */\nfigure {\n  margin: 1em 40px; }\n/**\r\n * Address differences between Firefox and other browsers.\r\n */\nhr {\n  -webkit-box-sizing: content-box;\n          box-sizing: content-box;\n  height: 0; }\n/**\r\n * Contain overflow in all browsers.\r\n */\npre {\n  overflow: auto; }\n/**\r\n * Address odd `em`-unit font size rendering in all browsers.\r\n */\ncode,\nkbd,\npre,\nsamp {\n  font-family: monospace, monospace;\n  font-size: 1em; }\n/* Forms\r\n   ========================================================================== */\n/**\r\n * Known limitation: by default, Chrome and Safari on OS X allow very limited\r\n * styling of `select`, unless a `border` property is set.\r\n */\n/**\r\n * 1. Correct color not being inherited.\r\n *    Known issue: affects color of disabled elements.\r\n * 2. Correct font properties not being inherited.\r\n * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.\r\n */\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  color: inherit;\n  /* 1 */\n  font: inherit;\n  /* 2 */\n  margin: 0;\n  /* 3 */ }\n/**\r\n * Address `overflow` set to `hidden` in IE 8/9/10/11.\r\n */\nbutton {\n  overflow: visible; }\n/**\r\n * Address inconsistent `text-transform` inheritance for `button` and `select`.\r\n * All other form control elements do not inherit `text-transform` values.\r\n * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.\r\n * Correct `select` style inheritance in Firefox.\r\n */\nbutton,\nselect {\n  text-transform: none; }\n/**\r\n * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`\r\n *    and `video` controls.\r\n * 2. Correct inability to style clickable `input` types in iOS.\r\n * 3. Improve usability and consistency of cursor style between image-type\r\n *    `input` and others.\r\n */\nbutton,\nhtml input[type=\"button\"],\ninput[type=\"reset\"],\ninput[type=\"submit\"] {\n  -webkit-appearance: button;\n  /* 2 */\n  cursor: pointer;\n  /* 3 */ }\n/**\r\n * Re-set default cursor for disabled elements.\r\n */\nbutton[disabled],\nhtml input[disabled] {\n  cursor: default; }\n/**\r\n * Remove inner padding and border in Firefox 4+.\r\n */\nbutton::-moz-focus-inner,\ninput::-moz-focus-inner {\n  border: 0;\n  padding: 0; }\n/**\r\n * Address Firefox 4+ setting `line-height` on `input` using `!important` in\r\n * the UA stylesheet.\r\n */\ninput {\n  line-height: normal; }\n/**\r\n * It's recommended that you don't attempt to style these elements.\r\n * Firefox's implementation doesn't respect box-sizing, padding, or width.\r\n *\r\n * 1. Address box sizing set to `content-box` in IE 8/9/10.\r\n * 2. Remove excess padding in IE 8/9/10.\r\n */\ninput[type=\"checkbox\"],\ninput[type=\"radio\"] {\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n  /* 1 */\n  padding: 0;\n  /* 2 */ }\n/**\r\n * Fix the cursor style for Chrome's increment/decrement buttons. For certain\r\n * `font-size` values of the `input`, it causes the cursor style of the\r\n * decrement button to change from `default` to `text`.\r\n */\ninput[type=\"number\"]::-webkit-inner-spin-button,\ninput[type=\"number\"]::-webkit-outer-spin-button {\n  height: auto; }\n/**\r\n * 1. Address `appearance` set to `searchfield` in Safari and Chrome.\r\n * 2. Address `box-sizing` set to `border-box` in Safari and Chrome\r\n *    (include `-moz` to future-proof).\r\n */\ninput[type=\"search\"] {\n  -webkit-appearance: textfield;\n  /* 1 */\n  -webkit-box-sizing: content-box;\n  /* 2 */\n  box-sizing: content-box; }\n/**\r\n * Remove inner padding and search cancel button in Safari and Chrome on OS X.\r\n * Safari (but not Chrome) clips the cancel button when the search input has\r\n * padding (and `textfield` appearance).\r\n */\ninput[type=\"search\"]::-webkit-search-cancel-button,\ninput[type=\"search\"]::-webkit-search-decoration {\n  -webkit-appearance: none; }\n/**\r\n * Define consistent border, margin, and padding.\r\n */\nfieldset {\n  border: 1px solid #c0c0c0;\n  margin: 0 2px;\n  padding: 0.35em 0.625em 0.75em; }\n/**\r\n * 1. Correct `color` not being inherited in IE 8/9/10/11.\r\n * 2. Remove padding so people aren't caught out if they zero out fieldsets.\r\n */\nlegend {\n  border: 0;\n  /* 1 */\n  padding: 0;\n  /* 2 */ }\n/**\r\n * Remove default vertical scrollbar in IE 8/9/10/11.\r\n */\ntextarea {\n  overflow: auto; }\n/**\r\n * Don't inherit the `font-weight` (applied by a rule above).\r\n * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.\r\n */\noptgroup {\n  font-weight: bold; }\n/* Tables\r\n   ========================================================================== */\n/**\r\n * Remove most spacing between table cells.\r\n */\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\ntd,\nth {\n  padding: 0; }\n/*\r\n* Skeleton V2.0.4\r\n* Copyright 2014, Dave Gamache\r\n* www.getskeleton.com\r\n* Free to use under the MIT license.\r\n* http://www.opensource.org/licenses/mit-license.php\r\n* 12/29/2014\r\n*/\n/* Table of contents\r\n––––––––––––––––––––––––––––––––––––––––––––––––––\r\n- Grid\r\n- Base Styles\r\n- Typography\r\n- Links\r\n- Buttons\r\n- Forms\r\n- Lists\r\n- Code\r\n- Tables\r\n- Spacing\r\n- Utilities\r\n- Clearing\r\n- Media Queries\r\n*/\n/* Grid\r\n–––––––––––––––––––––––––––––––––––––––––––––––––– */\n.container {\n  position: relative;\n  width: 100%;\n  max-width: 960px;\n  margin: 0 auto;\n  padding: 0 20px;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box; }\n.column,\n.columns {\n  width: 100%;\n  float: left;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box; }\n/* For devices larger than 400px */\n@media (min-width: 400px) {\n  .container {\n    width: 85%;\n    padding: 0; } }\n/* For devices larger than 550px */\n@media (min-width: 550px) {\n  .container {\n    width: 80%; }\n  .column,\n  .columns {\n    margin-left: 4%; }\n  .column:first-child,\n  .columns:first-child {\n    margin-left: 0; }\n  .one.column,\n  .one.columns {\n    width: 4.66666666667%; }\n  .two.columns {\n    width: 13.3333333333%; }\n  .three.columns {\n    width: 22%; }\n  .four.columns {\n    width: 30.6666666667%; }\n  .five.columns {\n    width: 39.3333333333%; }\n  .six.columns {\n    width: 48%; }\n  .seven.columns {\n    width: 56.6666666667%; }\n  .eight.columns {\n    width: 65.3333333333%; }\n  .nine.columns {\n    width: 74.0%; }\n  .ten.columns {\n    width: 82.6666666667%; }\n  .eleven.columns {\n    width: 91.3333333333%; }\n  .twelve.columns {\n    width: 100%;\n    margin-left: 0; }\n  .one-third.column {\n    width: 30.6666666667%; }\n  .two-thirds.column {\n    width: 65.3333333333%; }\n  .one-half.column {\n    width: 48%; }\n  /* Offsets */\n  .offset-by-one.column,\n  .offset-by-one.columns {\n    margin-left: 8.66666666667%; }\n  .offset-by-two.column,\n  .offset-by-two.columns {\n    margin-left: 17.3333333333%; }\n  .offset-by-three.column,\n  .offset-by-three.columns {\n    margin-left: 26%; }\n  .offset-by-four.column,\n  .offset-by-four.columns {\n    margin-left: 34.6666666667%; }\n  .offset-by-five.column,\n  .offset-by-five.columns {\n    margin-left: 43.3333333333%; }\n  .offset-by-six.column,\n  .offset-by-six.columns {\n    margin-left: 52%; }\n  .offset-by-seven.column,\n  .offset-by-seven.columns {\n    margin-left: 60.6666666667%; }\n  .offset-by-eight.column,\n  .offset-by-eight.columns {\n    margin-left: 69.3333333333%; }\n  .offset-by-nine.column,\n  .offset-by-nine.columns {\n    margin-left: 78.0%; }\n  .offset-by-ten.column,\n  .offset-by-ten.columns {\n    margin-left: 86.6666666667%; }\n  .offset-by-eleven.column,\n  .offset-by-eleven.columns {\n    margin-left: 95.3333333333%; }\n  .offset-by-one-third.column,\n  .offset-by-one-third.columns {\n    margin-left: 34.6666666667%; }\n  .offset-by-two-thirds.column,\n  .offset-by-two-thirds.columns {\n    margin-left: 69.3333333333%; }\n  .offset-by-one-half.column,\n  .offset-by-one-half.columns {\n    margin-left: 52%; } }\n/* Base Styles\r\n–––––––––––––––––––––––––––––––––––––––––––––––––– */\n/* NOTE\r\nhtml is set to 62.5% so that all the REM measurements throughout Skeleton\r\nare based on 10px sizing. So basically 1.5rem = 15px :) */\nhtml {\n  font-size: 62.5%; }\nbody {\n  font-size: 1.5em;\n  /* currently ems cause chrome bug misinterpreting rems on body element */\n  line-height: 1.6;\n  font-weight: 400;\n  font-family: \"Raleway\", \"HelveticaNeue\", \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n  color: #222; }\n/* Typography\r\n–––––––––––––––––––––––––––––––––––––––––––––––––– */\nh1, h2, h3, h4, h5, h6 {\n  margin-top: 0;\n  margin-bottom: 2rem;\n  font-weight: 300; }\nh1 {\n  font-size: 4.0rem;\n  line-height: 1.2;\n  letter-spacing: -.1rem; }\nh2 {\n  font-size: 3.6rem;\n  line-height: 1.25;\n  letter-spacing: -.1rem; }\nh3 {\n  font-size: 3.0rem;\n  line-height: 1.3;\n  letter-spacing: -.1rem; }\nh4 {\n  font-size: 2.4rem;\n  line-height: 1.35;\n  letter-spacing: -.08rem; }\nh5 {\n  font-size: 1.8rem;\n  line-height: 1.5;\n  letter-spacing: -.05rem; }\nh6 {\n  font-size: 1.5rem;\n  line-height: 1.6;\n  letter-spacing: 0; }\n/* Larger than phablet */\n@media (min-width: 550px) {\n  h1 {\n    font-size: 5.0rem; }\n  h2 {\n    font-size: 4.2rem; }\n  h3 {\n    font-size: 3.6rem; }\n  h4 {\n    font-size: 3.0rem; }\n  h5 {\n    font-size: 2.4rem; }\n  h6 {\n    font-size: 1.5rem; } }\np {\n  margin-top: 0; }\n/* Links\r\n–––––––––––––––––––––––––––––––––––––––––––––––––– */\na {\n  color: #1EAEDB; }\na:hover {\n  color: #0FA0CE; }\n/* Forms\r\n–––––––––––––––––––––––––––––––––––––––––––––––––– */\ninput[type=\"email\"],\ninput[type=\"number\"],\ninput[type=\"search\"],\ninput[type=\"text\"],\ninput[type=\"tel\"],\ninput[type=\"url\"],\ninput[type=\"password\"],\ntextarea,\nselect {\n  height: 38px;\n  padding: 6px 10px;\n  /* The 6px vertically centers text on FF, ignored by Webkit */\n  background-color: #fff;\n  border: 1px solid #D1D1D1;\n  border-radius: 4px;\n  -webkit-box-shadow: none;\n          box-shadow: none;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box; }\n/* Removes awkward default styles on some inputs for iOS */\ninput[type=\"email\"],\ninput[type=\"number\"],\ninput[type=\"search\"],\ninput[type=\"text\"],\ninput[type=\"tel\"],\ninput[type=\"url\"],\ninput[type=\"password\"],\ntextarea {\n  -webkit-appearance: none;\n  -moz-appearance: none;\n  appearance: none; }\ntextarea {\n  min-height: 65px;\n  padding-top: 6px;\n  padding-bottom: 6px; }\ninput[type=\"email\"]:focus,\ninput[type=\"number\"]:focus,\ninput[type=\"search\"]:focus,\ninput[type=\"text\"]:focus,\ninput[type=\"tel\"]:focus,\ninput[type=\"url\"]:focus,\ninput[type=\"password\"]:focus,\ntextarea:focus,\nselect:focus {\n  border: 1px solid #33C3F0;\n  outline: 0; }\nlabel,\nlegend {\n  display: block;\n  margin-bottom: .5rem;\n  font-weight: 600; }\nfieldset {\n  padding: 0;\n  border-width: 0; }\ninput[type=\"checkbox\"],\ninput[type=\"radio\"] {\n  display: inline; }\nlabel > .label-body {\n  display: inline-block;\n  margin-left: .5rem;\n  font-weight: normal; }\n/* Lists\r\n–––––––––––––––––––––––––––––––––––––––––––––––––– */\nul {\n  list-style: circle inside; }\nol {\n  list-style: decimal inside; }\nol, ul {\n  padding-left: 0;\n  margin-top: 0; }\nul ul,\nul ol,\nol ol,\nol ul {\n  margin: 1.5rem 0 1.5rem 3rem;\n  font-size: 90%; }\nli {\n  margin-bottom: 1rem; }\n/* Code\r\n–––––––––––––––––––––––––––––––––––––––––––––––––– */\ncode {\n  padding: .2rem .5rem;\n  margin: 0 .2rem;\n  font-size: 90%;\n  white-space: nowrap;\n  background: #F1F1F1;\n  border: 1px solid #E1E1E1;\n  border-radius: 4px; }\npre > code {\n  display: block;\n  padding: 1rem 1.5rem;\n  white-space: pre; }\n/* Tables\r\n–––––––––––––––––––––––––––––––––––––––––––––––––– */\nth,\ntd {\n  padding: 12px 15px;\n  text-align: left;\n  border-bottom: 1px solid #E1E1E1; }\nth:first-child,\ntd:first-child {\n  padding-left: 0; }\nth:last-child,\ntd:last-child {\n  padding-right: 0; }\n/* Spacing\r\n–––––––––––––––––––––––––––––––––––––––––––––––––– */\nbutton,\n.button {\n  margin-bottom: 1rem; }\ninput,\ntextarea,\nselect,\nfieldset {\n  margin-bottom: 1rem; }\npre,\nblockquote,\ndl,\nfigure,\ntable,\np,\nul,\nol,\nform {\n  margin-bottom: 2.5rem; }\n/* Utilities\r\n–––––––––––––––––––––––––––––––––––––––––––––––––– */\n.u-full-width {\n  width: 100%;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box; }\n.u-max-full-width {\n  max-width: 100%;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box; }\n.u-pull-right {\n  float: right; }\n.u-pull-left {\n  float: left; }\n/* Misc\r\n–––––––––––––––––––––––––––––––––––––––––––––––––– */\nhr {\n  margin-top: 3rem;\n  margin-bottom: 3.5rem;\n  border-width: 0;\n  border-top: 1px solid #E1E1E1; }\n/* Clearing\r\n–––––––––––––––––––––––––––––––––––––––––––––––––– */\n/* Self Clearing Goodness */\n.container:after,\n.row:after,\n.u-cf {\n  content: \"\";\n  display: table;\n  clear: both; }\n/* Media Queries\r\n–––––––––––––––––––––––––––––––––––––––––––––––––– */\n/*\r\nNote: The best way to structure the use of media queries is to create the queries\r\nnear the relevant code. For example, if you wanted to change the styles for buttons\r\non small devices, paste the mobile query code up in the buttons section and style it\r\nthere.\r\n*/\n/* Larger than mobile */\n/* Larger than phablet (also point when grid becomes active) */\n/* Larger than tablet */\n/* Larger than desktop */\n/* Larger than Desktop HD */\nbody {\n  width: 100%;\n  height: 100%; }\n.slideout-menu {\n  position: fixed;\n  top: 0;\n  bottom: 0;\n  width: 256px;\n  min-height: 100vh;\n  overflow-y: scroll;\n  -webkit-overflow-scrolling: touch;\n  z-index: 0;\n  display: none; }\n.slideout-menu-left {\n  left: 0; }\n.slideout-menu-right {\n  right: 0; }\n.slideout-panel {\n  position: relative;\n  z-index: 1;\n  will-change: transform;\n  background-color: transparent;\n  /* A background-color is required */\n  min-height: 100vh; }\n.slideout-open,\n.slideout-open body,\n.slideout-open .slideout-panel {\n  overflow: hidden; }\n.slideout-open .slideout-menu {\n  display: block; }\n.blocker {\n  position: fixed;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  overflow: auto;\n  z-index: 1;\n  padding: 20px;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n  background-color: #000;\n  background-color: rgba(0, 0, 0, 0.75);\n  text-align: center; }\n.blocker:before {\n  content: \"\";\n  display: inline-block;\n  height: 100%;\n  vertical-align: middle;\n  margin-right: -0.05em; }\n.blocker.behind {\n  background-color: transparent; }\n.modal {\n  display: none;\n  vertical-align: middle;\n  position: relative;\n  z-index: 2;\n  max-width: 500px;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n  width: 90%;\n  background: #fff;\n  padding: 15px 30px;\n  border-radius: 8px;\n  -webkit-box-shadow: 0 0 10px #000;\n  -o-box-shadow: 0 0 10px #000;\n  -ms-box-shadow: 0 0 10px #000;\n  box-shadow: 0 0 10px #000;\n  text-align: left; }\n.modal a.close-modal {\n  position: absolute;\n  top: -12.5px;\n  right: -12.5px;\n  display: block;\n  width: 30px;\n  height: 30px;\n  text-indent: -9999px;\n  background-size: contain;\n  background-repeat: no-repeat;\n  background-position: center center;\n  background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAAAXNSR0IArs4c6QAAA3hJREFUaAXlm8+K00Acx7MiCIJH/yw+gA9g25O49SL4AO3Bp1jw5NvktC+wF88qevK4BU97EmzxUBCEolK/n5gp3W6TTJPfpNPNF37MNsl85/vN/DaTmU6PknC4K+pniqeKJ3k8UnkvDxXJzzy+q/yaxxeVHxW/FNHjgRSeKt4rFoplzaAuHHDBGR2eS9G54reirsmienDCTRt7xwsp+KAoEmt9nLaGitZxrBbPFNaGfPloGw2t4JVamSt8xYW6Dg1oCYo3Yv+rCGViV160oMkcd8SYKnYV1Nb1aEOjCe6L5ZOiLfF120EjWhuBu3YIZt1NQmujnk5F4MgOpURzLfAwOBSTmzp3fpDxuI/pabxpqOoz2r2HLAb0GMbZKlNV5/Hg9XJypguryA7lPF5KMdTZQzHjqxNPhWhzIuAruOl1eNqKEx1tSh5rfbxdw7mOxCq4qS68ZTjKS1YVvilu559vWvFHhh4rZrdyZ69Vmpgdj8fJbDZLJpNJ0uv1cnr/gjrUhQMuI+ANjyuwftQ0bbL6Erp0mM/ny8Fg4M3LtdRxgMtKl3jwmIHVxYXChFy94/Rmpa/pTbNUhstKV+4Rr8lLQ9KlUvJKLyG8yvQ2s9SBy1Jb7jV5a0yapfF6apaZLjLLcWtd4sNrmJUMHyM+1xibTjH82Zh01TNlhsrOhdKTe00uAzZQmN6+KW+sDa/JD2PSVQ873m29yf+1Q9VDzfEYlHi1G5LKBBWZbtEsHbFwb1oYDwr1ZiF/2bnCSg1OBE/pfr9/bWx26UxJL3ONPISOLKUvQza0LZUxSKyjpdTGa/vDEr25rddbMM0Q3O6Lx3rqFvU+x6UrRKQY7tyrZecmD9FODy8uLizTmilwNj0kraNcAJhOp5aGVwsAGD5VmJBrWWbJSgWT9zrzWepQF47RaGSiKfeGx6Szi3gzmX/HHbihwBser4B9UJYpFBNX4R6vTn3VQnez0SymnrHQMsRYGTr1dSk34ljRqS/EMd2pLQ8YBp3a1PLfcqCpo8gtHkZFHKkTX6fs3MY0blKnth66rKCnU0VRGu37ONrQaA4eZDFtWAu2fXj9zjFkxTBOo8F7t926gTp/83Kyzzcy2kZD6xiqxTYnHLRFm3vHiRSwNSjkz3hoIzo8lCKWUlg/YtGs7tObunDAZfpDLbfEI15zsEIY3U/x/gHHc/G1zltnAgAAAABJRU5ErkJggg==\"); }\n.modal-spinner {\n  display: none;\n  position: fixed;\n  top: 50%;\n  left: 50%;\n  -webkit-transform: translateY(-50%) translateX(-50%);\n          transform: translateY(-50%) translateX(-50%);\n  padding: 12px 16px;\n  border-radius: 5px;\n  background-color: #111;\n  height: 20px; }\n.modal-spinner > div {\n  border-radius: 100px;\n  background-color: #fff;\n  height: 20px;\n  width: 2px;\n  margin: 0 1px;\n  display: inline-block;\n  -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;\n  animation: sk-stretchdelay 1.2s infinite ease-in-out; }\n.modal-spinner .rect2 {\n  -webkit-animation-delay: -1.1s;\n  animation-delay: -1.1s; }\n.modal-spinner .rect3 {\n  -webkit-animation-delay: -1.0s;\n  animation-delay: -1.0s; }\n.modal-spinner .rect4 {\n  -webkit-animation-delay: -0.9s;\n  animation-delay: -0.9s; }\n@-webkit-keyframes sk-stretchdelay {\n  0%, 40%, 100% {\n    -webkit-transform: scaleY(0.5); }\n  20% {\n    -webkit-transform: scaleY(1); } }\n@keyframes sk-stretchdelay {\n  0%, 40%, 100% {\n    transform: scaleY(0.5);\n    -webkit-transform: scaleY(0.5); }\n  20% {\n    transform: scaleY(1);\n    -webkit-transform: scaleY(1); } }\n/*\r\n * Note that this is toastr v2.1.3, the \"latest\" version in url has no more maintenance,\r\n * please go to https://cdnjs.com/libraries/toastr.js and pick a certain version you want to use,\r\n * make sure you copy the url from the website since the url may change between versions.\r\n * */\n.toast-title {\n  font-weight: 700; }\n.toast-message {\n  -ms-word-wrap: break-word;\n  word-wrap: break-word; }\n.toast-message a,\n.toast-message label {\n  color: #FFF; }\n.toast-message a:hover {\n  color: #CCC;\n  text-decoration: none; }\n.toast-close-button {\n  position: relative;\n  right: -.3em;\n  top: -.3em;\n  float: right;\n  font-size: 20px;\n  font-weight: 700;\n  color: #FFF;\n  -webkit-text-shadow: 0 1px 0 #fff;\n  text-shadow: 0 1px 0 #fff;\n  opacity: .8;\n  filter: alpha(opacity=80);\n  line-height: 1; }\n.toast-close-button:focus,\n.toast-close-button:hover {\n  color: #000;\n  text-decoration: none;\n  cursor: pointer;\n  opacity: .4;\n  filter: alpha(opacity=40); }\n.rtl .toast-close-button {\n  left: -.3em;\n  float: left;\n  right: .3em; }\nbutton.toast-close-button {\n  padding: 0;\n  cursor: pointer;\n  background: 0 0;\n  border: 0;\n  -webkit-appearance: none; }\n.toast-top-center {\n  top: 0;\n  right: 0;\n  width: 100%; }\n.toast-bottom-center {\n  bottom: 0;\n  right: 0;\n  width: 100%; }\n.toast-top-full-width {\n  top: 0;\n  right: 0;\n  width: 100%; }\n.toast-bottom-full-width {\n  bottom: 0;\n  right: 0;\n  width: 100%; }\n.toast-top-left {\n  top: 12px;\n  left: 12px; }\n.toast-top-right {\n  top: 12px;\n  right: 12px; }\n.toast-bottom-right {\n  right: 12px;\n  bottom: 12px; }\n.toast-bottom-left {\n  bottom: 12px;\n  left: 12px; }\n#toast-container {\n  position: fixed;\n  z-index: 999999;\n  pointer-events: none; }\n#toast-container * {\n  -webkit-box-sizing: border-box;\n  box-sizing: border-box; }\n#toast-container > div {\n  position: relative;\n  pointer-events: auto;\n  overflow: hidden;\n  margin: 0 0 6px;\n  padding: 15px 15px 15px 50px;\n  width: 300px;\n  border-radius: 3px;\n  background-position: 15px center;\n  background-repeat: no-repeat;\n  -webkit-box-shadow: 0 0 12px #999;\n  box-shadow: 0 0 12px #999;\n  color: #FFF;\n  opacity: .8;\n  filter: alpha(opacity=80); }\n#toast-container > div.rtl {\n  direction: rtl;\n  padding: 15px 50px 15px 15px;\n  background-position: right 15px center; }\n#toast-container > div:hover {\n  -webkit-box-shadow: 0 0 12px #000;\n  box-shadow: 0 0 12px #000;\n  opacity: 1;\n  filter: alpha(opacity=100);\n  cursor: pointer; }\n#toast-container > .toast-info {\n  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGwSURBVEhLtZa9SgNBEMc9sUxxRcoUKSzSWIhXpFMhhYWFhaBg4yPYiWCXZxBLERsLRS3EQkEfwCKdjWJAwSKCgoKCcudv4O5YLrt7EzgXhiU3/4+b2ckmwVjJSpKkQ6wAi4gwhT+z3wRBcEz0yjSseUTrcRyfsHsXmD0AmbHOC9Ii8VImnuXBPglHpQ5wwSVM7sNnTG7Za4JwDdCjxyAiH3nyA2mtaTJufiDZ5dCaqlItILh1NHatfN5skvjx9Z38m69CgzuXmZgVrPIGE763Jx9qKsRozWYw6xOHdER+nn2KkO+Bb+UV5CBN6WC6QtBgbRVozrahAbmm6HtUsgtPC19tFdxXZYBOfkbmFJ1VaHA1VAHjd0pp70oTZzvR+EVrx2Ygfdsq6eu55BHYR8hlcki+n+kERUFG8BrA0BwjeAv2M8WLQBtcy+SD6fNsmnB3AlBLrgTtVW1c2QN4bVWLATaIS60J2Du5y1TiJgjSBvFVZgTmwCU+dAZFoPxGEEs8nyHC9Bwe2GvEJv2WXZb0vjdyFT4Cxk3e/kIqlOGoVLwwPevpYHT+00T+hWwXDf4AJAOUqWcDhbwAAAAASUVORK5CYII=) !important; }\n#toast-container > .toast-error {\n  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHOSURBVEhLrZa/SgNBEMZzh0WKCClSCKaIYOED+AAKeQQLG8HWztLCImBrYadgIdY+gIKNYkBFSwu7CAoqCgkkoGBI/E28PdbLZmeDLgzZzcx83/zZ2SSXC1j9fr+I1Hq93g2yxH4iwM1vkoBWAdxCmpzTxfkN2RcyZNaHFIkSo10+8kgxkXIURV5HGxTmFuc75B2RfQkpxHG8aAgaAFa0tAHqYFfQ7Iwe2yhODk8+J4C7yAoRTWI3w/4klGRgR4lO7Rpn9+gvMyWp+uxFh8+H+ARlgN1nJuJuQAYvNkEnwGFck18Er4q3egEc/oO+mhLdKgRyhdNFiacC0rlOCbhNVz4H9FnAYgDBvU3QIioZlJFLJtsoHYRDfiZoUyIxqCtRpVlANq0EU4dApjrtgezPFad5S19Wgjkc0hNVnuF4HjVA6C7QrSIbylB+oZe3aHgBsqlNqKYH48jXyJKMuAbiyVJ8KzaB3eRc0pg9VwQ4niFryI68qiOi3AbjwdsfnAtk0bCjTLJKr6mrD9g8iq/S/B81hguOMlQTnVyG40wAcjnmgsCNESDrjme7wfftP4P7SP4N3CJZdvzoNyGq2c/HWOXJGsvVg+RA/k2MC/wN6I2YA2Pt8GkAAAAASUVORK5CYII=) !important; }\n#toast-container > .toast-success {\n  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADsSURBVEhLY2AYBfQMgf///3P8+/evAIgvA/FsIF+BavYDDWMBGroaSMMBiE8VC7AZDrIFaMFnii3AZTjUgsUUWUDA8OdAH6iQbQEhw4HyGsPEcKBXBIC4ARhex4G4BsjmweU1soIFaGg/WtoFZRIZdEvIMhxkCCjXIVsATV6gFGACs4Rsw0EGgIIH3QJYJgHSARQZDrWAB+jawzgs+Q2UO49D7jnRSRGoEFRILcdmEMWGI0cm0JJ2QpYA1RDvcmzJEWhABhD/pqrL0S0CWuABKgnRki9lLseS7g2AlqwHWQSKH4oKLrILpRGhEQCw2LiRUIa4lwAAAABJRU5ErkJggg==) !important; }\n#toast-container > .toast-warning {\n  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGYSURBVEhL5ZSvTsNQFMbXZGICMYGYmJhAQIJAICYQPAACiSDB8AiICQQJT4CqQEwgJvYASAQCiZiYmJhAIBATCARJy+9rTsldd8sKu1M0+dLb057v6/lbq/2rK0mS/TRNj9cWNAKPYIJII7gIxCcQ51cvqID+GIEX8ASG4B1bK5gIZFeQfoJdEXOfgX4QAQg7kH2A65yQ87lyxb27sggkAzAuFhbbg1K2kgCkB1bVwyIR9m2L7PRPIhDUIXgGtyKw575yz3lTNs6X4JXnjV+LKM/m3MydnTbtOKIjtz6VhCBq4vSm3ncdrD2lk0VgUXSVKjVDJXJzijW1RQdsU7F77He8u68koNZTz8Oz5yGa6J3H3lZ0xYgXBK2QymlWWA+RWnYhskLBv2vmE+hBMCtbA7KX5drWyRT/2JsqZ2IvfB9Y4bWDNMFbJRFmC9E74SoS0CqulwjkC0+5bpcV1CZ8NMej4pjy0U+doDQsGyo1hzVJttIjhQ7GnBtRFN1UarUlH8F3xict+HY07rEzoUGPlWcjRFRr4/gChZgc3ZL2d8oAAAAASUVORK5CYII=) !important; }\n#toast-container.toast-bottom-center > div,\n#toast-container.toast-top-center > div {\n  width: 300px;\n  margin-left: auto;\n  margin-right: auto; }\n#toast-container.toast-bottom-full-width > div,\n#toast-container.toast-top-full-width > div {\n  width: 96%;\n  margin-left: auto;\n  margin-right: auto; }\n.toast {\n  background-color: #030303; }\n.toast-success {\n  background-color: #51A351; }\n.toast-error {\n  background-color: #BD362F; }\n.toast-info {\n  background-color: #2F96B4; }\n.toast-warning {\n  background-color: #F89406; }\n.toast-progress {\n  position: absolute;\n  left: 0;\n  bottom: 0;\n  height: 4px;\n  background-color: #000;\n  opacity: .4;\n  filter: alpha(opacity=40); }\n@media all and (max-width: 240px) {\n  #toast-container > div {\n    padding: 8px 8px 8px 50px;\n    width: 11em; }\n  #toast-container > div.rtl {\n    padding: 8px 50px 8px 8px; }\n  #toast-container .toast-close-button {\n    right: -.2em;\n    top: -.2em; }\n  #toast-container .rtl .toast-close-button {\n    left: -.2em;\n    right: .2em; } }\n@media all and (min-width: 241px) and (max-width: 480px) {\n  #toast-container > div {\n    padding: 8px 8px 8px 50px;\n    width: 18em; }\n  #toast-container > div.rtl {\n    padding: 8px 50px 8px 8px; }\n  #toast-container .toast-close-button {\n    right: -.2em;\n    top: -.2em; }\n  #toast-container .rtl .toast-close-button {\n    left: -.2em;\n    right: .2em; } }\n@media all and (min-width: 481px) and (max-width: 768px) {\n  #toast-container > div {\n    padding: 15px 15px 15px 50px;\n    width: 25em; }\n  #toast-container > div.rtl {\n    padding: 15px 50px 15px 15px; } }\n@font-face {\n  font-family: 'vollkorn-regular';\n  src: url(\"../../static/fonts/vollkorn/Vollkorn-Regular.ttf\") format(\"truetype\"); }\n@font-face {\n  font-family: 'vollkorn-bold';\n  src: url(\"../../static/fonts/vollkorn/Vollkorn-Bold.ttf\") format(\"truetype\"); }\n@font-face {\n  font-family: 'vollkorn-black';\n  src: url(\"../../static/fonts/vollkorn/Vollkorn-Black.ttf\") format(\"truetype\"); }\n@font-face {\n  font-family: 'OpenSans-regular';\n  src: url(\"../../static/fonts/open-sans/OpenSans-Regular.ttf\") format(\"truetype\"); }\n@font-face {\n  font-family: 'OpenSand-bold';\n  src: url(\"../../static/fonts/open-sans/Volkron-Bold.ttf\") format(\"truetype\"); }\n.nav-desktop .nav-desktop-left .logo, .nav-index .nav-desktop-left .logo, .btn-block-white, .btn-block-purple {\n  display: block;\n  width: 100%; }\n.nav-desktop .nav-desktop-left, .nav-index .nav-desktop-left {\n  float: left;\n  margin-right: auto; }\n.nav-desktop .nav-desktop-left .logo, .nav-index .nav-desktop-left .logo {\n    font-size: 1.3em;\n    background-image: url(http://res.cloudinary.com/sportbay-co/image/upload/v1525431685/charisol-logo_purple_l5mn4v.svg);\n    background-position: left;\n    background-size: contain;\n    background-repeat: no-repeat;\n    margin-left: 20px;\n    width: 130px;\n    height: 75px; }\n.nav-desktop .nav-desktop-left .logo img, .nav-index .nav-desktop-left .logo img {\n      display: none;\n      max-height: 15px;\n      position: relative;\n      top: -5px; }\n.nav-desktop .hamburger, .nav-index .hamburger {\n  float: right;\n  cursor: pointer;\n  width: 40px;\n  padding: 10px; }\n.nav-desktop .hamburger span, .nav-index .hamburger span {\n    display: block;\n    margin-bottom: 4px;\n    background-color: black;\n    border: 1px solid black;\n    -webkit-transition: all 0.4s cubic-bezier(0.895, 0.03, 0.685, 0.22);\n    transition: all 0.4s cubic-bezier(0.895, 0.03, 0.685, 0.22); }\n.nav-desktop .hamburger .last-child, .nav-index .hamburger .last-child {\n    margin-bottom: 0; }\n.nav-desktop .hamburger:hover .first-child, .nav-index .hamburger:hover .first-child,\n.nav-desktop .hamburger:hover .last-child,\n.nav-index .hamburger:hover .last-child {\n  -webkit-transform: scaleX(0.7);\n          transform: scaleX(0.7); }\n.btn-clear-purple, .btn-clear-white, footer .links li a, .btn-trans-white, .btn-block-white, .btn-block-purple, .btn-curve-purple, .btn-curve-white, .nav-desktop .links li a {\n  -webkit-transition: 0.4s;\n  transition: 0.4s; }\n.btn-clear-purple, .btn-clear-white {\n  padding: 0;\n  margin: 0;\n  border: 0;\n  font-size: 1.2em;\n  position: relative;\n  text-decoration: none; }\n.btn-clear-purple img, .btn-clear-white img {\n    height: 10px;\n    margin-left: 10px; }\n.btn-clear-purple:hover, .btn-clear-white:hover {\n    -webkit-transform: translateY(-1px);\n            transform: translateY(-1px); }\nhtml, body {\n  height: 100%; }\nbody {\n  font-family: 'OpenSans-regular', sans-serif;\n  color: #222222;\n  overflow-x: hidden; }\nbutton {\n  background: transparent; }\nbutton:visited, button:focus {\n    outline: 0; }\nfooter {\n  padding: 20px 50px 70px 50px;\n  background: white; }\nfooter .nav-desktop-left {\n    float: left; }\nfooter .nav-desktop-left .logo {\n      text-decoration: none;\n      font-size: 1.3em;\n      display: block;\n      height: 85px;\n      width: 120px;\n      background-image: url(http://res.cloudinary.com/sportbay-co/image/upload/v1525431685/charisol-logo_purple_l5mn4v.svg);\n      background-position: left;\n      background-size: contain;\n      background-repeat: no-repeat; }\nfooter .nav-desktop-left .logo img {\n        max-height: 15px;\n        position: relative;\n        top: 15px; }\nfooter .links {\n    float: right;\n    margin-top: 5px; }\nfooter .links ul {\n      list-style: none;\n      padding: 0;\n      margin: 0; }\nfooter .links li {\n      display: inline-block;\n      padding: 0 15px; }\nfooter .links li a {\n        opacity: 0.9;\n        font-weight: 300;\n        text-decoration: none;\n        color: #4D4D4D; }\nfooter .links li a:hover {\n        opacity: 1; }\nfooter .links li img {\n        height: 30px;\n        position: relative;\n        top: 10px; }\n.close {\n  display: block;\n  width: 25px;\n  height: 25px;\n  background-position: center;\n  background-size: contain;\n  margin: 0 auto;\n  margin-right: 0px;\n  -webkit-transition: all 0.4s cubic-bezier(0.895, 0.03, 0.685, 0.22);\n  transition: all 0.4s cubic-bezier(0.895, 0.03, 0.685, 0.22);\n  margin-bottom: 40px; }\n.close-white {\n  background-image: url(\"http://res.cloudinary.com/sportbay-co/image/upload/v1525969277/close-white_vgyzjt.svg\"); }\n.close-red {\n  background-image: url(\"../../static/img/close-red.svg\");\n  width: 18px;\n  height: 18px; }\n.close:hover {\n  -webkit-transform: rotate(90deg);\n          transform: rotate(90deg); }\n.smooth-scroll {\n  position: absolute;\n  -webkit-transition: -webkit-transform 0.4s ease-out;\n  transition: -webkit-transform 0.4s ease-out;\n  transition: transform 0.4s ease-out;\n  transition: transform 0.4s ease-out, -webkit-transform 0.4s ease-out; }\n.bold {\n  font-family: 'OpenSans-Bold', sans-serif; }\n.light {\n  font-size: 12px;\n  opacity: 0.6;\n  font-family: 'proxima-nova-light', sans-serif; }\n.heading-wrapper, .sub-text-wrapper {\n  display: block;\n  overflow: hidden;\n  margin-bottom: 40px; }\n.heading-wrapper {\n  padding-top: 10px; }\n.sub-text-wrapper {\n  margin-bottom: 30px; }\n.heading {\n  font-family: 'vollkorn-bold', 'serif';\n  color: #B721FF;\n  font-size: 44px;\n  -webkit-transition: all 0.9s cubic-bezier(0.175, 0.885, 0.32, 1.275);\n  transition: all 0.9s cubic-bezier(0.175, 0.885, 0.32, 1.275);\n  -webkit-transition-delay: 0.25s;\n          transition-delay: 0.25s;\n  margin: 0px; }\n.sub-text {\n  margin-bottom: 0px;\n  -webkit-transition: all 0.7s cubic-bezier(0.77, 0, 0.175, 1);\n  transition: all 0.7s cubic-bezier(0.77, 0, 0.175, 1);\n  -webkit-transition-delay: 0.45s;\n          transition-delay: 0.45s; }\n.heading.no-reveal {\n  -webkit-transform: translate3d(0px, 115%, 0px);\n          transform: translate3d(0px, 115%, 0px);\n  opacity: 0; }\n.sub-text.no-reveal {\n  -webkit-transform: translate3d(0px, -115%, 0px);\n          transform: translate3d(0px, -115%, 0px);\n  opacity: 0; }\n.heading.reveal, .sub-text.reveal {\n  -webkit-transform: translate3d(0px, 0%, 0px);\n          transform: translate3d(0px, 0%, 0px);\n  opacity: 1; }\n.m-b-sm {\n  margin-bottom: 10px; }\n.m-b-md {\n  margin-bottom: 20px; }\n.m-b-lg {\n  margin-bottom: 40px; }\n.m-b-xl {\n  margin-bottom: 60px; }\n.m-l-sm {\n  margin-left: 10px; }\n.m-r-md {\n  margin-right: 20px; }\n.m-t-md {\n  margin-top: 20px; }\n.m-t-lg {\n  margin-top: 40px; }\n.m-t-xl {\n  margin-top: 60px; }\n.btn-clear-purple {\n  color: #B721FF; }\n.btn-clear-purple:hover {\n    color: #B721FF; }\n.btn-clear-white {\n  color: white; }\n.btn-clear-white:hover {\n    color: white; }\n.btn-trans-white {\n  color: white;\n  display: block;\n  width: 180px;\n  border: 1px solid white;\n  border-radius: 40px;\n  background: transparent;\n  text-align: center;\n  padding: 10px 25px;\n  -webkit-transition: -webkit-transform 0.4s;\n  transition: -webkit-transform 0.4s;\n  transition: transform 0.4s;\n  transition: transform 0.4s, -webkit-transform 0.4s; }\n.btn-trans-white:hover {\n    color: #222222 !important;\n    background: white;\n    -webkit-transform: scale(0.9);\n            transform: scale(0.9); }\n.btn-block-white {\n  -webkit-box-shadow: -1px 1px 1px 1px rgba(0, 0, 0, 0.1);\n          box-shadow: -1px 1px 1px 1px rgba(0, 0, 0, 0.1);\n  color: #B721FF;\n  display: block;\n  width: 180px;\n  border: 1px solid white;\n  border-radius: 3px;\n  background: transparent;\n  text-align: center;\n  padding: 5px 25px;\n  -webkit-transition: -webkit-transform 0.4s;\n  transition: -webkit-transform 0.4s;\n  transition: transform 0.4s;\n  transition: transform 0.4s, -webkit-transform 0.4s; }\n.btn-block-white:hover {\n    color: white !important;\n    background: #B721FF;\n    -webkit-transform: scale(0.9);\n            transform: scale(0.9); }\n.btn-block-purple {\n  color: white;\n  display: block;\n  width: 180px;\n  border: 1px solid transparent;\n  border-radius: 3px;\n  background: #B721FF;\n  text-align: center;\n  padding: 15px;\n  -webkit-transition: -webkit-transform 0.4s;\n  transition: -webkit-transform 0.4s;\n  transition: transform 0.4s;\n  transition: transform 0.4s, -webkit-transform 0.4s; }\n.btn-block-purple:hover {\n    color: white !important;\n    background: #B721FF;\n    -webkit-transform: scale(0.9);\n            transform: scale(0.9); }\n.btn-curve-purple img, .btn-curve-white img {\n  margin-left: 10px; }\n.btn-curve-purple {\n  color: white;\n  display: block;\n  width: 180px;\n  border: 1px solid transparent;\n  border-radius: 40px;\n  background: #B721FF;\n  text-align: center;\n  padding: 15px 15px;\n  -webkit-transition: -webkit-transform 0.4s;\n  transition: -webkit-transform 0.4s;\n  transition: transform 0.4s;\n  transition: transform 0.4s, -webkit-transform 0.4s;\n  text-decoration: none; }\n.btn-curve-purple:hover {\n    color: white !important;\n    background: #B721FF;\n    -webkit-transform: scale(0.9);\n            transform: scale(0.9); }\n.btn-curve-white {\n  color: #B721FF;\n  display: block;\n  width: 180px;\n  border: 1px solid transparent;\n  border-radius: 40px;\n  background: white;\n  text-align: center;\n  padding: 15px 15px;\n  -webkit-transition: -webkit-transform 0.4s;\n  transition: -webkit-transform 0.4s;\n  transition: transform 0.4s;\n  transition: transform 0.4s, -webkit-transform 0.4s;\n  text-decoration: none; }\n.btn-curve-white:hover {\n    color: #B721FF !important;\n    background: white;\n    -webkit-transform: scale(0.9);\n            transform: scale(0.9); }\n.text-center {\n  text-align: center; }\n.content-cover {\n  display: none;\n  z-index: 10;\n  position: absolute;\n  right: 0;\n  width: 100%;\n  height: 100%;\n  background: rgba(0, 0, 0, 0.6); }\n#panel {\n  background: white; }\n.modal input, .modal textarea, .modal select, .modal fieldset {\n  margin-bottom: 1rem; }\n.modal textarea {\n  height: auto; }\n.blocker {\n  z-index: 11; }\n.full {\n  display: block;\n  width: 100%; }\n.nav-desktop {\n  font-size: 1em;\n  left: 0;\n  padding: 15px 30px;\n  position: absolute;\n  right: 0;\n  top: 0;\n  z-index: 10;\n  background: #B721FF; }\n.nav-desktop .icon {\n    margin-right: 5px;\n    height: 12px;\n    position: relative;\n    top: -2px; }\n.nav-desktop .links {\n    float: left;\n    margin-left: 100px;\n    margin-top: 5px; }\n.nav-desktop .links ul {\n      list-style: none;\n      padding: 0;\n      margin: 0; }\n.nav-desktop .links li {\n      display: inline-block;\n      padding: 0 15px; }\n.nav-desktop .links li a {\n        opacity: 0.9;\n        font-weight: 300;\n        color: white;\n        text-decoration: none; }\n.nav-desktop .links li a:hover {\n        opacity: 1; }\n.nav-index {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center; }\n.nav-index .hamburger {\n    margin-left: auto; }\n.nav-top {\n  -webkit-box-shadow: -1px 1px 3px 3px rgba(0, 0, 0, 0.1);\n          box-shadow: -1px 1px 3px 3px rgba(0, 0, 0, 0.1);\n  padding: 0px 40px 0px 40px;\n  height: 75px; }\n.nav-top .hamburger {\n    margin-top: 25px;\n    padding-top: 5px; }\n.menu, .profile {\n  display: none !important; }\n.menu {\n  width: 400px;\n  padding: 60px;\n  background: #2b2b2b;\n  text-align: right;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box; }\n.menu .close {\n    cursor: pointer;\n    color: white;\n    font-size: 0.6em; }\n.menu ul {\n    padding: 0;\n    margin: 0;\n    list-style: none; }\n.menu li {\n    font-size: 2em;\n    margin-bottom: 20px; }\n.menu li.active img {\n      height: 10px;\n      margin-right: 20px;\n      position: relative;\n      top: -5px; }\n.menu a {\n    color: #FFFFFF;\n    text-decoration: none; }\n.menu a:hover {\n      color: #FFFFFF;\n      text-decoration: none; }\n.menu a:visited, .menu a:focus {\n      color: #FFFFFF;\n      text-decoration: none; }\n.menu a:hover {\n    color: #c038e0;\n    text-decoration: none; }\n.menu a:hover:hover {\n      color: #c038e0;\n      text-decoration: none; }\n.menu a:hover:visited, .menu a:hover:focus {\n      color: #c038e0;\n      text-decoration: none; }\n.menu p {\n    font-size: 0.6em; }\n.menu .btn-trans-white {\n    margin: 0 auto;\n    font-size: 17px;\n    margin-top: 80px; }\n.show {\n  display: block !important; }\n.mobile {\n  width: 300px;\n  padding: 40px; }\n.mobile .btn-trans-white {\n    font-size: 0.8em; }\n.profile {\n  width: 400px;\n  padding: 20px;\n  background: white;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box; }\n.profile h5 {\n    margin-bottom: 0; }\n.profile .head {\n    border-bottom: 1px solid #A3A3A3;\n    padding-bottom: 6px;\n    margin-bottom: 30px; }\n.profile .head h5 {\n      display: inline-block; }\n.profile .head span {\n      float: right;\n      margin-right: 20px;\n      color: crimson;\n      cursor: pointer; }\n.profile .blue-badge {\n    background: #B721FF;\n    font-size: 0.8em;\n    padding: 5px 10px;\n    border-radius: 20px;\n    color: white; }\n.profile .circle {\n    background: white;\n    padding: 5px;\n    border-radius: 50%;\n    margin-right: 10px;\n    display: inline-block; }\n.profile .top-info img {\n    height: 130px; }\n.profile .top-info p {\n    margin-bottom: 10px; }\n.profile .skills-heading {\n    font-size: 13px;\n    margin-top: 30px;\n    margin-bottom: 5px; }\n.profile .skill-text {\n    margin-top: 0px; }\n.profile .experience-heading {\n    margin-top: 20px;\n    margin-bottom: 0px; }\n.profile .experience-website {\n    color: #B721FF;\n    font-size: 12px;\n    display: block;\n    margin-bottom: 15px; }\n.profile .experience-role {\n    margin-top: 0px;\n    margin-bottom: 2px; }\n.profile .experience-period {\n    margin-top: 0px;\n    margin-bottom: 20px;\n    font-size: 12px; }\n.profile .experience-role-ul {\n    list-style-position: outside;\n    padding-left: 20px; }\n.profile .experience-role-ul li {\n      margin-bottom: 20px; }\n.menu {\n  display: none; }\n.index {\n  background: white; }\n.index .top-wrapper {\n    background: url(../img/bg_left_semi.svg) no-repeat top left;\n    background-size: 60%;\n    padding: 20px;\n    min-height: 95vh;\n    position: relative;\n    z-index: 5; }\n.index .intro {\n    background: white;\n    width: 100%;\n    min-height: inherit; }\n.index .intro .text-content {\n      margin-top: 100px;\n      padding: 0 50px; }\n.index .intro .six.columns:first-child {\n      padding: 20px 0 20px 20px; }\n.index .intro p {\n      color: #222222; }\n.index .intro .intro-content-wrapper {\n      min-height: inherit; }\n.index .intro .intro-content-wrapper .left-pane {\n        min-height: inherit;\n        display: -webkit-box;\n        display: -ms-flexbox;\n        display: flex;\n        -webkit-box-orient: vertical;\n        -webkit-box-direction: normal;\n            -ms-flex-direction: column;\n                flex-direction: column;\n        -webkit-box-pack: start;\n            -ms-flex-pack: start;\n                justify-content: flex-start; }\n.index .intro .intro-content-wrapper .left-pane .text-content {\n          -webkit-box-flex: 2;\n              -ms-flex: 2;\n                  flex: 2;\n          -webkit-box-pack: center;\n              -ms-flex-pack: center;\n                  justify-content: center;\n          display: -webkit-box;\n          display: -ms-flexbox;\n          display: flex;\n          -webkit-box-orient: vertical;\n          -webkit-box-direction: normal;\n              -ms-flex-direction: column;\n                  flex-direction: column;\n          padding-bottom: 60px;\n          margin-top: 0px; }\n.index .intro .intro-content-wrapper .left-pane .text-content .btn-curve-purple {\n            display: block;\n            width: 200px;\n            padding: 15px 20px;\n            text-align: center;\n            -webkit-transition: -webkit-transform 0.4s;\n            transition: -webkit-transform 0.4s;\n            transition: transform 0.4s;\n            transition: transform 0.4s, -webkit-transform 0.4s; }\n.index .intro .intro-content-wrapper .left-pane .text-content .btn-curve-purple:hover {\n            -webkit-transform: scale(0.9);\n                    transform: scale(0.9); }\n.index .intro .intro-content-wrapper .right-pane {\n        min-height: inherit;\n        overflow: hidden; }\n.index .intro .intro-content-wrapper .right-pane .top-img-wrapper {\n          overflow: hidden;\n          width: 100%;\n          min-height: inherit;\n          background-color: #333333;\n          -webkit-transform: scale(1.05);\n                  transform: scale(1.05);\n          -webkit-transform-origin: -100% 50%;\n                  transform-origin: -100% 50%;\n          -webkit-transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1);\n          transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1);\n          -webkit-transition-delay: 0.4s;\n                  transition-delay: 0.4s; }\n.index .intro .intro-content-wrapper .right-pane .top-img {\n          min-height: inherit;\n          -webkit-transform: translate3d(0px, 0px, 0px);\n                  transform: translate3d(0px, 0px, 0px);\n          -webkit-transition: all 1s cubic-bezier(0.23, 1, 0.32, 1);\n          transition: all 1s cubic-bezier(0.23, 1, 0.32, 1);\n          -webkit-transition-delay: 0.7s;\n                  transition-delay: 0.7s; }\n.index .intro .intro-content-wrapper .right-pane .top-img-wrapper.no-reveal {\n          -webkit-transform: scaleX(0.89);\n                  transform: scaleX(0.89); }\n.index .intro .intro-content-wrapper .right-pane .top-img-wrapper.no-reveal .top-img {\n            -webkit-transform: translate3d(-120%, 0px, 0px);\n                    transform: translate3d(-120%, 0px, 0px); }\n.index .top-img {\n    background: url(http://res.cloudinary.com/sportbay-co/image/upload/v1525424030/bg_top_qzynai.jpg) no-repeat top !important;\n    background-size: cover !important;\n    height: calc(100vh - 50px) !important; }\n.index .scale {\n    margin-top: 100px;\n    margin-bottom: 80px;\n    position: relative;\n    z-index: 2; }\n.index .scale .text-content {\n      margin-top: 0px;\n      padding: 0 50px; }\n.index .scale .sub-text {\n      color: #222222; }\n.index .scale .section-2-wrapper {\n      padding-top: 50px; }\n.index .scale .section-2-wrapper .image-wrapper-container {\n        padding: 1px 8%;\n        overflow: hidden;\n        -webkit-box-sizing: border-box;\n                box-sizing: border-box;\n        height: 700px;\n        position: relative; }\n.index .scale .section-2-wrapper .image-wrapper-container .clear-div-container {\n          overflow: hidden;\n          height: 100%;\n          width: 100%; }\n.index .scale .section-2-wrapper .image-wrapper-container .clear-div {\n          height: 100%;\n          width: 100%;\n          overflow: hidden;\n          background-color: #333333;\n          -webkit-transform: scaleX(1);\n                  transform: scaleX(1);\n          -webkit-transform-origin: -100% 50%;\n                  transform-origin: -100% 50%;\n          -webkit-transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1);\n          transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1); }\n.index .scale .section-2-wrapper .image-wrapper-container .image-wrapper {\n          height: 100%;\n          width: 100%;\n          top: 0;\n          left: 0;\n          right: 0;\n          -webkit-transform: translate3d(0px, 0%, 0px) scale(1.1);\n                  transform: translate3d(0px, 0%, 0px) scale(1.1);\n          -webkit-transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1);\n          transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1);\n          -webkit-transition-delay: 0.4s;\n                  transition-delay: 0.4s;\n          background-position: center;\n          background-size: cover; }\n.index .scale .section-2-wrapper .image-wrapper-container .image-wrapper:hover {\n          -webkit-transform: scale(1.05);\n                  transform: scale(1.05); }\n.index .scale .section-2-wrapper .image-wrapper-container.no-reveal .clear-div {\n        -webkit-transform: scaleX(0.67);\n                transform: scaleX(0.67); }\n.index .scale .section-2-wrapper .image-wrapper-container.no-reveal .image-wrapper {\n        -webkit-transform: translate3d(-120%, 0%, 0px);\n                transform: translate3d(-120%, 0%, 0px); }\n.index .scale .section-2-wrapper .text-wrapper {\n        margin-top: 150px;\n        margin-left: 0px; }\n.index .simple {\n    color: white;\n    position: relative;\n    z-index: 1;\n    background: url(../img/bg_left_shape.svg) no-repeat top left; }\n.index .simple .text-content {\n      margin-top: 100px;\n      padding: 0 50px; }\n.index .simple .row {\n      background-size: 70%;\n      position: relative;\n      z-index: 1;\n      padding: 70px 0px; }\n.index .simple .row .text-content {\n        padding: 0px 60px;\n        padding-right: 130px; }\n.index .simple .row .text-content .heading {\n          margin-bottom: 0px;\n          color: #ffffff; }\n.index .simple p {\n      padding-right: 30px; }\n.index .simple .sub-title {\n      font-size: 1.25em;\n      font-weight: 600;\n      margin-bottom: 10px; }\n.index .simple .five.columns:nth-child(2) img {\n      height: 600px;\n      margin-top: 70px; }\n.index .simple .purple-bg {\n      background: rgba(183, 33, 255, 0.1);\n      height: 300px;\n      position: absolute;\n      bottom: 0px;\n      z-index: 0;\n      display: block;\n      width: 100%; }\n.index .benefits {\n    padding: 120px 0;\n    padding-bottom: 200px;\n    display: block;\n    width: 100%;\n    background: rgba(183, 33, 255, 0.1); }\n.index .benefits .heading {\n      margin-bottom: 0px; }\n.index .benefits .content {\n      padding: 0 150px;\n      padding-top: 100px;\n      padding-bottom: 100px; }\n.index .benefits .content .h5 {\n        font-weight: 800; }\n.index .benefits .p {\n      opacity: 0.75; }\n.index .bottom-banner-wrapper {\n    min-height: 100px;\n    width: 100%;\n    -webkit-transform: translateY(-120px);\n            transform: translateY(-120px); }\n.index .bottom-banner-wrapper .img-wrapper {\n      width: 65%;\n      min-height: 400px;\n      padding-top: 30px;\n      padding-bottom: 30px;\n      border-radius: 10px;\n      margin: 0 auto;\n      background-image: url(\"../img/banner-img.jpg\");\n      background-position: center;\n      background-size: cover;\n      color: white;\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -webkit-box-orient: vertical;\n      -webkit-box-direction: normal;\n          -ms-flex-direction: column;\n              flex-direction: column;\n      -webkit-box-pack: center;\n          -ms-flex-pack: center;\n              justify-content: center;\n      -webkit-box-align: center;\n          -ms-flex-align: center;\n              align-items: center; }\n.index .bottom-banner-wrapper .img-wrapper .banner-text {\n        font-size: 24px;\n        display: block;\n        width: 65%;\n        -webkit-transition: all 0.6s ease-out;\n        transition: all 0.6s ease-out;\n        text-align: center; }\n.index .bottom-banner-wrapper .img-wrapper .banner-text.no-reveal {\n        opacity: 0; }\n.index .bottom-banner-wrapper .img-wrapper banner-text.reveal {\n        opacity: 1; }\n.index .bottom-banner-wrapper .img-wrapper .start-project-btn {\n        padding: 15px 40px;\n        color: #333333; }\n.index .bottom-banner-wrapper .img-wrapper .start-project-btn:hover {\n        color: #333333 !important; }\n.index .cd-testimonials-wrapper {\n    position: relative;\n    width: 90%;\n    max-width: 60%;\n    margin: 2em auto;\n    -webkit-font-smoothing: antialiased;\n    -moz-osx-font-smoothing: grayscale;\n    padding: 20px 40px 70px;\n    z-index: 1; }\n.index .cd-testimonials-wrapper::after {\n    /* quotation mark */\n    content: '\\201C';\n    position: absolute;\n    top: 10px;\n    left: 0;\n    width: 50px;\n    height: 50px;\n    padding-top: 8px;\n    margin-left: -25px;\n    background: #c038e0;\n    font-family: \"Georgia\", serif;\n    color: #ffffff;\n    font-size: 70px;\n    font-size: 4.375rem;\n    text-align: center;\n    /* visible on big devices only */\n    display: none; }\n@media only screen and (min-width: 768px) {\n    .index .cd-testimonials-wrapper {\n      margin: 0em auto;\n      padding: 0px 50px 114px; } }\n@media only screen and (min-width: 1170px) {\n    .index .cd-testimonials-wrapper::after {\n      /* quotation mark visible */\n      display: block; }\n    .index .cd-testimonials-wrapper {\n      margin: 0em auto;\n      padding: 0px 50px 114px; } }\n.index .cd-testimonials {\n    color: #000000;\n    text-align: center; }\n.index .cd-testimonials::after {\n    clear: both;\n    content: \"\";\n    display: table; }\n.index .cd-testimonials > li {\n    position: absolute;\n    opacity: 0; }\n.index .cd-testimonials > li:first-child {\n    position: relative;\n    opacity: 1; }\n.index .cd-testimonials p {\n    font-family: \"Georgia\", serif;\n    font-style: italic;\n    line-height: 1.4;\n    margin-bottom: 1em;\n    padding: 0 14px; }\n@media only screen and (min-width: 768px) {\n    .index .cd-testimonials p {\n      font-size: 22px;\n      font-size: 1.375rem; } }\n@media only screen and (min-width: 1170px) {\n    .index .cd-testimonials p {\n      font-size: 26px;\n      font-size: 2.625rem;\n      line-height: 1.6; } }\n@media only screen and (min-width: 300px) {\n    .index .recommendee-developer img {\n      height: 40px !important;\n      width: 40px !important;\n      border-radius: 50%;\n      border: 3px solid #fff; }\n    .index .recommendee-developer p {\n      font-size: 10px; }\n    .index .cd-author img {\n      width: 32px;\n      height: 32px;\n      border-radius: 50%;\n      margin-right: 5px;\n      border: 3px solid #fff; } }\n.index .cd-author img, .index .cd-author .cd-author-info {\n    display: inline-block;\n    vertical-align: middle; }\n.index .cd-author img {\n    width: 32px;\n    height: 32px;\n    border-radius: 50%;\n    margin-right: 5px;\n    border: 3px solid #fff; }\n.index .cd-author .cd-author-info {\n    text-align: left;\n    line-height: 1.2;\n    list-style-type: none;\n    margin: 0.5rem 0 -0.3rem 0rem; }\n.index .cd-author .cd-author-info li:first-child {\n    font-size: 14px;\n    font-size: 0.875rem;\n    line-height: 0px; }\n.index .cd-author .cd-author-info li:last-child {\n    font-size: 12px;\n    font-size: 0.75rem;\n    color: #6b6b70; }\n@media only screen and (min-width: 768px) {\n    .index .cd-author img {\n      width: 50px;\n      height: 50px; }\n    .index .cd-author .cd-author-info {\n      line-height: 1.4; }\n    .index .cd-author .cd-author-info li:first-child {\n      font-size: 16px;\n      font-size: 2rem;\n      line-height: 0px; }\n    .index .cd-author .cd-author-info li:last-child {\n      font-size: 14px;\n      font-size: 0.975rem; }\n    .index .recommendee-developer img {\n      height: 100px !important;\n      width: 100px !important;\n      border-radius: 50%;\n      border: 3px solid #fff; }\n    .index .recommendee-developer p {\n      font-size: 15px; } }\n.index .flex-direction-nav li {\n    position: absolute;\n    height: 100%;\n    width: 40px;\n    top: 0;\n    list-style-type: none; }\n.index .flex-direction-nav li:first-child {\n    left: 0; }\n.index .flex-direction-nav li:last-child {\n    right: 0; }\n.index .flex-direction-nav li a {\n    display: block;\n    height: 100%;\n    width: 100%;\n    /* image replacement */\n    overflow: hidden;\n    text-indent: 100%;\n    white-space: nowrap;\n    -webkit-transition: background-color 0.2s;\n    transition: background-color 0.2s; }\n.index .no-touch .flex-direction-nav li a:hover {\n    background-color: #323234; }\n.index .flex-direction-nav li a::before, .index .flex-direction-nav li a::after {\n    /* left and right arrows in css only */\n    content: '';\n    position: absolute;\n    left: 50%;\n    top: 50%;\n    width: 2px;\n    height: 13px;\n    background-color: #ffffff; }\n.index .flex-direction-nav li a::before {\n    -webkit-transform: translateY(-35px) rotate(45deg);\n    transform: translateY(-35px) rotate(45deg); }\n.index .flex-direction-nav li a::after {\n    -webkit-transform: translateY(-27px) rotate(-45deg);\n    transform: translateY(-27px) rotate(-45deg); }\n.index .flex-direction-nav li:last-child a::before {\n    -webkit-transform: translateY(-35px) rotate(-45deg);\n    transform: translateY(-35px) rotate(-45deg); }\n.index .flex-direction-nav li:last-child a::after {\n    -webkit-transform: translateY(-27px) rotate(45deg);\n    transform: translateY(-27px) rotate(45deg); }\n@media only screen and (min-width: 768px) {\n    .index .flex-direction-nav li {\n      width: 50px; } }\n@media only screen and (min-width: 1170px) {\n    .index .flex-direction-nav li a::before, .index .flex-direction-nav li a::after {\n      background-color: #5e5e63;\n      -webkit-transition: background-color 0.2s;\n      transition: background-color 0.2s; }\n    .index .flex-direction-nav li a:hover::before, .index .flex-direction-nav li a:hover::after {\n      background-color: #ffffff; } }\n@media only screen and (min-width: 768px) {\n    .index .cd-testimonials-all .cd-testimonials-item {\n      width: 46%;\n      margin: 0 2% 3em; }\n    .index .cd-testimonials-all .cd-author {\n      margin-left: 1em; } }\n@media only screen and (min-width: 1170px) {\n    .index .cd-testimonials-all .cd-testimonials-item {\n      width: 30%;\n      margin: 0 1.6666% 3em; } }\n.index .testimonial {\n    border-right: 4px solid #cd5bb9;\n    -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);\n            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);\n    padding: 30px 30px 30px 130px;\n    margin: 0 15px 30px 15px;\n    overflow: hidden;\n    position: relative;\n    background: #fff; }\n.index .testimonial:before {\n    content: \"\";\n    position: absolute;\n    bottom: -4px;\n    left: -17px;\n    border-top: 25px solid #cd5bb9;\n    border-left: 25px solid transparent;\n    border-right: 25px solid transparent;\n    -webkit-transform: rotate(45deg);\n            transform: rotate(45deg); }\n.index .testimonial:after {\n    content: \"\";\n    position: absolute;\n    top: -4px;\n    left: -17px;\n    border-top: 25px solid #cd5bb9;\n    border-left: 25px solid transparent;\n    border-right: 25px solid transparent;\n    -webkit-transform: rotate(135deg);\n            transform: rotate(135deg); }\n.index .testimonial .pic {\n    display: inline-block;\n    width: 80px;\n    height: 80px;\n    border-radius: 50%;\n    overflow: hidden;\n    position: absolute;\n    top: 60px;\n    left: 20px; }\n.index .testimonial .pic img {\n    width: 100%;\n    height: auto; }\n.index .testimonial .description {\n    font-size: 15px;\n    letter-spacing: 1px;\n    color: #6f6f6f;\n    line-height: 25px;\n    margin-bottom: 15px; }\n.index .testimonial .title {\n    display: inline-block;\n    font-size: 14px;\n    font-weight: 700;\n    text-transform: uppercase;\n    letter-spacing: 1px;\n    color: #cd5bb9;\n    margin: 0; }\n.index .testimonial .post {\n    display: inline-block;\n    font-size: 14px;\n    color: #000000;\n    font-style: italic; }\n.index .owl-theme .owl-controls .owl-page span {\n    border: 2px solid #2A3D7D;\n    background: #fff !important;\n    border-radius: 0 !important;\n    opacity: 1; }\n.index .owl-theme .owl-controls .owl-page.active span,\n  .index .owl-theme .owl-controls .owl-page:hover span {\n    background: #000000 !important;\n    border-color: #000000; }\n@media only screen and (max-width: 767px) {\n    .index .testimonial {\n      padding: 20px;\n      text-align: center; }\n    .index .testimonial .pic {\n      display: block;\n      position: static;\n      margin: 0 auto 15px; } }\n.contact {\n  min-height: calc(100vh - 400px);\n  background: white; }\n.contact .text-content {\n    margin-top: 50px;\n    padding: 0 50px; }\n.contact img {\n    height: calc(100vh - 200px); }\n.contact h6 {\n    color: #B721FF;\n    margin-bottom: 5px; }\n.contact .content {\n    padding: 50px 50px 0 50px; }\n.contact .text-content {\n    padding-left: 0; }\n.pricing {\n  min-height: calc(100vh - 400px);\n  background: white; }\n.pricing .pricing-text-wrapper {\n    width: 70%;\n    margin: 0 auto;\n    text-align: left; }\n.pricing .pricing-text-wrapper a {\n      margin-top: 55px; }\n.pricing .nine {\n    background: rgba(183, 33, 255, 0.1);\n    margin-top: 50px; }\n.pricing .pricing-wrapper {\n    margin: 0 auto;\n    margin-top: 50px;\n    margin-bottom: 200px; }\n.pricing .pricing-wrapper .pricing-wrapper-container {\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -ms-flex-wrap: wrap;\n          flex-wrap: wrap;\n      margin-top: 50px;\n      -webkit-box-pack: center;\n          -ms-flex-pack: center;\n              justify-content: center; }\n.pricing .pricing-wrapper .pricing-wrapper-container .columns {\n        width: 25%;\n        padding: 15px;\n        margin-left: 0px; }\n.pricing .pricing-wrapper .pricing-wrapper-container .columns .tile {\n          background: rgba(183, 33, 255, 0.1);\n          height: 100%;\n          padding: 25px;\n          min-height: 100px;\n          display: -webkit-box;\n          display: -ms-flexbox;\n          display: flex;\n          -webkit-box-orient: vertical;\n          -webkit-box-direction: normal;\n              -ms-flex-direction: column;\n                  flex-direction: column;\n          -webkit-transition: all 0.35s ease-out;\n          transition: all 0.35s ease-out;\n          border-radius: 8px; }\n.pricing .pricing-wrapper .pricing-wrapper-container .columns .tile .icon-container {\n            height: 70px;\n            background-size: contain;\n            background-repeat: no-repeat;\n            background-position: center;\n            margin-bottom: 40px;\n            margin-top: 10px; }\n.pricing .pricing-wrapper .pricing-wrapper-container .columns .tile .text-wrapper {\n            -webkit-box-flex: 2;\n                -ms-flex: 2;\n                    flex: 2; }\n.pricing .pricing-wrapper .pricing-wrapper-container .columns .tile .text-wrapper h2 {\n              font-size: 3.1rem;\n              margin-bottom: 15px;\n              display: block; }\n.pricing .pricing-wrapper .pricing-wrapper-container .columns .tile .btn-container {\n            display: block; }\n.pricing .pricing-wrapper .pricing-wrapper-container .columns .tile .btn-container .btn-curve-purple {\n              margin: 0 auto;\n              width: 85%;\n              padding: 15px 0px; }\n.pricing .pricing-wrapper .pricing-wrapper-container .columns .tile.active {\n          -webkit-box-shadow: 0px 0px 20px rgba(128, 100, 255, 0.15);\n                  box-shadow: 0px 0px 20px rgba(128, 100, 255, 0.15);\n          -webkit-transform: scale(1.05, 1.08);\n                  transform: scale(1.05, 1.08);\n          padding-bottom: 30px; }\n.pricing .text-content {\n    padding-top: 70px; }\n.pricing .three.active {\n    -webkit-box-shadow: -1px 1px 5px 5px rgba(0, 0, 0, 0.1);\n            box-shadow: -1px 1px 5px 5px rgba(0, 0, 0, 0.1);\n    background: white; }\n.pricing .three.active img {\n      border: 1px solid rgba(183, 33, 255, 0.5);\n      border-radius: 50%; }\n.pricing .three.active .btn-block-white {\n      color: white;\n      background: #B721FF;\n      -webkit-box-shadow: none;\n              box-shadow: none; }\n.pricing .three.active .btn-block-white:hover {\n        color: white;\n        background: #B721FF; }\n.pricing .tile {\n    padding: 20px; }\n.pricing h5 {\n    font-size: 1.5em;\n    margin-bottom: 5px; }\n.pricing h2 {\n    margin: 0; }\n.pricing .content {\n    padding: 20px 50px; }\n.pricing .text-content {\n    padding-left: 0; }\n.pricing .pricing-title-span {\n    font-weight: bold;\n    line-height: 18px;\n    display: block; }\n.team {\n  background: white;\n  position: relative;\n  z-index: 2; }\n.team .core, .team .community {\n    background: url(http://res.cloudinary.com/sportbay-co/image/upload/v1525702594/bg_team_right_apemol.svg) no-repeat top right;\n    background-size: 32%;\n    position: relative;\n    z-index: 2;\n    padding: 50px 20px; }\n.team .core .text-content, .team .community .text-content {\n      margin-top: 200px;\n      padding: 0 50px; }\n.team .community {\n    background: url(http://res.cloudinary.com/sportbay-co/image/upload/v1525702594/bg_team_right_apemol.svg) no-repeat top left;\n    padding: 100px 20px; }\n.team .community .six:first-child {\n      padding: 0 50px; }\n.team .image-wrapper-container {\n    height: 630px;\n    overflow: hidden;\n    padding: 10px 100px; }\n.team .image-wrapper-container .image-wrapper {\n      width: 100%;\n      height: 100%;\n      background-color: #333333;\n      -webkit-transition-delay: 0.3s;\n              transition-delay: 0.3s;\n      -webkit-transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1);\n      transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1);\n      -webkit-transform: scaleX(1);\n              transform: scaleX(1);\n      overflow: hidden; }\n.team .image-wrapper-container .image-wrapper .image {\n        height: 100%;\n        background-repeat: no-repeat;\n        background-size: cover;\n        -webkit-transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1);\n        transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1);\n        -webkit-transition-delay: 0.5s;\n                transition-delay: 0.5s;\n        -webkit-transform: translate3d(0px, 0px, 0px) scale(1.07);\n                transform: translate3d(0px, 0px, 0px) scale(1.07); }\n.team .image-wrapper-container .image-wrapper.no-reveal {\n      -webkit-transform: scaleX(0.7);\n              transform: scaleX(0.7); }\n.team .image-wrapper-container .image-wrapper.no-reveal .image {\n        -webkit-transform: translate3d(-120%, 0px, 0px);\n                transform: translate3d(-120%, 0px, 0px); }\n.team .people-wrapper .purple-bg {\n    background: rgba(183, 33, 255, 0.1);\n    height: 100px;\n    position: absolute;\n    top: 478px;\n    z-index: 0;\n    display: block;\n    width: 100%; }\n.team .avatar-wrapper {\n    height: 280px;\n    background-color: #333333;\n    -webkit-transition-delay: 0.3s;\n            transition-delay: 0.3s;\n    -webkit-transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1);\n    transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1);\n    -webkit-transform: scaleX(1);\n            transform: scaleX(1);\n    overflow: hidden; }\n.team .avatar-wrapper .avatar {\n      height: 100%;\n      width: 100%;\n      background-position: center;\n      background-size: cover;\n      -webkit-filter: grayscale(90%);\n              filter: grayscale(90%);\n      margin-bottom: 10px;\n      -webkit-transition: -webkit-filter 0.6s;\n      transition: -webkit-filter 0.6s;\n      transition: filter 0.6s;\n      transition: filter 0.6s, -webkit-filter 0.6s;\n      -webkit-transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1);\n      transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1);\n      -webkit-transition-delay: 0.5s;\n              transition-delay: 0.5s;\n      -webkit-transform: translate3d(0px, 0px, 0px) scale(1.04);\n              transform: translate3d(0px, 0px, 0px) scale(1.04); }\n.team .avatar-wrapper .avatar:hover {\n      -webkit-filter: grayscale(10%);\n              filter: grayscale(10%); }\n.team .avatar-wrapper.no-reveal {\n    -webkit-transform: scaleX(0.7);\n            transform: scaleX(0.7); }\n.team .avatar-wrapper.no-reveal .avatar {\n      -webkit-transform: translate3d(-120%, 0px, 0px);\n              transform: translate3d(-120%, 0px, 0px); }\n.team .people {\n    background: rgba(183, 33, 255, 0.1);\n    padding: 100px 70px;\n    display: block; }\n.team .people #people-wrapper {\n      width: 85%;\n      margin: 0 auto;\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -ms-flex-wrap: wrap;\n          flex-wrap: wrap; }\n.team .people .tile {\n      width: 21%;\n      padding: 50px 2%;\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -webkit-box-orient: vertical;\n      -webkit-box-direction: normal;\n          -ms-flex-direction: column;\n              flex-direction: column; }\n.team .people .tile .text-wrap {\n        -webkit-box-flex: 2;\n            -ms-flex: 2;\n                flex: 2; }\n.team .people .tile .desc-text {\n        height: 310px;\n        overflow: hidden;\n        text-overflow: ellipsis; }\n.team .people .tile .team-profile-btn {\n        text-align: left; }\n.team .people p.light {\n      margin-bottom: 10px;\n      min-height: 50px; }\n.team .people h5 {\n      font-size: 1.5em;\n      margin-bottom: 5px; }\n.team .people .text-wrap {\n      padding: 0 10px; }\n.team .people .text-wrap .sub-text-wrapper {\n        margin-top: 10px;\n        margin-bottom: 10px; }\n.faq, .start {\n  min-height: calc(100vh - 400px);\n  background: white; }\n.faq .text-content, .start .text-content {\n    margin-top: 0px;\n    padding: 0 50px; }\n.faq h5, .start h5 {\n    color: #B721FF;\n    margin-bottom: 5px; }\n.faq .content, .start .content {\n    padding: 50px 30px 0 30px; }\n.faq .text-content, .start .text-content {\n    padding-left: 0;\n    padding-right: 0; }\n.faq p, .start p {\n    margin-bottom: 10px; }\n.start #start-form {\n  -webkit-transition: all 0.5s ease-out;\n  transition: all 0.5s ease-out; }\n.start .date {\n  height: 38px;\n  padding: 6px 10px;\n  background-color: #fff;\n  border: 1px solid #D1D1D1;\n  border-radius: 4px;\n  -webkit-box-shadow: none;\n          box-shadow: none;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box; }\n.start .div {\n  margin-bottom: 30px; }\n.start textarea {\n  height: auto; }\n.start .response-msg-toast {\n  width: 400px;\n  height: 250px;\n  border: 1px solid;\n  position: fixed;\n  bottom: 0;\n  right: 0;\n  background-color: #00cc00;\n  z-index: 1;\n  border-radius: 3px; }\n.testimonials {\n  min-height: calc(100vh - 400px);\n  background: white; }\n.testimonials .pricing-text-wrapper {\n    width: 70%;\n    margin: 0 auto;\n    text-align: left; }\n.testimonials .pricing-text-wrapper a {\n      margin-top: 55px; }\n.testimonials .nine {\n    background: rgba(183, 33, 255, 0.1);\n    margin-top: 50px; }\n.testimonials .pricing-wrapper {\n    margin: 0 auto;\n    margin-top: 50px;\n    margin-bottom: 200px; }\n.testimonials .pricing-wrapper .pricing-wrapper-container {\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -ms-flex-wrap: wrap;\n          flex-wrap: wrap;\n      margin-top: 50px;\n      -webkit-box-pack: center;\n          -ms-flex-pack: center;\n              justify-content: center; }\n.testimonials .pricing-wrapper .pricing-wrapper-container .columns {\n        width: 25%;\n        padding: 15px;\n        margin-left: 0px; }\n.testimonials .pricing-wrapper .pricing-wrapper-container .columns .tile {\n          background: rgba(183, 33, 255, 0.1);\n          height: 100%;\n          padding: 25px;\n          min-height: 100px;\n          display: -webkit-box;\n          display: -ms-flexbox;\n          display: flex;\n          -webkit-box-orient: vertical;\n          -webkit-box-direction: normal;\n              -ms-flex-direction: column;\n                  flex-direction: column;\n          -webkit-transition: all 0.35s ease-out;\n          transition: all 0.35s ease-out;\n          border-radius: 8px; }\n.testimonials .pricing-wrapper .pricing-wrapper-container .columns .tile .icon-container {\n            height: 70px;\n            background-size: contain;\n            background-repeat: no-repeat;\n            background-position: center;\n            margin-bottom: 40px;\n            margin-top: 10px; }\n.testimonials .pricing-wrapper .pricing-wrapper-container .columns .tile .text-wrapper {\n            -webkit-box-flex: 2;\n                -ms-flex: 2;\n                    flex: 2; }\n.testimonials .pricing-wrapper .pricing-wrapper-container .columns .tile .text-wrapper h2 {\n              font-size: 3.1rem;\n              margin-bottom: 15px;\n              display: block; }\n.testimonials .pricing-wrapper .pricing-wrapper-container .columns .tile .btn-container {\n            display: block; }\n.testimonials .pricing-wrapper .pricing-wrapper-container .columns .tile .btn-container .btn-curve-purple {\n              margin: 0 auto;\n              width: 85%;\n              padding: 15px 0px; }\n.testimonials .pricing-wrapper .pricing-wrapper-container .columns .tile.active {\n          -webkit-box-shadow: 0px 0px 20px rgba(128, 100, 255, 0.15);\n                  box-shadow: 0px 0px 20px rgba(128, 100, 255, 0.15);\n          -webkit-transform: scale(1.05, 1.08);\n                  transform: scale(1.05, 1.08);\n          padding-bottom: 30px; }\n.testimonials .text-content {\n    padding-top: 70px; }\n.testimonials .three.active {\n    -webkit-box-shadow: -1px 1px 5px 5px rgba(0, 0, 0, 0.1);\n            box-shadow: -1px 1px 5px 5px rgba(0, 0, 0, 0.1);\n    background: white; }\n.testimonials .three.active img {\n      border: 1px solid rgba(183, 33, 255, 0.5);\n      border-radius: 50%; }\n.testimonials .three.active .btn-block-white {\n      color: white;\n      background: #B721FF;\n      -webkit-box-shadow: none;\n              box-shadow: none; }\n.testimonials .three.active .btn-block-white:hover {\n        color: white;\n        background: #B721FF; }\n.testimonials .tile {\n    padding: 20px; }\n.testimonials h5 {\n    font-size: 1.5em;\n    margin-bottom: 5px; }\n.testimonials h2 {\n    margin: 0; }\n.testimonials .content {\n    padding: 20px 50px; }\n.testimonials .text-content {\n    padding-left: 0; }\n.testimonials .pricing-title-span {\n    font-weight: bold;\n    line-height: 18px;\n    display: block; }\n.testimonials .cd-testimonials-wrapper {\n    position: relative;\n    width: 90%;\n    max-width: 768px;\n    background-color: #39393c;\n    margin: 2em auto;\n    -webkit-font-smoothing: antialiased;\n    -moz-osx-font-smoothing: grayscale;\n    padding: 20px 40px 70px;\n    z-index: 1; }\n.testimonials .cd-testimonials-wrapper::after {\n    /* quotation mark */\n    content: '\\201C';\n    position: absolute;\n    top: 10px;\n    left: 0;\n    width: 50px;\n    height: 50px;\n    padding-top: 8px;\n    margin-left: -25px;\n    background: rgba(32, 32, 34, 0.9);\n    font-family: \"Georgia\", serif;\n    color: #ffffff;\n    font-size: 70px;\n    font-size: 4.375rem;\n    text-align: center;\n    /* visible on big devices only */\n    display: none; }\n@media only screen and (min-width: 768px) {\n    .testimonials .cd-testimonials-wrapper {\n      margin: 4em auto;\n      padding: 64px 50px 114px; } }\n@media only screen and (min-width: 1170px) {\n    .testimonials .cd-testimonials-wrapper::after {\n      /* quotation mark visible */\n      display: block; } }\n.testimonials .cd-testimonials {\n    color: #ffffff;\n    text-align: center; }\n.testimonials .cd-testimonials::after {\n    clear: both;\n    content: \"\";\n    display: table; }\n.testimonials .cd-testimonials > li {\n    position: absolute;\n    opacity: 0; }\n.testimonials .cd-testimonials > li:first-child {\n    position: relative;\n    opacity: 1; }\n.testimonials .cd-testimonials p {\n    font-family: \"Georgia\", serif;\n    font-style: italic;\n    line-height: 1.4;\n    margin-bottom: 1em;\n    padding: 0 14px; }\n@media only screen and (min-width: 768px) {\n    .testimonials .cd-testimonials p {\n      font-size: 22px;\n      font-size: 1.375rem; } }\n@media only screen and (min-width: 1170px) {\n    .testimonials .cd-testimonials p {\n      font-size: 26px;\n      font-size: 1.625rem;\n      line-height: 1.6; } }\n.testimonials .cd-author img, .testimonials .cd-author .cd-author-info {\n    display: inline-block;\n    vertical-align: middle; }\n.testimonials .cd-author img {\n    width: 32px;\n    height: 32px;\n    border-radius: 50%;\n    margin-right: 5px;\n    -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);\n            box-shadow: 0 0 6px rgba(0, 0, 0, 0.3); }\n.testimonials .cd-author .cd-author-info {\n    text-align: left;\n    line-height: 1.2; }\n.testimonials .cd-author .cd-author-info li:first-child {\n    font-size: 14px;\n    font-size: 0.875rem; }\n.testimonials .cd-author .cd-author-info li:last-child {\n    font-size: 12px;\n    font-size: 0.75rem;\n    color: #6b6b70; }\n@media only screen and (min-width: 768px) {\n    .testimonials .cd-author img {\n      width: 50px;\n      height: 50px; }\n    .testimonials .cd-author .cd-author-info {\n      line-height: 1.4; }\n    .testimonials .cd-author .cd-author-info li:first-child {\n      font-size: 16px;\n      font-size: 1rem; }\n    .testimonials .cd-author .cd-author-info li:last-child {\n      font-size: 14px;\n      font-size: 0.875rem; } }\n.testimonials .flex-direction-nav li {\n    position: absolute;\n    height: 100%;\n    width: 40px;\n    top: 0; }\n.testimonials .flex-direction-nav li:first-child {\n    left: 0; }\n.testimonials .flex-direction-nav li:last-child {\n    right: 0; }\n.testimonials .flex-direction-nav li a {\n    display: block;\n    height: 100%;\n    width: 100%;\n    /* image replacement */\n    overflow: hidden;\n    text-indent: 100%;\n    white-space: nowrap;\n    -webkit-transition: background-color 0.2s;\n    transition: background-color 0.2s; }\n.testimonials .no-touch .flex-direction-nav li a:hover {\n    background-color: #323234; }\n.testimonials .flex-direction-nav li a::before, .testimonials .flex-direction-nav li a::after {\n    /* left and right arrows in css only */\n    content: '';\n    position: absolute;\n    left: 50%;\n    top: 50%;\n    width: 2px;\n    height: 13px;\n    background-color: #ffffff; }\n.testimonials .flex-direction-nav li a::before {\n    -webkit-transform: translateY(-35px) rotate(45deg);\n    transform: translateY(-35px) rotate(45deg); }\n.testimonials .flex-direction-nav li a::after {\n    -webkit-transform: translateY(-27px) rotate(-45deg);\n    transform: translateY(-27px) rotate(-45deg); }\n.testimonials .flex-direction-nav li:last-child a::before {\n    -webkit-transform: translateY(-35px) rotate(-45deg);\n    transform: translateY(-35px) rotate(-45deg); }\n.testimonials .flex-direction-nav li:last-child a::after {\n    -webkit-transform: translateY(-27px) rotate(45deg);\n    transform: translateY(-27px) rotate(45deg); }\n@media only screen and (min-width: 768px) {\n    .testimonials .flex-direction-nav li {\n      width: 50px; } }\n@media only screen and (min-width: 1170px) {\n    .testimonials .flex-direction-nav li a::before, .testimonials .flex-direction-nav li a::after {\n      background-color: #5e5e63;\n      -webkit-transition: background-color 0.2s;\n      transition: background-color 0.2s; }\n    .testimonials .flex-direction-nav li a:hover::before, .testimonials .flex-direction-nav li a:hover::after {\n      background-color: #ffffff; } }\n.testimonials .cd-see-all {\n    position: absolute;\n    z-index: 1;\n    left: 0;\n    bottom: 0;\n    width: 100%;\n    height: 50px;\n    line-height: 50px;\n    background-color: #252527;\n    text-align: center;\n    text-transform: uppercase;\n    color: #6b6b70;\n    font-weight: 700;\n    font-size: 12px;\n    font-size: 0.75rem;\n    -webkit-transition: color, 0.2s;\n    transition: color, 0.2s; }\n.testimonials .no-touch .cd-see-all:hover {\n    color: #79b6e4; }\n.testimonials .cd-testimonials-all {\n    position: fixed;\n    top: 0;\n    left: 0;\n    height: 100%;\n    width: 100%;\n    background-color: #ffffff;\n    z-index: 2;\n    visibility: hidden;\n    opacity: 0;\n    -webkit-transition: opacity .3s 0s, visibility 0s .3s;\n    transition: opacity .3s 0s, visibility 0s .3s; }\n.testimonials .cd-testimonials-all .cd-testimonials-all-wrapper {\n    position: absolute;\n    left: 0;\n    top: 0;\n    height: 100%;\n    width: 100%;\n    overflow: auto; }\n.testimonials .cd-testimonials-all .cd-testimonials-all-wrapper > ul {\n    width: 90%;\n    max-width: 1170px;\n    margin: 4em auto; }\n.testimonials .cd-testimonials-all .cd-testimonials-all-wrapper > ul::after {\n    clear: both;\n    content: \"\";\n    display: table; }\n.testimonials .cd-testimonials-all .cd-testimonials-item {\n    margin-bottom: 2em;\n    opacity: 0;\n    /* Force Hardware Acceleration in WebKit */\n    -webkit-transform: translate3d(0, 0, 0) scale(0.4);\n    transform: translate3d(0, 0, 0) scale(0.4);\n    -webkit-backface-visibility: hidden;\n    backface-visibility: hidden;\n    -webkit-transition: -webkit-transform .3s, opacity .3s;\n    -webkit-transition: opacity .3s, -webkit-transform .3s;\n    transition: opacity .3s, -webkit-transform .3s;\n    transition: transform .3s, opacity .3s;\n    transition: transform .3s, opacity .3s, -webkit-transform .3s; }\n.testimonials .cd-testimonials-all p {\n    position: relative;\n    background: #79b6e4;\n    color: #ffffff;\n    padding: 2em;\n    -webkit-font-smoothing: antialiased;\n    -moz-osx-font-smoothing: grayscale;\n    line-height: 1.4;\n    border-radius: 0.25em;\n    margin-bottom: 1em; }\n.testimonials .cd-testimonials-all p::after {\n    /* creating the triangle in css */\n    content: '';\n    position: absolute;\n    top: 100%;\n    left: 2em;\n    height: 0;\n    width: 0;\n    border: 8px solid transparent;\n    border-top-color: #79b6e4; }\n.testimonials .cd-testimonials-all .cd-author {\n    text-align: left;\n    margin-left: 1.5em; }\n.testimonials .cd-testimonials-all .cd-author img {\n    -webkit-box-shadow: 0 0 0 transparent;\n            box-shadow: 0 0 0 transparent; }\n.testimonials .cd-testimonials-all.is-visible {\n    visibility: visible;\n    opacity: 1;\n    -webkit-transition: opacity .3s 0s, visibility 0s 0s;\n    transition: opacity .3s 0s, visibility 0s 0s; }\n.testimonials .cd-testimonials-all.is-visible .cd-testimonials-all-wrapper {\n    -webkit-overflow-scrolling: touch; }\n.testimonials .cd-testimonials-all.is-visible .cd-testimonials-item {\n    opacity: 1;\n    -webkit-transform: translate3d(0, 0, 0) scale(1);\n    transform: translate3d(0, 0, 0) scale(1); }\n@media only screen and (min-width: 768px) {\n    .testimonials .cd-testimonials-all .cd-testimonials-item {\n      width: 46%;\n      margin: 0 2% 3em; }\n    .testimonials .cd-testimonials-all .cd-author {\n      margin-left: 1em; } }\n@media only screen and (min-width: 1170px) {\n    .testimonials .cd-testimonials-all .cd-testimonials-item {\n      width: 30%;\n      margin: 0 1.6666% 3em; } }\n.testimonials .close-btn {\n    position: fixed;\n    display: block;\n    width: 40px;\n    height: 40px;\n    top: 10px;\n    right: 5%;\n    /* image replacement */\n    overflow: hidden;\n    text-indent: 100%;\n    white-space: nowrap; }\n.testimonials .close-btn::before, .testimonials .close-btn::after {\n    /* close icon in css */\n    content: '';\n    position: absolute;\n    display: inline-block;\n    width: 2px;\n    height: 24px;\n    top: 8px;\n    left: 19px;\n    background-color: #39393c; }\n.testimonials .close-btn::before {\n    -webkit-transform: rotate(45deg);\n    transform: rotate(45deg); }\n.testimonials .close-btn::after {\n    -webkit-transform: rotate(-45deg);\n    transform: rotate(-45deg); }\n@media screen and (min-width: 1366px) {\n  .index .simple .row {\n    background-size: 62% !important; } }\n@media screen and (min-width: 1280px) {\n  .index .top-img {\n    height: 650px !important; }\n  .index .top-wrapper {\n    background-size: contain !important; }\n  .pricing .text-content {\n    padding-top: 50px; }\n  .pricing .content {\n    padding: 50px 50px 0 50px !important; }\n  .pricing footer {\n    position: absolute !important;\n    bottom: 0 !important;\n    width: 100% !important;\n    padding: 20px 50px !important;\n    -webkit-box-sizing: border-box !important;\n            box-sizing: border-box !important; } }\n@media screen and (max-width: 1280px) {\n  body {\n    font-size: 1.3em !important; }\n  .heading {\n    font-size: 34px !important; }\n  .btn-curve-purple {\n    width: 150px !important !important;\n    font-size: 12px !important !important; } }\n@media screen and (max-width: 1024px) {\n  .fr-card {\n    width: 300%;\n    position: relative;\n    float: left; }\n  .index .top-img {\n    height: 600px !important; }\n  .index .top-wrapper {\n    background-size: 70% !important; }\n  .index .scale h1, .index .simple h1, .index .benefits h2 {\n    font-size: 3.0rem !important; }\n  .index .scale {\n    margin-top: 100px !important; }\n    .index .scale .six:first-child img {\n      height: 300px !important; }\n    .index .scale .text-content {\n      padding: 0 30px !important; }\n  .index .simple .seven {\n    width: 85% !important;\n    margin: 0 auto !important;\n    float: none !important; }\n  .index .simple .five:nth-child(2) {\n    display: none !important; }\n  .index .simple .row {\n    background-size: 87% !important;\n    padding-bottom: 150px !important; }\n  .index .simple .text-content {\n    padding-right: 60px !important !important;\n    margin-top: 130px !important; }\n  .index .simple .purple-bg {\n    display: none !important; }\n  .index .bottom-banner-wrapper .img-wrapper {\n    width: 75% !important; }\n  .index .bottom-banner-wrapper .banner-text {\n    font-size: 20px !important !important;\n    line-height: 28px !important; }\n  .index .bottom-banner-wrapper .start-project-btn {\n    padding: 13px 18px !important !important;\n    font-size: 12px !important; }\n  .team .people {\n    padding: 100px 30px !important; }\n    .team .people #people-wrapper {\n      width: 98% !important; }\n    .team .people .tile {\n      width: 30.3333333333333% !important;\n      padding: 50px 1.5% !important; }\n  .team .core .text-content, .team .community .text-content {\n    margin-top: 150px !important; }\n  .team .core img, .team .community img {\n    height: 300px !important; }\n  .team .image-wrapper-container {\n    padding: 10px 40px !important; }\n  .team .people-wrapper .purple-bg {\n    display: none !important; }\n  .team .avatar {\n    height: 150px !important; }\n  .team .people .text-wrap {\n    padding: 0 !important; }\n  .team .community .text-content {\n    margin-top: 0 !important; }\n  .pricing .pricing-text-wrapper {\n    margin-left: 20px !important; }\n  .pricing .six {\n    margin-left: 5px;\n    margin-right: 5px; }\n  .pricing .pricing-wrapper-container .columns {\n    width: 50% !important !important;\n    margin-bottom: 50px !important; }\n    .pricing .pricing-wrapper-container .columns .tile .btn-container {\n      width: 80% !important;\n      margin: 0 auto !important; }\n      .pricing .pricing-wrapper-container .columns .tile .btn-container .btn-curve-purple {\n        width: 100% !important !important; }\n    .pricing .pricing-wrapper-container .columns .tile.active {\n      -webkit-transform: scale(1) !important !important;\n              transform: scale(1) !important !important; }\n  .pricing h2 {\n    font-size: 3rem !important; }\n  .pricing h5 {\n    font-size: 1em !important; } }\n@media screen and (max-width: 816px) {\n  .index .top-img {\n    height: 500px !important; }\n  .index .top-wrapper {\n    background-size: 75% !important; }\n  .index .intro h1 {\n    font-size: 2.7rem !important; }\n  .index .intro .text-content {\n    margin-top: 100px !important !important;\n    padding: 0 30px !important; }\n  .index .scale {\n    margin-top: 0px !important;\n    margin-bottom: 20px !important; }\n    .index .scale .text-wrapper {\n      margin-top: 30px !important !important; }\n    .index .scale .six:first-child {\n      display: none !important; }\n    .index .scale .six:nth-child(2) {\n      width: 100% !important;\n      margin-left: 0 !important; }\n  .index .simple .row {\n    background-size: 125% !important;\n    padding-bottom: 100px !important; }\n  .index .simple .text-content {\n    margin-top: 70px !important;\n    padding-right: 100px !important; }\n  .index .simple .seven {\n    width: 100% !important; }\n  .index .simple .purple-bg {\n    display: none !important; }\n  .index .benefits .content {\n    padding: 0 50px !important; }\n  .index .benefits img {\n    height: 50px !important; }\n  .index .benefits .nine h5 {\n    font-size: 1.2em !important;\n    margin-bottom: 10px !important; }\n  .team .core .img-col {\n    display: none !important; }\n  .team .core img, .team .community img {\n    display: none; }\n  .team .core .six:first-child, .team .community .six:nth-child(2) {\n    width: 100% !important; }\n    .team .core .six:first-child .text-content, .team .community .six:nth-child(2) .text-content {\n      margin-top: 0 !important; }\n  .team .community .six:nth-child(2) {\n    margin: 0 !important; }\n  .team .people {\n    padding: 50px 20px !important; }\n    .team .people .three.columns {\n      width: 50% !important;\n      margin-left: 0 !important; }\n    .team .people .tile {\n      width: 46% !important;\n      padding: 50px 1.5% !important; }\n    .team .people .avatar {\n      display: block !important;\n      width: 100% !important; }\n    .team .people div.m-b-md {\n      margin-bottom: 10px !important; }\n    .team .people div.m-b-md p {\n      margin-bottom: 0 !important; }\n  .pricing .three:first-child {\n    width: 100% !important; }\n    .pricing .three:first-child .text-content {\n      padding-top: 20px !important;\n      margin-bottom: 50px !important; }\n  .pricing .nine {\n    margin-left: 0 !important;\n    width: 100% !important;\n    padding: 20px !important; }\n    .pricing .nine .three {\n      width: 50% !important;\n      margin-left: 0 !important; }\n  .contact .content {\n    padding: 50px 30px !important; }\n  .contact .text-content {\n    margin-top: 0 !important;\n    padding-right: 0 !important; }\n  .contact .six:first-child {\n    display: none !important; }\n  .contact .six:nth-child(2) {\n    width: 100% !important; } }\n@media screen and (max-width: 675px) {\n  .index .intro .columns {\n    width: 100% !important;\n    padding: 20px !important !important; }\n  .index .intro .columns.right-pane {\n    margin-left: 0px !important;\n    min-height: auto !important; }\n  .index .top-img {\n    height: 350px !important !important; }\n  .pricing .content {\n    padding: 20px !important; }\n  .pricing .pricing-text-wrapper {\n    width: 300px; } }\n@media screen and (max-width: 509px) {\n  .pricing .pricing-wrapper-container .columns {\n    width: 100% !important !important; }\n  .team .people .tile {\n    width: 96% !important;\n    padding: 30px 1.5% !important; } }\n@media screen and (max-width: 425px) {\n  .btn-curve-white {\n    padding: 12px !important;\n    width: 150px !important; }\n  .index .intro .logo {\n    height: 65px !important;\n    width: 100px !important;\n    margin-left: 0px !important; }\n  .index .intro .hamburger {\n    position: relative !important; }\n  .index .intro .text-content {\n    margin-top: 70px !important;\n    margin-bottom: 20px !important; }\n  .index .intro .six.columns:first-child {\n    padding: 20px !important; }\n  .index .top-wrapper {\n    background: url(../../static/img/bg_left_semi.svg) no-repeat top left !important;\n    min-height: 70vh !important; }\n  .index .scale .section-2-wrapper {\n    padding-top: 0px !important; }\n  .index .top-img {\n    display: none !important; }\n  .index .simple {\n    background-image: url(../../static/img/bg_left_shape.svg) !important;\n    background-size: 450% !important; }\n    .index .simple .row {\n      background-size: cover; }\n    .index .simple .text-content {\n      padding-right: 50px !important; }\n    .index .simple p {\n      padding-right: 0 !important; }\n  .index .benefits .row {\n    margin-top: 0 !important;\n    text-align: center !important; }\n  .index .benefits .heading {\n    padding: 0px 20px !important; }\n  .index .benefits .columns {\n    padding-bottom: 30px !important; }\n  .index .bottom-banner-wrapper .img-wrapper .banner-text {\n    font-size: 18px !important !important;\n    line-height: 24px !important !important; }\n  .index .bottom-banner-wrapper .img-wrapper .start-project-btn {\n    width: 130px !important; }\n  footer {\n    padding: 20px !important; }\n    footer .nav-desktop-left .logo img {\n      top: 0; }\n    footer .nav-desktop-left, footer .links {\n      float: none !important; }\n    footer .links {\n      margin-top: 10px !important; }\n      footer .links li {\n        padding: 0 20px !important; }\n  .team .core .text-content, .team .community .text-content {\n    padding: 0 20px !important; }\n  .team .people {\n    padding: 50px 20px !important; }\n    .team .people .three.columns {\n      width: 100% !important; }\n  .pricing .content {\n    padding: 20px 30px !important; }\n  .pricing .nine .three {\n    width: 100% !important;\n    margin-left: 0 !important; }\n  .nav-top {\n    padding: 20px 20px 40px 20px !important; }\n  .faq h1, .start h1, .start h1 {\n    font-size: 3.0rem !important; }\n  .faq .content, .start .content, .start .content {\n    padding: 30px !important; } }\n@media screen and (max-width: 375px) {\n  .index .top-wrapper {\n    background-size: 140% !important; }\n  footer .links li {\n    padding: 0 15px !important; } }\n@media screen and (max-width: 360px) {\n  .index .top-wrapper {\n    background-size: 155% !important; }\n  .index .simple {\n    background-image: url(../../static/img/bg_left_shape.svg) !important;\n    background-size: 850% !important; }\n  .pricing .content {\n    padding: 15px 10px !important; } }\n@media screen and (max-width: 320px) {\n  .index .top-wrapper {\n    background-size: 193% !important; } }\n.pricing {\n  min-height: calc(100vh - 400px);\n  background: white;\n  /** for blog*/ }\n.pricing .pricing-text-wrapper {\n    width: 70%;\n    margin: 0 auto;\n    text-align: left; }\n.pricing .pricing-text-wrapper a {\n      margin-top: 55px; }\n.pricing .pricing-text-wrapperm {\n    width: 70%;\n    margin: 0 auto;\n    text-align: left; }\n.pricing .pricing-text-wrapperm a {\n      margin-top: 55px; }\n.pricing .nine {\n    background: rgba(183, 33, 255, 0.1);\n    margin-top: 50px; }\n.pricing .pricing-wrapper {\n    margin: 0 auto;\n    margin-top: 50px;\n    margin-bottom: 200px; }\n.pricing .pricing-wrapper .pricing-wrapper-container {\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -ms-flex-wrap: wrap;\n          flex-wrap: wrap;\n      margin-top: 50px;\n      -webkit-box-pack: center;\n          -ms-flex-pack: center;\n              justify-content: center; }\n.pricing .pricing-wrapper .pricing-wrapper-container .columns {\n        width: 25%;\n        padding: 15px;\n        margin-left: 0px; }\n.pricing .pricing-wrapper .pricing-wrapper-container .columns .tile {\n          background: rgba(183, 33, 255, 0.1);\n          height: 100%;\n          padding: 25px;\n          min-height: 100px;\n          display: -webkit-box;\n          display: -ms-flexbox;\n          display: flex;\n          -webkit-box-orient: vertical;\n          -webkit-box-direction: normal;\n              -ms-flex-direction: column;\n                  flex-direction: column;\n          -webkit-transition: all 0.35s ease-out;\n          transition: all 0.35s ease-out;\n          border-radius: 8px; }\n.pricing .pricing-wrapper .pricing-wrapper-container .columns .tile .icon-container {\n            height: 70px;\n            background-size: contain;\n            background-repeat: no-repeat;\n            background-position: center;\n            margin-bottom: 40px;\n            margin-top: 10px; }\n.pricing .pricing-wrapper .pricing-wrapper-container .columns .tile .text-wrapper {\n            -webkit-box-flex: 2;\n                -ms-flex: 2;\n                    flex: 2; }\n.pricing .pricing-wrapper .pricing-wrapper-container .columns .tile .text-wrapper h2 {\n              font-size: 3.1rem;\n              margin-bottom: 15px;\n              display: block; }\n.pricing .pricing-wrapper .pricing-wrapper-container .columns .tile .btn-container {\n            display: block; }\n.pricing .pricing-wrapper .pricing-wrapper-container .columns .tile .btn-container .btn-curve-purple {\n              margin: 0 auto;\n              width: 85%;\n              padding: 15px 0px; }\n.pricing .pricing-wrapper .pricing-wrapper-container .columns .tile.active {\n          -webkit-box-shadow: 0px 0px 20px rgba(128, 100, 255, 0.15);\n                  box-shadow: 0px 0px 20px rgba(128, 100, 255, 0.15);\n          -webkit-transform: scale(1.05, 1.08);\n                  transform: scale(1.05, 1.08);\n          padding-bottom: 30px; }\n.pricing .text-content {\n    padding-top: 70px; }\n.pricing .three.active {\n    -webkit-box-shadow: -1px 1px 5px 5px rgba(0, 0, 0, 0.1);\n            box-shadow: -1px 1px 5px 5px rgba(0, 0, 0, 0.1);\n    background: white; }\n.pricing .three.active img {\n      border: 1px solid rgba(183, 33, 255, 0.5);\n      border-radius: 50%; }\n.pricing .three.active .btn-block-white {\n      color: white;\n      background: #B721FF;\n      -webkit-box-shadow: none;\n              box-shadow: none; }\n.pricing .three.active .btn-block-white:hover {\n        color: white;\n        background: #B721FF; }\n.pricing .tile {\n    padding: 20px; }\n.pricing h5 {\n    font-size: 1.5em;\n    margin-bottom: 5px; }\n.pricing h2 {\n    margin: 0; }\n.pricing .content {\n    padding: 20px 50px; }\n.pricing .text-content {\n    padding-left: 0; }\n.pricing .pricing-title-span {\n    font-weight: bold;\n    line-height: 18px;\n    display: block; }\n.pricing .team-image {\n    background-image: url(https://files.slack.com/files-pri/T3SR5PY3V-FAGTVEHGA/923.jpgassets/img/bg_team_1.png); }\n@media screen and (max-width: 1024px) {\n    .pricing .card-list {\n      width: 115%;\n      margin-left: 0px; }\n      .pricing .card-list .overf {\n        max-height: 100px; }\n    .pricing .post-content {\n      width: 130%; }\n    .pricing .post-content h1 {\n      font-size: 34px; }\n    .pricing .pricing-text-wrapperm {\n      width: 90%; }\n    .pricing .six .respimg {\n      width: 100%;\n      height: auto;\n      min-height: 800px;\n      -o-object-fit: cover;\n         object-fit: cover; } }\n@media screen and (max-width: 675px) {\n    .pricing .card-list {\n      width: 90%;\n      margin-left: 0px; }\n    .pricing .post-content {\n      width: 125%; }\n    .pricing .post-content h1 {\n      font-size: 24px; }\n    .pricing .pricing-text-wrapperm {\n      width: 90%; }\n    .pricing .respimg {\n      display: none;\n      width: 100%;\n      height: auto;\n      -o-object-fit: cover;\n         object-fit: cover; } }\n";
 
 /***/ }),
 
 /***/ "./styles/index.scss":
 /***/ (function(module, exports) {
 
-module.exports = "@charset \"UTF-8\";\n/*! normalize.css v3.0.2 | MIT License | git.io/normalize */\n/**\n * 1. Set default font family to sans-serif.\n * 2. Prevent iOS text size adjust after orientation change, without disabling\n *    user zoom.\n */\nhtml {\n  font-family: sans-serif;\n  /* 1 */\n  -ms-text-size-adjust: 100%;\n  /* 2 */\n  -webkit-text-size-adjust: 100%;\n  /* 2 */ }\n/**\n * Remove default margin.\n */\nbody {\n  margin: 0; }\n/* HTML5 display definitions\n   ========================================================================== */\n/**\n * Correct `block` display not defined for any HTML5 element in IE 8/9.\n * Correct `block` display not defined for `details` or `summary` in IE 10/11\n * and Firefox.\n * Correct `block` display not defined for `main` in IE 11.\n */\narticle,\naside,\ndetails,\nfigcaption,\nfigure,\nfooter,\nheader,\nhgroup,\nmain,\nmenu,\nnav,\nsection,\nsummary {\n  display: block; }\n/**\n * 1. Correct `inline-block` display not defined in IE 8/9.\n * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.\n */\naudio,\ncanvas,\nprogress,\nvideo {\n  display: inline-block;\n  /* 1 */\n  vertical-align: baseline;\n  /* 2 */ }\n/**\n * Prevent modern browsers from displaying `audio` without controls.\n * Remove excess height in iOS 5 devices.\n */\naudio:not([controls]) {\n  display: none;\n  height: 0; }\n/**\n * Address `[hidden]` styling not present in IE 8/9/10.\n * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.\n */\n[hidden],\ntemplate {\n  display: none; }\n/* Links\n   ========================================================================== */\n/**\n * Remove the gray background color from active links in IE 10.\n */\na {\n  background-color: transparent; }\n/**\n * Improve readability when focused and also mouse hovered in all browsers.\n */\na:active,\na:hover {\n  outline: 0; }\n/* Text-level semantics\n   ========================================================================== */\n/**\n * Address styling not present in IE 8/9/10/11, Safari, and Chrome.\n */\nabbr[title] {\n  border-bottom: 1px dotted; }\n/**\n * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.\n */\nb,\nstrong {\n  font-weight: bold; }\n/**\n * Address styling not present in Safari and Chrome.\n */\ndfn {\n  font-style: italic; }\n/**\n * Address variable `h1` font-size and margin within `section` and `article`\n * contexts in Firefox 4+, Safari, and Chrome.\n */\nh1 {\n  font-size: 2em;\n  margin: 0.67em 0; }\n/**\n * Address styling not present in IE 8/9.\n */\nmark {\n  background: #ff0;\n  color: #000; }\n/**\n * Address inconsistent and variable font size in all browsers.\n */\nsmall {\n  font-size: 80%; }\n/**\n * Prevent `sub` and `sup` affecting `line-height` in all browsers.\n */\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline; }\nsup {\n  top: -0.5em; }\nsub {\n  bottom: -0.25em; }\n/* Embedded content\n   ========================================================================== */\n/**\n * Remove border when inside `a` element in IE 8/9/10.\n */\nimg {\n  border: 0; }\n/**\n * Correct overflow not hidden in IE 9/10/11.\n */\nsvg:not(:root) {\n  overflow: hidden; }\n/* Grouping content\n   ========================================================================== */\n/**\n * Address margin not present in IE 8/9 and Safari.\n */\nfigure {\n  margin: 1em 40px; }\n/**\n * Address differences between Firefox and other browsers.\n */\nhr {\n  -webkit-box-sizing: content-box;\n          box-sizing: content-box;\n  height: 0; }\n/**\n * Contain overflow in all browsers.\n */\npre {\n  overflow: auto; }\n/**\n * Address odd `em`-unit font size rendering in all browsers.\n */\ncode,\nkbd,\npre,\nsamp {\n  font-family: monospace, monospace;\n  font-size: 1em; }\n/* Forms\n   ========================================================================== */\n/**\n * Known limitation: by default, Chrome and Safari on OS X allow very limited\n * styling of `select`, unless a `border` property is set.\n */\n/**\n * 1. Correct color not being inherited.\n *    Known issue: affects color of disabled elements.\n * 2. Correct font properties not being inherited.\n * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.\n */\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  color: inherit;\n  /* 1 */\n  font: inherit;\n  /* 2 */\n  margin: 0;\n  /* 3 */ }\n/**\n * Address `overflow` set to `hidden` in IE 8/9/10/11.\n */\nbutton {\n  overflow: visible; }\n/**\n * Address inconsistent `text-transform` inheritance for `button` and `select`.\n * All other form control elements do not inherit `text-transform` values.\n * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.\n * Correct `select` style inheritance in Firefox.\n */\nbutton,\nselect {\n  text-transform: none; }\n/**\n * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`\n *    and `video` controls.\n * 2. Correct inability to style clickable `input` types in iOS.\n * 3. Improve usability and consistency of cursor style between image-type\n *    `input` and others.\n */\nbutton,\nhtml input[type=\"button\"],\ninput[type=\"reset\"],\ninput[type=\"submit\"] {\n  -webkit-appearance: button;\n  /* 2 */\n  cursor: pointer;\n  /* 3 */ }\n/**\n * Re-set default cursor for disabled elements.\n */\nbutton[disabled],\nhtml input[disabled] {\n  cursor: default; }\n/**\n * Remove inner padding and border in Firefox 4+.\n */\nbutton::-moz-focus-inner,\ninput::-moz-focus-inner {\n  border: 0;\n  padding: 0; }\n/**\n * Address Firefox 4+ setting `line-height` on `input` using `!important` in\n * the UA stylesheet.\n */\ninput {\n  line-height: normal; }\n/**\n * It's recommended that you don't attempt to style these elements.\n * Firefox's implementation doesn't respect box-sizing, padding, or width.\n *\n * 1. Address box sizing set to `content-box` in IE 8/9/10.\n * 2. Remove excess padding in IE 8/9/10.\n */\ninput[type=\"checkbox\"],\ninput[type=\"radio\"] {\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n  /* 1 */\n  padding: 0;\n  /* 2 */ }\n/**\n * Fix the cursor style for Chrome's increment/decrement buttons. For certain\n * `font-size` values of the `input`, it causes the cursor style of the\n * decrement button to change from `default` to `text`.\n */\ninput[type=\"number\"]::-webkit-inner-spin-button,\ninput[type=\"number\"]::-webkit-outer-spin-button {\n  height: auto; }\n/**\n * 1. Address `appearance` set to `searchfield` in Safari and Chrome.\n * 2. Address `box-sizing` set to `border-box` in Safari and Chrome\n *    (include `-moz` to future-proof).\n */\ninput[type=\"search\"] {\n  -webkit-appearance: textfield;\n  /* 1 */\n  -webkit-box-sizing: content-box;\n  /* 2 */\n  box-sizing: content-box; }\n/**\n * Remove inner padding and search cancel button in Safari and Chrome on OS X.\n * Safari (but not Chrome) clips the cancel button when the search input has\n * padding (and `textfield` appearance).\n */\ninput[type=\"search\"]::-webkit-search-cancel-button,\ninput[type=\"search\"]::-webkit-search-decoration {\n  -webkit-appearance: none; }\n/**\n * Define consistent border, margin, and padding.\n */\nfieldset {\n  border: 1px solid #c0c0c0;\n  margin: 0 2px;\n  padding: 0.35em 0.625em 0.75em; }\n/**\n * 1. Correct `color` not being inherited in IE 8/9/10/11.\n * 2. Remove padding so people aren't caught out if they zero out fieldsets.\n */\nlegend {\n  border: 0;\n  /* 1 */\n  padding: 0;\n  /* 2 */ }\n/**\n * Remove default vertical scrollbar in IE 8/9/10/11.\n */\ntextarea {\n  overflow: auto; }\n/**\n * Don't inherit the `font-weight` (applied by a rule above).\n * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.\n */\noptgroup {\n  font-weight: bold; }\n/* Tables\n   ========================================================================== */\n/**\n * Remove most spacing between table cells.\n */\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\ntd,\nth {\n  padding: 0; }\n/*\n* Skeleton V2.0.4\n* Copyright 2014, Dave Gamache\n* www.getskeleton.com\n* Free to use under the MIT license.\n* http://www.opensource.org/licenses/mit-license.php\n* 12/29/2014\n*/\n/* Table of contents\n––––––––––––––––––––––––––––––––––––––––––––––––––\n- Grid\n- Base Styles\n- Typography\n- Links\n- Buttons\n- Forms\n- Lists\n- Code\n- Tables\n- Spacing\n- Utilities\n- Clearing\n- Media Queries\n*/\n/* Grid\n–––––––––––––––––––––––––––––––––––––––––––––––––– */\n.container {\n  position: relative;\n  width: 100%;\n  max-width: 960px;\n  margin: 0 auto;\n  padding: 0 20px;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box; }\n.column,\n.columns {\n  width: 100%;\n  float: left;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box; }\n/* For devices larger than 400px */\n@media (min-width: 400px) {\n  .container {\n    width: 85%;\n    padding: 0; } }\n/* For devices larger than 550px */\n@media (min-width: 550px) {\n  .container {\n    width: 80%; }\n  .column,\n  .columns {\n    margin-left: 4%; }\n  .column:first-child,\n  .columns:first-child {\n    margin-left: 0; }\n  .one.column,\n  .one.columns {\n    width: 4.66666666667%; }\n  .two.columns {\n    width: 13.3333333333%; }\n  .three.columns {\n    width: 22%; }\n  .four.columns {\n    width: 30.6666666667%; }\n  .five.columns {\n    width: 39.3333333333%; }\n  .six.columns {\n    width: 48%; }\n  .seven.columns {\n    width: 56.6666666667%; }\n  .eight.columns {\n    width: 65.3333333333%; }\n  .nine.columns {\n    width: 74.0%; }\n  .ten.columns {\n    width: 82.6666666667%; }\n  .eleven.columns {\n    width: 91.3333333333%; }\n  .twelve.columns {\n    width: 100%;\n    margin-left: 0; }\n  .one-third.column {\n    width: 30.6666666667%; }\n  .two-thirds.column {\n    width: 65.3333333333%; }\n  .one-half.column {\n    width: 48%; }\n  /* Offsets */\n  .offset-by-one.column,\n  .offset-by-one.columns {\n    margin-left: 8.66666666667%; }\n  .offset-by-two.column,\n  .offset-by-two.columns {\n    margin-left: 17.3333333333%; }\n  .offset-by-three.column,\n  .offset-by-three.columns {\n    margin-left: 26%; }\n  .offset-by-four.column,\n  .offset-by-four.columns {\n    margin-left: 34.6666666667%; }\n  .offset-by-five.column,\n  .offset-by-five.columns {\n    margin-left: 43.3333333333%; }\n  .offset-by-six.column,\n  .offset-by-six.columns {\n    margin-left: 52%; }\n  .offset-by-seven.column,\n  .offset-by-seven.columns {\n    margin-left: 60.6666666667%; }\n  .offset-by-eight.column,\n  .offset-by-eight.columns {\n    margin-left: 69.3333333333%; }\n  .offset-by-nine.column,\n  .offset-by-nine.columns {\n    margin-left: 78.0%; }\n  .offset-by-ten.column,\n  .offset-by-ten.columns {\n    margin-left: 86.6666666667%; }\n  .offset-by-eleven.column,\n  .offset-by-eleven.columns {\n    margin-left: 95.3333333333%; }\n  .offset-by-one-third.column,\n  .offset-by-one-third.columns {\n    margin-left: 34.6666666667%; }\n  .offset-by-two-thirds.column,\n  .offset-by-two-thirds.columns {\n    margin-left: 69.3333333333%; }\n  .offset-by-one-half.column,\n  .offset-by-one-half.columns {\n    margin-left: 52%; } }\n/* Base Styles\n–––––––––––––––––––––––––––––––––––––––––––––––––– */\n/* NOTE\nhtml is set to 62.5% so that all the REM measurements throughout Skeleton\nare based on 10px sizing. So basically 1.5rem = 15px :) */\nhtml {\n  font-size: 62.5%; }\nbody {\n  font-size: 1.5em;\n  /* currently ems cause chrome bug misinterpreting rems on body element */\n  line-height: 1.6;\n  font-weight: 400;\n  font-family: \"Raleway\", \"HelveticaNeue\", \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n  color: #222; }\n/* Typography\n–––––––––––––––––––––––––––––––––––––––––––––––––– */\nh1, h2, h3, h4, h5, h6 {\n  margin-top: 0;\n  margin-bottom: 2rem;\n  font-weight: 300; }\nh1 {\n  font-size: 4.0rem;\n  line-height: 1.2;\n  letter-spacing: -.1rem; }\nh2 {\n  font-size: 3.6rem;\n  line-height: 1.25;\n  letter-spacing: -.1rem; }\nh3 {\n  font-size: 3.0rem;\n  line-height: 1.3;\n  letter-spacing: -.1rem; }\nh4 {\n  font-size: 2.4rem;\n  line-height: 1.35;\n  letter-spacing: -.08rem; }\nh5 {\n  font-size: 1.8rem;\n  line-height: 1.5;\n  letter-spacing: -.05rem; }\nh6 {\n  font-size: 1.5rem;\n  line-height: 1.6;\n  letter-spacing: 0; }\n/* Larger than phablet */\n@media (min-width: 550px) {\n  h1 {\n    font-size: 5.0rem; }\n  h2 {\n    font-size: 4.2rem; }\n  h3 {\n    font-size: 3.6rem; }\n  h4 {\n    font-size: 3.0rem; }\n  h5 {\n    font-size: 2.4rem; }\n  h6 {\n    font-size: 1.5rem; } }\np {\n  margin-top: 0; }\n/* Links\n–––––––––––––––––––––––––––––––––––––––––––––––––– */\na {\n  color: #1EAEDB; }\na:hover {\n  color: #0FA0CE; }\n/* Forms\n–––––––––––––––––––––––––––––––––––––––––––––––––– */\ninput[type=\"email\"],\ninput[type=\"number\"],\ninput[type=\"search\"],\ninput[type=\"text\"],\ninput[type=\"tel\"],\ninput[type=\"url\"],\ninput[type=\"password\"],\ntextarea,\nselect {\n  height: 38px;\n  padding: 6px 10px;\n  /* The 6px vertically centers text on FF, ignored by Webkit */\n  background-color: #fff;\n  border: 1px solid #D1D1D1;\n  border-radius: 4px;\n  -webkit-box-shadow: none;\n          box-shadow: none;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box; }\n/* Removes awkward default styles on some inputs for iOS */\ninput[type=\"email\"],\ninput[type=\"number\"],\ninput[type=\"search\"],\ninput[type=\"text\"],\ninput[type=\"tel\"],\ninput[type=\"url\"],\ninput[type=\"password\"],\ntextarea {\n  -webkit-appearance: none;\n  -moz-appearance: none;\n  appearance: none; }\ntextarea {\n  min-height: 65px;\n  padding-top: 6px;\n  padding-bottom: 6px; }\ninput[type=\"email\"]:focus,\ninput[type=\"number\"]:focus,\ninput[type=\"search\"]:focus,\ninput[type=\"text\"]:focus,\ninput[type=\"tel\"]:focus,\ninput[type=\"url\"]:focus,\ninput[type=\"password\"]:focus,\ntextarea:focus,\nselect:focus {\n  border: 1px solid #33C3F0;\n  outline: 0; }\nlabel,\nlegend {\n  display: block;\n  margin-bottom: .5rem;\n  font-weight: 600; }\nfieldset {\n  padding: 0;\n  border-width: 0; }\ninput[type=\"checkbox\"],\ninput[type=\"radio\"] {\n  display: inline; }\nlabel > .label-body {\n  display: inline-block;\n  margin-left: .5rem;\n  font-weight: normal; }\n/* Lists\n–––––––––––––––––––––––––––––––––––––––––––––––––– */\nul {\n  list-style: circle inside; }\nol {\n  list-style: decimal inside; }\nol, ul {\n  padding-left: 0;\n  margin-top: 0; }\nul ul,\nul ol,\nol ol,\nol ul {\n  margin: 1.5rem 0 1.5rem 3rem;\n  font-size: 90%; }\nli {\n  margin-bottom: 1rem; }\n/* Code\n–––––––––––––––––––––––––––––––––––––––––––––––––– */\ncode {\n  padding: .2rem .5rem;\n  margin: 0 .2rem;\n  font-size: 90%;\n  white-space: nowrap;\n  background: #F1F1F1;\n  border: 1px solid #E1E1E1;\n  border-radius: 4px; }\npre > code {\n  display: block;\n  padding: 1rem 1.5rem;\n  white-space: pre; }\n/* Tables\n–––––––––––––––––––––––––––––––––––––––––––––––––– */\nth,\ntd {\n  padding: 12px 15px;\n  text-align: left;\n  border-bottom: 1px solid #E1E1E1; }\nth:first-child,\ntd:first-child {\n  padding-left: 0; }\nth:last-child,\ntd:last-child {\n  padding-right: 0; }\n/* Spacing\n–––––––––––––––––––––––––––––––––––––––––––––––––– */\nbutton,\n.button {\n  margin-bottom: 1rem; }\ninput,\ntextarea,\nselect,\nfieldset {\n  margin-bottom: 1rem; }\npre,\nblockquote,\ndl,\nfigure,\ntable,\np,\nul,\nol,\nform {\n  margin-bottom: 2.5rem; }\n/* Utilities\n–––––––––––––––––––––––––––––––––––––––––––––––––– */\n.u-full-width {\n  width: 100%;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box; }\n.u-max-full-width {\n  max-width: 100%;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box; }\n.u-pull-right {\n  float: right; }\n.u-pull-left {\n  float: left; }\n/* Misc\n–––––––––––––––––––––––––––––––––––––––––––––––––– */\nhr {\n  margin-top: 3rem;\n  margin-bottom: 3.5rem;\n  border-width: 0;\n  border-top: 1px solid #E1E1E1; }\n/* Clearing\n–––––––––––––––––––––––––––––––––––––––––––––––––– */\n/* Self Clearing Goodness */\n.container:after,\n.row:after,\n.u-cf {\n  content: \"\";\n  display: table;\n  clear: both; }\n/* Media Queries\n–––––––––––––––––––––––––––––––––––––––––––––––––– */\n/*\nNote: The best way to structure the use of media queries is to create the queries\nnear the relevant code. For example, if you wanted to change the styles for buttons\non small devices, paste the mobile query code up in the buttons section and style it\nthere.\n*/\n/* Larger than mobile */\n/* Larger than phablet (also point when grid becomes active) */\n/* Larger than tablet */\n/* Larger than desktop */\n/* Larger than Desktop HD */\nbody {\n  width: 100%;\n  height: 100%; }\n.slideout-menu {\n  position: fixed;\n  top: 0;\n  bottom: 0;\n  width: 256px;\n  min-height: 100vh;\n  overflow-y: scroll;\n  -webkit-overflow-scrolling: touch;\n  z-index: 0;\n  display: none; }\n.slideout-menu-left {\n  left: 0; }\n.slideout-menu-right {\n  right: 0; }\n.slideout-panel {\n  position: relative;\n  z-index: 1;\n  will-change: transform;\n  background-color: transparent;\n  /* A background-color is required */\n  min-height: 100vh; }\n.slideout-open,\n.slideout-open body,\n.slideout-open .slideout-panel {\n  overflow: hidden; }\n.slideout-open .slideout-menu {\n  display: block; }\n.blocker {\n  position: fixed;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  overflow: auto;\n  z-index: 1;\n  padding: 20px;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n  background-color: #000;\n  background-color: rgba(0, 0, 0, 0.75);\n  text-align: center; }\n.blocker:before {\n  content: \"\";\n  display: inline-block;\n  height: 100%;\n  vertical-align: middle;\n  margin-right: -0.05em; }\n.blocker.behind {\n  background-color: transparent; }\n.modal {\n  display: none;\n  vertical-align: middle;\n  position: relative;\n  z-index: 2;\n  max-width: 500px;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n  width: 90%;\n  background: #fff;\n  padding: 15px 30px;\n  border-radius: 8px;\n  -webkit-box-shadow: 0 0 10px #000;\n  -o-box-shadow: 0 0 10px #000;\n  -ms-box-shadow: 0 0 10px #000;\n  box-shadow: 0 0 10px #000;\n  text-align: left; }\n.modal a.close-modal {\n  position: absolute;\n  top: -12.5px;\n  right: -12.5px;\n  display: block;\n  width: 30px;\n  height: 30px;\n  text-indent: -9999px;\n  background-size: contain;\n  background-repeat: no-repeat;\n  background-position: center center;\n  background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAAAXNSR0IArs4c6QAAA3hJREFUaAXlm8+K00Acx7MiCIJH/yw+gA9g25O49SL4AO3Bp1jw5NvktC+wF88qevK4BU97EmzxUBCEolK/n5gp3W6TTJPfpNPNF37MNsl85/vN/DaTmU6PknC4K+pniqeKJ3k8UnkvDxXJzzy+q/yaxxeVHxW/FNHjgRSeKt4rFoplzaAuHHDBGR2eS9G54reirsmienDCTRt7xwsp+KAoEmt9nLaGitZxrBbPFNaGfPloGw2t4JVamSt8xYW6Dg1oCYo3Yv+rCGViV160oMkcd8SYKnYV1Nb1aEOjCe6L5ZOiLfF120EjWhuBu3YIZt1NQmujnk5F4MgOpURzLfAwOBSTmzp3fpDxuI/pabxpqOoz2r2HLAb0GMbZKlNV5/Hg9XJypguryA7lPF5KMdTZQzHjqxNPhWhzIuAruOl1eNqKEx1tSh5rfbxdw7mOxCq4qS68ZTjKS1YVvilu559vWvFHhh4rZrdyZ69Vmpgdj8fJbDZLJpNJ0uv1cnr/gjrUhQMuI+ANjyuwftQ0bbL6Erp0mM/ny8Fg4M3LtdRxgMtKl3jwmIHVxYXChFy94/Rmpa/pTbNUhstKV+4Rr8lLQ9KlUvJKLyG8yvQ2s9SBy1Jb7jV5a0yapfF6apaZLjLLcWtd4sNrmJUMHyM+1xibTjH82Zh01TNlhsrOhdKTe00uAzZQmN6+KW+sDa/JD2PSVQ873m29yf+1Q9VDzfEYlHi1G5LKBBWZbtEsHbFwb1oYDwr1ZiF/2bnCSg1OBE/pfr9/bWx26UxJL3ONPISOLKUvQza0LZUxSKyjpdTGa/vDEr25rddbMM0Q3O6Lx3rqFvU+x6UrRKQY7tyrZecmD9FODy8uLizTmilwNj0kraNcAJhOp5aGVwsAGD5VmJBrWWbJSgWT9zrzWepQF47RaGSiKfeGx6Szi3gzmX/HHbihwBser4B9UJYpFBNX4R6vTn3VQnez0SymnrHQMsRYGTr1dSk34ljRqS/EMd2pLQ8YBp3a1PLfcqCpo8gtHkZFHKkTX6fs3MY0blKnth66rKCnU0VRGu37ONrQaA4eZDFtWAu2fXj9zjFkxTBOo8F7t926gTp/83Kyzzcy2kZD6xiqxTYnHLRFm3vHiRSwNSjkz3hoIzo8lCKWUlg/YtGs7tObunDAZfpDLbfEI15zsEIY3U/x/gHHc/G1zltnAgAAAABJRU5ErkJggg==\"); }\n.modal-spinner {\n  display: none;\n  position: fixed;\n  top: 50%;\n  left: 50%;\n  -webkit-transform: translateY(-50%) translateX(-50%);\n          transform: translateY(-50%) translateX(-50%);\n  padding: 12px 16px;\n  border-radius: 5px;\n  background-color: #111;\n  height: 20px; }\n.modal-spinner > div {\n  border-radius: 100px;\n  background-color: #fff;\n  height: 20px;\n  width: 2px;\n  margin: 0 1px;\n  display: inline-block;\n  -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;\n  animation: sk-stretchdelay 1.2s infinite ease-in-out; }\n.modal-spinner .rect2 {\n  -webkit-animation-delay: -1.1s;\n  animation-delay: -1.1s; }\n.modal-spinner .rect3 {\n  -webkit-animation-delay: -1.0s;\n  animation-delay: -1.0s; }\n.modal-spinner .rect4 {\n  -webkit-animation-delay: -0.9s;\n  animation-delay: -0.9s; }\n@-webkit-keyframes sk-stretchdelay {\n  0%, 40%, 100% {\n    -webkit-transform: scaleY(0.5); }\n  20% {\n    -webkit-transform: scaleY(1); } }\n@keyframes sk-stretchdelay {\n  0%, 40%, 100% {\n    transform: scaleY(0.5);\n    -webkit-transform: scaleY(0.5); }\n  20% {\n    transform: scaleY(1);\n    -webkit-transform: scaleY(1); } }\n/*\n * Note that this is toastr v2.1.3, the \"latest\" version in url has no more maintenance,\n * please go to https://cdnjs.com/libraries/toastr.js and pick a certain version you want to use,\n * make sure you copy the url from the website since the url may change between versions.\n * */\n.toast-title {\n  font-weight: 700; }\n.toast-message {\n  -ms-word-wrap: break-word;\n  word-wrap: break-word; }\n.toast-message a,\n.toast-message label {\n  color: #FFF; }\n.toast-message a:hover {\n  color: #CCC;\n  text-decoration: none; }\n.toast-close-button {\n  position: relative;\n  right: -.3em;\n  top: -.3em;\n  float: right;\n  font-size: 20px;\n  font-weight: 700;\n  color: #FFF;\n  -webkit-text-shadow: 0 1px 0 #fff;\n  text-shadow: 0 1px 0 #fff;\n  opacity: .8;\n  filter: alpha(opacity=80);\n  line-height: 1; }\n.toast-close-button:focus,\n.toast-close-button:hover {\n  color: #000;\n  text-decoration: none;\n  cursor: pointer;\n  opacity: .4;\n  filter: alpha(opacity=40); }\n.rtl .toast-close-button {\n  left: -.3em;\n  float: left;\n  right: .3em; }\nbutton.toast-close-button {\n  padding: 0;\n  cursor: pointer;\n  background: 0 0;\n  border: 0;\n  -webkit-appearance: none; }\n.toast-top-center {\n  top: 0;\n  right: 0;\n  width: 100%; }\n.toast-bottom-center {\n  bottom: 0;\n  right: 0;\n  width: 100%; }\n.toast-top-full-width {\n  top: 0;\n  right: 0;\n  width: 100%; }\n.toast-bottom-full-width {\n  bottom: 0;\n  right: 0;\n  width: 100%; }\n.toast-top-left {\n  top: 12px;\n  left: 12px; }\n.toast-top-right {\n  top: 12px;\n  right: 12px; }\n.toast-bottom-right {\n  right: 12px;\n  bottom: 12px; }\n.toast-bottom-left {\n  bottom: 12px;\n  left: 12px; }\n#toast-container {\n  position: fixed;\n  z-index: 999999;\n  pointer-events: none; }\n#toast-container * {\n  -webkit-box-sizing: border-box;\n  box-sizing: border-box; }\n#toast-container > div {\n  position: relative;\n  pointer-events: auto;\n  overflow: hidden;\n  margin: 0 0 6px;\n  padding: 15px 15px 15px 50px;\n  width: 300px;\n  border-radius: 3px;\n  background-position: 15px center;\n  background-repeat: no-repeat;\n  -webkit-box-shadow: 0 0 12px #999;\n  box-shadow: 0 0 12px #999;\n  color: #FFF;\n  opacity: .8;\n  filter: alpha(opacity=80); }\n#toast-container > div.rtl {\n  direction: rtl;\n  padding: 15px 50px 15px 15px;\n  background-position: right 15px center; }\n#toast-container > div:hover {\n  -webkit-box-shadow: 0 0 12px #000;\n  box-shadow: 0 0 12px #000;\n  opacity: 1;\n  filter: alpha(opacity=100);\n  cursor: pointer; }\n#toast-container > .toast-info {\n  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGwSURBVEhLtZa9SgNBEMc9sUxxRcoUKSzSWIhXpFMhhYWFhaBg4yPYiWCXZxBLERsLRS3EQkEfwCKdjWJAwSKCgoKCcudv4O5YLrt7EzgXhiU3/4+b2ckmwVjJSpKkQ6wAi4gwhT+z3wRBcEz0yjSseUTrcRyfsHsXmD0AmbHOC9Ii8VImnuXBPglHpQ5wwSVM7sNnTG7Za4JwDdCjxyAiH3nyA2mtaTJufiDZ5dCaqlItILh1NHatfN5skvjx9Z38m69CgzuXmZgVrPIGE763Jx9qKsRozWYw6xOHdER+nn2KkO+Bb+UV5CBN6WC6QtBgbRVozrahAbmm6HtUsgtPC19tFdxXZYBOfkbmFJ1VaHA1VAHjd0pp70oTZzvR+EVrx2Ygfdsq6eu55BHYR8hlcki+n+kERUFG8BrA0BwjeAv2M8WLQBtcy+SD6fNsmnB3AlBLrgTtVW1c2QN4bVWLATaIS60J2Du5y1TiJgjSBvFVZgTmwCU+dAZFoPxGEEs8nyHC9Bwe2GvEJv2WXZb0vjdyFT4Cxk3e/kIqlOGoVLwwPevpYHT+00T+hWwXDf4AJAOUqWcDhbwAAAAASUVORK5CYII=) !important; }\n#toast-container > .toast-error {\n  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHOSURBVEhLrZa/SgNBEMZzh0WKCClSCKaIYOED+AAKeQQLG8HWztLCImBrYadgIdY+gIKNYkBFSwu7CAoqCgkkoGBI/E28PdbLZmeDLgzZzcx83/zZ2SSXC1j9fr+I1Hq93g2yxH4iwM1vkoBWAdxCmpzTxfkN2RcyZNaHFIkSo10+8kgxkXIURV5HGxTmFuc75B2RfQkpxHG8aAgaAFa0tAHqYFfQ7Iwe2yhODk8+J4C7yAoRTWI3w/4klGRgR4lO7Rpn9+gvMyWp+uxFh8+H+ARlgN1nJuJuQAYvNkEnwGFck18Er4q3egEc/oO+mhLdKgRyhdNFiacC0rlOCbhNVz4H9FnAYgDBvU3QIioZlJFLJtsoHYRDfiZoUyIxqCtRpVlANq0EU4dApjrtgezPFad5S19Wgjkc0hNVnuF4HjVA6C7QrSIbylB+oZe3aHgBsqlNqKYH48jXyJKMuAbiyVJ8KzaB3eRc0pg9VwQ4niFryI68qiOi3AbjwdsfnAtk0bCjTLJKr6mrD9g8iq/S/B81hguOMlQTnVyG40wAcjnmgsCNESDrjme7wfftP4P7SP4N3CJZdvzoNyGq2c/HWOXJGsvVg+RA/k2MC/wN6I2YA2Pt8GkAAAAASUVORK5CYII=) !important; }\n#toast-container > .toast-success {\n  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADsSURBVEhLY2AYBfQMgf///3P8+/evAIgvA/FsIF+BavYDDWMBGroaSMMBiE8VC7AZDrIFaMFnii3AZTjUgsUUWUDA8OdAH6iQbQEhw4HyGsPEcKBXBIC4ARhex4G4BsjmweU1soIFaGg/WtoFZRIZdEvIMhxkCCjXIVsATV6gFGACs4Rsw0EGgIIH3QJYJgHSARQZDrWAB+jawzgs+Q2UO49D7jnRSRGoEFRILcdmEMWGI0cm0JJ2QpYA1RDvcmzJEWhABhD/pqrL0S0CWuABKgnRki9lLseS7g2AlqwHWQSKH4oKLrILpRGhEQCw2LiRUIa4lwAAAABJRU5ErkJggg==) !important; }\n#toast-container > .toast-warning {\n  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGYSURBVEhL5ZSvTsNQFMbXZGICMYGYmJhAQIJAICYQPAACiSDB8AiICQQJT4CqQEwgJvYASAQCiZiYmJhAIBATCARJy+9rTsldd8sKu1M0+dLb057v6/lbq/2rK0mS/TRNj9cWNAKPYIJII7gIxCcQ51cvqID+GIEX8ASG4B1bK5gIZFeQfoJdEXOfgX4QAQg7kH2A65yQ87lyxb27sggkAzAuFhbbg1K2kgCkB1bVwyIR9m2L7PRPIhDUIXgGtyKw575yz3lTNs6X4JXnjV+LKM/m3MydnTbtOKIjtz6VhCBq4vSm3ncdrD2lk0VgUXSVKjVDJXJzijW1RQdsU7F77He8u68koNZTz8Oz5yGa6J3H3lZ0xYgXBK2QymlWWA+RWnYhskLBv2vmE+hBMCtbA7KX5drWyRT/2JsqZ2IvfB9Y4bWDNMFbJRFmC9E74SoS0CqulwjkC0+5bpcV1CZ8NMej4pjy0U+doDQsGyo1hzVJttIjhQ7GnBtRFN1UarUlH8F3xict+HY07rEzoUGPlWcjRFRr4/gChZgc3ZL2d8oAAAAASUVORK5CYII=) !important; }\n#toast-container.toast-bottom-center > div,\n#toast-container.toast-top-center > div {\n  width: 300px;\n  margin-left: auto;\n  margin-right: auto; }\n#toast-container.toast-bottom-full-width > div,\n#toast-container.toast-top-full-width > div {\n  width: 96%;\n  margin-left: auto;\n  margin-right: auto; }\n.toast {\n  background-color: #030303; }\n.toast-success {\n  background-color: #51A351; }\n.toast-error {\n  background-color: #BD362F; }\n.toast-info {\n  background-color: #2F96B4; }\n.toast-warning {\n  background-color: #F89406; }\n.toast-progress {\n  position: absolute;\n  left: 0;\n  bottom: 0;\n  height: 4px;\n  background-color: #000;\n  opacity: .4;\n  filter: alpha(opacity=40); }\n@media all and (max-width: 240px) {\n  #toast-container > div {\n    padding: 8px 8px 8px 50px;\n    width: 11em; }\n  #toast-container > div.rtl {\n    padding: 8px 50px 8px 8px; }\n  #toast-container .toast-close-button {\n    right: -.2em;\n    top: -.2em; }\n  #toast-container .rtl .toast-close-button {\n    left: -.2em;\n    right: .2em; } }\n@media all and (min-width: 241px) and (max-width: 480px) {\n  #toast-container > div {\n    padding: 8px 8px 8px 50px;\n    width: 18em; }\n  #toast-container > div.rtl {\n    padding: 8px 50px 8px 8px; }\n  #toast-container .toast-close-button {\n    right: -.2em;\n    top: -.2em; }\n  #toast-container .rtl .toast-close-button {\n    left: -.2em;\n    right: .2em; } }\n@media all and (min-width: 481px) and (max-width: 768px) {\n  #toast-container > div {\n    padding: 15px 15px 15px 50px;\n    width: 25em; }\n  #toast-container > div.rtl {\n    padding: 15px 50px 15px 15px; } }\n@font-face {\n  font-family: 'vollkorn-regular';\n  src: url(\"../../static/fonts/vollkorn/Vollkorn-Regular.ttf\") format(\"truetype\"); }\n@font-face {\n  font-family: 'vollkorn-bold';\n  src: url(\"../../static/fonts/vollkorn/Vollkorn-Bold.ttf\") format(\"truetype\"); }\n@font-face {\n  font-family: 'vollkorn-black';\n  src: url(\"../../static/fonts/vollkorn/Vollkorn-Black.ttf\") format(\"truetype\"); }\n@font-face {\n  font-family: 'OpenSans-regular';\n  src: url(\"../../static/fonts/open-sans/OpenSans-Regular.ttf\") format(\"truetype\"); }\n@font-face {\n  font-family: 'OpenSand-bold';\n  src: url(\"../../static/fonts/open-sans/Volkron-Bold.ttf\") format(\"truetype\"); }\n.nav-desktop .nav-desktop-left .logo, .nav-index .nav-desktop-left .logo, .btn-block-white, .btn-block-purple {\n  display: block;\n  width: 100%; }\n.nav-desktop .nav-desktop-left, .nav-index .nav-desktop-left {\n  float: left;\n  margin-right: auto; }\n.nav-desktop .nav-desktop-left .logo, .nav-index .nav-desktop-left .logo {\n    font-size: 1.3em;\n    background-image: url(http://res.cloudinary.com/sportbay-co/image/upload/v1525431685/charisol-logo_purple_l5mn4v.svg);\n    background-position: left;\n    background-size: contain;\n    background-repeat: no-repeat;\n    margin-left: 20px;\n    width: 130px;\n    height: 75px; }\n.nav-desktop .nav-desktop-left .logo img, .nav-index .nav-desktop-left .logo img {\n      display: none;\n      max-height: 15px;\n      position: relative;\n      top: -5px; }\n.nav-desktop .hamburger, .nav-index .hamburger {\n  float: right;\n  cursor: pointer;\n  width: 40px;\n  padding: 10px; }\n.nav-desktop .hamburger span, .nav-index .hamburger span {\n    display: block;\n    margin-bottom: 4px;\n    background-color: black;\n    border: 1px solid black;\n    -webkit-transition: all 0.4s cubic-bezier(0.895, 0.03, 0.685, 0.22);\n    transition: all 0.4s cubic-bezier(0.895, 0.03, 0.685, 0.22); }\n.nav-desktop .hamburger .last-child, .nav-index .hamburger .last-child {\n    margin-bottom: 0; }\n.nav-desktop .hamburger:hover .first-child, .nav-index .hamburger:hover .first-child,\n.nav-desktop .hamburger:hover .last-child,\n.nav-index .hamburger:hover .last-child {\n  -webkit-transform: scaleX(0.7);\n          transform: scaleX(0.7); }\n.btn-clear-purple, .btn-clear-white, footer .links li a, .btn-trans-white, .btn-block-white, .btn-block-purple, .btn-curve-purple, .btn-curve-white, .nav-desktop .links li a {\n  -webkit-transition: 0.4s;\n  transition: 0.4s; }\n.btn-clear-purple, .btn-clear-white {\n  padding: 0;\n  margin: 0;\n  border: 0;\n  font-size: 1.2em;\n  position: relative;\n  text-decoration: none; }\n.btn-clear-purple img, .btn-clear-white img {\n    height: 10px;\n    margin-left: 10px; }\n.btn-clear-purple:hover, .btn-clear-white:hover {\n    -webkit-transform: translateY(-1px);\n            transform: translateY(-1px); }\nhtml, body {\n  height: 100%; }\nbody {\n  font-family: 'OpenSans-regular', sans-serif;\n  color: #222222;\n  overflow-x: hidden; }\nbutton {\n  background: transparent; }\nbutton:visited, button:focus {\n    outline: 0; }\nfooter {\n  padding: 20px 50px 70px 50px;\n  background: white; }\nfooter .nav-desktop-left {\n    float: left; }\nfooter .nav-desktop-left .logo {\n      text-decoration: none;\n      font-size: 1.3em;\n      display: block;\n      height: 85px;\n      width: 120px;\n      background-image: url(http://res.cloudinary.com/sportbay-co/image/upload/v1525431685/charisol-logo_purple_l5mn4v.svg);\n      background-position: left;\n      background-size: contain;\n      background-repeat: no-repeat; }\nfooter .nav-desktop-left .logo img {\n        max-height: 15px;\n        position: relative;\n        top: 15px; }\nfooter .links {\n    float: right;\n    margin-top: 5px; }\nfooter .links ul {\n      list-style: none;\n      padding: 0;\n      margin: 0; }\nfooter .links li {\n      display: inline-block;\n      padding: 0 15px; }\nfooter .links li a {\n        opacity: 0.9;\n        font-weight: 300;\n        text-decoration: none;\n        color: #4D4D4D; }\nfooter .links li a:hover {\n        opacity: 1; }\nfooter .links li img {\n        height: 30px;\n        position: relative;\n        top: 10px; }\n.close {\n  display: block;\n  width: 25px;\n  height: 25px;\n  background-position: center;\n  background-size: contain;\n  margin: 0 auto;\n  margin-right: 0px;\n  -webkit-transition: all 0.4s cubic-bezier(0.895, 0.03, 0.685, 0.22);\n  transition: all 0.4s cubic-bezier(0.895, 0.03, 0.685, 0.22);\n  margin-bottom: 40px; }\n.close-white {\n  background-image: url(\"http://res.cloudinary.com/sportbay-co/image/upload/v1525969277/close-white_vgyzjt.svg\"); }\n.close-red {\n  background-image: url(\"../../static/img/close-red.svg\");\n  width: 18px;\n  height: 18px; }\n.close:hover {\n  -webkit-transform: rotate(90deg);\n          transform: rotate(90deg); }\n.smooth-scroll {\n  position: absolute;\n  -webkit-transition: -webkit-transform 0.4s ease-out;\n  transition: -webkit-transform 0.4s ease-out;\n  transition: transform 0.4s ease-out;\n  transition: transform 0.4s ease-out, -webkit-transform 0.4s ease-out; }\n.bold {\n  font-family: 'OpenSans-Bold', sans-serif; }\n.light {\n  font-size: 12px;\n  opacity: 0.6;\n  font-family: 'proxima-nova-light', sans-serif; }\n.heading-wrapper, .sub-text-wrapper {\n  display: block;\n  overflow: hidden;\n  margin-bottom: 40px; }\n.heading-wrapper {\n  padding-top: 10px; }\n.sub-text-wrapper {\n  margin-bottom: 30px; }\n.heading {\n  font-family: 'vollkorn-bold', 'serif';\n  color: #B721FF;\n  font-size: 44px;\n  -webkit-transition: all 0.9s cubic-bezier(0.175, 0.885, 0.32, 1.275);\n  transition: all 0.9s cubic-bezier(0.175, 0.885, 0.32, 1.275);\n  -webkit-transition-delay: 0.25s;\n          transition-delay: 0.25s;\n  margin: 0px; }\n.sub-text {\n  margin-bottom: 0px;\n  -webkit-transition: all 0.7s cubic-bezier(0.77, 0, 0.175, 1);\n  transition: all 0.7s cubic-bezier(0.77, 0, 0.175, 1);\n  -webkit-transition-delay: 0.45s;\n          transition-delay: 0.45s; }\n.heading.no-reveal {\n  -webkit-transform: translate3d(0px, 115%, 0px);\n          transform: translate3d(0px, 115%, 0px);\n  opacity: 0; }\n.sub-text.no-reveal {\n  -webkit-transform: translate3d(0px, -115%, 0px);\n          transform: translate3d(0px, -115%, 0px);\n  opacity: 0; }\n.heading.reveal, .sub-text.reveal {\n  -webkit-transform: translate3d(0px, 0%, 0px);\n          transform: translate3d(0px, 0%, 0px);\n  opacity: 1; }\n.m-b-sm {\n  margin-bottom: 10px; }\n.m-b-md {\n  margin-bottom: 20px; }\n.m-b-lg {\n  margin-bottom: 40px; }\n.m-b-xl {\n  margin-bottom: 60px; }\n.m-l-sm {\n  margin-left: 10px; }\n.m-r-md {\n  margin-right: 20px; }\n.m-t-md {\n  margin-top: 20px; }\n.m-t-lg {\n  margin-top: 40px; }\n.m-t-xl {\n  margin-top: 60px; }\n.btn-clear-purple {\n  color: #B721FF; }\n.btn-clear-purple:hover {\n    color: #B721FF; }\n.btn-clear-white {\n  color: white; }\n.btn-clear-white:hover {\n    color: white; }\n.btn-trans-white {\n  color: white;\n  display: block;\n  width: 180px;\n  border: 1px solid white;\n  border-radius: 40px;\n  background: transparent;\n  text-align: center;\n  padding: 10px 25px;\n  -webkit-transition: -webkit-transform 0.4s;\n  transition: -webkit-transform 0.4s;\n  transition: transform 0.4s;\n  transition: transform 0.4s, -webkit-transform 0.4s; }\n.btn-trans-white:hover {\n    color: #222222 !important;\n    background: white;\n    -webkit-transform: scale(0.9);\n            transform: scale(0.9); }\n.btn-block-white {\n  -webkit-box-shadow: -1px 1px 1px 1px rgba(0, 0, 0, 0.1);\n          box-shadow: -1px 1px 1px 1px rgba(0, 0, 0, 0.1);\n  color: #B721FF;\n  display: block;\n  width: 180px;\n  border: 1px solid white;\n  border-radius: 3px;\n  background: transparent;\n  text-align: center;\n  padding: 5px 25px;\n  -webkit-transition: -webkit-transform 0.4s;\n  transition: -webkit-transform 0.4s;\n  transition: transform 0.4s;\n  transition: transform 0.4s, -webkit-transform 0.4s; }\n.btn-block-white:hover {\n    color: white !important;\n    background: #B721FF;\n    -webkit-transform: scale(0.9);\n            transform: scale(0.9); }\n.btn-block-purple {\n  color: white;\n  display: block;\n  width: 180px;\n  border: 1px solid transparent;\n  border-radius: 3px;\n  background: #B721FF;\n  text-align: center;\n  padding: 15px;\n  -webkit-transition: -webkit-transform 0.4s;\n  transition: -webkit-transform 0.4s;\n  transition: transform 0.4s;\n  transition: transform 0.4s, -webkit-transform 0.4s; }\n.btn-block-purple:hover {\n    color: white !important;\n    background: #B721FF;\n    -webkit-transform: scale(0.9);\n            transform: scale(0.9); }\n.btn-curve-purple img, .btn-curve-white img {\n  margin-left: 10px; }\n.btn-curve-purple {\n  color: white;\n  display: block;\n  width: 180px;\n  border: 1px solid transparent;\n  border-radius: 40px;\n  background: #B721FF;\n  text-align: center;\n  padding: 15px 15px;\n  -webkit-transition: -webkit-transform 0.4s;\n  transition: -webkit-transform 0.4s;\n  transition: transform 0.4s;\n  transition: transform 0.4s, -webkit-transform 0.4s;\n  text-decoration: none; }\n.btn-curve-purple:hover {\n    color: white !important;\n    background: #B721FF;\n    -webkit-transform: scale(0.9);\n            transform: scale(0.9); }\n.btn-curve-white {\n  color: #B721FF;\n  display: block;\n  width: 180px;\n  border: 1px solid transparent;\n  border-radius: 40px;\n  background: white;\n  text-align: center;\n  padding: 15px 15px;\n  -webkit-transition: -webkit-transform 0.4s;\n  transition: -webkit-transform 0.4s;\n  transition: transform 0.4s;\n  transition: transform 0.4s, -webkit-transform 0.4s;\n  text-decoration: none; }\n.btn-curve-white:hover {\n    color: #B721FF !important;\n    background: white;\n    -webkit-transform: scale(0.9);\n            transform: scale(0.9); }\n.text-center {\n  text-align: center; }\n.content-cover {\n  display: none;\n  z-index: 10;\n  position: absolute;\n  right: 0;\n  width: 100%;\n  height: 100%;\n  background: rgba(0, 0, 0, 0.6); }\n#panel {\n  background: white; }\n.modal input, .modal textarea, .modal select, .modal fieldset {\n  margin-bottom: 1rem; }\n.modal textarea {\n  height: auto; }\n.blocker {\n  z-index: 11; }\n.full {\n  display: block;\n  width: 100%; }\n.nav-desktop {\n  font-size: 1em;\n  left: 0;\n  padding: 15px 30px;\n  position: absolute;\n  right: 0;\n  top: 0;\n  z-index: 10;\n  background: #B721FF; }\n.nav-desktop .icon {\n    margin-right: 5px;\n    height: 12px;\n    position: relative;\n    top: -2px; }\n.nav-desktop .links {\n    float: left;\n    margin-left: 100px;\n    margin-top: 5px; }\n.nav-desktop .links ul {\n      list-style: none;\n      padding: 0;\n      margin: 0; }\n.nav-desktop .links li {\n      display: inline-block;\n      padding: 0 15px; }\n.nav-desktop .links li a {\n        opacity: 0.9;\n        font-weight: 300;\n        color: white;\n        text-decoration: none; }\n.nav-desktop .links li a:hover {\n        opacity: 1; }\n.nav-index {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center; }\n.nav-index .hamburger {\n    margin-left: auto; }\n.nav-top {\n  -webkit-box-shadow: -1px 1px 3px 3px rgba(0, 0, 0, 0.1);\n          box-shadow: -1px 1px 3px 3px rgba(0, 0, 0, 0.1);\n  padding: 0px 40px 0px 40px;\n  height: 75px; }\n.nav-top .hamburger {\n    margin-top: 25px;\n    padding-top: 5px; }\n.menu, .profile {\n  display: none !important; }\n.menu {\n  width: 400px;\n  padding: 60px;\n  background: #2b2b2b;\n  text-align: right;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box; }\n.menu .close {\n    cursor: pointer;\n    color: white;\n    font-size: 0.6em; }\n.menu ul {\n    padding: 0;\n    margin: 0;\n    list-style: none; }\n.menu li {\n    font-size: 2em;\n    margin-bottom: 20px; }\n.menu li.active img {\n      height: 10px;\n      margin-right: 20px;\n      position: relative;\n      top: -5px; }\n.menu a {\n    color: #FFFFFF;\n    text-decoration: none; }\n.menu a:hover {\n      color: #FFFFFF;\n      text-decoration: none; }\n.menu a:visited, .menu a:focus {\n      color: #FFFFFF;\n      text-decoration: none; }\n.menu a:hover {\n    color: #c038e0;\n    text-decoration: none; }\n.menu a:hover:hover {\n      color: #c038e0;\n      text-decoration: none; }\n.menu a:hover:visited, .menu a:hover:focus {\n      color: #c038e0;\n      text-decoration: none; }\n.menu p {\n    font-size: 0.6em; }\n.menu .btn-trans-white {\n    margin: 0 auto;\n    font-size: 17px;\n    margin-top: 80px; }\n.show {\n  display: block !important; }\n.mobile {\n  width: 300px;\n  padding: 40px; }\n.mobile .btn-trans-white {\n    font-size: 0.8em; }\n.profile {\n  width: 400px;\n  padding: 20px;\n  background: white;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box; }\n.profile h5 {\n    margin-bottom: 0; }\n.profile .head {\n    border-bottom: 1px solid #A3A3A3;\n    padding-bottom: 6px;\n    margin-bottom: 30px; }\n.profile .head h5 {\n      display: inline-block; }\n.profile .head span {\n      float: right;\n      margin-right: 20px;\n      color: crimson;\n      cursor: pointer; }\n.profile .blue-badge {\n    background: #B721FF;\n    font-size: 0.8em;\n    padding: 5px 10px;\n    border-radius: 20px;\n    color: white; }\n.profile .circle {\n    background: white;\n    padding: 5px;\n    border-radius: 50%;\n    margin-right: 10px;\n    display: inline-block; }\n.profile .top-info img {\n    height: 130px; }\n.profile .top-info p {\n    margin-bottom: 10px; }\n.profile .skills-heading {\n    font-size: 13px;\n    margin-top: 30px;\n    margin-bottom: 5px; }\n.profile .skill-text {\n    margin-top: 0px; }\n.profile .experience-heading {\n    margin-top: 20px;\n    margin-bottom: 0px; }\n.profile .experience-website {\n    color: #B721FF;\n    font-size: 12px;\n    display: block;\n    margin-bottom: 15px; }\n.profile .experience-role {\n    margin-top: 0px;\n    margin-bottom: 2px; }\n.profile .experience-period {\n    margin-top: 0px;\n    margin-bottom: 20px;\n    font-size: 12px; }\n.profile .experience-role-ul {\n    list-style-position: outside;\n    padding-left: 20px; }\n.profile .experience-role-ul li {\n      margin-bottom: 20px; }\n.menu {\n  display: none; }\n.index {\n  background: white; }\n.index .top-wrapper {\n    background: url(../img/bg_left_semi.svg) no-repeat top left;\n    background-size: 60%;\n    padding: 20px;\n    min-height: 95vh;\n    position: relative;\n    z-index: 5; }\n.index .intro {\n    background: white;\n    width: 100%;\n    min-height: inherit; }\n.index .intro .text-content {\n      margin-top: 100px;\n      padding: 0 50px; }\n.index .intro .six.columns:first-child {\n      padding: 20px 0 20px 20px; }\n.index .intro p {\n      color: #222222; }\n.index .intro .intro-content-wrapper {\n      min-height: inherit; }\n.index .intro .intro-content-wrapper .left-pane {\n        min-height: inherit;\n        display: -webkit-box;\n        display: -ms-flexbox;\n        display: flex;\n        -webkit-box-orient: vertical;\n        -webkit-box-direction: normal;\n            -ms-flex-direction: column;\n                flex-direction: column;\n        -webkit-box-pack: start;\n            -ms-flex-pack: start;\n                justify-content: flex-start; }\n.index .intro .intro-content-wrapper .left-pane .text-content {\n          -webkit-box-flex: 2;\n              -ms-flex: 2;\n                  flex: 2;\n          -webkit-box-pack: center;\n              -ms-flex-pack: center;\n                  justify-content: center;\n          display: -webkit-box;\n          display: -ms-flexbox;\n          display: flex;\n          -webkit-box-orient: vertical;\n          -webkit-box-direction: normal;\n              -ms-flex-direction: column;\n                  flex-direction: column;\n          padding-bottom: 60px;\n          margin-top: 0px; }\n.index .intro .intro-content-wrapper .left-pane .text-content .btn-curve-purple {\n            display: block;\n            width: 200px;\n            padding: 15px 20px;\n            text-align: center;\n            -webkit-transition: -webkit-transform 0.4s;\n            transition: -webkit-transform 0.4s;\n            transition: transform 0.4s;\n            transition: transform 0.4s, -webkit-transform 0.4s; }\n.index .intro .intro-content-wrapper .left-pane .text-content .btn-curve-purple:hover {\n            -webkit-transform: scale(0.9);\n                    transform: scale(0.9); }\n.index .intro .intro-content-wrapper .right-pane {\n        min-height: inherit;\n        overflow: hidden; }\n.index .intro .intro-content-wrapper .right-pane .top-img-wrapper {\n          overflow: hidden;\n          width: 100%;\n          min-height: inherit;\n          background-color: #333333;\n          -webkit-transform: scale(1.05);\n                  transform: scale(1.05);\n          -webkit-transform-origin: -100% 50%;\n                  transform-origin: -100% 50%;\n          -webkit-transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1);\n          transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1);\n          -webkit-transition-delay: 0.4s;\n                  transition-delay: 0.4s; }\n.index .intro .intro-content-wrapper .right-pane .top-img {\n          min-height: inherit;\n          -webkit-transform: translate3d(0px, 0px, 0px);\n                  transform: translate3d(0px, 0px, 0px);\n          -webkit-transition: all 1s cubic-bezier(0.23, 1, 0.32, 1);\n          transition: all 1s cubic-bezier(0.23, 1, 0.32, 1);\n          -webkit-transition-delay: 0.7s;\n                  transition-delay: 0.7s; }\n.index .intro .intro-content-wrapper .right-pane .top-img-wrapper.no-reveal {\n          -webkit-transform: scaleX(0.89);\n                  transform: scaleX(0.89); }\n.index .intro .intro-content-wrapper .right-pane .top-img-wrapper.no-reveal .top-img {\n            -webkit-transform: translate3d(-120%, 0px, 0px);\n                    transform: translate3d(-120%, 0px, 0px); }\n.index .top-img {\n    background: url(http://res.cloudinary.com/sportbay-co/image/upload/v1525424030/bg_top_qzynai.jpg) no-repeat top !important;\n    background-size: cover !important;\n    height: calc(100vh - 50px) !important; }\n.index .scale {\n    margin-top: 100px;\n    margin-bottom: 80px;\n    position: relative;\n    z-index: 2; }\n.index .scale .text-content {\n      margin-top: 0px;\n      padding: 0 50px; }\n.index .scale .sub-text {\n      color: #222222; }\n.index .scale .section-2-wrapper {\n      padding-top: 50px; }\n.index .scale .section-2-wrapper .image-wrapper-container {\n        padding: 1px 8%;\n        overflow: hidden;\n        -webkit-box-sizing: border-box;\n                box-sizing: border-box;\n        height: 700px;\n        position: relative; }\n.index .scale .section-2-wrapper .image-wrapper-container .clear-div-container {\n          overflow: hidden;\n          height: 100%;\n          width: 100%; }\n.index .scale .section-2-wrapper .image-wrapper-container .clear-div {\n          height: 100%;\n          width: 100%;\n          overflow: hidden;\n          background-color: #333333;\n          -webkit-transform: scaleX(1);\n                  transform: scaleX(1);\n          -webkit-transform-origin: -100% 50%;\n                  transform-origin: -100% 50%;\n          -webkit-transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1);\n          transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1); }\n.index .scale .section-2-wrapper .image-wrapper-container .image-wrapper {\n          height: 100%;\n          width: 100%;\n          top: 0;\n          left: 0;\n          right: 0;\n          -webkit-transform: translate3d(0px, 0%, 0px) scale(1.1);\n                  transform: translate3d(0px, 0%, 0px) scale(1.1);\n          -webkit-transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1);\n          transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1);\n          -webkit-transition-delay: 0.4s;\n                  transition-delay: 0.4s;\n          background-position: center;\n          background-size: cover; }\n.index .scale .section-2-wrapper .image-wrapper-container .image-wrapper:hover {\n          -webkit-transform: scale(1.05);\n                  transform: scale(1.05); }\n.index .scale .section-2-wrapper .image-wrapper-container.no-reveal .clear-div {\n        -webkit-transform: scaleX(0.67);\n                transform: scaleX(0.67); }\n.index .scale .section-2-wrapper .image-wrapper-container.no-reveal .image-wrapper {\n        -webkit-transform: translate3d(-120%, 0%, 0px);\n                transform: translate3d(-120%, 0%, 0px); }\n.index .scale .section-2-wrapper .text-wrapper {\n        margin-top: 150px;\n        margin-left: 0px; }\n.index .simple {\n    color: white;\n    position: relative;\n    z-index: 1;\n    background: url(../img/bg_left_shape.svg) no-repeat top left; }\n.index .simple .text-content {\n      margin-top: 100px;\n      padding: 0 50px; }\n.index .simple .row {\n      background-size: 70%;\n      position: relative;\n      z-index: 1;\n      padding: 70px 0px; }\n.index .simple .row .text-content {\n        padding: 0px 60px;\n        padding-right: 130px; }\n.index .simple .row .text-content .heading {\n          margin-bottom: 0px;\n          color: #ffffff; }\n.index .simple p {\n      padding-right: 30px; }\n.index .simple .sub-title {\n      font-size: 1.25em;\n      font-weight: 600;\n      margin-bottom: 10px; }\n.index .simple .five.columns:nth-child(2) img {\n      height: 600px;\n      margin-top: 70px; }\n.index .simple .purple-bg {\n      background: rgba(183, 33, 255, 0.1);\n      height: 300px;\n      position: absolute;\n      bottom: 0px;\n      z-index: 0;\n      display: block;\n      width: 100%; }\n.index .benefits {\n    padding: 120px 0;\n    padding-bottom: 200px;\n    display: block;\n    width: 100%;\n    background: rgba(183, 33, 255, 0.1); }\n.index .benefits .heading {\n      margin-bottom: 0px; }\n.index .benefits .content {\n      padding: 0 150px;\n      padding-top: 100px;\n      padding-bottom: 100px; }\n.index .benefits .content .h5 {\n        font-weight: 800; }\n.index .benefits .p {\n      opacity: 0.75; }\n.index .bottom-banner-wrapper {\n    min-height: 100px;\n    width: 100%;\n    -webkit-transform: translateY(-120px);\n            transform: translateY(-120px); }\n.index .bottom-banner-wrapper .img-wrapper {\n      width: 65%;\n      min-height: 400px;\n      padding-top: 30px;\n      padding-bottom: 30px;\n      border-radius: 10px;\n      margin: 0 auto;\n      background-image: url(\"../img/banner-img.jpg\");\n      background-position: center;\n      background-size: cover;\n      color: white;\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -webkit-box-orient: vertical;\n      -webkit-box-direction: normal;\n          -ms-flex-direction: column;\n              flex-direction: column;\n      -webkit-box-pack: center;\n          -ms-flex-pack: center;\n              justify-content: center;\n      -webkit-box-align: center;\n          -ms-flex-align: center;\n              align-items: center; }\n.index .bottom-banner-wrapper .img-wrapper .banner-text {\n        font-size: 24px;\n        display: block;\n        width: 65%;\n        -webkit-transition: all 0.6s ease-out;\n        transition: all 0.6s ease-out;\n        text-align: center; }\n.index .bottom-banner-wrapper .img-wrapper .banner-text.no-reveal {\n        opacity: 0; }\n.index .bottom-banner-wrapper .img-wrapper banner-text.reveal {\n        opacity: 1; }\n.index .bottom-banner-wrapper .img-wrapper .start-project-btn {\n        padding: 15px 40px;\n        color: #333333; }\n.index .bottom-banner-wrapper .img-wrapper .start-project-btn:hover {\n        color: #333333 !important; }\n.index .cd-testimonials-wrapper {\n    position: relative;\n    width: 90%;\n    max-width: 60%;\n    margin: 2em auto;\n    -webkit-font-smoothing: antialiased;\n    -moz-osx-font-smoothing: grayscale;\n    padding: 20px 40px 70px;\n    z-index: 1; }\n.index .cd-testimonials-wrapper::after {\n    /* quotation mark */\n    content: '\\201C';\n    position: absolute;\n    top: 10px;\n    left: 0;\n    width: 50px;\n    height: 50px;\n    padding-top: 8px;\n    margin-left: -25px;\n    background: #c038e0;\n    font-family: \"Georgia\", serif;\n    color: #ffffff;\n    font-size: 70px;\n    font-size: 4.375rem;\n    text-align: center;\n    /* visible on big devices only */\n    display: none; }\n@media only screen and (min-width: 768px) {\n    .index .cd-testimonials-wrapper {\n      margin: 0em auto;\n      padding: 0px 50px 114px; } }\n@media only screen and (min-width: 1170px) {\n    .index .cd-testimonials-wrapper::after {\n      /* quotation mark visible */\n      display: block; }\n    .index .cd-testimonials-wrapper {\n      margin: 0em auto;\n      padding: 0px 50px 114px; } }\n.index .cd-testimonials {\n    color: #000000;\n    text-align: center; }\n.index .cd-testimonials::after {\n    clear: both;\n    content: \"\";\n    display: table; }\n.index .cd-testimonials > li {\n    position: absolute;\n    opacity: 0; }\n.index .cd-testimonials > li:first-child {\n    position: relative;\n    opacity: 1; }\n.index .cd-testimonials p {\n    font-family: \"Georgia\", serif;\n    font-style: italic;\n    line-height: 1.4;\n    margin-bottom: 1em;\n    padding: 0 14px; }\n@media only screen and (min-width: 768px) {\n    .index .cd-testimonials p {\n      font-size: 22px;\n      font-size: 1.375rem; } }\n@media only screen and (min-width: 1170px) {\n    .index .cd-testimonials p {\n      font-size: 26px;\n      font-size: 2.625rem;\n      line-height: 1.6; } }\n@media only screen and (min-width: 300px) {\n    .index .recommendee-developer img {\n      height: 40px !important;\n      width: 40px !important;\n      border-radius: 50%;\n      border: 3px solid #fff; }\n    .index .recommendee-developer p {\n      font-size: 10px; }\n    .index .cd-author img {\n      width: 32px;\n      height: 32px;\n      border-radius: 50%;\n      margin-right: 5px;\n      border: 3px solid #fff; } }\n.index .cd-author img, .index .cd-author .cd-author-info {\n    display: inline-block;\n    vertical-align: middle; }\n.index .cd-author img {\n    width: 32px;\n    height: 32px;\n    border-radius: 50%;\n    margin-right: 5px;\n    border: 3px solid #fff; }\n.index .cd-author .cd-author-info {\n    text-align: left;\n    line-height: 1.2;\n    list-style-type: none;\n    margin: 0.5rem 0 -0.3rem 0rem; }\n.index .cd-author .cd-author-info li:first-child {\n    font-size: 14px;\n    font-size: 0.875rem;\n    line-height: 0px; }\n.index .cd-author .cd-author-info li:last-child {\n    font-size: 12px;\n    font-size: 0.75rem;\n    color: #6b6b70; }\n@media only screen and (min-width: 768px) {\n    .index .cd-author img {\n      width: 50px;\n      height: 50px; }\n    .index .cd-author .cd-author-info {\n      line-height: 1.4; }\n    .index .cd-author .cd-author-info li:first-child {\n      font-size: 16px;\n      font-size: 2rem;\n      line-height: 0px; }\n    .index .cd-author .cd-author-info li:last-child {\n      font-size: 14px;\n      font-size: 0.975rem; }\n    .index .recommendee-developer img {\n      height: 100px !important;\n      width: 100px !important;\n      border-radius: 50%;\n      border: 3px solid #fff; }\n    .index .recommendee-developer p {\n      font-size: 15px; } }\n.index .flex-direction-nav li {\n    position: absolute;\n    height: 100%;\n    width: 40px;\n    top: 0;\n    list-style-type: none; }\n.index .flex-direction-nav li:first-child {\n    left: 0; }\n.index .flex-direction-nav li:last-child {\n    right: 0; }\n.index .flex-direction-nav li a {\n    display: block;\n    height: 100%;\n    width: 100%;\n    /* image replacement */\n    overflow: hidden;\n    text-indent: 100%;\n    white-space: nowrap;\n    -webkit-transition: background-color 0.2s;\n    transition: background-color 0.2s; }\n.index .no-touch .flex-direction-nav li a:hover {\n    background-color: #323234; }\n.index .flex-direction-nav li a::before, .index .flex-direction-nav li a::after {\n    /* left and right arrows in css only */\n    content: '';\n    position: absolute;\n    left: 50%;\n    top: 50%;\n    width: 2px;\n    height: 13px;\n    background-color: #ffffff; }\n.index .flex-direction-nav li a::before {\n    -webkit-transform: translateY(-35px) rotate(45deg);\n    transform: translateY(-35px) rotate(45deg); }\n.index .flex-direction-nav li a::after {\n    -webkit-transform: translateY(-27px) rotate(-45deg);\n    transform: translateY(-27px) rotate(-45deg); }\n.index .flex-direction-nav li:last-child a::before {\n    -webkit-transform: translateY(-35px) rotate(-45deg);\n    transform: translateY(-35px) rotate(-45deg); }\n.index .flex-direction-nav li:last-child a::after {\n    -webkit-transform: translateY(-27px) rotate(45deg);\n    transform: translateY(-27px) rotate(45deg); }\n@media only screen and (min-width: 768px) {\n    .index .flex-direction-nav li {\n      width: 50px; } }\n@media only screen and (min-width: 1170px) {\n    .index .flex-direction-nav li a::before, .index .flex-direction-nav li a::after {\n      background-color: #5e5e63;\n      -webkit-transition: background-color 0.2s;\n      transition: background-color 0.2s; }\n    .index .flex-direction-nav li a:hover::before, .index .flex-direction-nav li a:hover::after {\n      background-color: #ffffff; } }\n@media only screen and (min-width: 768px) {\n    .index .cd-testimonials-all .cd-testimonials-item {\n      width: 46%;\n      margin: 0 2% 3em; }\n    .index .cd-testimonials-all .cd-author {\n      margin-left: 1em; } }\n@media only screen and (min-width: 1170px) {\n    .index .cd-testimonials-all .cd-testimonials-item {\n      width: 30%;\n      margin: 0 1.6666% 3em; } }\n.index .testimonial {\n    border-right: 4px solid #cd5bb9;\n    -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);\n            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);\n    padding: 30px 30px 30px 130px;\n    margin: 0 15px 30px 15px;\n    overflow: hidden;\n    position: relative;\n    background: #fff; }\n.index .testimonial:before {\n    content: \"\";\n    position: absolute;\n    bottom: -4px;\n    left: -17px;\n    border-top: 25px solid #cd5bb9;\n    border-left: 25px solid transparent;\n    border-right: 25px solid transparent;\n    -webkit-transform: rotate(45deg);\n            transform: rotate(45deg); }\n.index .testimonial:after {\n    content: \"\";\n    position: absolute;\n    top: -4px;\n    left: -17px;\n    border-top: 25px solid #cd5bb9;\n    border-left: 25px solid transparent;\n    border-right: 25px solid transparent;\n    -webkit-transform: rotate(135deg);\n            transform: rotate(135deg); }\n.index .testimonial .pic {\n    display: inline-block;\n    width: 80px;\n    height: 80px;\n    border-radius: 50%;\n    overflow: hidden;\n    position: absolute;\n    top: 60px;\n    left: 20px; }\n.index .testimonial .pic img {\n    width: 100%;\n    height: auto; }\n.index .testimonial .description {\n    font-size: 15px;\n    letter-spacing: 1px;\n    color: #6f6f6f;\n    line-height: 25px;\n    margin-bottom: 15px; }\n.index .testimonial .title {\n    display: inline-block;\n    font-size: 14px;\n    font-weight: 700;\n    text-transform: uppercase;\n    letter-spacing: 1px;\n    color: #cd5bb9;\n    margin: 0; }\n.index .testimonial .post {\n    display: inline-block;\n    font-size: 14px;\n    color: #000000;\n    font-style: italic; }\n.index .owl-theme .owl-controls .owl-page span {\n    border: 2px solid #2A3D7D;\n    background: #fff !important;\n    border-radius: 0 !important;\n    opacity: 1; }\n.index .owl-theme .owl-controls .owl-page.active span,\n  .index .owl-theme .owl-controls .owl-page:hover span {\n    background: #000000 !important;\n    border-color: #000000; }\n@media only screen and (max-width: 767px) {\n    .index .testimonial {\n      padding: 20px;\n      text-align: center; }\n    .index .testimonial .pic {\n      display: block;\n      position: static;\n      margin: 0 auto 15px; } }\n.contact {\n  min-height: calc(100vh - 400px);\n  background: white; }\n.contact .text-content {\n    margin-top: 50px;\n    padding: 0 50px; }\n.contact img {\n    height: calc(100vh - 200px); }\n.contact h6 {\n    color: #B721FF;\n    margin-bottom: 5px; }\n.contact .content {\n    padding: 50px 50px 0 50px; }\n.contact .text-content {\n    padding-left: 0; }\n.pricing {\n  min-height: calc(100vh - 400px);\n  background: white; }\n.pricing .pricing-text-wrapper {\n    width: 70%;\n    margin: 0 auto;\n    text-align: left; }\n.pricing .pricing-text-wrapper a {\n      margin-top: 55px; }\n.pricing .nine {\n    background: rgba(183, 33, 255, 0.1);\n    margin-top: 50px; }\n.pricing .pricing-wrapper {\n    margin: 0 auto;\n    margin-top: 50px;\n    margin-bottom: 200px; }\n.pricing .pricing-wrapper .pricing-wrapper-container {\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -ms-flex-wrap: wrap;\n          flex-wrap: wrap;\n      margin-top: 50px;\n      -webkit-box-pack: center;\n          -ms-flex-pack: center;\n              justify-content: center; }\n.pricing .pricing-wrapper .pricing-wrapper-container .columns {\n        width: 25%;\n        padding: 15px;\n        margin-left: 0px; }\n.pricing .pricing-wrapper .pricing-wrapper-container .columns .tile {\n          background: rgba(183, 33, 255, 0.1);\n          height: 100%;\n          padding: 25px;\n          min-height: 100px;\n          display: -webkit-box;\n          display: -ms-flexbox;\n          display: flex;\n          -webkit-box-orient: vertical;\n          -webkit-box-direction: normal;\n              -ms-flex-direction: column;\n                  flex-direction: column;\n          -webkit-transition: all 0.35s ease-out;\n          transition: all 0.35s ease-out;\n          border-radius: 8px; }\n.pricing .pricing-wrapper .pricing-wrapper-container .columns .tile .icon-container {\n            height: 70px;\n            background-size: contain;\n            background-repeat: no-repeat;\n            background-position: center;\n            margin-bottom: 40px;\n            margin-top: 10px; }\n.pricing .pricing-wrapper .pricing-wrapper-container .columns .tile .text-wrapper {\n            -webkit-box-flex: 2;\n                -ms-flex: 2;\n                    flex: 2; }\n.pricing .pricing-wrapper .pricing-wrapper-container .columns .tile .text-wrapper h2 {\n              font-size: 3.1rem;\n              margin-bottom: 15px;\n              display: block; }\n.pricing .pricing-wrapper .pricing-wrapper-container .columns .tile .btn-container {\n            display: block; }\n.pricing .pricing-wrapper .pricing-wrapper-container .columns .tile .btn-container .btn-curve-purple {\n              margin: 0 auto;\n              width: 85%;\n              padding: 15px 0px; }\n.pricing .pricing-wrapper .pricing-wrapper-container .columns .tile.active {\n          -webkit-box-shadow: 0px 0px 20px rgba(128, 100, 255, 0.15);\n                  box-shadow: 0px 0px 20px rgba(128, 100, 255, 0.15);\n          -webkit-transform: scale(1.05, 1.08);\n                  transform: scale(1.05, 1.08);\n          padding-bottom: 30px; }\n.pricing .text-content {\n    padding-top: 70px; }\n.pricing .three.active {\n    -webkit-box-shadow: -1px 1px 5px 5px rgba(0, 0, 0, 0.1);\n            box-shadow: -1px 1px 5px 5px rgba(0, 0, 0, 0.1);\n    background: white; }\n.pricing .three.active img {\n      border: 1px solid rgba(183, 33, 255, 0.5);\n      border-radius: 50%; }\n.pricing .three.active .btn-block-white {\n      color: white;\n      background: #B721FF;\n      -webkit-box-shadow: none;\n              box-shadow: none; }\n.pricing .three.active .btn-block-white:hover {\n        color: white;\n        background: #B721FF; }\n.pricing .tile {\n    padding: 20px; }\n.pricing h5 {\n    font-size: 1.5em;\n    margin-bottom: 5px; }\n.pricing h2 {\n    margin: 0; }\n.pricing .content {\n    padding: 20px 50px; }\n.pricing .text-content {\n    padding-left: 0; }\n.pricing .pricing-title-span {\n    font-weight: bold;\n    line-height: 18px;\n    display: block; }\n.team {\n  background: white;\n  position: relative;\n  z-index: 2; }\n.team .core, .team .community {\n    background: url(http://res.cloudinary.com/sportbay-co/image/upload/v1525702594/bg_team_right_apemol.svg) no-repeat top right;\n    background-size: 32%;\n    position: relative;\n    z-index: 2;\n    padding: 50px 20px; }\n.team .core .text-content, .team .community .text-content {\n      margin-top: 200px;\n      padding: 0 50px; }\n.team .community {\n    background: url(http://res.cloudinary.com/sportbay-co/image/upload/v1525702594/bg_team_right_apemol.svg) no-repeat top left;\n    padding: 100px 20px; }\n.team .community .six:first-child {\n      padding: 0 50px; }\n.team .image-wrapper-container {\n    height: 630px;\n    overflow: hidden;\n    padding: 10px 100px; }\n.team .image-wrapper-container .image-wrapper {\n      width: 100%;\n      height: 100%;\n      background-color: #333333;\n      -webkit-transition-delay: 0.3s;\n              transition-delay: 0.3s;\n      -webkit-transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1);\n      transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1);\n      -webkit-transform: scaleX(1);\n              transform: scaleX(1);\n      overflow: hidden; }\n.team .image-wrapper-container .image-wrapper .image {\n        height: 100%;\n        background-repeat: no-repeat;\n        background-size: cover;\n        -webkit-transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1);\n        transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1);\n        -webkit-transition-delay: 0.5s;\n                transition-delay: 0.5s;\n        -webkit-transform: translate3d(0px, 0px, 0px) scale(1.07);\n                transform: translate3d(0px, 0px, 0px) scale(1.07); }\n.team .image-wrapper-container .image-wrapper.no-reveal {\n      -webkit-transform: scaleX(0.7);\n              transform: scaleX(0.7); }\n.team .image-wrapper-container .image-wrapper.no-reveal .image {\n        -webkit-transform: translate3d(-120%, 0px, 0px);\n                transform: translate3d(-120%, 0px, 0px); }\n.team .people-wrapper .purple-bg {\n    background: rgba(183, 33, 255, 0.1);\n    height: 100px;\n    position: absolute;\n    top: 478px;\n    z-index: 0;\n    display: block;\n    width: 100%; }\n.team .avatar-wrapper {\n    height: 280px;\n    background-color: #333333;\n    -webkit-transition-delay: 0.3s;\n            transition-delay: 0.3s;\n    -webkit-transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1);\n    transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1);\n    -webkit-transform: scaleX(1);\n            transform: scaleX(1);\n    overflow: hidden; }\n.team .avatar-wrapper .avatar {\n      height: 100%;\n      width: 100%;\n      background-position: center;\n      background-size: cover;\n      -webkit-filter: grayscale(90%);\n              filter: grayscale(90%);\n      margin-bottom: 10px;\n      -webkit-transition: -webkit-filter 0.6s;\n      transition: -webkit-filter 0.6s;\n      transition: filter 0.6s;\n      transition: filter 0.6s, -webkit-filter 0.6s;\n      -webkit-transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1);\n      transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1);\n      -webkit-transition-delay: 0.5s;\n              transition-delay: 0.5s;\n      -webkit-transform: translate3d(0px, 0px, 0px) scale(1.04);\n              transform: translate3d(0px, 0px, 0px) scale(1.04); }\n.team .avatar-wrapper .avatar:hover {\n      -webkit-filter: grayscale(10%);\n              filter: grayscale(10%); }\n.team .avatar-wrapper.no-reveal {\n    -webkit-transform: scaleX(0.7);\n            transform: scaleX(0.7); }\n.team .avatar-wrapper.no-reveal .avatar {\n      -webkit-transform: translate3d(-120%, 0px, 0px);\n              transform: translate3d(-120%, 0px, 0px); }\n.team .people {\n    background: rgba(183, 33, 255, 0.1);\n    padding: 100px 70px;\n    display: block; }\n.team .people #people-wrapper {\n      width: 85%;\n      margin: 0 auto;\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -ms-flex-wrap: wrap;\n          flex-wrap: wrap; }\n.team .people .tile {\n      width: 21%;\n      padding: 50px 2%;\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -webkit-box-orient: vertical;\n      -webkit-box-direction: normal;\n          -ms-flex-direction: column;\n              flex-direction: column; }\n.team .people .tile .text-wrap {\n        -webkit-box-flex: 2;\n            -ms-flex: 2;\n                flex: 2; }\n.team .people .tile .desc-text {\n        height: 310px;\n        overflow: hidden;\n        text-overflow: ellipsis; }\n.team .people .tile .team-profile-btn {\n        text-align: left; }\n.team .people p.light {\n      margin-bottom: 10px;\n      min-height: 50px; }\n.team .people h5 {\n      font-size: 1.5em;\n      margin-bottom: 5px; }\n.team .people .text-wrap {\n      padding: 0 10px; }\n.team .people .text-wrap .sub-text-wrapper {\n        margin-top: 10px;\n        margin-bottom: 10px; }\n.faq, .start {\n  min-height: calc(100vh - 400px);\n  background: white; }\n.faq .text-content, .start .text-content {\n    margin-top: 0px;\n    padding: 0 50px; }\n.faq h5, .start h5 {\n    color: #B721FF;\n    margin-bottom: 5px; }\n.faq .content, .start .content {\n    padding: 50px 30px 0 30px; }\n.faq .text-content, .start .text-content {\n    padding-left: 0;\n    padding-right: 0; }\n.faq p, .start p {\n    margin-bottom: 10px; }\n.start #start-form {\n  -webkit-transition: all 0.5s ease-out;\n  transition: all 0.5s ease-out; }\n.start .date {\n  height: 38px;\n  padding: 6px 10px;\n  background-color: #fff;\n  border: 1px solid #D1D1D1;\n  border-radius: 4px;\n  -webkit-box-shadow: none;\n          box-shadow: none;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box; }\n.start .div {\n  margin-bottom: 30px; }\n.start textarea {\n  height: auto; }\n.start .response-msg-toast {\n  width: 400px;\n  height: 250px;\n  border: 1px solid;\n  position: fixed;\n  bottom: 0;\n  right: 0;\n  background-color: #00cc00;\n  z-index: 1;\n  border-radius: 3px; }\n.testimonials {\n  min-height: calc(100vh - 400px);\n  background: white; }\n.testimonials .pricing-text-wrapper {\n    width: 70%;\n    margin: 0 auto;\n    text-align: left; }\n.testimonials .pricing-text-wrapper a {\n      margin-top: 55px; }\n.testimonials .nine {\n    background: rgba(183, 33, 255, 0.1);\n    margin-top: 50px; }\n.testimonials .pricing-wrapper {\n    margin: 0 auto;\n    margin-top: 50px;\n    margin-bottom: 200px; }\n.testimonials .pricing-wrapper .pricing-wrapper-container {\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -ms-flex-wrap: wrap;\n          flex-wrap: wrap;\n      margin-top: 50px;\n      -webkit-box-pack: center;\n          -ms-flex-pack: center;\n              justify-content: center; }\n.testimonials .pricing-wrapper .pricing-wrapper-container .columns {\n        width: 25%;\n        padding: 15px;\n        margin-left: 0px; }\n.testimonials .pricing-wrapper .pricing-wrapper-container .columns .tile {\n          background: rgba(183, 33, 255, 0.1);\n          height: 100%;\n          padding: 25px;\n          min-height: 100px;\n          display: -webkit-box;\n          display: -ms-flexbox;\n          display: flex;\n          -webkit-box-orient: vertical;\n          -webkit-box-direction: normal;\n              -ms-flex-direction: column;\n                  flex-direction: column;\n          -webkit-transition: all 0.35s ease-out;\n          transition: all 0.35s ease-out;\n          border-radius: 8px; }\n.testimonials .pricing-wrapper .pricing-wrapper-container .columns .tile .icon-container {\n            height: 70px;\n            background-size: contain;\n            background-repeat: no-repeat;\n            background-position: center;\n            margin-bottom: 40px;\n            margin-top: 10px; }\n.testimonials .pricing-wrapper .pricing-wrapper-container .columns .tile .text-wrapper {\n            -webkit-box-flex: 2;\n                -ms-flex: 2;\n                    flex: 2; }\n.testimonials .pricing-wrapper .pricing-wrapper-container .columns .tile .text-wrapper h2 {\n              font-size: 3.1rem;\n              margin-bottom: 15px;\n              display: block; }\n.testimonials .pricing-wrapper .pricing-wrapper-container .columns .tile .btn-container {\n            display: block; }\n.testimonials .pricing-wrapper .pricing-wrapper-container .columns .tile .btn-container .btn-curve-purple {\n              margin: 0 auto;\n              width: 85%;\n              padding: 15px 0px; }\n.testimonials .pricing-wrapper .pricing-wrapper-container .columns .tile.active {\n          -webkit-box-shadow: 0px 0px 20px rgba(128, 100, 255, 0.15);\n                  box-shadow: 0px 0px 20px rgba(128, 100, 255, 0.15);\n          -webkit-transform: scale(1.05, 1.08);\n                  transform: scale(1.05, 1.08);\n          padding-bottom: 30px; }\n.testimonials .text-content {\n    padding-top: 70px; }\n.testimonials .three.active {\n    -webkit-box-shadow: -1px 1px 5px 5px rgba(0, 0, 0, 0.1);\n            box-shadow: -1px 1px 5px 5px rgba(0, 0, 0, 0.1);\n    background: white; }\n.testimonials .three.active img {\n      border: 1px solid rgba(183, 33, 255, 0.5);\n      border-radius: 50%; }\n.testimonials .three.active .btn-block-white {\n      color: white;\n      background: #B721FF;\n      -webkit-box-shadow: none;\n              box-shadow: none; }\n.testimonials .three.active .btn-block-white:hover {\n        color: white;\n        background: #B721FF; }\n.testimonials .tile {\n    padding: 20px; }\n.testimonials h5 {\n    font-size: 1.5em;\n    margin-bottom: 5px; }\n.testimonials h2 {\n    margin: 0; }\n.testimonials .content {\n    padding: 20px 50px; }\n.testimonials .text-content {\n    padding-left: 0; }\n.testimonials .pricing-title-span {\n    font-weight: bold;\n    line-height: 18px;\n    display: block; }\n.testimonials .cd-testimonials-wrapper {\n    position: relative;\n    width: 90%;\n    max-width: 768px;\n    background-color: #39393c;\n    margin: 2em auto;\n    -webkit-font-smoothing: antialiased;\n    -moz-osx-font-smoothing: grayscale;\n    padding: 20px 40px 70px;\n    z-index: 1; }\n.testimonials .cd-testimonials-wrapper::after {\n    /* quotation mark */\n    content: '\\201C';\n    position: absolute;\n    top: 10px;\n    left: 0;\n    width: 50px;\n    height: 50px;\n    padding-top: 8px;\n    margin-left: -25px;\n    background: rgba(32, 32, 34, 0.9);\n    font-family: \"Georgia\", serif;\n    color: #ffffff;\n    font-size: 70px;\n    font-size: 4.375rem;\n    text-align: center;\n    /* visible on big devices only */\n    display: none; }\n@media only screen and (min-width: 768px) {\n    .testimonials .cd-testimonials-wrapper {\n      margin: 4em auto;\n      padding: 64px 50px 114px; } }\n@media only screen and (min-width: 1170px) {\n    .testimonials .cd-testimonials-wrapper::after {\n      /* quotation mark visible */\n      display: block; } }\n.testimonials .cd-testimonials {\n    color: #ffffff;\n    text-align: center; }\n.testimonials .cd-testimonials::after {\n    clear: both;\n    content: \"\";\n    display: table; }\n.testimonials .cd-testimonials > li {\n    position: absolute;\n    opacity: 0; }\n.testimonials .cd-testimonials > li:first-child {\n    position: relative;\n    opacity: 1; }\n.testimonials .cd-testimonials p {\n    font-family: \"Georgia\", serif;\n    font-style: italic;\n    line-height: 1.4;\n    margin-bottom: 1em;\n    padding: 0 14px; }\n@media only screen and (min-width: 768px) {\n    .testimonials .cd-testimonials p {\n      font-size: 22px;\n      font-size: 1.375rem; } }\n@media only screen and (min-width: 1170px) {\n    .testimonials .cd-testimonials p {\n      font-size: 26px;\n      font-size: 1.625rem;\n      line-height: 1.6; } }\n.testimonials .cd-author img, .testimonials .cd-author .cd-author-info {\n    display: inline-block;\n    vertical-align: middle; }\n.testimonials .cd-author img {\n    width: 32px;\n    height: 32px;\n    border-radius: 50%;\n    margin-right: 5px;\n    -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);\n            box-shadow: 0 0 6px rgba(0, 0, 0, 0.3); }\n.testimonials .cd-author .cd-author-info {\n    text-align: left;\n    line-height: 1.2; }\n.testimonials .cd-author .cd-author-info li:first-child {\n    font-size: 14px;\n    font-size: 0.875rem; }\n.testimonials .cd-author .cd-author-info li:last-child {\n    font-size: 12px;\n    font-size: 0.75rem;\n    color: #6b6b70; }\n@media only screen and (min-width: 768px) {\n    .testimonials .cd-author img {\n      width: 50px;\n      height: 50px; }\n    .testimonials .cd-author .cd-author-info {\n      line-height: 1.4; }\n    .testimonials .cd-author .cd-author-info li:first-child {\n      font-size: 16px;\n      font-size: 1rem; }\n    .testimonials .cd-author .cd-author-info li:last-child {\n      font-size: 14px;\n      font-size: 0.875rem; } }\n.testimonials .flex-direction-nav li {\n    position: absolute;\n    height: 100%;\n    width: 40px;\n    top: 0; }\n.testimonials .flex-direction-nav li:first-child {\n    left: 0; }\n.testimonials .flex-direction-nav li:last-child {\n    right: 0; }\n.testimonials .flex-direction-nav li a {\n    display: block;\n    height: 100%;\n    width: 100%;\n    /* image replacement */\n    overflow: hidden;\n    text-indent: 100%;\n    white-space: nowrap;\n    -webkit-transition: background-color 0.2s;\n    transition: background-color 0.2s; }\n.testimonials .no-touch .flex-direction-nav li a:hover {\n    background-color: #323234; }\n.testimonials .flex-direction-nav li a::before, .testimonials .flex-direction-nav li a::after {\n    /* left and right arrows in css only */\n    content: '';\n    position: absolute;\n    left: 50%;\n    top: 50%;\n    width: 2px;\n    height: 13px;\n    background-color: #ffffff; }\n.testimonials .flex-direction-nav li a::before {\n    -webkit-transform: translateY(-35px) rotate(45deg);\n    transform: translateY(-35px) rotate(45deg); }\n.testimonials .flex-direction-nav li a::after {\n    -webkit-transform: translateY(-27px) rotate(-45deg);\n    transform: translateY(-27px) rotate(-45deg); }\n.testimonials .flex-direction-nav li:last-child a::before {\n    -webkit-transform: translateY(-35px) rotate(-45deg);\n    transform: translateY(-35px) rotate(-45deg); }\n.testimonials .flex-direction-nav li:last-child a::after {\n    -webkit-transform: translateY(-27px) rotate(45deg);\n    transform: translateY(-27px) rotate(45deg); }\n@media only screen and (min-width: 768px) {\n    .testimonials .flex-direction-nav li {\n      width: 50px; } }\n@media only screen and (min-width: 1170px) {\n    .testimonials .flex-direction-nav li a::before, .testimonials .flex-direction-nav li a::after {\n      background-color: #5e5e63;\n      -webkit-transition: background-color 0.2s;\n      transition: background-color 0.2s; }\n    .testimonials .flex-direction-nav li a:hover::before, .testimonials .flex-direction-nav li a:hover::after {\n      background-color: #ffffff; } }\n.testimonials .cd-see-all {\n    position: absolute;\n    z-index: 1;\n    left: 0;\n    bottom: 0;\n    width: 100%;\n    height: 50px;\n    line-height: 50px;\n    background-color: #252527;\n    text-align: center;\n    text-transform: uppercase;\n    color: #6b6b70;\n    font-weight: 700;\n    font-size: 12px;\n    font-size: 0.75rem;\n    -webkit-transition: color, 0.2s;\n    transition: color, 0.2s; }\n.testimonials .no-touch .cd-see-all:hover {\n    color: #79b6e4; }\n.testimonials .cd-testimonials-all {\n    position: fixed;\n    top: 0;\n    left: 0;\n    height: 100%;\n    width: 100%;\n    background-color: #ffffff;\n    z-index: 2;\n    visibility: hidden;\n    opacity: 0;\n    -webkit-transition: opacity .3s 0s, visibility 0s .3s;\n    transition: opacity .3s 0s, visibility 0s .3s; }\n.testimonials .cd-testimonials-all .cd-testimonials-all-wrapper {\n    position: absolute;\n    left: 0;\n    top: 0;\n    height: 100%;\n    width: 100%;\n    overflow: auto; }\n.testimonials .cd-testimonials-all .cd-testimonials-all-wrapper > ul {\n    width: 90%;\n    max-width: 1170px;\n    margin: 4em auto; }\n.testimonials .cd-testimonials-all .cd-testimonials-all-wrapper > ul::after {\n    clear: both;\n    content: \"\";\n    display: table; }\n.testimonials .cd-testimonials-all .cd-testimonials-item {\n    margin-bottom: 2em;\n    opacity: 0;\n    /* Force Hardware Acceleration in WebKit */\n    -webkit-transform: translate3d(0, 0, 0) scale(0.4);\n    transform: translate3d(0, 0, 0) scale(0.4);\n    -webkit-backface-visibility: hidden;\n    backface-visibility: hidden;\n    -webkit-transition: -webkit-transform .3s, opacity .3s;\n    -webkit-transition: opacity .3s, -webkit-transform .3s;\n    transition: opacity .3s, -webkit-transform .3s;\n    transition: transform .3s, opacity .3s;\n    transition: transform .3s, opacity .3s, -webkit-transform .3s; }\n.testimonials .cd-testimonials-all p {\n    position: relative;\n    background: #79b6e4;\n    color: #ffffff;\n    padding: 2em;\n    -webkit-font-smoothing: antialiased;\n    -moz-osx-font-smoothing: grayscale;\n    line-height: 1.4;\n    border-radius: 0.25em;\n    margin-bottom: 1em; }\n.testimonials .cd-testimonials-all p::after {\n    /* creating the triangle in css */\n    content: '';\n    position: absolute;\n    top: 100%;\n    left: 2em;\n    height: 0;\n    width: 0;\n    border: 8px solid transparent;\n    border-top-color: #79b6e4; }\n.testimonials .cd-testimonials-all .cd-author {\n    text-align: left;\n    margin-left: 1.5em; }\n.testimonials .cd-testimonials-all .cd-author img {\n    -webkit-box-shadow: 0 0 0 transparent;\n            box-shadow: 0 0 0 transparent; }\n.testimonials .cd-testimonials-all.is-visible {\n    visibility: visible;\n    opacity: 1;\n    -webkit-transition: opacity .3s 0s, visibility 0s 0s;\n    transition: opacity .3s 0s, visibility 0s 0s; }\n.testimonials .cd-testimonials-all.is-visible .cd-testimonials-all-wrapper {\n    -webkit-overflow-scrolling: touch; }\n.testimonials .cd-testimonials-all.is-visible .cd-testimonials-item {\n    opacity: 1;\n    -webkit-transform: translate3d(0, 0, 0) scale(1);\n    transform: translate3d(0, 0, 0) scale(1); }\n@media only screen and (min-width: 768px) {\n    .testimonials .cd-testimonials-all .cd-testimonials-item {\n      width: 46%;\n      margin: 0 2% 3em; }\n    .testimonials .cd-testimonials-all .cd-author {\n      margin-left: 1em; } }\n@media only screen and (min-width: 1170px) {\n    .testimonials .cd-testimonials-all .cd-testimonials-item {\n      width: 30%;\n      margin: 0 1.6666% 3em; } }\n.testimonials .close-btn {\n    position: fixed;\n    display: block;\n    width: 40px;\n    height: 40px;\n    top: 10px;\n    right: 5%;\n    /* image replacement */\n    overflow: hidden;\n    text-indent: 100%;\n    white-space: nowrap; }\n.testimonials .close-btn::before, .testimonials .close-btn::after {\n    /* close icon in css */\n    content: '';\n    position: absolute;\n    display: inline-block;\n    width: 2px;\n    height: 24px;\n    top: 8px;\n    left: 19px;\n    background-color: #39393c; }\n.testimonials .close-btn::before {\n    -webkit-transform: rotate(45deg);\n    transform: rotate(45deg); }\n.testimonials .close-btn::after {\n    -webkit-transform: rotate(-45deg);\n    transform: rotate(-45deg); }\n@media screen and (min-width: 1366px) {\n  .index .simple .row {\n    background-size: 62% !important; } }\n@media screen and (min-width: 1280px) {\n  .index .top-img {\n    height: 650px !important; }\n  .index .top-wrapper {\n    background-size: contain !important; }\n  .pricing .text-content {\n    padding-top: 50px; }\n  .pricing .content {\n    padding: 50px 50px 0 50px !important; }\n  .pricing footer {\n    position: absolute !important;\n    bottom: 0 !important;\n    width: 100% !important;\n    padding: 20px 50px !important;\n    -webkit-box-sizing: border-box !important;\n            box-sizing: border-box !important; } }\n@media screen and (max-width: 1280px) {\n  body {\n    font-size: 1.3em !important; }\n  .heading {\n    font-size: 34px !important; }\n  .btn-curve-purple {\n    width: 150px !important !important;\n    font-size: 12px !important !important; } }\n@media screen and (max-width: 1024px) {\n  .fr-card {\n    width: 300%;\n    position: relative;\n    float: left; }\n  .index .top-img {\n    height: 600px !important; }\n  .index .top-wrapper {\n    background-size: 70% !important; }\n  .index .scale h1, .index .simple h1, .index .benefits h2 {\n    font-size: 3.0rem !important; }\n  .index .scale {\n    margin-top: 100px !important; }\n    .index .scale .six:first-child img {\n      height: 300px !important; }\n    .index .scale .text-content {\n      padding: 0 30px !important; }\n  .index .simple .seven {\n    width: 85% !important;\n    margin: 0 auto !important;\n    float: none !important; }\n  .index .simple .five:nth-child(2) {\n    display: none !important; }\n  .index .simple .row {\n    background-size: 87% !important;\n    padding-bottom: 150px !important; }\n  .index .simple .text-content {\n    padding-right: 60px !important !important;\n    margin-top: 130px !important; }\n  .index .simple .purple-bg {\n    display: none !important; }\n  .index .bottom-banner-wrapper .img-wrapper {\n    width: 75% !important; }\n  .index .bottom-banner-wrapper .banner-text {\n    font-size: 20px !important !important;\n    line-height: 28px !important; }\n  .index .bottom-banner-wrapper .start-project-btn {\n    padding: 13px 18px !important !important;\n    font-size: 12px !important; }\n  .team .people {\n    padding: 100px 30px !important; }\n    .team .people #people-wrapper {\n      width: 98% !important; }\n    .team .people .tile {\n      width: 30.3333333333333% !important;\n      padding: 50px 1.5% !important; }\n  .team .core .text-content, .team .community .text-content {\n    margin-top: 150px !important; }\n  .team .core img, .team .community img {\n    height: 300px !important; }\n  .team .image-wrapper-container {\n    padding: 10px 40px !important; }\n  .team .people-wrapper .purple-bg {\n    display: none !important; }\n  .team .avatar {\n    height: 150px !important; }\n  .team .people .text-wrap {\n    padding: 0 !important; }\n  .team .community .text-content {\n    margin-top: 0 !important; }\n  .pricing .pricing-text-wrapper {\n    margin-left: 20px !important; }\n  .pricing .six {\n    margin-left: 5px;\n    margin-right: 5px; }\n  .pricing .pricing-wrapper-container .columns {\n    width: 50% !important !important;\n    margin-bottom: 50px !important; }\n    .pricing .pricing-wrapper-container .columns .tile .btn-container {\n      width: 80% !important;\n      margin: 0 auto !important; }\n      .pricing .pricing-wrapper-container .columns .tile .btn-container .btn-curve-purple {\n        width: 100% !important !important; }\n    .pricing .pricing-wrapper-container .columns .tile.active {\n      -webkit-transform: scale(1) !important !important;\n              transform: scale(1) !important !important; }\n  .pricing h2 {\n    font-size: 3rem !important; }\n  .pricing h5 {\n    font-size: 1em !important; } }\n@media screen and (max-width: 816px) {\n  .index .top-img {\n    height: 500px !important; }\n  .index .top-wrapper {\n    background-size: 75% !important; }\n  .index .intro h1 {\n    font-size: 2.7rem !important; }\n  .index .intro .text-content {\n    margin-top: 100px !important !important;\n    padding: 0 30px !important; }\n  .index .scale {\n    margin-top: 0px !important;\n    margin-bottom: 20px !important; }\n    .index .scale .text-wrapper {\n      margin-top: 30px !important !important; }\n    .index .scale .six:first-child {\n      display: none !important; }\n    .index .scale .six:nth-child(2) {\n      width: 100% !important;\n      margin-left: 0 !important; }\n  .index .simple .row {\n    background-size: 125% !important;\n    padding-bottom: 100px !important; }\n  .index .simple .text-content {\n    margin-top: 70px !important;\n    padding-right: 100px !important; }\n  .index .simple .seven {\n    width: 100% !important; }\n  .index .simple .purple-bg {\n    display: none !important; }\n  .index .benefits .content {\n    padding: 0 50px !important; }\n  .index .benefits img {\n    height: 50px !important; }\n  .index .benefits .nine h5 {\n    font-size: 1.2em !important;\n    margin-bottom: 10px !important; }\n  .team .core .img-col {\n    display: none !important; }\n  .team .core img, .team .community img {\n    display: none; }\n  .team .core .six:first-child, .team .community .six:nth-child(2) {\n    width: 100% !important; }\n    .team .core .six:first-child .text-content, .team .community .six:nth-child(2) .text-content {\n      margin-top: 0 !important; }\n  .team .community .six:nth-child(2) {\n    margin: 0 !important; }\n  .team .people {\n    padding: 50px 20px !important; }\n    .team .people .three.columns {\n      width: 50% !important;\n      margin-left: 0 !important; }\n    .team .people .tile {\n      width: 46% !important;\n      padding: 50px 1.5% !important; }\n    .team .people .avatar {\n      display: block !important;\n      width: 100% !important; }\n    .team .people div.m-b-md {\n      margin-bottom: 10px !important; }\n    .team .people div.m-b-md p {\n      margin-bottom: 0 !important; }\n  .pricing .three:first-child {\n    width: 100% !important; }\n    .pricing .three:first-child .text-content {\n      padding-top: 20px !important;\n      margin-bottom: 50px !important; }\n  .pricing .nine {\n    margin-left: 0 !important;\n    width: 100% !important;\n    padding: 20px !important; }\n    .pricing .nine .three {\n      width: 50% !important;\n      margin-left: 0 !important; }\n  .contact .content {\n    padding: 50px 30px !important; }\n  .contact .text-content {\n    margin-top: 0 !important;\n    padding-right: 0 !important; }\n  .contact .six:first-child {\n    display: none !important; }\n  .contact .six:nth-child(2) {\n    width: 100% !important; } }\n@media screen and (max-width: 675px) {\n  .index .intro .columns {\n    width: 100% !important;\n    padding: 20px !important !important; }\n  .index .intro .columns.right-pane {\n    margin-left: 0px !important;\n    min-height: auto !important; }\n  .index .top-img {\n    height: 350px !important !important; }\n  .pricing .content {\n    padding: 20px !important; }\n  .pricing .pricing-text-wrapper {\n    width: 300px; } }\n@media screen and (max-width: 509px) {\n  .pricing .pricing-wrapper-container .columns {\n    width: 100% !important !important; }\n  .team .people .tile {\n    width: 96% !important;\n    padding: 30px 1.5% !important; } }\n@media screen and (max-width: 425px) {\n  .btn-curve-white {\n    padding: 12px !important;\n    width: 150px !important; }\n  .index .intro .logo {\n    height: 65px !important;\n    width: 100px !important;\n    margin-left: 0px !important; }\n  .index .intro .hamburger {\n    position: relative !important; }\n  .index .intro .text-content {\n    margin-top: 70px !important;\n    margin-bottom: 20px !important; }\n  .index .intro .six.columns:first-child {\n    padding: 20px !important; }\n  .index .top-wrapper {\n    background: url(../../static/img/bg_left_semi.svg) no-repeat top left !important;\n    min-height: 70vh !important; }\n  .index .scale .section-2-wrapper {\n    padding-top: 0px !important; }\n  .index .top-img {\n    display: none !important; }\n  .index .simple {\n    background-image: url(../../static/img/bg_left_shape.svg) !important;\n    background-size: 450% !important; }\n    .index .simple .row {\n      background-size: cover; }\n    .index .simple .text-content {\n      padding-right: 50px !important; }\n    .index .simple p {\n      padding-right: 0 !important; }\n  .index .benefits .row {\n    margin-top: 0 !important;\n    text-align: center !important; }\n  .index .benefits .heading {\n    padding: 0px 20px !important; }\n  .index .benefits .columns {\n    padding-bottom: 30px !important; }\n  .index .bottom-banner-wrapper .img-wrapper .banner-text {\n    font-size: 18px !important !important;\n    line-height: 24px !important !important; }\n  .index .bottom-banner-wrapper .img-wrapper .start-project-btn {\n    width: 130px !important; }\n  footer {\n    padding: 20px !important; }\n    footer .nav-desktop-left .logo img {\n      top: 0; }\n    footer .nav-desktop-left, footer .links {\n      float: none !important; }\n    footer .links {\n      margin-top: 10px !important; }\n      footer .links li {\n        padding: 0 20px !important; }\n  .team .core .text-content, .team .community .text-content {\n    padding: 0 20px !important; }\n  .team .people {\n    padding: 50px 20px !important; }\n    .team .people .three.columns {\n      width: 100% !important; }\n  .pricing .content {\n    padding: 20px 30px !important; }\n  .pricing .nine .three {\n    width: 100% !important;\n    margin-left: 0 !important; }\n  .nav-top {\n    padding: 20px 20px 40px 20px !important; }\n  .faq h1, .start h1, .start h1 {\n    font-size: 3.0rem !important; }\n  .faq .content, .start .content, .start .content {\n    padding: 30px !important; } }\n@media screen and (max-width: 375px) {\n  .index .top-wrapper {\n    background-size: 140% !important; }\n  footer .links li {\n    padding: 0 15px !important; } }\n@media screen and (max-width: 360px) {\n  .index .top-wrapper {\n    background-size: 155% !important; }\n  .index .simple {\n    background-image: url(../../static/img/bg_left_shape.svg) !important;\n    background-size: 850% !important; }\n  .pricing .content {\n    padding: 15px 10px !important; } }\n@media screen and (max-width: 320px) {\n  .index .top-wrapper {\n    background-size: 193% !important; } }\n.menu {\n  display: none; }\n.index {\n  background: white; }\n.index .top-wrapper {\n    background: url(http://res.cloudinary.com/sportbay-co/image/upload/v1525425718/bg_left_semi_nhivrr.svg) no-repeat top left;\n    background-size: 60%;\n    padding: 20px;\n    min-height: 95vh;\n    position: relative;\n    z-index: 5; }\n.index .intro {\n    background: white;\n    width: 100%;\n    min-height: inherit; }\n.index .intro .text-content {\n      margin-top: 100px;\n      padding: 0 50px; }\n.index .intro .six.columns:first-child {\n      padding: 20px 0 20px 20px; }\n.index .intro p {\n      color: #222222; }\n.index .intro .intro-content-wrapper {\n      min-height: inherit; }\n.index .intro .intro-content-wrapper .left-pane {\n        min-height: inherit;\n        display: -webkit-box;\n        display: -ms-flexbox;\n        display: flex;\n        -webkit-box-orient: vertical;\n        -webkit-box-direction: normal;\n            -ms-flex-direction: column;\n                flex-direction: column;\n        -webkit-box-pack: start;\n            -ms-flex-pack: start;\n                justify-content: flex-start; }\n.index .intro .intro-content-wrapper .left-pane .text-content {\n          -webkit-box-flex: 2;\n              -ms-flex: 2;\n                  flex: 2;\n          -webkit-box-pack: center;\n              -ms-flex-pack: center;\n                  justify-content: center;\n          display: -webkit-box;\n          display: -ms-flexbox;\n          display: flex;\n          -webkit-box-orient: vertical;\n          -webkit-box-direction: normal;\n              -ms-flex-direction: column;\n                  flex-direction: column;\n          padding-bottom: 60px;\n          margin-top: 0px; }\n.index .intro .intro-content-wrapper .left-pane .text-content .btn-curve-purple {\n            display: block;\n            width: 200px;\n            padding: 15px 20px;\n            text-align: center;\n            -webkit-transition: -webkit-transform 0.4s;\n            transition: -webkit-transform 0.4s;\n            transition: transform 0.4s;\n            transition: transform 0.4s, -webkit-transform 0.4s; }\n.index .intro .intro-content-wrapper .left-pane .text-content .btn-curve-purple:hover {\n            -webkit-transform: scale(0.9);\n                    transform: scale(0.9); }\n.index .intro .intro-content-wrapper .right-pane {\n        min-height: inherit;\n        overflow: hidden; }\n.index .intro .intro-content-wrapper .right-pane .top-img-wrapper {\n          overflow: hidden;\n          width: 100%;\n          min-height: inherit;\n          background-color: #333333;\n          -webkit-transform: scale(1.05);\n                  transform: scale(1.05);\n          -webkit-transform-origin: -100% 50%;\n                  transform-origin: -100% 50%;\n          -webkit-transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1);\n          transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1);\n          -webkit-transition-delay: 0.4s;\n                  transition-delay: 0.4s; }\n.index .intro .intro-content-wrapper .right-pane .top-img {\n          min-height: inherit;\n          -webkit-transform: translate3d(0px, 0px, 0px);\n                  transform: translate3d(0px, 0px, 0px);\n          -webkit-transition: all 1s cubic-bezier(0.23, 1, 0.32, 1);\n          transition: all 1s cubic-bezier(0.23, 1, 0.32, 1);\n          -webkit-transition-delay: 0.7s;\n                  transition-delay: 0.7s; }\n.index .intro .intro-content-wrapper .right-pane .top-img-wrapper.no-reveal {\n          -webkit-transform: scaleX(0.89);\n                  transform: scaleX(0.89); }\n.index .intro .intro-content-wrapper .right-pane .top-img-wrapper.no-reveal .top-img {\n            -webkit-transform: translate3d(-120%, 0px, 0px);\n                    transform: translate3d(-120%, 0px, 0px); }\n.index .top-img {\n    background: url(http://res.cloudinary.com/sportbay-co/image/upload/v1525424030/bg_top_qzynai.jpg) no-repeat center center;\n    background-size: cover; }\n.index .scale {\n    margin-top: 200px;\n    margin-bottom: 200px;\n    position: relative;\n    z-index: 2; }\n.index .scale .text-content {\n      margin-top: 0px;\n      padding: 0 50px; }\n.index .scale .sub-text {\n      color: #222222; }\n.index .scale .section-2-wrapper {\n      padding-top: 80px; }\n.index .scale .section-2-wrapper .image-wrapper-container {\n        padding: 1px 8%;\n        overflow: hidden;\n        -webkit-box-sizing: border-box;\n                box-sizing: border-box;\n        height: 700px;\n        position: relative; }\n.index .scale .section-2-wrapper .image-wrapper-container .clear-div-container {\n          overflow: hidden;\n          height: 100%;\n          width: 100%; }\n.index .scale .section-2-wrapper .image-wrapper-container .clear-div {\n          height: 100%;\n          width: 100%;\n          overflow: hidden;\n          background-color: #333333;\n          -webkit-transform: scaleX(1);\n                  transform: scaleX(1);\n          -webkit-transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1);\n          transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1); }\n.index .scale .section-2-wrapper .image-wrapper-container .image-wrapper {\n          height: 100%;\n          width: 100%;\n          top: 0;\n          left: 0;\n          right: 0;\n          -webkit-transform: translate3d(0px, 0%, 0px) scale(1.1);\n                  transform: translate3d(0px, 0%, 0px) scale(1.1);\n          -webkit-transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1);\n          transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1);\n          -webkit-transition-delay: 0.4s;\n                  transition-delay: 0.4s;\n          background-position: center;\n          background-size: cover; }\n.index .scale .section-2-wrapper .image-wrapper-container .image-wrapper:hover {\n          -webkit-transform: scale(1.05);\n                  transform: scale(1.05); }\n.index .scale .section-2-wrapper .image-wrapper-container.no-reveal .clear-div {\n        -webkit-transform: scaleX(0.67);\n                transform: scaleX(0.67); }\n.index .scale .section-2-wrapper .image-wrapper-container.no-reveal .image-wrapper {\n        -webkit-transform: translate3d(-120%, 0%, 0px);\n                transform: translate3d(-120%, 0%, 0px); }\n.index .scale .section-2-wrapper .text-wrapper {\n        margin-top: 150px;\n        margin-left: 0px; }\n.index .simple {\n    color: white;\n    position: relative;\n    z-index: 1;\n    background: url(http://res.cloudinary.com/sportbay-co/image/upload/v1525424226/bg_left_shape_zqyjvl.svg) no-repeat top left; }\n.index .simple .text-content {\n      margin-top: 100px;\n      padding: 0 50px; }\n.index .simple .row {\n      background-size: 70%;\n      position: relative;\n      z-index: 1;\n      padding: 70px 0px; }\n.index .simple .row .text-content {\n        padding: 0px 60px;\n        padding-right: 130px; }\n.index .simple .row .text-content .heading {\n          margin-bottom: 0px;\n          color: #ffffff; }\n.index .simple p {\n      padding-right: 30px; }\n.index .simple .sub-title {\n      font-size: 1.25em;\n      font-weight: 600;\n      margin-bottom: 10px; }\n.index .simple .five.columns:nth-child(2) img {\n      height: 600px;\n      margin-top: 70px; }\n.index .simple .purple-bg {\n      background: rgba(183, 33, 255, 0.1);\n      height: 300px;\n      position: absolute;\n      bottom: 0px;\n      z-index: 0;\n      display: block;\n      width: 100%; }\n.index .benefits {\n    padding: 120px 0;\n    padding-bottom: 200px;\n    display: block;\n    width: 100%;\n    background: rgba(183, 33, 255, 0.1); }\n.index .benefits .heading {\n      margin-bottom: 0px; }\n.index .benefits .content {\n      padding: 0 150px;\n      padding-top: 100px;\n      padding-bottom: 100px; }\n.index .benefits .content .h5 {\n        font-weight: 800; }\n.index .benefits .p {\n      opacity: 0.75; }\n.index .bottom-banner-wrapper {\n    min-height: 100px;\n    width: 100%;\n    -webkit-transform: translateY(-120px);\n            transform: translateY(-120px); }\n.index .bottom-banner-wrapper .img-wrapper {\n      width: 65%;\n      min-height: 400px;\n      padding-top: 30px;\n      padding-bottom: 30px;\n      border-radius: 10px;\n      margin: 0 auto;\n      background-image: url(http://res.cloudinary.com/sportbay-co/image/upload/v1525425450/banner-img_iisoe4.jpg);\n      background-position: center;\n      background-size: cover;\n      color: white;\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -webkit-box-orient: vertical;\n      -webkit-box-direction: normal;\n          -ms-flex-direction: column;\n              flex-direction: column;\n      -webkit-box-pack: center;\n          -ms-flex-pack: center;\n              justify-content: center;\n      -webkit-box-align: center;\n          -ms-flex-align: center;\n              align-items: center; }\n.index .bottom-banner-wrapper .img-wrapper .banner-text {\n        font-size: 24px;\n        display: block;\n        width: 65%;\n        -webkit-transition: all 0.6s ease-out;\n        transition: all 0.6s ease-out;\n        text-align: center; }\n.index .bottom-banner-wrapper .img-wrapper .banner-text.no-reveal {\n        opacity: 0; }\n.index .bottom-banner-wrapper .img-wrapper banner-text.reveal {\n        opacity: 1; }\n.index .bottom-banner-wrapper .img-wrapper .start-project-btn {\n        padding: 15px 40px;\n        color: #333333; }\n.index .bottom-banner-wrapper .img-wrapper .start-project-btn:hover {\n        color: #333333 !important; }\n.index .logo {\n    text-decoration: none;\n    font-size: 1.3em;\n    display: block;\n    height: 85px;\n    width: 120px;\n    background-image: url(http://res.cloudinary.com/sportbay-co/image/upload/v1525431685/charisol-logo_purple_l5mn4v.svg);\n    background-position: left;\n    background-size: contain;\n    background-repeat: no-repeat; }\n@media screen and (max-width: 1024px) {\n  .pricing-wrapper {\n    width: 100% !important; }\n    .pricing-wrapper .columns {\n      min-width: 50%; } }\n@media screen and (max-width: 675px) {\n  .pricing-wrapper {\n    width: 100% !important; }\n    .pricing-wrapper .columns {\n      min-width: 100%; } }\n";
+module.exports = "@charset \"UTF-8\";\n/*! normalize.css v3.0.2 | MIT License | git.io/normalize */\n/**\r\n * 1. Set default font family to sans-serif.\r\n * 2. Prevent iOS text size adjust after orientation change, without disabling\r\n *    user zoom.\r\n */\nhtml {\n  font-family: sans-serif;\n  /* 1 */\n  -ms-text-size-adjust: 100%;\n  /* 2 */\n  -webkit-text-size-adjust: 100%;\n  /* 2 */ }\n/**\r\n * Remove default margin.\r\n */\nbody {\n  margin: 0; }\n/* HTML5 display definitions\r\n   ========================================================================== */\n/**\r\n * Correct `block` display not defined for any HTML5 element in IE 8/9.\r\n * Correct `block` display not defined for `details` or `summary` in IE 10/11\r\n * and Firefox.\r\n * Correct `block` display not defined for `main` in IE 11.\r\n */\narticle,\naside,\ndetails,\nfigcaption,\nfigure,\nfooter,\nheader,\nhgroup,\nmain,\nmenu,\nnav,\nsection,\nsummary {\n  display: block; }\n/**\r\n * 1. Correct `inline-block` display not defined in IE 8/9.\r\n * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.\r\n */\naudio,\ncanvas,\nprogress,\nvideo {\n  display: inline-block;\n  /* 1 */\n  vertical-align: baseline;\n  /* 2 */ }\n/**\r\n * Prevent modern browsers from displaying `audio` without controls.\r\n * Remove excess height in iOS 5 devices.\r\n */\naudio:not([controls]) {\n  display: none;\n  height: 0; }\n/**\r\n * Address `[hidden]` styling not present in IE 8/9/10.\r\n * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.\r\n */\n[hidden],\ntemplate {\n  display: none; }\n/* Links\r\n   ========================================================================== */\n/**\r\n * Remove the gray background color from active links in IE 10.\r\n */\na {\n  background-color: transparent; }\n/**\r\n * Improve readability when focused and also mouse hovered in all browsers.\r\n */\na:active,\na:hover {\n  outline: 0; }\n/* Text-level semantics\r\n   ========================================================================== */\n/**\r\n * Address styling not present in IE 8/9/10/11, Safari, and Chrome.\r\n */\nabbr[title] {\n  border-bottom: 1px dotted; }\n/**\r\n * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.\r\n */\nb,\nstrong {\n  font-weight: bold; }\n/**\r\n * Address styling not present in Safari and Chrome.\r\n */\ndfn {\n  font-style: italic; }\n/**\r\n * Address variable `h1` font-size and margin within `section` and `article`\r\n * contexts in Firefox 4+, Safari, and Chrome.\r\n */\nh1 {\n  font-size: 2em;\n  margin: 0.67em 0; }\n/**\r\n * Address styling not present in IE 8/9.\r\n */\nmark {\n  background: #ff0;\n  color: #000; }\n/**\r\n * Address inconsistent and variable font size in all browsers.\r\n */\nsmall {\n  font-size: 80%; }\n/**\r\n * Prevent `sub` and `sup` affecting `line-height` in all browsers.\r\n */\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline; }\nsup {\n  top: -0.5em; }\nsub {\n  bottom: -0.25em; }\n/* Embedded content\r\n   ========================================================================== */\n/**\r\n * Remove border when inside `a` element in IE 8/9/10.\r\n */\nimg {\n  border: 0; }\n/**\r\n * Correct overflow not hidden in IE 9/10/11.\r\n */\nsvg:not(:root) {\n  overflow: hidden; }\n/* Grouping content\r\n   ========================================================================== */\n/**\r\n * Address margin not present in IE 8/9 and Safari.\r\n */\nfigure {\n  margin: 1em 40px; }\n/**\r\n * Address differences between Firefox and other browsers.\r\n */\nhr {\n  -webkit-box-sizing: content-box;\n          box-sizing: content-box;\n  height: 0; }\n/**\r\n * Contain overflow in all browsers.\r\n */\npre {\n  overflow: auto; }\n/**\r\n * Address odd `em`-unit font size rendering in all browsers.\r\n */\ncode,\nkbd,\npre,\nsamp {\n  font-family: monospace, monospace;\n  font-size: 1em; }\n/* Forms\r\n   ========================================================================== */\n/**\r\n * Known limitation: by default, Chrome and Safari on OS X allow very limited\r\n * styling of `select`, unless a `border` property is set.\r\n */\n/**\r\n * 1. Correct color not being inherited.\r\n *    Known issue: affects color of disabled elements.\r\n * 2. Correct font properties not being inherited.\r\n * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.\r\n */\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  color: inherit;\n  /* 1 */\n  font: inherit;\n  /* 2 */\n  margin: 0;\n  /* 3 */ }\n/**\r\n * Address `overflow` set to `hidden` in IE 8/9/10/11.\r\n */\nbutton {\n  overflow: visible; }\n/**\r\n * Address inconsistent `text-transform` inheritance for `button` and `select`.\r\n * All other form control elements do not inherit `text-transform` values.\r\n * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.\r\n * Correct `select` style inheritance in Firefox.\r\n */\nbutton,\nselect {\n  text-transform: none; }\n/**\r\n * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`\r\n *    and `video` controls.\r\n * 2. Correct inability to style clickable `input` types in iOS.\r\n * 3. Improve usability and consistency of cursor style between image-type\r\n *    `input` and others.\r\n */\nbutton,\nhtml input[type=\"button\"],\ninput[type=\"reset\"],\ninput[type=\"submit\"] {\n  -webkit-appearance: button;\n  /* 2 */\n  cursor: pointer;\n  /* 3 */ }\n/**\r\n * Re-set default cursor for disabled elements.\r\n */\nbutton[disabled],\nhtml input[disabled] {\n  cursor: default; }\n/**\r\n * Remove inner padding and border in Firefox 4+.\r\n */\nbutton::-moz-focus-inner,\ninput::-moz-focus-inner {\n  border: 0;\n  padding: 0; }\n/**\r\n * Address Firefox 4+ setting `line-height` on `input` using `!important` in\r\n * the UA stylesheet.\r\n */\ninput {\n  line-height: normal; }\n/**\r\n * It's recommended that you don't attempt to style these elements.\r\n * Firefox's implementation doesn't respect box-sizing, padding, or width.\r\n *\r\n * 1. Address box sizing set to `content-box` in IE 8/9/10.\r\n * 2. Remove excess padding in IE 8/9/10.\r\n */\ninput[type=\"checkbox\"],\ninput[type=\"radio\"] {\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n  /* 1 */\n  padding: 0;\n  /* 2 */ }\n/**\r\n * Fix the cursor style for Chrome's increment/decrement buttons. For certain\r\n * `font-size` values of the `input`, it causes the cursor style of the\r\n * decrement button to change from `default` to `text`.\r\n */\ninput[type=\"number\"]::-webkit-inner-spin-button,\ninput[type=\"number\"]::-webkit-outer-spin-button {\n  height: auto; }\n/**\r\n * 1. Address `appearance` set to `searchfield` in Safari and Chrome.\r\n * 2. Address `box-sizing` set to `border-box` in Safari and Chrome\r\n *    (include `-moz` to future-proof).\r\n */\ninput[type=\"search\"] {\n  -webkit-appearance: textfield;\n  /* 1 */\n  -webkit-box-sizing: content-box;\n  /* 2 */\n  box-sizing: content-box; }\n/**\r\n * Remove inner padding and search cancel button in Safari and Chrome on OS X.\r\n * Safari (but not Chrome) clips the cancel button when the search input has\r\n * padding (and `textfield` appearance).\r\n */\ninput[type=\"search\"]::-webkit-search-cancel-button,\ninput[type=\"search\"]::-webkit-search-decoration {\n  -webkit-appearance: none; }\n/**\r\n * Define consistent border, margin, and padding.\r\n */\nfieldset {\n  border: 1px solid #c0c0c0;\n  margin: 0 2px;\n  padding: 0.35em 0.625em 0.75em; }\n/**\r\n * 1. Correct `color` not being inherited in IE 8/9/10/11.\r\n * 2. Remove padding so people aren't caught out if they zero out fieldsets.\r\n */\nlegend {\n  border: 0;\n  /* 1 */\n  padding: 0;\n  /* 2 */ }\n/**\r\n * Remove default vertical scrollbar in IE 8/9/10/11.\r\n */\ntextarea {\n  overflow: auto; }\n/**\r\n * Don't inherit the `font-weight` (applied by a rule above).\r\n * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.\r\n */\noptgroup {\n  font-weight: bold; }\n/* Tables\r\n   ========================================================================== */\n/**\r\n * Remove most spacing between table cells.\r\n */\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\ntd,\nth {\n  padding: 0; }\n/*\r\n* Skeleton V2.0.4\r\n* Copyright 2014, Dave Gamache\r\n* www.getskeleton.com\r\n* Free to use under the MIT license.\r\n* http://www.opensource.org/licenses/mit-license.php\r\n* 12/29/2014\r\n*/\n/* Table of contents\r\n––––––––––––––––––––––––––––––––––––––––––––––––––\r\n- Grid\r\n- Base Styles\r\n- Typography\r\n- Links\r\n- Buttons\r\n- Forms\r\n- Lists\r\n- Code\r\n- Tables\r\n- Spacing\r\n- Utilities\r\n- Clearing\r\n- Media Queries\r\n*/\n/* Grid\r\n–––––––––––––––––––––––––––––––––––––––––––––––––– */\n.container {\n  position: relative;\n  width: 100%;\n  max-width: 960px;\n  margin: 0 auto;\n  padding: 0 20px;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box; }\n.column,\n.columns {\n  width: 100%;\n  float: left;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box; }\n/* For devices larger than 400px */\n@media (min-width: 400px) {\n  .container {\n    width: 85%;\n    padding: 0; } }\n/* For devices larger than 550px */\n@media (min-width: 550px) {\n  .container {\n    width: 80%; }\n  .column,\n  .columns {\n    margin-left: 4%; }\n  .column:first-child,\n  .columns:first-child {\n    margin-left: 0; }\n  .one.column,\n  .one.columns {\n    width: 4.66666666667%; }\n  .two.columns {\n    width: 13.3333333333%; }\n  .three.columns {\n    width: 22%; }\n  .four.columns {\n    width: 30.6666666667%; }\n  .five.columns {\n    width: 39.3333333333%; }\n  .six.columns {\n    width: 48%; }\n  .seven.columns {\n    width: 56.6666666667%; }\n  .eight.columns {\n    width: 65.3333333333%; }\n  .nine.columns {\n    width: 74.0%; }\n  .ten.columns {\n    width: 82.6666666667%; }\n  .eleven.columns {\n    width: 91.3333333333%; }\n  .twelve.columns {\n    width: 100%;\n    margin-left: 0; }\n  .one-third.column {\n    width: 30.6666666667%; }\n  .two-thirds.column {\n    width: 65.3333333333%; }\n  .one-half.column {\n    width: 48%; }\n  /* Offsets */\n  .offset-by-one.column,\n  .offset-by-one.columns {\n    margin-left: 8.66666666667%; }\n  .offset-by-two.column,\n  .offset-by-two.columns {\n    margin-left: 17.3333333333%; }\n  .offset-by-three.column,\n  .offset-by-three.columns {\n    margin-left: 26%; }\n  .offset-by-four.column,\n  .offset-by-four.columns {\n    margin-left: 34.6666666667%; }\n  .offset-by-five.column,\n  .offset-by-five.columns {\n    margin-left: 43.3333333333%; }\n  .offset-by-six.column,\n  .offset-by-six.columns {\n    margin-left: 52%; }\n  .offset-by-seven.column,\n  .offset-by-seven.columns {\n    margin-left: 60.6666666667%; }\n  .offset-by-eight.column,\n  .offset-by-eight.columns {\n    margin-left: 69.3333333333%; }\n  .offset-by-nine.column,\n  .offset-by-nine.columns {\n    margin-left: 78.0%; }\n  .offset-by-ten.column,\n  .offset-by-ten.columns {\n    margin-left: 86.6666666667%; }\n  .offset-by-eleven.column,\n  .offset-by-eleven.columns {\n    margin-left: 95.3333333333%; }\n  .offset-by-one-third.column,\n  .offset-by-one-third.columns {\n    margin-left: 34.6666666667%; }\n  .offset-by-two-thirds.column,\n  .offset-by-two-thirds.columns {\n    margin-left: 69.3333333333%; }\n  .offset-by-one-half.column,\n  .offset-by-one-half.columns {\n    margin-left: 52%; } }\n/* Base Styles\r\n–––––––––––––––––––––––––––––––––––––––––––––––––– */\n/* NOTE\r\nhtml is set to 62.5% so that all the REM measurements throughout Skeleton\r\nare based on 10px sizing. So basically 1.5rem = 15px :) */\nhtml {\n  font-size: 62.5%; }\nbody {\n  font-size: 1.5em;\n  /* currently ems cause chrome bug misinterpreting rems on body element */\n  line-height: 1.6;\n  font-weight: 400;\n  font-family: \"Raleway\", \"HelveticaNeue\", \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n  color: #222; }\n/* Typography\r\n–––––––––––––––––––––––––––––––––––––––––––––––––– */\nh1, h2, h3, h4, h5, h6 {\n  margin-top: 0;\n  margin-bottom: 2rem;\n  font-weight: 300; }\nh1 {\n  font-size: 4.0rem;\n  line-height: 1.2;\n  letter-spacing: -.1rem; }\nh2 {\n  font-size: 3.6rem;\n  line-height: 1.25;\n  letter-spacing: -.1rem; }\nh3 {\n  font-size: 3.0rem;\n  line-height: 1.3;\n  letter-spacing: -.1rem; }\nh4 {\n  font-size: 2.4rem;\n  line-height: 1.35;\n  letter-spacing: -.08rem; }\nh5 {\n  font-size: 1.8rem;\n  line-height: 1.5;\n  letter-spacing: -.05rem; }\nh6 {\n  font-size: 1.5rem;\n  line-height: 1.6;\n  letter-spacing: 0; }\n/* Larger than phablet */\n@media (min-width: 550px) {\n  h1 {\n    font-size: 5.0rem; }\n  h2 {\n    font-size: 4.2rem; }\n  h3 {\n    font-size: 3.6rem; }\n  h4 {\n    font-size: 3.0rem; }\n  h5 {\n    font-size: 2.4rem; }\n  h6 {\n    font-size: 1.5rem; } }\np {\n  margin-top: 0; }\n/* Links\r\n–––––––––––––––––––––––––––––––––––––––––––––––––– */\na {\n  color: #1EAEDB; }\na:hover {\n  color: #0FA0CE; }\n/* Forms\r\n–––––––––––––––––––––––––––––––––––––––––––––––––– */\ninput[type=\"email\"],\ninput[type=\"number\"],\ninput[type=\"search\"],\ninput[type=\"text\"],\ninput[type=\"tel\"],\ninput[type=\"url\"],\ninput[type=\"password\"],\ntextarea,\nselect {\n  height: 38px;\n  padding: 6px 10px;\n  /* The 6px vertically centers text on FF, ignored by Webkit */\n  background-color: #fff;\n  border: 1px solid #D1D1D1;\n  border-radius: 4px;\n  -webkit-box-shadow: none;\n          box-shadow: none;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box; }\n/* Removes awkward default styles on some inputs for iOS */\ninput[type=\"email\"],\ninput[type=\"number\"],\ninput[type=\"search\"],\ninput[type=\"text\"],\ninput[type=\"tel\"],\ninput[type=\"url\"],\ninput[type=\"password\"],\ntextarea {\n  -webkit-appearance: none;\n  -moz-appearance: none;\n  appearance: none; }\ntextarea {\n  min-height: 65px;\n  padding-top: 6px;\n  padding-bottom: 6px; }\ninput[type=\"email\"]:focus,\ninput[type=\"number\"]:focus,\ninput[type=\"search\"]:focus,\ninput[type=\"text\"]:focus,\ninput[type=\"tel\"]:focus,\ninput[type=\"url\"]:focus,\ninput[type=\"password\"]:focus,\ntextarea:focus,\nselect:focus {\n  border: 1px solid #33C3F0;\n  outline: 0; }\nlabel,\nlegend {\n  display: block;\n  margin-bottom: .5rem;\n  font-weight: 600; }\nfieldset {\n  padding: 0;\n  border-width: 0; }\ninput[type=\"checkbox\"],\ninput[type=\"radio\"] {\n  display: inline; }\nlabel > .label-body {\n  display: inline-block;\n  margin-left: .5rem;\n  font-weight: normal; }\n/* Lists\r\n–––––––––––––––––––––––––––––––––––––––––––––––––– */\nul {\n  list-style: circle inside; }\nol {\n  list-style: decimal inside; }\nol, ul {\n  padding-left: 0;\n  margin-top: 0; }\nul ul,\nul ol,\nol ol,\nol ul {\n  margin: 1.5rem 0 1.5rem 3rem;\n  font-size: 90%; }\nli {\n  margin-bottom: 1rem; }\n/* Code\r\n–––––––––––––––––––––––––––––––––––––––––––––––––– */\ncode {\n  padding: .2rem .5rem;\n  margin: 0 .2rem;\n  font-size: 90%;\n  white-space: nowrap;\n  background: #F1F1F1;\n  border: 1px solid #E1E1E1;\n  border-radius: 4px; }\npre > code {\n  display: block;\n  padding: 1rem 1.5rem;\n  white-space: pre; }\n/* Tables\r\n–––––––––––––––––––––––––––––––––––––––––––––––––– */\nth,\ntd {\n  padding: 12px 15px;\n  text-align: left;\n  border-bottom: 1px solid #E1E1E1; }\nth:first-child,\ntd:first-child {\n  padding-left: 0; }\nth:last-child,\ntd:last-child {\n  padding-right: 0; }\n/* Spacing\r\n–––––––––––––––––––––––––––––––––––––––––––––––––– */\nbutton,\n.button {\n  margin-bottom: 1rem; }\ninput,\ntextarea,\nselect,\nfieldset {\n  margin-bottom: 1rem; }\npre,\nblockquote,\ndl,\nfigure,\ntable,\np,\nul,\nol,\nform {\n  margin-bottom: 2.5rem; }\n/* Utilities\r\n–––––––––––––––––––––––––––––––––––––––––––––––––– */\n.u-full-width {\n  width: 100%;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box; }\n.u-max-full-width {\n  max-width: 100%;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box; }\n.u-pull-right {\n  float: right; }\n.u-pull-left {\n  float: left; }\n/* Misc\r\n–––––––––––––––––––––––––––––––––––––––––––––––––– */\nhr {\n  margin-top: 3rem;\n  margin-bottom: 3.5rem;\n  border-width: 0;\n  border-top: 1px solid #E1E1E1; }\n/* Clearing\r\n–––––––––––––––––––––––––––––––––––––––––––––––––– */\n/* Self Clearing Goodness */\n.container:after,\n.row:after,\n.u-cf {\n  content: \"\";\n  display: table;\n  clear: both; }\n/* Media Queries\r\n–––––––––––––––––––––––––––––––––––––––––––––––––– */\n/*\r\nNote: The best way to structure the use of media queries is to create the queries\r\nnear the relevant code. For example, if you wanted to change the styles for buttons\r\non small devices, paste the mobile query code up in the buttons section and style it\r\nthere.\r\n*/\n/* Larger than mobile */\n/* Larger than phablet (also point when grid becomes active) */\n/* Larger than tablet */\n/* Larger than desktop */\n/* Larger than Desktop HD */\nbody {\n  width: 100%;\n  height: 100%; }\n.slideout-menu {\n  position: fixed;\n  top: 0;\n  bottom: 0;\n  width: 256px;\n  min-height: 100vh;\n  overflow-y: scroll;\n  -webkit-overflow-scrolling: touch;\n  z-index: 0;\n  display: none; }\n.slideout-menu-left {\n  left: 0; }\n.slideout-menu-right {\n  right: 0; }\n.slideout-panel {\n  position: relative;\n  z-index: 1;\n  will-change: transform;\n  background-color: transparent;\n  /* A background-color is required */\n  min-height: 100vh; }\n.slideout-open,\n.slideout-open body,\n.slideout-open .slideout-panel {\n  overflow: hidden; }\n.slideout-open .slideout-menu {\n  display: block; }\n.blocker {\n  position: fixed;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  overflow: auto;\n  z-index: 1;\n  padding: 20px;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n  background-color: #000;\n  background-color: rgba(0, 0, 0, 0.75);\n  text-align: center; }\n.blocker:before {\n  content: \"\";\n  display: inline-block;\n  height: 100%;\n  vertical-align: middle;\n  margin-right: -0.05em; }\n.blocker.behind {\n  background-color: transparent; }\n.modal {\n  display: none;\n  vertical-align: middle;\n  position: relative;\n  z-index: 2;\n  max-width: 500px;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n  width: 90%;\n  background: #fff;\n  padding: 15px 30px;\n  border-radius: 8px;\n  -webkit-box-shadow: 0 0 10px #000;\n  -o-box-shadow: 0 0 10px #000;\n  -ms-box-shadow: 0 0 10px #000;\n  box-shadow: 0 0 10px #000;\n  text-align: left; }\n.modal a.close-modal {\n  position: absolute;\n  top: -12.5px;\n  right: -12.5px;\n  display: block;\n  width: 30px;\n  height: 30px;\n  text-indent: -9999px;\n  background-size: contain;\n  background-repeat: no-repeat;\n  background-position: center center;\n  background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAAAXNSR0IArs4c6QAAA3hJREFUaAXlm8+K00Acx7MiCIJH/yw+gA9g25O49SL4AO3Bp1jw5NvktC+wF88qevK4BU97EmzxUBCEolK/n5gp3W6TTJPfpNPNF37MNsl85/vN/DaTmU6PknC4K+pniqeKJ3k8UnkvDxXJzzy+q/yaxxeVHxW/FNHjgRSeKt4rFoplzaAuHHDBGR2eS9G54reirsmienDCTRt7xwsp+KAoEmt9nLaGitZxrBbPFNaGfPloGw2t4JVamSt8xYW6Dg1oCYo3Yv+rCGViV160oMkcd8SYKnYV1Nb1aEOjCe6L5ZOiLfF120EjWhuBu3YIZt1NQmujnk5F4MgOpURzLfAwOBSTmzp3fpDxuI/pabxpqOoz2r2HLAb0GMbZKlNV5/Hg9XJypguryA7lPF5KMdTZQzHjqxNPhWhzIuAruOl1eNqKEx1tSh5rfbxdw7mOxCq4qS68ZTjKS1YVvilu559vWvFHhh4rZrdyZ69Vmpgdj8fJbDZLJpNJ0uv1cnr/gjrUhQMuI+ANjyuwftQ0bbL6Erp0mM/ny8Fg4M3LtdRxgMtKl3jwmIHVxYXChFy94/Rmpa/pTbNUhstKV+4Rr8lLQ9KlUvJKLyG8yvQ2s9SBy1Jb7jV5a0yapfF6apaZLjLLcWtd4sNrmJUMHyM+1xibTjH82Zh01TNlhsrOhdKTe00uAzZQmN6+KW+sDa/JD2PSVQ873m29yf+1Q9VDzfEYlHi1G5LKBBWZbtEsHbFwb1oYDwr1ZiF/2bnCSg1OBE/pfr9/bWx26UxJL3ONPISOLKUvQza0LZUxSKyjpdTGa/vDEr25rddbMM0Q3O6Lx3rqFvU+x6UrRKQY7tyrZecmD9FODy8uLizTmilwNj0kraNcAJhOp5aGVwsAGD5VmJBrWWbJSgWT9zrzWepQF47RaGSiKfeGx6Szi3gzmX/HHbihwBser4B9UJYpFBNX4R6vTn3VQnez0SymnrHQMsRYGTr1dSk34ljRqS/EMd2pLQ8YBp3a1PLfcqCpo8gtHkZFHKkTX6fs3MY0blKnth66rKCnU0VRGu37ONrQaA4eZDFtWAu2fXj9zjFkxTBOo8F7t926gTp/83Kyzzcy2kZD6xiqxTYnHLRFm3vHiRSwNSjkz3hoIzo8lCKWUlg/YtGs7tObunDAZfpDLbfEI15zsEIY3U/x/gHHc/G1zltnAgAAAABJRU5ErkJggg==\"); }\n.modal-spinner {\n  display: none;\n  position: fixed;\n  top: 50%;\n  left: 50%;\n  -webkit-transform: translateY(-50%) translateX(-50%);\n          transform: translateY(-50%) translateX(-50%);\n  padding: 12px 16px;\n  border-radius: 5px;\n  background-color: #111;\n  height: 20px; }\n.modal-spinner > div {\n  border-radius: 100px;\n  background-color: #fff;\n  height: 20px;\n  width: 2px;\n  margin: 0 1px;\n  display: inline-block;\n  -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;\n  animation: sk-stretchdelay 1.2s infinite ease-in-out; }\n.modal-spinner .rect2 {\n  -webkit-animation-delay: -1.1s;\n  animation-delay: -1.1s; }\n.modal-spinner .rect3 {\n  -webkit-animation-delay: -1.0s;\n  animation-delay: -1.0s; }\n.modal-spinner .rect4 {\n  -webkit-animation-delay: -0.9s;\n  animation-delay: -0.9s; }\n@-webkit-keyframes sk-stretchdelay {\n  0%, 40%, 100% {\n    -webkit-transform: scaleY(0.5); }\n  20% {\n    -webkit-transform: scaleY(1); } }\n@keyframes sk-stretchdelay {\n  0%, 40%, 100% {\n    transform: scaleY(0.5);\n    -webkit-transform: scaleY(0.5); }\n  20% {\n    transform: scaleY(1);\n    -webkit-transform: scaleY(1); } }\n/*\r\n * Note that this is toastr v2.1.3, the \"latest\" version in url has no more maintenance,\r\n * please go to https://cdnjs.com/libraries/toastr.js and pick a certain version you want to use,\r\n * make sure you copy the url from the website since the url may change between versions.\r\n * */\n.toast-title {\n  font-weight: 700; }\n.toast-message {\n  -ms-word-wrap: break-word;\n  word-wrap: break-word; }\n.toast-message a,\n.toast-message label {\n  color: #FFF; }\n.toast-message a:hover {\n  color: #CCC;\n  text-decoration: none; }\n.toast-close-button {\n  position: relative;\n  right: -.3em;\n  top: -.3em;\n  float: right;\n  font-size: 20px;\n  font-weight: 700;\n  color: #FFF;\n  -webkit-text-shadow: 0 1px 0 #fff;\n  text-shadow: 0 1px 0 #fff;\n  opacity: .8;\n  filter: alpha(opacity=80);\n  line-height: 1; }\n.toast-close-button:focus,\n.toast-close-button:hover {\n  color: #000;\n  text-decoration: none;\n  cursor: pointer;\n  opacity: .4;\n  filter: alpha(opacity=40); }\n.rtl .toast-close-button {\n  left: -.3em;\n  float: left;\n  right: .3em; }\nbutton.toast-close-button {\n  padding: 0;\n  cursor: pointer;\n  background: 0 0;\n  border: 0;\n  -webkit-appearance: none; }\n.toast-top-center {\n  top: 0;\n  right: 0;\n  width: 100%; }\n.toast-bottom-center {\n  bottom: 0;\n  right: 0;\n  width: 100%; }\n.toast-top-full-width {\n  top: 0;\n  right: 0;\n  width: 100%; }\n.toast-bottom-full-width {\n  bottom: 0;\n  right: 0;\n  width: 100%; }\n.toast-top-left {\n  top: 12px;\n  left: 12px; }\n.toast-top-right {\n  top: 12px;\n  right: 12px; }\n.toast-bottom-right {\n  right: 12px;\n  bottom: 12px; }\n.toast-bottom-left {\n  bottom: 12px;\n  left: 12px; }\n#toast-container {\n  position: fixed;\n  z-index: 999999;\n  pointer-events: none; }\n#toast-container * {\n  -webkit-box-sizing: border-box;\n  box-sizing: border-box; }\n#toast-container > div {\n  position: relative;\n  pointer-events: auto;\n  overflow: hidden;\n  margin: 0 0 6px;\n  padding: 15px 15px 15px 50px;\n  width: 300px;\n  border-radius: 3px;\n  background-position: 15px center;\n  background-repeat: no-repeat;\n  -webkit-box-shadow: 0 0 12px #999;\n  box-shadow: 0 0 12px #999;\n  color: #FFF;\n  opacity: .8;\n  filter: alpha(opacity=80); }\n#toast-container > div.rtl {\n  direction: rtl;\n  padding: 15px 50px 15px 15px;\n  background-position: right 15px center; }\n#toast-container > div:hover {\n  -webkit-box-shadow: 0 0 12px #000;\n  box-shadow: 0 0 12px #000;\n  opacity: 1;\n  filter: alpha(opacity=100);\n  cursor: pointer; }\n#toast-container > .toast-info {\n  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGwSURBVEhLtZa9SgNBEMc9sUxxRcoUKSzSWIhXpFMhhYWFhaBg4yPYiWCXZxBLERsLRS3EQkEfwCKdjWJAwSKCgoKCcudv4O5YLrt7EzgXhiU3/4+b2ckmwVjJSpKkQ6wAi4gwhT+z3wRBcEz0yjSseUTrcRyfsHsXmD0AmbHOC9Ii8VImnuXBPglHpQ5wwSVM7sNnTG7Za4JwDdCjxyAiH3nyA2mtaTJufiDZ5dCaqlItILh1NHatfN5skvjx9Z38m69CgzuXmZgVrPIGE763Jx9qKsRozWYw6xOHdER+nn2KkO+Bb+UV5CBN6WC6QtBgbRVozrahAbmm6HtUsgtPC19tFdxXZYBOfkbmFJ1VaHA1VAHjd0pp70oTZzvR+EVrx2Ygfdsq6eu55BHYR8hlcki+n+kERUFG8BrA0BwjeAv2M8WLQBtcy+SD6fNsmnB3AlBLrgTtVW1c2QN4bVWLATaIS60J2Du5y1TiJgjSBvFVZgTmwCU+dAZFoPxGEEs8nyHC9Bwe2GvEJv2WXZb0vjdyFT4Cxk3e/kIqlOGoVLwwPevpYHT+00T+hWwXDf4AJAOUqWcDhbwAAAAASUVORK5CYII=) !important; }\n#toast-container > .toast-error {\n  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHOSURBVEhLrZa/SgNBEMZzh0WKCClSCKaIYOED+AAKeQQLG8HWztLCImBrYadgIdY+gIKNYkBFSwu7CAoqCgkkoGBI/E28PdbLZmeDLgzZzcx83/zZ2SSXC1j9fr+I1Hq93g2yxH4iwM1vkoBWAdxCmpzTxfkN2RcyZNaHFIkSo10+8kgxkXIURV5HGxTmFuc75B2RfQkpxHG8aAgaAFa0tAHqYFfQ7Iwe2yhODk8+J4C7yAoRTWI3w/4klGRgR4lO7Rpn9+gvMyWp+uxFh8+H+ARlgN1nJuJuQAYvNkEnwGFck18Er4q3egEc/oO+mhLdKgRyhdNFiacC0rlOCbhNVz4H9FnAYgDBvU3QIioZlJFLJtsoHYRDfiZoUyIxqCtRpVlANq0EU4dApjrtgezPFad5S19Wgjkc0hNVnuF4HjVA6C7QrSIbylB+oZe3aHgBsqlNqKYH48jXyJKMuAbiyVJ8KzaB3eRc0pg9VwQ4niFryI68qiOi3AbjwdsfnAtk0bCjTLJKr6mrD9g8iq/S/B81hguOMlQTnVyG40wAcjnmgsCNESDrjme7wfftP4P7SP4N3CJZdvzoNyGq2c/HWOXJGsvVg+RA/k2MC/wN6I2YA2Pt8GkAAAAASUVORK5CYII=) !important; }\n#toast-container > .toast-success {\n  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADsSURBVEhLY2AYBfQMgf///3P8+/evAIgvA/FsIF+BavYDDWMBGroaSMMBiE8VC7AZDrIFaMFnii3AZTjUgsUUWUDA8OdAH6iQbQEhw4HyGsPEcKBXBIC4ARhex4G4BsjmweU1soIFaGg/WtoFZRIZdEvIMhxkCCjXIVsATV6gFGACs4Rsw0EGgIIH3QJYJgHSARQZDrWAB+jawzgs+Q2UO49D7jnRSRGoEFRILcdmEMWGI0cm0JJ2QpYA1RDvcmzJEWhABhD/pqrL0S0CWuABKgnRki9lLseS7g2AlqwHWQSKH4oKLrILpRGhEQCw2LiRUIa4lwAAAABJRU5ErkJggg==) !important; }\n#toast-container > .toast-warning {\n  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGYSURBVEhL5ZSvTsNQFMbXZGICMYGYmJhAQIJAICYQPAACiSDB8AiICQQJT4CqQEwgJvYASAQCiZiYmJhAIBATCARJy+9rTsldd8sKu1M0+dLb057v6/lbq/2rK0mS/TRNj9cWNAKPYIJII7gIxCcQ51cvqID+GIEX8ASG4B1bK5gIZFeQfoJdEXOfgX4QAQg7kH2A65yQ87lyxb27sggkAzAuFhbbg1K2kgCkB1bVwyIR9m2L7PRPIhDUIXgGtyKw575yz3lTNs6X4JXnjV+LKM/m3MydnTbtOKIjtz6VhCBq4vSm3ncdrD2lk0VgUXSVKjVDJXJzijW1RQdsU7F77He8u68koNZTz8Oz5yGa6J3H3lZ0xYgXBK2QymlWWA+RWnYhskLBv2vmE+hBMCtbA7KX5drWyRT/2JsqZ2IvfB9Y4bWDNMFbJRFmC9E74SoS0CqulwjkC0+5bpcV1CZ8NMej4pjy0U+doDQsGyo1hzVJttIjhQ7GnBtRFN1UarUlH8F3xict+HY07rEzoUGPlWcjRFRr4/gChZgc3ZL2d8oAAAAASUVORK5CYII=) !important; }\n#toast-container.toast-bottom-center > div,\n#toast-container.toast-top-center > div {\n  width: 300px;\n  margin-left: auto;\n  margin-right: auto; }\n#toast-container.toast-bottom-full-width > div,\n#toast-container.toast-top-full-width > div {\n  width: 96%;\n  margin-left: auto;\n  margin-right: auto; }\n.toast {\n  background-color: #030303; }\n.toast-success {\n  background-color: #51A351; }\n.toast-error {\n  background-color: #BD362F; }\n.toast-info {\n  background-color: #2F96B4; }\n.toast-warning {\n  background-color: #F89406; }\n.toast-progress {\n  position: absolute;\n  left: 0;\n  bottom: 0;\n  height: 4px;\n  background-color: #000;\n  opacity: .4;\n  filter: alpha(opacity=40); }\n@media all and (max-width: 240px) {\n  #toast-container > div {\n    padding: 8px 8px 8px 50px;\n    width: 11em; }\n  #toast-container > div.rtl {\n    padding: 8px 50px 8px 8px; }\n  #toast-container .toast-close-button {\n    right: -.2em;\n    top: -.2em; }\n  #toast-container .rtl .toast-close-button {\n    left: -.2em;\n    right: .2em; } }\n@media all and (min-width: 241px) and (max-width: 480px) {\n  #toast-container > div {\n    padding: 8px 8px 8px 50px;\n    width: 18em; }\n  #toast-container > div.rtl {\n    padding: 8px 50px 8px 8px; }\n  #toast-container .toast-close-button {\n    right: -.2em;\n    top: -.2em; }\n  #toast-container .rtl .toast-close-button {\n    left: -.2em;\n    right: .2em; } }\n@media all and (min-width: 481px) and (max-width: 768px) {\n  #toast-container > div {\n    padding: 15px 15px 15px 50px;\n    width: 25em; }\n  #toast-container > div.rtl {\n    padding: 15px 50px 15px 15px; } }\n@font-face {\n  font-family: 'vollkorn-regular';\n  src: url(\"../../static/fonts/vollkorn/Vollkorn-Regular.ttf\") format(\"truetype\"); }\n@font-face {\n  font-family: 'vollkorn-bold';\n  src: url(\"../../static/fonts/vollkorn/Vollkorn-Bold.ttf\") format(\"truetype\"); }\n@font-face {\n  font-family: 'vollkorn-black';\n  src: url(\"../../static/fonts/vollkorn/Vollkorn-Black.ttf\") format(\"truetype\"); }\n@font-face {\n  font-family: 'OpenSans-regular';\n  src: url(\"../../static/fonts/open-sans/OpenSans-Regular.ttf\") format(\"truetype\"); }\n@font-face {\n  font-family: 'OpenSand-bold';\n  src: url(\"../../static/fonts/open-sans/Volkron-Bold.ttf\") format(\"truetype\"); }\n.nav-desktop .nav-desktop-left .logo, .nav-index .nav-desktop-left .logo, .btn-block-white, .btn-block-purple {\n  display: block;\n  width: 100%; }\n.nav-desktop .nav-desktop-left, .nav-index .nav-desktop-left {\n  float: left;\n  margin-right: auto; }\n.nav-desktop .nav-desktop-left .logo, .nav-index .nav-desktop-left .logo {\n    font-size: 1.3em;\n    background-image: url(http://res.cloudinary.com/sportbay-co/image/upload/v1525431685/charisol-logo_purple_l5mn4v.svg);\n    background-position: left;\n    background-size: contain;\n    background-repeat: no-repeat;\n    margin-left: 20px;\n    width: 130px;\n    height: 75px; }\n.nav-desktop .nav-desktop-left .logo img, .nav-index .nav-desktop-left .logo img {\n      display: none;\n      max-height: 15px;\n      position: relative;\n      top: -5px; }\n.nav-desktop .hamburger, .nav-index .hamburger {\n  float: right;\n  cursor: pointer;\n  width: 40px;\n  padding: 10px; }\n.nav-desktop .hamburger span, .nav-index .hamburger span {\n    display: block;\n    margin-bottom: 4px;\n    background-color: black;\n    border: 1px solid black;\n    -webkit-transition: all 0.4s cubic-bezier(0.895, 0.03, 0.685, 0.22);\n    transition: all 0.4s cubic-bezier(0.895, 0.03, 0.685, 0.22); }\n.nav-desktop .hamburger .last-child, .nav-index .hamburger .last-child {\n    margin-bottom: 0; }\n.nav-desktop .hamburger:hover .first-child, .nav-index .hamburger:hover .first-child,\n.nav-desktop .hamburger:hover .last-child,\n.nav-index .hamburger:hover .last-child {\n  -webkit-transform: scaleX(0.7);\n          transform: scaleX(0.7); }\n.btn-clear-purple, .btn-clear-white, footer .links li a, .btn-trans-white, .btn-block-white, .btn-block-purple, .btn-curve-purple, .btn-curve-white, .nav-desktop .links li a {\n  -webkit-transition: 0.4s;\n  transition: 0.4s; }\n.btn-clear-purple, .btn-clear-white {\n  padding: 0;\n  margin: 0;\n  border: 0;\n  font-size: 1.2em;\n  position: relative;\n  text-decoration: none; }\n.btn-clear-purple img, .btn-clear-white img {\n    height: 10px;\n    margin-left: 10px; }\n.btn-clear-purple:hover, .btn-clear-white:hover {\n    -webkit-transform: translateY(-1px);\n            transform: translateY(-1px); }\nhtml, body {\n  height: 100%; }\nbody {\n  font-family: 'OpenSans-regular', sans-serif;\n  color: #222222;\n  overflow-x: hidden; }\nbutton {\n  background: transparent; }\nbutton:visited, button:focus {\n    outline: 0; }\nfooter {\n  padding: 20px 50px 70px 50px;\n  background: white; }\nfooter .nav-desktop-left {\n    float: left; }\nfooter .nav-desktop-left .logo {\n      text-decoration: none;\n      font-size: 1.3em;\n      display: block;\n      height: 85px;\n      width: 120px;\n      background-image: url(http://res.cloudinary.com/sportbay-co/image/upload/v1525431685/charisol-logo_purple_l5mn4v.svg);\n      background-position: left;\n      background-size: contain;\n      background-repeat: no-repeat; }\nfooter .nav-desktop-left .logo img {\n        max-height: 15px;\n        position: relative;\n        top: 15px; }\nfooter .links {\n    float: right;\n    margin-top: 5px; }\nfooter .links ul {\n      list-style: none;\n      padding: 0;\n      margin: 0; }\nfooter .links li {\n      display: inline-block;\n      padding: 0 15px; }\nfooter .links li a {\n        opacity: 0.9;\n        font-weight: 300;\n        text-decoration: none;\n        color: #4D4D4D; }\nfooter .links li a:hover {\n        opacity: 1; }\nfooter .links li img {\n        height: 30px;\n        position: relative;\n        top: 10px; }\n.close {\n  display: block;\n  width: 25px;\n  height: 25px;\n  background-position: center;\n  background-size: contain;\n  margin: 0 auto;\n  margin-right: 0px;\n  -webkit-transition: all 0.4s cubic-bezier(0.895, 0.03, 0.685, 0.22);\n  transition: all 0.4s cubic-bezier(0.895, 0.03, 0.685, 0.22);\n  margin-bottom: 40px; }\n.close-white {\n  background-image: url(\"http://res.cloudinary.com/sportbay-co/image/upload/v1525969277/close-white_vgyzjt.svg\"); }\n.close-red {\n  background-image: url(\"../../static/img/close-red.svg\");\n  width: 18px;\n  height: 18px; }\n.close:hover {\n  -webkit-transform: rotate(90deg);\n          transform: rotate(90deg); }\n.smooth-scroll {\n  position: absolute;\n  -webkit-transition: -webkit-transform 0.4s ease-out;\n  transition: -webkit-transform 0.4s ease-out;\n  transition: transform 0.4s ease-out;\n  transition: transform 0.4s ease-out, -webkit-transform 0.4s ease-out; }\n.bold {\n  font-family: 'OpenSans-Bold', sans-serif; }\n.light {\n  font-size: 12px;\n  opacity: 0.6;\n  font-family: 'proxima-nova-light', sans-serif; }\n.heading-wrapper, .sub-text-wrapper {\n  display: block;\n  overflow: hidden;\n  margin-bottom: 40px; }\n.heading-wrapper {\n  padding-top: 10px; }\n.sub-text-wrapper {\n  margin-bottom: 30px; }\n.heading {\n  font-family: 'vollkorn-bold', 'serif';\n  color: #B721FF;\n  font-size: 44px;\n  -webkit-transition: all 0.9s cubic-bezier(0.175, 0.885, 0.32, 1.275);\n  transition: all 0.9s cubic-bezier(0.175, 0.885, 0.32, 1.275);\n  -webkit-transition-delay: 0.25s;\n          transition-delay: 0.25s;\n  margin: 0px; }\n.sub-text {\n  margin-bottom: 0px;\n  -webkit-transition: all 0.7s cubic-bezier(0.77, 0, 0.175, 1);\n  transition: all 0.7s cubic-bezier(0.77, 0, 0.175, 1);\n  -webkit-transition-delay: 0.45s;\n          transition-delay: 0.45s; }\n.heading.no-reveal {\n  -webkit-transform: translate3d(0px, 115%, 0px);\n          transform: translate3d(0px, 115%, 0px);\n  opacity: 0; }\n.sub-text.no-reveal {\n  -webkit-transform: translate3d(0px, -115%, 0px);\n          transform: translate3d(0px, -115%, 0px);\n  opacity: 0; }\n.heading.reveal, .sub-text.reveal {\n  -webkit-transform: translate3d(0px, 0%, 0px);\n          transform: translate3d(0px, 0%, 0px);\n  opacity: 1; }\n.m-b-sm {\n  margin-bottom: 10px; }\n.m-b-md {\n  margin-bottom: 20px; }\n.m-b-lg {\n  margin-bottom: 40px; }\n.m-b-xl {\n  margin-bottom: 60px; }\n.m-l-sm {\n  margin-left: 10px; }\n.m-r-md {\n  margin-right: 20px; }\n.m-t-md {\n  margin-top: 20px; }\n.m-t-lg {\n  margin-top: 40px; }\n.m-t-xl {\n  margin-top: 60px; }\n.btn-clear-purple {\n  color: #B721FF; }\n.btn-clear-purple:hover {\n    color: #B721FF; }\n.btn-clear-white {\n  color: white; }\n.btn-clear-white:hover {\n    color: white; }\n.btn-trans-white {\n  color: white;\n  display: block;\n  width: 180px;\n  border: 1px solid white;\n  border-radius: 40px;\n  background: transparent;\n  text-align: center;\n  padding: 10px 25px;\n  -webkit-transition: -webkit-transform 0.4s;\n  transition: -webkit-transform 0.4s;\n  transition: transform 0.4s;\n  transition: transform 0.4s, -webkit-transform 0.4s; }\n.btn-trans-white:hover {\n    color: #222222 !important;\n    background: white;\n    -webkit-transform: scale(0.9);\n            transform: scale(0.9); }\n.btn-block-white {\n  -webkit-box-shadow: -1px 1px 1px 1px rgba(0, 0, 0, 0.1);\n          box-shadow: -1px 1px 1px 1px rgba(0, 0, 0, 0.1);\n  color: #B721FF;\n  display: block;\n  width: 180px;\n  border: 1px solid white;\n  border-radius: 3px;\n  background: transparent;\n  text-align: center;\n  padding: 5px 25px;\n  -webkit-transition: -webkit-transform 0.4s;\n  transition: -webkit-transform 0.4s;\n  transition: transform 0.4s;\n  transition: transform 0.4s, -webkit-transform 0.4s; }\n.btn-block-white:hover {\n    color: white !important;\n    background: #B721FF;\n    -webkit-transform: scale(0.9);\n            transform: scale(0.9); }\n.btn-block-purple {\n  color: white;\n  display: block;\n  width: 180px;\n  border: 1px solid transparent;\n  border-radius: 3px;\n  background: #B721FF;\n  text-align: center;\n  padding: 15px;\n  -webkit-transition: -webkit-transform 0.4s;\n  transition: -webkit-transform 0.4s;\n  transition: transform 0.4s;\n  transition: transform 0.4s, -webkit-transform 0.4s; }\n.btn-block-purple:hover {\n    color: white !important;\n    background: #B721FF;\n    -webkit-transform: scale(0.9);\n            transform: scale(0.9); }\n.btn-curve-purple img, .btn-curve-white img {\n  margin-left: 10px; }\n.btn-curve-purple {\n  color: white;\n  display: block;\n  width: 180px;\n  border: 1px solid transparent;\n  border-radius: 40px;\n  background: #B721FF;\n  text-align: center;\n  padding: 15px 15px;\n  -webkit-transition: -webkit-transform 0.4s;\n  transition: -webkit-transform 0.4s;\n  transition: transform 0.4s;\n  transition: transform 0.4s, -webkit-transform 0.4s;\n  text-decoration: none; }\n.btn-curve-purple:hover {\n    color: white !important;\n    background: #B721FF;\n    -webkit-transform: scale(0.9);\n            transform: scale(0.9); }\n.btn-curve-white {\n  color: #B721FF;\n  display: block;\n  width: 180px;\n  border: 1px solid transparent;\n  border-radius: 40px;\n  background: white;\n  text-align: center;\n  padding: 15px 15px;\n  -webkit-transition: -webkit-transform 0.4s;\n  transition: -webkit-transform 0.4s;\n  transition: transform 0.4s;\n  transition: transform 0.4s, -webkit-transform 0.4s;\n  text-decoration: none; }\n.btn-curve-white:hover {\n    color: #B721FF !important;\n    background: white;\n    -webkit-transform: scale(0.9);\n            transform: scale(0.9); }\n.text-center {\n  text-align: center; }\n.content-cover {\n  display: none;\n  z-index: 10;\n  position: absolute;\n  right: 0;\n  width: 100%;\n  height: 100%;\n  background: rgba(0, 0, 0, 0.6); }\n#panel {\n  background: white; }\n.modal input, .modal textarea, .modal select, .modal fieldset {\n  margin-bottom: 1rem; }\n.modal textarea {\n  height: auto; }\n.blocker {\n  z-index: 11; }\n.full {\n  display: block;\n  width: 100%; }\n.nav-desktop {\n  font-size: 1em;\n  left: 0;\n  padding: 15px 30px;\n  position: absolute;\n  right: 0;\n  top: 0;\n  z-index: 10;\n  background: #B721FF; }\n.nav-desktop .icon {\n    margin-right: 5px;\n    height: 12px;\n    position: relative;\n    top: -2px; }\n.nav-desktop .links {\n    float: left;\n    margin-left: 100px;\n    margin-top: 5px; }\n.nav-desktop .links ul {\n      list-style: none;\n      padding: 0;\n      margin: 0; }\n.nav-desktop .links li {\n      display: inline-block;\n      padding: 0 15px; }\n.nav-desktop .links li a {\n        opacity: 0.9;\n        font-weight: 300;\n        color: white;\n        text-decoration: none; }\n.nav-desktop .links li a:hover {\n        opacity: 1; }\n.nav-index {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center; }\n.nav-index .hamburger {\n    margin-left: auto; }\n.nav-top {\n  -webkit-box-shadow: -1px 1px 3px 3px rgba(0, 0, 0, 0.1);\n          box-shadow: -1px 1px 3px 3px rgba(0, 0, 0, 0.1);\n  padding: 0px 40px 0px 40px;\n  height: 75px; }\n.nav-top .hamburger {\n    margin-top: 25px;\n    padding-top: 5px; }\n.menu, .profile {\n  display: none !important; }\n.menu {\n  width: 400px;\n  padding: 60px;\n  background: #2b2b2b;\n  text-align: right;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box; }\n.menu .close {\n    cursor: pointer;\n    color: white;\n    font-size: 0.6em; }\n.menu ul {\n    padding: 0;\n    margin: 0;\n    list-style: none; }\n.menu li {\n    font-size: 2em;\n    margin-bottom: 20px; }\n.menu li.active img {\n      height: 10px;\n      margin-right: 20px;\n      position: relative;\n      top: -5px; }\n.menu a {\n    color: #FFFFFF;\n    text-decoration: none; }\n.menu a:hover {\n      color: #FFFFFF;\n      text-decoration: none; }\n.menu a:visited, .menu a:focus {\n      color: #FFFFFF;\n      text-decoration: none; }\n.menu a:hover {\n    color: #c038e0;\n    text-decoration: none; }\n.menu a:hover:hover {\n      color: #c038e0;\n      text-decoration: none; }\n.menu a:hover:visited, .menu a:hover:focus {\n      color: #c038e0;\n      text-decoration: none; }\n.menu p {\n    font-size: 0.6em; }\n.menu .btn-trans-white {\n    margin: 0 auto;\n    font-size: 17px;\n    margin-top: 80px; }\n.show {\n  display: block !important; }\n.mobile {\n  width: 300px;\n  padding: 40px; }\n.mobile .btn-trans-white {\n    font-size: 0.8em; }\n.profile {\n  width: 400px;\n  padding: 20px;\n  background: white;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box; }\n.profile h5 {\n    margin-bottom: 0; }\n.profile .head {\n    border-bottom: 1px solid #A3A3A3;\n    padding-bottom: 6px;\n    margin-bottom: 30px; }\n.profile .head h5 {\n      display: inline-block; }\n.profile .head span {\n      float: right;\n      margin-right: 20px;\n      color: crimson;\n      cursor: pointer; }\n.profile .blue-badge {\n    background: #B721FF;\n    font-size: 0.8em;\n    padding: 5px 10px;\n    border-radius: 20px;\n    color: white; }\n.profile .circle {\n    background: white;\n    padding: 5px;\n    border-radius: 50%;\n    margin-right: 10px;\n    display: inline-block; }\n.profile .top-info img {\n    height: 130px; }\n.profile .top-info p {\n    margin-bottom: 10px; }\n.profile .skills-heading {\n    font-size: 13px;\n    margin-top: 30px;\n    margin-bottom: 5px; }\n.profile .skill-text {\n    margin-top: 0px; }\n.profile .experience-heading {\n    margin-top: 20px;\n    margin-bottom: 0px; }\n.profile .experience-website {\n    color: #B721FF;\n    font-size: 12px;\n    display: block;\n    margin-bottom: 15px; }\n.profile .experience-role {\n    margin-top: 0px;\n    margin-bottom: 2px; }\n.profile .experience-period {\n    margin-top: 0px;\n    margin-bottom: 20px;\n    font-size: 12px; }\n.profile .experience-role-ul {\n    list-style-position: outside;\n    padding-left: 20px; }\n.profile .experience-role-ul li {\n      margin-bottom: 20px; }\n.menu {\n  display: none; }\n.index {\n  background: white; }\n.index .top-wrapper {\n    background: url(../img/bg_left_semi.svg) no-repeat top left;\n    background-size: 60%;\n    padding: 20px;\n    min-height: 95vh;\n    position: relative;\n    z-index: 5; }\n.index .intro {\n    background: white;\n    width: 100%;\n    min-height: inherit; }\n.index .intro .text-content {\n      margin-top: 100px;\n      padding: 0 50px; }\n.index .intro .six.columns:first-child {\n      padding: 20px 0 20px 20px; }\n.index .intro p {\n      color: #222222; }\n.index .intro .intro-content-wrapper {\n      min-height: inherit; }\n.index .intro .intro-content-wrapper .left-pane {\n        min-height: inherit;\n        display: -webkit-box;\n        display: -ms-flexbox;\n        display: flex;\n        -webkit-box-orient: vertical;\n        -webkit-box-direction: normal;\n            -ms-flex-direction: column;\n                flex-direction: column;\n        -webkit-box-pack: start;\n            -ms-flex-pack: start;\n                justify-content: flex-start; }\n.index .intro .intro-content-wrapper .left-pane .text-content {\n          -webkit-box-flex: 2;\n              -ms-flex: 2;\n                  flex: 2;\n          -webkit-box-pack: center;\n              -ms-flex-pack: center;\n                  justify-content: center;\n          display: -webkit-box;\n          display: -ms-flexbox;\n          display: flex;\n          -webkit-box-orient: vertical;\n          -webkit-box-direction: normal;\n              -ms-flex-direction: column;\n                  flex-direction: column;\n          padding-bottom: 60px;\n          margin-top: 0px; }\n.index .intro .intro-content-wrapper .left-pane .text-content .btn-curve-purple {\n            display: block;\n            width: 200px;\n            padding: 15px 20px;\n            text-align: center;\n            -webkit-transition: -webkit-transform 0.4s;\n            transition: -webkit-transform 0.4s;\n            transition: transform 0.4s;\n            transition: transform 0.4s, -webkit-transform 0.4s; }\n.index .intro .intro-content-wrapper .left-pane .text-content .btn-curve-purple:hover {\n            -webkit-transform: scale(0.9);\n                    transform: scale(0.9); }\n.index .intro .intro-content-wrapper .right-pane {\n        min-height: inherit;\n        overflow: hidden; }\n.index .intro .intro-content-wrapper .right-pane .top-img-wrapper {\n          overflow: hidden;\n          width: 100%;\n          min-height: inherit;\n          background-color: #333333;\n          -webkit-transform: scale(1.05);\n                  transform: scale(1.05);\n          -webkit-transform-origin: -100% 50%;\n                  transform-origin: -100% 50%;\n          -webkit-transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1);\n          transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1);\n          -webkit-transition-delay: 0.4s;\n                  transition-delay: 0.4s; }\n.index .intro .intro-content-wrapper .right-pane .top-img {\n          min-height: inherit;\n          -webkit-transform: translate3d(0px, 0px, 0px);\n                  transform: translate3d(0px, 0px, 0px);\n          -webkit-transition: all 1s cubic-bezier(0.23, 1, 0.32, 1);\n          transition: all 1s cubic-bezier(0.23, 1, 0.32, 1);\n          -webkit-transition-delay: 0.7s;\n                  transition-delay: 0.7s; }\n.index .intro .intro-content-wrapper .right-pane .top-img-wrapper.no-reveal {\n          -webkit-transform: scaleX(0.89);\n                  transform: scaleX(0.89); }\n.index .intro .intro-content-wrapper .right-pane .top-img-wrapper.no-reveal .top-img {\n            -webkit-transform: translate3d(-120%, 0px, 0px);\n                    transform: translate3d(-120%, 0px, 0px); }\n.index .top-img {\n    background: url(http://res.cloudinary.com/sportbay-co/image/upload/v1525424030/bg_top_qzynai.jpg) no-repeat top !important;\n    background-size: cover !important;\n    height: calc(100vh - 50px) !important; }\n.index .scale {\n    margin-top: 100px;\n    margin-bottom: 80px;\n    position: relative;\n    z-index: 2; }\n.index .scale .text-content {\n      margin-top: 0px;\n      padding: 0 50px; }\n.index .scale .sub-text {\n      color: #222222; }\n.index .scale .section-2-wrapper {\n      padding-top: 50px; }\n.index .scale .section-2-wrapper .image-wrapper-container {\n        padding: 1px 8%;\n        overflow: hidden;\n        -webkit-box-sizing: border-box;\n                box-sizing: border-box;\n        height: 700px;\n        position: relative; }\n.index .scale .section-2-wrapper .image-wrapper-container .clear-div-container {\n          overflow: hidden;\n          height: 100%;\n          width: 100%; }\n.index .scale .section-2-wrapper .image-wrapper-container .clear-div {\n          height: 100%;\n          width: 100%;\n          overflow: hidden;\n          background-color: #333333;\n          -webkit-transform: scaleX(1);\n                  transform: scaleX(1);\n          -webkit-transform-origin: -100% 50%;\n                  transform-origin: -100% 50%;\n          -webkit-transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1);\n          transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1); }\n.index .scale .section-2-wrapper .image-wrapper-container .image-wrapper {\n          height: 100%;\n          width: 100%;\n          top: 0;\n          left: 0;\n          right: 0;\n          -webkit-transform: translate3d(0px, 0%, 0px) scale(1.1);\n                  transform: translate3d(0px, 0%, 0px) scale(1.1);\n          -webkit-transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1);\n          transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1);\n          -webkit-transition-delay: 0.4s;\n                  transition-delay: 0.4s;\n          background-position: center;\n          background-size: cover; }\n.index .scale .section-2-wrapper .image-wrapper-container .image-wrapper:hover {\n          -webkit-transform: scale(1.05);\n                  transform: scale(1.05); }\n.index .scale .section-2-wrapper .image-wrapper-container.no-reveal .clear-div {\n        -webkit-transform: scaleX(0.67);\n                transform: scaleX(0.67); }\n.index .scale .section-2-wrapper .image-wrapper-container.no-reveal .image-wrapper {\n        -webkit-transform: translate3d(-120%, 0%, 0px);\n                transform: translate3d(-120%, 0%, 0px); }\n.index .scale .section-2-wrapper .text-wrapper {\n        margin-top: 150px;\n        margin-left: 0px; }\n.index .simple {\n    color: white;\n    position: relative;\n    z-index: 1;\n    background: url(../img/bg_left_shape.svg) no-repeat top left; }\n.index .simple .text-content {\n      margin-top: 100px;\n      padding: 0 50px; }\n.index .simple .row {\n      background-size: 70%;\n      position: relative;\n      z-index: 1;\n      padding: 70px 0px; }\n.index .simple .row .text-content {\n        padding: 0px 60px;\n        padding-right: 130px; }\n.index .simple .row .text-content .heading {\n          margin-bottom: 0px;\n          color: #ffffff; }\n.index .simple p {\n      padding-right: 30px; }\n.index .simple .sub-title {\n      font-size: 1.25em;\n      font-weight: 600;\n      margin-bottom: 10px; }\n.index .simple .five.columns:nth-child(2) img {\n      height: 600px;\n      margin-top: 70px; }\n.index .simple .purple-bg {\n      background: rgba(183, 33, 255, 0.1);\n      height: 300px;\n      position: absolute;\n      bottom: 0px;\n      z-index: 0;\n      display: block;\n      width: 100%; }\n.index .benefits {\n    padding: 120px 0;\n    padding-bottom: 200px;\n    display: block;\n    width: 100%;\n    background: rgba(183, 33, 255, 0.1); }\n.index .benefits .heading {\n      margin-bottom: 0px; }\n.index .benefits .content {\n      padding: 0 150px;\n      padding-top: 100px;\n      padding-bottom: 100px; }\n.index .benefits .content .h5 {\n        font-weight: 800; }\n.index .benefits .p {\n      opacity: 0.75; }\n.index .bottom-banner-wrapper {\n    min-height: 100px;\n    width: 100%;\n    -webkit-transform: translateY(-120px);\n            transform: translateY(-120px); }\n.index .bottom-banner-wrapper .img-wrapper {\n      width: 65%;\n      min-height: 400px;\n      padding-top: 30px;\n      padding-bottom: 30px;\n      border-radius: 10px;\n      margin: 0 auto;\n      background-image: url(\"../img/banner-img.jpg\");\n      background-position: center;\n      background-size: cover;\n      color: white;\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -webkit-box-orient: vertical;\n      -webkit-box-direction: normal;\n          -ms-flex-direction: column;\n              flex-direction: column;\n      -webkit-box-pack: center;\n          -ms-flex-pack: center;\n              justify-content: center;\n      -webkit-box-align: center;\n          -ms-flex-align: center;\n              align-items: center; }\n.index .bottom-banner-wrapper .img-wrapper .banner-text {\n        font-size: 24px;\n        display: block;\n        width: 65%;\n        -webkit-transition: all 0.6s ease-out;\n        transition: all 0.6s ease-out;\n        text-align: center; }\n.index .bottom-banner-wrapper .img-wrapper .banner-text.no-reveal {\n        opacity: 0; }\n.index .bottom-banner-wrapper .img-wrapper banner-text.reveal {\n        opacity: 1; }\n.index .bottom-banner-wrapper .img-wrapper .start-project-btn {\n        padding: 15px 40px;\n        color: #333333; }\n.index .bottom-banner-wrapper .img-wrapper .start-project-btn:hover {\n        color: #333333 !important; }\n.index .cd-testimonials-wrapper {\n    position: relative;\n    width: 90%;\n    max-width: 60%;\n    margin: 2em auto;\n    -webkit-font-smoothing: antialiased;\n    -moz-osx-font-smoothing: grayscale;\n    padding: 20px 40px 70px;\n    z-index: 1; }\n.index .cd-testimonials-wrapper::after {\n    /* quotation mark */\n    content: '\\201C';\n    position: absolute;\n    top: 10px;\n    left: 0;\n    width: 50px;\n    height: 50px;\n    padding-top: 8px;\n    margin-left: -25px;\n    background: #c038e0;\n    font-family: \"Georgia\", serif;\n    color: #ffffff;\n    font-size: 70px;\n    font-size: 4.375rem;\n    text-align: center;\n    /* visible on big devices only */\n    display: none; }\n@media only screen and (min-width: 768px) {\n    .index .cd-testimonials-wrapper {\n      margin: 0em auto;\n      padding: 0px 50px 114px; } }\n@media only screen and (min-width: 1170px) {\n    .index .cd-testimonials-wrapper::after {\n      /* quotation mark visible */\n      display: block; }\n    .index .cd-testimonials-wrapper {\n      margin: 0em auto;\n      padding: 0px 50px 114px; } }\n.index .cd-testimonials {\n    color: #000000;\n    text-align: center; }\n.index .cd-testimonials::after {\n    clear: both;\n    content: \"\";\n    display: table; }\n.index .cd-testimonials > li {\n    position: absolute;\n    opacity: 0; }\n.index .cd-testimonials > li:first-child {\n    position: relative;\n    opacity: 1; }\n.index .cd-testimonials p {\n    font-family: \"Georgia\", serif;\n    font-style: italic;\n    line-height: 1.4;\n    margin-bottom: 1em;\n    padding: 0 14px; }\n@media only screen and (min-width: 768px) {\n    .index .cd-testimonials p {\n      font-size: 22px;\n      font-size: 1.375rem; } }\n@media only screen and (min-width: 1170px) {\n    .index .cd-testimonials p {\n      font-size: 26px;\n      font-size: 2.625rem;\n      line-height: 1.6; } }\n@media only screen and (min-width: 300px) {\n    .index .recommendee-developer img {\n      height: 40px !important;\n      width: 40px !important;\n      border-radius: 50%;\n      border: 3px solid #fff; }\n    .index .recommendee-developer p {\n      font-size: 10px; }\n    .index .cd-author img {\n      width: 32px;\n      height: 32px;\n      border-radius: 50%;\n      margin-right: 5px;\n      border: 3px solid #fff; } }\n.index .cd-author img, .index .cd-author .cd-author-info {\n    display: inline-block;\n    vertical-align: middle; }\n.index .cd-author img {\n    width: 32px;\n    height: 32px;\n    border-radius: 50%;\n    margin-right: 5px;\n    border: 3px solid #fff; }\n.index .cd-author .cd-author-info {\n    text-align: left;\n    line-height: 1.2;\n    list-style-type: none;\n    margin: 0.5rem 0 -0.3rem 0rem; }\n.index .cd-author .cd-author-info li:first-child {\n    font-size: 14px;\n    font-size: 0.875rem;\n    line-height: 0px; }\n.index .cd-author .cd-author-info li:last-child {\n    font-size: 12px;\n    font-size: 0.75rem;\n    color: #6b6b70; }\n@media only screen and (min-width: 768px) {\n    .index .cd-author img {\n      width: 50px;\n      height: 50px; }\n    .index .cd-author .cd-author-info {\n      line-height: 1.4; }\n    .index .cd-author .cd-author-info li:first-child {\n      font-size: 16px;\n      font-size: 2rem;\n      line-height: 0px; }\n    .index .cd-author .cd-author-info li:last-child {\n      font-size: 14px;\n      font-size: 0.975rem; }\n    .index .recommendee-developer img {\n      height: 100px !important;\n      width: 100px !important;\n      border-radius: 50%;\n      border: 3px solid #fff; }\n    .index .recommendee-developer p {\n      font-size: 15px; } }\n.index .flex-direction-nav li {\n    position: absolute;\n    height: 100%;\n    width: 40px;\n    top: 0;\n    list-style-type: none; }\n.index .flex-direction-nav li:first-child {\n    left: 0; }\n.index .flex-direction-nav li:last-child {\n    right: 0; }\n.index .flex-direction-nav li a {\n    display: block;\n    height: 100%;\n    width: 100%;\n    /* image replacement */\n    overflow: hidden;\n    text-indent: 100%;\n    white-space: nowrap;\n    -webkit-transition: background-color 0.2s;\n    transition: background-color 0.2s; }\n.index .no-touch .flex-direction-nav li a:hover {\n    background-color: #323234; }\n.index .flex-direction-nav li a::before, .index .flex-direction-nav li a::after {\n    /* left and right arrows in css only */\n    content: '';\n    position: absolute;\n    left: 50%;\n    top: 50%;\n    width: 2px;\n    height: 13px;\n    background-color: #ffffff; }\n.index .flex-direction-nav li a::before {\n    -webkit-transform: translateY(-35px) rotate(45deg);\n    transform: translateY(-35px) rotate(45deg); }\n.index .flex-direction-nav li a::after {\n    -webkit-transform: translateY(-27px) rotate(-45deg);\n    transform: translateY(-27px) rotate(-45deg); }\n.index .flex-direction-nav li:last-child a::before {\n    -webkit-transform: translateY(-35px) rotate(-45deg);\n    transform: translateY(-35px) rotate(-45deg); }\n.index .flex-direction-nav li:last-child a::after {\n    -webkit-transform: translateY(-27px) rotate(45deg);\n    transform: translateY(-27px) rotate(45deg); }\n@media only screen and (min-width: 768px) {\n    .index .flex-direction-nav li {\n      width: 50px; } }\n@media only screen and (min-width: 1170px) {\n    .index .flex-direction-nav li a::before, .index .flex-direction-nav li a::after {\n      background-color: #5e5e63;\n      -webkit-transition: background-color 0.2s;\n      transition: background-color 0.2s; }\n    .index .flex-direction-nav li a:hover::before, .index .flex-direction-nav li a:hover::after {\n      background-color: #ffffff; } }\n@media only screen and (min-width: 768px) {\n    .index .cd-testimonials-all .cd-testimonials-item {\n      width: 46%;\n      margin: 0 2% 3em; }\n    .index .cd-testimonials-all .cd-author {\n      margin-left: 1em; } }\n@media only screen and (min-width: 1170px) {\n    .index .cd-testimonials-all .cd-testimonials-item {\n      width: 30%;\n      margin: 0 1.6666% 3em; } }\n.index .testimonial {\n    border-right: 4px solid #cd5bb9;\n    -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);\n            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);\n    padding: 30px 30px 30px 130px;\n    margin: 0 15px 30px 15px;\n    overflow: hidden;\n    position: relative;\n    background: #fff; }\n.index .testimonial:before {\n    content: \"\";\n    position: absolute;\n    bottom: -4px;\n    left: -17px;\n    border-top: 25px solid #cd5bb9;\n    border-left: 25px solid transparent;\n    border-right: 25px solid transparent;\n    -webkit-transform: rotate(45deg);\n            transform: rotate(45deg); }\n.index .testimonial:after {\n    content: \"\";\n    position: absolute;\n    top: -4px;\n    left: -17px;\n    border-top: 25px solid #cd5bb9;\n    border-left: 25px solid transparent;\n    border-right: 25px solid transparent;\n    -webkit-transform: rotate(135deg);\n            transform: rotate(135deg); }\n.index .testimonial .pic {\n    display: inline-block;\n    width: 80px;\n    height: 80px;\n    border-radius: 50%;\n    overflow: hidden;\n    position: absolute;\n    top: 60px;\n    left: 20px; }\n.index .testimonial .pic img {\n    width: 100%;\n    height: auto; }\n.index .testimonial .description {\n    font-size: 15px;\n    letter-spacing: 1px;\n    color: #6f6f6f;\n    line-height: 25px;\n    margin-bottom: 15px; }\n.index .testimonial .title {\n    display: inline-block;\n    font-size: 14px;\n    font-weight: 700;\n    text-transform: uppercase;\n    letter-spacing: 1px;\n    color: #cd5bb9;\n    margin: 0; }\n.index .testimonial .post {\n    display: inline-block;\n    font-size: 14px;\n    color: #000000;\n    font-style: italic; }\n.index .owl-theme .owl-controls .owl-page span {\n    border: 2px solid #2A3D7D;\n    background: #fff !important;\n    border-radius: 0 !important;\n    opacity: 1; }\n.index .owl-theme .owl-controls .owl-page.active span,\n  .index .owl-theme .owl-controls .owl-page:hover span {\n    background: #000000 !important;\n    border-color: #000000; }\n@media only screen and (max-width: 767px) {\n    .index .testimonial {\n      padding: 20px;\n      text-align: center; }\n    .index .testimonial .pic {\n      display: block;\n      position: static;\n      margin: 0 auto 15px; } }\n.contact {\n  min-height: calc(100vh - 400px);\n  background: white; }\n.contact .text-content {\n    margin-top: 50px;\n    padding: 0 50px; }\n.contact img {\n    height: calc(100vh - 200px); }\n.contact h6 {\n    color: #B721FF;\n    margin-bottom: 5px; }\n.contact .content {\n    padding: 50px 50px 0 50px; }\n.contact .text-content {\n    padding-left: 0; }\n.pricing {\n  min-height: calc(100vh - 400px);\n  background: white; }\n.pricing .pricing-text-wrapper {\n    width: 70%;\n    margin: 0 auto;\n    text-align: left; }\n.pricing .pricing-text-wrapper a {\n      margin-top: 55px; }\n.pricing .nine {\n    background: rgba(183, 33, 255, 0.1);\n    margin-top: 50px; }\n.pricing .pricing-wrapper {\n    margin: 0 auto;\n    margin-top: 50px;\n    margin-bottom: 200px; }\n.pricing .pricing-wrapper .pricing-wrapper-container {\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -ms-flex-wrap: wrap;\n          flex-wrap: wrap;\n      margin-top: 50px;\n      -webkit-box-pack: center;\n          -ms-flex-pack: center;\n              justify-content: center; }\n.pricing .pricing-wrapper .pricing-wrapper-container .columns {\n        width: 25%;\n        padding: 15px;\n        margin-left: 0px; }\n.pricing .pricing-wrapper .pricing-wrapper-container .columns .tile {\n          background: rgba(183, 33, 255, 0.1);\n          height: 100%;\n          padding: 25px;\n          min-height: 100px;\n          display: -webkit-box;\n          display: -ms-flexbox;\n          display: flex;\n          -webkit-box-orient: vertical;\n          -webkit-box-direction: normal;\n              -ms-flex-direction: column;\n                  flex-direction: column;\n          -webkit-transition: all 0.35s ease-out;\n          transition: all 0.35s ease-out;\n          border-radius: 8px; }\n.pricing .pricing-wrapper .pricing-wrapper-container .columns .tile .icon-container {\n            height: 70px;\n            background-size: contain;\n            background-repeat: no-repeat;\n            background-position: center;\n            margin-bottom: 40px;\n            margin-top: 10px; }\n.pricing .pricing-wrapper .pricing-wrapper-container .columns .tile .text-wrapper {\n            -webkit-box-flex: 2;\n                -ms-flex: 2;\n                    flex: 2; }\n.pricing .pricing-wrapper .pricing-wrapper-container .columns .tile .text-wrapper h2 {\n              font-size: 3.1rem;\n              margin-bottom: 15px;\n              display: block; }\n.pricing .pricing-wrapper .pricing-wrapper-container .columns .tile .btn-container {\n            display: block; }\n.pricing .pricing-wrapper .pricing-wrapper-container .columns .tile .btn-container .btn-curve-purple {\n              margin: 0 auto;\n              width: 85%;\n              padding: 15px 0px; }\n.pricing .pricing-wrapper .pricing-wrapper-container .columns .tile.active {\n          -webkit-box-shadow: 0px 0px 20px rgba(128, 100, 255, 0.15);\n                  box-shadow: 0px 0px 20px rgba(128, 100, 255, 0.15);\n          -webkit-transform: scale(1.05, 1.08);\n                  transform: scale(1.05, 1.08);\n          padding-bottom: 30px; }\n.pricing .text-content {\n    padding-top: 70px; }\n.pricing .three.active {\n    -webkit-box-shadow: -1px 1px 5px 5px rgba(0, 0, 0, 0.1);\n            box-shadow: -1px 1px 5px 5px rgba(0, 0, 0, 0.1);\n    background: white; }\n.pricing .three.active img {\n      border: 1px solid rgba(183, 33, 255, 0.5);\n      border-radius: 50%; }\n.pricing .three.active .btn-block-white {\n      color: white;\n      background: #B721FF;\n      -webkit-box-shadow: none;\n              box-shadow: none; }\n.pricing .three.active .btn-block-white:hover {\n        color: white;\n        background: #B721FF; }\n.pricing .tile {\n    padding: 20px; }\n.pricing h5 {\n    font-size: 1.5em;\n    margin-bottom: 5px; }\n.pricing h2 {\n    margin: 0; }\n.pricing .content {\n    padding: 20px 50px; }\n.pricing .text-content {\n    padding-left: 0; }\n.pricing .pricing-title-span {\n    font-weight: bold;\n    line-height: 18px;\n    display: block; }\n.team {\n  background: white;\n  position: relative;\n  z-index: 2; }\n.team .core, .team .community {\n    background: url(http://res.cloudinary.com/sportbay-co/image/upload/v1525702594/bg_team_right_apemol.svg) no-repeat top right;\n    background-size: 32%;\n    position: relative;\n    z-index: 2;\n    padding: 50px 20px; }\n.team .core .text-content, .team .community .text-content {\n      margin-top: 200px;\n      padding: 0 50px; }\n.team .community {\n    background: url(http://res.cloudinary.com/sportbay-co/image/upload/v1525702594/bg_team_right_apemol.svg) no-repeat top left;\n    padding: 100px 20px; }\n.team .community .six:first-child {\n      padding: 0 50px; }\n.team .image-wrapper-container {\n    height: 630px;\n    overflow: hidden;\n    padding: 10px 100px; }\n.team .image-wrapper-container .image-wrapper {\n      width: 100%;\n      height: 100%;\n      background-color: #333333;\n      -webkit-transition-delay: 0.3s;\n              transition-delay: 0.3s;\n      -webkit-transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1);\n      transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1);\n      -webkit-transform: scaleX(1);\n              transform: scaleX(1);\n      overflow: hidden; }\n.team .image-wrapper-container .image-wrapper .image {\n        height: 100%;\n        background-repeat: no-repeat;\n        background-size: cover;\n        -webkit-transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1);\n        transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1);\n        -webkit-transition-delay: 0.5s;\n                transition-delay: 0.5s;\n        -webkit-transform: translate3d(0px, 0px, 0px) scale(1.07);\n                transform: translate3d(0px, 0px, 0px) scale(1.07); }\n.team .image-wrapper-container .image-wrapper.no-reveal {\n      -webkit-transform: scaleX(0.7);\n              transform: scaleX(0.7); }\n.team .image-wrapper-container .image-wrapper.no-reveal .image {\n        -webkit-transform: translate3d(-120%, 0px, 0px);\n                transform: translate3d(-120%, 0px, 0px); }\n.team .people-wrapper .purple-bg {\n    background: rgba(183, 33, 255, 0.1);\n    height: 100px;\n    position: absolute;\n    top: 478px;\n    z-index: 0;\n    display: block;\n    width: 100%; }\n.team .avatar-wrapper {\n    height: 280px;\n    background-color: #333333;\n    -webkit-transition-delay: 0.3s;\n            transition-delay: 0.3s;\n    -webkit-transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1);\n    transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1);\n    -webkit-transform: scaleX(1);\n            transform: scaleX(1);\n    overflow: hidden; }\n.team .avatar-wrapper .avatar {\n      height: 100%;\n      width: 100%;\n      background-position: center;\n      background-size: cover;\n      -webkit-filter: grayscale(90%);\n              filter: grayscale(90%);\n      margin-bottom: 10px;\n      -webkit-transition: -webkit-filter 0.6s;\n      transition: -webkit-filter 0.6s;\n      transition: filter 0.6s;\n      transition: filter 0.6s, -webkit-filter 0.6s;\n      -webkit-transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1);\n      transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1);\n      -webkit-transition-delay: 0.5s;\n              transition-delay: 0.5s;\n      -webkit-transform: translate3d(0px, 0px, 0px) scale(1.04);\n              transform: translate3d(0px, 0px, 0px) scale(1.04); }\n.team .avatar-wrapper .avatar:hover {\n      -webkit-filter: grayscale(10%);\n              filter: grayscale(10%); }\n.team .avatar-wrapper.no-reveal {\n    -webkit-transform: scaleX(0.7);\n            transform: scaleX(0.7); }\n.team .avatar-wrapper.no-reveal .avatar {\n      -webkit-transform: translate3d(-120%, 0px, 0px);\n              transform: translate3d(-120%, 0px, 0px); }\n.team .people {\n    background: rgba(183, 33, 255, 0.1);\n    padding: 100px 70px;\n    display: block; }\n.team .people #people-wrapper {\n      width: 85%;\n      margin: 0 auto;\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -ms-flex-wrap: wrap;\n          flex-wrap: wrap; }\n.team .people .tile {\n      width: 21%;\n      padding: 50px 2%;\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -webkit-box-orient: vertical;\n      -webkit-box-direction: normal;\n          -ms-flex-direction: column;\n              flex-direction: column; }\n.team .people .tile .text-wrap {\n        -webkit-box-flex: 2;\n            -ms-flex: 2;\n                flex: 2; }\n.team .people .tile .desc-text {\n        height: 310px;\n        overflow: hidden;\n        text-overflow: ellipsis; }\n.team .people .tile .team-profile-btn {\n        text-align: left; }\n.team .people p.light {\n      margin-bottom: 10px;\n      min-height: 50px; }\n.team .people h5 {\n      font-size: 1.5em;\n      margin-bottom: 5px; }\n.team .people .text-wrap {\n      padding: 0 10px; }\n.team .people .text-wrap .sub-text-wrapper {\n        margin-top: 10px;\n        margin-bottom: 10px; }\n.faq, .start {\n  min-height: calc(100vh - 400px);\n  background: white; }\n.faq .text-content, .start .text-content {\n    margin-top: 0px;\n    padding: 0 50px; }\n.faq h5, .start h5 {\n    color: #B721FF;\n    margin-bottom: 5px; }\n.faq .content, .start .content {\n    padding: 50px 30px 0 30px; }\n.faq .text-content, .start .text-content {\n    padding-left: 0;\n    padding-right: 0; }\n.faq p, .start p {\n    margin-bottom: 10px; }\n.start #start-form {\n  -webkit-transition: all 0.5s ease-out;\n  transition: all 0.5s ease-out; }\n.start .date {\n  height: 38px;\n  padding: 6px 10px;\n  background-color: #fff;\n  border: 1px solid #D1D1D1;\n  border-radius: 4px;\n  -webkit-box-shadow: none;\n          box-shadow: none;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box; }\n.start .div {\n  margin-bottom: 30px; }\n.start textarea {\n  height: auto; }\n.start .response-msg-toast {\n  width: 400px;\n  height: 250px;\n  border: 1px solid;\n  position: fixed;\n  bottom: 0;\n  right: 0;\n  background-color: #00cc00;\n  z-index: 1;\n  border-radius: 3px; }\n.testimonials {\n  min-height: calc(100vh - 400px);\n  background: white; }\n.testimonials .pricing-text-wrapper {\n    width: 70%;\n    margin: 0 auto;\n    text-align: left; }\n.testimonials .pricing-text-wrapper a {\n      margin-top: 55px; }\n.testimonials .nine {\n    background: rgba(183, 33, 255, 0.1);\n    margin-top: 50px; }\n.testimonials .pricing-wrapper {\n    margin: 0 auto;\n    margin-top: 50px;\n    margin-bottom: 200px; }\n.testimonials .pricing-wrapper .pricing-wrapper-container {\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -ms-flex-wrap: wrap;\n          flex-wrap: wrap;\n      margin-top: 50px;\n      -webkit-box-pack: center;\n          -ms-flex-pack: center;\n              justify-content: center; }\n.testimonials .pricing-wrapper .pricing-wrapper-container .columns {\n        width: 25%;\n        padding: 15px;\n        margin-left: 0px; }\n.testimonials .pricing-wrapper .pricing-wrapper-container .columns .tile {\n          background: rgba(183, 33, 255, 0.1);\n          height: 100%;\n          padding: 25px;\n          min-height: 100px;\n          display: -webkit-box;\n          display: -ms-flexbox;\n          display: flex;\n          -webkit-box-orient: vertical;\n          -webkit-box-direction: normal;\n              -ms-flex-direction: column;\n                  flex-direction: column;\n          -webkit-transition: all 0.35s ease-out;\n          transition: all 0.35s ease-out;\n          border-radius: 8px; }\n.testimonials .pricing-wrapper .pricing-wrapper-container .columns .tile .icon-container {\n            height: 70px;\n            background-size: contain;\n            background-repeat: no-repeat;\n            background-position: center;\n            margin-bottom: 40px;\n            margin-top: 10px; }\n.testimonials .pricing-wrapper .pricing-wrapper-container .columns .tile .text-wrapper {\n            -webkit-box-flex: 2;\n                -ms-flex: 2;\n                    flex: 2; }\n.testimonials .pricing-wrapper .pricing-wrapper-container .columns .tile .text-wrapper h2 {\n              font-size: 3.1rem;\n              margin-bottom: 15px;\n              display: block; }\n.testimonials .pricing-wrapper .pricing-wrapper-container .columns .tile .btn-container {\n            display: block; }\n.testimonials .pricing-wrapper .pricing-wrapper-container .columns .tile .btn-container .btn-curve-purple {\n              margin: 0 auto;\n              width: 85%;\n              padding: 15px 0px; }\n.testimonials .pricing-wrapper .pricing-wrapper-container .columns .tile.active {\n          -webkit-box-shadow: 0px 0px 20px rgba(128, 100, 255, 0.15);\n                  box-shadow: 0px 0px 20px rgba(128, 100, 255, 0.15);\n          -webkit-transform: scale(1.05, 1.08);\n                  transform: scale(1.05, 1.08);\n          padding-bottom: 30px; }\n.testimonials .text-content {\n    padding-top: 70px; }\n.testimonials .three.active {\n    -webkit-box-shadow: -1px 1px 5px 5px rgba(0, 0, 0, 0.1);\n            box-shadow: -1px 1px 5px 5px rgba(0, 0, 0, 0.1);\n    background: white; }\n.testimonials .three.active img {\n      border: 1px solid rgba(183, 33, 255, 0.5);\n      border-radius: 50%; }\n.testimonials .three.active .btn-block-white {\n      color: white;\n      background: #B721FF;\n      -webkit-box-shadow: none;\n              box-shadow: none; }\n.testimonials .three.active .btn-block-white:hover {\n        color: white;\n        background: #B721FF; }\n.testimonials .tile {\n    padding: 20px; }\n.testimonials h5 {\n    font-size: 1.5em;\n    margin-bottom: 5px; }\n.testimonials h2 {\n    margin: 0; }\n.testimonials .content {\n    padding: 20px 50px; }\n.testimonials .text-content {\n    padding-left: 0; }\n.testimonials .pricing-title-span {\n    font-weight: bold;\n    line-height: 18px;\n    display: block; }\n.testimonials .cd-testimonials-wrapper {\n    position: relative;\n    width: 90%;\n    max-width: 768px;\n    background-color: #39393c;\n    margin: 2em auto;\n    -webkit-font-smoothing: antialiased;\n    -moz-osx-font-smoothing: grayscale;\n    padding: 20px 40px 70px;\n    z-index: 1; }\n.testimonials .cd-testimonials-wrapper::after {\n    /* quotation mark */\n    content: '\\201C';\n    position: absolute;\n    top: 10px;\n    left: 0;\n    width: 50px;\n    height: 50px;\n    padding-top: 8px;\n    margin-left: -25px;\n    background: rgba(32, 32, 34, 0.9);\n    font-family: \"Georgia\", serif;\n    color: #ffffff;\n    font-size: 70px;\n    font-size: 4.375rem;\n    text-align: center;\n    /* visible on big devices only */\n    display: none; }\n@media only screen and (min-width: 768px) {\n    .testimonials .cd-testimonials-wrapper {\n      margin: 4em auto;\n      padding: 64px 50px 114px; } }\n@media only screen and (min-width: 1170px) {\n    .testimonials .cd-testimonials-wrapper::after {\n      /* quotation mark visible */\n      display: block; } }\n.testimonials .cd-testimonials {\n    color: #ffffff;\n    text-align: center; }\n.testimonials .cd-testimonials::after {\n    clear: both;\n    content: \"\";\n    display: table; }\n.testimonials .cd-testimonials > li {\n    position: absolute;\n    opacity: 0; }\n.testimonials .cd-testimonials > li:first-child {\n    position: relative;\n    opacity: 1; }\n.testimonials .cd-testimonials p {\n    font-family: \"Georgia\", serif;\n    font-style: italic;\n    line-height: 1.4;\n    margin-bottom: 1em;\n    padding: 0 14px; }\n@media only screen and (min-width: 768px) {\n    .testimonials .cd-testimonials p {\n      font-size: 22px;\n      font-size: 1.375rem; } }\n@media only screen and (min-width: 1170px) {\n    .testimonials .cd-testimonials p {\n      font-size: 26px;\n      font-size: 1.625rem;\n      line-height: 1.6; } }\n.testimonials .cd-author img, .testimonials .cd-author .cd-author-info {\n    display: inline-block;\n    vertical-align: middle; }\n.testimonials .cd-author img {\n    width: 32px;\n    height: 32px;\n    border-radius: 50%;\n    margin-right: 5px;\n    -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);\n            box-shadow: 0 0 6px rgba(0, 0, 0, 0.3); }\n.testimonials .cd-author .cd-author-info {\n    text-align: left;\n    line-height: 1.2; }\n.testimonials .cd-author .cd-author-info li:first-child {\n    font-size: 14px;\n    font-size: 0.875rem; }\n.testimonials .cd-author .cd-author-info li:last-child {\n    font-size: 12px;\n    font-size: 0.75rem;\n    color: #6b6b70; }\n@media only screen and (min-width: 768px) {\n    .testimonials .cd-author img {\n      width: 50px;\n      height: 50px; }\n    .testimonials .cd-author .cd-author-info {\n      line-height: 1.4; }\n    .testimonials .cd-author .cd-author-info li:first-child {\n      font-size: 16px;\n      font-size: 1rem; }\n    .testimonials .cd-author .cd-author-info li:last-child {\n      font-size: 14px;\n      font-size: 0.875rem; } }\n.testimonials .flex-direction-nav li {\n    position: absolute;\n    height: 100%;\n    width: 40px;\n    top: 0; }\n.testimonials .flex-direction-nav li:first-child {\n    left: 0; }\n.testimonials .flex-direction-nav li:last-child {\n    right: 0; }\n.testimonials .flex-direction-nav li a {\n    display: block;\n    height: 100%;\n    width: 100%;\n    /* image replacement */\n    overflow: hidden;\n    text-indent: 100%;\n    white-space: nowrap;\n    -webkit-transition: background-color 0.2s;\n    transition: background-color 0.2s; }\n.testimonials .no-touch .flex-direction-nav li a:hover {\n    background-color: #323234; }\n.testimonials .flex-direction-nav li a::before, .testimonials .flex-direction-nav li a::after {\n    /* left and right arrows in css only */\n    content: '';\n    position: absolute;\n    left: 50%;\n    top: 50%;\n    width: 2px;\n    height: 13px;\n    background-color: #ffffff; }\n.testimonials .flex-direction-nav li a::before {\n    -webkit-transform: translateY(-35px) rotate(45deg);\n    transform: translateY(-35px) rotate(45deg); }\n.testimonials .flex-direction-nav li a::after {\n    -webkit-transform: translateY(-27px) rotate(-45deg);\n    transform: translateY(-27px) rotate(-45deg); }\n.testimonials .flex-direction-nav li:last-child a::before {\n    -webkit-transform: translateY(-35px) rotate(-45deg);\n    transform: translateY(-35px) rotate(-45deg); }\n.testimonials .flex-direction-nav li:last-child a::after {\n    -webkit-transform: translateY(-27px) rotate(45deg);\n    transform: translateY(-27px) rotate(45deg); }\n@media only screen and (min-width: 768px) {\n    .testimonials .flex-direction-nav li {\n      width: 50px; } }\n@media only screen and (min-width: 1170px) {\n    .testimonials .flex-direction-nav li a::before, .testimonials .flex-direction-nav li a::after {\n      background-color: #5e5e63;\n      -webkit-transition: background-color 0.2s;\n      transition: background-color 0.2s; }\n    .testimonials .flex-direction-nav li a:hover::before, .testimonials .flex-direction-nav li a:hover::after {\n      background-color: #ffffff; } }\n.testimonials .cd-see-all {\n    position: absolute;\n    z-index: 1;\n    left: 0;\n    bottom: 0;\n    width: 100%;\n    height: 50px;\n    line-height: 50px;\n    background-color: #252527;\n    text-align: center;\n    text-transform: uppercase;\n    color: #6b6b70;\n    font-weight: 700;\n    font-size: 12px;\n    font-size: 0.75rem;\n    -webkit-transition: color, 0.2s;\n    transition: color, 0.2s; }\n.testimonials .no-touch .cd-see-all:hover {\n    color: #79b6e4; }\n.testimonials .cd-testimonials-all {\n    position: fixed;\n    top: 0;\n    left: 0;\n    height: 100%;\n    width: 100%;\n    background-color: #ffffff;\n    z-index: 2;\n    visibility: hidden;\n    opacity: 0;\n    -webkit-transition: opacity .3s 0s, visibility 0s .3s;\n    transition: opacity .3s 0s, visibility 0s .3s; }\n.testimonials .cd-testimonials-all .cd-testimonials-all-wrapper {\n    position: absolute;\n    left: 0;\n    top: 0;\n    height: 100%;\n    width: 100%;\n    overflow: auto; }\n.testimonials .cd-testimonials-all .cd-testimonials-all-wrapper > ul {\n    width: 90%;\n    max-width: 1170px;\n    margin: 4em auto; }\n.testimonials .cd-testimonials-all .cd-testimonials-all-wrapper > ul::after {\n    clear: both;\n    content: \"\";\n    display: table; }\n.testimonials .cd-testimonials-all .cd-testimonials-item {\n    margin-bottom: 2em;\n    opacity: 0;\n    /* Force Hardware Acceleration in WebKit */\n    -webkit-transform: translate3d(0, 0, 0) scale(0.4);\n    transform: translate3d(0, 0, 0) scale(0.4);\n    -webkit-backface-visibility: hidden;\n    backface-visibility: hidden;\n    -webkit-transition: -webkit-transform .3s, opacity .3s;\n    -webkit-transition: opacity .3s, -webkit-transform .3s;\n    transition: opacity .3s, -webkit-transform .3s;\n    transition: transform .3s, opacity .3s;\n    transition: transform .3s, opacity .3s, -webkit-transform .3s; }\n.testimonials .cd-testimonials-all p {\n    position: relative;\n    background: #79b6e4;\n    color: #ffffff;\n    padding: 2em;\n    -webkit-font-smoothing: antialiased;\n    -moz-osx-font-smoothing: grayscale;\n    line-height: 1.4;\n    border-radius: 0.25em;\n    margin-bottom: 1em; }\n.testimonials .cd-testimonials-all p::after {\n    /* creating the triangle in css */\n    content: '';\n    position: absolute;\n    top: 100%;\n    left: 2em;\n    height: 0;\n    width: 0;\n    border: 8px solid transparent;\n    border-top-color: #79b6e4; }\n.testimonials .cd-testimonials-all .cd-author {\n    text-align: left;\n    margin-left: 1.5em; }\n.testimonials .cd-testimonials-all .cd-author img {\n    -webkit-box-shadow: 0 0 0 transparent;\n            box-shadow: 0 0 0 transparent; }\n.testimonials .cd-testimonials-all.is-visible {\n    visibility: visible;\n    opacity: 1;\n    -webkit-transition: opacity .3s 0s, visibility 0s 0s;\n    transition: opacity .3s 0s, visibility 0s 0s; }\n.testimonials .cd-testimonials-all.is-visible .cd-testimonials-all-wrapper {\n    -webkit-overflow-scrolling: touch; }\n.testimonials .cd-testimonials-all.is-visible .cd-testimonials-item {\n    opacity: 1;\n    -webkit-transform: translate3d(0, 0, 0) scale(1);\n    transform: translate3d(0, 0, 0) scale(1); }\n@media only screen and (min-width: 768px) {\n    .testimonials .cd-testimonials-all .cd-testimonials-item {\n      width: 46%;\n      margin: 0 2% 3em; }\n    .testimonials .cd-testimonials-all .cd-author {\n      margin-left: 1em; } }\n@media only screen and (min-width: 1170px) {\n    .testimonials .cd-testimonials-all .cd-testimonials-item {\n      width: 30%;\n      margin: 0 1.6666% 3em; } }\n.testimonials .close-btn {\n    position: fixed;\n    display: block;\n    width: 40px;\n    height: 40px;\n    top: 10px;\n    right: 5%;\n    /* image replacement */\n    overflow: hidden;\n    text-indent: 100%;\n    white-space: nowrap; }\n.testimonials .close-btn::before, .testimonials .close-btn::after {\n    /* close icon in css */\n    content: '';\n    position: absolute;\n    display: inline-block;\n    width: 2px;\n    height: 24px;\n    top: 8px;\n    left: 19px;\n    background-color: #39393c; }\n.testimonials .close-btn::before {\n    -webkit-transform: rotate(45deg);\n    transform: rotate(45deg); }\n.testimonials .close-btn::after {\n    -webkit-transform: rotate(-45deg);\n    transform: rotate(-45deg); }\n@media screen and (min-width: 1366px) {\n  .index .simple .row {\n    background-size: 62% !important; } }\n@media screen and (min-width: 1280px) {\n  .index .top-img {\n    height: 650px !important; }\n  .index .top-wrapper {\n    background-size: contain !important; }\n  .pricing .text-content {\n    padding-top: 50px; }\n  .pricing .content {\n    padding: 50px 50px 0 50px !important; }\n  .pricing footer {\n    position: absolute !important;\n    bottom: 0 !important;\n    width: 100% !important;\n    padding: 20px 50px !important;\n    -webkit-box-sizing: border-box !important;\n            box-sizing: border-box !important; } }\n@media screen and (max-width: 1280px) {\n  body {\n    font-size: 1.3em !important; }\n  .heading {\n    font-size: 34px !important; }\n  .btn-curve-purple {\n    width: 150px !important !important;\n    font-size: 12px !important !important; } }\n@media screen and (max-width: 1024px) {\n  .fr-card {\n    width: 300%;\n    position: relative;\n    float: left; }\n  .index .top-img {\n    height: 600px !important; }\n  .index .top-wrapper {\n    background-size: 70% !important; }\n  .index .scale h1, .index .simple h1, .index .benefits h2 {\n    font-size: 3.0rem !important; }\n  .index .scale {\n    margin-top: 100px !important; }\n    .index .scale .six:first-child img {\n      height: 300px !important; }\n    .index .scale .text-content {\n      padding: 0 30px !important; }\n  .index .simple .seven {\n    width: 85% !important;\n    margin: 0 auto !important;\n    float: none !important; }\n  .index .simple .five:nth-child(2) {\n    display: none !important; }\n  .index .simple .row {\n    background-size: 87% !important;\n    padding-bottom: 150px !important; }\n  .index .simple .text-content {\n    padding-right: 60px !important !important;\n    margin-top: 130px !important; }\n  .index .simple .purple-bg {\n    display: none !important; }\n  .index .bottom-banner-wrapper .img-wrapper {\n    width: 75% !important; }\n  .index .bottom-banner-wrapper .banner-text {\n    font-size: 20px !important !important;\n    line-height: 28px !important; }\n  .index .bottom-banner-wrapper .start-project-btn {\n    padding: 13px 18px !important !important;\n    font-size: 12px !important; }\n  .team .people {\n    padding: 100px 30px !important; }\n    .team .people #people-wrapper {\n      width: 98% !important; }\n    .team .people .tile {\n      width: 30.3333333333333% !important;\n      padding: 50px 1.5% !important; }\n  .team .core .text-content, .team .community .text-content {\n    margin-top: 150px !important; }\n  .team .core img, .team .community img {\n    height: 300px !important; }\n  .team .image-wrapper-container {\n    padding: 10px 40px !important; }\n  .team .people-wrapper .purple-bg {\n    display: none !important; }\n  .team .avatar {\n    height: 150px !important; }\n  .team .people .text-wrap {\n    padding: 0 !important; }\n  .team .community .text-content {\n    margin-top: 0 !important; }\n  .pricing .pricing-text-wrapper {\n    margin-left: 20px !important; }\n  .pricing .six {\n    margin-left: 5px;\n    margin-right: 5px; }\n  .pricing .pricing-wrapper-container .columns {\n    width: 50% !important !important;\n    margin-bottom: 50px !important; }\n    .pricing .pricing-wrapper-container .columns .tile .btn-container {\n      width: 80% !important;\n      margin: 0 auto !important; }\n      .pricing .pricing-wrapper-container .columns .tile .btn-container .btn-curve-purple {\n        width: 100% !important !important; }\n    .pricing .pricing-wrapper-container .columns .tile.active {\n      -webkit-transform: scale(1) !important !important;\n              transform: scale(1) !important !important; }\n  .pricing h2 {\n    font-size: 3rem !important; }\n  .pricing h5 {\n    font-size: 1em !important; } }\n@media screen and (max-width: 816px) {\n  .index .top-img {\n    height: 500px !important; }\n  .index .top-wrapper {\n    background-size: 75% !important; }\n  .index .intro h1 {\n    font-size: 2.7rem !important; }\n  .index .intro .text-content {\n    margin-top: 100px !important !important;\n    padding: 0 30px !important; }\n  .index .scale {\n    margin-top: 0px !important;\n    margin-bottom: 20px !important; }\n    .index .scale .text-wrapper {\n      margin-top: 30px !important !important; }\n    .index .scale .six:first-child {\n      display: none !important; }\n    .index .scale .six:nth-child(2) {\n      width: 100% !important;\n      margin-left: 0 !important; }\n  .index .simple .row {\n    background-size: 125% !important;\n    padding-bottom: 100px !important; }\n  .index .simple .text-content {\n    margin-top: 70px !important;\n    padding-right: 100px !important; }\n  .index .simple .seven {\n    width: 100% !important; }\n  .index .simple .purple-bg {\n    display: none !important; }\n  .index .benefits .content {\n    padding: 0 50px !important; }\n  .index .benefits img {\n    height: 50px !important; }\n  .index .benefits .nine h5 {\n    font-size: 1.2em !important;\n    margin-bottom: 10px !important; }\n  .team .core .img-col {\n    display: none !important; }\n  .team .core img, .team .community img {\n    display: none; }\n  .team .core .six:first-child, .team .community .six:nth-child(2) {\n    width: 100% !important; }\n    .team .core .six:first-child .text-content, .team .community .six:nth-child(2) .text-content {\n      margin-top: 0 !important; }\n  .team .community .six:nth-child(2) {\n    margin: 0 !important; }\n  .team .people {\n    padding: 50px 20px !important; }\n    .team .people .three.columns {\n      width: 50% !important;\n      margin-left: 0 !important; }\n    .team .people .tile {\n      width: 46% !important;\n      padding: 50px 1.5% !important; }\n    .team .people .avatar {\n      display: block !important;\n      width: 100% !important; }\n    .team .people div.m-b-md {\n      margin-bottom: 10px !important; }\n    .team .people div.m-b-md p {\n      margin-bottom: 0 !important; }\n  .pricing .three:first-child {\n    width: 100% !important; }\n    .pricing .three:first-child .text-content {\n      padding-top: 20px !important;\n      margin-bottom: 50px !important; }\n  .pricing .nine {\n    margin-left: 0 !important;\n    width: 100% !important;\n    padding: 20px !important; }\n    .pricing .nine .three {\n      width: 50% !important;\n      margin-left: 0 !important; }\n  .contact .content {\n    padding: 50px 30px !important; }\n  .contact .text-content {\n    margin-top: 0 !important;\n    padding-right: 0 !important; }\n  .contact .six:first-child {\n    display: none !important; }\n  .contact .six:nth-child(2) {\n    width: 100% !important; } }\n@media screen and (max-width: 675px) {\n  .index .intro .columns {\n    width: 100% !important;\n    padding: 20px !important !important; }\n  .index .intro .columns.right-pane {\n    margin-left: 0px !important;\n    min-height: auto !important; }\n  .index .top-img {\n    height: 350px !important !important; }\n  .pricing .content {\n    padding: 20px !important; }\n  .pricing .pricing-text-wrapper {\n    width: 300px; } }\n@media screen and (max-width: 509px) {\n  .pricing .pricing-wrapper-container .columns {\n    width: 100% !important !important; }\n  .team .people .tile {\n    width: 96% !important;\n    padding: 30px 1.5% !important; } }\n@media screen and (max-width: 425px) {\n  .btn-curve-white {\n    padding: 12px !important;\n    width: 150px !important; }\n  .index .intro .logo {\n    height: 65px !important;\n    width: 100px !important;\n    margin-left: 0px !important; }\n  .index .intro .hamburger {\n    position: relative !important; }\n  .index .intro .text-content {\n    margin-top: 70px !important;\n    margin-bottom: 20px !important; }\n  .index .intro .six.columns:first-child {\n    padding: 20px !important; }\n  .index .top-wrapper {\n    background: url(../../static/img/bg_left_semi.svg) no-repeat top left !important;\n    min-height: 70vh !important; }\n  .index .scale .section-2-wrapper {\n    padding-top: 0px !important; }\n  .index .top-img {\n    display: none !important; }\n  .index .simple {\n    background-image: url(../../static/img/bg_left_shape.svg) !important;\n    background-size: 450% !important; }\n    .index .simple .row {\n      background-size: cover; }\n    .index .simple .text-content {\n      padding-right: 50px !important; }\n    .index .simple p {\n      padding-right: 0 !important; }\n  .index .benefits .row {\n    margin-top: 0 !important;\n    text-align: center !important; }\n  .index .benefits .heading {\n    padding: 0px 20px !important; }\n  .index .benefits .columns {\n    padding-bottom: 30px !important; }\n  .index .bottom-banner-wrapper .img-wrapper .banner-text {\n    font-size: 18px !important !important;\n    line-height: 24px !important !important; }\n  .index .bottom-banner-wrapper .img-wrapper .start-project-btn {\n    width: 130px !important; }\n  footer {\n    padding: 20px !important; }\n    footer .nav-desktop-left .logo img {\n      top: 0; }\n    footer .nav-desktop-left, footer .links {\n      float: none !important; }\n    footer .links {\n      margin-top: 10px !important; }\n      footer .links li {\n        padding: 0 20px !important; }\n  .team .core .text-content, .team .community .text-content {\n    padding: 0 20px !important; }\n  .team .people {\n    padding: 50px 20px !important; }\n    .team .people .three.columns {\n      width: 100% !important; }\n  .pricing .content {\n    padding: 20px 30px !important; }\n  .pricing .nine .three {\n    width: 100% !important;\n    margin-left: 0 !important; }\n  .nav-top {\n    padding: 20px 20px 40px 20px !important; }\n  .faq h1, .start h1, .start h1 {\n    font-size: 3.0rem !important; }\n  .faq .content, .start .content, .start .content {\n    padding: 30px !important; } }\n@media screen and (max-width: 375px) {\n  .index .top-wrapper {\n    background-size: 140% !important; }\n  footer .links li {\n    padding: 0 15px !important; } }\n@media screen and (max-width: 360px) {\n  .index .top-wrapper {\n    background-size: 155% !important; }\n  .index .simple {\n    background-image: url(../../static/img/bg_left_shape.svg) !important;\n    background-size: 850% !important; }\n  .pricing .content {\n    padding: 15px 10px !important; } }\n@media screen and (max-width: 320px) {\n  .index .top-wrapper {\n    background-size: 193% !important; } }\n.menu {\n  display: none; }\n.index {\n  background: white; }\n.index .top-wrapper {\n    background: url(http://res.cloudinary.com/sportbay-co/image/upload/v1525425718/bg_left_semi_nhivrr.svg) no-repeat top left;\n    background-size: 60%;\n    padding: 20px;\n    min-height: 95vh;\n    position: relative;\n    z-index: 5; }\n.index .intro {\n    background: white;\n    width: 100%;\n    min-height: inherit; }\n.index .intro .text-content {\n      margin-top: 100px;\n      padding: 0 50px; }\n.index .intro .six.columns:first-child {\n      padding: 20px 0 20px 20px; }\n.index .intro p {\n      color: #222222; }\n.index .intro .intro-content-wrapper {\n      min-height: inherit; }\n.index .intro .intro-content-wrapper .left-pane {\n        min-height: inherit;\n        display: -webkit-box;\n        display: -ms-flexbox;\n        display: flex;\n        -webkit-box-orient: vertical;\n        -webkit-box-direction: normal;\n            -ms-flex-direction: column;\n                flex-direction: column;\n        -webkit-box-pack: start;\n            -ms-flex-pack: start;\n                justify-content: flex-start; }\n.index .intro .intro-content-wrapper .left-pane .text-content {\n          -webkit-box-flex: 2;\n              -ms-flex: 2;\n                  flex: 2;\n          -webkit-box-pack: center;\n              -ms-flex-pack: center;\n                  justify-content: center;\n          display: -webkit-box;\n          display: -ms-flexbox;\n          display: flex;\n          -webkit-box-orient: vertical;\n          -webkit-box-direction: normal;\n              -ms-flex-direction: column;\n                  flex-direction: column;\n          padding-bottom: 60px;\n          margin-top: 0px; }\n.index .intro .intro-content-wrapper .left-pane .text-content .btn-curve-purple {\n            display: block;\n            width: 200px;\n            padding: 15px 20px;\n            text-align: center;\n            -webkit-transition: -webkit-transform 0.4s;\n            transition: -webkit-transform 0.4s;\n            transition: transform 0.4s;\n            transition: transform 0.4s, -webkit-transform 0.4s; }\n.index .intro .intro-content-wrapper .left-pane .text-content .btn-curve-purple:hover {\n            -webkit-transform: scale(0.9);\n                    transform: scale(0.9); }\n.index .intro .intro-content-wrapper .right-pane {\n        min-height: inherit;\n        overflow: hidden; }\n.index .intro .intro-content-wrapper .right-pane .top-img-wrapper {\n          overflow: hidden;\n          width: 100%;\n          min-height: inherit;\n          background-color: #333333;\n          -webkit-transform: scale(1.05);\n                  transform: scale(1.05);\n          -webkit-transform-origin: -100% 50%;\n                  transform-origin: -100% 50%;\n          -webkit-transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1);\n          transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1);\n          -webkit-transition-delay: 0.4s;\n                  transition-delay: 0.4s; }\n.index .intro .intro-content-wrapper .right-pane .top-img {\n          min-height: inherit;\n          -webkit-transform: translate3d(0px, 0px, 0px);\n                  transform: translate3d(0px, 0px, 0px);\n          -webkit-transition: all 1s cubic-bezier(0.23, 1, 0.32, 1);\n          transition: all 1s cubic-bezier(0.23, 1, 0.32, 1);\n          -webkit-transition-delay: 0.7s;\n                  transition-delay: 0.7s; }\n.index .intro .intro-content-wrapper .right-pane .top-img-wrapper.no-reveal {\n          -webkit-transform: scaleX(0.89);\n                  transform: scaleX(0.89); }\n.index .intro .intro-content-wrapper .right-pane .top-img-wrapper.no-reveal .top-img {\n            -webkit-transform: translate3d(-120%, 0px, 0px);\n                    transform: translate3d(-120%, 0px, 0px); }\n.index .top-img {\n    background: url(http://res.cloudinary.com/sportbay-co/image/upload/v1525424030/bg_top_qzynai.jpg) no-repeat center center;\n    background-size: cover; }\n.index .scale {\n    margin-top: 200px;\n    margin-bottom: 200px;\n    position: relative;\n    z-index: 2; }\n.index .scale .text-content {\n      margin-top: 0px;\n      padding: 0 50px; }\n.index .scale .sub-text {\n      color: #222222; }\n.index .scale .section-2-wrapper {\n      padding-top: 80px; }\n.index .scale .section-2-wrapper .image-wrapper-container {\n        padding: 1px 8%;\n        overflow: hidden;\n        -webkit-box-sizing: border-box;\n                box-sizing: border-box;\n        height: 700px;\n        position: relative; }\n.index .scale .section-2-wrapper .image-wrapper-container .clear-div-container {\n          overflow: hidden;\n          height: 100%;\n          width: 100%; }\n.index .scale .section-2-wrapper .image-wrapper-container .clear-div {\n          height: 100%;\n          width: 100%;\n          overflow: hidden;\n          background-color: #333333;\n          -webkit-transform: scaleX(1);\n                  transform: scaleX(1);\n          -webkit-transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1);\n          transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1); }\n.index .scale .section-2-wrapper .image-wrapper-container .image-wrapper {\n          height: 100%;\n          width: 100%;\n          top: 0;\n          left: 0;\n          right: 0;\n          -webkit-transform: translate3d(0px, 0%, 0px) scale(1.1);\n                  transform: translate3d(0px, 0%, 0px) scale(1.1);\n          -webkit-transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1);\n          transition: all 0.7s cubic-bezier(0.23, 1, 0.32, 1);\n          -webkit-transition-delay: 0.4s;\n                  transition-delay: 0.4s;\n          background-position: center;\n          background-size: cover; }\n.index .scale .section-2-wrapper .image-wrapper-container .image-wrapper:hover {\n          -webkit-transform: scale(1.05);\n                  transform: scale(1.05); }\n.index .scale .section-2-wrapper .image-wrapper-container.no-reveal .clear-div {\n        -webkit-transform: scaleX(0.67);\n                transform: scaleX(0.67); }\n.index .scale .section-2-wrapper .image-wrapper-container.no-reveal .image-wrapper {\n        -webkit-transform: translate3d(-120%, 0%, 0px);\n                transform: translate3d(-120%, 0%, 0px); }\n.index .scale .section-2-wrapper .text-wrapper {\n        margin-top: 150px;\n        margin-left: 0px; }\n.index .simple {\n    color: white;\n    position: relative;\n    z-index: 1;\n    background: url(http://res.cloudinary.com/sportbay-co/image/upload/v1525424226/bg_left_shape_zqyjvl.svg) no-repeat top left; }\n.index .simple .text-content {\n      margin-top: 100px;\n      padding: 0 50px; }\n.index .simple .row {\n      background-size: 70%;\n      position: relative;\n      z-index: 1;\n      padding: 70px 0px; }\n.index .simple .row .text-content {\n        padding: 0px 60px;\n        padding-right: 130px; }\n.index .simple .row .text-content .heading {\n          margin-bottom: 0px;\n          color: #ffffff; }\n.index .simple p {\n      padding-right: 30px; }\n.index .simple .sub-title {\n      font-size: 1.25em;\n      font-weight: 600;\n      margin-bottom: 10px; }\n.index .simple .five.columns:nth-child(2) img {\n      height: 600px;\n      margin-top: 70px; }\n.index .simple .purple-bg {\n      background: rgba(183, 33, 255, 0.1);\n      height: 300px;\n      position: absolute;\n      bottom: 0px;\n      z-index: 0;\n      display: block;\n      width: 100%; }\n.index .benefits {\n    padding: 120px 0;\n    padding-bottom: 200px;\n    display: block;\n    width: 100%;\n    background: rgba(183, 33, 255, 0.1); }\n.index .benefits .heading {\n      margin-bottom: 0px; }\n.index .benefits .content {\n      padding: 0 150px;\n      padding-top: 100px;\n      padding-bottom: 100px; }\n.index .benefits .content .h5 {\n        font-weight: 800; }\n.index .benefits .p {\n      opacity: 0.75; }\n.index .bottom-banner-wrapper {\n    min-height: 100px;\n    width: 100%;\n    -webkit-transform: translateY(-120px);\n            transform: translateY(-120px); }\n.index .bottom-banner-wrapper .img-wrapper {\n      width: 65%;\n      min-height: 400px;\n      padding-top: 30px;\n      padding-bottom: 30px;\n      border-radius: 10px;\n      margin: 0 auto;\n      background-image: url(http://res.cloudinary.com/sportbay-co/image/upload/v1525425450/banner-img_iisoe4.jpg);\n      background-position: center;\n      background-size: cover;\n      color: white;\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -webkit-box-orient: vertical;\n      -webkit-box-direction: normal;\n          -ms-flex-direction: column;\n              flex-direction: column;\n      -webkit-box-pack: center;\n          -ms-flex-pack: center;\n              justify-content: center;\n      -webkit-box-align: center;\n          -ms-flex-align: center;\n              align-items: center; }\n.index .bottom-banner-wrapper .img-wrapper .banner-text {\n        font-size: 24px;\n        display: block;\n        width: 65%;\n        -webkit-transition: all 0.6s ease-out;\n        transition: all 0.6s ease-out;\n        text-align: center; }\n.index .bottom-banner-wrapper .img-wrapper .banner-text.no-reveal {\n        opacity: 0; }\n.index .bottom-banner-wrapper .img-wrapper banner-text.reveal {\n        opacity: 1; }\n.index .bottom-banner-wrapper .img-wrapper .start-project-btn {\n        padding: 15px 40px;\n        color: #333333; }\n.index .bottom-banner-wrapper .img-wrapper .start-project-btn:hover {\n        color: #333333 !important; }\n.index .logo {\n    text-decoration: none;\n    font-size: 1.3em;\n    display: block;\n    height: 85px;\n    width: 120px;\n    background-image: url(http://res.cloudinary.com/sportbay-co/image/upload/v1525431685/charisol-logo_purple_l5mn4v.svg);\n    background-position: left;\n    background-size: contain;\n    background-repeat: no-repeat; }\n@media screen and (max-width: 1024px) {\n  .pricing-wrapper {\n    width: 100% !important; }\n    .pricing-wrapper .columns {\n      min-width: 50%; } }\n@media screen and (max-width: 675px) {\n  .pricing-wrapper {\n    width: 100% !important; }\n    .pricing-wrapper .columns {\n      min-width: 100%; } }\n";
 
 /***/ }),
 
-/***/ 5:
+/***/ 3:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__("./pages/contact.js");
@@ -14950,7 +14718,7 @@ module.exports = __webpack_require__("./pages/contact.js");
 
 /***/ })
 
-},[5])
+},[3])
           return { page: comp.default }
         })
       ;
