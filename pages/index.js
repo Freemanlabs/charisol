@@ -189,9 +189,6 @@ const Index = (props) => (
               </div>
             </div>
           </div>
-<<<<<<< HEAD
-        </div>    
-=======
         </div>
         
       <div className="container">
@@ -243,7 +240,6 @@ const Index = (props) => (
             </div>
         </div>
     </div>
->>>>>>> feat(): deploy
   </div> 
 
 
