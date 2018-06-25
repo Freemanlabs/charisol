@@ -62,7 +62,7 @@ class Team extends Component {
               
             </div>
           </div>
-          <a className="btn-curve-purple m-t-md" href="./start.html">
+          <a className="btn-curve-purple m-t-md" href="./start">
             Start a project
           <img src="../static/img/icon_right_white.svg" alt="right" />
           </a>
@@ -129,11 +129,6 @@ class Team extends Component {
           </div>
         </section>
 
-        <style jsx>{`
-      .sub-text{
-        text-align:justify;
-      }
-    `}</style>
       </Layout>
     )
   }

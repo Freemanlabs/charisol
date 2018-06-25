@@ -90,7 +90,11 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
+<<<<<<< HEAD
 /******/ 	var hotCurrentHash = "fd45789f71e0357dc0b2"; // eslint-disable-line no-unused-vars
+=======
+/******/ 	var hotCurrentHash = "a01760a2e38999b70fdf"; // eslint-disable-line no-unused-vars
+>>>>>>> fix url and sidebar issues
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -755,7 +759,11 @@
 /******/ 		if (__webpack_require__.nc) {
 /******/ 			script.setAttribute("nonce", __webpack_require__.nc);
 /******/ 		}
+<<<<<<< HEAD
 /******/ 		script.src = __webpack_require__.p + "" + ({"0":"main.js","1":"bundles/pages/_app.js","2":"bundles/pages/_error.js","5":"bundles/pages/blog.js","6":"bundles/pages/contact.js"}[chunkId]||chunkId) + "-" + {"0":"3e913956a1e325428f0f","1":"7748f4682ece2e680075","2":"90fb043ffcf2ae9c65b1","5":"fede74d28fa9cc1b8828","6":"04d328d01e1ff4ecf1fb"}[chunkId] + ".js";
+=======
+/******/ 		script.src = __webpack_require__.p + "" + ({"0":"main.js","1":"bundles\\pages\\_error.js","2":"bundles\\pages\\_app.js","8":"bundles\\pages\\contact.js","9":"bundles\\pages\\faq.js"}[chunkId]||chunkId) + "-" + {"0":"6e56dd94ba9bff7475f8","1":"e5bba704f4e2b70150c9","2":"116e94d376633b4872f1","8":"1ff25f9713e1d242bb10","9":"ff1812502fb547ab8f3b"}[chunkId] + ".js";
+>>>>>>> fix url and sidebar issues
 /******/ 		var timeout = setTimeout(onScriptComplete, 120000);
 /******/ 		script.onerror = script.onload = onScriptComplete;
 /******/ 		function onScriptComplete() {

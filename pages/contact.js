@@ -133,13 +133,6 @@ class Contact extends Component {
           </section>
         </div>
 
-        <style jsx>{`
-      .sub-text{
-        text-align:justify;
-      }
-      
-    `}</style>
-
       </Layout>
     )
   }
