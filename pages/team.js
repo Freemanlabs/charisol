@@ -128,6 +128,12 @@ class Team extends Component {
             </div>
           </div>
         </section>
+
+        <style jsx>{`
+      .sub-text{
+        text-align:justify;
+      }
+    `}</style>
       </Layout>
     )
   }

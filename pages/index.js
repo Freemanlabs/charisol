@@ -258,6 +258,15 @@ const Index = (props) => (
         </div>  
       </div>
     </section>
+
+
+
+
+    <style jsx>{`
+      .sub-text{
+        text-align:justify;
+      }
+    `}</style>
   </Layout>
 )
 
