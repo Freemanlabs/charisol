@@ -42,7 +42,10 @@ const Blog = ({ posts = [] }) => (
                     {
                       posts.map(({ _id, title = '', name = 'No name', publishedAt = '', categories = [], mainImage = {}, body = [], authorImage = {}, slug = '', _updatedAt = '' }) =>
                         slug && <li key={_id} className="card-list">
-                          <div className="image">
+                                                  
+                          <Link prefetch href={`/post/${slug}`}>
+                            <a>
+                            <div className="image">
                             <img
 
                               style={{ width: "140%"}}
@@ -58,11 +61,8 @@ const Blog = ({ posts = [] }) => (
           `}
                               src={urlFor(mainImage)}
                             />
-                          </div>
-                          
+                          </div> 
 
-                          <Link prefetch href={`/post/${slug}`}>
-                            <a>
                             <p className="cat">
                             <i className="fa fa-pencil"></i>
                             <em> {categories}</em>

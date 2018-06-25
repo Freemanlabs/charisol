@@ -9,15 +9,6 @@ const bodyParser = require('body-parser');
 require('dotenv').config({ path: 'variables.env' });
 
 
-/**for blog */
-const http = require('http')
-const { parse } = require('url')
-const pathMatch = require('path-match')
-const route = pathMatch()
-const match = route('/post/:slug')
-
-
-
 //conneting to mongoose
 mongoose.connect(process.env.DATABASE)
 mongoose.connection.on('connected', function () {
