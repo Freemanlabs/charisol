@@ -55,7 +55,6 @@ import Link from 'next/link';
 
     <style jsx>{`
       .sub-text{
-        text-align:justify;
         line-height:27px;
       }
     `}</style>
