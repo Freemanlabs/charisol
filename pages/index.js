@@ -105,13 +105,13 @@ const Index = (props) => (
                   There are billions of users worldwide using mobile phones - it’s a no brainer why you need to build an Android or iOS app. Charisol’s mobile app development team has the right expertise and experience in not just building but also scaling your app.
                 </p>
               </span>
-                <Link href="/start">
-                 <a className="btn-curve-white m-t-md">
+          
+                 <a className="btn-curve-white m-t-md"  href="/start">
                 
                 Start a project
                 <img src={require('../assets/img/icon_right_purple.svg')} alt="right" />
               </a>
-              </Link>
+      
             </div>
           </div>
           <div className="five columns">
