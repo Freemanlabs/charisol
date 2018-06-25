@@ -40,7 +40,7 @@ const Pricing = (props) => (
                         </Link>
                      </div>
                 </div>
-                <div className="pricing-wrapper columns">
+                <div className="pricing-wrapper">
                     <div className="row pricing-wrapper-container">
                         <div className="columns">
                             <div className="text-center tile pricing-tile">
@@ -136,6 +136,13 @@ const Pricing = (props) => (
                 </div>
             </div>
       </section>
+
+      <style jsx>{`
+      .sub-text{
+        text-align:justify;
+      }
+    `}</style>
+
       </Layout>
 )
 
