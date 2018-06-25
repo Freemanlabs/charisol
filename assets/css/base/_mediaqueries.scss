@@ -354,6 +354,18 @@
   }
 }
 @media screen and (max-width: 425px){
+
+  .profile .head span {
+    float: right;
+    margin-right: 85px;
+    color: crimson;
+    cursor: pointer;
+  }
+
+  .side-bar-text-mobile {
+    width: 72%;
+  }
+
   .btn-curve-white{
     padding: 12px !important;
     width: 150px !important;
@@ -454,6 +466,7 @@
         width: 100% !important;
       }
     }
+    
   }
   .pricing{
     .content{

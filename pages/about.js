@@ -37,12 +37,12 @@ import Link from 'next/link';
                   </p>
                 </span>
                 </div>
-                <Link href="/start">
-                <a className="btn-curve-purple m-t-md">
+               
+                <a href="/start" className="btn-curve-purple m-t-md">
                   Start a project
                   <img src={require('../assets/img/icon_right_white.svg')}  alt="right" />
                 </a>
-                </Link>
+             
               </div>
             </div>
             {/*<div className="pricing-wrapper columns">
