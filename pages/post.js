@@ -45,7 +45,7 @@ const CommaJoiner = ({ list = [], conjuction = 'and', separator = ',' }) => <Fra
   </span>)
 }</Fragment>
 
-const BlogPost = ({ title = 'No title', name = 'No name', publishedAt='', categories = [], authorImage = {}, body = [], _updatedAt = '' }) => (
+const BlogPost = ({ title = 'No title', name = 'No name', publishedAt='', categories = [], authorImage = {}, body = [], slug = '', _updatedAt = '' }) => (
   <Layout  title={title}> 
    <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
@@ -60,7 +60,7 @@ const BlogPost = ({ title = 'No title', name = 'No name', publishedAt='', catego
   <div className="post-content">
   <div><img src={urlFor(authorImage).width(50).url()} /></div>
   <h1>{title}</h1>
-  <i className="fa fa-pencil"></i> Written by <span>{name}</span> in <span>{categories.length &&  <CommaJoiner list={categories} />}</span> on {format(publishedAt, 'MMMM DD, YYYY')}
+  <i className="fa fa-pencil"></i> Written by <span>{name}</span> in <span>{categories.length &&  <CommaJoiner list={categories} />}</span> Updated on {format(_updatedAt, 'MMMM DD, YYYY')}
   <div className="resp"><BlockContent
     serializers={serializers}
     blocks={body}
@@ -70,6 +70,14 @@ const BlogPost = ({ title = 'No title', name = 'No name', publishedAt='', catego
   /></div>
   {/*<i className="fa fa-arrow-left"></i><Link href="/blog"><a>Back to Blog</a></Link>*/}
   </div>
+
+  <ReactDisqusComments
+        shortname="charisol"
+        identifier={slug}
+        title={title}
+        url="www.charisol.io/post"
+        category_id=""
+        onNewComment={this.handleNewComment}/>
 
 </div></div>
 				</div>
@@ -118,8 +126,8 @@ const BlogPost = ({ title = 'No title', name = 'No name', publishedAt='', catego
 )
 
 BlogPost.getInitialProps = async (req) => {
-  return await client.fetch(`*[slug.current == $slug][0]{
-      title,
+  return await client.fetch(`*[slug.current == $slug][0]{  
+    title,
       "name": author->name,
       "categories": categories[]->title,
       "authorImage": author->image,
@@ -128,13 +136,7 @@ BlogPost.getInitialProps = async (req) => {
       _updatedAt
     }`, {slug: req.query.slug})
 
-    const promise1 = new client.fetch(function(resolve, reject) {
-      throw 'Uh-oh!';
-    });
-
-    promise1.catch(function(error) {
-      console.log(error);
-    });
 }
+
 
 export default BlogPost
