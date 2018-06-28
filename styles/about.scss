@@ -139,7 +139,19 @@
 		.overf{
 		  max-height:100px;
 	  }
-	  }
+    }
+    .margin{
+      width:120%;
+      margin-left:-60px;
+    }
+    .blog-list{
+      width:27.7%;
+      padding: 10px;
+      height: 320px;
+    }
+    .blog-list footer{
+      top:260px;
+    }
 	  .post-content{
       width:130%;
     }
@@ -164,9 +176,24 @@
 	  .card-list {
 		width: 90%;
 		margin-left:0px;
-	  
-	  
-	  }
+    }
+    .margin{
+      width:100%;
+      margin-left:-30px;
+    }
+    .blog-list{
+      width:100%;
+      padding: 10px;
+    }
+    .morepost{
+      font-size:18px;
+    }
+    .disqus{
+      margin-top: 1200px
+    }
+    .blog-list footer{
+      left:0;
+    }
 	  .post-content{
       width:125%;
 	  
