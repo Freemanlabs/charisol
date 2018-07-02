@@ -90,15 +90,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-<<<<<<< HEAD
-<<<<<<< HEAD
-/******/ 	var hotCurrentHash = "ebe6ad085ea538f75faa"; // eslint-disable-line no-unused-vars
-=======
-/******/ 	var hotCurrentHash = "14278633ff9dcbf71708"; // eslint-disable-line no-unused-vars
->>>>>>> add commenting system
-=======
-/******/ 	var hotCurrentHash = "14278633ff9dcbf71708"; // eslint-disable-line no-unused-vars
->>>>>>> b19b1eb42cf53e2b82df3af34af19757f6d40e7e
+/******/ 	var hotCurrentHash = "e0507c818b0030381fbf"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -763,15 +755,7 @@
 /******/ 		if (__webpack_require__.nc) {
 /******/ 			script.setAttribute("nonce", __webpack_require__.nc);
 /******/ 		}
-<<<<<<< HEAD
-<<<<<<< HEAD
-/******/ 		script.src = __webpack_require__.p + "" + ({"0":"main.js","1":"bundles/pages/_error.js","2":"bundles/pages/_app.js","4":"bundles/pages/team.js","5":"bundles/pages/index.js"}[chunkId]||chunkId) + "-" + {"0":"6e56dd94ba9bff7475f8","1":"5bef41eb30202310ec0a","2":"39676fc5400b2f250b4e","4":"fe799c09a1f3df8ed1a9","5":"88a384cf6a562ac3c8da"}[chunkId] + ".js";
-=======
-/******/ 		script.src = __webpack_require__.p + "" + ({"0":"main.js","1":"bundles\\pages\\_error.js","2":"bundles\\pages\\_app.js","4":"bundles\\pages\\post.js","5":"bundles\\pages\\blog.js"}[chunkId]||chunkId) + "-" + {"0":"6e56dd94ba9bff7475f8","1":"e5bba704f4e2b70150c9","2":"116e94d376633b4872f1","4":"aeee2a980f193bb43d45","5":"2c639474a5cda1cb103d"}[chunkId] + ".js";
->>>>>>> add commenting system
-=======
-/******/ 		script.src = __webpack_require__.p + "" + ({"0":"main.js","1":"bundles\\pages\\_error.js","2":"bundles\\pages\\_app.js","4":"bundles\\pages\\post.js","5":"bundles\\pages\\blog.js"}[chunkId]||chunkId) + "-" + {"0":"6e56dd94ba9bff7475f8","1":"e5bba704f4e2b70150c9","2":"116e94d376633b4872f1","4":"aeee2a980f193bb43d45","5":"2c639474a5cda1cb103d"}[chunkId] + ".js";
->>>>>>> b19b1eb42cf53e2b82df3af34af19757f6d40e7e
+/******/ 		script.src = __webpack_require__.p + "" + ({"0":"main.js","1":"bundles\\pages\\_error.js","2":"bundles\\pages\\_app.js","4":"bundles\\pages\\post.js","6":"bundles\\pages\\team.js","8":"bundles\\pages\\blog.js"}[chunkId]||chunkId) + "-" + {"0":"6e56dd94ba9bff7475f8","1":"e5bba704f4e2b70150c9","2":"116e94d376633b4872f1","4":"1711f0bb43c8aded4fa7","6":"0c629604bd7d2acf5d7a","8":"cc10c5a112200d34c346"}[chunkId] + ".js";
 /******/ 		var timeout = setTimeout(onScriptComplete, 120000);
 /******/ 		script.onerror = script.onload = onScriptComplete;
 /******/ 		function onScriptComplete() {
