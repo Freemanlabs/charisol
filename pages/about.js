@@ -3,7 +3,6 @@ import Navbar from '../components/Navbar';
 import stylesheet from '../styles/about.scss';
 import Link from 'next/link';
 
-
  const About = (props) => (
    <Layout  title="About Us | Charisol Technologies"> 
    <style dangerouslySetInnerHTML={{ __html: stylesheet }} />

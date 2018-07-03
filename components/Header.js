@@ -24,12 +24,6 @@ export default (props) => (
             <link rel="apple-touch-icon" sizes="180x180" href="../static/icon/apple-touch-icon.png" />
             <link rel="icon" type="image/png" sizes="32x32" href="../static/icon/favicon-32x32.png" />
             <link rel="icon" type="image/png" sizes="16x16" href="../static/icon/favicon-16x16.png" />
-            <style dangerouslySetInnerHTML={{ __html: 
-            `window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'UA-115010352-1');`
-            }} />
            
             <script dangerouslySetInnerHTML={{ __html: 
             `(function(h,o,t,j,a,r){
