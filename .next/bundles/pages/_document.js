@@ -47,9 +47,9 @@ var event = function event(_ref) {
     return;
   }
 
-  reactHotLoader.register(GA_TRACKING_ID, "GA_TRACKING_ID", "/Users/eha-ng-sw-oluwatobi/Documents/challaris/challaris-tech-website/lib/gtag.js");
-  reactHotLoader.register(pageview, "pageview", "/Users/eha-ng-sw-oluwatobi/Documents/challaris/challaris-tech-website/lib/gtag.js");
-  reactHotLoader.register(event, "event", "/Users/eha-ng-sw-oluwatobi/Documents/challaris/challaris-tech-website/lib/gtag.js");
+  reactHotLoader.register(GA_TRACKING_ID, "GA_TRACKING_ID", "C:\\Users\\user\\challaris-tech-website\\lib\\gtag.js");
+  reactHotLoader.register(pageview, "pageview", "C:\\Users\\user\\challaris-tech-website\\lib\\gtag.js");
+  reactHotLoader.register(event, "event", "C:\\Users\\user\\challaris-tech-website\\lib\\gtag.js");
   leaveModule(module);
 })();
 
@@ -1699,7 +1699,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_styled_jsx_server__ = __webpack_require__("./node_modules/styled-jsx/server.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_styled_jsx_server___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_styled_jsx_server__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__lib_gtag__ = __webpack_require__("./lib/gtag.js");
-var _jsxFileName = "/Users/eha-ng-sw-oluwatobi/Documents/challaris/challaris-tech-website/pages/_document.js";
+var _jsxFileName = "C:\\Users\\user\\challaris-tech-website\\pages\\_document.js";
 
 (function () {
   var enterModule = __webpack_require__("./node_modules/react-hot-loader/index.js").enterModule;
@@ -1826,7 +1826,7 @@ function (_Document) {
     return;
   }
 
-  reactHotLoader.register(_default, "default", "/Users/eha-ng-sw-oluwatobi/Documents/challaris/challaris-tech-website/pages/_document.js");
+  reactHotLoader.register(_default, "default", "C:\\Users\\user\\challaris-tech-website\\pages\\_document.js");
   leaveModule(module);
 })();
 
