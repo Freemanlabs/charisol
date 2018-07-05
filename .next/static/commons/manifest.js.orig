@@ -92,6 +92,7 @@
 /******/ 	var hotApplyOnUpdate = true;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /******/ 	var hotCurrentHash = "58b05b370c3963a2219f"; // eslint-disable-line no-unused-vars
 =======
 /******/ 	var hotCurrentHash = "40bfe2d5adb95acd151f"; // eslint-disable-line no-unused-vars
@@ -99,6 +100,9 @@
 =======
 /******/ 	var hotCurrentHash = "99a616f17f40fa5b9ad2"; // eslint-disable-line no-unused-vars
 >>>>>>> start page tweak
+=======
+/******/ 	var hotCurrentHash = "1cce82f584328012e61b"; // eslint-disable-line no-unused-vars
+>>>>>>> site tweaks
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -765,6 +769,7 @@
 /******/ 		}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /******/ 		script.src = __webpack_require__.p + "" + ({"0":"main.js","1":"bundles\\pages\\_document.js","2":"bundles\\pages\\_error.js","3":"bundles\\pages\\_app.js","5":"bundles\\pages\\index.js"}[chunkId]||chunkId) + "-" + {"0":"6e56dd94ba9bff7475f8","1":"61e11ebf2325a204c615","2":"a830d78bd3a4dd5da61f","3":"44b5919626d76435f4f0","5":"9a01522e06d110ee4e45"}[chunkId] + ".js";
 =======
 /******/ 		script.src = __webpack_require__.p + "" + ({"0":"main.js","1":"bundles\\pages\\_error.js","2":"bundles\\pages\\_app.js","5":"bundles\\pages\\pricing.js","8":"bundles\\pages\\contact.js"}[chunkId]||chunkId) + "-" + {"0":"6e56dd94ba9bff7475f8","1":"e5bba704f4e2b70150c9","2":"116e94d376633b4872f1","5":"0da4b44693fcc2cf89c7","8":"fd871e4b65c38e9bb0b2"}[chunkId] + ".js";
@@ -772,6 +777,9 @@
 =======
 /******/ 		script.src = __webpack_require__.p + "" + ({"0":"main.js","1":"bundles\\pages\\_error.js","2":"bundles\\pages\\_app.js","4":"bundles\\pages\\start.js"}[chunkId]||chunkId) + "-" + {"0":"6e56dd94ba9bff7475f8","1":"e5bba704f4e2b70150c9","2":"116e94d376633b4872f1","4":"3e8e279b8a0d4352a785"}[chunkId] + ".js";
 >>>>>>> start page tweak
+=======
+/******/ 		script.src = __webpack_require__.p + "" + ({"0":"main.js","1":"bundles\\pages\\_error.js","2":"bundles\\pages\\_app.js","4":"bundles\\pages\\post.js"}[chunkId]||chunkId) + "-" + {"0":"6e56dd94ba9bff7475f8","1":"e5bba704f4e2b70150c9","2":"116e94d376633b4872f1","4":"c17570efd7718b9303a4"}[chunkId] + ".js";
+>>>>>>> site tweaks
 /******/ 		var timeout = setTimeout(onScriptComplete, 120000);
 /******/ 		script.onerror = script.onload = onScriptComplete;
 /******/ 		function onScriptComplete() {
