@@ -3,7 +3,6 @@ import Navbar from '../components/Navbar';
 import stylesheet from '../styles/about.scss';
 import fetch from 'isomorphic-unfetch'
 import React, { Component } from 'react'
-import { startOfDay } from 'date-fns';
 
 const initialState = {
   submitting: false,
@@ -82,12 +81,6 @@ class Start extends Component {
                         Start a Project
                       </h1>
                   </span>
-                  <span className="sub-text-wrapper">
-                <p className="sub-text no-reveal">
-                Give us a background of your project and we will provide all the technical support
-                needed to make bring it to life
-                                </p>
-              </span>
                   
                   <div>
                     <form id="start-form" onSubmit={this.submitForm}>
@@ -123,17 +116,37 @@ class Start extends Component {
                           </div>
                         </div>
                       </div>
-                      <div className="div">
-                        <label htmlFor="project_description">Project Description (Tell us what kind of website you want to build)</label>
-                        <textarea className="u-full-width"  value={startForm.description} onChange={e => this.handleInputChange({ description: e.target.value })} id="message" rows="8" name="project_description" required></textarea>
-                        <p className="light"><em>Tip: Who are your Customers or Website visitors? What can they accomplish when they come to your website?</em></p>
+                      <div className="row">
+                        <div className="six columns">
+                          <div className="div">
+                            <label htmlFor="billing">Billing</label>
+                            <select className="u-full-width" id="billing" value={startForm.billing} onChange={e => this.handleInputChange({ billing: e.target.value })}  name="billing" required>
+                              <option value="hourly">Hourly - $35</option>
+                              <option value="weekly">Weekly - $1,300</option>
+                              <option value="monthly">Monthly - $4,800</option>
+                              <option value="onDemand">On demand - Varies</option>
+                            </select>
+                            <p className="light"><em>Tip: Your billing preference</em></p>
+                          </div>
+                        </div>
+                        <div className="six columns">
+                          <div className="div">
+                            <label htmlFor="budget">Budget</label>
+                            <input className="u-full-width" type="number" value={startForm.budget} onChange={e => this.handleInputChange({ budget: e.target.value })} id="budget" name="budget" required />
+                            <p className="light"><em>Tip: This amount is in USD ($).</em></p>
+                          </div>
+                        </div>
                       </div>
-                      <div className="row"><div className="six columns">
+                      <div className="div">
+                        <label htmlFor="project_description">Project Description (If your website had a job, what would it be?)</label>
+                        <textarea className="u-full-width"  value={startForm.description} onChange={e => this.handleInputChange({ description: e.target.value })} id="message" rows="8" name="project_description" required></textarea>
+                        <p className="light"><em>Tip: This helps you identify what type of website you are creating. Is it for lead gen? Is it informational? Is it a straight sales vehicle (SaaS, product sales, etc)? What *exactly* is the website supposed to do?</em></p>
+                      </div>
                       <div>
-                        <label htmlFor="personal">How did you hear about us?</label>
-                        <input className="u-full-width" value={startForm.personalNeeded.budget} onChange={e => this.handleInputChange({ personalNeeded: e.target.value })} id="personal" type="text" name="personal" required />
-                        <p className="light"><em>Tip: Google, Social media, Friends, etc.</em></p>
-                      </div></div></div>
+                        <label htmlFor="personal">Personnel Needed</label>
+                        <textarea className="u-full-width" value={startForm.personalNeeded.budget} onChange={e => this.handleInputChange({ personalNeeded: e.target.value })} id="personal" rows="8" name="personal" required></textarea>
+                        <p className="light"><em>Tip: This could be a mix of frontend / backend engineers, UI/UX designers, project managers, etc.</em></p>
+                      </div>
                       <button className="m-t-lg btn-curve-purple full" type="submit" value="Submit">Submit</button>
                     </form>
                   </div>

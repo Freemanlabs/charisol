@@ -15,10 +15,10 @@ export default () => (
         <a href="/team">Team &amp; Community</a>
         </li>
         <li>
-          <a href="/blog">Blog</a>
+          <a href="/start">Start a Project</a>
         </li>
         <li>
-          <a href="/pricing">Pricing</a>
+          <a href="/blog">Blog</a>
         </li>
         <li>
           <a href="/contact">Contact</a>
