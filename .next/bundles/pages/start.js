@@ -1,27 +1,13 @@
 module.exports =
 
-        __NEXT_REGISTER_PAGE('/team', function() {
+        __NEXT_REGISTER_PAGE('/start', function() {
           var comp = 
-      webpackJsonp([8],{
-
-/***/ "./assets/img/bg_team_1.png":
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/bg_team_1-2858fe07d7fb338097d790305baccc35.png";
-
-/***/ }),
+      webpackJsonp([10],{
 
 /***/ "./assets/img/charisol_logo.svg":
 /***/ (function(module, exports) {
 
 module.exports = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOTQiIGhlaWdodD0iMTkiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjx1c2UgeGxpbms6aHJlZj0iI3BhdGgwX2ZpbGwiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgLTYpIiBmaWxsPSIjNEQ0RDREIi8+PGRlZnM+PHBhdGggaWQ9InBhdGgwX2ZpbGwiIGQ9Ik03LjE3NiAyMWMtMS43MjggMC0yLjg4LTEuMjQ4LTIuODgtMy4wMjQgMC0xLjc1MiAxLjE1Mi0zLjAyNCAyLjg4LTMuMDI0IDEuMjI0IDAgMi4yMDguNjcyIDIuNTQ0IDIuMTM2bDMuNi0uODY0Yy0uNjcyLTIuODMyLTMuMjE2LTQuNjMyLTYuMTQ0LTQuNjMyLTMuNiAwLTYuNTc2IDIuNTkyLTYuNTc2IDYuMzg0IDAgMy44MTYgMi45NzYgNi4zODQgNi41NzYgNi4zODQgMyAwIDUuNTQ0LTEuODQ4IDYuMTQ0LTQuNzA0bC0zLjUyOC0uNzY4QzkuMzg0IDIwLjM1MiA4LjQgMjEgNy4xNzYgMjF6bTE1LjY5OC05LjQwOGMtMS41MzYgMC0yLjc4NC41NTItMy43MiAxLjUxMlY2LjcyaC0zLjg0VjI0aDMuODR2LTUuNTkyYzAtMi4zMjguOTg0LTMuMzYgMi40NzItMy4zNiAxLjI0OCAwIDIuMDg4Ljk2IDIuMDg4IDIuMzc2VjI0aDMuODE2di03LjM5MmMwLTMuMDI0LTEuODcyLTUuMDE2LTQuNjU2LTUuMDE2em0xOS45NzEuMzZoLTMuODR2Ljk2Yy0uOTM2LS44NC0yLjE4NC0xLjMyLTMuNzQ0LTEuMzItMy4xOTIgMC01Ljg4IDIuNTkyLTUuODggNi4zODQgMCAzLjgxNiAyLjY4OCA2LjM4NCA1Ljg4IDYuMzg0IDEuNTYgMCAyLjgwOC0uNDggMy43NDQtMS4zMlYyNGgzLjg0VjExLjk1MnptLTYuNzkyIDkuMTQ0Yy0xLjY4IDAtMi45MDQtMS4yNDgtMi45MDQtMy4xMiAwLTEuODQ4IDEuMjI0LTMuMTIgMi45MDQtMy4xMiAxLjU2IDAgMi45NTIgMS4yNzIgMi45NTIgMy4xMiAwIDEuODcyLTEuMzkyIDMuMTItMi45NTIgMy4xMnptMTcuNTU4LTkuMzEyYy0xLjk2OCAwLTMuMjg4IDEuMDMyLTQuMTUyIDIuNDcydi0yLjMwNGgtMy44NFYyNGgzLjg0di0zLjc2OGMwLTMuMTIgMS40NjQtNC41MTIgNC4xNTItNC41MTJoLjY5NmwuMTY4LTMuODRhMy4yODggMy4yODggMCAwIDAtLjg2NC0uMDk2em00LjU5Ni01LjU2OEEyLjE2NyAyLjE2NyAwIDAgMCA1NiA4LjRjMCAxLjIyNC45MTIgMi4xMzYgMi4yMDggMi4xMzYgMS4yOTYgMCAyLjIzMi0uOTEyIDIuMjMyLTIuMTM2IDAtMS4xNzYtLjkzNi0yLjE4NC0yLjIzMi0yLjE4NHpNNjAuMTI3IDI0VjExLjk1MmgtMy44NFYyNGgzLjg0em0yLjE2LTMuMTQ0Yy40MDggMi40NzIgMi44MzIgMy41MDQgNS42NjQgMy41MDQgMy4xNjggMCA1LjQ3Mi0xLjM5MiA1LjQ3Mi00LjA1NiAwLTEuNzc2LTEuMDU2LTMuMTQ0LTMuMzM2LTMuNjI0bC0yLjgzMi0uNTc2Yy0uNzY4LS4xNjgtLjkxMi0uNTA0LS45MTItLjg0IDAtLjQzMi4zMzYtLjkzNiAxLjM2OC0uOTM2IDEuMTc2IDAgMS44OTYuNjcyIDIuMDE2IDEuNDE2bDMuNTA0LS42OTZjLS40OC0yLjA4OC0yLjQ3Mi0zLjQ1Ni01LjQ3Mi0zLjQ1Ni0zLjA0OCAwLTUuMTg0IDEuNjA4LTUuMTg0IDQuMDggMCAxLjg5NiAxLjI3MiAzLjA5NiAzLjUwNCAzLjUwNGwyLjQ0OC40OGMuODg4LjE2OCAxLjIuNDggMS4yLjg4OCAwIC41MjgtLjU1Mi45Ni0xLjU2Ljk2LTEuMDMyIDAtMS45NjgtLjM4NC0yLjEzNi0xLjQxNmwtMy43NDQuNzY4em0xOC45NzctOS4yMTZjLTMuNjQ4IDAtNi42NzIgMi41NDQtNi42NzIgNi4zMzYgMCAzLjgxNiAzLjAyNCA2LjM2IDYuNjcyIDYuMzYgMy41NzYgMCA2LjYtMi41NDQgNi42LTYuMzYgMC0zLjc5Mi0zLjAyNC02LjMzNi02LjYtNi4zMzZ6bTAgOS40NTZjLTEuNTYgMC0yLjk3Ni0xLjIyNC0yLjk3Ni0zLjEyIDAtMS44NzIgMS40MTYtMy4xMiAyLjk3Ni0zLjEyIDEuNDg4IDAgMi45MDQgMS4yNDggMi45MDQgMy4xMiAwIDEuODk2LTEuNDE2IDMuMTItMi45MDQgMy4xMnpNOTMuNjg1IDI0VjYuNzJoLTMuODRWMjRoMy44NHoiLz48L2RlZnM+PC9zdmc+"
-
-/***/ }),
-
-/***/ "./assets/img/icon_right_purple.svg":
-/***/ (function(module, exports) {
-
-module.exports = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTciIGhlaWdodD0iMTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjx1c2UgeGxpbms6aHJlZj0iI3BhdGgwX2ZpbGwiIGZpbGw9IiM4MDY0RkYiLz48ZGVmcz48cGF0aCBpZD0icGF0aDBfZmlsbCIgZD0iTTExLjQ0OC4xOGEuNTk5LjU5OSAwIDAgMC0uODU3IDAgLjYwOS42MDkgMCAwIDAgMCAuODUybDQuMzQ0IDQuMzYxSC42Yy0uMzM0IDAtLjYuMjY3LS42LjYwMyAwIC4zMzUuMjY2LjYxLjYuNjFoMTQuMzM1bC00LjM0NCA0LjM1M2EuNjIuNjIgMCAwIDAgMCAuODZjLjI0LjI0MS42MjYuMjQxLjg1NyAwbDUuMzcyLTUuMzkzYS41OTQuNTk0IDAgMCAwIDAtLjg1MUwxMS40NDguMTh6Ii8+PC9kZWZzPjwvc3ZnPg=="
 
 /***/ }),
 
@@ -1049,7 +1035,7 @@ module.exports = function(originalModule) {
 
 /***/ }),
 
-/***/ "./pages/team.js":
+/***/ "./pages/start.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1063,9 +1049,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_isomorphic_unfetch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_isomorphic_unfetch__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_react__ = __webpack_require__("./node_modules/react/cjs/react.development.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__assets_img_bg_team_1_png__ = __webpack_require__("./assets/img/bg_team_1.png");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__assets_img_bg_team_1_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__assets_img_bg_team_1_png__);
-var _jsxFileName = "C:\\Users\\user\\challaris-tech-website\\pages\\team.js";
+var _jsxFileName = "C:\\Users\\user\\challaris-tech-website\\pages\\start.js";
 
 (function () {
   var enterModule = __webpack_require__("./node_modules/react-hot-loader/index.js").enterModule;
@@ -1074,6 +1058,10 @@ var _jsxFileName = "C:\\Users\\user\\challaris-tech-website\\pages\\team.js";
 })();
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; var ownKeys = Object.keys(source); if (typeof Object.getOwnPropertySymbols === 'function') { ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) { return Object.getOwnPropertyDescriptor(source, sym).enumerable; })); } ownKeys.forEach(function (key) { _defineProperty(target, key, source[key]); }); } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -1092,60 +1080,97 @@ function _assertThisInitialized(self) { if (self === void 0) { throw new Referen
 
 
 
+var initialState = {
+  submitting: false,
+  submitted: false,
+  startForm: {
+    name: "",
+    email: "",
+    tel: "",
+    startDate: "",
+    billing: "",
+    budget: "",
+    description: "",
+    personalNeeded: ""
+  }
+};
 
-
-var Team =
+var Start =
 /*#__PURE__*/
 function (_Component) {
-  _inherits(Team, _Component);
+  _inherits(Start, _Component);
 
-  function Team(props) {
+  function Start(props) {
     var _this;
 
-    _classCallCheck(this, Team);
+    _classCallCheck(this, Start);
 
-    _this = _possibleConstructorReturn(this, (Team.__proto__ || Object.getPrototypeOf(Team)).call(this, props));
-    _this.state = {
-      teams: [],
-      user: {
-        skills: []
-      }
-    };
-    _this.getUserInfo = _this.getUserInfo.bind(_assertThisInitialized(_this));
+    _this = _possibleConstructorReturn(this, (Start.__proto__ || Object.getPrototypeOf(Start)).call(this, props));
+    _this.state = _objectSpread({}, initialState);
+    _this.handleChange = _this.handleInputChange.bind(_assertThisInitialized(_this));
+    _this.submitForm = _this.submitForm.bind(_assertThisInitialized(_this));
     return _this;
   }
 
-  _createClass(Team, [{
-    key: "componentDidMount",
-    value: function componentDidMount() {
+  _createClass(Start, [{
+    key: "submitForm",
+    value: function submitForm(event) {
       var _this2 = this;
 
-      __WEBPACK_IMPORTED_MODULE_3_isomorphic_unfetch___default()("/api/get-teams").then(function (res) {
-        return res.json();
-      }).then(function (data) {
-        return _this2.setState({
-          teams: data
+      event.preventDefault();
+      var startForm = this.state.startForm;
+      this.setState({
+        submitting: true
+      });
+      __WEBPACK_IMPORTED_MODULE_3_isomorphic_unfetch___default()('/api/projects', {
+        method: 'post',
+        headers: {
+          'Accept': 'application/json, text/plain, */*',
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(startForm)
+      }).then(function (response) {
+        response.json().then(function (res) {
+          if (res.status === 201 && res.success === true) {
+            _this2.setState({
+              submitted: true
+            });
+
+            _this2.setState(initialState);
+
+            alert('Project request has sent!');
+          } else {
+            _this2.setState({
+              submitting: false
+            });
+
+            alert('Internal server error');
+          }
         });
       });
     }
   }, {
-    key: "getUserInfo",
-    value: function getUserInfo(userInfo) {
-      this.setState({
-        user: userInfo
+    key: "handleInputChange",
+    value: function handleInputChange(newPartialInput) {
+      this.setState(function (state) {
+        return _objectSpread({}, state, {
+          startForm: _objectSpread({}, state.startForm, newPartialInput)
+        });
       });
+      console.log(this.state.startForm);
     }
   }, {
     key: "render",
     value: function render() {
       var _this3 = this;
 
+      var startForm = this.state.startForm;
       return __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0__components_Layout__["default"], {
-        title: "Team | Charisol Technologies",
-        content: "Our team comprises of vetted freelance developers that have been tested on their technical skills, communication skills, and project management skills.",
+        title: "Start a Project | Charisol Technologies",
+        ontent: "At Charisol, we approach every project with deep commitment and passion, applying meticulous detail + craftsmanship at every stage of product development",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 32
+          lineNumber: 71
         }
       }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("style", {
         dangerouslySetInnerHTML: {
@@ -1153,337 +1178,465 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 33
+          lineNumber: 72
         }
-      }), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("nav", {
-        id: "profile",
-        className: "profile",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 34
-        }
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
-        className: "head",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 35
-        }
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("h5", {
-        className: "light",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 36
-        }
-      }, "Profile Details"), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("span", {
-        className: "close close-red",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 37
-        }
-      })), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 39
-        }
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
-        className: "top-info",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 40
-        }
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
-        className: "row",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 41
-        }
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
-        className: "six columns",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 42
-        }
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("img", {
-        src: this.state.user.image_url,
-        alt: "team member",
-        className: "avatar",
-        style: {
-          with: '54%'
-        },
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 43
-        }
-      })), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
-        className: "six columns",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 45
-        }
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("h5", {
-        className: "bold",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 46
-        }
-      }, this.state.user.firstName, " ", this.state.user.lastName), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("p", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 47
-        }
-      }, this.state.user.position), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("span", {
-        className: "blue-badge",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 48
-        }
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("span", {
-        className: "circle",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 49
-        }
-      }), "Core team")))), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
-        className: "m-t-md m-b-md side-bar-text-mobile",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 53
-        }
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("p", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 54
-        }
-      }, this.state.user.biography)), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
-        className: "m-t-md m-b-md side-bar-text-mobile",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 57
-        }
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("p", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 58
-        }
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("b", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 58
-        }
-      }, "Skills")), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("p", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 59
-        }
-      }, this.state.user.skills.map(function (skill) {
-        return skill.name;
-      }).join(", ")))), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("a", {
-        className: "btn-curve-purple m-t-md",
-        href: "./start",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 62
-        }
-      }, "Start a project", __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("img", {
-        src: "../static/img/icon_right_white.svg",
-        alt: "right",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 64
-        }
-      }))), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("section", {
-        className: "team",
+      }), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
         id: "panel",
         "data-slideout-ignore": true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 69
+          lineNumber: 73
+        }
+      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("section", {
+        className: "start",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 74
         }
       }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__components_Navbar__["a" /* default */], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 70
+          lineNumber: 75
         }
       }), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
-        className: "content-cover",
+        className: "container",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 71
-        }
-      }), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
-        className: "row core",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 72
+          lineNumber: 76
         }
       }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
-        className: "six columns",
+        className: "content",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 73
+          lineNumber: 77
         }
       }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
         className: "text-content",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 74
+          lineNumber: 78
         }
       }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("span", {
         className: "heading-wrapper",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 75
+          lineNumber: 79
         }
       }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("h1", {
         className: "heading no-reveal",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 76
-        }
-      }, "Core team.")), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("span", {
-        className: "sub-text-wrapper",
-        __source: {
-          fileName: _jsxFileName,
           lineNumber: 80
         }
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("p", {
-        className: "sub-text no-reveal",
+      }, "Start a Project")), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 81
+          lineNumber: 85
         }
-      }, "We are a team of young and vibrant techies filled with loads of passion for what we do. We are proud workaholics who drink a little too much coffee and believe in power naps.")), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("span", {
-        className: "sub-text-wrapper",
+      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("form", {
+        id: "start-form",
+        onSubmit: this.submitForm,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 86
         }
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("p", {
-        className: "sub-text no-reveal",
+      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
+        className: "row",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 87
         }
-      }, "Our mutual desire to change the world through cutting edge programming techniques is what keeps us together. Occasionally we try to listen to our mothers and know when to pull an all nighter and when to catch 40 winks.")))), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
-        className: "six columns img-col",
+      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
+        className: "six columns",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 94
+          lineNumber: 88
         }
       }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
-        className: "image-wrapper-container",
+        className: "div",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 89
+        }
+      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("label", {
+        htmlFor: "name",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 90
+        }
+      }, "Name"), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("input", {
+        className: "u-full-width",
+        value: startForm.name,
+        onChange: function onChange(e) {
+          return _this3.handleInputChange({
+            name: e.target.value
+          });
+        },
+        type: "text",
+        id: "name",
+        name: "name",
+        required: true,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 91
+        }
+      }), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("p", {
+        className: "light",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 92
+        }
+      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("em", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 92
+        }
+      }, "Tip: Could be your fullname or company name.")))), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
+        className: "six columns",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 95
         }
       }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
-        className: "image-wrapper no-reveal",
+        className: "div",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 96
         }
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
-        className: "image team-image",
-        alt: "team",
-        style: {
-          backgroundImage: 'url(' + __WEBPACK_IMPORTED_MODULE_5__assets_img_bg_team_1_png___default.a + ')'
-        },
+      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("label", {
+        htmlFor: "email",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 97
         }
-      }))))), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
-        className: "people-wrapper",
+      }, "Email"), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("input", {
+        className: "u-full-width",
+        value: startForm.email,
+        onChange: function onChange(e) {
+          return _this3.handleInputChange({
+            email: e.target.value
+          });
+        },
+        type: "email",
+        id: "email",
+        name: "email",
+        required: true,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 98
+        }
+      }), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("p", {
+        className: "light",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 99
+        }
+      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("em", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 99
+        }
+      }, "Tip: Could be your personal email address or company email address."))))), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
+        className: "row",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 103
         }
       }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
-        id: "people",
-        className: "row people",
+        className: "six columns",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 104
+        }
+      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
+        className: "div",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 105
         }
-      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
-        id: "people-wrapper",
+      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("label", {
+        htmlFor: "tel",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 106
         }
-      }, this.state.teams.map(function (team, i) {
-        return __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
-          className: "tile",
-          key: i,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 109
-          }
-        }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
-          className: "avatar-wrapper no-reveal",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 110
-          }
-        }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
-          className: "avatar",
-          alt: "team member",
-          style: {
-            backgroundImage: 'url(' + team.image_url + ')'
-          },
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 111
-          }
-        })), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
-          className: "text-wrap",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 113
-          }
-        }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
-          className: "sub-text-wrapper",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 114
-          }
-        }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("h5", {
-          className: "bold sub-text",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 115
-          }
-        }, team.firstName, " ", team.lastName)), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
-          className: "sub-text-wrapper",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 117
-          }
-        }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("p", {
-          className: "light sub-text",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 118
-          }
-        }, team.position))), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("button", {
-          className: "team-profile-btn btn-clear-purple",
-          onClick: function onClick(e) {
-            return _this3.getUserInfo(team);
-          },
-          "data-person-id": team._id,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 121
-          }
-        }, "View Profile", __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("img", {
-          src: __webpack_require__("./assets/img/icon_right_purple.svg"),
-          alt: "right",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 121
-          }
-        })));
-      }))))));
+      }, "Tel"), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("input", {
+        className: "u-full-width",
+        value: startForm.tel,
+        onChange: function onChange(e) {
+          return _this3.handleInputChange({
+            tel: e.target.value
+          });
+        },
+        type: "number",
+        id: "tel",
+        name: "tel",
+        required: true,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 107
+        }
+      }), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("p", {
+        className: "light",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 108
+        }
+      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("em", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 108
+        }
+      }, "Tip: Could be your personal telephone number or company  telephone number.")))), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
+        className: "six columns",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 111
+        }
+      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
+        className: "div",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 112
+        }
+      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("label", {
+        htmlFor: "date",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 113
+        }
+      }, "Start Date"), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("input", {
+        className: "u-full-width date",
+        value: startForm.startDate,
+        onChange: function onChange(e) {
+          return _this3.handleInputChange({
+            startDate: e.target.value
+          });
+        },
+        type: "date",
+        id: "date",
+        name: "start_date",
+        required: true,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 114
+        }
+      }), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("p", {
+        className: "light",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 115
+        }
+      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("em", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 115
+        }
+      }, "Tip: This is the proposed start date of the project."))))), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
+        className: "row",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 119
+        }
+      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
+        className: "six columns",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 120
+        }
+      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
+        className: "div",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 121
+        }
+      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("label", {
+        htmlFor: "billing",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 122
+        }
+      }, "Billing"), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("select", {
+        className: "u-full-width",
+        id: "billing",
+        value: startForm.billing,
+        onChange: function onChange(e) {
+          return _this3.handleInputChange({
+            billing: e.target.value
+          });
+        },
+        name: "billing",
+        required: true,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 123
+        }
+      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("option", {
+        value: "hourly",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 124
+        }
+      }, "Hourly - $35"), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("option", {
+        value: "weekly",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 125
+        }
+      }, "Weekly - $1,300"), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("option", {
+        value: "monthly",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 126
+        }
+      }, "Monthly - $4,800"), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("option", {
+        value: "onDemand",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 127
+        }
+      }, "On demand - Varies")), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("p", {
+        className: "light",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 129
+        }
+      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("em", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 129
+        }
+      }, "Tip: Your billing preference")))), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
+        className: "six columns",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 132
+        }
+      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
+        className: "div",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 133
+        }
+      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("label", {
+        htmlFor: "budget",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 134
+        }
+      }, "Budget"), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("input", {
+        className: "u-full-width",
+        type: "number",
+        value: startForm.budget,
+        onChange: function onChange(e) {
+          return _this3.handleInputChange({
+            budget: e.target.value
+          });
+        },
+        id: "budget",
+        name: "budget",
+        required: true,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 135
+        }
+      }), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("p", {
+        className: "light",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 136
+        }
+      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("em", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 136
+        }
+      }, "Tip: This amount is in USD ($)."))))), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
+        className: "div",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 140
+        }
+      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("label", {
+        htmlFor: "project_description",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 141
+        }
+      }, "Project Description (If your website had a job, what would it be?)"), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("textarea", {
+        className: "u-full-width",
+        value: startForm.description,
+        onChange: function onChange(e) {
+          return _this3.handleInputChange({
+            description: e.target.value
+          });
+        },
+        id: "message",
+        rows: "8",
+        name: "project_description",
+        required: true,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 142
+        }
+      }), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("p", {
+        className: "light",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 143
+        }
+      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("em", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 143
+        }
+      }, "Tip: This helps you identify what type of website you are creating. Is it for lead gen? Is it informational? Is it a straight sales vehicle (SaaS, product sales, etc)? What *exactly* is the website supposed to do?"))), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("div", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 145
+        }
+      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("label", {
+        htmlFor: "personal",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 146
+        }
+      }, "Personnel Needed"), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("textarea", {
+        className: "u-full-width",
+        value: startForm.personalNeeded.budget,
+        onChange: function onChange(e) {
+          return _this3.handleInputChange({
+            personalNeeded: e.target.value
+          });
+        },
+        id: "personal",
+        rows: "8",
+        name: "personal",
+        required: true,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 147
+        }
+      }), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("p", {
+        className: "light",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 148
+        }
+      }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("em", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 148
+        }
+      }, "Tip: This could be a mix of frontend / backend engineers, UI/UX designers, project managers, etc."))), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("button", {
+        className: "m-t-lg btn-curve-purple full",
+        type: "submit",
+        value: "Submit",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 150
+        }
+      }, "Submit")))))))));
     }
   }, {
     key: "__reactstandin__regenerateByEval",
@@ -1494,10 +1647,10 @@ function (_Component) {
     }
   }]);
 
-  return Team;
+  return Start;
 }(__WEBPACK_IMPORTED_MODULE_4_react__["Component"]);
 
-var _default = Team;
+var _default = Start;
 /* harmony default export */ __webpack_exports__["default"] = (_default);
 ;
 
@@ -1510,8 +1663,9 @@ var _default = Team;
     return;
   }
 
-  reactHotLoader.register(Team, "Team", "C:\\Users\\user\\challaris-tech-website\\pages\\team.js");
-  reactHotLoader.register(_default, "default", "C:\\Users\\user\\challaris-tech-website\\pages\\team.js");
+  reactHotLoader.register(initialState, "initialState", "C:\\Users\\user\\challaris-tech-website\\pages\\start.js");
+  reactHotLoader.register(Start, "Start", "C:\\Users\\user\\challaris-tech-website\\pages\\start.js");
+  reactHotLoader.register(_default, "default", "C:\\Users\\user\\challaris-tech-website\\pages\\start.js");
   leaveModule(module);
 })();
 
@@ -1532,7 +1686,7 @@ var _default = Team;
           next.router.update(r, Component)
         }
       }
-    })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/team")
+    })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/start")
   
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__("./node_modules/webpack/buildin/harmony-module.js")(module)))
 
@@ -1545,16 +1699,16 @@ module.exports = "@charset \"UTF-8\";\n/*! normalize.css v3.0.2 | MIT License | 
 
 /***/ }),
 
-/***/ 8:
+/***/ 3:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__("./pages/team.js");
+module.exports = __webpack_require__("./pages/start.js");
 
 
 /***/ })
 
-},[8])
+},[3])
           return { page: comp.default }
         })
       ;
-//# sourceMappingURL=team.js.map
+//# sourceMappingURL=start.js.map

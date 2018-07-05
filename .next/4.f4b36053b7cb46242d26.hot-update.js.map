@@ -1,1 +1,0 @@
-{"version":3,"file":"4.f4b36053b7cb46242d26.hot-update.js","sources":["webpack:///./node_modules/next/link.js"],"sourcesContent":["module.exports = require('./dist/lib/link')\n\n\n\n//////////////////\n// WEBPACK FOOTER\n// ./node_modules/next/link.js\n// module id = ./node_modules/next/link.js\n// module chunks = 4 6 8"],"mappings":";;;;;AAAA;;;;;A","sourceRoot":""}
