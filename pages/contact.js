@@ -75,7 +75,7 @@ class Contact extends Component {
           ContentProps={{
             'aria-describedby': 'message-id',
           }}
-          message={<span id="message-id">Message Sent! You will be notify</span>}
+          message={<span id="message-id">Message Sent! You will be notified</span>}
         />
         <div id="panel" data-slideout-ignore>
           <section className="pricing">
